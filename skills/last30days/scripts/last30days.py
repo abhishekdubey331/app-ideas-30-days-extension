@@ -537,10 +537,6 @@ def main() -> int:
     topic = " ".join(args.topic).strip()
     if topic.lower() == "setup":
         from lib import setup_wizard
-        if "--openclaw" in extra_argv:
-            results = setup_wizard.run_openclaw_setup(config)
-            print(json.dumps(results))
-            return 0
         if "--github" in extra_argv:
             results = setup_wizard.run_github_auth()
             print(json.dumps(results))

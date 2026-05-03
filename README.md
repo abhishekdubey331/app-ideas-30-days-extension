@@ -19,17 +19,6 @@ Claude Code:
 /plugin marketplace add mvanhorn/last30days-skill
 ```
 
-OpenClaw:
-```
-clawhub install last30days-official
-```
-
-Hermes:
-```
-# The skill auto-deploys when you run sync.sh
-# Or manually copy to ~/.hermes/skills/research/last30days/
-```
-
 Zero config. Reddit, HN, Polymarket, and GitHub work immediately. Run it once and the setup wizard unlocks X, YouTube, TikTok, and more in 30 seconds.
 
 ---
@@ -162,7 +151,6 @@ Say "eli5 on" after any research run. The synthesis rewrites in plain language. 
 - **Polymarket odds, not dollars.** The % odds are the magic. Dollar volumes removed from display.
 - **Per-author cap.** Max 3 items per author prevents any single voice from dominating your brief.
 - **Entity disambiguation.** When the engine resolves handles, the synthesis trusts them. No more Mallorca resorts winning over Washington athletic clubs.
-- **OpenClaw first-class citizen.** Auto-resolve for engine-side pre-research. Device auth for frictionless ScrapeCreators signup.
 - **1,012 tests passing.**
 
 ## Install
@@ -171,8 +159,6 @@ Say "eli5 on" after any research run. The synthesis rewrites in plain language. 
 |---------|---------|
 | **claude.ai** (web) | [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) and upload via Settings > Capabilities > Skills > + |
 | **Claude Code** | `/plugin marketplace add mvanhorn/last30days-skill` |
-| **OpenClaw** | `clawhub install last30days-official` |
-| **Gemini CLI** | Clone then `gemini extensions install ./last30days-skill` (see below) |
 
 ### claude.ai (web)
 
@@ -189,21 +175,6 @@ Enable "Code execution and file creation" under Capabilities first - skills won'
 ```
 
 Update later with `claude plugin update last30days@last30days-skill`.
-
-### OpenClaw
-
-```bash
-clawhub install last30days-official
-```
-
-### Gemini CLI
-
-Gemini CLI v0.9.0 has an upstream installer bug that can fail with `Configuration file not found at /tmp/gemini-extensionXXXXXX/gemini-extension.json` ([upstream issue](https://github.com/google-gemini/gemini-cli/issues/11452)). Workaround:
-
-```bash
-git clone https://github.com/mvanhorn/last30days-skill
-gemini extensions install ./last30days-skill
-```
 
 ### Manual (developer)
 

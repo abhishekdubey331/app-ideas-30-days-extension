@@ -191,54 +191,6 @@ def get_setup_status_text(results: Dict[str, Any]) -> str:
 
 
 # ---------------------------------------------------------------------------
-# OpenClaw server-side setup (no browser, JSON output)
-# ---------------------------------------------------------------------------
-
-_OPENCLAW_KEY_NAMES = [
-    "SCRAPECREATORS_API_KEY",
-    "XAI_API_KEY",
-    "BRAVE_API_KEY",
-    "EXA_API_KEY",
-    "SERPER_API_KEY",
-    "OPENAI_API_KEY",
-    "AUTH_TOKEN",
-]
-
-
-def run_openclaw_setup(config: Dict[str, Any]) -> Dict[str, Any]:
-    """Server-side setup probe: no cookies, just tool + key availability.
-
-    Returns a dict suitable for JSON output to stdout so that SKILL.md
-    can present appropriate options to the user.
-    """
-    yt_dlp = shutil.which("yt-dlp") is not None
-    node = shutil.which("node") is not None
-    python3 = shutil.which("python3") is not None
-
-    keys: Dict[str, bool] = {}
-    for key_name in _OPENCLAW_KEY_NAMES:
-        short = key_name.lower().replace("_api_key", "").replace("_key", "").replace("_token", "")
-        # Normalize: AUTH_TOKEN -> auth, SCRAPECREATORS_API_KEY -> scrapecreators
-        keys[short] = bool(config.get(key_name))
-
-    # Determine x_method
-    if config.get("XAI_API_KEY"):
-        x_method: Optional[str] = "xai"
-    elif config.get("AUTH_TOKEN") and config.get("CT0"):
-        x_method = "cookies"
-    else:
-        x_method = None
-
-    return {
-        "yt_dlp": yt_dlp,
-        "node": node,
-        "python3": python3,
-        "keys": keys,
-        "x_method": x_method,
-    }
-
-
-# ---------------------------------------------------------------------------
 # PAT auth flow (GitHub token via ScrapeCreators)
 # ---------------------------------------------------------------------------
 

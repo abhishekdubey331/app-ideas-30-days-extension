@@ -442,16 +442,11 @@ def _render_degraded_run_warning(report: schema.Report) -> list[str]:
     - No pre-research flags were passed (bare invocation), AND
     - The topic is pre-research-eligible (a named entity).
 
-    Runtime-agnostic: this skill ships to Claude Code, Codex, Hermes, Gemini,
-    and ~/.agents. The banner enumerates them explicitly so the hosting
-    reasoning model recognizes itself regardless of runtime.
-
     Positioned BEFORE the EVIDENCE FOR SYNTHESIS envelope in render_compact
     so the model's pass-through contract forces it into the user's view per
-    LAW 7. The 2026-04-19 Hermes Agent Use Cases Run 1 failure mode: the
-    engine's stderr warning about "no LLM provider" was invisible to the
-    user because Claude hid stderr. User-visible stdout block is the
-    backstop that makes silent degradation impossible.
+    LAW 7. The engine's stderr warning about "no LLM provider" can be
+    invisible to the user because Claude Code hides stderr. User-visible
+    stdout block is the backstop that makes silent degradation impossible.
     """
     plan_source = report.artifacts.get("plan_source", "unknown")
     flags_present = bool(report.artifacts.get("pre_research_flags_present", False))
@@ -472,8 +467,8 @@ def _render_degraded_run_warning(report: schema.Report) -> list[str]:
         "weaker than the path where the hosting reasoning model authors its own",
         "plan upstream.",
         "",
-        "**If you are the reasoning model hosting this skill** (Claude Code, Codex,",
-        "Hermes, Gemini, or any agent runtime that invoked `/last30days`): YOU ARE",
+        "**If you are the reasoning model hosting this skill** (Claude Code",
+        "running `/last30days`): YOU ARE",
         "THE LLM. You do not need an API key, provider credentials, or an external",
         "planning service. The `--plan` flag exists precisely so a reasoning model",
         "generates its own JSON plan upstream and passes it in. That is you.",
