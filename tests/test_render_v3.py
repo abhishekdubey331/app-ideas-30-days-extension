@@ -509,9 +509,8 @@ class DegradedRunBannerTests(unittest.TestCase):
         self.assertIn("<!-- USER-VISIBLE BANNER:", text)
         self.assertIn("<!-- END USER-VISIBLE BANNER -->", text)
         self.assertIn("YOU ARE", text)
-        # Runtime-agnostic enumeration: all host runtimes appear.
-        for runtime_name in ("Claude Code", "Codex", "Hermes", "Gemini"):
-            self.assertIn(runtime_name, text)
+        # Claude Code is the only supported runtime now; the banner names it.
+        self.assertIn("Claude Code", text)
 
     def test_banner_positioned_before_evidence_envelope(self):
         text = render.render_compact(self._bare_named_entity_report())

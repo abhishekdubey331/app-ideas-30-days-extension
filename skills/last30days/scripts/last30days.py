@@ -41,7 +41,7 @@ if os.name == "nt":
 SCRIPT_DIR = Path(__file__).parent.resolve()
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from lib import env, html_render, pipeline, render, schema, ui
+from lib import env, html_render, ideas, pipeline, render, schema, ui
 
 _child_pids: set[int] = set()
 _child_pids_lock = threading.Lock()
@@ -110,7 +110,7 @@ def save_output(
         out_path = path / f"{slug}-{raw_label}{suffix_part}-{datetime.now().strftime('%Y-%m-%d')}.{extension}"
     # Markdown saves keep the complete debug artifact. JSON and HTML preserve
     # their requested wire format so file extensions match their content.
-    if emit in {"json", "html"}:
+    if emit in {"json", "html", "ideas"}:
         content = emit_output(report, emit, synthesis_md=synthesis_md)
     else:
         content = render.render_full(report)
@@ -135,6 +135,8 @@ def emit_output(
         return render.render_compact(report, fun_level=fun_level, save_path=save_path)
     if emit == "context":
         return render.render_context(report)
+    if emit == "ideas":
+        return ideas.render_ideas(report, ideas.extract_ideas(report))
     raise SystemExit(f"Unsupported emit mode: {emit}")
 
 
@@ -226,7 +228,7 @@ def persist_report(report: schema.Report) -> dict[str, int]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Research a topic across live social, market, and grounded web sources.")
     parser.add_argument("topic", nargs="*", help="Research topic")
-    parser.add_argument("--emit", default="compact", choices=["compact", "json", "context", "md", "html"])
+    parser.add_argument("--emit", default="compact", choices=["compact", "json", "context", "md", "html", "ideas"])
     parser.add_argument("--search", help="Comma-separated source list")
     parser.add_argument("--quick", action="store_true", help="Lower-latency retrieval profile")
     parser.add_argument("--deep", action="store_true", help="Higher-recall retrieval profile")
