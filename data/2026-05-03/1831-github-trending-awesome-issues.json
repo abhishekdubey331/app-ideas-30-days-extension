@@ -1,0 +1,712 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "github trending awesome issues",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://githubstatus.com",
+        "https://githubstatus.com/incidents/kcf0thb1zp30",
+        "https://githubstatus.com/incidents/3f30ycplyr7l"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://githubstatus.com",
+        "https://githubstatus.com/incidents/3f30ycplyr7l",
+        "https://githubstatus.com/incidents/kcf0thb1zp30"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "GitHub is having issues now",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://twitter.com/kdaigle/status/2040164759836778878"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://twitter.com/kdaigle/status/2040164759836778878"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "1400% surge in GitHub commits explains service issues",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "GitHub issues list not loading",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-03T18:31:38.876801+00:00",
+  "items_by_source": {
+    "hackernews": [
+      {
+        "author": "SenHeng",
+        "body": "GitHub is having issues now",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 122,
+          "points": 328
+        },
+        "engagement_score": 100,
+        "freshness": 80,
+        "item_id": "47924775",
+        "local_rank_score": 0.4235,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47924775",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub is having issues now",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub is having issues now",
+        "url": "https://www.githubstatus.com",
+        "why_relevant": "HN story about GitHub is having issues now"
+      },
+      {
+        "author": "debarshri",
+        "body": "Tell HN: GitHub Issues Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "points": 5
+        },
+        "engagement_score": 0,
+        "freshness": 86,
+        "item_id": "47949488",
+        "local_rank_score": 0.3385,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47949488",
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 1.0,
+        "snippet": "Tell HN: GitHub Issues Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "Tell HN: GitHub Issues Issues",
+        "url": "https://news.ycombinator.com/item?id=47949488",
+        "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+      },
+      {
+        "author": "SpyCoder77",
+        "body": "GitHub issues list not loading",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "points": 3
+        },
+        "engagement_score": 9,
+        "freshness": 80,
+        "item_id": "47923779",
+        "local_rank_score": 0.3325,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47923779",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub issues list not loading",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub issues list not loading",
+        "url": "https://github.com/fuma-nama/fumadocs/issues",
+        "why_relevant": "HN story about GitHub issues list not loading"
+      },
+      {
+        "author": "connorbrinton",
+        "body": "GitHub Having Issues (Again)",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 1,
+          "points": 5
+        },
+        "engagement_score": 7,
+        "freshness": 66,
+        "item_id": "47876498",
+        "local_rank_score": 0.29550000000000004,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47876498",
+          "top_comments": []
+        },
+        "published_at": "2026-04-23",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub Having Issues (Again)",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Having Issues (Again)",
+        "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+        "why_relevant": "HN story about GitHub Having Issues (Again)"
+      },
+      {
+        "author": "mkeeter",
+        "body": "GitHub Is Having Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 2,
+          "points": 7
+        },
+        "engagement_score": 14,
+        "freshness": 46,
+        "item_id": "47806704",
+        "local_rank_score": 0.272,
+        "local_relevance": 0.22,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47806704",
+          "top_comments": []
+        },
+        "published_at": "2026-04-17",
+        "relevance_hint": 0.98,
+        "snippet": "GitHub Is Having Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Is Having Issues",
+        "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+        "why_relevant": "HN story about GitHub Is Having Issues"
+      },
+      {
+        "author": "tonymet",
+        "body": "1400% surge in GitHub commits explains service issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "points": 8
+        },
+        "engagement_score": 19,
+        "freshness": 0,
+        "item_id": "47633510",
+        "local_rank_score": 0.1165,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47633510",
+          "top_comments": []
+        },
+        "published_at": "2026-04-03",
+        "relevance_hint": 0.94,
+        "snippet": "1400% surge in GitHub commits explains service issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "1400% surge in GitHub commits explains service issues",
+        "url": "https://twitter.com/kdaigle/status/2040164759836778878",
+        "why_relevant": "HN story about 1400% surge in GitHub commits explains service issues"
+      }
+    ],
+    "reddit": []
+  },
+  "provider_runtime": {
+    "planner_model": "deterministic",
+    "reasoning_provider": "local",
+    "rerank_model": "local-score"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan"
+    ],
+    "raw_topic": "github trending awesome issues",
+    "source_weights": {
+      "hackernews": 0.4390243902439025,
+      "reddit": 0.5609756097560976
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to github trending awesome issues, especially about github issues?",
+        "search_query": "github issues",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for github trending awesome issues?",
+        "search_query": "github issues reaction update",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-03",
+  "range_to": "2026-05-03",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://githubstatus.com",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 61.75,
+      "item_id": "47924775",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47924775",
+            "native_rank": 1,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 1
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.004233600677376109,
+      "snippet": "GitHub is having issues now",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SenHeng",
+          "body": "GitHub is having issues now",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 122,
+            "points": 328
+          },
+          "engagement_score": 100,
+          "freshness": 80,
+          "item_id": "47924775",
+          "local_rank_score": 0.4235,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47924775",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub is having issues now",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub is having issues now",
+          "url": "https://www.githubstatus.com",
+          "why_relevant": "HN story about GitHub is having issues now"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub is having issues now",
+      "url": "https://www.githubstatus.com"
+    },
+    {
+      "candidate_id": "https://twitter.com/kdaigle/status/2040164759836778878",
+      "cluster_id": "cluster-2",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 0,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 51.95,
+      "item_id": "47633510",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47633510",
+            "native_rank": 6,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 6
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.003912873353332465,
+      "snippet": "1400% surge in GitHub commits explains service issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "tonymet",
+          "body": "1400% surge in GitHub commits explains service issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "points": 8
+          },
+          "engagement_score": 19,
+          "freshness": 0,
+          "item_id": "47633510",
+          "local_rank_score": 0.1165,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47633510",
+            "top_comments": []
+          },
+          "published_at": "2026-04-03",
+          "relevance_hint": 0.94,
+          "snippet": "1400% surge in GitHub commits explains service issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "1400% surge in GitHub commits explains service issues",
+          "url": "https://twitter.com/kdaigle/status/2040164759836778878",
+          "why_relevant": "HN story about 1400% surge in GitHub commits explains service issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "1400% surge in GitHub commits explains service issues",
+      "url": "https://twitter.com/kdaigle/status/2040164759836778878"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/kcf0thb1zp30",
+      "cluster_id": "cluster-1",
+      "engagement": 14,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 46,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.95,
+      "item_id": "47806704",
+      "local_relevance": 0.22,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47806704",
+            "native_rank": 5,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 5
+      },
+      "rerank_score": 7.600000000000001,
+      "rrf_score": 0.003973071404922195,
+      "snippet": "GitHub Is Having Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "mkeeter",
+          "body": "GitHub Is Having Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 2,
+            "points": 7
+          },
+          "engagement_score": 14,
+          "freshness": 46,
+          "item_id": "47806704",
+          "local_rank_score": 0.272,
+          "local_relevance": 0.22,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47806704",
+            "top_comments": []
+          },
+          "published_at": "2026-04-17",
+          "relevance_hint": 0.98,
+          "snippet": "GitHub Is Having Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Is Having Issues",
+          "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+          "why_relevant": "HN story about GitHub Is Having Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Is Having Issues",
+      "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30"
+    },
+    {
+      "candidate_id": "https://github.com/fuma-nama/fumadocs/issues",
+      "cluster_id": "cluster-3",
+      "engagement": 9,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.849999999999994,
+      "item_id": "47923779",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47923779",
+            "native_rank": 3,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 3
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.004099200655872106,
+      "snippet": "GitHub issues list not loading",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SpyCoder77",
+          "body": "GitHub issues list not loading",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "points": 3
+          },
+          "engagement_score": 9,
+          "freshness": 80,
+          "item_id": "47923779",
+          "local_rank_score": 0.3325,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47923779",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub issues list not loading",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub issues list not loading",
+          "url": "https://github.com/fuma-nama/fumadocs/issues",
+          "why_relevant": "HN story about GitHub issues list not loading"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub issues list not loading",
+      "url": "https://github.com/fuma-nama/fumadocs/issues"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/3f30ycplyr7l",
+      "cluster_id": "cluster-1",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 66,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 35.45,
+      "item_id": "47876498",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47876498",
+            "native_rank": 4,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 4
+      },
+      "rerank_score": 9.5,
+      "rrf_score": 0.004035150645624104,
+      "snippet": "GitHub Having Issues (Again)",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "connorbrinton",
+          "body": "GitHub Having Issues (Again)",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 1,
+            "points": 5
+          },
+          "engagement_score": 7,
+          "freshness": 66,
+          "item_id": "47876498",
+          "local_rank_score": 0.29550000000000004,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47876498",
+            "top_comments": []
+          },
+          "published_at": "2026-04-23",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub Having Issues (Again)",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Having Issues (Again)",
+          "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+          "why_relevant": "HN story about GitHub Having Issues (Again)"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Having Issues (Again)",
+      "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=47949488",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 86,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 21.15,
+      "item_id": "47949488",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47949488",
+            "native_rank": 2,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.0041653167954829465,
+      "snippet": "Tell HN: GitHub Issues Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "debarshri",
+          "body": "Tell HN: GitHub Issues Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "points": 5
+          },
+          "engagement_score": 0,
+          "freshness": 86,
+          "item_id": "47949488",
+          "local_rank_score": 0.3385,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47949488",
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 1.0,
+          "snippet": "Tell HN: GitHub Issues Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "Tell HN: GitHub Issues Issues",
+          "url": "https://news.ycombinator.com/item?id=47949488",
+          "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "url": "https://news.ycombinator.com/item?id=47949488"
+    }
+  ],
+  "topic": "github trending awesome issues",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
