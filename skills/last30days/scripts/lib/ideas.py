@@ -330,6 +330,9 @@ def render_ideas(report: schema.Report, ideas: Iterable[Idea]) -> str:
     inline synthesis here — the Python side stays deterministic.
     """
     ideas = list(ideas)
+    healthy_sources = sorted(s for s, items in report.items_by_source.items() if items)
+    failing_sources = sorted(report.errors_by_source.items())
+
     lines: list[str] = [
         f"# last30days IDEAS · {report.topic}",
         "",
@@ -337,7 +340,31 @@ def render_ideas(report: schema.Report, ideas: Iterable[Idea]) -> str:
         f"- Generated: {report.generated_at}",
         f"- Candidates classified: {len(report.ranked_candidates)}",
         f"- Ideas surfaced (top {len(ideas)}): {len(ideas)}",
+        f"- Healthy sources ({len(healthy_sources)}): "
+        + (", ".join(healthy_sources) if healthy_sources else "_none_"),
         "",
+    ]
+
+    # Source health block: surface any per-source errors persisted in the
+    # rolling pool so Claude can flag missing-source bias and the human
+    # review can spot expired keys / cookies / quota issues at a glance.
+    if failing_sources:
+        lines.append("## SOURCE HEALTH (errors observed in the rolling pool)")
+        lines.append("")
+        for source, message in failing_sources:
+            clean = " ".join((message or "no message").split())
+            if len(clean) > 200:
+                clean = clean[:200].rstrip() + "…"
+            lines.append(f"- **{source}**: {clean}")
+        lines.append("")
+        lines.append(
+            "_If a source you expect to inform a domain (e.g. X for live "
+            "discourse, GitHub for new launches) is in this list, mention "
+            "in your assessment that today's brief is missing that signal._"
+        )
+        lines.append("")
+
+    lines.extend([
         "## SYNTHESIS INSTRUCTIONS (Claude Code, read carefully)",
         "",
         "You are receiving raw classified opportunity evidence from the",
@@ -359,13 +386,17 @@ def render_ideas(report: schema.Report, ideas: Iterable[Idea]) -> str:
         "   for *adjacency* ideas — \"X exists, but nobody has done Y for",
         "   Z\". Frame them that way, not as \"build X\".",
         "7. Do not invent evidence. If a candidate has no excerpt, say so.",
-        "8. End with a one-line honest assessment: how strong is this",
+        "8. If a SOURCE HEALTH section appears above, your honest-assessment",
+        "   line MUST mention which sources are unreliable today and how",
+        "   that biases the brief (e.g. \"X is failing, so live launch",
+        "   chatter is under-represented\").",
+        "9. End with a one-line honest assessment: how strong is this",
         "   batch, and what topic queries should the user run next to",
         "   sharpen the picture?",
         "",
         "## CLASSIFIED OPPORTUNITIES",
         "",
-    ]
+    ])
 
     if not ideas:
         lines.extend([
