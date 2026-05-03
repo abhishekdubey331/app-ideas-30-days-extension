@@ -1,0 +1,76 @@
+# topics.yml — seeds for the app-idea mining pipeline.
+#
+# Each entry under pain_phrases / vertical_pains / communities / launch_signals
+# / rotating becomes a query that the GitHub Actions batch workflow passes to
+# `last30days.py` once per batch. The engine searches Reddit/HN/X/YouTube/
+# GitHub for matches over a rolling 30-day window. The day-aggregator
+# (scripts/aggregate_day.py) then filters the merged pool through the same
+# pain-language regex defined here.
+#
+# Editing rules:
+#   - One seed per line, in YAML list form.
+#   - `enabled: false` (top of any list) disables the whole list cheaply.
+#   - Keep pain-phrase seeds quoted ('"I wish ..."') so the search engine
+#     treats them as literal phrases.
+#   - Mix: 70% pain phrases + 20% vertical pains + 10% rotating wildcards
+#     (community firehoses are basically free, tune to taste).
+#
+# Why this shape: see doc.md §6 and the seed-design research summary.
+
+defaults:
+  window_days: 30
+  # An idea is only "validated" when independently raised in this many
+  # distinct sources/communities. The cluster + rerank passes already do
+  # cross-source clustering; this threshold is a hint to the synthesis
+  # prompt to downrank single-source clusters.
+  min_communities: 3
+  # Shared pain-language vocabulary. lib/ideas.py uses the same words for
+  # post-classification so the seed query and the post-filter agree.
+  pain_regex: '\b(i hate|i wish|why is there no|frustrated with|sick of|is there a tool|better alternative to|does anyone else|tired of|stuck (with|on)|manually (export|copy|paste))\b'
+
+# --- Pain-phrase seeds (highest signal; quote them literally) ---------------
+pain_phrases:
+  - '"I wish there was an app"'
+  - '"why is there no" tool'
+  - '"is there a tool that"'
+  - '"frustrated with" software'
+  - '"better alternative to"'
+  - '"manually copy paste"'
+  - '"sick of" subscription'
+  - '"local-first alternative to"'
+  - '"self-hosted alternative to"'
+
+# --- Vertical-pain seeds (pain phrase scoped to a specific audience) --------
+vertical_pains:
+  - 'freelancers "I wish"'
+  - 'therapists "frustrated with" software'
+  - 'landlords "why is there no"'
+  - 'accountants "manually"'
+  - 'sysadmin "I hate"'
+  - 'shopify sellers "is there a tool"'
+  - 'etsy sellers "better alternative to"'
+  - 'solo devs "wish there was"'
+  - 'small law firm "frustrated with"'
+
+# --- Community firehoses (engine filters with pain_regex on the result side)
+communities:
+  - 'site:reddit.com/r/SideProject'
+  - 'site:reddit.com/r/SaaS'
+  - 'site:reddit.com/r/microsaas'
+  - 'site:reddit.com/r/Entrepreneur'
+  - 'site:reddit.com/r/SmallBusiness'
+  - 'site:reddit.com/r/Freelance'
+  - 'site:reddit.com/r/sysadmin'
+  - 'site:reddit.com/r/webdev'
+
+# --- Cross-platform launch + gap signals ------------------------------------
+launch_signals:
+  - 'site:news.ycombinator.com "Show HN"'
+  - 'site:news.ycombinator.com "Ask HN" tool'
+  - 'site:producthunt.com comments'
+  - 'github trending awesome issues'
+
+# --- Rotating wildcards (intended to be overwritten weekly via PR) ----------
+rotating:
+  - 'AI agent tooling gaps'
+  - 'local-first productivity'

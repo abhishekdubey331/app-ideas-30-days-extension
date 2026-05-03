@@ -128,15 +128,39 @@ Cheap signals available in-pipeline:
 
 ---
 
-## 7. Topic seeding (open question)
+## 7. Topic seeding (LOCKED — `topics.yml` ships at repo root)
 
-How does the workflow know what to research? Three options, not mutually exclusive:
+Seed file format and content are based on the 2026-05-03 web research summary
+(see chat history). Key decisions:
 
-1. **Fixed `topics.txt`** — user maintains a list, workflow reads it. Predictable, boring, may go stale.
-2. **Issue-triggered** — open an issue with a topic, workflow picks it up. On-demand.
-3. **Idea-rich seed list (recommended default)** — preload topics from communities likely to surface unmet needs (r/SideProject, r/microsaas, r/Entrepreneur, r/SaaS, "Show HN this week", trending GitHub repos). Run these by default; let user add custom topics via `topics.txt` or issues.
+- **Format: `topics.yml`** at repo root. YAML beats plain text and JSON because
+  it allows comments, named categories, and cheap `enabled: false` toggles
+  while staying skim-able for humans.
+- **Don't seed with solution categories.** "AI agents" returns hype noise;
+  `freelancers "I wish"` returns three founders' next product. Every
+  successful opportunity-mining tool (Idea Browser, GummySearch, F5Bot,
+  PainOnSocial, Marc Lou's Reddit method) converges on pain-language seeds
+  scoped to an audience.
+- **70/20/10 mix in the seed file:**
+  - 70% pain-phrase seeds — `'"I wish there was an app"'`, `'"why is there
+    no" tool'`, `'"local-first alternative to"'`. Stable, comparable across
+    days.
+  - 20% vertical-pain seeds — pain phrase scoped to an audience
+    (`'freelancers "I wish"'`, `'landlords "why is there no"'`).
+  - 10% community firehoses + rotating wildcards — `site:reddit.com/r/
+    SideProject`, `Show HN`, plus 1-2 fresh trend topics swapped weekly.
+- **Validation rule:** an idea is only validated if independently raised in
+  ≥3 distinct sources. Already implicit in the cluster pass; the synthesis
+  prompt downstream will be told to downrank single-source clusters.
+- **Shared pain-language regex** lives in `topics.yml` under `defaults.pain_regex`.
+  `lib/ideas.py` should pull from the same vocabulary so query and post-filter
+  agree (commit 5 wires this).
+- **Issue-triggered overrides** (workflow_dispatch with a custom topic input)
+  remain supported on top of the seed file. Issue-based triggers can ship
+  later if needed.
 
-Recommendation: option 3 as default + option 1 for user overrides + option 2 for ad-hoc.
+Starter seed file is in the repo at `topics.yml`. Edit any time without
+redeploying.
 
 ---
 
@@ -152,7 +176,7 @@ Recommendation: option 3 as default + option 1 for user overrides + option 2 for
 ## 9. Open questions (need user answers before commit 1)
 
 1. **Source-batching plan** — accept the default 6-group / 4-hour schedule in §5, or different groupings?
-2. **Topic seeding** — accept the recommended hybrid (community seeds + `topics.txt` + issue triggers) in §7, or different?
+2. ~~**Topic seeding** — accept the recommended hybrid (community seeds + `topics.txt` + issue triggers) in §7, or different?~~ **ANSWERED:** `topics.yml` shipped at repo root with the research-backed 70/20/10 mix. Edit anytime.
 3. ~~**Private ideas repo** — does it exist yet? What's the path (`<user>/<repo>`)? Is the PAT created?~~ **ANSWERED:** repo = `abhishekdubey331/App-Ideas`, PAT stored as secret `PAT_TOKEN`.
 4. **Cadence** — 6 batches/day enough, or want finer-grained hourly (24 batches/day) for token attribution? Public repo means cost isn't a constraint.
 
