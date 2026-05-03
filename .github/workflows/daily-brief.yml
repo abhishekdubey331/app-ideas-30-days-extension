@@ -74,9 +74,25 @@ jobs:
             --repo "${{ github.repository }}" \
             --remove-label "run-daily-brief"
 
+      - name: Probe for `data` branch
+        # Probe before calling actions/checkout so first-day runs (no data
+        # branch yet) don't waste 42s retrying a known-missing ref. The
+        # downstream "Build evidence brief" step already handles the
+        # missing-dir case gracefully.
+        id: probe-data
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads "https://github.com/${{ github.repository }}.git" data >/dev/null 2>&1; then
+            echo "data branch exists, will check it out."
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "data branch does not exist yet (first run, or no batches have committed)."
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout `data` branch (rolling pool)
+        if: steps.probe-data.outputs.exists == 'true'
         uses: actions/checkout@v4
-        continue-on-error: true
         with:
           ref: data
           path: batch-data
