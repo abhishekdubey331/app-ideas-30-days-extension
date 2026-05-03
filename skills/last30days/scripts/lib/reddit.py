@@ -21,7 +21,7 @@ def _first_of(*values, default=None):
             return v
     return default
 
-from . import dates, http, log
+from . import cache, dates, http, log
 
 SCRAPECREATORS_BASE = "https://api.scrapecreators.com/v1/reddit"
 
@@ -324,6 +324,10 @@ def _global_search(
     Returns:
         List of post dicts
     """
+    cache_key = f"global:{query}|sort={sort}|tf={timeframe}"
+    cached = cache.lookup("reddit-search", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        return cached.get("posts", cached.get("data", []))
     try:
         data = http.get(
             f"{SCRAPECREATORS_BASE}/search",
@@ -332,6 +336,7 @@ def _global_search(
             timeout=30,
             retries=2,
         )
+        cache.store("reddit-search", cache_key, data)
         return data.get("posts", data.get("data", []))
     except http.HTTPError as e:
         if e.status_code in (401, 403):
@@ -362,6 +367,10 @@ def _subreddit_search(
     Returns:
         List of post dicts
     """
+    cache_key = f"sub:{subreddit}|q={query}|sort={sort}|tf={timeframe}"
+    cached = cache.lookup("reddit-subreddit", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        return cached.get("posts", cached.get("data", []))
     try:
         data = http.get(
             f"{SCRAPECREATORS_BASE}/subreddit/search",
@@ -375,6 +384,7 @@ def _subreddit_search(
             timeout=30,
             retries=2,
         )
+        cache.store("reddit-subreddit", cache_key, data)
         return data.get("posts", data.get("data", []))
     except Exception as e:
         _log(f"Subreddit search error for r/{subreddit}: {e}")
@@ -394,6 +404,10 @@ def fetch_post_comments(
     Returns:
         List of comment dicts with score, author, body, etc.
     """
+    cache_key = f"comments:{url}"
+    cached = cache.lookup("reddit-comments", cache_key, ttl_seconds=cache.ENRICH_TTL)
+    if cached is not None:
+        return cached.get("comments", cached.get("data", []))
     try:
         data = http.get(
             f"{SCRAPECREATORS_BASE}/post/comments",
@@ -402,6 +416,7 @@ def fetch_post_comments(
             timeout=30,
             retries=2,
         )
+        cache.store("reddit-comments", cache_key, data)
         return data.get("comments", data.get("data", []))
     except Exception as e:
         _log(f"Comment fetch error: {e}")

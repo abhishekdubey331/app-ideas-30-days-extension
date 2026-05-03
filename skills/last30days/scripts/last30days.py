@@ -260,6 +260,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--deep", action="store_true", help="Higher-recall retrieval profile")
     parser.add_argument("--debug", action="store_true", help="Enable HTTP debug logging")
     parser.add_argument("--mock", action="store_true", help="Use mock retrieval fixtures")
+    parser.add_argument("--refresh", action="store_true",
+                        help="Bypass the on-disk response cache for paid endpoints (re-fetch transcripts/comments/searches).")
     parser.add_argument("--diagnose", action="store_true", help="Print provider and source availability")
     parser.add_argument("--save-dir", help="Optional directory for saving the rendered output")
     parser.add_argument(
@@ -564,6 +566,8 @@ def main() -> int:
     args, extra_argv = parser.parse_known_args()
     if args.debug:
         os.environ["LAST30DAYS_DEBUG"] = "1"
+    if args.refresh:
+        os.environ["LAST30DAYS_REFRESH"] = "1"
 
     config = env.get_config()
 
@@ -761,8 +765,8 @@ def main() -> int:
                         "See SKILL.md 'Competitor mode' for the full protocol.\n"
                         "\n"
                         "HEADLESS / CRON PATH (no hosting model available): set "
-                        "BRAVE_API_KEY / EXA_API_KEY / SERPER_API_KEY / PARALLEL_API_KEY / "
-                        "OPENROUTER_API_KEY and re-run.\n"
+                        "BRAVE_API_KEY / EXA_API_KEY / SERPER_API_KEY / PARALLEL_API_KEY "
+                        "and re-run.\n"
                         "\n"
                         "MINIMUM ESCAPE HATCH: pass --competitors-list 'A,B,C' to skip "
                         "discovery. Without --competitors-plan, peer sub-runs fall back to "

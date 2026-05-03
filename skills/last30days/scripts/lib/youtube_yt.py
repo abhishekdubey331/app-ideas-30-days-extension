@@ -34,7 +34,7 @@ TRANSCRIPT_LIMITS = {
 # Max words to keep from each transcript
 TRANSCRIPT_MAX_WORDS = 5000
 
-from . import http, log, subproc
+from . import cache, http, log, subproc
 from .relevance import token_overlap_relevance as _compute_relevance
 
 
@@ -701,7 +701,11 @@ def _fetch_video_comments(
         List of comment dicts with author, text, likes, date.
     """
     video_url = f"https://www.youtube.com/watch?v={video_id}"
-    if not _requests:
+    cache_key = f"yt-comments:{video_id}"
+    cached = cache.lookup("youtube-comments", cache_key, ttl_seconds=cache.ENRICH_TTL)
+    if cached is not None:
+        data = cached
+    elif not _requests:
         try:
             from urllib.parse import urlencode
             params = urlencode({"url": video_url})
@@ -725,6 +729,9 @@ def _fetch_video_comments(
         except Exception as exc:
             _log(f"Comment fetch error for {video_id}: {exc}")
             return []
+
+    if cached is None:
+        cache.store("youtube-comments", cache_key, data)
 
     raw_comments = data.get("comments", data.get("data", []))
     comments = []
@@ -883,6 +890,11 @@ def _sc_youtube_search(keyword: str, token: str) -> List[Dict[str, Any]]:
     Returns:
         List of raw video dicts from the API.
     """
+    cache_key = f"yt-search:{keyword}"
+    cached = cache.lookup("youtube-search", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        return cached.get("videos", cached.get("data", cached.get("items", [])))
+
     if not _requests:
         try:
             from urllib.parse import urlencode
@@ -891,6 +903,7 @@ def _sc_youtube_search(keyword: str, token: str) -> List[Dict[str, Any]]:
             headers = http.scrapecreators_headers(token)
             headers["User-Agent"] = http.USER_AGENT
             data = http.get(url, headers=headers, timeout=30, retries=2)
+            cache.store("youtube-search", cache_key, data)
             return data.get("videos", data.get("data", data.get("items", [])))
         except Exception as exc:
             _log(f"SC YouTube search error (urllib): {exc}")
@@ -905,6 +918,7 @@ def _sc_youtube_search(keyword: str, token: str) -> List[Dict[str, Any]]:
         )
         resp.raise_for_status()
         data = resp.json()
+        cache.store("youtube-search", cache_key, data)
         return data.get("videos", data.get("data", data.get("items", [])))
     except Exception as exc:
         _log(f"SC YouTube search error: {exc}")
@@ -922,7 +936,11 @@ def _sc_fetch_transcript(video_id: str, token: str) -> Optional[str]:
         Plaintext transcript string, or None if unavailable.
     """
     video_url = f"https://www.youtube.com/watch?v={video_id}"
-    if not _requests:
+    cache_key = f"yt-transcript:{video_id}"
+    cached = cache.lookup("youtube-transcript", cache_key, ttl_seconds=cache.ENRICH_TTL)
+    if cached is not None:
+        data = cached
+    elif not _requests:
         try:
             from urllib.parse import urlencode
             params = urlencode({"url": video_url})
@@ -948,6 +966,9 @@ def _sc_fetch_transcript(video_id: str, token: str) -> Optional[str]:
         except Exception as exc:
             _log(f"SC transcript error for {video_id}: {exc}")
             return None
+
+    if cached is None:
+        cache.store("youtube-transcript", cache_key, data)
 
     transcript = data.get("transcript")
     if not transcript:

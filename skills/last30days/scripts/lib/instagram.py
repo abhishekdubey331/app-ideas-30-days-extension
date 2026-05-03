@@ -17,7 +17,7 @@ try:
 except ImportError:
     _requests = None
 
-from . import dates, http, log
+from . import cache, dates, http, log
 
 SCRAPECREATORS_BASE = "https://api.scrapecreators.com"
 
@@ -235,6 +235,12 @@ def _user_reels(
         List of raw Instagram reel dicts.
     """
     _log(f"User reels: @{handle}")
+    cache_key = f"reels:{handle}"
+    cached = cache.lookup("instagram-reels", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        raw_items = cached.get("items") or cached.get("reels") or cached.get("data") or []
+        _log(f"  -> {len(raw_items)} reels from @{handle} (cached)")
+        return raw_items
     reels_url = f"{SCRAPECREATORS_BASE}/v1/instagram/user/reels"
     if not _requests:
         try:
@@ -261,6 +267,7 @@ def _user_reels(
             _log(f"User reels error for @{handle}: {e}")
             return []
 
+    cache.store("instagram-reels", cache_key, data)
     raw_items = data.get("items") or data.get("reels") or data.get("data") or []
     _log(f"  -> {len(raw_items)} reels from @{handle}")
     return raw_items
@@ -293,7 +300,12 @@ def search_instagram(
 
     _log(f"Searching Instagram for '{core_topic}' (depth={depth}, count={config['results_per_page']})")
 
-    if not _requests:
+    cache_key = f"reels-search:{core_topic}"
+    cached = cache.lookup("instagram-search", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        data = cached
+        _log(f"Using cached search response for '{core_topic}'")
+    elif not _requests:
         _log("requests library not installed, falling back to urllib")
         try:
             from urllib.parse import urlencode
@@ -318,6 +330,9 @@ def search_instagram(
         except Exception as e:
             _log(f"ScrapeCreators error: {e}")
             return {"items": [], "error": f"{type(e).__name__}: {e}"}
+
+    if cached is None:
+        cache.store("instagram-search", cache_key, data)
 
     # Items are in the 'reels' array (ScrapeCreators v2 response)
     raw_items = data.get("reels") or data.get("items") or data.get("data") or []
@@ -391,27 +406,36 @@ def fetch_captions(
         url = item.get("url", "")
         if not url:
             continue
+        cache_key = f"transcript:{url}"
+        cached_data = cache.lookup(
+            "instagram-transcript", cache_key, ttl_seconds=cache.ENRICH_TTL,
+        )
         try:
-            resp = _requests.get(
-                f"{SCRAPECREATORS_BASE}/v2/instagram/media/transcript",
-                params={"url": url},
-                headers=http.scrapecreators_headers(token),
-                timeout=15,
-            )
-            if resp.status_code == 200:
+            if cached_data is not None:
+                data = cached_data
+            else:
+                resp = _requests.get(
+                    f"{SCRAPECREATORS_BASE}/v2/instagram/media/transcript",
+                    params={"url": url},
+                    headers=http.scrapecreators_headers(token),
+                    timeout=15,
+                )
+                if resp.status_code != 200:
+                    continue
                 data = resp.json()
-                transcripts = data.get("transcripts") or []
-                if transcripts and isinstance(transcripts, list):
-                    # Combine all transcript segments
-                    transcript_text = " ".join(
-                        t.get("text", "") for t in transcripts
-                        if isinstance(t, dict) and t.get("text")
-                    )
-                    if transcript_text:
-                        words = transcript_text.split()
-                        if len(words) > CAPTION_MAX_WORDS:
-                            transcript_text = ' '.join(words[:CAPTION_MAX_WORDS]) + '...'
-                        captions[vid] = transcript_text
+                cache.store("instagram-transcript", cache_key, data)
+            transcripts = data.get("transcripts") or []
+            if transcripts and isinstance(transcripts, list):
+                # Combine all transcript segments
+                transcript_text = " ".join(
+                    t.get("text", "") for t in transcripts
+                    if isinstance(t, dict) and t.get("text")
+                )
+                if transcript_text:
+                    words = transcript_text.split()
+                    if len(words) > CAPTION_MAX_WORDS:
+                        transcript_text = ' '.join(words[:CAPTION_MAX_WORDS]) + '...'
+                    captions[vid] = transcript_text
         except Exception as e:
             _log(f"Transcript fetch failed for {vid}: {e}")
 
