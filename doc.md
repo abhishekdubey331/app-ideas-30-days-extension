@@ -28,7 +28,7 @@ Transform this repo (currently the multi-harness `last30days` research skill) in
 | Runtime | GitHub Actions (hourly batches + daily synthesis) | No server to run. |
 | Window | Rolling 30-day | Matches engine name; today's batch adds to pool, old data ages out. |
 | State | Commit batched JSON to `data` branch | Simpler than artifacts (which expire and are job-scoped). |
-| Output destination | Cross-repo PR to private ideas repo | Auth via fine-grained PAT (`IDEAS_REPO_PAT`). |
+| Output destination | Cross-repo PR to `abhishekdubey331/App-Ideas` | Auth via fine-grained PAT stored as `PAT_TOKEN`. |
 | Cadence | Hourly batches + 1 daily synthesis at 23:00 UTC | 1-hr gap lets user see token cost per run. |
 
 ---
@@ -38,7 +38,7 @@ Transform this repo (currently the multi-harness `last30days` research skill) in
 | Secret | Purpose |
 |---|---|
 | `CLAUDE_CODE_OAUTH_TOKEN` | Auth for `anthropics/claude-code-action`. Generate via `claude setup-token`. |
-| `IDEAS_REPO_PAT` | Fine-grained PAT with write access to the private ideas repo. Needed because default `GITHUB_TOKEN` cannot write across repos. |
+| `PAT_TOKEN` | Fine-grained PAT with write access to `abhishekdubey331/App-Ideas`. Needed because default `GITHUB_TOKEN` cannot write across repos. |
 | `SCRAPECREATORS_API_KEY` | (Optional) TikTok, Instagram, Threads, Pinterest, YouTube/TikTok comments. 10K free calls. |
 | `OPENROUTER_API_KEY` | (Optional) Perplexity Sonar web grounding. |
 | `BRAVE_API_KEY` / `EXA_API_KEY` / `SERPER_API_KEY` | (Optional) Web search backends. |
@@ -153,7 +153,7 @@ Recommendation: option 3 as default + option 1 for user overrides + option 2 for
 
 1. **Source-batching plan** — accept the default 6-group / 4-hour schedule in §5, or different groupings?
 2. **Topic seeding** — accept the recommended hybrid (community seeds + `topics.txt` + issue triggers) in §7, or different?
-3. **Private ideas repo** — does it exist yet? What's the path (`<user>/<repo>`)? Is the PAT created?
+3. ~~**Private ideas repo** — does it exist yet? What's the path (`<user>/<repo>`)? Is the PAT created?~~ **ANSWERED:** repo = `abhishekdubey331/App-Ideas`, PAT stored as secret `PAT_TOKEN`.
 4. **Cadence** — 6 batches/day enough, or want finer-grained hourly (24 batches/day) for token attribution? Public repo means cost isn't a constraint.
 
 ---

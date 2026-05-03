@@ -173,6 +173,32 @@ def emit_comparison_output(
     raise SystemExit(f"Unsupported emit mode: {emit}")
 
 
+def save_batch_report(report: schema.Report, target: str) -> Path:
+    """Persist the raw Report as JSON for later rolling-window aggregation.
+
+    If `target` ends in `.json`, write to that exact file. Otherwise treat
+    `target` as a directory and write to
+    `<target>/<YYYY-MM-DD>/<HHMM>-<topic-slug>.json`. Per-day subdirectories
+    keep batch files grouped for easy globbing by aggregate_day.py.
+    """
+    from datetime import datetime
+    target_path = Path(target).expanduser()
+    if target_path.suffix == ".json":
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path = target_path
+    else:
+        now = datetime.now()
+        day_dir = target_path / now.strftime("%Y-%m-%d")
+        day_dir.mkdir(parents=True, exist_ok=True)
+        slug = slugify(report.topic) or "untitled"
+        out_path = day_dir / f"{now.strftime('%H%M')}-{slug}.json"
+    out_path.write_text(
+        json.dumps(schema.to_dict(report), indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+    return out_path
+
+
 def compute_save_path_display(save_dir: str, topic: str, suffix: str, emit: str) -> str:
     """Compute the user-friendly save path string that will be shown in the footer.
 
@@ -236,6 +262,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--mock", action="store_true", help="Use mock retrieval fixtures")
     parser.add_argument("--diagnose", action="store_true", help="Print provider and source availability")
     parser.add_argument("--save-dir", help="Optional directory for saving the rendered output")
+    parser.add_argument(
+        "--save-batch",
+        help="Persist the raw Report as JSON for later rolling-window aggregation. "
+             "If the path is a directory, writes to <dir>/<YYYY-MM-DD>/<HHMM>-<topic-slug>.json. "
+             "If the path ends in .json, writes to exactly that file (overwriting).",
+    )
     parser.add_argument("--synthesis-file", help="Markdown synthesis to embed in --emit=html output")
     parser.add_argument("--store", action="store_true", help="Persist ranked findings to the SQLite research store")
     parser.add_argument("--x-handle", help="X handle for targeted supplemental search")
@@ -890,6 +922,10 @@ def main() -> int:
         or args.ig_creators
     )
     report.artifacts["pre_research_flags_present"] = pre_research_flags_present
+
+    if args.save_batch:
+        batch_path = save_batch_report(report, args.save_batch)
+        sys.stderr.write(f"[last30days] Saved batch JSON to {batch_path}\n")
 
     if entity_reports:
         rendered = emit_comparison_output(
