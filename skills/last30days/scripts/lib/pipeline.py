@@ -62,7 +62,22 @@ SEARCH_ALIAS = {
     "xquik": "xquik",
 }
 
-MAX_SOURCE_FETCHES: dict[str, int] = {"x": 2}
+MAX_SOURCE_FETCHES: dict[str, int] = {"x": 2, "perplexity": 1}
+
+# Sources whose _retrieve_stream branch ignores subquery.search_query and
+# fetches based on raw_topic. These collapse to one call per run regardless
+# of how many subqueries the planner emits with the source listed. Dedup
+# below uses this set to avoid re-billing identical SC fetches per subquery.
+RAW_TOPIC_BOUND_SOURCES: frozenset[str] = frozenset(
+    {"reddit", "youtube", "tiktok", "instagram"}
+)
+
+# Paid sources that should NOT be auto-retried by _retry_thin_sources when
+# they return <3 items. Avoids spending a second round of credits on a topic
+# the source already gave its best shot at.
+PAID_RETRY_BLOCKLIST: frozenset[str] = frozenset(
+    {"perplexity", "tiktok", "instagram"}
+)
 
 MOCK_AVAILABLE_SOURCES = [
     "reddit",
@@ -311,55 +326,66 @@ def run(
     rate_limited_sources: set[str] = set()
     rate_limit_lock = threading.Lock()
 
-    futures = {}
-    # Per-source fetch budget prevents redundant API calls
+    # Group (source, query_key) -> list of subqueries that requested this
+    # combination. Sources in RAW_TOPIC_BOUND_SOURCES use raw_topic for their
+    # downstream search, so all subqueries collapse to a single fetch. Other
+    # sources may collapse if two subqueries happen to share search_query.
+    fetch_groups: dict[tuple[str, str], list[schema.SubQuery]] = {}
     source_fetch_count: dict[str, int] = {}
-    stream_count = sum(
-        1
-        for subquery in plan.subqueries
-        for source in subquery.sources
-        if source in available
-    )
-    max_workers = max(4, min(16, stream_count or 1))
+    for subquery in plan.subqueries:
+        for source in subquery.sources:
+            if source not in available:
+                continue
+            # Skip GitHub keyword search if person-mode already ran
+            if source == "github" and (_github_person_done or _github_custom_done):
+                continue
+            group_key = (source, _query_key_for_source(source, subquery, topic))
+            existing = fetch_groups.get(group_key)
+            if existing is not None:
+                # Already going to fetch this combination — just attach this
+                # subquery's label so RRF still credits its weight downstream.
+                existing.append(subquery)
+                continue
+            # Enforce per-source fetch budget. Counts unique fetches, not
+            # subquery attachments.
+            cap = MAX_SOURCE_FETCHES.get(source)
+            if cap is not None:
+                current = source_fetch_count.get(source, 0)
+                if current >= cap:
+                    continue
+                source_fetch_count[source] = current + 1
+            fetch_groups[group_key] = [subquery]
+
+    futures = {}
+    max_workers = max(4, min(16, len(fetch_groups) or 1))
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        for subquery in plan.subqueries:
-            for source in subquery.sources:
-                if source not in available:
-                    continue
-                # Skip GitHub keyword search if person-mode already ran
-                if source == "github" and (_github_person_done or _github_custom_done):
-                    continue
-                # Enforce per-source fetch cap
-                cap = MAX_SOURCE_FETCHES.get(source)
-                if cap is not None:
-                    current = source_fetch_count.get(source, 0)
-                    if current >= cap:
-                        continue
-                    source_fetch_count[source] = current + 1
-                futures[
-                    executor.submit(
-                        _retrieve_stream,
-                        topic=topic,
-                        subquery=subquery,
-                        source=source,
-                        config=config,
-                        depth=depth,
-                        date_range=(from_date, to_date),
-                        runtime=runtime,
-                        mock=mock,
-                        rate_limited_sources=rate_limited_sources,
-                        rate_limit_lock=rate_limit_lock,
-                        web_backend=web_backend,
-                        raw_topic=topic,
-                        subreddits=subreddits,
-                        tiktok_hashtags=tiktok_hashtags,
-                        tiktok_creators=tiktok_creators,
-                        ig_creators=ig_creators,
-                    )
-                ] = (subquery, source)
+        for (source, _query_key), group_subqueries in fetch_groups.items():
+            representative = group_subqueries[0]
+            futures[
+                executor.submit(
+                    _retrieve_stream,
+                    topic=topic,
+                    subquery=representative,
+                    source=source,
+                    config=config,
+                    depth=depth,
+                    date_range=(from_date, to_date),
+                    runtime=runtime,
+                    mock=mock,
+                    rate_limited_sources=rate_limited_sources,
+                    rate_limit_lock=rate_limit_lock,
+                    web_backend=web_backend,
+                    raw_topic=topic,
+                    subreddits=subreddits,
+                    tiktok_hashtags=tiktok_hashtags,
+                    tiktok_creators=tiktok_creators,
+                    ig_creators=ig_creators,
+                )
+            ] = (group_subqueries, source)
 
         for future in as_completed(futures):
-            subquery, source = futures[future]
+            group_subqueries, source = futures[future]
+            representative = group_subqueries[0]
             try:
                 raw_items, artifact = future.result()
             except Exception as exc:
@@ -374,7 +400,7 @@ def run(
                     time.sleep(3)
                     try:
                         raw_items, artifact = _retrieve_stream(
-                            topic=topic, subquery=subquery, source=source,
+                            topic=topic, subquery=representative, source=source,
                             config=config, depth=depth, date_range=(from_date, to_date),
                             runtime=runtime, mock=mock,
                             rate_limited_sources=rate_limited_sources,
@@ -395,10 +421,13 @@ def run(
             normalized = _normalize_score_dedupe(
                 source, raw_items, from_date, to_date,
                 freshness_mode=plan.freshness_mode,
-                ranking_query=subquery.ranking_query,
+                ranking_query=representative.ranking_query,
             )
             normalized = normalized[: settings["per_stream_limit"]]
-            bundle.add_items(subquery.label, source, normalized)
+            # Attach to every subquery label that requested this fetch so
+            # weighted RRF credits each subquery's contribution. items_by_source
+            # only sees one copy because add_items_for_group dedups internally.
+            _add_items_for_group(bundle, group_subqueries, source, normalized)
             if artifact:
                 bundle.artifacts.setdefault("grounding", []).append(artifact)
 
@@ -486,6 +515,37 @@ def run(
         warnings=warnings,
         artifacts=bundle.artifacts,
     )
+
+
+def _query_key_for_source(source: str, subquery: schema.SubQuery, raw_topic: str) -> str:
+    """Canonical query string a source will actually issue for this subquery.
+
+    Sources in RAW_TOPIC_BOUND_SOURCES ignore subquery.search_query and
+    fetch from the user's raw topic, so all subqueries collapse to one key.
+    Other sources key on subquery.search_query so identical search strings
+    across subqueries naturally dedup.
+    """
+    if source in RAW_TOPIC_BOUND_SOURCES:
+        return f"__raw__:{raw_topic}"
+    return subquery.search_query
+
+
+def _add_items_for_group(
+    bundle: schema.RetrievalBundle,
+    group_subqueries: list[schema.SubQuery],
+    source: str,
+    items: list[schema.SourceItem],
+) -> None:
+    """Attach a single fetch's results to every subquery label in the group.
+
+    Each subquery label gets its own (label, source) entry in
+    items_by_source_and_query so weighted RRF credits its weight. The flat
+    items_by_source list only receives the items once, since downstream
+    consumers expect a deduplicated per-source view.
+    """
+    for sq in group_subqueries:
+        bundle.items_by_source_and_query.setdefault((sq.label, source), []).extend(items)
+    bundle.items_by_source.setdefault(source, []).extend(items)
 
 
 def _normalize_score_dedupe(
@@ -748,7 +808,10 @@ def _retry_thin_sources(
         for source in subquery.sources:
             if source not in planned_sources:
                 planned_sources.append(source)
-    _skip = skip_sources or set()
+    # PAID_RETRY_BLOCKLIST keeps a thin Phase 1 result from triggering a
+    # second round of credits on sources the user already paid for. Combined
+    # with caller-provided skip_sources (e.g. {"github"} when person-mode ran).
+    _skip = (skip_sources or set()) | PAID_RETRY_BLOCKLIST
     thin_sources = [
         source
         for source in planned_sources
