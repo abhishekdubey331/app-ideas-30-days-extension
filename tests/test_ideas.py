@@ -206,6 +206,37 @@ class TestRenderIdeas(unittest.TestCase):
         self.assertIn("No candidates matched", out)
         self.assertIn("--subreddits", out)
 
+    def test_render_omits_source_health_when_no_errors(self):
+        cand = _candidate("c1", "I'd pay for a thing")
+        report = _report([cand])
+        out = ideas.render_ideas(report, ideas.extract_ideas(report))
+        # Section header absent; the conditional reference inside the
+        # synthesis instructions ("If a SOURCE HEALTH section…") is fine.
+        self.assertNotIn("## SOURCE HEALTH", out)
+        self.assertIn("Healthy sources", out)
+        self.assertIn("reddit", out)
+
+    def test_render_emits_source_health_section_when_errors_present(self):
+        cand = _candidate("c1", "I'd pay for a thing")
+        report = _report([cand])
+        report.errors_by_source["x"] = "401 unauthorized — cookies expired"
+        report.errors_by_source["tiktok"] = "rate limited"
+        out = ideas.render_ideas(report, ideas.extract_ideas(report))
+        self.assertIn("## SOURCE HEALTH", out)
+        self.assertIn("**x**: 401 unauthorized", out)
+        self.assertIn("**tiktok**: rate limited", out)
+        # Synthesis instruction #8 references the SOURCE HEALTH block.
+        self.assertIn("SOURCE HEALTH section appears above", out)
+
+    def test_render_truncates_long_error_messages(self):
+        cand = _candidate("c1", "I'd pay for a thing")
+        report = _report([cand])
+        report.errors_by_source["reddit"] = "x" * 500
+        out = ideas.render_ideas(report, ideas.extract_ideas(report))
+        # Truncated to 200 chars + ellipsis.
+        self.assertIn("…", out)
+        self.assertNotIn("x" * 250, out)
+
 
 if __name__ == "__main__":
     unittest.main()
