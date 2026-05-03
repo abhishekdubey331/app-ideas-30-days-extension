@@ -30,9 +30,16 @@ on:
         default: 'true'
         type: choice
         options: ['true', 'false']
+  # Label-based trigger: add the `run-daily-brief` label to any issue and
+  # this workflow fires once. The label is auto-removed when the run
+  # finishes so re-labelling triggers a fresh run. Useful for testing the
+  # synthesis path without waiting for 23:00 UTC.
+  issues:
+    types: [labeled]
 
 permissions:
   contents: write   # to write back to the data branch when --prune is on
+  issues: write     # to remove the trigger label + post the run-URL comment
 
 concurrency:
   group: daily-brief-${{ github.workflow }}
@@ -43,6 +50,9 @@ env:
 
 jobs:
   synthesize-and-pr:
+    # When the trigger is `issues.labeled`, only run if the label that was
+    # just applied is `run-daily-brief`. All other label changes are ignored.
+    if: github.event_name != 'issues' || github.event.label.name == 'run-daily-brief'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -50,6 +60,19 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
+      - name: Acknowledge label trigger on the issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh issue comment "${{ github.event.issue.number }}" \
+            --repo "${{ github.repository }}" \
+            --body "Daily-brief workflow triggered via \`run-daily-brief\` label. Watch progress at: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh issue edit "${{ github.event.issue.number }}" \
+            --repo "${{ github.repository }}" \
+            --remove-label "run-daily-brief"
 
       - name: Checkout `data` branch (rolling pool)
         uses: actions/checkout@v4

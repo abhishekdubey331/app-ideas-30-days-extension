@@ -125,7 +125,12 @@ Workflows run on the schedule:
 | 20:00 | batch F — Web + Perplexity |
 | 23:00 | **daily synthesis → PR in `App-Ideas`** |
 
-You can also kick any of them manually via the **Actions** tab → workflow → *Run workflow*.
+You can also kick any of them manually:
+
+- **Actions tab** → pick the workflow → *Run workflow* (with optional input overrides)
+- **Label trigger** — open any issue, add the label `run-batch` (fires `batch.yml`) or `run-daily-brief` (fires `daily-brief.yml`). The workflow comments back on the issue with the run URL and auto-removes the label so the next label add fires a fresh run. Handy for one-tap testing from the GitHub UI on mobile.
+
+Create the labels once in this repo's **Issues → Labels** UI; any color works.
 
 ---
 
