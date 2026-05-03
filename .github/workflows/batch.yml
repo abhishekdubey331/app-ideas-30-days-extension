@@ -149,18 +149,56 @@ jobs:
           BSKY_APP_PASSWORD:      ${{ secrets.BSKY_APP_PASSWORD }}
         run: |
           set -euo pipefail
-          mkdir -p data
+          DAY=$(date -u +%Y-%m-%d)
+          HOUR=$(date -u +%H%M)
+          GROUP="${{ steps.select-group.outputs.group }}"
+          mkdir -p "data/${DAY}"
+          # Persistent stderr log for this batch — committed alongside the
+          # per-seed JSONs so failures are greppable later (Actions logs
+          # expire after 90 days; the data branch keeps them indefinitely).
+          LOG_FILE="data/${DAY}/${HOUR}-${GROUP}-stderr.log"
+          {
+            echo "Batch ${GROUP} sources=${{ steps.select-group.outputs.sources }}"
+            echo "Started at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "----"
+          } > "$LOG_FILE"
+
+          SUCCESS=0
+          FAILED=0
           while IFS= read -r SEED; do
             [ -z "$SEED" ] && continue
             echo "::group::Seed: $SEED"
-            uv run --frozen python3 skills/last30days/scripts/last30days.py \
-              "$SEED" \
-              --search "${{ steps.select-group.outputs.sources }}" \
-              --emit json \
-              --save-batch data \
-              || echo "Engine failed for seed '$SEED' (continuing)"
+            echo "" >> "$LOG_FILE"
+            echo "===== Seed: $SEED =====" >> "$LOG_FILE"
+            if uv run --frozen python3 skills/last30days/scripts/last30days.py \
+                 "$SEED" \
+                 --search "${{ steps.select-group.outputs.sources }}" \
+                 --emit json \
+                 --save-batch data \
+                 2>>"$LOG_FILE"; then
+              SUCCESS=$((SUCCESS + 1))
+              echo "[OK] seed succeeded" >> "$LOG_FILE"
+            else
+              FAILED=$((FAILED + 1))
+              echo "[FAIL] engine returned non-zero for seed: $SEED" | tee -a "$LOG_FILE"
+            fi
             echo "::endgroup::"
           done < selected_seeds.txt
+
+          {
+            echo ""
+            echo "----"
+            echo "Batch summary: ${SUCCESS} succeeded, ${FAILED} failed"
+          } | tee -a "$LOG_FILE"
+
+          # All-failed = batch is dead, fail the workflow run loud and red.
+          # One success out of N = green (transient per-seed failures are
+          # the normal case for rate-limited sources).
+          if [ "$SUCCESS" -eq 0 ] && [ "$FAILED" -gt 0 ]; then
+            echo "::error::All ${FAILED} seeds failed in batch ${GROUP}. See ${LOG_FILE} on the data branch."
+            exit 1
+          fi
 
       - name: Stash results before switching branches
         id: stash
