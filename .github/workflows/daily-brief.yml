@@ -140,7 +140,11 @@ jobs:
         uses: anthropics/claude-code-action@beta
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          prompt: |
+          # `direct_prompt` (not `prompt`) is the @beta channel's input name
+          # for non-event-driven runs. It bypasses trigger detection so the
+          # action runs unconditionally on schedule / workflow_dispatch /
+          # issues.labeled, instead of waiting for an `@claude` mention.
+          direct_prompt: |
             Read `brief.md` in the workspace root. It contains classified
             opportunity evidence from a rolling 30-day pool of social media
             posts, plus strict synthesis instructions in its
