@@ -40,6 +40,7 @@ on:
 permissions:
   contents: write   # to write back to the data branch when --prune is on
   issues: write     # to remove the trigger label + post the run-URL comment
+  id-token: write   # required by anthropics/claude-code-action for OIDC auth
 
 concurrency:
   group: daily-brief-${{ github.workflow }}
