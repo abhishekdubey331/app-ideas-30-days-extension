@@ -1,0 +1,279 @@
+name: Daily brief — synthesize app ideas + open PR
+
+# Runs once per day at 23:00 UTC, 3 hours after the last batch (20:00 UTC)
+# of the day so all 6 source-group batches have had time to land. Merges
+# the rolling 30-day pool of batch JSONs into one ideas brief, asks
+# Claude Code (auth via the user's Max-plan OAuth token) to synthesize it
+# into ranked app-idea proposals, and opens a PR on the user's private
+# ideas repo.
+#
+# Required secrets:
+#   - CLAUDE_CODE_OAUTH_TOKEN  (run `claude setup-token` locally to get it)
+#   - PAT_TOKEN                (fine-grained PAT with write + PR access on
+#                               abhishekdubey331/App-Ideas)
+#
+# Optional environment:
+#   - IDEAS_REPO  (default abhishekdubey331/App-Ideas)
+
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      window_days:
+        description: 'Rolling lookback in days'
+        required: false
+        default: '30'
+      prune:
+        description: 'Delete batch files older than the window'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
+  # Label-based trigger: add the `run-daily-brief` label to any issue and
+  # this workflow fires once. The label is auto-removed when the run
+  # finishes so re-labelling triggers a fresh run. Useful for testing the
+  # synthesis path without waiting for 23:00 UTC.
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write   # to write back to the data branch when --prune is on
+  issues: write     # to remove the trigger label + post the run-URL comment
+
+concurrency:
+  group: daily-brief-${{ github.workflow }}
+  cancel-in-progress: false
+
+env:
+  IDEAS_REPO: abhishekdubey331/App-Ideas
+
+jobs:
+  synthesize-and-pr:
+    # When the trigger is `issues.labeled`, only run if the label that was
+    # just applied is `run-daily-brief`. All other label changes are ignored.
+    if: github.event_name != 'issues' || github.event.label.name == 'run-daily-brief'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout main (engine + aggregator)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Acknowledge label trigger on the issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh issue comment "${{ github.event.issue.number }}" \
+            --repo "${{ github.repository }}" \
+            --body "Daily-brief workflow triggered via \`run-daily-brief\` label. Watch progress at: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh issue edit "${{ github.event.issue.number }}" \
+            --repo "${{ github.repository }}" \
+            --remove-label "run-daily-brief"
+
+      - name: Checkout `data` branch (rolling pool)
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: data
+          path: batch-data
+          fetch-depth: 1
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Set up Python 3.12
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: uv sync --frozen || uv sync
+
+      - name: Build evidence brief from rolling pool
+        id: brief
+        run: |
+          set -euo pipefail
+          WINDOW="${{ github.event.inputs.window_days }}"
+          WINDOW="${WINDOW:-30}"
+          DATA_DIR="batch-data/data"
+          if [ ! -d "$DATA_DIR" ]; then
+            echo "No batch-data/data directory found — first run or empty pool."
+            echo "have_brief=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if uv run --frozen python3 skills/last30days/scripts/aggregate_day.py \
+                --data-dir "$DATA_DIR" \
+                --window-days "$WINDOW" \
+                --emit ideas \
+                --top-ideas 12 \
+                --out brief.md; then
+            echo "have_brief=true" >> "$GITHUB_OUTPUT"
+            wc -l brief.md
+          else
+            echo "Aggregator returned non-zero (likely empty rolling pool)."
+            echo "have_brief=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Synthesize ranked ideas with Claude Code
+        if: steps.brief.outputs.have_brief == 'true'
+        uses: anthropics/claude-code-action@beta
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Read `brief.md` in the workspace root. It contains classified
+            opportunity evidence from a rolling 30-day pool of social media
+            posts, plus strict synthesis instructions in its
+            `## SYNTHESIS INSTRUCTIONS` section. Follow those instructions
+            exactly. Do NOT modify brief.md.
+
+            Write your output to a new file `ideas.md` in the workspace
+            root with this structure:
+
+              # App ideas — $(date -u +%Y-%m-%d)
+
+              <One-line honest assessment of this batch's signal strength.>
+
+              ## 1. <Idea title — concrete, not category-level>
+              - **Unmet need:** <one sentence>
+              - **Proposed app:** <one sentence>
+              - **Evidence:** (every URL must come from brief.md)
+                - [link description](URL from brief.md)
+                - [link description](URL from brief.md)
+              - **Existing competitors:** <if you can name 2+, say so and
+                downrank — we don't surface crowded markets>
+              - **Score signal:** <PAIN | WILL-PAY | LAUNCH | WORKFLOW combo>
+
+              (repeat for 3-7 ideas, ordered by combined score)
+
+              ## What to research next
+              <one line suggesting topics to add to topics.yml>
+
+            Rules:
+            - Do not invent evidence. If a candidate has no excerpt in
+              brief.md, you may not cite it.
+            - Prefer PAIN + WILL-PAY combinations.
+            - LAUNCH-only signals describe an *adjacency* opportunity
+              ("X exists but nobody has done Y for Z"), not "build X".
+            - 3-7 ideas total. Quality over quantity. Cut weak ones.
+
+      - name: Sanity-check Claude wrote ideas.md
+        if: steps.brief.outputs.have_brief == 'true'
+        id: synth
+        run: |
+          set -euo pipefail
+          if [ ! -s ideas.md ]; then
+            echo "::warning::Claude Code did not write ideas.md (or it was empty)."
+            echo "have_ideas=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          DAY=$(date -u +%Y-%m-%d)
+          echo "have_ideas=true" >> "$GITHUB_OUTPUT"
+          echo "day=$DAY" >> "$GITHUB_OUTPUT"
+          echo "Claude wrote $(wc -l < ideas.md) lines to ideas.md"
+
+      - name: Checkout target ideas repo
+        if: steps.synth.outputs.have_ideas == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.IDEAS_REPO }}
+          token: ${{ secrets.PAT_TOKEN }}
+          path: ideas-repo
+          fetch-depth: 1
+
+      - name: Drop today's brief into the ideas repo
+        if: steps.synth.outputs.have_ideas == 'true'
+        run: |
+          set -euo pipefail
+          DAY="${{ steps.synth.outputs.day }}"
+          mkdir -p "ideas-repo/ideas"
+          cp ideas.md "ideas-repo/ideas/${DAY}.md"
+
+      - name: Open PR on the ideas repo
+        if: steps.synth.outputs.have_ideas == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: ideas-repo
+          token: ${{ secrets.PAT_TOKEN }}
+          branch: ideas/${{ steps.synth.outputs.day }}
+          base: main
+          commit-message: "Add ideas brief for ${{ steps.synth.outputs.day }}"
+          title: "Ideas — ${{ steps.synth.outputs.day }}"
+          body: |
+            Auto-generated app-idea brief for ${{ steps.synth.outputs.day }}.
+
+            Source: rolling 30-day pool from
+            `${{ github.repository }}@data`. Synthesized via Claude Code on
+            the user's Max-plan OAuth token.
+
+            Review tips:
+            - Check each idea for evidence (URLs must trace back to the
+              source batch).
+            - Drop any idea where you can name 2+ existing competitors.
+            - Treat PAIN + WILL-PAY items as highest-priority.
+
+            Workflow run:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          delete-branch: false
+          draft: true
+
+      - name: Prune stale batches from data branch
+        if: |
+          steps.synth.outputs.have_ideas == 'true' &&
+          (github.event_name != 'workflow_dispatch' ||
+           github.event.inputs.prune != 'false')
+        run: |
+          set -euo pipefail
+          WINDOW="${{ github.event.inputs.window_days }}"
+          WINDOW="${WINDOW:-30}"
+          DATA_DIR="batch-data/data"
+          if [ ! -d "$DATA_DIR" ]; then
+            echo "No data dir to prune."
+            exit 0
+          fi
+          uv run --frozen python3 skills/last30days/scripts/aggregate_day.py \
+            --data-dir "$DATA_DIR" \
+            --window-days "$WINDOW" \
+            --emit json \
+            --prune \
+            --out /tmp/_drop_merged.json >/dev/null
+          cd batch-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Nothing pruned."
+            exit 0
+          fi
+          git add -A
+          git commit -m "Prune batches older than ${WINDOW} days"
+          git push origin data
+
+      - name: Log run to data/usage-log.csv
+        if: always() && hashFiles('batch-data/.git/HEAD') != ''
+        run: |
+          set -euo pipefail
+          TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          STATUS="${{ job.status }}"
+          HAVE_BRIEF="${{ steps.brief.outputs.have_brief }}"
+          HAVE_IDEAS="${{ steps.synth.outputs.have_ideas }}"
+          RUN_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          cd batch-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Refresh in case prune just pushed.
+          git pull --rebase origin data || true
+          mkdir -p data
+          if [ ! -f data/usage-log.csv ]; then
+            echo "timestamp,run_id,run_url,status,brief_built,ideas_synthesized" > data/usage-log.csv
+          fi
+          echo "${TS},${{ github.run_id }},${RUN_URL},${STATUS},${HAVE_BRIEF:-false},${HAVE_IDEAS:-false}" \
+            >> data/usage-log.csv
+          git add data/usage-log.csv
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Log daily-brief run ${TS}"
+          git push origin data

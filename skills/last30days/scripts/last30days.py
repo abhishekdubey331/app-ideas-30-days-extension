@@ -41,7 +41,7 @@ if os.name == "nt":
 SCRIPT_DIR = Path(__file__).parent.resolve()
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from lib import env, html_render, pipeline, render, schema, ui
+from lib import env, html_render, ideas, pipeline, render, schema, ui
 
 _child_pids: set[int] = set()
 _child_pids_lock = threading.Lock()
@@ -110,7 +110,7 @@ def save_output(
         out_path = path / f"{slug}-{raw_label}{suffix_part}-{datetime.now().strftime('%Y-%m-%d')}.{extension}"
     # Markdown saves keep the complete debug artifact. JSON and HTML preserve
     # their requested wire format so file extensions match their content.
-    if emit in {"json", "html"}:
+    if emit in {"json", "html", "ideas"}:
         content = emit_output(report, emit, synthesis_md=synthesis_md)
     else:
         content = render.render_full(report)
@@ -135,6 +135,8 @@ def emit_output(
         return render.render_compact(report, fun_level=fun_level, save_path=save_path)
     if emit == "context":
         return render.render_context(report)
+    if emit == "ideas":
+        return ideas.render_ideas(report, ideas.extract_ideas(report))
     raise SystemExit(f"Unsupported emit mode: {emit}")
 
 
@@ -169,6 +171,32 @@ def emit_comparison_output(
     if emit == "context":
         return render.render_comparison_multi_context(entity_reports)
     raise SystemExit(f"Unsupported emit mode: {emit}")
+
+
+def save_batch_report(report: schema.Report, target: str) -> Path:
+    """Persist the raw Report as JSON for later rolling-window aggregation.
+
+    If `target` ends in `.json`, write to that exact file. Otherwise treat
+    `target` as a directory and write to
+    `<target>/<YYYY-MM-DD>/<HHMM>-<topic-slug>.json`. Per-day subdirectories
+    keep batch files grouped for easy globbing by aggregate_day.py.
+    """
+    from datetime import datetime
+    target_path = Path(target).expanduser()
+    if target_path.suffix == ".json":
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path = target_path
+    else:
+        now = datetime.now()
+        day_dir = target_path / now.strftime("%Y-%m-%d")
+        day_dir.mkdir(parents=True, exist_ok=True)
+        slug = slugify(report.topic) or "untitled"
+        out_path = day_dir / f"{now.strftime('%H%M')}-{slug}.json"
+    out_path.write_text(
+        json.dumps(schema.to_dict(report), indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+    return out_path
 
 
 def compute_save_path_display(save_dir: str, topic: str, suffix: str, emit: str) -> str:
@@ -226,7 +254,7 @@ def persist_report(report: schema.Report) -> dict[str, int]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Research a topic across live social, market, and grounded web sources.")
     parser.add_argument("topic", nargs="*", help="Research topic")
-    parser.add_argument("--emit", default="compact", choices=["compact", "json", "context", "md", "html"])
+    parser.add_argument("--emit", default="compact", choices=["compact", "json", "context", "md", "html", "ideas"])
     parser.add_argument("--search", help="Comma-separated source list")
     parser.add_argument("--quick", action="store_true", help="Lower-latency retrieval profile")
     parser.add_argument("--deep", action="store_true", help="Higher-recall retrieval profile")
@@ -234,6 +262,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--mock", action="store_true", help="Use mock retrieval fixtures")
     parser.add_argument("--diagnose", action="store_true", help="Print provider and source availability")
     parser.add_argument("--save-dir", help="Optional directory for saving the rendered output")
+    parser.add_argument(
+        "--save-batch",
+        help="Persist the raw Report as JSON for later rolling-window aggregation. "
+             "If the path is a directory, writes to <dir>/<YYYY-MM-DD>/<HHMM>-<topic-slug>.json. "
+             "If the path ends in .json, writes to exactly that file (overwriting).",
+    )
     parser.add_argument("--synthesis-file", help="Markdown synthesis to embed in --emit=html output")
     parser.add_argument("--store", action="store_true", help="Persist ranked findings to the SQLite research store")
     parser.add_argument("--x-handle", help="X handle for targeted supplemental search")
@@ -537,10 +571,6 @@ def main() -> int:
     topic = " ".join(args.topic).strip()
     if topic.lower() == "setup":
         from lib import setup_wizard
-        if "--openclaw" in extra_argv:
-            results = setup_wizard.run_openclaw_setup(config)
-            print(json.dumps(results))
-            return 0
         if "--github" in extra_argv:
             results = setup_wizard.run_github_auth()
             print(json.dumps(results))
@@ -892,6 +922,10 @@ def main() -> int:
         or args.ig_creators
     )
     report.artifacts["pre_research_flags_present"] = pre_research_flags_present
+
+    if args.save_batch:
+        batch_path = save_batch_report(report, args.save_batch)
+        sys.stderr.write(f"[last30days] Saved batch JSON to {batch_path}\n")
 
     if entity_reports:
         rendered = emit_comparison_output(
