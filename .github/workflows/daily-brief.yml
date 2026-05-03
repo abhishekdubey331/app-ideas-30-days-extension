@@ -227,3 +227,30 @@ jobs:
           git add -A
           git commit -m "Prune batches older than ${WINDOW} days"
           git push origin data
+
+      - name: Log run to data/usage-log.csv
+        if: always() && hashFiles('batch-data/.git/HEAD') != ''
+        run: |
+          set -euo pipefail
+          TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          STATUS="${{ job.status }}"
+          HAVE_BRIEF="${{ steps.brief.outputs.have_brief }}"
+          HAVE_IDEAS="${{ steps.synth.outputs.have_ideas }}"
+          RUN_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          cd batch-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Refresh in case prune just pushed.
+          git pull --rebase origin data || true
+          mkdir -p data
+          if [ ! -f data/usage-log.csv ]; then
+            echo "timestamp,run_id,run_url,status,brief_built,ideas_synthesized" > data/usage-log.csv
+          fi
+          echo "${TS},${{ github.run_id }},${RUN_URL},${STATUS},${HAVE_BRIEF:-false},${HAVE_IDEAS:-false}" \
+            >> data/usage-log.csv
+          git add data/usage-log.csv
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Log daily-brief run ${TS}"
+          git push origin data

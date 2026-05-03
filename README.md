@@ -1,241 +1,214 @@
-# /last30days
+# app-ideas-30-days-extension
 
-<p align="center">
-  <a href="https://github.com/mvanhorn/last30days-skill">
-    <img src="https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING" alt="GitHub Trending #1 Repository Of The Day" />
-  </a>
-  <br/>
-  <a href="https://trendshift.io/repositories/21997" target="_blank">
-    <img src="https://trendshift.io/api/badge/repositories/21997" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
-  </a>
-</p>
+> Automated app-idea pipeline. Runs every 4 hours on GitHub Actions, mines Reddit / HN / X / YouTube / TikTok / GitHub / web for "I wish there was an app for X" signals over a rolling 30-day window, synthesizes the result with Claude Code, and opens a daily PR in your private ideas repo.
 
-**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**
-
-This README tracks the current v3 pipeline. The runtime skill spec lives in [SKILL.md](SKILL.md), which is the source of truth for the latest command and setup behavior.
-
-Claude Code:
-```
-/plugin marketplace add mvanhorn/last30days-skill
-```
-
-Zero config. Reddit, HN, Polymarket, and GitHub work immediately. Run it once and the setup wizard unlocks X, YouTube, TikTok, and more in 30 seconds.
+This repo is a refactor of [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — the multi-source research engine — turned into a Claude-Code-only, GitHub-Actions-driven idea factory. You don't run it interactively. You let it run; it builds the briefs.
 
 ---
 
-Reddit upvotes. X likes. YouTube transcripts. TikTok engagement. Polymarket odds backed by real money and insider information. That's millions of people voting with their attention and their wallets every day. /last30days searches all of it in parallel, scores it by what real people actually engage with, and an AI agent judge synthesizes it into one brief.
+## What you get
 
-Google aggregates editors. /last30days searches people.
+A new draft PR in `abhishekdubey331/App-Ideas` (or wherever you point it) at 23:00 UTC every day, containing 3–7 ranked app ideas mined from real engagement signal, each one citing the source posts it came from.
 
-You can't get this search anywhere else because no single AI has access to all of it. Google search doesn't touch Reddit comments or X posts. ChatGPT has a deal with Reddit but can't search X or TikTok. Gemini has YouTube but not Reddit. Claude has none of them natively. Each platform is a walled garden with its own API, its own tokens, its own auth. But you can bring your own keys and browser sessions, and suddenly an AI agent can search all of them at once, score them against each other, and tell you what actually matters.
+Example shape of the daily brief:
 
-That's the unlock. Not one better search engine. A dozen disconnected platforms, bridged by an agent.
+```markdown
+# App ideas — 2026-05-04
 
-```
-/last30days Peter Steinberger
-```
+Honest assessment: signal moderate today. PAIN+WILL-PAY combo on idea #1; rest are PAIN-only.
 
-You have a meeting tomorrow. You Google them. You get their LinkedIn from 2023. /last30days gives you what they're actually doing this month: joined OpenAI to work on Codex, fighting Anthropic's ban on third-party agents, shipping 23 PRs at 85% merge rate, building "LobsterOS" for cross-device agent control, and r/ClaudeCode hit 569 upvotes debating whether he's a hero or "insufferable." Scattered across X posts, Reddit threads, YouTube transcripts, and GitHub commits. None of it was on Google.
+## 1. Async meeting prep tool for therapists
+- Unmet need: solo therapists are stitching Calendly + Notion + a paper notebook to prep client sessions
+- Proposed app: lightweight pre-session prep doc auto-pulled from prior session notes, $20/mo
+- Evidence:
+  - [r/therapists thread, 412 upvotes](https://reddit.com/...)
+  - [solo dev complaining about same workflow on X](https://x.com/...)
+- Existing competitors: SimplePractice, Jane App — but neither is workflow-first
+- Score signal: PAIN + WILL-PAY
 
-## Why this exists
+## 2. Self-hosted screenshot annotator
+…
 
-I built it to keep up in AI. Everything changes every day and the Reddit and X nerds are always on top of it first. I needed better prompts, and the training data was always months behind what the community had already figured out.
-
-But it turned into something bigger. Now I run it before a sales call to know the last 30 days truth about a business. Before a meeting to read someone's recent tweets and podcast transcripts. Before a Disney World trip to know which rides are closed and what the community says about Genie+. Before I build anything to know what problems people are actually hitting.
-
-If you're meeting with a CEO, have you read all their tweets and YouTube transcripts from the last 30 days? I have.
-
-## Sources, scored by the people
-
-| Source | What the people tell you |
-|--------|--------------------------|
-| **Reddit** | The unfiltered take. Top comments with upvote counts, free via public JSON. The real opinions that Google buries. |
-| **X / Twitter** | The hot take, the expert thread, the breaking reaction. First to know, first to argue. |
-| **YouTube** | The 45-minute deep dive. Full transcripts searched for the 5 quotable sentences that matter. |
-| **TikTok** | The creator reaching 3.6M people with a take you'll never find on Google. |
-| **Instagram Reels** | The influencer perspective with spoken-word transcripts. The visual culture signal. |
-| **Hacker News** | The developer consensus. 825 points, 899 comments. Where technical people actually argue. |
-| **Polymarket** | Not opinions. Odds. Backed by real money. 96% confidence on album sales. 4% on an acquisition. |
-| **GitHub** | For people: PR velocity, top repos by stars, release notes. For topics: issues and discussions. |
-| **Threads** | The post-Twitter text layer. Conversations from creators and brands. |
-| **Pinterest** | Visual discovery. Pins, saves, and comments on products and ideas. |
-| **Bluesky** | The decentralized social layer. AT Protocol posts from the post-Twitter migration. |
-| **Perplexity** | Grounded web search with citations via Sonar Pro. |
-| **Web** | The editorial coverage, the blog comparisons. One signal of many, not the only one. |
-
-Community contributors keep adding more. Truth Social, Xiaohongshu (RED), and others are in the engine with more on the way.
-
-A Reddit thread with 1,500 upvotes is a stronger signal than a blog post nobody read. A TikTok with 3.6M views tells you more about what's culturally relevant than a press release. Polymarket odds backed by $66K in volume are harder to argue with than a pundit's guess.
-
-The synthesis ranks by what real people actually engaged with. Social relevancy, not SEO relevancy.
-
-## What people actually use it for
-
-**Before a meeting.** `/last30days Peter Steinberger` - joined OpenAI's Codex team, fighting Anthropic's ban on third-party agents, 23 PRs merged at 85% merge rate on GitHub, building LobsterOS for cross-device agent control. r/ClaudeCode: "Ever since OpenClaw released, it was widely known that if you run it through anything other than the API, you were gonna get banned eventually" (227 upvotes). That's not on LinkedIn.
-
-**When something drops.** `/last30days Kanye West` - UK blocked his visa, Wireless Festival canceled, sponsors fled. But BULLY debuted #2 on Billboard. Fantano came back from his "Yay sabbatical" to review it (653K views). SoFi Homecoming brought out Lauryn Hill and Travis Scott for 44 songs. Polymarket: "Will Kanye tweet again?" 86% Yes. 23 Reddit threads, 17 YouTube videos, 86K upvotes.
-
-**To compare tools.** `/last30days OpenClaw vs Hermes vs Paperclip` - "These aren't competitors, they're layers." OpenClaw is the executor (351K GitHub stars, live), Hermes is the self-improving brain (31K stars), Paperclip is the org chart (49K stars). Star counts pulled live from the GitHub API, not stale blog posts. Side-by-side table with architecture, memory, security, best-for. Per @IMJustinBrooke: "OpenClaw = Charmander, Hermes = Charizard."
-
-**To understand the world.** `/last30days Iran vs USA` - Day 38 of the war. Trump's Tuesday deadline for Iran to reopen the Strait of Hormuz. Two US warplanes downed. Oil at $126/barrel. The IEA called it "the largest supply disruption in the history of the global oil market." Polymarket: ceasefire by Dec 31 at 74%. 27 X posts, 10 YouTube videos, 20 prediction markets.
-
-**Before a trip.** `/last30days Universal Epic Universe` - Expansion already under construction. "Project 680" permit filed. Fireworks show confirmed by infrastructure but unannounced. Wait times: Mine-Cart Madness averaging 148 minutes. No annual pass yet, and locals are frustrated. Stardust Racers down for refurbishment through April 5.
-
-**To learn something fast.** `/last30days Nano Banana Pro prompting` - JSON-structured prompts are replacing tag soup. @pictsbyai's nested format prevents "concept bleeding." Edit-first workflow beats regeneration. Then it writes you a production prompt using exactly what the community said works.
-
-## What v3 Changed
-
-### Shareable HTML briefs
-
-Ask for an HTML brief and the skill saves a self-contained, dark-mode, print-friendly file you can drop into Slack, email, or Notion. No raw markdown leaks. Inline CSS, system-font fallbacks behind Inter and JetBrains Mono. No JavaScript. Works offline.
-
-```
-/last30days OpenClaw --emit=html
+## What to research next
+Add `solo developer workflow tools` and `local-first writing apps` to topics.yml.
 ```
 
-or just ask in plain language:
-
-```
-/last30days OpenClaw, give me a shareable HTML brief
-/last30days Cursor IDE for slack
-/last30days Anthropic earnings export as html
-```
-
-The skill emits the synthesis in chat as usual AND saves a brief to `${LAST30DAYS_MEMORY_DIR}/{topic}-brief.html` (defaults to `~/Documents/Last30Days/`). The chat response ends with the file path so you can `open` it or drag it into a message.
-
-What's in the file: badge, inline metadata line, the model's synthesis verbatim with all citations, the engine footer (✅ All agents reported back! tree), and a colophon noting the topic + how to re-run. Data quality warnings (degraded run, thin evidence, etc.) stay in the engine's stderr logs; they never leak into the shareable artifact.
-
-For direct CLI use without the model in the loop, the engine also accepts `--synthesis-file PATH` to convert any markdown synthesis to HTML.
-
-### Intelligent search: the killer feature
-
-The v3 engine doesn't just search for your topic. It figures out *where* to search before the search begins. Type "OpenClaw" and the engine resolves @steipete (Peter Steinberger, the creator), r/openclaw, r/ClaudeCode, and the right YouTube channels and TikTok hashtags - all via a new Python pre-research brain built by [@j-sperling](https://github.com/j-sperling). The old engine searched keywords. The new engine understands your topic first, then searches the right people and communities.
-
-This is why v3 finds content v2 never could. "Paperclip" resolves @dotta. "Dave Morin" resolves @davemorin plus @OpenClaw plus the TWiST podcast. "Peter Steinberger" resolves @steipete on X and steipete on GitHub. Bidirectional: person to company, product to founder, name to GitHub profile. The right subreddits, the right handles, the right hashtags - resolved before a single API call fires.
-
-### Best Takes
-
-Reddit and X people are funny. The old engine buried their best stuff because it scored for relevance, not cleverness. v3 has a second judge that scores every result for humor, wit, and virality alongside the relevance score. Tommy Lloyd's "My Michael Jordan is Steve Kerr" scores low on relevance to "Arizona Basketball" but off the charts on fun. Now every brief ends with a "Best Takes" section - the cleverest one-liners, the most viral quotes, the reactions that make you want to share the research. Built in, not a toggle.
-
-### Cross-source cluster merging
-
-When the same story appears on Reddit, X, and YouTube, v3 merges them into one cluster instead of showing three separate items. Entity-based overlap detection catches matches even when the titles use different words.
-
-### Single-pass comparisons
-
-"CLI vs MCP" used to run three serial passes (12+ minutes). v3 runs one pass with entity-aware subqueries for both sides simultaneously. Same depth, 3 minutes.
-
-### Auto-discovered competitor comparisons
-
-`/last30days OpenAI --competitors` tells the hosting reasoning model to discover the top 2 peers via WebSearch (Anthropic, xAI), run Step 0.55 per entity, and invoke the engine with `"OpenAI vs Anthropic vs xAI"` and a per-entity `--competitors-plan` JSON. The engine fans out 3 full pipelines in parallel, saves a `*-raw.md` file per entity, and merges them into a 3-way comparison. Same mechanics power `/last30days "OpenAI vs Anthropic vs xAI"` directly.
-
-### GitHub person-mode
-
-When the topic is a person, the engine switches from keyword search to author-scoped queries. Instead of "who mentioned this name in an issue body," it answers: what are they shipping and where is it landing?
-
-`/last30days Peter Steinberger --github-user=steipete` shows 22 PRs merged across 3 repos at 85% merge rate. Own projects with README summaries, star counts, and top feature requests. Release notes for what shipped this month. The synthesizer weaves it into the narrative alongside X posts and Reddit threads.
-
-### ELI5 mode
-
-Say "eli5 on" after any research run. The synthesis rewrites in plain language. No jargon. Same data, same sources, same citations - just clearer. "Arizona wins by being physical" instead of "Arizona's identity is paint scoring (50%+ shooting, 9th nationally)." Say "eli5 off" to go back.
-
-### Everything else in v3
-
-- **Free Reddit comments.** Public JSON gives you threads + top comments with upvote counts. No API key, no ScrapeCreators. Just works.
-- **YouTube transcripts that actually work.** Widened candidate pool 3x past music videos to reach talk/review content with captions.
-- **Threads, Pinterest, YouTube + TikTok comments.** Opt-in sources via ScrapeCreators. Set `INCLUDE_SOURCES=tiktok,instagram` and add threads, pinterest, youtube_comments, tiktok_comments for more. `youtube_comments` and `tiktok_comments` surface top comments with vote counts the same way Reddit does.
-- **Perplexity Sonar.** Grounded web search with citations via OpenRouter. Add `OPENROUTER_API_KEY` to unlock.
-- **Polymarket noise filtering.** Common-word disambiguation prevents "Apple" from matching "Will Apple release a car?"
-- **Resilient Reddit.** Timeout budgets and runtime fallback. One slow thread doesn't kill the whole run.
-- **Fun judge v2.** Humor scoring baked into the narrative. Reddit's cleverest one-liners mixed into the synthesis where they fit, not dumped in a separate section.
-- **Polymarket odds, not dollars.** The % odds are the magic. Dollar volumes removed from display.
-- **Per-author cap.** Max 3 items per author prevents any single voice from dominating your brief.
-- **Entity disambiguation.** When the engine resolves handles, the synthesis trusts them. No more Mallorca resorts winning over Washington athletic clubs.
-- **1,012 tests passing.**
-
-## Install
-
-| Surface | Install |
-|---------|---------|
-| **claude.ai** (web) | [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) and upload via Settings > Capabilities > Skills > + |
-| **Claude Code** | `/plugin marketplace add mvanhorn/last30days-skill` |
-
-### claude.ai (web)
-
-1. [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) from the latest release
-2. Go to [claude.ai Settings > Capabilities > Skills](https://claude.ai/settings/capabilities)
-3. Click the `+` button in the Skills panel and drop the file in
-
-Enable "Code execution and file creation" under Capabilities first - skills won't run without it.
-
-### Claude Code
-
-```
-/plugin marketplace add mvanhorn/last30days-skill
-```
-
-Update later with `claude plugin update last30days@last30days-skill`.
-
-### Manual (developer)
-
-```bash
-git clone https://github.com/mvanhorn/last30days-skill.git ~/.claude/skills/last30days
-```
-
-Or build the claude.ai `.skill` file from source: `bash skills/last30days/scripts/build-skill.sh` produces `dist/last30days.skill`.
-
-Reddit (with comments), Hacker News, Polymarket, and GitHub work immediately. Zero configuration. Run `/last30days` once and the setup wizard unlocks more sources in 30 seconds.
-
-## Bring your own keys
-
-These platforms don't have relationships with each other. X doesn't know what Reddit thinks. YouTube doesn't see TikTok. But you can bring your own API keys and browser tokens, and suddenly you have access to all of them at once.
-
-| Sources | What you need | Cost |
-|---------|---------------|------|
-| Reddit (with comments) + HN + Polymarket + GitHub | Nothing | Free |
-| X / Twitter | Log into x.com in any browser | Free |
-| YouTube | `brew install yt-dlp` | Free |
-| Bluesky | App password from bsky.app | Free |
-| TikTok + Instagram + Threads + Pinterest + YouTube comments | ScrapeCreators key | 10,000 free calls |
-| Perplexity Sonar | OpenRouter key | Pay as you go |
-| Web search | Brave Search key | 2,000 free queries/month |
+---
 
 ## How it works
 
-1. **You type a topic.** Person, company, product, technology, "X vs Y." Anything.
-2. **The agent resolves who matters.** Finds X handles (including founders), GitHub repos, subreddits, TikTok hashtags, YouTube channels. For "Kanye West" it knows r/hiphopheads, @kanyewest, and "bully review" on YouTube. For "OpenClaw" it resolves openclaw/openclaw on GitHub and fetches live star counts.
-3. **All sources searched in parallel.** Multi-query expansion. Results scored by engagement, relevance, freshness.
-4. **The depth nobody else has.** Full YouTube transcripts from reaction videos. Top Reddit comments with upvote counts. TikTok captions. Polymarket odds. Not just titles and links.
-5. **Same story, merged.** Wireless Festival announced on Reddit, discussed on X, ticket prices on TikTok = one cluster, not three separate items.
-6. **Synthesized into one brief.** Grounded in specific data. Cited by source. Ranked by what people actually engage with. Not "here's what I found." It's "here's what matters."
-7. **Then it becomes your expert.** After one run, your Claude session knows everything the community knows. Ask follow-up questions. Have it write prompts, draft emails, plan trips, architect systems - all grounded in what's real right now.
+```
+topics.yml  ──►  batch.yml (every 4h)                ──►  data branch
+   ▲             ├ 00 UTC: reddit + hackernews            ▲
+   │             ├ 04 UTC: x + bluesky                    │ writes
+   │             ├ 08 UTC: youtube                        │ JSON dumps
+   │             ├ 12 UTC: tiktok + instagram             │ per seed
+   │             ├ 16 UTC: github + polymarket            │
+   │ you edit    └ 20 UTC: web + perplexity               │
+   │                          ▲
+   │                          │ deterministic seed rotation by (date, hour)
+   │                          │
+   │                                                                  ┌─► PR draft
+   └────────────────────────────►  daily-brief.yml (23 UTC)            │   ideas/2026-05-04.md
+                                   ├ aggregate 30d rolling pool       │
+                                   ├ Claude Code synthesizes ideas.md │
+                                   └ open cross-repo PR ──────────────┘   abhishekdubey331/App-Ideas
+```
 
-## What people are saying
+**Why batches?** Each 4-hour window restricts to one source group, which gives you per-batch token attribution in the Actions log and keeps any single source's rate limits from blocking the others. **Why a rolling 30-day window?** Yesterday's complaint is still today's idea. Pain doesn't expire on a daily reset.
 
-> "I found a Claude Code skill that researches any topic across Reddit, X, YouTube, and HN from the last 30 days. Then writes the prompts for you. I've been manually searching Reddit and X for research before every piece of content I write. Tab by tab. Thread by thread. That's the part that takes 90 minutes. This eliminates it." -@itsjasonai
-
-> "This one skill replaced my entire research workflow. You give it a topic, it scrapes Reddit, X, and the web for what people are actually talking about. Not old blog posts. Real conversations from the last 30 days." -@itswilsoncharles
-
-> "5 of the 10 trending repos on GitHub today are Claude tools. #1: mvanhorn/last30days-skill" -@yieldhunter95
-
-## Open source
-
-MIT license. No tracking. No analytics. Your research stays on your machine. 1,012 tests.
-
-Built with Python 3.12+, yt-dlp, Node.js (vendored Bird client for X search), and ScrapeCreators API. v3 engine architecture by [@j-sperling](https://github.com/j-sperling).
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
-## Star History
-
-<a href="https://star-history.com/#mvanhorn/last30days-skill&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date" />
-  </picture>
-</a>
+**Why Claude Code instead of a raw API call?** The Max-plan OAuth token covers the synthesis cost — no separate Anthropic API billing.
 
 ---
 
-**@slashlast30days** · [github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+## Setup (15 minutes)
+
+### 1. Make this repo public
+
+GitHub Actions are unmetered on public repos. The workflows hit the 2,000-min/month free tier within ~5 days on a private repo. Your private ideas repo (`App-Ideas`) stays private — only this engine repo needs to be public.
+
+### 2. Create the ideas repo
+
+Anywhere you like. Default expectation: `<your-handle>/App-Ideas`, private, with a `main` branch. The daily-brief workflow will push `ideas/<YYYY-MM-DD>.md` files there as draft PRs.
+
+### 3. Generate two secrets
+
+Run locally (you need Claude Code installed and signed in to your Pro/Max plan):
+
+```bash
+claude setup-token
+```
+
+Copy the token. In this repo's GitHub settings → Secrets and variables → Actions → New repository secret:
+
+- `CLAUDE_CODE_OAUTH_TOKEN` ← paste the token from `claude setup-token`
+- `PAT_TOKEN` ← a [fine-grained PAT](https://github.com/settings/tokens?type=beta) scoped only to your `App-Ideas` repo, with `Contents: write` and `Pull requests: write`
+
+The Claude Code GitHub App must also be installed on this repo. If it isn't, run `/install-github-app` in a Claude Code session — it sets the app up and you can confirm it points at this repository.
+
+### 4. (Optional) Add source keys
+
+Each is independent — missing a key just skips that source group on its 4-hour slot.
+
+| Secret | Unlocks | Cost |
+|---|---|---|
+| `SCRAPECREATORS_API_KEY` | TikTok + Instagram + Threads + Pinterest + YouTube/TikTok comments | 10K free calls then PAYG |
+| `OPENROUTER_API_KEY` | Perplexity Sonar web grounding | PAYG |
+| `BRAVE_API_KEY` | Brave web search | 2,000 free queries/month |
+| `XAI_API_KEY` | X / Twitter via xAI | PAYG |
+| `AUTH_TOKEN` + `CT0` | X / Twitter via your browser cookies | free |
+| `BSKY_HANDLE` + `BSKY_APP_PASSWORD` | Bluesky | free (app password from bsky.app) |
+
+The "always free" sources (Reddit, HN, Polymarket, GitHub) work with no keys at all.
+
+### 5. Edit `topics.yml`
+
+The seed file at the repo root. 32 starter seeds following the 70/20/10 mix recommended by the opportunity-mining literature (Marc Lou's pain-vs-vitamin framing, Idea Browser's community-signal approach, F5Bot/PainOnSocial query operators):
+
+- **70% pain-phrase seeds** — `'"I wish there was an app"'`, `'"why is there no" tool'`, `'"local-first alternative to"'`
+- **20% vertical-pain seeds** — `'freelancers "I wish"'`, `'landlords "why is there no"'`, `'sysadmin "I hate"'`
+- **10% community firehoses + rotating wildcards** — `site:reddit.com/r/SideProject`, `Show HN`, plus 1–2 trends you swap weekly
+
+Edit the file directly — no rebuild, no redeploy. The next batch picks it up.
+
+### 6. Push and wait
+
+Workflows run on the schedule:
+
+| When (UTC) | What |
+|---|---|
+| 00:00 | batch A — Reddit + HN |
+| 04:00 | batch B — X + Bluesky |
+| 08:00 | batch C — YouTube |
+| 12:00 | batch D — TikTok + Instagram |
+| 16:00 | batch E — GitHub + Polymarket |
+| 20:00 | batch F — Web + Perplexity |
+| 23:00 | **daily synthesis → PR in `App-Ideas`** |
+
+You can also kick any of them manually via the **Actions** tab → workflow → *Run workflow*.
+
+---
+
+## Reading the briefs
+
+Watch `App-Ideas` for new draft PRs. Each PR is one day's brief. Review:
+
+- **Trace every URL** back to the source — the synthesis is instructed never to invent evidence, but verify.
+- **Drop ideas with 2+ existing competitors** — Claude is told to flag these, but check.
+- **Treat PAIN + WILL-PAY items as highest priority.** A complaint with a price tag is more investable than a complaint without one.
+- **Merge what's worth pursuing**, close the rest. The closed PRs are still in the repo's history if you want to revisit.
+
+The `data/usage-log.csv` file on this repo's `data` branch tracks every daily-brief run (timestamp, run id, status, whether a brief was produced). Cross-reference against your Anthropic console for token-cost audit.
+
+---
+
+## Repo layout
+
+```
+.github/workflows/
+  batch.yml           # every 4h: pick source group + 4 seeds, run engine, save JSON
+  daily-brief.yml     # daily 23 UTC: aggregate, synthesize, cross-repo PR
+  validate.yml        # CI: contract + version tests on every push
+  release.yml         # legacy plugin release (kept for reference)
+skills/last30days/
+  SKILL.md            # the engine's runtime contract (1400+ lines)
+  scripts/
+    last30days.py     # CLI entry point — used by batch.yml
+    aggregate_day.py  # rolling-window aggregator — used by daily-brief.yml
+    select_seeds.py   # deterministic seed rotation — used by batch.yml
+    lib/
+      ideas.py        # opportunity classifier (pain / launch / wtp / workflow)
+      pipeline.py     # multi-source orchestration
+      ...             # ~47 modules: per-source clients, clustering, rerank, render
+tests/                # ~80 pytest files; see test_ideas.py + test_aggregate_day.py
+                      # + test_select_seeds.py for the new code in this fork
+topics.yml            # the seed file you edit
+doc.md                # planning + architecture notes for this refactor
+```
+
+---
+
+## Local development
+
+```bash
+# Run the engine on a single seed (no key needed for Reddit/HN/Polymarket/GitHub)
+uv run python3 skills/last30days/scripts/last30days.py "I wish there was an app" \
+  --search reddit,hackernews \
+  --emit ideas
+
+# Persist a batch JSON for the aggregator
+uv run python3 skills/last30days/scripts/last30days.py "freelancers I wish" \
+  --search reddit \
+  --emit json \
+  --save-batch data/
+
+# Aggregate a day's batches into one ideas brief
+uv run python3 skills/last30days/scripts/aggregate_day.py \
+  --data-dir data --window-days 30 --emit ideas --out brief.md
+
+# Pick seeds for a specific batch slot
+uv run python3 skills/last30days/scripts/select_seeds.py \
+  --topics topics.yml --count 4 --date 2026-05-04 --hour 12
+
+# Run tests
+uv run pytest tests/test_ideas.py tests/test_aggregate_day.py tests/test_select_seeds.py
+```
+
+---
+
+## Honest expectations
+
+- **~70% of generated ideas on first runs will be noise** — already-exists, too-small, no willingness-to-pay, or too-vague. Expected and survivable.
+- **The 30% that survive the four-pass filter are real.** Better than scrolling subreddits manually.
+- **The pipeline does not tell you which ideas are worth *building*.** That's still a human call requiring market research, your skill fit, defensibility analysis. The pipeline tells you what to *consider*.
+- **The LLM will always produce plausible-sounding ideas, even from thin data.** Counter this with: hard limit on ideas per day (top 7), minimum-evidence rule (Claude is instructed never to cite a URL not in the brief), and your own review.
+
+See `doc.md` §8 for the longer version of this honesty pass.
+
+---
+
+## Credits
+
+Engine ([`skills/last30days/scripts/lib/`](skills/last30days/scripts/lib)) and skill contract ([`skills/last30days/SKILL.md`](skills/last30days/SKILL.md)) by [Matt Van Horn](https://github.com/mvanhorn) — see [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) for the upstream and the original v3 architecture by [@j-sperling](https://github.com/j-sperling).
+
+This fork narrows scope to Claude-Code-only, drops the multi-harness packaging, and adds the GitHub-Actions pipeline + opportunity classifier described above. MIT license. No analytics. No tracking. Your data and your ideas stay on the GitHub repos you own.
