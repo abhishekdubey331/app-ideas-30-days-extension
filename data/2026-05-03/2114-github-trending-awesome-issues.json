@@ -1,0 +1,1649 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "github trending awesome issues",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://githubstatus.com",
+        "https://githubstatus.com/incidents/kcf0thb1zp30",
+        "https://githubstatus.com/incidents/3f30ycplyr7l",
+        "https://reddit.com/r/claudecode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed",
+        "https://reddit.com/r/wutheringwaves/comments/1su3mya/wuthering_waves_performance_stutter_engine",
+        "https://reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull",
+        "https://reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://githubstatus.com",
+        "https://reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull",
+        "https://reddit.com/r/claudecode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews",
+        "reddit"
+      ],
+      "title": "GitHub is having issues now",
+      "uncertainty": "thin-evidence"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Honest concerns regarding the game...",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "The cat distribution system brought me a momma cat and five babies!",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://twitter.com/kdaigle/status/2040164759836778878"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://twitter.com/kdaigle/status/2040164759836778878"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "1400% surge in GitHub commits explains service issues",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "cluster_id": "cluster-9",
+      "representative_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "GitHub issues list not loading",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "cluster_id": "cluster-10",
+      "representative_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-03T21:14:56.121365+00:00",
+  "items_by_source": {
+    "hackernews": [
+      {
+        "author": "SenHeng",
+        "body": "GitHub is having issues now",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 122,
+          "points": 328
+        },
+        "engagement_score": 100,
+        "freshness": 80,
+        "item_id": "47924775",
+        "local_rank_score": 0.4235,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47924775",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub is having issues now",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub is having issues now",
+        "url": "https://www.githubstatus.com",
+        "why_relevant": "HN story about GitHub is having issues now"
+      },
+      {
+        "author": "debarshri",
+        "body": "Tell HN: GitHub Issues Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "points": 5
+        },
+        "engagement_score": 0,
+        "freshness": 86,
+        "item_id": "47949488",
+        "local_rank_score": 0.3385,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47949488",
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 1.0,
+        "snippet": "Tell HN: GitHub Issues Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "Tell HN: GitHub Issues Issues",
+        "url": "https://news.ycombinator.com/item?id=47949488",
+        "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+      },
+      {
+        "author": "SpyCoder77",
+        "body": "GitHub issues list not loading",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "points": 3
+        },
+        "engagement_score": 9,
+        "freshness": 80,
+        "item_id": "47923779",
+        "local_rank_score": 0.3325,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47923779",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub issues list not loading",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub issues list not loading",
+        "url": "https://github.com/fuma-nama/fumadocs/issues",
+        "why_relevant": "HN story about GitHub issues list not loading"
+      },
+      {
+        "author": "connorbrinton",
+        "body": "GitHub Having Issues (Again)",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 1,
+          "points": 5
+        },
+        "engagement_score": 7,
+        "freshness": 66,
+        "item_id": "47876498",
+        "local_rank_score": 0.29550000000000004,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47876498",
+          "top_comments": []
+        },
+        "published_at": "2026-04-23",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub Having Issues (Again)",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Having Issues (Again)",
+        "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+        "why_relevant": "HN story about GitHub Having Issues (Again)"
+      },
+      {
+        "author": "mkeeter",
+        "body": "GitHub Is Having Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 2,
+          "points": 7
+        },
+        "engagement_score": 14,
+        "freshness": 46,
+        "item_id": "47806704",
+        "local_rank_score": 0.272,
+        "local_relevance": 0.22,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47806704",
+          "top_comments": []
+        },
+        "published_at": "2026-04-17",
+        "relevance_hint": 0.98,
+        "snippet": "GitHub Is Having Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Is Having Issues",
+        "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+        "why_relevant": "HN story about GitHub Is Having Issues"
+      },
+      {
+        "author": "tonymet",
+        "body": "1400% surge in GitHub commits explains service issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "points": 8
+        },
+        "engagement_score": 19,
+        "freshness": 0,
+        "item_id": "47633510",
+        "local_rank_score": 0.1165,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47633510",
+          "top_comments": []
+        },
+        "published_at": "2026-04-03",
+        "relevance_hint": 0.94,
+        "snippet": "1400% surge in GitHub commits explains service issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "1400% surge in GitHub commits explains service issues",
+        "url": "https://twitter.com/kdaigle/status/2040164759836778878",
+        "why_relevant": "HN story about 1400% surge in GitHub commits explains service issues"
+      }
+    ],
+    "reddit": [
+      {
+        "body": "The cat distribution system brought me a momma cat and five babies!\nThe previous tenant in me and my partner's new apartment abandoned a young pregnant black cat. We moved in just a week and a half ago when we met her, and she begged to come inside. Since my partner already has a cat, we set up a shelter for her in our patio closet, and got her kitten food. She became friendly with me, and early last Tuesday morning, she gave birth to FIVE kittens in that shelter we made for her. \n\nI've been wanting my own cat, and was planning on adopting one from our local cat\nCat distribution system working as intended Thank you for saving this sweet mama and babies!!!  Is there one grey one..?! I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+        "container": "cats",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 106,
+          "score": 8713,
+          "upvote_ratio": 0.99
+        },
+        "engagement_score": 88,
+        "freshness": 83,
+        "item_id": "R3",
+        "local_rank_score": 0.406,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "Cat distribution system working as intended",
+            "Thank you for saving this sweet mama and babies!!!  Is there one grey one..?!",
+            "I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+            "Aww. She ran out of ink on that last one \u2764\ufe0f",
+            "I should add, we did name the kittens! We named momma cat Arya because I've been reading GoT and we just started watching the series for the first tim...",
+            "Way to get them to safety before they had sister nieces ",
+            "https://preview.redd.it/ehc7iilhdvxg1.jpeg?width=4284&format=pjpg&auto=webp&s=398a95515cb4fedaede02188dfec8f79a658ed2f\n\nGotta love the distribution sy...",
+            "Awww what a blessed void pile!"
+          ],
+          "top_comments": [
+            {
+              "author": "Prudertd",
+              "date": "2026-04-28",
+              "excerpt": "Cat distribution system working as intended",
+              "score": 752,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioitxd/"
+            },
+            {
+              "author": "Low-Variation-5245",
+              "date": "2026-04-28",
+              "excerpt": "Thank you for saving this sweet mama and babies!!!  Is there one grey one..?!",
+              "score": 274,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiojatx/"
+            },
+            {
+              "author": "Fluffy_Carrot_4284",
+              "date": "2026-04-28",
+              "excerpt": "I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+              "score": 184,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiolnwv/"
+            },
+            {
+              "author": "themusicalskunk",
+              "date": "2026-04-28",
+              "excerpt": "I should add, we did name the kittens! We named momma cat Arya because I've been reading GoT and we just started watching the series for the first time. But the others have all been named after characters from Hades 2 because we've both been playing it like crazy. The grey one is Selene, there's two",
+              "score": 182,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiojfyv/"
+            },
+            {
+              "author": "Corduroybee",
+              "date": "2026-04-28",
+              "excerpt": "Aww. She ran out of ink on that last one \u2764\ufe0f",
+              "score": 135,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioot6z/"
+            },
+            {
+              "author": "RecommendationDry458",
+              "date": "2026-04-28",
+              "excerpt": "Way to get them to safety before they had sister nieces ",
+              "score": 81,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioltfy/"
+            },
+            {
+              "author": "HelloPanda22",
+              "date": "2026-04-28",
+              "excerpt": "https://preview.redd.it/ehc7iilhdvxg1.jpeg?width=4284&format=pjpg&auto=webp&s=398a95515cb4fedaede02188dfec8f79a658ed2f\n\nGotta love the distribution system. The moment they\u2019re old enough, everybody getting neutered/spayed! Mine aren\u2019t named though as the goal is to adopt them out although the mama ca",
+              "score": 63,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oip3dqn/"
+            },
+            {
+              "author": "GatsbyThePoodle",
+              "date": "2026-04-28",
+              "excerpt": "Mama is so smol! ",
+              "score": 56,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioqc9x/"
+            },
+            {
+              "author": "Trev_x",
+              "date": "2026-04-28",
+              "excerpt": "Awww what a blessed void pile!",
+              "score": 50,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiokbxc/"
+            },
+            {
+              "author": "jbadaro",
+              "date": "2026-04-28",
+              "excerpt": "r/trojancat working overtime ",
+              "score": 45,
+              "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiolx6b/"
+            }
+          ]
+        },
+        "published_at": "2026-04-28",
+        "relevance_hint": 0.09,
+        "snippet": "Cat distribution system working as intended Thank you for saving this sweet mama and babies!!!  Is there one grey one..?! I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "The cat distribution system brought me a momma cat and five babies!",
+        "url": "https://www.reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Honest concerns regarding the game...\nIf you are a Tomodachi Life die hard fan and defender, please read this carefully and don't get mad, because I'm just as enthusiastic about this game as you are.\n\nI've been playing the game nonstop for the past few days, and I love it, I really do, but I feel like the more time I spend on it, the more disappointed I become.\n\nThere's a lot of awesome features from the 3DS version that have been removed for some reason and I've been genuinely bummed over that. Like married miis not sleeping togeth\nI feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game. In the 3DS version, there was a lot more pride in seeing the Miis doing activities as a married couple and seeing their kids grow up. It was honestly one of the most exciting parts of the late game I agree - I'm also bummed about a lack of weather system. Things like rain and fog could make for some unique interactions but Nintendo seems to hate variety. Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing.\n\nOne of the things that stuck out to me at first was the lack of a new interior being added every day alongside the clothing + food. New interiors being obtainable only through the fountain is really really kind",
+        "container": "tomodachilife",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1037,
+          "score": 5589,
+          "upvote_ratio": 0.96
+        },
+        "engagement_score": 97,
+        "freshness": 53,
+        "item_id": "R5",
+        "local_rank_score": 0.38549999999999995,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [
+            "I absolutely love the game so far but it really sucks that some of the best parts of the 3ds game are absent, im especially upset about babies immedia...",
+            "I feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game.",
+            "I agree - I'm also bummed about a lack of weather system.",
+            "Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing.",
+            "There better be some good updates or I'll be very disappointed ",
+            "Yeah the small amount of gifts was a big disappointment for me. I kept waiting for more to show up and then saw that's all of them. ",
+            "The making your own items is great and all, but the Miis don\u2019t interact with them like they should, you know?",
+            "This has probably already been said in the comments, but it feels like a lot of these games end up going too far in allowing full customization while...",
+            "What I miss the most is the musicals they used to do in the original. Those were hilarious. ",
+            "I think getting into relationship is too common, on my island more than half the population has a crush on each other when from what I\u2019ve seen of the..."
+          ],
+          "top_comments": [
+            {
+              "author": "PigIAsTraalt",
+              "date": "2026-04-19",
+              "excerpt": "I feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game. In the 3DS version, there was a lot more pride in seeing the Miis doing activities as a married couple and seeing their kids grow up. It was honestly one of the most exciting parts of the late game",
+              "score": 3010,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh29rfp/"
+            },
+            {
+              "author": "jinjinyesjinjin",
+              "date": "2026-04-19",
+              "excerpt": "I agree - I'm also bummed about a lack of weather system. Things like rain and fog could make for some unique interactions but Nintendo seems to hate variety. ",
+              "score": 1750,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2c103/"
+            },
+            {
+              "author": "Re-Ky",
+              "date": "2026-04-19",
+              "excerpt": "Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing.\n\nOne of the things that stuck out to me at first was the lack of a new interior being added every day alongside the clothing + food. New interiors being obtainable only through the fountain is really really kind",
+              "score": 1058,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh24l49/"
+            },
+            {
+              "author": "Hydrishu",
+              "date": "2026-04-19",
+              "excerpt": "There better be some good updates or I'll be very disappointed ",
+              "score": 990,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2al6r/"
+            },
+            {
+              "author": "ny4ncatz",
+              "date": "2026-04-19",
+              "excerpt": "I absolutely love the game so far but it really sucks that some of the best parts of the 3ds game are absent, im especially upset about babies immediately aging up because babies were one of my favourite parts of the game and i was the most excited to see what they would be like\n\nIt wouldve been the cutest thing to see babies roaming around the house, being able to interact with roommates or being",
+              "score": 912,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2jn2y/"
+            },
+            {
+              "author": "FindableSpy",
+              "date": "2026-04-19",
+              "excerpt": "What I miss the most is the musicals they used to do in the original. Those were hilarious. ",
+              "score": 691,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh29zge/"
+            },
+            {
+              "author": "Reddeadtail",
+              "date": "2026-04-19",
+              "excerpt": "I think getting into relationship is too common, on my island more than half the population has a crush on each other when from what I\u2019ve seen of the original it took awhile for that to happen. Also the proposal annoyed me after seeing what the old proposals looked like, in a way the island feels le",
+              "score": 475,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2b927/"
+            },
+            {
+              "author": "CrusaderCuff",
+              "date": "2026-04-19",
+              "excerpt": "Yeah the small amount of gifts was a big disappointment for me. I kept waiting for more to show up and then saw that's all of them. ",
+              "score": 295,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2hp68/"
+            },
+            {
+              "author": "LaurenFantastic",
+              "date": "2026-04-19",
+              "excerpt": "The making your own items is great and all, but the Miis don\u2019t interact with them like they should, you know? \n\nAlso. What if you have a creative bone the size of your pinky finger? Then it just leaves that population who are less so artistically declined feeling\u2026sad. ",
+              "score": 271,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2dd1i/"
+            },
+            {
+              "author": "raichubestboy",
+              "date": "2026-04-19",
+              "excerpt": "This has probably already been said in the comments, but it feels like a lot of these games end up going too far in allowing full customization while taking away a lot of the charm that brings you back to the game in the first place. (ACNL vs ACNH) ",
+              "score": 238,
+              "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2qgdl/"
+            }
+          ]
+        },
+        "published_at": "2026-04-19",
+        "relevance_hint": 0.09,
+        "snippet": "I feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game. In the 3DS version, there was a lot more pride in seeing the Miis doing activities as a married couple and seeing their kids grow up. It was honestly one of the most exciting parts of the late game I agree - I'm also bummed about a lack of weather system. Things like rain and fog could make for some unique interactions but Nintendo seems to hate variety. Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing. One of the things that stuck out to me at first was the lack of...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Honest concerns regarding the game...",
+        "url": "https://www.reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.\nIt was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+        "container": "WutheringWaves",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 363,
+          "score": 1255,
+          "upvote_ratio": 0.91
+        },
+        "engagement_score": 71,
+        "freshness": 70,
+        "item_id": "R38",
+        "local_rank_score": 0.3565,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-24",
+        "relevance_hint": 0.22,
+        "snippet": "It was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.",
+        "url": "https://www.reddit.com/r/WutheringWaves/comments/1su3mya/wuthering_waves_performance_stutter_engine/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Github.com website issues?",
+        "container": "github",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 5
+        },
+        "engagement_score": 14,
+        "freshness": 80,
+        "item_id": "R52",
+        "local_rank_score": 0.3375,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 0.9,
+        "snippet": "Github.com website issues?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Github.com website issues?",
+        "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/",
+        "why_relevant": "Reddit r/github search"
+      },
+      {
+        "body": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%\n[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing out opinions.\n\nThe key number is brutal. The issue says estimated thinking depth dropped about 67% by",
+        "container": "ClaudeCode",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 197,
+          "score": 1622,
+          "upvote_ratio": 0.97
+        },
+        "engagement_score": 71,
+        "freshness": 13,
+        "item_id": "R34",
+        "local_rank_score": 0.22049999999999997,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-07",
+        "relevance_hint": 0.22,
+        "snippet": "[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing o",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Backing up GitHub repositories, issues, and pull requests\nDo you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Recently I found something called gitea-mirror, which creates backups and can also produce a fully usa",
+        "container": "github",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 24,
+          "score": 3,
+          "upvote_ratio": 0.8
+        },
+        "engagement_score": 20,
+        "freshness": 19,
+        "item_id": "R50",
+        "local_rank_score": 0.17800000000000005,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-09",
+        "relevance_hint": 0.87,
+        "snippet": "Do you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Re",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Backing up GitHub repositories, issues, and pull requests",
+        "url": "https://www.reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "github trending awesome issues",
+    "source_weights": {
+      "hackernews": 0.4390243902439025,
+      "reddit": 0.5609756097560976
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to github trending awesome issues, especially about github issues?",
+        "search_query": "github issues",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for github trending awesome issues?",
+        "search_query": "github issues reaction update",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-03",
+  "range_to": "2026-05-03",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://githubstatus.com",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 61.75,
+      "item_id": "47924775",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47924775",
+            "native_rank": 1,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 1
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.004233600677376109,
+      "snippet": "GitHub is having issues now",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SenHeng",
+          "body": "GitHub is having issues now",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 122,
+            "points": 328
+          },
+          "engagement_score": 100,
+          "freshness": 80,
+          "item_id": "47924775",
+          "local_rank_score": 0.4235,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47924775",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub is having issues now",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub is having issues now",
+          "url": "https://www.githubstatus.com",
+          "why_relevant": "HN story about GitHub is having issues now"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub is having issues now",
+      "url": "https://www.githubstatus.com"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game",
+      "cluster_id": "cluster-2",
+      "engagement": 97,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          },
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1,
+        "reaction:reddit": 2
+      },
+      "rerank_score": 8.399999999999999,
+      "rrf_score": 0.009135245332606996,
+      "snippet": "I feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game. In the 3DS version, there was a lot more pride in seeing the Miis doing activities as a married couple and seeing their kids grow up. It was honestly one of the most exciting parts of the late game I agree - I'm also bummed about a lack of weather system. Things like rain and fog could make for some unique interactions but Nintendo seems to hate variety. Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing. One of the things that stuck out to me at first was the lack of...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Honest concerns regarding the game...\nIf you are a Tomodachi Life die hard fan and defender, please read this carefully and don't get mad, because I'm just as enthusiastic about this game as you are.\n\nI've been playing the game nonstop for the past few days, and I love it, I really do, but I feel like the more time I spend on it, the more disappointed I become.\n\nThere's a lot of awesome features from the 3DS version that have been removed for some reason and I've been genuinely bummed over that. Like married miis not sleeping togeth\nI feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game. In the 3DS version, there was a lot more pride in seeing the Miis doing activities as a married couple and seeing their kids grow up. It was honestly one of the most exciting parts of the late game I agree - I'm also bummed about a lack of weather system. Things like rain and fog could make for some unique interactions but Nintendo seems to hate variety. Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing.\n\nOne of the things that stuck out to me at first was the lack of a new interior being added every day alongside the clothing + food. New interiors being obtainable only through the fountain is really really kind",
+          "container": "tomodachilife",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1037,
+            "score": 5589,
+            "upvote_ratio": 0.96
+          },
+          "engagement_score": 97,
+          "freshness": 53,
+          "item_id": "R5",
+          "local_rank_score": 0.38549999999999995,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [
+              "I absolutely love the game so far but it really sucks that some of the best parts of the 3ds game are absent, im especially upset about babies immedia...",
+              "I feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game.",
+              "I agree - I'm also bummed about a lack of weather system.",
+              "Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing.",
+              "There better be some good updates or I'll be very disappointed ",
+              "Yeah the small amount of gifts was a big disappointment for me. I kept waiting for more to show up and then saw that's all of them. ",
+              "The making your own items is great and all, but the Miis don\u2019t interact with them like they should, you know?",
+              "This has probably already been said in the comments, but it feels like a lot of these games end up going too far in allowing full customization while...",
+              "What I miss the most is the musicals they used to do in the original. Those were hilarious. ",
+              "I think getting into relationship is too common, on my island more than half the population has a crush on each other when from what I\u2019ve seen of the..."
+            ],
+            "top_comments": [
+              {
+                "author": "PigIAsTraalt",
+                "date": "2026-04-19",
+                "excerpt": "I feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game. In the 3DS version, there was a lot more pride in seeing the Miis doing activities as a married couple and seeing their kids grow up. It was honestly one of the most exciting parts of the late game",
+                "score": 3010,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh29rfp/"
+              },
+              {
+                "author": "jinjinyesjinjin",
+                "date": "2026-04-19",
+                "excerpt": "I agree - I'm also bummed about a lack of weather system. Things like rain and fog could make for some unique interactions but Nintendo seems to hate variety. ",
+                "score": 1750,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2c103/"
+              },
+              {
+                "author": "Re-Ky",
+                "date": "2026-04-19",
+                "excerpt": "Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing.\n\nOne of the things that stuck out to me at first was the lack of a new interior being added every day alongside the clothing + food. New interiors being obtainable only through the fountain is really really kind",
+                "score": 1058,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh24l49/"
+              },
+              {
+                "author": "Hydrishu",
+                "date": "2026-04-19",
+                "excerpt": "There better be some good updates or I'll be very disappointed ",
+                "score": 990,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2al6r/"
+              },
+              {
+                "author": "ny4ncatz",
+                "date": "2026-04-19",
+                "excerpt": "I absolutely love the game so far but it really sucks that some of the best parts of the 3ds game are absent, im especially upset about babies immediately aging up because babies were one of my favourite parts of the game and i was the most excited to see what they would be like\n\nIt wouldve been the cutest thing to see babies roaming around the house, being able to interact with roommates or being",
+                "score": 912,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2jn2y/"
+              },
+              {
+                "author": "FindableSpy",
+                "date": "2026-04-19",
+                "excerpt": "What I miss the most is the musicals they used to do in the original. Those were hilarious. ",
+                "score": 691,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh29zge/"
+              },
+              {
+                "author": "Reddeadtail",
+                "date": "2026-04-19",
+                "excerpt": "I think getting into relationship is too common, on my island more than half the population has a crush on each other when from what I\u2019ve seen of the original it took awhile for that to happen. Also the proposal annoyed me after seeing what the old proposals looked like, in a way the island feels le",
+                "score": 475,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2b927/"
+              },
+              {
+                "author": "CrusaderCuff",
+                "date": "2026-04-19",
+                "excerpt": "Yeah the small amount of gifts was a big disappointment for me. I kept waiting for more to show up and then saw that's all of them. ",
+                "score": 295,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2hp68/"
+              },
+              {
+                "author": "LaurenFantastic",
+                "date": "2026-04-19",
+                "excerpt": "The making your own items is great and all, but the Miis don\u2019t interact with them like they should, you know? \n\nAlso. What if you have a creative bone the size of your pinky finger? Then it just leaves that population who are less so artistically declined feeling\u2026sad. ",
+                "score": 271,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2dd1i/"
+              },
+              {
+                "author": "raichubestboy",
+                "date": "2026-04-19",
+                "excerpt": "This has probably already been said in the comments, but it feels like a lot of these games end up going too far in allowing full customization while taking away a lot of the charm that brings you back to the game in the first place. (ACNL vs ACNH) ",
+                "score": 238,
+                "url": "https://reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/oh2qgdl/"
+              }
+            ]
+          },
+          "published_at": "2026-04-19",
+          "relevance_hint": 0.09,
+          "snippet": "I feel like a lot of the stuff around marriage and children is way less fleshed out than the 3DS game. In the 3DS version, there was a lot more pride in seeing the Miis doing activities as a married couple and seeing their kids grow up. It was honestly one of the most exciting parts of the late game I agree - I'm also bummed about a lack of weather system. Things like rain and fog could make for some unique interactions but Nintendo seems to hate variety. Yeah. I do agree that seeing certain things being cut from LTD is kind of disappointing. One of the things that stuck out to me at first was the lack of...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Honest concerns regarding the game...",
+          "url": "https://www.reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "reaction",
+        "primary"
+      ],
+      "title": "Honest concerns regarding the game...",
+      "url": "https://www.reddit.com/r/tomodachilife/comments/1spodae/honest_concerns_regarding_the_game/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma",
+      "cluster_id": "cluster-3",
+      "engagement": 88,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R3",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "reaction:reddit": 1
+      },
+      "rerank_score": 9.5,
+      "rrf_score": 0.003786720605875297,
+      "snippet": "Cat distribution system working as intended Thank you for saving this sweet mama and babies!!!  Is there one grey one..?! I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "The cat distribution system brought me a momma cat and five babies!\nThe previous tenant in me and my partner's new apartment abandoned a young pregnant black cat. We moved in just a week and a half ago when we met her, and she begged to come inside. Since my partner already has a cat, we set up a shelter for her in our patio closet, and got her kitten food. She became friendly with me, and early last Tuesday morning, she gave birth to FIVE kittens in that shelter we made for her. \n\nI've been wanting my own cat, and was planning on adopting one from our local cat\nCat distribution system working as intended Thank you for saving this sweet mama and babies!!!  Is there one grey one..?! I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+          "container": "cats",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 106,
+            "score": 8713,
+            "upvote_ratio": 0.99
+          },
+          "engagement_score": 88,
+          "freshness": 83,
+          "item_id": "R3",
+          "local_rank_score": 0.406,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "Cat distribution system working as intended",
+              "Thank you for saving this sweet mama and babies!!!  Is there one grey one..?!",
+              "I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+              "Aww. She ran out of ink on that last one \u2764\ufe0f",
+              "I should add, we did name the kittens! We named momma cat Arya because I've been reading GoT and we just started watching the series for the first tim...",
+              "Way to get them to safety before they had sister nieces ",
+              "https://preview.redd.it/ehc7iilhdvxg1.jpeg?width=4284&format=pjpg&auto=webp&s=398a95515cb4fedaede02188dfec8f79a658ed2f\n\nGotta love the distribution sy...",
+              "Awww what a blessed void pile!"
+            ],
+            "top_comments": [
+              {
+                "author": "Prudertd",
+                "date": "2026-04-28",
+                "excerpt": "Cat distribution system working as intended",
+                "score": 752,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioitxd/"
+              },
+              {
+                "author": "Low-Variation-5245",
+                "date": "2026-04-28",
+                "excerpt": "Thank you for saving this sweet mama and babies!!!  Is there one grey one..?!",
+                "score": 274,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiojatx/"
+              },
+              {
+                "author": "Fluffy_Carrot_4284",
+                "date": "2026-04-28",
+                "excerpt": "I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+                "score": 184,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiolnwv/"
+              },
+              {
+                "author": "themusicalskunk",
+                "date": "2026-04-28",
+                "excerpt": "I should add, we did name the kittens! We named momma cat Arya because I've been reading GoT and we just started watching the series for the first time. But the others have all been named after characters from Hades 2 because we've both been playing it like crazy. The grey one is Selene, there's two",
+                "score": 182,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiojfyv/"
+              },
+              {
+                "author": "Corduroybee",
+                "date": "2026-04-28",
+                "excerpt": "Aww. She ran out of ink on that last one \u2764\ufe0f",
+                "score": 135,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioot6z/"
+              },
+              {
+                "author": "RecommendationDry458",
+                "date": "2026-04-28",
+                "excerpt": "Way to get them to safety before they had sister nieces ",
+                "score": 81,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioltfy/"
+              },
+              {
+                "author": "HelloPanda22",
+                "date": "2026-04-28",
+                "excerpt": "https://preview.redd.it/ehc7iilhdvxg1.jpeg?width=4284&format=pjpg&auto=webp&s=398a95515cb4fedaede02188dfec8f79a658ed2f\n\nGotta love the distribution system. The moment they\u2019re old enough, everybody getting neutered/spayed! Mine aren\u2019t named though as the goal is to adopt them out although the mama ca",
+                "score": 63,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oip3dqn/"
+              },
+              {
+                "author": "GatsbyThePoodle",
+                "date": "2026-04-28",
+                "excerpt": "Mama is so smol! ",
+                "score": 56,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oioqc9x/"
+              },
+              {
+                "author": "Trev_x",
+                "date": "2026-04-28",
+                "excerpt": "Awww what a blessed void pile!",
+                "score": 50,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiokbxc/"
+              },
+              {
+                "author": "jbadaro",
+                "date": "2026-04-28",
+                "excerpt": "r/trojancat working overtime ",
+                "score": 45,
+                "url": "https://reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/oiolx6b/"
+              }
+            ]
+          },
+          "published_at": "2026-04-28",
+          "relevance_hint": 0.09,
+          "snippet": "Cat distribution system working as intended Thank you for saving this sweet mama and babies!!!  Is there one grey one..?! I\u2019m so glad you picked the momma to keep! Kittens are easier to find homes for.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "The cat distribution system brought me a momma cat and five babies!",
+          "url": "https://www.reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "reaction"
+      ],
+      "title": "The cat distribution system brought me a momma cat and five babies!",
+      "url": "https://www.reddit.com/r/cats/comments/1sxpgas/the_cat_distribution_system_brought_me_a_momma/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/claudecode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed",
+      "cluster_id": "cluster-1",
+      "engagement": 71,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 13,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R34",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R34",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.005237867504725468,
+      "snippet": "[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing o",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%\n[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing out opinions.\n\nThe key number is brutal. The issue says estimated thinking depth dropped about 67% by",
+          "container": "ClaudeCode",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 197,
+            "score": 1622,
+            "upvote_ratio": 0.97
+          },
+          "engagement_score": 71,
+          "freshness": 13,
+          "item_id": "R34",
+          "local_rank_score": 0.22049999999999997,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-07",
+          "relevance_hint": 0.22,
+          "snippet": "[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing o",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/wutheringwaves/comments/1su3mya/wuthering_waves_performance_stutter_engine",
+      "cluster_id": "cluster-1",
+      "engagement": 71,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R38",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R38",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "reaction:reddit": 3
+      },
+      "rerank_score": 6.899999999999999,
+      "rrf_score": 0.0036665072533078272,
+      "snippet": "It was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.\nIt was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+          "container": "WutheringWaves",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 363,
+            "score": 1255,
+            "upvote_ratio": 0.91
+          },
+          "engagement_score": 71,
+          "freshness": 70,
+          "item_id": "R38",
+          "local_rank_score": 0.3565,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-24",
+          "relevance_hint": 0.22,
+          "snippet": "It was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.",
+          "url": "https://www.reddit.com/r/WutheringWaves/comments/1su3mya/wuthering_waves_performance_stutter_engine/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "reaction"
+      ],
+      "title": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.",
+      "url": "https://www.reddit.com/r/WutheringWaves/comments/1su3mya/wuthering_waves_performance_stutter_engine/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull",
+      "cluster_id": "cluster-1",
+      "engagement": 20,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 19,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.0,
+      "item_id": "R50",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R50",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "reaction:reddit": 5
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00355369164551374,
+      "snippet": "Do you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Re",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Backing up GitHub repositories, issues, and pull requests\nDo you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Recently I found something called gitea-mirror, which creates backups and can also produce a fully usa",
+          "container": "github",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 24,
+            "score": 3,
+            "upvote_ratio": 0.8
+          },
+          "engagement_score": 20,
+          "freshness": 19,
+          "item_id": "R50",
+          "local_rank_score": 0.17800000000000005,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-09",
+          "relevance_hint": 0.87,
+          "snippet": "Do you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Re",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Backing up GitHub repositories, issues, and pull requests",
+          "url": "https://www.reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "reaction"
+      ],
+      "title": "Backing up GitHub repositories, issues, and pull requests",
+      "url": "https://www.reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull/"
+    },
+    {
+      "candidate_id": "https://twitter.com/kdaigle/status/2040164759836778878",
+      "cluster_id": "cluster-7",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 0,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 51.95,
+      "item_id": "47633510",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47633510",
+            "native_rank": 6,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 6
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.003912873353332465,
+      "snippet": "1400% surge in GitHub commits explains service issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "tonymet",
+          "body": "1400% surge in GitHub commits explains service issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "points": 8
+          },
+          "engagement_score": 19,
+          "freshness": 0,
+          "item_id": "47633510",
+          "local_rank_score": 0.1165,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47633510",
+            "top_comments": []
+          },
+          "published_at": "2026-04-03",
+          "relevance_hint": 0.94,
+          "snippet": "1400% surge in GitHub commits explains service issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "1400% surge in GitHub commits explains service issues",
+          "url": "https://twitter.com/kdaigle/status/2040164759836778878",
+          "why_relevant": "HN story about 1400% surge in GitHub commits explains service issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "1400% surge in GitHub commits explains service issues",
+      "url": "https://twitter.com/kdaigle/status/2040164759836778878"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues",
+      "cluster_id": "cluster-1",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 52.05,
+      "item_id": "R52",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R52",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          },
+          {
+            "item_id": "R52",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2,
+        "reaction:reddit": 4
+      },
+      "rerank_score": 10.299999999999997,
+      "rrf_score": 0.008931567316147545,
+      "snippet": "Github.com website issues?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Github.com website issues?",
+          "container": "github",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 6
+          },
+          "engagement_score": 15,
+          "freshness": 80,
+          "item_id": "R52",
+          "local_rank_score": 0.332,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 0.9,
+          "snippet": "Github.com website issues?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Github.com website issues?",
+          "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/",
+          "why_relevant": "Reddit r/github search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "reaction",
+        "primary"
+      ],
+      "title": "Github.com website issues?",
+      "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/kcf0thb1zp30",
+      "cluster_id": "cluster-1",
+      "engagement": 14,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 46,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.95,
+      "item_id": "47806704",
+      "local_relevance": 0.22,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47806704",
+            "native_rank": 5,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 5
+      },
+      "rerank_score": 7.600000000000001,
+      "rrf_score": 0.003973071404922195,
+      "snippet": "GitHub Is Having Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "mkeeter",
+          "body": "GitHub Is Having Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 2,
+            "points": 7
+          },
+          "engagement_score": 14,
+          "freshness": 46,
+          "item_id": "47806704",
+          "local_rank_score": 0.272,
+          "local_relevance": 0.22,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47806704",
+            "top_comments": []
+          },
+          "published_at": "2026-04-17",
+          "relevance_hint": 0.98,
+          "snippet": "GitHub Is Having Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Is Having Issues",
+          "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+          "why_relevant": "HN story about GitHub Is Having Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Is Having Issues",
+      "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30"
+    },
+    {
+      "candidate_id": "https://github.com/fuma-nama/fumadocs/issues",
+      "cluster_id": "cluster-9",
+      "engagement": 9,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.849999999999994,
+      "item_id": "47923779",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47923779",
+            "native_rank": 3,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 3
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.004099200655872106,
+      "snippet": "GitHub issues list not loading",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SpyCoder77",
+          "body": "GitHub issues list not loading",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "points": 3
+          },
+          "engagement_score": 9,
+          "freshness": 80,
+          "item_id": "47923779",
+          "local_rank_score": 0.3325,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47923779",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub issues list not loading",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub issues list not loading",
+          "url": "https://github.com/fuma-nama/fumadocs/issues",
+          "why_relevant": "HN story about GitHub issues list not loading"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub issues list not loading",
+      "url": "https://github.com/fuma-nama/fumadocs/issues"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/3f30ycplyr7l",
+      "cluster_id": "cluster-1",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 66,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 35.45,
+      "item_id": "47876498",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47876498",
+            "native_rank": 4,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 4
+      },
+      "rerank_score": 9.5,
+      "rrf_score": 0.004035150645624104,
+      "snippet": "GitHub Having Issues (Again)",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "connorbrinton",
+          "body": "GitHub Having Issues (Again)",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 1,
+            "points": 5
+          },
+          "engagement_score": 7,
+          "freshness": 66,
+          "item_id": "47876498",
+          "local_rank_score": 0.29550000000000004,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47876498",
+            "top_comments": []
+          },
+          "published_at": "2026-04-23",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub Having Issues (Again)",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Having Issues (Again)",
+          "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+          "why_relevant": "HN story about GitHub Having Issues (Again)"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Having Issues (Again)",
+      "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=47949488",
+      "cluster_id": "cluster-10",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 86,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 21.15,
+      "item_id": "47949488",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47949488",
+            "native_rank": 2,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.0041653167954829465,
+      "snippet": "Tell HN: GitHub Issues Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "debarshri",
+          "body": "Tell HN: GitHub Issues Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "points": 5
+          },
+          "engagement_score": 0,
+          "freshness": 86,
+          "item_id": "47949488",
+          "local_rank_score": 0.3385,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47949488",
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 1.0,
+          "snippet": "Tell HN: GitHub Issues Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "Tell HN: GitHub Issues Issues",
+          "url": "https://news.ycombinator.com/item?id=47949488",
+          "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "url": "https://news.ycombinator.com/item?id=47949488"
+    }
+  ],
+  "topic": "github trending awesome issues",
+  "warnings": []
+}
