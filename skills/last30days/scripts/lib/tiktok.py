@@ -16,7 +16,7 @@ try:
 except ImportError:
     _requests = None
 
-from . import dates, http, log
+from . import cache, dates, http, log
 
 SCRAPECREATORS_BASE = "https://api.scrapecreators.com/v1/tiktok"
 
@@ -214,6 +214,12 @@ def _hashtag_search(
         List of raw TikTok item dicts (aweme_info format).
     """
     _log(f"Hashtag search: #{hashtag}")
+    cache_key = f"hashtag:{hashtag}"
+    cached = cache.lookup("tiktok-hashtag", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        raw_items = cached.get("aweme_list") or cached.get("data") or []
+        _log(f"  -> {len(raw_items)} results for #{hashtag} (cached)")
+        return raw_items
     if not _requests:
         try:
             from urllib.parse import urlencode
@@ -239,6 +245,7 @@ def _hashtag_search(
             _log(f"Hashtag search error for #{hashtag}: {e}")
             return []
 
+    cache.store("tiktok-hashtag", cache_key, data)
     raw_items = data.get("aweme_list") or data.get("data") or []
     _log(f"  -> {len(raw_items)} results for #{hashtag}")
     return raw_items
@@ -260,6 +267,12 @@ def _profile_videos(
         List of raw TikTok item dicts (aweme_info format).
     """
     _log(f"Profile videos: @{handle}")
+    cache_key = f"profile:{handle}"
+    cached = cache.lookup("tiktok-profile", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        raw_items = cached.get("aweme_list") or cached.get("data") or []
+        _log(f"  -> {len(raw_items)} videos from @{handle} (cached)")
+        return raw_items[:count]
     profile_url = "https://api.scrapecreators.com/v3/tiktok/profile/videos"
     if not _requests:
         try:
@@ -286,6 +299,7 @@ def _profile_videos(
             _log(f"Profile videos error for @{handle}: {e}")
             return []
 
+    cache.store("tiktok-profile", cache_key, data)
     raw_items = data.get("aweme_list") or data.get("data") or []
     _log(f"  -> {len(raw_items)} videos from @{handle}")
     return raw_items[:count]
@@ -318,7 +332,12 @@ def search_tiktok(
 
     _log(f"Searching TikTok for '{core_topic}' (depth={depth}, count={config['results_per_page']})")
 
-    if not _requests:
+    cache_key = f"keyword:{core_topic}"
+    cached = cache.lookup("tiktok-search", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        data = cached
+        _log(f"Using cached search response for '{core_topic}'")
+    elif not _requests:
         _log("requests library not installed, falling back to urllib")
         try:
             from urllib.parse import urlencode
@@ -343,6 +362,9 @@ def search_tiktok(
         except Exception as e:
             _log(f"ScrapeCreators error: {e}")
             return {"items": [], "error": f"{type(e).__name__}: {e}"}
+
+    if cached is None:
+        cache.store("tiktok-search", cache_key, data)
 
     # Items are nested under aweme_info
     raw_entries = data.get("search_item_list") or data.get("data") or []
@@ -421,27 +443,39 @@ def fetch_captions(
         url = item.get("url", "")
         if not url:
             continue
-        try:
-            resp = _requests.get(
-                f"{SCRAPECREATORS_BASE}/video/transcript",
-                params={"url": url},
-                headers=http.scrapecreators_headers(token),
-                timeout=15,
-            )
-            if resp.status_code == 200:
-                data = resp.json()
-                transcript = data.get("transcript")
-                if transcript:
-                    if isinstance(transcript, list):
-                        transcript = " ".join(str(s) for s in transcript)
-                    transcript = _clean_webvtt(transcript)
-                    if transcript:
-                        words = transcript.split()
-                        if len(words) > CAPTION_MAX_WORDS:
-                            transcript = ' '.join(words[:CAPTION_MAX_WORDS]) + '...'
-                        captions[vid] = transcript
-        except Exception as e:
-            _log(f"Transcript fetch failed for {vid}: {e}")
+        cache_key = f"transcript:{url}"
+        cached_data = cache.lookup(
+            "tiktok-transcript", cache_key, ttl_seconds=cache.ENRICH_TTL,
+        )
+        if cached_data is not None:
+            data = cached_data
+            transcript = data.get("transcript")
+        else:
+            try:
+                resp = _requests.get(
+                    f"{SCRAPECREATORS_BASE}/video/transcript",
+                    params={"url": url},
+                    headers=http.scrapecreators_headers(token),
+                    timeout=15,
+                )
+                if resp.status_code == 200:
+                    data = resp.json()
+                    cache.store("tiktok-transcript", cache_key, data)
+                    transcript = data.get("transcript")
+                else:
+                    transcript = None
+            except Exception as e:
+                _log(f"Transcript fetch failed for {vid}: {e}")
+                continue
+        if transcript:
+            if isinstance(transcript, list):
+                transcript = " ".join(str(s) for s in transcript)
+            transcript = _clean_webvtt(transcript)
+            if transcript:
+                words = transcript.split()
+                if len(words) > CAPTION_MAX_WORDS:
+                    transcript = ' '.join(words[:CAPTION_MAX_WORDS]) + '...'
+                captions[vid] = transcript
 
     got = sum(1 for v in captions.values() if v)
     _log(f"Got captions for {got}/{len(top_items)} videos")
@@ -620,7 +654,11 @@ def _fetch_post_comments(
         List of comment dicts with author, text, digg_count (likes), date.
         Empty list on any error — comment failures never crash the pipeline.
     """
-    if not _requests:
+    cache_key = f"comments:{post_url}"
+    cached = cache.lookup("tiktok-comments", cache_key, ttl_seconds=cache.ENRICH_TTL)
+    if cached is not None:
+        data = cached
+    elif not _requests:
         try:
             from urllib.parse import urlencode
             params = urlencode({"url": post_url, "trim": "true"})
@@ -644,6 +682,9 @@ def _fetch_post_comments(
         except Exception as exc:
             _log(f"Comment fetch error for {post_url}: {exc}")
             return []
+
+    if cached is None:
+        cache.store("tiktok-comments", cache_key, data)
 
     raw_comments = data.get("comments") or data.get("data") or []
     # Sort by digg_count desc so normalize sees the highest-signal first.

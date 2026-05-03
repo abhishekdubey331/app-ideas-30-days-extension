@@ -11,7 +11,7 @@ import math
 import re
 from typing import Any, Dict, List, Optional
 
-from . import dates, http, log
+from . import cache, dates, http, log
 from .relevance import token_overlap_relevance as _compute_relevance
 
 SCRAPECREATORS_BASE = "https://api.scrapecreators.com/v1/threads"
@@ -156,7 +156,12 @@ def search_threads(
     except ImportError:
         _requests = None
 
-    if not _requests:
+    cache_key = f"threads-search:{core_topic}"
+    cached = cache.lookup("threads-search", cache_key, ttl_seconds=cache.SEARCH_TTL)
+    if cached is not None:
+        data = cached
+        _log(f"Using cached search response for '{core_topic}'")
+    elif not _requests:
         _log("requests library not installed, falling back to urllib")
         try:
             from urllib.parse import urlencode
@@ -181,6 +186,9 @@ def search_threads(
         except Exception as e:
             _log(f"ScrapeCreators error: {e}")
             return {"items": [], "error": f"{type(e).__name__}: {e}"}
+
+    if cached is None:
+        cache.store("threads-search", cache_key, data)
 
     # Extract items from response (try common SC response shapes)
     raw_items = (
