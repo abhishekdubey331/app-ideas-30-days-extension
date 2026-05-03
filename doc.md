@@ -173,12 +173,12 @@ redeploying.
 
 ---
 
-## 9. Open questions (need user answers before commit 1)
+## 9. Open questions — all answered
 
-1. **Source-batching plan** — accept the default 6-group / 4-hour schedule in §5, or different groupings?
+1. ~~**Source-batching plan** — accept the default 6-group / 4-hour schedule in §5, or different groupings?~~ **ANSWERED:** locked at 6 groups (A reddit+hn, B x+bsky, C youtube, D tiktok+ig, E github+polymarket, F web+perplexity), one batch every 4h.
 2. ~~**Topic seeding** — accept the recommended hybrid (community seeds + `topics.txt` + issue triggers) in §7, or different?~~ **ANSWERED:** `topics.yml` shipped at repo root with the research-backed 70/20/10 mix. Edit anytime.
 3. ~~**Private ideas repo** — does it exist yet? What's the path (`<user>/<repo>`)? Is the PAT created?~~ **ANSWERED:** repo = `abhishekdubey331/App-Ideas`, PAT stored as secret `PAT_TOKEN`.
-4. **Cadence** — 6 batches/day enough, or want finer-grained hourly (24 batches/day) for token attribution? Public repo means cost isn't a constraint.
+4. ~~**Cadence** — 6 batches/day enough, or want finer-grained hourly (24 batches/day) for token attribution?~~ **ANSWERED:** option (a) — 6 batches every 4h + 1 daily synthesis = 7 runs/day.
 
 ---
 
