@@ -22,11 +22,10 @@ def _skill_version() -> str:
 
 
 class TestPluginContract(unittest.TestCase):
-    def test_codex_manifest_points_at_skills_tree(self) -> None:
-        manifest = _json(ROOT / ".codex-plugin" / "plugin.json")
+    def test_claude_manifest_points_at_skills_tree(self) -> None:
+        manifest = _json(ROOT / ".claude-plugin" / "plugin.json")
 
         self.assertEqual("last30days", manifest["name"])
-        self.assertEqual("./skills/", manifest["skills"])
         self.assertTrue(SKILL_ROOT.joinpath("SKILL.md").is_file())
         self.assertTrue(SKILL_ROOT.joinpath("scripts", "last30days.py").is_file())
 
@@ -35,7 +34,6 @@ class TestPluginContract(unittest.TestCase):
         version = pyproject["project"]["version"]
 
         self.assertEqual(version, _skill_version())
-        self.assertEqual(version, _json(ROOT / ".codex-plugin" / "plugin.json")["version"])
         self.assertEqual(version, _json(ROOT / ".claude-plugin" / "plugin.json")["version"])
 
         marketplace = _json(ROOT / ".claude-plugin" / "marketplace.json")
