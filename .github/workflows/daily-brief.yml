@@ -140,6 +140,11 @@ jobs:
         uses: anthropics/claude-code-action@beta
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Automation events (schedule, workflow_dispatch, issues.labeled)
+          # need `mode: agent`. The default tag mode expects an `@claude`
+          # mention in an issue/comment and refuses non-event triggers with
+          # "Tag mode cannot handle schedule events."
+          mode: agent
           # `direct_prompt` (not `prompt`) is the @beta channel's input name
           # for non-event-driven runs. It bypasses trigger detection so the
           # action runs unconditionally on schedule / workflow_dispatch /
