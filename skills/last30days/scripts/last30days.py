@@ -136,7 +136,7 @@ def emit_output(
     if emit == "context":
         return render.render_context(report)
     if emit == "ideas":
-        return ideas.render_ideas(report, ideas.extract_ideas(report))
+        return ideas.render_brief(report, ideas.select_candidates(report))
     raise SystemExit(f"Unsupported emit mode: {emit}")
 
 

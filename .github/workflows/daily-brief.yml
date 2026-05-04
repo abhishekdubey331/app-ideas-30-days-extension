@@ -126,7 +126,7 @@ jobs:
                 --data-dir "$DATA_DIR" \
                 --window-days "$WINDOW" \
                 --emit ideas \
-                --top-ideas 12 \
+                --top-candidates 40 \
                 --out brief.md; then
             echo "have_brief=true" >> "$GITHUB_OUTPUT"
             wc -l brief.md
@@ -150,25 +150,50 @@ jobs:
           # action runs unconditionally on schedule / workflow_dispatch /
           # issues.labeled, instead of waiting for an `@claude` mention.
           direct_prompt: |
-            Read `brief.md` in the workspace root. It contains classified
-            opportunity evidence from a rolling 30-day pool of social media
-            posts, plus strict synthesis instructions in its
-            `## SYNTHESIS INSTRUCTIONS` section. Follow those instructions
-            exactly. Do NOT modify brief.md.
+            Read `brief.md` in the workspace root. It contains a
+            deterministic top-N pool of social/web evidence from a rolling
+            30-day window, plus strict synthesis instructions in its
+            `## SYNTHESIS INSTRUCTIONS` section. The Python layer did NOT
+            classify these candidates — that is your job. Follow the
+            instructions in brief.md exactly. Do NOT modify brief.md.
 
-            Write your output to a new file `ideas.md` in the workspace
+            Your task, in order:
+
+            1. **Classify** each candidate against PAIN / WILL-PAY /
+               LAUNCH / WORKFLOW. Quote the matching sentence verbatim
+               from the candidate's title or excerpt. Drop any candidate
+               that matches none.
+            2. **Cluster duplicates** — merge candidates that describe
+               the same opportunity into one idea, citing all URLs.
+            3. **Rank** by evidence strength × engagement (the `eng:`
+               field) × recency (the date field). High engagement on
+               organic complaint language outweighs low engagement on a
+               literal trigger phrase.
+            4. **Competitor check** — for each surviving idea, name 2+
+               existing competitors if you know them. Downrank crowded
+               markets and say so explicitly.
+            5. **Pick 3-7 ideas**, ordered by combined score, preferring
+               PAIN + WILL-PAY over either alone. Cut weak ones; quality
+               over quantity.
+
+            Write the result to a new file `ideas.md` in the workspace
             root with this structure:
 
               # App ideas — $(date -u +%Y-%m-%d)
 
-              <One-line honest assessment of this batch's signal strength.>
+              <One-line honest assessment of this batch's signal
+              strength. If brief.md has a SOURCE HEALTH section, mention
+              which sources are unreliable today and how that biases the
+              brief.>
 
               ## 1. <Idea title — concrete, not category-level>
               - **Unmet need:** <one sentence>
               - **Proposed app:** <one sentence>
               - **Evidence:** (every URL must come from brief.md)
-                - [link description](URL from brief.md)
-                - [link description](URL from brief.md)
+                - [link description](URL from brief.md) — quoted matching
+                  sentence
+                - [link description](URL from brief.md) — quoted matching
+                  sentence
               - **Existing competitors:** <if you can name 2+, say so and
                 downrank — we don't surface crowded markets>
               - **Score signal:** <PAIN | WILL-PAY | LAUNCH | WORKFLOW combo>
@@ -178,13 +203,14 @@ jobs:
               ## What to research next
               <one line suggesting topics to add to topics.yml>
 
-            Rules:
-            - Do not invent evidence. If a candidate has no excerpt in
-              brief.md, you may not cite it.
-            - Prefer PAIN + WILL-PAY combinations.
+            Hard rules:
+            - Do not invent evidence. Every cited URL must appear in
+              brief.md. Every quoted sentence must come from the
+              candidate's title or excerpt.
             - LAUNCH-only signals describe an *adjacency* opportunity
               ("X exists but nobody has done Y for Z"), not "build X".
-            - 3-7 ideas total. Quality over quantity. Cut weak ones.
+            - If fewer than 3 candidates survive classification, output
+              what you have and say so in the honest assessment.
 
       - name: Sanity-check Claude wrote ideas.md
         if: steps.brief.outputs.have_brief == 'true'
