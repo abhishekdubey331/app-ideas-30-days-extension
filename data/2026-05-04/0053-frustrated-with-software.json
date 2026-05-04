@@ -1,0 +1,819 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" software",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/promptengineering/comments/1sddn4j/i_used_ai_as_my_second_brain_for_30_days_heres"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/promptengineering/comments/1sddn4j/i_used_ai_as_my_second_brain_for_30_days_heres"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "i used AI as my second brain for 30 days. here's what actually stuck."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/radeon/comments/1t1j101/why_amd_is_afk"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/radeon/comments/1t1j101/why_amd_is_afk"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why AMD is AFK?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/b2bmarketing/comments/1seuzms/we_tested_a_lot_of_ai_tools_for_marketing_heres"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/b2bmarketing/comments/1seuzms/we_tested_a_lot_of_ai_tools_for_marketing_heres"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We tested a lot of AI tools for marketing. Here\u2019s what actually stuck"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/warzone/comments/1stb76g/has_anyone_had_this_happen"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/warzone/comments/1stb76g/has_anyone_had_this_happen"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Has anyone had this happen?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/procurement/comments/1t08vxb/coupa_is_too_much_for_our_company"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/procurement/comments/1t08vxb/coupa_is_too_much_for_our_company"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Coupa is too much for our company"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/handhelds/comments/1sgk2di/should_i_sell_my_msi_claw_8_ai_for_the_rog_xbox"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/handhelds/comments/1sgk2di/should_i_sell_my_msi_claw_8_ai_for_the_rog_xbox"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Should I sell my MSI Claw 8 Ai+ for the ROG Xbox Ally X?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/screenplay/comments/1suhmx4/am_i_the_only_one_frustrated_with_screenwriting"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://reddit.com/r/screenplay/comments/1suhmx4/am_i_the_only_one_frustrated_with_screenwriting"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Am I the only one frustrated with screenwriting software?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-04T00:53:14.967802+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Coupa is too much for our company\nWe're a 180 person company and over the last three or so weeks we have been evaluating procurement tools and Coupa was the first one we sat through demos for. The product is impressive but by the end of the second call it became  clear we were not the audience they were built for, I mean the implementation alone was quoted at six months and the contract value would have made it our most expensive piece of software by a wide margin. if I'm being real with you here the demo was features we would n",
+        "container": "procurement",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 55,
+          "score": 26,
+          "upvote_ratio": 0.96
+        },
+        "engagement_score": 44,
+        "freshness": 91,
+        "item_id": "R14",
+        "local_rank_score": 0.434,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.22,
+        "snippet": "We're a 180 person company and over the last three or so weeks we have been evaluating procurement tools and Coupa was the first one we sat through demos for. The product is impressive but by the end of the second call it became  clear we were not the audience they were built for, I mean the implementation alone was quoted at six months and the contract value would have made it our most expensive",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Coupa is too much for our company",
+        "url": "https://www.reddit.com/r/procurement/comments/1t08vxb/coupa_is_too_much_for_our_company/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why AMD is AFK?\nAMD has for years built part of its reputation around the \u201cfine wine\u201d philosophy, regularly promoting the idea that its products improve over time through driver maturity and ongoing software development.\n\nThis is exactly why many users are becoming increasingly frustrated with what appears to be declining software support, not only for older architectures such as RDNA 2 and RDNA 3, but now seemingly also for RDNA 4.\n\nEven owners of AMD\u2019s latest GPUs are starting to question whether there is sti",
+        "container": "radeon",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 88,
+          "score": 90,
+          "upvote_ratio": 0.81
+        },
+        "engagement_score": 56,
+        "freshness": 95,
+        "item_id": "R8",
+        "local_rank_score": 0.3975,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-02",
+        "relevance_hint": 0.22,
+        "snippet": "AMD has for years built part of its reputation around the \u201cfine wine\u201d philosophy, regularly promoting the idea that its products improve over time through driver maturity and ongoing software development.\n\nThis is exactly why many users are becoming increasingly frustrated with what appears to be declining software support, not only for older architectures such as RDNA 2 and RDNA 3, but now seemin",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why AMD is AFK?",
+        "url": "https://www.reddit.com/r/radeon/comments/1t1j101/why_amd_is_afk/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Am I the only one frustrated with screenwriting software?\nAfter writing some short films and a few screenplays of my own, I've realized that every screenwriting software fundamentally sucks for one reason or another. The main ones:\n\n\\- Most of the industry standards feel stuck in the 90s\n\n\\- Either there's no real-time multiplayer, it's rough to use, it's expensive, or all of the above\n\n\\- None of them treat templates as a core feature, and when they do, it only shapes the screenplay itself, not the whole story (characters, places, scenes, ...)\n\n\\- Som",
+        "container": "Screenplay",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 0,
+          "upvote_ratio": 0.46
+        },
+        "engagement_score": 0,
+        "freshness": 79,
+        "item_id": "R25",
+        "local_rank_score": 0.36,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-24",
+        "relevance_hint": 0.87,
+        "snippet": "After writing some short films and a few screenplays of my own, I've realized that every screenwriting software fundamentally sucks for one reason or another. The main ones:\n\n\\- Most of the industry standards feel stuck in the 90s\n\n\\- Either there's no real-time multiplayer, it's rough to use, it's expensive, or all of the above\n\n\\- None of them treat templates as a core feature, and when they do,",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Am I the only one frustrated with screenwriting software?",
+        "url": "https://www.reddit.com/r/Screenplay/comments/1suhmx4/am_i_the_only_one_frustrated_with_screenwriting/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Has anyone had this happen?\nI\u2019m just curious if anyone has had this happen and what the reason could be behind it. I checked my receipt for the purchase, it was completed and there was no refund requested or issued. I contacted Activision and they suggested I check my graphics drivers to see it\u2019s up date (which it is), temporarily disable my firewall and antivirus software and launch the game, and finally to repair my Xbox app. None have worked and I\u2019m more frustrated with not knowing why this happened over having it remov",
+        "container": "Warzone",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 33,
+          "score": 53,
+          "upvote_ratio": 0.89
+        },
+        "engagement_score": 47,
+        "freshness": 77,
+        "item_id": "R13",
+        "local_rank_score": 0.34349999999999997,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-23",
+        "relevance_hint": 0.22,
+        "snippet": "I\u2019m just curious if anyone has had this happen and what the reason could be behind it. I checked my receipt for the purchase, it was completed and there was no refund requested or issued. I contacted Activision and they suggested I check my graphics drivers to see it\u2019s up date (which it is), temporarily disable my firewall and antivirus software and launch the game, and finally to repair my Xbox a",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Has anyone had this happen?",
+        "url": "https://www.reddit.com/r/Warzone/comments/1stb76g/has_anyone_had_this_happen/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "i used AI as my second brain for 30 days. here's what actually stuck.\nnot a productivity influencer. not selling a course. just someone who got genuinely frustrated with their own brain and ran an experiment.\n\nthe rule was simple. anything my brain was holding that it shouldn't be holding \u2014 decisions, ideas, half-thoughts, anxieties disguised as tasks \u2014 went into a Claude conversation immediately.\n\nthirty days. here's what actually changed and what didn't.\n\n**what changed:**\n\nthe Sunday dread disappeared by week two.\n\ni used to spend Sunday evenings with this low",
+        "container": "PromptEngineering",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 40,
+          "score": 180,
+          "upvote_ratio": 0.86
+        },
+        "engagement_score": 58,
+        "freshness": 41,
+        "item_id": "R6",
+        "local_rank_score": 0.323,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-05",
+        "relevance_hint": 0.22,
+        "snippet": "not a productivity influencer. not selling a course. just someone who got genuinely frustrated with their own brain and ran an experiment.\n\nthe rule was simple. anything my brain was holding that it shouldn't be holding \u2014 decisions, ideas, half-thoughts, anxieties disguised as tasks \u2014 went into a Claude conversation immediately.\n\nthirty days. here's what actually changed and what didn't.\n\n**what c",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "i used AI as my second brain for 30 days. here's what actually stuck.",
+        "url": "https://www.reddit.com/r/PromptEngineering/comments/1sddn4j/i_used_ai_as_my_second_brain_for_30_days_heres/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "We tested a lot of AI tools for marketing. Here\u2019s what actually stuck\nI work at a mid-sized B2B SaaS company, and after a lot of trial and error, this is the lean software stack that actually stuck for us. Some tools were great. Some were nowhere near as good as vendors make them sound.\n\n**For mass email infrastructure:** Maildoso. Probably the easiest and most effective thing we have ever done for mass email campaigns.\n\n**For campaign automation:** Instantly. We use it for automating campaigns. We tried Smartlead and it was terrible, do not bother. Reply io was v",
+        "container": "b2bmarketing",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 64,
+          "score": 38,
+          "upvote_ratio": 0.93
+        },
+        "engagement_score": 48,
+        "freshness": 45,
+        "item_id": "R11",
+        "local_rank_score": 0.2645,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-07",
+        "relevance_hint": 0.22,
+        "snippet": "I work at a mid-sized B2B SaaS company, and after a lot of trial and error, this is the lean software stack that actually stuck for us. Some tools were great. Some were nowhere near as good as vendors make them sound.\n\n**For mass email infrastructure:** Maildoso. Probably the easiest and most effective thing we have ever done for mass email campaigns.\n\n**For campaign automation:** Instantly. We us",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We tested a lot of AI tools for marketing. Here\u2019s what actually stuck",
+        "url": "https://www.reddit.com/r/b2bmarketing/comments/1seuzms/we_tested_a_lot_of_ai_tools_for_marketing_heres/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Should I sell my MSI Claw 8 Ai+ for the ROG Xbox Ally X?\nWhat do you guys think? \n\nI love the Claw 8 AI, but a lot of games run better on the AMD Z2E (sometimes with 10\u201315 more FPS, like COD7). Crimson Desert doesn't work at all or runs very poorly on the AI+.\n\nAlso, the MSI Center software is terrible, just like the overlay.\n\nAnd yet I love the Claw 8 AI, but I get frustrated with certain games.\n\nIt\u2019s just the 7-inch screen that bothers me.\n\nHas anyone else done this? I can\u2019t keep both because I don\u2019t have the money.",
+        "container": "Handhelds",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 37,
+          "score": 5,
+          "upvote_ratio": 0.62
+        },
+        "engagement_score": 26,
+        "freshness": 49,
+        "item_id": "R24",
+        "local_rank_score": 0.2525,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-09",
+        "relevance_hint": 0.22,
+        "snippet": "What do you guys think? \n\nI love the Claw 8 AI, but a lot of games run better on the AMD Z2E (sometimes with 10\u201315 more FPS, like COD7). Crimson Desert doesn't work at all or runs very poorly on the AI+.\n\nAlso, the MSI Center software is terrible, just like the overlay.\n\nAnd yet I love the Claw 8 AI, but I get frustrated with certain games.\n\nIt\u2019s just the 7-inch screen that bothers me.\n\nHas anyone",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Should I sell my MSI Claw 8 Ai+ for the ROG Xbox Ally X?",
+        "url": "https://www.reddit.com/r/Handhelds/comments/1sgk2di/should_i_sell_my_msi_claw_8_ai_for_the_rog_xbox/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" software",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" software?",
+        "search_query": "\"frustrated with\" software",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-04",
+  "range_to": "2026-05-04",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/promptengineering/comments/1sddn4j/i_used_ai_as_my_second_brain_for_30_days_heres",
+      "cluster_id": "cluster-1",
+      "engagement": 58,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 6.700000000000003,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "not a productivity influencer. not selling a course. just someone who got genuinely frustrated with their own brain and ran an experiment.\n\nthe rule was simple. anything my brain was holding that it shouldn't be holding \u2014 decisions, ideas, half-thoughts, anxieties disguised as tasks \u2014 went into a Claude conversation immediately.\n\nthirty days. here's what actually changed and what didn't.\n\n**what c",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "i used AI as my second brain for 30 days. here's what actually stuck.\nnot a productivity influencer. not selling a course. just someone who got genuinely frustrated with their own brain and ran an experiment.\n\nthe rule was simple. anything my brain was holding that it shouldn't be holding \u2014 decisions, ideas, half-thoughts, anxieties disguised as tasks \u2014 went into a Claude conversation immediately.\n\nthirty days. here's what actually changed and what didn't.\n\n**what changed:**\n\nthe Sunday dread disappeared by week two.\n\ni used to spend Sunday evenings with this low",
+          "container": "PromptEngineering",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 40,
+            "score": 180,
+            "upvote_ratio": 0.86
+          },
+          "engagement_score": 58,
+          "freshness": 41,
+          "item_id": "R6",
+          "local_rank_score": 0.323,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-05",
+          "relevance_hint": 0.22,
+          "snippet": "not a productivity influencer. not selling a course. just someone who got genuinely frustrated with their own brain and ran an experiment.\n\nthe rule was simple. anything my brain was holding that it shouldn't be holding \u2014 decisions, ideas, half-thoughts, anxieties disguised as tasks \u2014 went into a Claude conversation immediately.\n\nthirty days. here's what actually changed and what didn't.\n\n**what c",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "i used AI as my second brain for 30 days. here's what actually stuck.",
+          "url": "https://www.reddit.com/r/PromptEngineering/comments/1sddn4j/i_used_ai_as_my_second_brain_for_30_days_heres/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "i used AI as my second brain for 30 days. here's what actually stuck.",
+      "url": "https://www.reddit.com/r/PromptEngineering/comments/1sddn4j/i_used_ai_as_my_second_brain_for_30_days_heres/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/radeon/comments/1t1j101/why_amd_is_afk",
+      "cluster_id": "cluster-2",
+      "engagement": 56,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "AMD has for years built part of its reputation around the \u201cfine wine\u201d philosophy, regularly promoting the idea that its products improve over time through driver maturity and ongoing software development.\n\nThis is exactly why many users are becoming increasingly frustrated with what appears to be declining software support, not only for older architectures such as RDNA 2 and RDNA 3, but now seemin",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why AMD is AFK?\nAMD has for years built part of its reputation around the \u201cfine wine\u201d philosophy, regularly promoting the idea that its products improve over time through driver maturity and ongoing software development.\n\nThis is exactly why many users are becoming increasingly frustrated with what appears to be declining software support, not only for older architectures such as RDNA 2 and RDNA 3, but now seemingly also for RDNA 4.\n\nEven owners of AMD\u2019s latest GPUs are starting to question whether there is sti",
+          "container": "radeon",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 88,
+            "score": 90,
+            "upvote_ratio": 0.81
+          },
+          "engagement_score": 56,
+          "freshness": 95,
+          "item_id": "R8",
+          "local_rank_score": 0.3975,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-02",
+          "relevance_hint": 0.22,
+          "snippet": "AMD has for years built part of its reputation around the \u201cfine wine\u201d philosophy, regularly promoting the idea that its products improve over time through driver maturity and ongoing software development.\n\nThis is exactly why many users are becoming increasingly frustrated with what appears to be declining software support, not only for older architectures such as RDNA 2 and RDNA 3, but now seemin",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why AMD is AFK?",
+          "url": "https://www.reddit.com/r/radeon/comments/1t1j101/why_amd_is_afk/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why AMD is AFK?",
+      "url": "https://www.reddit.com/r/radeon/comments/1t1j101/why_amd_is_afk/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/b2bmarketing/comments/1seuzms/we_tested_a_lot_of_ai_tools_for_marketing_heres",
+      "cluster_id": "cluster-3",
+      "engagement": 48,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R11",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 1.1999999999999993,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "I work at a mid-sized B2B SaaS company, and after a lot of trial and error, this is the lean software stack that actually stuck for us. Some tools were great. Some were nowhere near as good as vendors make them sound.\n\n**For mass email infrastructure:** Maildoso. Probably the easiest and most effective thing we have ever done for mass email campaigns.\n\n**For campaign automation:** Instantly. We us",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We tested a lot of AI tools for marketing. Here\u2019s what actually stuck\nI work at a mid-sized B2B SaaS company, and after a lot of trial and error, this is the lean software stack that actually stuck for us. Some tools were great. Some were nowhere near as good as vendors make them sound.\n\n**For mass email infrastructure:** Maildoso. Probably the easiest and most effective thing we have ever done for mass email campaigns.\n\n**For campaign automation:** Instantly. We use it for automating campaigns. We tried Smartlead and it was terrible, do not bother. Reply io was v",
+          "container": "b2bmarketing",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 64,
+            "score": 38,
+            "upvote_ratio": 0.93
+          },
+          "engagement_score": 48,
+          "freshness": 45,
+          "item_id": "R11",
+          "local_rank_score": 0.2645,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-07",
+          "relevance_hint": 0.22,
+          "snippet": "I work at a mid-sized B2B SaaS company, and after a lot of trial and error, this is the lean software stack that actually stuck for us. Some tools were great. Some were nowhere near as good as vendors make them sound.\n\n**For mass email infrastructure:** Maildoso. Probably the easiest and most effective thing we have ever done for mass email campaigns.\n\n**For campaign automation:** Instantly. We us",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We tested a lot of AI tools for marketing. Here\u2019s what actually stuck",
+          "url": "https://www.reddit.com/r/b2bmarketing/comments/1seuzms/we_tested_a_lot_of_ai_tools_for_marketing_heres/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We tested a lot of AI tools for marketing. Here\u2019s what actually stuck",
+      "url": "https://www.reddit.com/r/b2bmarketing/comments/1seuzms/we_tested_a_lot_of_ai_tools_for_marketing_heres/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/warzone/comments/1stb76g/has_anyone_had_this_happen",
+      "cluster_id": "cluster-4",
+      "engagement": 47,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R13",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R13",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 7.600000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "I\u2019m just curious if anyone has had this happen and what the reason could be behind it. I checked my receipt for the purchase, it was completed and there was no refund requested or issued. I contacted Activision and they suggested I check my graphics drivers to see it\u2019s up date (which it is), temporarily disable my firewall and antivirus software and launch the game, and finally to repair my Xbox a",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Has anyone had this happen?\nI\u2019m just curious if anyone has had this happen and what the reason could be behind it. I checked my receipt for the purchase, it was completed and there was no refund requested or issued. I contacted Activision and they suggested I check my graphics drivers to see it\u2019s up date (which it is), temporarily disable my firewall and antivirus software and launch the game, and finally to repair my Xbox app. None have worked and I\u2019m more frustrated with not knowing why this happened over having it remov",
+          "container": "Warzone",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 33,
+            "score": 53,
+            "upvote_ratio": 0.89
+          },
+          "engagement_score": 47,
+          "freshness": 77,
+          "item_id": "R13",
+          "local_rank_score": 0.34349999999999997,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-23",
+          "relevance_hint": 0.22,
+          "snippet": "I\u2019m just curious if anyone has had this happen and what the reason could be behind it. I checked my receipt for the purchase, it was completed and there was no refund requested or issued. I contacted Activision and they suggested I check my graphics drivers to see it\u2019s up date (which it is), temporarily disable my firewall and antivirus software and launch the game, and finally to repair my Xbox a",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Has anyone had this happen?",
+          "url": "https://www.reddit.com/r/Warzone/comments/1stb76g/has_anyone_had_this_happen/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Has anyone had this happen?",
+      "url": "https://www.reddit.com/r/Warzone/comments/1stb76g/has_anyone_had_this_happen/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/procurement/comments/1t08vxb/coupa_is_too_much_for_our_company",
+      "cluster_id": "cluster-5",
+      "engagement": 44,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R14",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R14",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.700000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "We're a 180 person company and over the last three or so weeks we have been evaluating procurement tools and Coupa was the first one we sat through demos for. The product is impressive but by the end of the second call it became  clear we were not the audience they were built for, I mean the implementation alone was quoted at six months and the contract value would have made it our most expensive",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Coupa is too much for our company\nWe're a 180 person company and over the last three or so weeks we have been evaluating procurement tools and Coupa was the first one we sat through demos for. The product is impressive but by the end of the second call it became  clear we were not the audience they were built for, I mean the implementation alone was quoted at six months and the contract value would have made it our most expensive piece of software by a wide margin. if I'm being real with you here the demo was features we would n",
+          "container": "procurement",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 55,
+            "score": 26,
+            "upvote_ratio": 0.96
+          },
+          "engagement_score": 44,
+          "freshness": 91,
+          "item_id": "R14",
+          "local_rank_score": 0.434,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.22,
+          "snippet": "We're a 180 person company and over the last three or so weeks we have been evaluating procurement tools and Coupa was the first one we sat through demos for. The product is impressive but by the end of the second call it became  clear we were not the audience they were built for, I mean the implementation alone was quoted at six months and the contract value would have made it our most expensive",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Coupa is too much for our company",
+          "url": "https://www.reddit.com/r/procurement/comments/1t08vxb/coupa_is_too_much_for_our_company/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Coupa is too much for our company",
+      "url": "https://www.reddit.com/r/procurement/comments/1t08vxb/coupa_is_too_much_for_our_company/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/handhelds/comments/1sgk2di/should_i_sell_my_msi_claw_8_ai_for_the_rog_xbox",
+      "cluster_id": "cluster-6",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R24",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R24",
+            "native_rank": 7,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 7
+      },
+      "rerank_score": 2.0,
+      "rrf_score": 0.007462686567164179,
+      "snippet": "What do you guys think? \n\nI love the Claw 8 AI, but a lot of games run better on the AMD Z2E (sometimes with 10\u201315 more FPS, like COD7). Crimson Desert doesn't work at all or runs very poorly on the AI+.\n\nAlso, the MSI Center software is terrible, just like the overlay.\n\nAnd yet I love the Claw 8 AI, but I get frustrated with certain games.\n\nIt\u2019s just the 7-inch screen that bothers me.\n\nHas anyone",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Should I sell my MSI Claw 8 Ai+ for the ROG Xbox Ally X?\nWhat do you guys think? \n\nI love the Claw 8 AI, but a lot of games run better on the AMD Z2E (sometimes with 10\u201315 more FPS, like COD7). Crimson Desert doesn't work at all or runs very poorly on the AI+.\n\nAlso, the MSI Center software is terrible, just like the overlay.\n\nAnd yet I love the Claw 8 AI, but I get frustrated with certain games.\n\nIt\u2019s just the 7-inch screen that bothers me.\n\nHas anyone else done this? I can\u2019t keep both because I don\u2019t have the money.",
+          "container": "Handhelds",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 37,
+            "score": 5,
+            "upvote_ratio": 0.62
+          },
+          "engagement_score": 26,
+          "freshness": 49,
+          "item_id": "R24",
+          "local_rank_score": 0.2525,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-09",
+          "relevance_hint": 0.22,
+          "snippet": "What do you guys think? \n\nI love the Claw 8 AI, but a lot of games run better on the AMD Z2E (sometimes with 10\u201315 more FPS, like COD7). Crimson Desert doesn't work at all or runs very poorly on the AI+.\n\nAlso, the MSI Center software is terrible, just like the overlay.\n\nAnd yet I love the Claw 8 AI, but I get frustrated with certain games.\n\nIt\u2019s just the 7-inch screen that bothers me.\n\nHas anyone",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Should I sell my MSI Claw 8 Ai+ for the ROG Xbox Ally X?",
+          "url": "https://www.reddit.com/r/Handhelds/comments/1sgk2di/should_i_sell_my_msi_claw_8_ai_for_the_rog_xbox/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Should I sell my MSI Claw 8 Ai+ for the ROG Xbox Ally X?",
+      "url": "https://www.reddit.com/r/Handhelds/comments/1sgk2di/should_i_sell_my_msi_claw_8_ai_for_the_rog_xbox/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/screenplay/comments/1suhmx4/am_i_the_only_one_frustrated_with_screenwriting",
+      "cluster_id": "cluster-7",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R25",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R25",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 14.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "After writing some short films and a few screenplays of my own, I've realized that every screenwriting software fundamentally sucks for one reason or another. The main ones:\n\n\\- Most of the industry standards feel stuck in the 90s\n\n\\- Either there's no real-time multiplayer, it's rough to use, it's expensive, or all of the above\n\n\\- None of them treat templates as a core feature, and when they do,",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Am I the only one frustrated with screenwriting software?\nAfter writing some short films and a few screenplays of my own, I've realized that every screenwriting software fundamentally sucks for one reason or another. The main ones:\n\n\\- Most of the industry standards feel stuck in the 90s\n\n\\- Either there's no real-time multiplayer, it's rough to use, it's expensive, or all of the above\n\n\\- None of them treat templates as a core feature, and when they do, it only shapes the screenplay itself, not the whole story (characters, places, scenes, ...)\n\n\\- Som",
+          "container": "Screenplay",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 0,
+            "upvote_ratio": 0.46
+          },
+          "engagement_score": 0,
+          "freshness": 79,
+          "item_id": "R25",
+          "local_rank_score": 0.36,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-24",
+          "relevance_hint": 0.87,
+          "snippet": "After writing some short films and a few screenplays of my own, I've realized that every screenwriting software fundamentally sucks for one reason or another. The main ones:\n\n\\- Most of the industry standards feel stuck in the 90s\n\n\\- Either there's no real-time multiplayer, it's rough to use, it's expensive, or all of the above\n\n\\- None of them treat templates as a core feature, and when they do,",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Am I the only one frustrated with screenwriting software?",
+          "url": "https://www.reddit.com/r/Screenplay/comments/1suhmx4/am_i_the_only_one_frustrated_with_screenwriting/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Am I the only one frustrated with screenwriting software?",
+      "url": "https://www.reddit.com/r/Screenplay/comments/1suhmx4/am_i_the_only_one_frustrated_with_screenwriting/"
+    }
+  ],
+  "topic": "\"frustrated with\" software",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
