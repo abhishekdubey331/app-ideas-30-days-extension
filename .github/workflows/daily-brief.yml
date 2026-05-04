@@ -215,8 +215,19 @@ jobs:
         run: |
           set -euo pipefail
           DAY="${{ steps.synth.outputs.day }}"
-          mkdir -p "ideas-repo/ideas"
-          cp ideas.md "ideas-repo/ideas/${DAY}.md"
+          # Per-day folder so each day is a self-contained dossier:
+          # the synthesized ideas plus the brief that produced them.
+          # brief.md is the audit trail for "why was this idea surfaced?"
+          # — useful when an idea recurs weeks later and you want to
+          # trace back the original evidence cluster.
+          DAY_DIR="ideas-repo/ideas/${DAY}"
+          mkdir -p "$DAY_DIR"
+          cp ideas.md "${DAY_DIR}/ideas.md"
+          if [ -s brief.md ]; then
+            cp brief.md "${DAY_DIR}/brief.md"
+          else
+            echo "::warning::brief.md missing or empty; skipping brief persistence."
+          fi
 
       - name: Open PR on the ideas repo
         if: steps.synth.outputs.have_ideas == 'true'
