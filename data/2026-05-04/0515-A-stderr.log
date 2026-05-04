@@ -1,0 +1,162 @@
+Batch A sources=reddit,hackernews
+Started at 2026-05-04T05:15:17Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25302312803
+----
+
+===== Seed: "manually copy paste" =====
+/last30days · researching: "manually copy paste"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""manually copy paste"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22manually+copy+paste%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"manually copy paste"' into 1 queries: ['"manually copy paste"']
+[Reddit] Global search 1/2: '"manually copy paste"' (sort=relevance)
+[Reddit]   -> 25 results for '"manually copy paste"'
+[Reddit] Discovered subreddits: ['SideProject', 'sales', 'macapps']
+[Reddit] Subreddit search: r/SideProject for '"manually copy paste"'
+[Reddit] Subreddit search: r/sales for '"manually copy paste"'
+[Reddit] Subreddit search: r/macapps for '"manually copy paste"'
+[Reddit]   -> 4 results from r/macapps
+[Reddit]   -> 1 results from r/sales
+[Reddit]   -> 25 results from r/SideProject
+[Reddit] After dedup: 51 unique posts
+[Reddit] Filtered 20 posts outside date range
+[Reddit] Final: 31 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 7.9s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (15.1s) - Reddit: 7 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-04/0515-manually-copy-paste.json
+[OK] seed succeeded
+
+===== Seed: "sick of" subscription =====
+/last30days · researching: "sick of" subscription
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""sick of" subscription" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22sick+of%22+subscription&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"sick of" subscription' into 1 queries: ['"sick of" subscription']
+[Reddit] Global search 1/2: '"sick of" subscription' (sort=relevance)
+[Reddit]   -> 25 results for '"sick of" subscription'
+[Reddit] Discovered subreddits: ['Discount_Subscription', 'iosapps', 'LinusTechTips']
+[Reddit] Subreddit search: r/Discount_Subscription for '"sick of" subscription'
+[Reddit] Subreddit search: r/iosapps for '"sick of" subscription'
+[Reddit] Subreddit search: r/LinusTechTips for '"sick of" subscription'
+[Reddit]   -> 4 results from r/LinusTechTips
+[Reddit]   -> 4 results from r/Discount_Subscription
+[Reddit]   -> 22 results from r/iosapps
+[Reddit] After dedup: 49 unique posts
+[Reddit] Filtered 24 posts outside date range
+[Reddit] Final: 25 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 9.4s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (20.8s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-04/0515-sick-of-subscription.json
+[OK] seed succeeded
+
+===== Seed: "local-first alternative to" =====
+/last30days · researching: "local-first alternative to"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""local-first alternative to"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22local-first+alternative+to%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"local-first alternative to"' into 1 queries: ['"local-first alternative to"']
+[Reddit] Global search 1/2: '"local-first alternative to"' (sort=relevance)
+[Reddit]   -> 5 results for '"local-first alternative to"'
+[Reddit] Discovered subreddits: ['MacOSApps', 'developersIndia', 'Btechtards']
+[Reddit] Subreddit search: r/MacOSApps for '"local-first alternative to"'
+[Reddit] Subreddit search: r/developersIndia for '"local-first alternative to"'
+[Reddit] Subreddit search: r/Btechtards for '"local-first alternative to"'
+[Reddit]   -> 1 results from r/Btechtards
+[Reddit]   -> 1 results from r/developersIndia
+[Reddit]   -> 1 results from r/MacOSApps
+[Reddit] After dedup: 5 unique posts
+[Reddit] Final: 5 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 4/5 posts in 6.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (14.4s) - Reddit: 4 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-04/0516-local-first-alternative-to.json
+[OK] seed succeeded
+
+===== Seed: "self-hosted alternative to" =====
+/last30days · researching: "self-hosted alternative to"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""self-hosted alternative to"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22self-hosted+alternative+to%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"self-hosted alternative to"' into 1 queries: ['"self-hosted alternative to"']
+[Reddit] Global search 1/2: '"self-hosted alternative to"' (sort=relevance)
+[Reddit]   -> 25 results for '"self-hosted alternative to"'
+[Reddit] Discovered subreddits: ['selfhosted', 'webdev', 'hidock']
+[Reddit] Subreddit search: r/selfhosted for '"self-hosted alternative to"'
+[Reddit] Subreddit search: r/webdev for '"self-hosted alternative to"'
+[Reddit] Subreddit search: r/hidock for '"self-hosted alternative to"'
+[Reddit]   -> 12 results from r/webdev
+[Reddit]   -> 1 results from r/hidock
+[Reddit]   -> 25 results from r/selfhosted
+[Reddit] After dedup: 55 unique posts
+[Reddit] Filtered 32 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.9s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (15.0s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-04/0516-self-hosted-alternative-to.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
