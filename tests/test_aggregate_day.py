@@ -211,8 +211,12 @@ class TestMainEntryPoint(unittest.TestCase):
             self.assertEqual(0, rc)
             self.assertTrue(out_path.exists())
             content = out_path.read_text()
-            self.assertIn("# last30days IDEAS", content)
+            self.assertIn("# last30days BRIEF", content)
             self.assertIn("WILL-PAY", content)
+            # Brief now exposes raw candidates with URL + excerpt for
+            # downstream Claude classification — confirm both are present.
+            self.assertIn("https://example.com/c1", content)
+            self.assertIn("Honestly I'd pay for this.", content)
 
     def test_main_returns_nonzero_when_no_batches(self):
         with tempfile.TemporaryDirectory() as tmp:
