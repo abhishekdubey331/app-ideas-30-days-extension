@@ -209,10 +209,14 @@ def main(argv: list[str] | None = None) -> int:
         help="Synthetic topic name for the merged report (default: 'rolling 30-day pool')",
     )
     parser.add_argument(
-        "--top-ideas",
+        "--top-candidates",
         type=int,
-        default=10,
-        help="Maximum number of ideas to surface when --emit=ideas (default: 10)",
+        default=ideas.DEFAULT_TOP_N,
+        help=(
+            "Maximum candidates to surface when --emit=ideas "
+            f"(default: {ideas.DEFAULT_TOP_N}). Classification and ranking "
+            "happen in the downstream Claude synthesis call."
+        ),
     )
     args = parser.parse_args(argv)
 
@@ -239,8 +243,8 @@ def main(argv: list[str] | None = None) -> int:
     if args.emit == "json":
         rendered = json.dumps(schema.to_dict(merged), indent=2, sort_keys=True)
     else:
-        extracted = ideas.extract_ideas(merged, top_n=args.top_ideas)
-        rendered = ideas.render_ideas(merged, extracted)
+        selected = ideas.select_candidates(merged, top_n=args.top_candidates)
+        rendered = ideas.render_brief(merged, selected)
 
     if args.out:
         out_path = Path(args.out).expanduser()

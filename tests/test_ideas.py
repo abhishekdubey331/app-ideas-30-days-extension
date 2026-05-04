@@ -1,4 +1,4 @@
-"""Tests for the --emit=ideas opportunity extractor."""
+"""Tests for the --emit=ideas evidence brief renderer."""
 import sys
 import unittest
 from pathlib import Path
@@ -18,6 +18,7 @@ def _candidate(
     final_score: float = 0.5,
     engagement: dict[str, float | int] | None = None,
     url: str = "https://example.com/post",
+    published_at: str | None = "2026-04-15",
 ) -> schema.Candidate:
     item = schema.SourceItem(
         item_id=f"{candidate_id}-i",
@@ -27,7 +28,7 @@ def _candidate(
         url=url,
         container=container,
         engagement=engagement or {},
-        published_at="2026-04-15",
+        published_at=published_at,
     )
     return schema.Candidate(
         candidate_id=candidate_id,
@@ -95,95 +96,53 @@ def _report(candidates: list[schema.Candidate]) -> schema.Report:
     )
 
 
-class TestSignalClassification(unittest.TestCase):
-    def test_pain_point_phrase_is_classified(self):
-        text = "I wish there was an app that batches my email replies for me."
-        signals = ideas._classify_text(text)
-        self.assertIn("pain_point", signals)
-
-    def test_launch_phrase_is_classified(self):
-        text = "Show HN: I built a tiny tool that converts CSV to SQL."
-        signals = ideas._classify_text(text)
-        self.assertIn("launch", signals)
-
-    def test_wtp_phrase_is_classified(self):
-        text = "Honestly I'd pay $30/month for this. Take my money."
-        signals = ideas._classify_text(text)
-        self.assertIn("wtp", signals)
-
-    def test_workflow_phrase_is_classified(self):
-        text = "I currently stitch together Zapier and a spreadsheet hack."
-        signals = ideas._classify_text(text)
-        self.assertIn("workflow", signals)
-
-    def test_unrelated_text_yields_no_signal(self):
-        self.assertEqual({}, ideas._classify_text("the weather is nice today"))
-
-
-class TestExtractIdeas(unittest.TestCase):
-    def test_pain_point_candidate_is_surfaced(self):
-        cand = _candidate(
-            "c1",
-            "I wish there was an app that handled meeting prep",
-            body="Currently I'm doing this manually with a spreadsheet hack.",
-            engagement={"upvotes": 423},
-        )
-        report = _report([cand])
-        result = ideas.extract_ideas(report)
-        self.assertEqual(1, len(result))
-        self.assertIn("pain_point", result[0].signal_types)
-        # workflow keyword in body should also fire
-        self.assertIn("workflow", result[0].signal_types)
-        self.assertGreater(result[0].heuristic_boost, 0.0)
-
-    def test_wtp_signal_outranks_unscored_candidate(self):
-        cold = _candidate("cold", "Generic news headline about AI", final_score=0.9)
-        warm = _candidate(
-            "warm",
-            "I'd pay $50/month for a tool that drafts grant applications",
-            final_score=0.3,
-        )
-        report = _report([cold, warm])
-        result = ideas.extract_ideas(report)
-        # cold candidate has no signal → filtered (min_signals=1 default)
-        self.assertEqual(["warm"], [i.candidate_id for i in result])
-        self.assertIn("wtp", result[0].signal_types)
-
-    def test_launch_container_promotes_candidate_even_without_phrase(self):
-        cand = _candidate(
-            "c1",
-            "Built a tool for indie devs to track MRR",
-            body="Spent 3 weeks on this, sharing in case it's useful.",
-            container="r/SideProject",
-            final_score=0.4,
-        )
-        report = _report([cand])
-        result = ideas.extract_ideas(report)
-        self.assertEqual(1, len(result))
-        self.assertIn("launch", result[0].signal_types)
-
-    def test_no_matches_falls_back_to_top_candidates(self):
-        cand = _candidate("c1", "Boring news headline", body="Nothing actionable here.")
-        report = _report([cand])
-        result = ideas.extract_ideas(report)
-        self.assertEqual(1, len(result))
-        self.assertEqual(["unscored"], result[0].signal_types)
-
-    def test_top_n_caps_results(self):
+class TestSelectCandidates(unittest.TestCase):
+    def test_returns_top_n_ordered_by_final_score(self):
         cands = [
-            _candidate(f"c{i}", f"I'd pay for tool {i}", final_score=0.5 + i / 100)
-            for i in range(15)
+            _candidate(f"c{i}", f"Candidate {i}", final_score=0.1 * i)
+            for i in range(10)
         ]
-        report = _report(cands)
-        result = ideas.extract_ideas(report, top_n=5)
-        self.assertEqual(5, len(result))
-        # ranked desc by total_score
-        scores = [i.total_score for i in result]
-        self.assertEqual(scores, sorted(scores, reverse=True))
+        # Shuffle by passing in arbitrary order — selection should re-sort.
+        report = _report(list(reversed(cands)))
+        result = ideas.select_candidates(report, top_n=3)
+        self.assertEqual(["c9", "c8", "c7"], [v.candidate_id for v in result])
+
+    def test_view_carries_source_container_engagement(self):
+        cand = _candidate(
+            "c1",
+            "I keep stitching Zapier and a spreadsheet",
+            body="Three tools for one workflow. Pay $40/mo and still broken.",
+            container="r/SideProject",
+            engagement={"upvotes": 250, "comments": 30},
+        )
+        result = ideas.select_candidates(_report([cand]))
+        self.assertEqual(1, len(result))
+        view = result[0]
+        self.assertEqual("reddit", view.source)
+        self.assertEqual("r/SideProject", view.container)
+        self.assertEqual(280, view.engagement)
+        self.assertIn("Three tools", view.excerpt)
+        self.assertEqual("2026-04-15", view.published_at)
+
+    def test_excerpt_truncates_long_bodies(self):
+        long_body = "word " * 200
+        cand = _candidate("c1", "Title", body=long_body)
+        view = ideas.select_candidates(_report([cand]))[0]
+        self.assertLessEqual(len(view.excerpt), ideas.EXCERPT_WIDTH + 1)
+        self.assertTrue(view.excerpt.endswith("…"))
+
+    def test_no_classification_filtering(self):
+        """Every candidate survives selection — classification is downstream."""
+        cands = [
+            _candidate("boring", "Generic news headline about AI"),
+            _candidate("painful", "I wish there was an app for X"),
+        ]
+        result = ideas.select_candidates(_report(cands))
+        self.assertEqual({"boring", "painful"}, {v.candidate_id for v in result})
 
 
-class TestRenderIdeas(unittest.TestCase):
-    def test_render_includes_synthesis_instructions_and_evidence(self):
+class TestRenderBrief(unittest.TestCase):
+    def test_brief_includes_synthesis_instructions_and_evidence(self):
         cand = _candidate(
             "c1",
             "I'd pay $20/month for a calendar that knows my prep style",
@@ -191,51 +150,67 @@ class TestRenderIdeas(unittest.TestCase):
             engagement={"upvotes": 250},
         )
         report = _report([cand])
-        result = ideas.extract_ideas(report)
-        out = ideas.render_ideas(report, result)
+        out = ideas.render_brief(report, ideas.select_candidates(report))
 
-        self.assertIn("# last30days IDEAS · indie SaaS opportunities", out)
+        self.assertIn("# last30days BRIEF · indie SaaS opportunities", out)
         self.assertIn("SYNTHESIS INSTRUCTIONS", out)
+        # Classification taxonomy is described in the prompt block.
+        self.assertIn("PAIN", out)
         self.assertIn("WILL-PAY", out)
+        self.assertIn("LAUNCH", out)
+        self.assertIn("WORKFLOW", out)
+        # Candidate metadata is present.
         self.assertIn("https://example.com/post", out)
         self.assertIn("eng:250", out)
+        self.assertIn("Honestly, I'd pay for this", out)
 
-    def test_render_handles_empty_ideas_list(self):
+    def test_brief_handles_empty_candidate_list(self):
         report = _report([])
-        out = ideas.render_ideas(report, [])
-        self.assertIn("No candidates matched", out)
+        out = ideas.render_brief(report, [])
+        self.assertIn("No candidates surfaced", out)
         self.assertIn("--subreddits", out)
 
-    def test_render_omits_source_health_when_no_errors(self):
-        cand = _candidate("c1", "I'd pay for a thing")
+    def test_brief_omits_source_health_when_no_errors(self):
+        cand = _candidate("c1", "Some candidate")
         report = _report([cand])
-        out = ideas.render_ideas(report, ideas.extract_ideas(report))
-        # Section header absent; the conditional reference inside the
-        # synthesis instructions ("If a SOURCE HEALTH section…") is fine.
+        out = ideas.render_brief(report, ideas.select_candidates(report))
         self.assertNotIn("## SOURCE HEALTH", out)
         self.assertIn("Healthy sources", out)
         self.assertIn("reddit", out)
 
-    def test_render_emits_source_health_section_when_errors_present(self):
-        cand = _candidate("c1", "I'd pay for a thing")
+    def test_brief_emits_source_health_section_when_errors_present(self):
+        cand = _candidate("c1", "Some candidate")
         report = _report([cand])
         report.errors_by_source["x"] = "401 unauthorized — cookies expired"
         report.errors_by_source["tiktok"] = "rate limited"
-        out = ideas.render_ideas(report, ideas.extract_ideas(report))
+        out = ideas.render_brief(report, ideas.select_candidates(report))
         self.assertIn("## SOURCE HEALTH", out)
         self.assertIn("**x**: 401 unauthorized", out)
         self.assertIn("**tiktok**: rate limited", out)
         # Synthesis instruction #8 references the SOURCE HEALTH block.
         self.assertIn("SOURCE HEALTH section appears above", out)
 
-    def test_render_truncates_long_error_messages(self):
-        cand = _candidate("c1", "I'd pay for a thing")
+    def test_brief_truncates_long_error_messages(self):
+        cand = _candidate("c1", "Some candidate")
         report = _report([cand])
         report.errors_by_source["reddit"] = "x" * 500
-        out = ideas.render_ideas(report, ideas.extract_ideas(report))
-        # Truncated to 200 chars + ellipsis.
+        out = ideas.render_brief(report, ideas.select_candidates(report))
         self.assertIn("…", out)
         self.assertNotIn("x" * 250, out)
+
+    def test_brief_renders_multiple_candidates_in_score_order(self):
+        cands = [
+            _candidate("low", "Lower-ranked", final_score=0.3),
+            _candidate("high", "Higher-ranked", final_score=0.9),
+        ]
+        report = _report(cands)
+        out = ideas.render_brief(report, ideas.select_candidates(report))
+        # Higher-scored candidate should appear first under ## CANDIDATES.
+        candidates_section = out.split("## CANDIDATES", 1)[1]
+        self.assertLess(
+            candidates_section.index("Higher-ranked"),
+            candidates_section.index("Lower-ranked"),
+        )
 
 
 if __name__ == "__main__":
