@@ -1,0 +1,1493 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i"
+      ],
+      "score": 11.749180327868856,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Strangers want me to install software after I post that I want an app that can ..."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Help a student out?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/roastmystartup/comments/1sxtt08/roast_my_idea_forcing_people_to_track_their"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/roastmystartup/comments/1sxtt08/roast_my_idea_forcing_people_to_track_their"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Roast My Idea: forcing people to track their workouts by blocking every app on their phone."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1t2uil3/i_built_a_place_where_people_post_things_they"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1t2uil3/i_built_a_place_where_people_post_things_they"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a place where people post things they wish existed and builders find what to build next. Would love feedback."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/vestaboard/comments/1stwagl/bounty_based_app_development"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/vestaboard/comments/1stwagl/bounty_based_app_development"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Bounty based app development?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What\u2019s one music app/website you\u2019ve always wished existed?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "does anyone else just free style workout?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/blueskyapps/comments/1t35z90/welcome_to_rblueskyapps_discover_whats_being_built"
+      ],
+      "cluster_id": "cluster-8",
+      "representative_ids": [
+        "https://reddit.com/r/blueskyapps/comments/1t35z90/welcome_to_rblueskyapps_discover_whats_being_built"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "\ud83d\ude80 Welcome to r/BlueskyApps - Discover What's Being Built!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/scalable_social_dev/comments/1sq4ww0/wish_there_was_an_app_for_bacon"
+      ],
+      "cluster_id": "cluster-9",
+      "representative_ids": [
+        "https://reddit.com/r/scalable_social_dev/comments/1sq4ww0/wish_there_was_an_app_for_bacon"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Wish there was an app for bacon."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-05T05:09:39.719448+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Strangers want me to install software after I post that I want an app that can ...\nI am writing this because I haven't seen this social engineering approach before.\n\nI made a couple posts recently saying, \"I wish there was an app that could ...\"\n\nWithin days of each post, strangers private messaged me saying that they are currently developing an app that does the thing I want. They tell me they are excited to see that someone is interested in their project. They ask me to provide collaboration and feedback. They want me to install software that they are developing. I am 99.98%\nThats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.\"\n\n\"Oh, here's one.\"\n\n\"NOT TODAY, SATAN!\"\n\n...seems an odd response. So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed working on an app that does that thing? \n\nSaying to you \"I'm working on an app like that, do you want to see it?\" is an unforgivable sin?",
+        "container": "cybersecurity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 10,
+          "score": 0,
+          "upvote_ratio": 0.18
+        },
+        "engagement_score": 44,
+        "freshness": 97,
+        "item_id": "R5",
+        "local_rank_score": 0.46849999999999997,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "Thats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat",
+            "There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.",
+            "So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed wo...",
+            "Do you have links to those posts ~~or is this another AI slop post~~?",
+            "I heard a lot of people in sales scraping such comments and try to use them as leads but i can't prove it"
+          ],
+          "top_comments": [
+            {
+              "author": "Ubumi",
+              "date": "2026-05-04",
+              "excerpt": "Thats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat",
+              "score": 6,
+              "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx1m6i/"
+            },
+            {
+              "author": "Cypher_Blue",
+              "date": "2026-05-04",
+              "excerpt": "There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.\"\n\n\"Oh, here's one.\"\n\n\"NOT TODAY, SATAN!\"\n\n...seems an odd response.",
+              "score": 4,
+              "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx0pms/"
+            },
+            {
+              "author": "MikeTalonNYC",
+              "date": "2026-05-04",
+              "excerpt": "So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed working on an app that does that thing? \n\nSaying to you \"I'm working on an app like that, do you want to see it?\" is an unforgivable sin?",
+              "score": 2,
+              "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojwzxot/"
+            },
+            {
+              "author": "mjbmitch",
+              "date": "2026-05-04",
+              "excerpt": "Do you have links to those posts ~~or is this another AI slop post~~?",
+              "score": 1,
+              "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx9itl/"
+            },
+            {
+              "author": "SpecificFlounder2248",
+              "date": "2026-05-04",
+              "excerpt": "I heard a lot of people in sales scraping such comments and try to use them as leads but i can't prove it",
+              "score": 1,
+              "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx9los/"
+            }
+          ]
+        },
+        "published_at": "2026-05-04",
+        "relevance_hint": 0.4,
+        "snippet": "Thats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.\"\n\n\"Oh, here's one.\"\n\n\"NOT TODAY, SATAN!\"\n\n...seems an odd response. So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed working on an app that does that thing? \n\nSaying to you \"I'm working on an app like that, do you want to see it?\" is an unforgivable sin?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Strangers want me to install software after I post that I want an app that can ...",
+        "url": "https://www.reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a place where people post things they wish existed and builders find what to build next. Would love feedback.\nHey r/SideProject, my name is Elie. Builder, full stack developer, and outdoor content creator. Long time lurker, first time poster here.\n\nI kept noticing the same pattern everywhere online. Someone posts \"I wish there was an app that...\" in a Reddit thread or YouTube comment and the idea just dies there. No builder ever sees it. No product ever gets made.\n\nSo I built WishBoard.\n\nIt's a community where everyday people post the things they wish existed, the community upvotes the best ones, and bu",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 4,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 66,
+        "freshness": 95,
+        "item_id": "R6",
+        "local_rank_score": 0.4335,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-03",
+        "relevance_hint": 0.4,
+        "snippet": "Hey r/SideProject, my name is Elie. Builder, full stack developer, and outdoor content creator. Long time lurker, first time poster here.\n\nI kept noticing the same pattern everywhere online. Someone posts \"I wish there was an app that...\" in a Reddit thread or YouTube comment and the idea just dies there. No builder ever sees it. No product ever gets made.\n\nSo I built WishBoard.\n\nIt's a community",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a place where people post things they wish existed and builders find what to build next. Would love feedback.",
+        "url": "https://www.reddit.com/r/SideProject/comments/1t2uil3/i_built_a_place_where_people_post_things_they/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What\u2019s one music app/website you\u2019ve always wished existed?\nHi everyone, \n\nI'd like to get some ideas from people closely involved with music here. Is there anything you've thought, \"I wish there was an app/website like this\"? \n\nIn my master's thesis on music genres, my advisor and I achieved some results. It was very enjoyable, and I want to continue working on it so I have an idea I\u2019m trying to develop, and since music has always been a big part of how I express myself, I\u2019d love to hear real needs or frustrations from people who are closely involved wi\nAn App that tells people all of the things people are suggesting here already exist, and points them to them. A website that can verify/correct your counterpoint exercises and provide feedback i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies and sheet music too",
+        "container": "musictheory",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 22,
+          "score": 0,
+          "upvote_ratio": 0.23
+        },
+        "engagement_score": 58,
+        "freshness": 94,
+        "item_id": "R1",
+        "local_rank_score": 0.423,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "An App that tells people all of the things people are suggesting here already exist, and points them to them.",
+            "A website that can verify/correct your counterpoint exercises and provide feedback",
+            "i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies a...",
+            "An app or site where you can convert staff notation to tonic sol-fa notation or at least write down the staff notes into solfege",
+            "an app that actually listens to you play and tells you exactly what\u2019s wrong in real time\n\nnot just \u201cyou\u2019re off tempo\u201d but like \u201cyour 3rd string is mut...",
+            "There a great AUX app to share music files easily and it ceased to exist I wonder why.",
+            "My girlfriend sketched me up a little app in an afternoon which allowed me to plug in some ratios, play back the resultant pitches as a scale, and for...",
+            "Something that lets you create 4 or 8 bar loops, with chords or drones, for practice."
+          ],
+          "top_comments": [
+            {
+              "author": "65TwinReverbRI",
+              "date": "2026-05-02",
+              "excerpt": "An App that tells people all of the things people are suggesting here already exist, and points them to them.",
+              "score": 5,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojiq5gy/"
+            },
+            {
+              "author": "Vincent_Gitarrist",
+              "date": "2026-05-02",
+              "excerpt": "A website that can verify/correct your counterpoint exercises and provide feedback",
+              "score": 3,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhcwt8/"
+            },
+            {
+              "author": "No-Somewhere-1336",
+              "date": "2026-05-02",
+              "excerpt": "i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies and sheet music too\n",
+              "score": 3,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhburd/"
+            },
+            {
+              "author": "angel_eyes619",
+              "date": "2026-05-02",
+              "excerpt": "An app or site where you can convert staff notation to tonic sol-fa notation or at least write down the staff notes into solfege",
+              "score": 1,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhon2x/"
+            },
+            {
+              "author": "lmao_exe",
+              "date": "2026-05-02",
+              "excerpt": "an app that actually listens to you play and tells you exactly what\u2019s wrong in real time\n\nnot just \u201cyou\u2019re off tempo\u201d but like \u201cyour 3rd string is muted\u201d, \u201cyou\u2019re pressing too hard\u201d, \u201cyou\u2019re slightly sharp\u201d, stuff like that\n\nbasically a smart practice coach instead of just tabs and backing tracks",
+              "score": 1,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhyukl/"
+            },
+            {
+              "author": "frapal13",
+              "date": "2026-05-02",
+              "excerpt": "There a great AUX app to share music files easily and it ceased to exist I wonder why.",
+              "score": 1,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/oji1po1/"
+            },
+            {
+              "author": "tombeaucouperin",
+              "date": "2026-05-02",
+              "excerpt": " rule 34 for music theory ",
+              "score": 1,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojisw4p/"
+            },
+            {
+              "author": "MiskyWilkshake",
+              "date": "2026-05-02",
+              "excerpt": "My girlfriend sketched me up a little app in an afternoon which allowed me to plug in some ratios, play back the resultant pitches as a scale, and for each member of the scale suggested nearby pitches ordered by the simplicity of their ratios. I\u2019ve used this a bunch of times when exploring different",
+              "score": 1,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhbcke/"
+            },
+            {
+              "author": "Dawsie",
+              "date": "2026-05-02",
+              "excerpt": "Something that lets you create 4 or 8 bar loops, with chords or drones, for practice.",
+              "score": 1,
+              "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhcn4a/"
+            }
+          ]
+        },
+        "published_at": "2026-05-02",
+        "relevance_hint": 0.4,
+        "snippet": "An App that tells people all of the things people are suggesting here already exist, and points them to them. A website that can verify/correct your counterpoint exercises and provide feedback i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies and sheet music too",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What\u2019s one music app/website you\u2019ve always wished existed?",
+        "url": "https://www.reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Roast My Idea: forcing people to track their workouts by blocking every app on their phone.\nTo be honest, it's one of the time that plays a little bit of frustration at myself and others. Just when I walk into the gym, I just see people sitting on their phone doing absolutely nothing, kind of just hogging a machine.\n\n And I wish there was an app that forced people to, like, block  apps and also forced me to track my workouts and show my progress, I am such a person who's, like, committed almost daily, but I'm always doing the same weights, and it comes from me not tracking my workouts,",
+        "container": "roastmystartup",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 3,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 68,
+        "freshness": 85,
+        "item_id": "R7",
+        "local_rank_score": 0.41050000000000003,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-28",
+        "relevance_hint": 0.4,
+        "snippet": "To be honest, it's one of the time that plays a little bit of frustration at myself and others. Just when I walk into the gym, I just see people sitting on their phone doing absolutely nothing, kind of just hogging a machine.\n\n And I wish there was an app that forced people to, like, block  apps and also forced me to track my workouts and show my progress, I am such a person who's, like, committed",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Roast My Idea: forcing people to track their workouts by blocking every app on their phone.",
+        "url": "https://www.reddit.com/r/roastmystartup/comments/1sxtt08/roast_my_idea_forcing_people_to_track_their/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "\ud83d\ude80 Welcome to r/BlueskyApps - Discover What's Being Built!\nHey everyone! Welcome to r/BlueskyApps!\n\nThis is the showcase community for apps, tools, feeds, bots, and clients built on Bluesky and the AT Protocol.\n\n**What to Post**\n\n- \ud83d\ude80 **Launch** - New app announcements\n- \ud83d\udcf1 **Update** - Feature updates and improvements  \n- \ud83d\udca1 **Request** - \"I wish there was an app that...\"\n- \u2728 **Showcase** - Demo your app or tool\n- \ud83c\udfaf **Feedback Wanted** - Beta testing, user input\n- \ud83d\udcca **Feed** - Custom feed algorithms\n- \ud83e\udd16 **Bot** - Automated accounts and services\n- \ud83d\udcbb **Clie",
+        "container": "BlueskyApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 30,
+        "freshness": 97,
+        "item_id": "R12",
+        "local_rank_score": 0.40249999999999997,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-04",
+        "relevance_hint": 0.22,
+        "snippet": "Hey everyone! Welcome to r/BlueskyApps!\n\nThis is the showcase community for apps, tools, feeds, bots, and clients built on Bluesky and the AT Protocol.\n\n**What to Post**\n\n- \ud83d\ude80 **Launch** - New app announcements\n- \ud83d\udcf1 **Update** - Feature updates and improvements  \n- \ud83d\udca1 **Request** - \"I wish there was an app that...\"\n- \u2728 **Showcase** - Demo your app or tool\n- \ud83c\udfaf **Feedback Wanted** - Beta testing, user",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "\ud83d\ude80 Welcome to r/BlueskyApps - Discover What's Being Built!",
+        "url": "https://www.reddit.com/r/BlueskyApps/comments/1t35z90/welcome_to_rblueskyapps_discover_whats_being_built/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Help a student out?\nHey everyone,\n\nI\u2019m currently working on a school project where I have to develop a business plan for a hypothetical startup. The problem is... I\u2019m completely stuck.\n\nEvery time I think of something, I find out it already exists or it\u2019s way too complicated for me to realistically research. I\u2019m not looking for the \"next Facebook,\" just a solid, interesting problem that needs a creative solution. If you\u2019ve ever said, \"I wish there was an app/service for X,\" please let me know! I\u2019d love to take your\nI've tried [Unbuilt.me](http://Unbuilt.me) \n\nDig my idea tool shows you if there is a real gap or what to build. Can be useful for you I would highly suggest to sit down with your thoughts and write down problems you face. Then talk to others and validate if they do as well. Go and make a solution for that problem that everyone mentioned. Then finally go back to those people and ask them about your solution. The more closely you un Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer. Most ideas already exist in some form, so the real work is narrowing the problem and making it simple enough to explain and build around.",
+        "container": "startupideas",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 3,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 97,
+        "freshness": 41,
+        "item_id": "R4",
+        "local_rank_score": 0.38150000000000006,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "I've tried [Unbuilt.me](http://Unbuilt.me) \n\nDig my idea tool shows you if there is a real gap or what to build. Can be useful for you",
+            "I would highly suggest to sit down with your thoughts and write down problems you face.",
+            "Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer.",
+            "Stop trying to build the next big consumer app and just look for the boring stuff businesses hate doing."
+          ],
+          "top_comments": [
+            {
+              "author": "Low_Pattern7200",
+              "date": "2026-04-06",
+              "excerpt": "I've tried [Unbuilt.me](http://Unbuilt.me) \n\nDig my idea tool shows you if there is a real gap or what to build. Can be useful for you",
+              "score": 3,
+              "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oeo2jdc/"
+            },
+            {
+              "author": "Scared_Attorney4688",
+              "date": "2026-04-06",
+              "excerpt": "I would highly suggest to sit down with your thoughts and write down problems you face. Then talk to others and validate if they do as well. Go and make a solution for that problem that everyone mentioned. Then finally go back to those people and ask them about your solution. The more closely you un",
+              "score": 2,
+              "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oeocdk7/"
+            },
+            {
+              "author": "mikky_dev_jc",
+              "date": "2026-04-07",
+              "excerpt": "Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer. Most ideas already exist in some form, so the real work is narrowing the problem and making it simple enough to explain and build around.",
+              "score": 2,
+              "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oeqyjd3/"
+            },
+            {
+              "author": "Bubbly-Slip7616",
+              "date": "2026-04-07",
+              "excerpt": "Dm ",
+              "score": 1,
+              "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oes37l9/"
+            },
+            {
+              "author": "balancedtake",
+              "date": "2026-04-17",
+              "excerpt": "Stop trying to build the next big consumer app and just look for the boring stuff businesses hate doing. If you can make a simple tool that handles repetitive admin work or cleans up a messy inbox, people will actually pay for it. Fix a real headache, don't just build a shiny toy.",
+              "score": 1,
+              "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/ogow0tm/"
+            }
+          ]
+        },
+        "published_at": "2026-04-06",
+        "relevance_hint": 0.22,
+        "snippet": "I've tried [Unbuilt.me](http://Unbuilt.me) Dig my idea tool shows you if there is a real gap or what to build. Can be useful for you I would highly suggest to sit down with your thoughts and write down problems you face. Then talk to others and validate if they do as well. Go and make a solution for that problem that everyone mentioned. Then finally go back to those people and ask them about your solution. The more closely you un Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer. Most ideas already exist in some form, so the real work is narrowing the problem and making it simple enough to explain and...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Help a student out?",
+        "url": "https://www.reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Bounty based app development?\nI'm new to this platform.  In Tidbyt world there was a community around bounty-based app development.  In other words, someone lazy (me) would say I wish there was an app that did XYZ.  Someone else would say, I'd build that for X, and then me (and others) would pool the cash to pay them for the development.  Does anything exist along these lines in this community?  I have a few apps I wish existed.",
+        "container": "Vestaboard",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 59,
+        "freshness": 76,
+        "item_id": "R8",
+        "local_rank_score": 0.379,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-23",
+        "relevance_hint": 0.42,
+        "snippet": "I'm new to this platform.  In Tidbyt world there was a community around bounty-based app development.  In other words, someone lazy (me) would say I wish there was an app that did XYZ.  Someone else would say, I'd build that for X, and then me (and others) would pool the cash to pay them for the development.  Does anything exist along these lines in this community?  I have a few apps I wish existe",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Bounty based app development?",
+        "url": "https://www.reddit.com/r/Vestaboard/comments/1stwagl/bounty_based_app_development/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "does anyone else just free style workout?\npersonally I've been doing this but it feels unstructured with no clear goal to work towards or even look back at progress. I wish there was an app that you can just open up, gives you a routine for the day - then that's it. Anyone else feel the same?\n\nedit: gonna try out Hevy :D\nNo I don\u2019t feel the same because that sounds somewhat pointless. Why not just use an app that has a structured workout and tells you what to specifically do that day? Many have this function, BoostCamp, Hevy, etc There are literally a bunch of apps out there that do just that I used to do that when I was new and getting used to the gym. I don\u2019t know why you\u2019d need an app for it though. Workouts become routine after doing it a few times, and you aren\u2019t moving the weight up or down a crazy amount unless you\u2019re lifting enhanced. Pretty easy to keep it all in your head, no n",
+        "container": "workout",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 15,
+          "score": 0,
+          "upvote_ratio": 0.25
+        },
+        "engagement_score": 52,
+        "freshness": 77,
+        "item_id": "R2",
+        "local_rank_score": 0.3745,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "No I don\u2019t feel the same because that sounds somewhat pointless.",
+            "There are literally a bunch of apps out there that do just that",
+            "I used to do that when I was new and getting used to the gym.",
+            "I wonder if people really train like that.\n\nLikecwhy? Just choose a Split and use a free app like fitnotes",
+            "There is an app like that, it's called Ladder. ",
+            "I used to train like that in high school when I had fuckarounditis and was just spinning my wheels making little-to-no progress.",
+            "I wish there was an app ? I can\u2019t tell if you\u2019re being sarcastic? ",
+            "Macrofactor workout - nippards app"
+          ],
+          "top_comments": [
+            {
+              "author": "NYChockey14",
+              "date": "2026-04-24",
+              "excerpt": "No I don\u2019t feel the same because that sounds somewhat pointless. Why not just use an app that has a structured workout and tells you what to specifically do that day? Many have this function, BoostCamp, Hevy, etc ",
+              "score": 5,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2ydw3/"
+            },
+            {
+              "author": "Wulfgar57",
+              "date": "2026-04-24",
+              "excerpt": "There are literally a bunch of apps out there that do just that",
+              "score": 4,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2yyph/"
+            },
+            {
+              "author": "tedkang3582",
+              "date": "2026-04-24",
+              "excerpt": "I used to do that when I was new and getting used to the gym. I don\u2019t know why you\u2019d need an app for it though. Workouts become routine after doing it a few times, and you aren\u2019t moving the weight up or down a crazy amount unless you\u2019re lifting enhanced. Pretty easy to keep it all in your head, no n",
+              "score": 3,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi33clq/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-04-24",
+              "excerpt": "**Hey, thanks for making a new post!** Please be sure to assign your post with **flair** for the best support! Also, check out **[this post](https://www.reddit.com/r/workout/comments/noyv6p/do_you_need_to_gain_weight_lose_weight_or/)** to answer common questions.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wor",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2xy29/"
+            },
+            {
+              "author": "Grogon2",
+              "date": "2026-04-24",
+              "excerpt": "I wonder if people really train like that.\n\nLikecwhy? Just choose a Split and use a free app like fitnotes",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2yqyb/"
+            },
+            {
+              "author": "Dober_weiler",
+              "date": "2026-04-24",
+              "excerpt": "There is an app like that, it's called Ladder. ",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2z1zr/"
+            },
+            {
+              "author": "RagnarokWolves",
+              "date": "2026-04-24",
+              "excerpt": "I used to train like that in high school when I had fuckarounditis and was just spinning my wheels making little-to-no progress.",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi30fje/"
+            },
+            {
+              "author": "PopcornSquats",
+              "date": "2026-04-24",
+              "excerpt": "I wish there was an app ? I can\u2019t tell if you\u2019re being sarcastic? ",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi33zuo/"
+            },
+            {
+              "author": "yoyomaisapunk",
+              "date": "2026-04-25",
+              "excerpt": "Macrofactor workout - nippards app",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi43vv6/"
+            }
+          ]
+        },
+        "published_at": "2026-04-24",
+        "relevance_hint": 0.22,
+        "snippet": "No I don\u2019t feel the same because that sounds somewhat pointless. Why not just use an app that has a structured workout and tells you what to specifically do that day? Many have this function, BoostCamp, Hevy, etc There are literally a bunch of apps out there that do just that I used to do that when I was new and getting used to the gym. I don\u2019t know why you\u2019d need an app for it though. Workouts become routine after doing it a few times, and you aren\u2019t moving the weight up or down a crazy amount unless you\u2019re lifting enhanced. Pretty easy to keep it all in your head, no n",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "does anyone else just free style workout?",
+        "url": "https://www.reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Wish there was an app for bacon.\nI wish there was an app for bacon.  Like, somebody should make an app for bacon.",
+        "container": "scalable_social_dev",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 30,
+        "freshness": 67,
+        "item_id": "R10",
+        "local_rank_score": 0.35350000000000004,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-19",
+        "relevance_hint": 0.95,
+        "snippet": "I wish there was an app for bacon.  Like, somebody should make an app for bacon.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Wish there was an app for bacon.",
+        "url": "https://www.reddit.com/r/scalable_social_dev/comments/1sq4ww0/wish_there_was_an_app_for_bacon/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app\", especially about \"i wish there app\"?",
+        "search_query": "\"i wish there app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-05",
+  "range_to": "2026-05-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i",
+      "cluster_id": "cluster-1",
+      "engagement": 44,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 11.749180327868856,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 20.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Thats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.\"\n\n\"Oh, here's one.\"\n\n\"NOT TODAY, SATAN!\"\n\n...seems an odd response. So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed working on an app that does that thing? \n\nSaying to you \"I'm working on an app like that, do you want to see it?\" is an unforgivable sin?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Strangers want me to install software after I post that I want an app that can ...\nI am writing this because I haven't seen this social engineering approach before.\n\nI made a couple posts recently saying, \"I wish there was an app that could ...\"\n\nWithin days of each post, strangers private messaged me saying that they are currently developing an app that does the thing I want. They tell me they are excited to see that someone is interested in their project. They ask me to provide collaboration and feedback. They want me to install software that they are developing. I am 99.98%\nThats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.\"\n\n\"Oh, here's one.\"\n\n\"NOT TODAY, SATAN!\"\n\n...seems an odd response. So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed working on an app that does that thing? \n\nSaying to you \"I'm working on an app like that, do you want to see it?\" is an unforgivable sin?",
+          "container": "cybersecurity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 10,
+            "score": 0,
+            "upvote_ratio": 0.18
+          },
+          "engagement_score": 44,
+          "freshness": 97,
+          "item_id": "R5",
+          "local_rank_score": 0.46849999999999997,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "Thats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat",
+              "There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.",
+              "So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed wo...",
+              "Do you have links to those posts ~~or is this another AI slop post~~?",
+              "I heard a lot of people in sales scraping such comments and try to use them as leads but i can't prove it"
+            ],
+            "top_comments": [
+              {
+                "author": "Ubumi",
+                "date": "2026-05-04",
+                "excerpt": "Thats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat",
+                "score": 6,
+                "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx1m6i/"
+              },
+              {
+                "author": "Cypher_Blue",
+                "date": "2026-05-04",
+                "excerpt": "There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.\"\n\n\"Oh, here's one.\"\n\n\"NOT TODAY, SATAN!\"\n\n...seems an odd response.",
+                "score": 4,
+                "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx0pms/"
+              },
+              {
+                "author": "MikeTalonNYC",
+                "date": "2026-05-04",
+                "excerpt": "So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed working on an app that does that thing? \n\nSaying to you \"I'm working on an app like that, do you want to see it?\" is an unforgivable sin?",
+                "score": 2,
+                "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojwzxot/"
+              },
+              {
+                "author": "mjbmitch",
+                "date": "2026-05-04",
+                "excerpt": "Do you have links to those posts ~~or is this another AI slop post~~?",
+                "score": 1,
+                "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx9itl/"
+              },
+              {
+                "author": "SpecificFlounder2248",
+                "date": "2026-05-04",
+                "excerpt": "I heard a lot of people in sales scraping such comments and try to use them as leads but i can't prove it",
+                "score": 1,
+                "url": "https://reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/ojx9los/"
+              }
+            ]
+          },
+          "published_at": "2026-05-04",
+          "relevance_hint": 0.4,
+          "snippet": "Thats the issue with cybersec you become so paranoid everything including legit outreach becomes a potential threat There are always security risks when you download something but \"Hey, I wish there was an app that does this thing.\"\n\n\"Oh, here's one.\"\n\n\"NOT TODAY, SATAN!\"\n\n...seems an odd response. So, wait, you're pissed of that when you say you wish there was an app that could do something, people reach out to you saying that they are indeed working on an app that does that thing? \n\nSaying to you \"I'm working on an app like that, do you want to see it?\" is an unforgivable sin?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Strangers want me to install software after I post that I want an app that can ...",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Strangers want me to install software after I post that I want an app that can ...",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1t3q9ae/strangers_want_me_to_install_software_after_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out",
+      "cluster_id": "cluster-2",
+      "engagement": 97,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 8.800000000000004,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "I've tried [Unbuilt.me](http://Unbuilt.me) Dig my idea tool shows you if there is a real gap or what to build. Can be useful for you I would highly suggest to sit down with your thoughts and write down problems you face. Then talk to others and validate if they do as well. Go and make a solution for that problem that everyone mentioned. Then finally go back to those people and ask them about your solution. The more closely you un Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer. Most ideas already exist in some form, so the real work is narrowing the problem and making it simple enough to explain and...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Help a student out?\nHey everyone,\n\nI\u2019m currently working on a school project where I have to develop a business plan for a hypothetical startup. The problem is... I\u2019m completely stuck.\n\nEvery time I think of something, I find out it already exists or it\u2019s way too complicated for me to realistically research. I\u2019m not looking for the \"next Facebook,\" just a solid, interesting problem that needs a creative solution. If you\u2019ve ever said, \"I wish there was an app/service for X,\" please let me know! I\u2019d love to take your\nI've tried [Unbuilt.me](http://Unbuilt.me) \n\nDig my idea tool shows you if there is a real gap or what to build. Can be useful for you I would highly suggest to sit down with your thoughts and write down problems you face. Then talk to others and validate if they do as well. Go and make a solution for that problem that everyone mentioned. Then finally go back to those people and ask them about your solution. The more closely you un Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer. Most ideas already exist in some form, so the real work is narrowing the problem and making it simple enough to explain and build around.",
+          "container": "startupideas",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 3,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 97,
+          "freshness": 41,
+          "item_id": "R4",
+          "local_rank_score": 0.38150000000000006,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "I've tried [Unbuilt.me](http://Unbuilt.me) \n\nDig my idea tool shows you if there is a real gap or what to build. Can be useful for you",
+              "I would highly suggest to sit down with your thoughts and write down problems you face.",
+              "Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer.",
+              "Stop trying to build the next big consumer app and just look for the boring stuff businesses hate doing."
+            ],
+            "top_comments": [
+              {
+                "author": "Low_Pattern7200",
+                "date": "2026-04-06",
+                "excerpt": "I've tried [Unbuilt.me](http://Unbuilt.me) \n\nDig my idea tool shows you if there is a real gap or what to build. Can be useful for you",
+                "score": 3,
+                "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oeo2jdc/"
+              },
+              {
+                "author": "Scared_Attorney4688",
+                "date": "2026-04-06",
+                "excerpt": "I would highly suggest to sit down with your thoughts and write down problems you face. Then talk to others and validate if they do as well. Go and make a solution for that problem that everyone mentioned. Then finally go back to those people and ask them about your solution. The more closely you un",
+                "score": 2,
+                "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oeocdk7/"
+              },
+              {
+                "author": "mikky_dev_jc",
+                "date": "2026-04-07",
+                "excerpt": "Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer. Most ideas already exist in some form, so the real work is narrowing the problem and making it simple enough to explain and build around.",
+                "score": 2,
+                "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oeqyjd3/"
+              },
+              {
+                "author": "Bubbly-Slip7616",
+                "date": "2026-04-07",
+                "excerpt": "Dm ",
+                "score": 1,
+                "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/oes37l9/"
+              },
+              {
+                "author": "balancedtake",
+                "date": "2026-04-17",
+                "excerpt": "Stop trying to build the next big consumer app and just look for the boring stuff businesses hate doing. If you can make a simple tool that handles repetitive admin work or cleans up a messy inbox, people will actually pay for it. Fix a real headache, don't just build a shiny toy.",
+                "score": 1,
+                "url": "https://reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/ogow0tm/"
+              }
+            ]
+          },
+          "published_at": "2026-04-06",
+          "relevance_hint": 0.22,
+          "snippet": "I've tried [Unbuilt.me](http://Unbuilt.me) Dig my idea tool shows you if there is a real gap or what to build. Can be useful for you I would highly suggest to sit down with your thoughts and write down problems you face. Then talk to others and validate if they do as well. Go and make a solution for that problem that everyone mentioned. Then finally go back to those people and ask them about your solution. The more closely you un Honestly, try flipping it...start from messy ideas or small annoyances and just structure them into something clearer. Most ideas already exist in some form, so the real work is narrowing the problem and making it simple enough to explain and...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Help a student out?",
+          "url": "https://www.reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Help a student out?",
+      "url": "https://www.reddit.com/r/startupideas/comments/1se3n8x/help_a_student_out/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/roastmystartup/comments/1sxtt08/roast_my_idea_forcing_people_to_track_their",
+      "cluster_id": "cluster-3",
+      "engagement": 68,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R7",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 12.0,
+      "rrf_score": 0.0078125,
+      "snippet": "To be honest, it's one of the time that plays a little bit of frustration at myself and others. Just when I walk into the gym, I just see people sitting on their phone doing absolutely nothing, kind of just hogging a machine.\n\n And I wish there was an app that forced people to, like, block  apps and also forced me to track my workouts and show my progress, I am such a person who's, like, committed",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Roast My Idea: forcing people to track their workouts by blocking every app on their phone.\nTo be honest, it's one of the time that plays a little bit of frustration at myself and others. Just when I walk into the gym, I just see people sitting on their phone doing absolutely nothing, kind of just hogging a machine.\n\n And I wish there was an app that forced people to, like, block  apps and also forced me to track my workouts and show my progress, I am such a person who's, like, committed almost daily, but I'm always doing the same weights, and it comes from me not tracking my workouts,",
+          "container": "roastmystartup",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 3,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 68,
+          "freshness": 85,
+          "item_id": "R7",
+          "local_rank_score": 0.41050000000000003,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-28",
+          "relevance_hint": 0.4,
+          "snippet": "To be honest, it's one of the time that plays a little bit of frustration at myself and others. Just when I walk into the gym, I just see people sitting on their phone doing absolutely nothing, kind of just hogging a machine.\n\n And I wish there was an app that forced people to, like, block  apps and also forced me to track my workouts and show my progress, I am such a person who's, like, committed",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Roast My Idea: forcing people to track their workouts by blocking every app on their phone.",
+          "url": "https://www.reddit.com/r/roastmystartup/comments/1sxtt08/roast_my_idea_forcing_people_to_track_their/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Roast My Idea: forcing people to track their workouts by blocking every app on their phone.",
+      "url": "https://www.reddit.com/r/roastmystartup/comments/1sxtt08/roast_my_idea_forcing_people_to_track_their/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1t2uil3/i_built_a_place_where_people_post_things_they",
+      "cluster_id": "cluster-4",
+      "engagement": 66,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hey r/SideProject, my name is Elie. Builder, full stack developer, and outdoor content creator. Long time lurker, first time poster here.\n\nI kept noticing the same pattern everywhere online. Someone posts \"I wish there was an app that...\" in a Reddit thread or YouTube comment and the idea just dies there. No builder ever sees it. No product ever gets made.\n\nSo I built WishBoard.\n\nIt's a community",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a place where people post things they wish existed and builders find what to build next. Would love feedback.\nHey r/SideProject, my name is Elie. Builder, full stack developer, and outdoor content creator. Long time lurker, first time poster here.\n\nI kept noticing the same pattern everywhere online. Someone posts \"I wish there was an app that...\" in a Reddit thread or YouTube comment and the idea just dies there. No builder ever sees it. No product ever gets made.\n\nSo I built WishBoard.\n\nIt's a community where everyday people post the things they wish existed, the community upvotes the best ones, and bu",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 4,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 66,
+          "freshness": 95,
+          "item_id": "R6",
+          "local_rank_score": 0.4335,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-03",
+          "relevance_hint": 0.4,
+          "snippet": "Hey r/SideProject, my name is Elie. Builder, full stack developer, and outdoor content creator. Long time lurker, first time poster here.\n\nI kept noticing the same pattern everywhere online. Someone posts \"I wish there was an app that...\" in a Reddit thread or YouTube comment and the idea just dies there. No builder ever sees it. No product ever gets made.\n\nSo I built WishBoard.\n\nIt's a community",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a place where people post things they wish existed and builders find what to build next. Would love feedback.",
+          "url": "https://www.reddit.com/r/SideProject/comments/1t2uil3/i_built_a_place_where_people_post_things_they/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a place where people post things they wish existed and builders find what to build next. Would love feedback.",
+      "url": "https://www.reddit.com/r/SideProject/comments/1t2uil3/i_built_a_place_where_people_post_things_they/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/vestaboard/comments/1stwagl/bounty_based_app_development",
+      "cluster_id": "cluster-5",
+      "engagement": 59,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 7,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 7
+      },
+      "rerank_score": 10.200000000000003,
+      "rrf_score": 0.007462686567164179,
+      "snippet": "I'm new to this platform.  In Tidbyt world there was a community around bounty-based app development.  In other words, someone lazy (me) would say I wish there was an app that did XYZ.  Someone else would say, I'd build that for X, and then me (and others) would pool the cash to pay them for the development.  Does anything exist along these lines in this community?  I have a few apps I wish existe",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Bounty based app development?\nI'm new to this platform.  In Tidbyt world there was a community around bounty-based app development.  In other words, someone lazy (me) would say I wish there was an app that did XYZ.  Someone else would say, I'd build that for X, and then me (and others) would pool the cash to pay them for the development.  Does anything exist along these lines in this community?  I have a few apps I wish existed.",
+          "container": "Vestaboard",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 59,
+          "freshness": 76,
+          "item_id": "R8",
+          "local_rank_score": 0.379,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-23",
+          "relevance_hint": 0.42,
+          "snippet": "I'm new to this platform.  In Tidbyt world there was a community around bounty-based app development.  In other words, someone lazy (me) would say I wish there was an app that did XYZ.  Someone else would say, I'd build that for X, and then me (and others) would pool the cash to pay them for the development.  Does anything exist along these lines in this community?  I have a few apps I wish existe",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Bounty based app development?",
+          "url": "https://www.reddit.com/r/Vestaboard/comments/1stwagl/bounty_based_app_development/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Bounty based app development?",
+      "url": "https://www.reddit.com/r/Vestaboard/comments/1stwagl/bounty_based_app_development/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished",
+      "cluster_id": "cluster-6",
+      "engagement": 58,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 13.799999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "An App that tells people all of the things people are suggesting here already exist, and points them to them. A website that can verify/correct your counterpoint exercises and provide feedback i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies and sheet music too",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What\u2019s one music app/website you\u2019ve always wished existed?\nHi everyone, \n\nI'd like to get some ideas from people closely involved with music here. Is there anything you've thought, \"I wish there was an app/website like this\"? \n\nIn my master's thesis on music genres, my advisor and I achieved some results. It was very enjoyable, and I want to continue working on it so I have an idea I\u2019m trying to develop, and since music has always been a big part of how I express myself, I\u2019d love to hear real needs or frustrations from people who are closely involved wi\nAn App that tells people all of the things people are suggesting here already exist, and points them to them. A website that can verify/correct your counterpoint exercises and provide feedback i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies and sheet music too",
+          "container": "musictheory",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 22,
+            "score": 0,
+            "upvote_ratio": 0.23
+          },
+          "engagement_score": 58,
+          "freshness": 94,
+          "item_id": "R1",
+          "local_rank_score": 0.423,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "An App that tells people all of the things people are suggesting here already exist, and points them to them.",
+              "A website that can verify/correct your counterpoint exercises and provide feedback",
+              "i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies a...",
+              "An app or site where you can convert staff notation to tonic sol-fa notation or at least write down the staff notes into solfege",
+              "an app that actually listens to you play and tells you exactly what\u2019s wrong in real time\n\nnot just \u201cyou\u2019re off tempo\u201d but like \u201cyour 3rd string is mut...",
+              "There a great AUX app to share music files easily and it ceased to exist I wonder why.",
+              "My girlfriend sketched me up a little app in an afternoon which allowed me to plug in some ratios, play back the resultant pitches as a scale, and for...",
+              "Something that lets you create 4 or 8 bar loops, with chords or drones, for practice."
+            ],
+            "top_comments": [
+              {
+                "author": "65TwinReverbRI",
+                "date": "2026-05-02",
+                "excerpt": "An App that tells people all of the things people are suggesting here already exist, and points them to them.",
+                "score": 5,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojiq5gy/"
+              },
+              {
+                "author": "Vincent_Gitarrist",
+                "date": "2026-05-02",
+                "excerpt": "A website that can verify/correct your counterpoint exercises and provide feedback",
+                "score": 3,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhcwt8/"
+              },
+              {
+                "author": "No-Somewhere-1336",
+                "date": "2026-05-02",
+                "excerpt": "i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies and sheet music too\n",
+                "score": 3,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhburd/"
+              },
+              {
+                "author": "angel_eyes619",
+                "date": "2026-05-02",
+                "excerpt": "An app or site where you can convert staff notation to tonic sol-fa notation or at least write down the staff notes into solfege",
+                "score": 1,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhon2x/"
+              },
+              {
+                "author": "lmao_exe",
+                "date": "2026-05-02",
+                "excerpt": "an app that actually listens to you play and tells you exactly what\u2019s wrong in real time\n\nnot just \u201cyou\u2019re off tempo\u201d but like \u201cyour 3rd string is muted\u201d, \u201cyou\u2019re pressing too hard\u201d, \u201cyou\u2019re slightly sharp\u201d, stuff like that\n\nbasically a smart practice coach instead of just tabs and backing tracks",
+                "score": 1,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhyukl/"
+              },
+              {
+                "author": "frapal13",
+                "date": "2026-05-02",
+                "excerpt": "There a great AUX app to share music files easily and it ceased to exist I wonder why.",
+                "score": 1,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/oji1po1/"
+              },
+              {
+                "author": "tombeaucouperin",
+                "date": "2026-05-02",
+                "excerpt": " rule 34 for music theory ",
+                "score": 1,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojisw4p/"
+              },
+              {
+                "author": "MiskyWilkshake",
+                "date": "2026-05-02",
+                "excerpt": "My girlfriend sketched me up a little app in an afternoon which allowed me to plug in some ratios, play back the resultant pitches as a scale, and for each member of the scale suggested nearby pitches ordered by the simplicity of their ratios. I\u2019ve used this a bunch of times when exploring different",
+                "score": 1,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhbcke/"
+              },
+              {
+                "author": "Dawsie",
+                "date": "2026-05-02",
+                "excerpt": "Something that lets you create 4 or 8 bar loops, with chords or drones, for practice.",
+                "score": 1,
+                "url": "https://reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/ojhcn4a/"
+              }
+            ]
+          },
+          "published_at": "2026-05-02",
+          "relevance_hint": 0.4,
+          "snippet": "An App that tells people all of the things people are suggesting here already exist, and points them to them. A website that can verify/correct your counterpoint exercises and provide feedback i know this is very basic, but finding accurate not simplified chords for a song to analyze it is surprisingly difficult\n\nand that goes for melodies and sheet music too",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What\u2019s one music app/website you\u2019ve always wished existed?",
+          "url": "https://www.reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What\u2019s one music app/website you\u2019ve always wished existed?",
+      "url": "https://www.reddit.com/r/musictheory/comments/1t1m36q/whats_one_music_appwebsite_youve_always_wished/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout",
+      "cluster_id": "cluster-7",
+      "engagement": 52,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 8,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 8
+      },
+      "rerank_score": 10.399999999999999,
+      "rrf_score": 0.007352941176470588,
+      "snippet": "No I don\u2019t feel the same because that sounds somewhat pointless. Why not just use an app that has a structured workout and tells you what to specifically do that day? Many have this function, BoostCamp, Hevy, etc There are literally a bunch of apps out there that do just that I used to do that when I was new and getting used to the gym. I don\u2019t know why you\u2019d need an app for it though. Workouts become routine after doing it a few times, and you aren\u2019t moving the weight up or down a crazy amount unless you\u2019re lifting enhanced. Pretty easy to keep it all in your head, no n",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "does anyone else just free style workout?\npersonally I've been doing this but it feels unstructured with no clear goal to work towards or even look back at progress. I wish there was an app that you can just open up, gives you a routine for the day - then that's it. Anyone else feel the same?\n\nedit: gonna try out Hevy :D\nNo I don\u2019t feel the same because that sounds somewhat pointless. Why not just use an app that has a structured workout and tells you what to specifically do that day? Many have this function, BoostCamp, Hevy, etc There are literally a bunch of apps out there that do just that I used to do that when I was new and getting used to the gym. I don\u2019t know why you\u2019d need an app for it though. Workouts become routine after doing it a few times, and you aren\u2019t moving the weight up or down a crazy amount unless you\u2019re lifting enhanced. Pretty easy to keep it all in your head, no n",
+          "container": "workout",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 15,
+            "score": 0,
+            "upvote_ratio": 0.25
+          },
+          "engagement_score": 52,
+          "freshness": 77,
+          "item_id": "R2",
+          "local_rank_score": 0.3745,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "No I don\u2019t feel the same because that sounds somewhat pointless.",
+              "There are literally a bunch of apps out there that do just that",
+              "I used to do that when I was new and getting used to the gym.",
+              "I wonder if people really train like that.\n\nLikecwhy? Just choose a Split and use a free app like fitnotes",
+              "There is an app like that, it's called Ladder. ",
+              "I used to train like that in high school when I had fuckarounditis and was just spinning my wheels making little-to-no progress.",
+              "I wish there was an app ? I can\u2019t tell if you\u2019re being sarcastic? ",
+              "Macrofactor workout - nippards app"
+            ],
+            "top_comments": [
+              {
+                "author": "NYChockey14",
+                "date": "2026-04-24",
+                "excerpt": "No I don\u2019t feel the same because that sounds somewhat pointless. Why not just use an app that has a structured workout and tells you what to specifically do that day? Many have this function, BoostCamp, Hevy, etc ",
+                "score": 5,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2ydw3/"
+              },
+              {
+                "author": "Wulfgar57",
+                "date": "2026-04-24",
+                "excerpt": "There are literally a bunch of apps out there that do just that",
+                "score": 4,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2yyph/"
+              },
+              {
+                "author": "tedkang3582",
+                "date": "2026-04-24",
+                "excerpt": "I used to do that when I was new and getting used to the gym. I don\u2019t know why you\u2019d need an app for it though. Workouts become routine after doing it a few times, and you aren\u2019t moving the weight up or down a crazy amount unless you\u2019re lifting enhanced. Pretty easy to keep it all in your head, no n",
+                "score": 3,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi33clq/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-04-24",
+                "excerpt": "**Hey, thanks for making a new post!** Please be sure to assign your post with **flair** for the best support! Also, check out **[this post](https://www.reddit.com/r/workout/comments/noyv6p/do_you_need_to_gain_weight_lose_weight_or/)** to answer common questions.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/wor",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2xy29/"
+              },
+              {
+                "author": "Grogon2",
+                "date": "2026-04-24",
+                "excerpt": "I wonder if people really train like that.\n\nLikecwhy? Just choose a Split and use a free app like fitnotes",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2yqyb/"
+              },
+              {
+                "author": "Dober_weiler",
+                "date": "2026-04-24",
+                "excerpt": "There is an app like that, it's called Ladder. ",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi2z1zr/"
+              },
+              {
+                "author": "RagnarokWolves",
+                "date": "2026-04-24",
+                "excerpt": "I used to train like that in high school when I had fuckarounditis and was just spinning my wheels making little-to-no progress.",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi30fje/"
+              },
+              {
+                "author": "PopcornSquats",
+                "date": "2026-04-24",
+                "excerpt": "I wish there was an app ? I can\u2019t tell if you\u2019re being sarcastic? ",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi33zuo/"
+              },
+              {
+                "author": "yoyomaisapunk",
+                "date": "2026-04-25",
+                "excerpt": "Macrofactor workout - nippards app",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/oi43vv6/"
+              }
+            ]
+          },
+          "published_at": "2026-04-24",
+          "relevance_hint": 0.22,
+          "snippet": "No I don\u2019t feel the same because that sounds somewhat pointless. Why not just use an app that has a structured workout and tells you what to specifically do that day? Many have this function, BoostCamp, Hevy, etc There are literally a bunch of apps out there that do just that I used to do that when I was new and getting used to the gym. I don\u2019t know why you\u2019d need an app for it though. Workouts become routine after doing it a few times, and you aren\u2019t moving the weight up or down a crazy amount unless you\u2019re lifting enhanced. Pretty easy to keep it all in your head, no n",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "does anyone else just free style workout?",
+          "url": "https://www.reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "does anyone else just free style workout?",
+      "url": "https://www.reddit.com/r/workout/comments/1surj1r/does_anyone_else_just_free_style_workout/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/blueskyapps/comments/1t35z90/welcome_to_rblueskyapps_discover_whats_being_built",
+      "cluster_id": "cluster-8",
+      "engagement": 30,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R12",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R12",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Hey everyone! Welcome to r/BlueskyApps!\n\nThis is the showcase community for apps, tools, feeds, bots, and clients built on Bluesky and the AT Protocol.\n\n**What to Post**\n\n- \ud83d\ude80 **Launch** - New app announcements\n- \ud83d\udcf1 **Update** - Feature updates and improvements  \n- \ud83d\udca1 **Request** - \"I wish there was an app that...\"\n- \u2728 **Showcase** - Demo your app or tool\n- \ud83c\udfaf **Feedback Wanted** - Beta testing, user",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "\ud83d\ude80 Welcome to r/BlueskyApps - Discover What's Being Built!\nHey everyone! Welcome to r/BlueskyApps!\n\nThis is the showcase community for apps, tools, feeds, bots, and clients built on Bluesky and the AT Protocol.\n\n**What to Post**\n\n- \ud83d\ude80 **Launch** - New app announcements\n- \ud83d\udcf1 **Update** - Feature updates and improvements  \n- \ud83d\udca1 **Request** - \"I wish there was an app that...\"\n- \u2728 **Showcase** - Demo your app or tool\n- \ud83c\udfaf **Feedback Wanted** - Beta testing, user input\n- \ud83d\udcca **Feed** - Custom feed algorithms\n- \ud83e\udd16 **Bot** - Automated accounts and services\n- \ud83d\udcbb **Clie",
+          "container": "BlueskyApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 30,
+          "freshness": 97,
+          "item_id": "R12",
+          "local_rank_score": 0.40249999999999997,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-04",
+          "relevance_hint": 0.22,
+          "snippet": "Hey everyone! Welcome to r/BlueskyApps!\n\nThis is the showcase community for apps, tools, feeds, bots, and clients built on Bluesky and the AT Protocol.\n\n**What to Post**\n\n- \ud83d\ude80 **Launch** - New app announcements\n- \ud83d\udcf1 **Update** - Feature updates and improvements  \n- \ud83d\udca1 **Request** - \"I wish there was an app that...\"\n- \u2728 **Showcase** - Demo your app or tool\n- \ud83c\udfaf **Feedback Wanted** - Beta testing, user",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "\ud83d\ude80 Welcome to r/BlueskyApps - Discover What's Being Built!",
+          "url": "https://www.reddit.com/r/BlueskyApps/comments/1t35z90/welcome_to_rblueskyapps_discover_whats_being_built/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "\ud83d\ude80 Welcome to r/BlueskyApps - Discover What's Being Built!",
+      "url": "https://www.reddit.com/r/BlueskyApps/comments/1t35z90/welcome_to_rblueskyapps_discover_whats_being_built/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/scalable_social_dev/comments/1sq4ww0/wish_there_was_an_app_for_bacon",
+      "cluster_id": "cluster-9",
+      "engagement": 30,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 53.05,
+      "item_id": "R10",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R10",
+            "native_rank": 9,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 9
+      },
+      "rerank_score": 11.199999999999996,
+      "rrf_score": 0.007246376811594203,
+      "snippet": "I wish there was an app for bacon.  Like, somebody should make an app for bacon.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Wish there was an app for bacon.\nI wish there was an app for bacon.  Like, somebody should make an app for bacon.",
+          "container": "scalable_social_dev",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 30,
+          "freshness": 67,
+          "item_id": "R10",
+          "local_rank_score": 0.35350000000000004,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-19",
+          "relevance_hint": 0.95,
+          "snippet": "I wish there was an app for bacon.  Like, somebody should make an app for bacon.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Wish there was an app for bacon.",
+          "url": "https://www.reddit.com/r/scalable_social_dev/comments/1sq4ww0/wish_there_was_an_app_for_bacon/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Wish there was an app for bacon.",
+      "url": "https://www.reddit.com/r/scalable_social_dev/comments/1sq4ww0/wish_there_was_an_app_for_bacon/"
+    }
+  ],
+  "topic": "\"I wish there was an app\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
