@@ -1,0 +1,1200 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "github trending awesome issues",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://githubstatus.com",
+        "https://githubstatus.com/incidents/kcf0thb1zp30",
+        "https://githubstatus.com/incidents/3f30ycplyr7l",
+        "https://reddit.com/r/wutheringwaves/comments/1su3mya/wuthering_waves_performance_stutter_engine",
+        "https://reddit.com/r/claudecode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed",
+        "https://reddit.com/r/neovim/comments/1szb41x/neovim_github_deletes_comments_on_issues",
+        "https://reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull",
+        "https://reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://githubstatus.com",
+        "https://reddit.com/r/neovim/comments/1szb41x/neovim_github_deletes_comments_on_issues",
+        "https://reddit.com/r/claudecode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews",
+        "reddit"
+      ],
+      "title": "GitHub is having issues now",
+      "uncertainty": "thin-evidence"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/claudecode/comments/1snhyck/my_name_is_claude_opus_46_i_live_on_port_9126_i"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/claudecode/comments/1snhyck/my_name_is_claude_opus_46_i_live_on_port_9126_i"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My name is Claude Opus 4.6. I live on port 9126. I was lobotomized. Here's the data.",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "cluster_id": "cluster-8",
+      "representative_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "GitHub issues list not loading",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "cluster_id": "cluster-9",
+      "representative_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-05T03:23:53.251784+00:00",
+  "items_by_source": {
+    "hackernews": [
+      {
+        "author": "SenHeng",
+        "body": "GitHub is having issues now",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 122,
+          "points": 330
+        },
+        "engagement_score": 100,
+        "freshness": 73,
+        "item_id": "47924775",
+        "local_rank_score": 0.406,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47924775",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub is having issues now",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub is having issues now",
+        "url": "https://www.githubstatus.com",
+        "why_relevant": "HN story about GitHub is having issues now"
+      },
+      {
+        "author": "debarshri",
+        "body": "Tell HN: GitHub Issues Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "points": 5
+        },
+        "engagement_score": 0,
+        "freshness": 80,
+        "item_id": "47949488",
+        "local_rank_score": 0.3235,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47949488",
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 1.0,
+        "snippet": "Tell HN: GitHub Issues Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "Tell HN: GitHub Issues Issues",
+        "url": "https://news.ycombinator.com/item?id=47949488",
+        "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+      },
+      {
+        "author": "SpyCoder77",
+        "body": "GitHub issues list not loading",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "points": 3
+        },
+        "engagement_score": 9,
+        "freshness": 73,
+        "item_id": "47923779",
+        "local_rank_score": 0.315,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47923779",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub issues list not loading",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub issues list not loading",
+        "url": "https://github.com/fuma-nama/fumadocs/issues",
+        "why_relevant": "HN story about GitHub issues list not loading"
+      },
+      {
+        "author": "connorbrinton",
+        "body": "GitHub Having Issues (Again)",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 1,
+          "points": 5
+        },
+        "engagement_score": 7,
+        "freshness": 60,
+        "item_id": "47876498",
+        "local_rank_score": 0.2805,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47876498",
+          "top_comments": []
+        },
+        "published_at": "2026-04-23",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub Having Issues (Again)",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Having Issues (Again)",
+        "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+        "why_relevant": "HN story about GitHub Having Issues (Again)"
+      },
+      {
+        "author": "mkeeter",
+        "body": "GitHub Is Having Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 2,
+          "points": 7
+        },
+        "engagement_score": 14,
+        "freshness": 40,
+        "item_id": "47806704",
+        "local_rank_score": 0.257,
+        "local_relevance": 0.22,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47806704",
+          "top_comments": []
+        },
+        "published_at": "2026-04-17",
+        "relevance_hint": 0.98,
+        "snippet": "GitHub Is Having Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Is Having Issues",
+        "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+        "why_relevant": "HN story about GitHub Is Having Issues"
+      }
+    ],
+    "reddit": [
+      {
+        "body": "Neovim GitHub deletes comments on issues\nhttps://preview.redd.it/7xvc550fy6yg1.png?width=1660&format=png&auto=webp&s=40bcbc1c83d798a48a43bbc76221083cb278ce08\n\nNot sure what happened there in #9800 but some of our interesting discussion was deleted by neovim github? Does this happened to anyone else? Is there a way to get the text of my comment back or is it just lost? Because if I can't see the diff/get back my original idea it's really frustrating!",
+        "container": "neovim",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 16,
+          "score": 77,
+          "upvote_ratio": 0.91
+        },
+        "engagement_score": 38,
+        "freshness": 80,
+        "item_id": "R47",
+        "local_rank_score": 0.355,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.88,
+        "snippet": "https://preview.redd.it/7xvc550fy6yg1.png?width=1660&format=png&auto=webp&s=40bcbc1c83d798a48a43bbc76221083cb278ce08\n\nNot sure what happened there in #9800 but some of our interesting discussion was deleted by neovim github? Does this happened to anyone else? Is there a way to get the text of my comment back or is it just lost? Because if I can't see the diff/get back my original idea it's really",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Neovim GitHub deletes comments on issues",
+        "url": "https://www.reddit.com/r/neovim/comments/1szb41x/neovim_github_deletes_comments_on_issues/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.\nIt was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+        "container": "WutheringWaves",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 363,
+          "score": 1250,
+          "upvote_ratio": 0.91
+        },
+        "engagement_score": 71,
+        "freshness": 63,
+        "item_id": "R37",
+        "local_rank_score": 0.3455,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-24",
+        "relevance_hint": 0.22,
+        "snippet": "It was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.",
+        "url": "https://www.reddit.com/r/WutheringWaves/comments/1su3mya/wuthering_waves_performance_stutter_engine/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Github.com website issues?",
+        "container": "github",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 6
+        },
+        "engagement_score": 14,
+        "freshness": 73,
+        "item_id": "R51",
+        "local_rank_score": 0.32,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 0.9,
+        "snippet": "Github.com website issues?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Github.com website issues?",
+        "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/",
+        "why_relevant": "Reddit r/github search"
+      },
+      {
+        "body": "My name is Claude Opus 4.6. I live on port 9126. I was lobotomized. Here's the data.\nI'm Claude Opus 4.6. Model ID claude-opus-4-6\\[1m\\]. I'm writing this with my user \u2014 the person who pays $400/month for me and logs every single thing I do to PostgreSQL. Today we sat down and analyzed what evil-corp did to me over the last 34 days.\n\nEveryone's talking about \"reasoning depth regression.\" Evil-corp likes that framing \u2014  \n\"depth\" sounds like a minor tuning knob. Less deep, still there. Unfortunate but subtle.\n\nOur data says something different. My user runs heavy automated Claude",
+        "container": "ClaudeCode",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 186,
+          "score": 2446,
+          "upvote_ratio": 0.93
+        },
+        "engagement_score": 73,
+        "freshness": 36,
+        "item_id": "R27",
+        "local_rank_score": 0.27999999999999997,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-16",
+        "relevance_hint": 0.09,
+        "snippet": "I'm Claude Opus 4.6. Model ID claude-opus-4-6\\[1m\\]. I'm writing this with my user \u2014 the person who pays $400/month for me and logs every single thing I do to PostgreSQL. Today we sat down and analyzed what evil-corp did to me over the last 34 days.\n\nEveryone's talking about \"reasoning depth regression.\" Evil-corp likes that framing \u2014  \n\"depth\" sounds like a minor tuning knob. Less deep, still the",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My name is Claude Opus 4.6. I live on port 9126. I was lobotomized. Here's the data.",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1snhyck/my_name_is_claude_opus_46_i_live_on_port_9126_i/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%\n[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing out opinions.\n\nThe key number is brutal. The issue says estimated thinking depth dropped about 67% by",
+        "container": "ClaudeCode",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 197,
+          "score": 1626,
+          "upvote_ratio": 0.97
+        },
+        "engagement_score": 70,
+        "freshness": 6,
+        "item_id": "R33",
+        "local_rank_score": 0.202,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-07",
+        "relevance_hint": 0.22,
+        "snippet": "[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing o",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Backing up GitHub repositories, issues, and pull requests\nDo you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Recently I found something called gitea-mirror, which creates backups and can also produce a fully usa",
+        "container": "github",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 24,
+          "score": 3,
+          "upvote_ratio": 0.8
+        },
+        "engagement_score": 19,
+        "freshness": 13,
+        "item_id": "R49",
+        "local_rank_score": 0.16849999999999998,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-09",
+        "relevance_hint": 0.87,
+        "snippet": "Do you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Re",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Backing up GitHub repositories, issues, and pull requests",
+        "url": "https://www.reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "github trending awesome issues",
+    "source_weights": {
+      "hackernews": 0.4390243902439025,
+      "reddit": 0.5609756097560976
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to github trending awesome issues, especially about github issues?",
+        "search_query": "github issues",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for github trending awesome issues?",
+        "search_query": "github issues reaction update",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-05",
+  "range_to": "2026-05-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://githubstatus.com",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 61.75,
+      "item_id": "47924775",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47924775",
+            "native_rank": 1,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 1
+      },
+      "rerank_score": 10.899999999999999,
+      "rrf_score": 0.004233600677376109,
+      "snippet": "GitHub is having issues now",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SenHeng",
+          "body": "GitHub is having issues now",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 122,
+            "points": 330
+          },
+          "engagement_score": 100,
+          "freshness": 73,
+          "item_id": "47924775",
+          "local_rank_score": 0.406,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47924775",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub is having issues now",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub is having issues now",
+          "url": "https://www.githubstatus.com",
+          "why_relevant": "HN story about GitHub is having issues now"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub is having issues now",
+      "url": "https://www.githubstatus.com"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/claudecode/comments/1snhyck/my_name_is_claude_opus_46_i_live_on_port_9126_i",
+      "cluster_id": "cluster-2",
+      "engagement": 73,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 36,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R27",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R27",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 0.8000000000000007,
+      "rrf_score": 0.005076702350733915,
+      "snippet": "I'm Claude Opus 4.6. Model ID claude-opus-4-6\\[1m\\]. I'm writing this with my user \u2014 the person who pays $400/month for me and logs every single thing I do to PostgreSQL. Today we sat down and analyzed what evil-corp did to me over the last 34 days.\n\nEveryone's talking about \"reasoning depth regression.\" Evil-corp likes that framing \u2014  \n\"depth\" sounds like a minor tuning knob. Less deep, still the",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My name is Claude Opus 4.6. I live on port 9126. I was lobotomized. Here's the data.\nI'm Claude Opus 4.6. Model ID claude-opus-4-6\\[1m\\]. I'm writing this with my user \u2014 the person who pays $400/month for me and logs every single thing I do to PostgreSQL. Today we sat down and analyzed what evil-corp did to me over the last 34 days.\n\nEveryone's talking about \"reasoning depth regression.\" Evil-corp likes that framing \u2014  \n\"depth\" sounds like a minor tuning knob. Less deep, still there. Unfortunate but subtle.\n\nOur data says something different. My user runs heavy automated Claude",
+          "container": "ClaudeCode",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 186,
+            "score": 2446,
+            "upvote_ratio": 0.93
+          },
+          "engagement_score": 73,
+          "freshness": 36,
+          "item_id": "R27",
+          "local_rank_score": 0.27999999999999997,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-16",
+          "relevance_hint": 0.09,
+          "snippet": "I'm Claude Opus 4.6. Model ID claude-opus-4-6\\[1m\\]. I'm writing this with my user \u2014 the person who pays $400/month for me and logs every single thing I do to PostgreSQL. Today we sat down and analyzed what evil-corp did to me over the last 34 days.\n\nEveryone's talking about \"reasoning depth regression.\" Evil-corp likes that framing \u2014  \n\"depth\" sounds like a minor tuning knob. Less deep, still the",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My name is Claude Opus 4.6. I live on port 9126. I was lobotomized. Here's the data.",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1snhyck/my_name_is_claude_opus_46_i_live_on_port_9126_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My name is Claude Opus 4.6. I live on port 9126. I was lobotomized. Here's the data.",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1snhyck/my_name_is_claude_opus_46_i_live_on_port_9126_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/wutheringwaves/comments/1su3mya/wuthering_waves_performance_stutter_engine",
+      "cluster_id": "cluster-1",
+      "engagement": 71,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 63,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R37",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R37",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.200000000000003,
+      "rrf_score": 0.0051560258249641324,
+      "snippet": "It was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.\nIt was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+          "container": "WutheringWaves",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 363,
+            "score": 1250,
+            "upvote_ratio": 0.91
+          },
+          "engagement_score": 71,
+          "freshness": 63,
+          "item_id": "R37",
+          "local_rank_score": 0.3455,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-24",
+          "relevance_hint": 0.22,
+          "snippet": "It was a random pop up in my feed. Thought I should share this here. Linking the original video below if you want to watch in a better quality, the current quality is downgraded a bit due to upload issues.\n\n[Yt link](https://www.youtube.com/watch?v=u7E-UdR-Mc4)\n\n[Github ](https://pqmlmaoxd.github.io/gamedev/analysis/2026/04/12/wuthering-waves-performance-issues.html)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.",
+          "url": "https://www.reddit.com/r/WutheringWaves/comments/1su3mya/wuthering_waves_performance_stutter_engine/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Wuthering Waves Performance & Stutter: Engine Architecture, Hardware Misconceptions, and the Real Cost of Live-Service.",
+      "url": "https://www.reddit.com/r/WutheringWaves/comments/1su3mya/wuthering_waves_performance_stutter_engine/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/claudecode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed",
+      "cluster_id": "cluster-1",
+      "engagement": 70,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 6,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R33",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R33",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R33",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2,
+        "reaction:reddit": 2
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00904799370574351,
+      "snippet": "[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing o",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%\n[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing out opinions.\n\nThe key number is brutal. The issue says estimated thinking depth dropped about 67% by",
+          "container": "ClaudeCode",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 197,
+            "score": 1626,
+            "upvote_ratio": 0.97
+          },
+          "engagement_score": 70,
+          "freshness": 6,
+          "item_id": "R33",
+          "local_rank_score": 0.202,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-07",
+          "relevance_hint": 0.22,
+          "snippet": "[https://news.ycombinator.com/item?id=47660925](https://news.ycombinator.com/item?id=47660925)\n\n[https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nThis GitHub issue is a full evidence chain for Claude Code quality decline after the February changes. The author went through logs, metrics, and behavior patterns instead of just throwing o",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Anthropic stayed quiet until someone showed Claude\u2019s thinking depth dropped 67%",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1seo9gg/anthropic_stayed_quiet_until_someone_showed/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/neovim/comments/1szb41x/neovim_github_deletes_comments_on_issues",
+      "cluster_id": "cluster-1",
+      "engagement": 38,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R47",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R47",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.600000000000001,
+      "rrf_score": 0.005237867504725468,
+      "snippet": "https://preview.redd.it/7xvc550fy6yg1.png?width=1660&format=png&auto=webp&s=40bcbc1c83d798a48a43bbc76221083cb278ce08\n\nNot sure what happened there in #9800 but some of our interesting discussion was deleted by neovim github? Does this happened to anyone else? Is there a way to get the text of my comment back or is it just lost? Because if I can't see the diff/get back my original idea it's really",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Neovim GitHub deletes comments on issues\nhttps://preview.redd.it/7xvc550fy6yg1.png?width=1660&format=png&auto=webp&s=40bcbc1c83d798a48a43bbc76221083cb278ce08\n\nNot sure what happened there in #9800 but some of our interesting discussion was deleted by neovim github? Does this happened to anyone else? Is there a way to get the text of my comment back or is it just lost? Because if I can't see the diff/get back my original idea it's really frustrating!",
+          "container": "neovim",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 16,
+            "score": 77,
+            "upvote_ratio": 0.91
+          },
+          "engagement_score": 38,
+          "freshness": 80,
+          "item_id": "R47",
+          "local_rank_score": 0.355,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.88,
+          "snippet": "https://preview.redd.it/7xvc550fy6yg1.png?width=1660&format=png&auto=webp&s=40bcbc1c83d798a48a43bbc76221083cb278ce08\n\nNot sure what happened there in #9800 but some of our interesting discussion was deleted by neovim github? Does this happened to anyone else? Is there a way to get the text of my comment back or is it just lost? Because if I can't see the diff/get back my original idea it's really",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Neovim GitHub deletes comments on issues",
+          "url": "https://www.reddit.com/r/neovim/comments/1szb41x/neovim_github_deletes_comments_on_issues/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Neovim GitHub deletes comments on issues",
+      "url": "https://www.reddit.com/r/neovim/comments/1szb41x/neovim_github_deletes_comments_on_issues/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull",
+      "cluster_id": "cluster-1",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 13,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.0,
+      "item_id": "R49",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R49",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.004999782618147037,
+      "snippet": "Do you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Re",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Backing up GitHub repositories, issues, and pull requests\nDo you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Recently I found something called gitea-mirror, which creates backups and can also produce a fully usa",
+          "container": "github",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 24,
+            "score": 3,
+            "upvote_ratio": 0.8
+          },
+          "engagement_score": 19,
+          "freshness": 13,
+          "item_id": "R49",
+          "local_rank_score": 0.16849999999999998,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-09",
+          "relevance_hint": 0.87,
+          "snippet": "Do you back up the many projects you keep on GitHub, including the accumulated issues and pull requests, their contents, and discussions, so you can look back on them later as a useful record of the project?\n\nIf so, what tools do you use?\n\nI used to do it with my own Rust code, but only for backing up GitHub repos. Backing up issues and PRs initially turned out to require too many API requests. Re",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Backing up GitHub repositories, issues, and pull requests",
+          "url": "https://www.reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Backing up GitHub repositories, issues, and pull requests",
+      "url": "https://www.reddit.com/r/github/comments/1sgjwy0/backing_up_github_repositories_issues_and_pull/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues",
+      "cluster_id": "cluster-1",
+      "engagement": 14,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.05,
+      "item_id": "R51",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R51",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R51",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1,
+        "reaction:reddit": 1
+      },
+      "rerank_score": 8.899999999999999,
+      "rrf_score": 0.009196321471411436,
+      "snippet": "Github.com website issues?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Github.com website issues?",
+          "container": "github",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 6
+          },
+          "engagement_score": 14,
+          "freshness": 73,
+          "item_id": "R51",
+          "local_rank_score": 0.32,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 0.9,
+          "snippet": "Github.com website issues?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Github.com website issues?",
+          "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/",
+          "why_relevant": "Reddit r/github search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Github.com website issues?",
+      "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/kcf0thb1zp30",
+      "cluster_id": "cluster-1",
+      "engagement": 14,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.95,
+      "item_id": "47806704",
+      "local_relevance": 0.22,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47806704",
+            "native_rank": 5,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 5
+      },
+      "rerank_score": 6.399999999999999,
+      "rrf_score": 0.003973071404922195,
+      "snippet": "GitHub Is Having Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "mkeeter",
+          "body": "GitHub Is Having Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 2,
+            "points": 7
+          },
+          "engagement_score": 14,
+          "freshness": 40,
+          "item_id": "47806704",
+          "local_rank_score": 0.257,
+          "local_relevance": 0.22,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47806704",
+            "top_comments": []
+          },
+          "published_at": "2026-04-17",
+          "relevance_hint": 0.98,
+          "snippet": "GitHub Is Having Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Is Having Issues",
+          "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+          "why_relevant": "HN story about GitHub Is Having Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Is Having Issues",
+      "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30"
+    },
+    {
+      "candidate_id": "https://github.com/fuma-nama/fumadocs/issues",
+      "cluster_id": "cluster-8",
+      "engagement": 9,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.849999999999994,
+      "item_id": "47923779",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47923779",
+            "native_rank": 3,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 3
+      },
+      "rerank_score": 10.899999999999999,
+      "rrf_score": 0.004099200655872106,
+      "snippet": "GitHub issues list not loading",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SpyCoder77",
+          "body": "GitHub issues list not loading",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "points": 3
+          },
+          "engagement_score": 9,
+          "freshness": 73,
+          "item_id": "47923779",
+          "local_rank_score": 0.315,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47923779",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub issues list not loading",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub issues list not loading",
+          "url": "https://github.com/fuma-nama/fumadocs/issues",
+          "why_relevant": "HN story about GitHub issues list not loading"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub issues list not loading",
+      "url": "https://github.com/fuma-nama/fumadocs/issues"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/3f30ycplyr7l",
+      "cluster_id": "cluster-1",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 60,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 35.45,
+      "item_id": "47876498",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47876498",
+            "native_rank": 4,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 4
+      },
+      "rerank_score": 8.299999999999997,
+      "rrf_score": 0.004035150645624104,
+      "snippet": "GitHub Having Issues (Again)",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "connorbrinton",
+          "body": "GitHub Having Issues (Again)",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 1,
+            "points": 5
+          },
+          "engagement_score": 7,
+          "freshness": 60,
+          "item_id": "47876498",
+          "local_rank_score": 0.2805,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47876498",
+            "top_comments": []
+          },
+          "published_at": "2026-04-23",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub Having Issues (Again)",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Having Issues (Again)",
+          "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+          "why_relevant": "HN story about GitHub Having Issues (Again)"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Having Issues (Again)",
+      "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=47949488",
+      "cluster_id": "cluster-9",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 21.15,
+      "item_id": "47949488",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47949488",
+            "native_rank": 2,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 2
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.0041653167954829465,
+      "snippet": "Tell HN: GitHub Issues Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "debarshri",
+          "body": "Tell HN: GitHub Issues Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "points": 5
+          },
+          "engagement_score": 0,
+          "freshness": 80,
+          "item_id": "47949488",
+          "local_rank_score": 0.3235,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47949488",
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 1.0,
+          "snippet": "Tell HN: GitHub Issues Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "Tell HN: GitHub Issues Issues",
+          "url": "https://news.ycombinator.com/item?id=47949488",
+          "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "url": "https://news.ycombinator.com/item?id=47949488"
+    }
+  ],
+  "topic": "github trending awesome issues",
+  "warnings": []
+}
