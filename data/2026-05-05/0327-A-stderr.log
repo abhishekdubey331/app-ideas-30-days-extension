@@ -1,0 +1,199 @@
+Batch A sources=reddit,hackernews
+Started at 2026-05-05T03:27:16Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25351793144
+----
+
+===== Seed: site:news.ycombinator.com "Ask HN" tool =====
+/last30days · researching: site:news.ycombinator.com "Ask HN" tool
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=breaking_news, freshness=strict_recent, cluster_mode=story, subqueries=2, source=deterministic
+[Planner]   sq1 label=primary search="site:news.ycombinator.com "ask hn"" sources=[reddit,hackernews]
+[Planner]   sq2 label=reaction search="site:news.ycombinator.com "ask hn" reaction update" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Anews.ycombinator.com+%22Ask+HN%22+tool&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:news.ycombinator.com "Ask HN" tool' into 1 queries: ['site:news.ycombinator.com "ask hn" tool']
+[Reddit] Global search 1/2: 'site:news.ycombinator.com "ask hn" tool' (sort=relevance)
+[Reddit]   -> 0 results for 'site:news.ycombinator.com "ask hn" tool'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Anews.ycombinator.com+%22Ask+HN%22+tool&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:news.ycombinator.com "Ask HN" tool' into 1 queries: ['site:news.ycombinator.com "ask hn" tool']
+[Reddit] Global search 1/2: 'site:news.ycombinator.com "ask hn" tool' (sort=relevance)
+[Reddit]   -> 0 results for 'site:news.ycombinator.com "ask hn" tool'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (2.2s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-05/0327-site-news-ycombinator-com-ask-hn-tool.json
+[OK] seed succeeded
+
+===== Seed: site:producthunt.com comments =====
+/last30days · researching: site:producthunt.com comments
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:producthunt.com comments" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Aproducthunt.com+comments&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:producthunt.com comments' into 1 queries: ['site:producthunt.com comments']
+[Reddit] Global search 1/2: 'site:producthunt.com comments' (sort=relevance)
+[Reddit]   -> 11 results for 'site:producthunt.com comments'
+[Reddit] Discovered subreddits: ['ProductHunters', 'SaaS', 'Unity3D']
+[Reddit] Subreddit search: r/ProductHunters for 'site:producthunt.com comments'
+[Reddit] Subreddit search: r/SaaS for 'site:producthunt.com comments'
+[Reddit] Subreddit search: r/Unity3D for 'site:producthunt.com comments'
+[Reddit]   -> 1 results from r/SaaS
+[Reddit]   -> 1 results from r/Unity3D
+[Reddit]   -> 25 results from r/ProductHunters
+[Reddit] After dedup: 31 unique posts
+[Reddit] Filtered 21 posts outside date range
+[Reddit] Final: 10 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 3.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Aproducthunt.com+comments&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:producthunt.com comments' into 1 queries: ['site:producthunt.com comments']
+[Reddit] Global search 1/2: 'site:producthunt.com comments' (sort=relevance)
+[Reddit]   -> 11 results for 'site:producthunt.com comments'
+[Reddit] Discovered subreddits: ['ProductHunters', 'SaaS', 'Unity3D']
+[Reddit] Subreddit search: r/ProductHunters for 'site:producthunt.com comments'
+[Reddit] Subreddit search: r/SaaS for 'site:producthunt.com comments'
+[Reddit] Subreddit search: r/Unity3D for 'site:producthunt.com comments'
+[Reddit]   -> 25 results from r/ProductHunters
+[Reddit]   -> 1 results from r/Unity3D
+[Reddit]   -> 1 results from r/SaaS
+[Reddit] After dedup: 31 unique posts
+[Reddit] Filtered 21 posts outside date range
+[Reddit] Final: 10 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (8.5s) - Reddit: 1 thread, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-05/0327-site-producthunt-com-comments.json
+[OK] seed succeeded
+
+===== Seed: github trending awesome issues =====
+/last30days · researching: github trending awesome issues
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=breaking_news, freshness=strict_recent, cluster_mode=story, subqueries=2, source=deterministic
+[Planner]   sq1 label=primary search="github issues" sources=[reddit,hackernews]
+[Planner]   sq2 label=reaction search="github issues reaction update" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=github+trending+awesome+issues&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'github trending awesome issues' into 2 queries: ['github issues', 'github trending awesome issues']
+[Reddit] Global search 1/2: 'github issues' (sort=relevance)
+[Reddit] Global search 2/2: 'github trending awesome issues' (sort=top)
+[Reddit]   -> 25 results for 'github issues'
+[Reddit]   -> 25 results for 'github trending awesome issues'
+[Reddit] Discovered subreddits: ['github', 'BestofRedditorUpdates', 'ClaudeCode']
+[Reddit] Subreddit search: r/github for 'github issues'
+[Reddit] Subreddit search: r/BestofRedditorUpdates for 'github issues'
+[Reddit] Subreddit search: r/ClaudeCode for 'github issues'
+[Reddit]   -> 25 results from r/github
+[Reddit]   -> 25 results from r/ClaudeCode
+[Reddit]   -> 10 results from r/BestofRedditorUpdates
+[Reddit] After dedup: 101 unique posts
+[Reddit] Filtered 47 posts outside date range
+[Reddit] Final: 54 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 7.8s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=github+trending+awesome+issues&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'github trending awesome issues' into 2 queries: ['github issues', 'github trending awesome issues']
+[Reddit] Global search 1/2: 'github issues' (sort=relevance)
+[Reddit] Global search 2/2: 'github trending awesome issues' (sort=top)
+[Reddit]   -> 25 results for 'github issues'
+[Reddit]   -> 25 results for 'github trending awesome issues'
+[Reddit] Discovered subreddits: ['github', 'BestofRedditorUpdates', 'ClaudeCode']
+[Reddit] Subreddit search: r/github for 'github issues'
+[Reddit] Subreddit search: r/BestofRedditorUpdates for 'github issues'
+[Reddit] Subreddit search: r/ClaudeCode for 'github issues'
+[Reddit]   -> 10 results from r/BestofRedditorUpdates
+[Reddit]   -> 25 results from r/github
+[Reddit]   -> 25 results from r/ClaudeCode
+[Reddit] After dedup: 101 unique posts
+[Reddit] Filtered 47 posts outside date range
+[Reddit] Final: 54 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (15.1s) - Reddit: 7 threads, HN: 5 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-05/0327-github-trending-awesome-issues.json
+[OK] seed succeeded
+
+===== Seed: AI agent tooling gaps =====
+/last30days · researching: AI agent tooling gaps
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="ai agent tooling gaps" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=AI+agent+tooling+gaps&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'AI agent tooling gaps' into 1 queries: ['ai agent tooling gaps']
+[Reddit] Global search 1/2: 'ai agent tooling gaps' (sort=relevance)
+[Reddit]   -> 25 results for 'ai agent tooling gaps'
+[Reddit] Discovered subreddits: ['AI_Agents', 'AgentsOfAI', 'InterstellarKinetics']
+[Reddit] Subreddit search: r/AI_Agents for 'ai agent tooling gaps'
+[Reddit] Subreddit search: r/AgentsOfAI for 'ai agent tooling gaps'
+[Reddit] Subreddit search: r/InterstellarKinetics for 'ai agent tooling gaps'
+[Reddit]   -> 25 results from r/AI_Agents
+[Reddit]   -> 25 results from r/InterstellarKinetics
+[Reddit]   -> 25 results from r/AgentsOfAI
+[Reddit] After dedup: 93 unique posts
+[Reddit] Filtered 50 posts outside date range
+[Reddit] Final: 43 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 6.2s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (13.8s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-05/0327-ai-agent-tooling-gaps.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed

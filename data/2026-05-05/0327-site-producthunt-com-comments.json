@@ -1,0 +1,171 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1sh278c/60_points_away_from_being_top_5_can_i_make_it"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1sh278c/60_points_away_from_being_top_5_can_i_make_it"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "60 points away from being top 5 can I make it?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-05T03:27:27.543111+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "60 points away from being top 5 can I make it?\nHi PHunters, please I need your support. Im 60votes shy from being top 5. do you think it\u2019s possible? Todays is alpha day. Comments are x 3 it\u2019s quite an interesting product btw - you can create and update forms all from Claude desktop please try it out and share feedback.\n\nhttps://www.producthunt.com/products/onform-work",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 0.99
+        },
+        "engagement_score": 30,
+        "freshness": 47,
+        "item_id": "R9",
+        "local_rank_score": 0.27749999999999997,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-09",
+        "relevance_hint": 0.16,
+        "snippet": "Hi PHunters, please I need your support. Im 60votes shy from being top 5. do you think it\u2019s possible? Todays is alpha day. Comments are x 3 it\u2019s quite an interesting product btw - you can create and update forms all from Claude desktop please try it out and share feedback.\n\nhttps://www.producthunt.com/products/onform-work",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "60 points away from being top 5 can I make it?",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1sh278c/60_points_away_from_being_top_5_can_i_make_it/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com comments?",
+        "search_query": "site:producthunt.com comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-05",
+  "range_to": "2026-05-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1sh278c/60_points_away_from_being_top_5_can_i_make_it",
+      "cluster_id": "cluster-1",
+      "engagement": 30,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R9",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hi PHunters, please I need your support. Im 60votes shy from being top 5. do you think it\u2019s possible? Todays is alpha day. Comments are x 3 it\u2019s quite an interesting product btw - you can create and update forms all from Claude desktop please try it out and share feedback.\n\nhttps://www.producthunt.com/products/onform-work",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "60 points away from being top 5 can I make it?\nHi PHunters, please I need your support. Im 60votes shy from being top 5. do you think it\u2019s possible? Todays is alpha day. Comments are x 3 it\u2019s quite an interesting product btw - you can create and update forms all from Claude desktop please try it out and share feedback.\n\nhttps://www.producthunt.com/products/onform-work",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 0.99
+          },
+          "engagement_score": 30,
+          "freshness": 47,
+          "item_id": "R9",
+          "local_rank_score": 0.27749999999999997,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-09",
+          "relevance_hint": 0.16,
+          "snippet": "Hi PHunters, please I need your support. Im 60votes shy from being top 5. do you think it\u2019s possible? Todays is alpha day. Comments are x 3 it\u2019s quite an interesting product btw - you can create and update forms all from Claude desktop please try it out and share feedback.\n\nhttps://www.producthunt.com/products/onform-work",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "60 points away from being top 5 can I make it?",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1sh278c/60_points_away_from_being_top_5_can_i_make_it/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "60 points away from being top 5 can I make it?",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1sh278c/60_points_away_from_being_top_5_can_i_make_it/"
+    }
+  ],
+  "topic": "site:producthunt.com comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
