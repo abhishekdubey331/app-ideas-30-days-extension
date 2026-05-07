@@ -1,0 +1,163 @@
+Batch A sources=reddit,hackernews
+Started at 2026-05-07T05:13:40Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25477317155
+----
+
+===== Seed: sysadmin "I hate" =====
+/last30days · researching: sysadmin "I hate"
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="sysadmin "i hate"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=sysadmin+%22I+hate%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'sysadmin "I hate"' into 1 queries: ['sysadmin "i hate"']
+[Reddit] Global search 1/2: 'sysadmin "i hate"' (sort=relevance)
+[Reddit]   -> 19 results for 'sysadmin "i hate"'
+[Reddit] Discovered subreddits: ['sysadmin', 'sysadminjobs', 'cscareerquestions']
+[Reddit] Subreddit search: r/sysadmin for 'sysadmin "i hate"'
+[Reddit] Subreddit search: r/sysadminjobs for 'sysadmin "i hate"'
+[Reddit] Subreddit search: r/cscareerquestions for 'sysadmin "i hate"'
+[Reddit]   -> 21 results from r/cscareerquestions
+[Reddit]   -> 5 results from r/sysadminjobs
+[Reddit]   -> 25 results from r/sysadmin
+[Reddit] After dedup: 66 unique posts
+[Reddit] Filtered 47 posts outside date range
+[Reddit] Final: 19 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (11.9s) - Reddit: 6 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-07/0513-sysadmin-i-hate.json
+[OK] seed succeeded
+
+===== Seed: shopify sellers "is there a tool" =====
+/last30days · researching: shopify sellers "is there a tool"
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="shopify sellers "is there tool"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=shopify+sellers+%22is+there+a+tool%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'shopify sellers "is there a tool"' into 2 queries: ['shopify sellers "is there tool"', 'shopify sellers "is there a tool"']
+[Reddit] Global search 1/2: 'shopify sellers "is there tool"' (sort=relevance)
+[Reddit] Global search 2/2: 'shopify sellers "is there a tool"' (sort=top)
+[Reddit]   -> 0 results for 'shopify sellers "is there tool"'
+[Reddit]   -> 0 results for 'shopify sellers "is there a tool"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=shopify+sellers+%22is+there+a+tool%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'shopify sellers "is there a tool"' into 2 queries: ['shopify sellers "is there tool"', 'shopify sellers "is there a tool"']
+[Reddit] Global search 1/2: 'shopify sellers "is there tool"' (sort=relevance)
+[Reddit] Global search 2/2: 'shopify sellers "is there a tool"' (sort=top)
+[Reddit]   -> 0 results for 'shopify sellers "is there tool"'
+[Reddit]   -> 0 results for 'shopify sellers "is there a tool"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (2.6s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-07/0513-shopify-sellers-is-there-a-tool.json
+[OK] seed succeeded
+
+===== Seed: etsy sellers "better alternative to" =====
+/last30days · researching: etsy sellers "better alternative to"
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="etsy sellers "better alternative to"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=etsy+sellers+%22better+alternative+to%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'etsy sellers "better alternative to"' into 1 queries: ['etsy sellers "better alternative to"']
+[Reddit] Global search 1/2: 'etsy sellers "better alternative to"' (sort=relevance)
+[Reddit]   -> 0 results for 'etsy sellers "better alternative to"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=etsy+sellers+%22better+alternative+to%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'etsy sellers "better alternative to"' into 1 queries: ['etsy sellers "better alternative to"']
+[Reddit] Global search 1/2: 'etsy sellers "better alternative to"' (sort=relevance)
+[Reddit]   -> 0 results for 'etsy sellers "better alternative to"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (2.8s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-07/0513-etsy-sellers-better-alternative-to.json
+[OK] seed succeeded
+
+===== Seed: solo devs "wish there was" =====
+/last30days · researching: solo devs "wish there was"
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="solo devs "wish there was"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=solo+devs+%22wish+there+was%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'solo devs "wish there was"' into 1 queries: ['solo devs "wish there was"']
+[Reddit] Global search 1/2: 'solo devs "wish there was"' (sort=relevance)
+[Reddit]   -> 8 results for 'solo devs "wish there was"'
+[Reddit] Discovered subreddits: ['Overwatch', 'soulslikes', 'SevenDeadlySinsOrigin']
+[Reddit] Subreddit search: r/Overwatch for 'solo devs "wish there was"'
+[Reddit] Subreddit search: r/soulslikes for 'solo devs "wish there was"'
+[Reddit] Subreddit search: r/SevenDeadlySinsOrigin for 'solo devs "wish there was"'
+[Reddit]   -> 1 results from r/SevenDeadlySinsOrigin
+[Reddit]   -> 2 results from r/Overwatch
+[Reddit]   -> 1 results from r/soulslikes
+[Reddit] After dedup: 9 unique posts
+[Reddit] Filtered 1 posts outside date range
+[Reddit] Final: 8 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 7.5s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (14.0s) - Reddit: 3 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-07/0514-solo-devs-wish-there-was.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
