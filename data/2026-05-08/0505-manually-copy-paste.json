@@ -1,0 +1,933 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"manually copy paste\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/developersindia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/developersindia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/digitalmarketing/comments/1sig3qv/how_do_you_actually_handle_client_reporting"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/digitalmarketing/comments/1sig3qv/how_do_you_actually_handle_client_reporting"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "How do you actually handle client reporting?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "why am i still manually copy pasting logs into a browser?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "A way to do multilingual WP without the manual copy-paste"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/canaihelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/canaihelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Manual copy-paste work is killing my time so can this be automated?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/mondaycrmexperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/mondaycrmexperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fashion_design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://reddit.com/r/fashion_design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-08T05:05:50.731067+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias\nHey guys,\n\nJust wanted to share a project I\u2019ve been working on.\n\nI\u2019ve been diving into the Model Context Protocol (MCP) lately and noticed that most of the cool tools for AI agents are built for the US markets. I wanted something that worked for us here in India, so I built an **MCP server for NSE public data.**\n\nBasically, it lets your AI agents (like Claude) plug directly into NSE APIs so you can analyze stocks or fetch data without any bias\u2014and without having to manually copy-paste stats into\nCool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+        "container": "developersIndia",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 96,
+          "upvote_ratio": 0.98
+        },
+        "engagement_score": 61,
+        "freshness": 82,
+        "item_id": "R5",
+        "local_rank_score": 0.47400000000000003,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Cool. How long did it take for you to build this?",
+            "Have you tested it? Producing accurate information from those calls? ",
+            "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.",
+            "How much does it costs for this setup? Are you using claude Pro?",
+            "I see no API keys, are the quotes live?",
+            "Does it include historical equity/F&O data or just live data?"
+          ],
+          "top_comments": [
+            {
+              "author": "theslowspoke",
+              "date": "2026-04-29",
+              "excerpt": "Cool. How long did it take for you to build this?",
+              "score": 10,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix9ddc/"
+            },
+            {
+              "author": "wam_bam_mam",
+              "date": "2026-04-29",
+              "excerpt": "Have you tested it? Producing accurate information from those calls? ",
+              "score": 8,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oixtl2v/"
+            },
+            {
+              "author": "sweet-0000",
+              "date": "2026-04-30",
+              "excerpt": "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+              "score": 2,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2pkz2/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-04-29",
+              "excerpt": ">Namaste!\nThanks for submitting to r/developersIndia. While participating in this thread, please follow the Community [Code of Conduct](https://developersindia.in/code-of-conduct/) and [rules](https://www.reddit.com/r/developersIndia/about/rules).\n \nIt's possible your query is not unique, use [`site:reddit.com/r/developersindia KEYWORDS`](https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fdev",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix55sy/"
+            },
+            {
+              "author": "BudgetSalad5873",
+              "date": "2026-04-29",
+              "excerpt": "How much does it costs for this setup? Are you using claude Pro?",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj0f57w/"
+            },
+            {
+              "author": "Mysterious_Role_3443",
+              "date": "2026-04-30",
+              "excerpt": "I see no API keys, are the quotes live?",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj1veik/"
+            },
+            {
+              "author": "SandwichUnlucky4244",
+              "date": "2026-04-30",
+              "excerpt": "Does it include historical equity/F&O data or just live data?",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2v0ym/"
+            }
+          ]
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.25,
+        "snippet": "Cool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias",
+        "url": "https://www.reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "why am i still manually copy pasting logs into a browser?\nhonestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extension directly in vscode and its annoying how much time i wasted doing it the old way. being able to ju",
+        "container": "BlackboxAI_",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 18,
+        "freshness": 82,
+        "item_id": "R15",
+        "local_rank_score": 0.37250000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.54,
+        "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "why am i still manually copy pasting logs into a browser?",
+        "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "A way to do multilingual WP without the manual copy-paste\nI\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from Lara Translate that handles the heavy lifting. The nice part is that it doesn't break the blocks or",
+        "container": "Wordpress",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2,
+          "upvote_ratio": 0.75
+        },
+        "engagement_score": 13,
+        "freshness": 77,
+        "item_id": "R17",
+        "local_rank_score": 0.35500000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 0.63,
+        "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "A way to do multilingual WP without the manual copy-paste",
+        "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80\nWe\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no typos.\n\n Dual-Perspective View:\n\n   1. The Roster: Who is working and when.\n\n   2. The Coverage Map",
+        "container": "MondayCRMExperts",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 49,
+        "item_id": "R24",
+        "local_rank_score": 0.3305,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-13",
+        "relevance_hint": 0.54,
+        "snippet": "We\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80",
+        "url": "https://www.reddit.com/r/MondayCRMExperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "How do you actually handle client reporting?\nI've been talking to social media managers and agency owners lately and one thing keeps coming up \u2014 client reporting.\n\n\n\nEveryone seems to handle it differently. Spreadsheets, screenshots, tools like Sprout or HubSpot, manually copy-pasting numbers into PDFs...\n\n\n\nFor those managing 5+ clients \u2014 I have a few genuine questions:\n\n\n\n1. How do you currently create reports for clients?\n\n2. How long does it honestly take per client per week?\n\n3. What's the most frustrating part of the whole process?",
+        "container": "DigitalMarketing",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 39,
+          "score": 18,
+          "upvote_ratio": 0.92
+        },
+        "engagement_score": 45,
+        "freshness": 45,
+        "item_id": "R7",
+        "local_rank_score": 0.307,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-11",
+        "relevance_hint": 0.14,
+        "snippet": "I've been talking to social media managers and agency owners lately and one thing keeps coming up \u2014 client reporting.\n\n\n\nEveryone seems to handle it differently. Spreadsheets, screenshots, tools like Sprout or HubSpot, manually copy-pasting numbers into PDFs...\n\n\n\nFor those managing 5+ clients \u2014 I have a few genuine questions:\n\n\n\n1. How do you currently create reports for clients?\n\n2. How long doe",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "How do you actually handle client reporting?",
+        "url": "https://www.reddit.com/r/DigitalMarketing/comments/1sig3qv/how_do_you_actually_handle_client_reporting/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Manual copy-paste work is killing my time so can this be automated?\nEvery day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+        "container": "CanAIHelp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 4,
+        "freshness": 49,
+        "item_id": "R19",
+        "local_rank_score": 0.276,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-13",
+        "relevance_hint": 0.54,
+        "snippet": "Every day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Manual copy-paste work is killing my time so can this be automated?",
+        "url": "https://www.reddit.com/r/CanAIHelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?\nSomeone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is very limited, and I'm just trying to get a better understanding of the common problems and workflows",
+        "container": "Fashion_Design",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 47,
+        "item_id": "R25",
+        "local_rank_score": 0.267,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-12",
+        "relevance_hint": 0.54,
+        "snippet": "Someone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is v",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?",
+        "url": "https://www.reddit.com/r/Fashion_Design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"manually copy paste\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"manually copy paste\"?",
+        "search_query": "\"manually copy paste\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-08",
+  "range_to": "2026-05-08",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/developersindia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai",
+      "cluster_id": "cluster-1",
+      "engagement": 61,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 19.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Cool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias\nHey guys,\n\nJust wanted to share a project I\u2019ve been working on.\n\nI\u2019ve been diving into the Model Context Protocol (MCP) lately and noticed that most of the cool tools for AI agents are built for the US markets. I wanted something that worked for us here in India, so I built an **MCP server for NSE public data.**\n\nBasically, it lets your AI agents (like Claude) plug directly into NSE APIs so you can analyze stocks or fetch data without any bias\u2014and without having to manually copy-paste stats into\nCool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+          "container": "developersIndia",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 96,
+            "upvote_ratio": 0.98
+          },
+          "engagement_score": 61,
+          "freshness": 82,
+          "item_id": "R5",
+          "local_rank_score": 0.47400000000000003,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Cool. How long did it take for you to build this?",
+              "Have you tested it? Producing accurate information from those calls? ",
+              "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.",
+              "How much does it costs for this setup? Are you using claude Pro?",
+              "I see no API keys, are the quotes live?",
+              "Does it include historical equity/F&O data or just live data?"
+            ],
+            "top_comments": [
+              {
+                "author": "theslowspoke",
+                "date": "2026-04-29",
+                "excerpt": "Cool. How long did it take for you to build this?",
+                "score": 10,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix9ddc/"
+              },
+              {
+                "author": "wam_bam_mam",
+                "date": "2026-04-29",
+                "excerpt": "Have you tested it? Producing accurate information from those calls? ",
+                "score": 8,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oixtl2v/"
+              },
+              {
+                "author": "sweet-0000",
+                "date": "2026-04-30",
+                "excerpt": "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+                "score": 2,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2pkz2/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-04-29",
+                "excerpt": ">Namaste!\nThanks for submitting to r/developersIndia. While participating in this thread, please follow the Community [Code of Conduct](https://developersindia.in/code-of-conduct/) and [rules](https://www.reddit.com/r/developersIndia/about/rules).\n \nIt's possible your query is not unique, use [`site:reddit.com/r/developersindia KEYWORDS`](https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fdev",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix55sy/"
+              },
+              {
+                "author": "BudgetSalad5873",
+                "date": "2026-04-29",
+                "excerpt": "How much does it costs for this setup? Are you using claude Pro?",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj0f57w/"
+              },
+              {
+                "author": "Mysterious_Role_3443",
+                "date": "2026-04-30",
+                "excerpt": "I see no API keys, are the quotes live?",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj1veik/"
+              },
+              {
+                "author": "SandwichUnlucky4244",
+                "date": "2026-04-30",
+                "excerpt": "Does it include historical equity/F&O data or just live data?",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2v0ym/"
+              }
+            ]
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.25,
+          "snippet": "Cool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias",
+          "url": "https://www.reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias",
+      "url": "https://www.reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/digitalmarketing/comments/1sig3qv/how_do_you_actually_handle_client_reporting",
+      "cluster_id": "cluster-2",
+      "engagement": 45,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 6.099999999999998,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "I've been talking to social media managers and agency owners lately and one thing keeps coming up \u2014 client reporting.\n\n\n\nEveryone seems to handle it differently. Spreadsheets, screenshots, tools like Sprout or HubSpot, manually copy-pasting numbers into PDFs...\n\n\n\nFor those managing 5+ clients \u2014 I have a few genuine questions:\n\n\n\n1. How do you currently create reports for clients?\n\n2. How long doe",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "How do you actually handle client reporting?\nI've been talking to social media managers and agency owners lately and one thing keeps coming up \u2014 client reporting.\n\n\n\nEveryone seems to handle it differently. Spreadsheets, screenshots, tools like Sprout or HubSpot, manually copy-pasting numbers into PDFs...\n\n\n\nFor those managing 5+ clients \u2014 I have a few genuine questions:\n\n\n\n1. How do you currently create reports for clients?\n\n2. How long does it honestly take per client per week?\n\n3. What's the most frustrating part of the whole process?",
+          "container": "DigitalMarketing",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 39,
+            "score": 18,
+            "upvote_ratio": 0.92
+          },
+          "engagement_score": 45,
+          "freshness": 45,
+          "item_id": "R7",
+          "local_rank_score": 0.307,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-11",
+          "relevance_hint": 0.14,
+          "snippet": "I've been talking to social media managers and agency owners lately and one thing keeps coming up \u2014 client reporting.\n\n\n\nEveryone seems to handle it differently. Spreadsheets, screenshots, tools like Sprout or HubSpot, manually copy-pasting numbers into PDFs...\n\n\n\nFor those managing 5+ clients \u2014 I have a few genuine questions:\n\n\n\n1. How do you currently create reports for clients?\n\n2. How long doe",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "How do you actually handle client reporting?",
+          "url": "https://www.reddit.com/r/DigitalMarketing/comments/1sig3qv/how_do_you_actually_handle_client_reporting/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "How do you actually handle client reporting?",
+      "url": "https://www.reddit.com/r/DigitalMarketing/comments/1sig3qv/how_do_you_actually_handle_client_reporting/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a",
+      "cluster_id": "cluster-3",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 46.0,
+      "item_id": "R15",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R15",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "why am i still manually copy pasting logs into a browser?\nhonestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extension directly in vscode and its annoying how much time i wasted doing it the old way. being able to ju",
+          "container": "BlackboxAI_",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 18,
+          "freshness": 82,
+          "item_id": "R15",
+          "local_rank_score": 0.37250000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.54,
+          "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "why am i still manually copy pasting logs into a browser?",
+          "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "why am i still manually copy pasting logs into a browser?",
+      "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual",
+      "cluster_id": "cluster-4",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 26.0,
+      "item_id": "R17",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R17",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 12.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "A way to do multilingual WP without the manual copy-paste\nI\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from Lara Translate that handles the heavy lifting. The nice part is that it doesn't break the blocks or",
+          "container": "Wordpress",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2,
+            "upvote_ratio": 0.75
+          },
+          "engagement_score": 13,
+          "freshness": 77,
+          "item_id": "R17",
+          "local_rank_score": 0.35500000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 0.63,
+          "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "A way to do multilingual WP without the manual copy-paste",
+          "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "A way to do multilingual WP without the manual copy-paste",
+      "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/canaihelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can",
+      "cluster_id": "cluster-5",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 8.0,
+      "item_id": "R19",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 6.899999999999999,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "Every day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Manual copy-paste work is killing my time so can this be automated?\nEvery day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+          "container": "CanAIHelp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 4,
+          "freshness": 49,
+          "item_id": "R19",
+          "local_rank_score": 0.276,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-13",
+          "relevance_hint": 0.54,
+          "snippet": "Every day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Manual copy-paste work is killing my time so can this be automated?",
+          "url": "https://www.reddit.com/r/CanAIHelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Manual copy-paste work is killing my time so can this be automated?",
+      "url": "https://www.reddit.com/r/CanAIHelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/mondaycrmexperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i",
+      "cluster_id": "cluster-6",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R24",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R24",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 13.200000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "We\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80\nWe\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no typos.\n\n Dual-Perspective View:\n\n   1. The Roster: Who is working and when.\n\n   2. The Coverage Map",
+          "container": "MondayCRMExperts",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 49,
+          "item_id": "R24",
+          "local_rank_score": 0.3305,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-13",
+          "relevance_hint": 0.54,
+          "snippet": "We\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80",
+          "url": "https://www.reddit.com/r/MondayCRMExperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80",
+      "url": "https://www.reddit.com/r/MondayCRMExperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/fashion_design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs",
+      "cluster_id": "cluster-7",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "R25",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R25",
+            "native_rank": 7,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 7
+      },
+      "rerank_score": 6.5,
+      "rrf_score": 0.007462686567164179,
+      "snippet": "Someone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is v",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?\nSomeone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is very limited, and I'm just trying to get a better understanding of the common problems and workflows",
+          "container": "Fashion_Design",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 47,
+          "item_id": "R25",
+          "local_rank_score": 0.267,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-12",
+          "relevance_hint": 0.54,
+          "snippet": "Someone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is v",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?",
+          "url": "https://www.reddit.com/r/Fashion_Design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?",
+      "url": "https://www.reddit.com/r/Fashion_Design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs/"
+    }
+  ],
+  "topic": "\"manually copy paste\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
