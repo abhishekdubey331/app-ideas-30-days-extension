@@ -1,0 +1,1129 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there a tool that\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/contentmarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/contentmarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Do no code automation tools exist for high-volume content distribution?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/airankingstrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/airankingstrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What tool(s) do you use to measure/quantify your ai visibility?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/digitalmarketinghack/comments/1siigak/is_there_a_tool_that_monitors_reddit_for_relevant"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/digitalmarketinghack/comments/1siigak/is_there_a_tool_that_monitors_reddit_for_relevant"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sitechecker/comments/1sfs73h/most_agencies_i_talked_to_pay_1700mo_for_seo"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/sitechecker/comments/1sfs73h/most_agencies_i_talked_to_pay_1700mo_for_seo"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Most agencies I talked to pay $1,700/mo for SEO tools and use maybe 40% of the features"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/victorinox/comments/1sfeq10/inox_question_on_straps"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/victorinox/comments/1sfeq10/inox_question_on_straps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Inox question on straps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "[CHAT] Need help adding 10th lines on pattern"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-08T00:52:11.497863+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Do no code automation tools exist for high-volume content distribution?\nWe produce a lot of video content that needs to be chopped up, captioned, and posted across six different social channels. I\u2019ve tried various no-code automation tools, but they usually fail at the upload stage or can't handle the file sizes. \nThis leaves my social media manager doing the same manual uploads every single day. We need a way to automate the distribution pipeline from Google Drive to the final platforms with some level of quality control in between. \nIs there a tool that allows for\nn8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to approve before the upload fires. it handles larger files better than Zapier in my experience, especially for high-volume pipelines, and, self-hosting gives you full infrastructure control so you're not bottlenecked by shared API rate limits. the human- For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, general SaaS connectors like Zapier or Make, though you'd want to verify current capabilities independently since this space moves fast. The human-in-the-l the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles this pretty well, you can, pause a scenario mid-execution and fire off an approval request via Slack or email before the final upload goes through. it's not a perfect out-of-the-box solution for heavy vid",
+        "container": "ContentMarketing",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 23,
+          "score": 15,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 36,
+        "freshness": 65,
+        "item_id": "R5",
+        "local_rank_score": 0.40650000000000003,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "n8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to ap...",
+            "For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, gener...",
+            "the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles this pretty well, you can, pause a scenario mid-execut...",
+            "the human-in-the-loop piece is honestly what makes or breaks these pipelines, and most people skip it until something embarrassing gets posted.",
+            "the human-in-loop piece is actually more solvable now than it used to be, tools like n8n, and Zapier have matured enough to handle high-volume video p...",
+            "I've seen wrk is perfect for this. Their no-code automation tools allow for that humanin the loop step you\u2019re looking for, so you get automation with...",
+            "they exist but if you want good  results you should not think of it as a step to just get out of the way",
+            "Yeah this pipeline does exist now, it just isn't one single tool usually.",
+            "This is a pain everyone in video distribution knows."
+          ],
+          "top_comments": [
+            {
+              "author": "zakhvifi",
+              "date": "2026-04-22",
+              "excerpt": "n8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to approve before the upload fires. it handles larger files better than Zapier in my experience, especially for high-volume pipelines, and, self-hosting gives you full infrastructure control so you're not bottlenecked by shared API rate limits. the human-",
+              "score": 2,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohlh4jz/"
+            },
+            {
+              "author": "taisferour",
+              "date": "2026-04-22",
+              "excerpt": "For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, general SaaS connectors like Zapier or Make, though you'd want to verify current capabilities independently since this space moves fast. The human-in-the-l",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohlitlm/"
+            },
+            {
+              "author": "viliban",
+              "date": "2026-04-22",
+              "excerpt": "the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles this pretty well, you can, pause a scenario mid-execution and fire off an approval request via Slack or email before the final upload goes through. it's not a perfect out-of-the-box solution for heavy vid",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohlqlix/"
+            },
+            {
+              "author": "chugpecu",
+              "date": "2026-04-22",
+              "excerpt": "the human-in-the-loop piece is honestly what makes or breaks these pipelines, and most people skip it until something embarrassing gets posted. if you go the n8n route, you can build in an approval step that fires off a Slack message or email with, a preview link before the publish nodes run, so you",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohm617l/"
+            },
+            {
+              "author": "Avocado_Faya",
+              "date": "2026-04-22",
+              "excerpt": "the human-in-loop piece is actually more solvable now than it used to be, tools like n8n, and Zapier have matured enough to handle high-volume video pipelines without falling apart at the upload stage. what's worked well is splitting it into two separate automations: the first pulls from Drive, trig",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohm66us/"
+            },
+            {
+              "author": "East-Significance956",
+              "date": "2026-04-22",
+              "excerpt": "I've seen wrk is perfect for this. Their no-code automation tools allow for that humanin the loop step you\u2019re looking for, so you get automation with a safety net.",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohnfjci/"
+            },
+            {
+              "author": "Bitter_Stress769",
+              "date": "2026-04-23",
+              "excerpt": "they exist but if you want good  results you should not think of it as a step to just get out of the way",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohsw8cg/"
+            },
+            {
+              "author": "wilzerjeanbaptiste",
+              "date": "2026-04-23",
+              "excerpt": "Yeah this pipeline does exist now, it just isn't one single tool usually. Here's the stack I've seen actually work for teams doing high volume video distribution.\n\n\n\nThe chopping and captioning part is usually Opus Clip, Submagic, or Descript. They'll take a long video and spit out 10 to 20 short cl",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohtdnsj/"
+            },
+            {
+              "author": "wilzerjeanbaptiste",
+              "date": "2026-04-23",
+              "excerpt": "This is a pain everyone in video distribution knows. The reason generic no-code tools (Zapier, Make, n8n) keep failing at the upload step is that platforms like TikTok and Instagram have really locked down their publishing APIs. So the automation breaks every few weeks when something changes.\n\n\n\nA s",
+              "score": 1,
+              "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohthueh/"
+            }
+          ]
+        },
+        "published_at": "2026-04-21",
+        "relevance_hint": 0.22,
+        "snippet": "n8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to approve before the upload fires. it handles larger files better than Zapier in my experience, especially for high-volume pipelines, and, self-hosting gives you full infrastructure control so you're not bottlenecked by shared API rate limits. the human- For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, general SaaS connectors like Zapier or Make, though you'd want to verify current capabilities independently since this space moves fast. The human-in-the-l the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Do no code automation tools exist for high-volume content distribution?",
+        "url": "https://www.reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n",
+        "container": "ediscovery",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 21,
+          "score": 6,
+          "upvote_ratio": 0.65
+        },
+        "engagement_score": 23,
+        "freshness": 91,
+        "item_id": "R8",
+        "local_rank_score": 0.4,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-04",
+        "relevance_hint": 0.87,
+        "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+        "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What tool(s) do you use to measure/quantify your ai visibility?\nOur marketing team is expanding into AEO and I've been tasked with building the measurement framework before we scale anything. Problem is I'm used to tracking rankings and traffic through traditional SEO tools\u034f and I'm not sure what the equivalent looks like for AI\u034f visibility.\n\nI've seen Pe\u034fec AI and Ahr\u034fefs mentioned and I know some people track share of model manually by running prompts. Is there a tool that's reliable and automates tracking across multiple LLMs or is it still mostly manual\nYou are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms. Most teams are combining tools with manual tracking. The first step is defining key prompts that represent your business queries and checking how often your brand appears across different models. This is still partly manual, but some tools like Peec AI and Ahrefs are starting Thanks for contributing! If you're looking for guidance or suggestions, don't hesitate to ask. Let's keep the discussion positive and productive.\n\nKindly avoid spam and promotional comments. Thank you.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this Most of what I\u2019ve seen is either manual prompt tracking or people stitching things together from different tools. I'm also still looking for a clean \u201cGA for AI\u201d. What\u2019s been useful for me is tracking a fixed set of prompts and seeing where content actually shows up across models, then watching how t",
+        "container": "AIRankingStrategy",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 30,
+          "score": 11,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 35,
+        "freshness": 49,
+        "item_id": "R4",
+        "local_rank_score": 0.307,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "You are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms.",
+            "Most of what I\u2019ve seen is either manual prompt tracking or people stitching things together from different tools.",
+            "For reporting I'd track four things: whether you were mentioned at all, where you ranked in the answer, how you were framed, and which competitors kep...",
+            "What's your budge\u034ft? And how many keywords do you plan to track?",
+            "Semrush is probably the closest thing I\u2019ve used to GA4. It\u2019s been pretty solid for tracking and monitoring AI visibility.",
+            " was in your exact position about 4 months ago building out our AEO measurement stack from scratch.",
+            "There are so many tools in the market, one of my clients use Otterly.",
+            "Great question and one most teams are still figuring out.",
+            "I\u2019ve found that tracking raw presence in AI answers is just part of it, but what matters is measuring context and sentiment, plus category share versu..."
+          ],
+          "top_comments": [
+            {
+              "author": "Key_Arugula_4296",
+              "date": "2026-04-13",
+              "excerpt": "You are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms. Most teams are combining tools with manual tracking. The first step is defining key prompts that represent your business queries and checking how often your brand appears across different models. This is still partly manual, but some tools like Peec AI and Ahrefs are starting",
+              "score": 2,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofw4gq3/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-04-13",
+              "excerpt": "Thanks for contributing! If you're looking for guidance or suggestions, don't hesitate to ask. Let's keep the discussion positive and productive.\n\nKindly avoid spam and promotional comments. Thank you.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofw2noc/"
+            },
+            {
+              "author": "Niko_Growth",
+              "date": "2026-04-13",
+              "excerpt": "Most of what I\u2019ve seen is either manual prompt tracking or people stitching things together from different tools. I'm also still looking for a clean \u201cGA for AI\u201d. What\u2019s been useful for me is tracking a fixed set of prompts and seeing where content actually shows up across models, then watching how t",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwab0t/"
+            },
+            {
+              "author": "SuchRelative19",
+              "date": "2026-04-13",
+              "excerpt": "For reporting I'd track four things: whether you were mentioned at all, where you ranked in the answer, how you were framed, and which competitors kept appearing alongside you. Run the same prompt set every month across ChatGPT, Gemini, and Claude, and log the results. It's not perfect but it gives ",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwb9qx/"
+            },
+            {
+              "author": "Wild_Guess858",
+              "date": "2026-04-13",
+              "excerpt": "What's your budge\u034ft? And how many keywords do you plan to track? And how many queri\u034fes do you want to run/day? Ahr\u034fefs is a very good toold for measuring AI visibility but it can range from 30 bu\u034fcks ot 1.5k\n\n",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwd9h3/"
+            },
+            {
+              "author": "livzoop",
+              "date": "2026-04-13",
+              "excerpt": "Semrush is probably the closest thing I\u2019ve used to GA4. It\u2019s been pretty solid for tracking and monitoring AI visibility.",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwdnkp/"
+            },
+            {
+              "author": "HoNam_",
+              "date": "2026-04-13",
+              "excerpt": " was in your exact position about 4 months ago building out our AEO measurement stack from scratch. The biggest lesson I learned is don't try to recreate traditional SEO dashboards for AI visibility because the data just works differently. We tried a few tools and landed on Topify because it was the",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwkbbl/"
+            },
+            {
+              "author": "startages",
+              "date": "2026-04-13",
+              "excerpt": "There are so many tools in the market, one of my clients use Otterly. However, I personally didn't find it as complete as I would like it to be and thought it might be a chance for me to build something since this is still new, I call it SurfacedBy, but it's not officially out yet, if you want to gi",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwo4u2/"
+            },
+            {
+              "author": "rankfastusa",
+              "date": "2026-04-13",
+              "excerpt": "Great question and one most teams are still figuring out. The honest answer is that this space is moving fast and no single tool covers everything yet.\n\nThe dedicated AI visibility tools worth knowing about right now are: OtterlyAI for fast self serve citation monitoring with strong URL level analys",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofx134h/"
+            },
+            {
+              "author": "mentiondesk",
+              "date": "2026-04-13",
+              "excerpt": "I\u2019ve found that tracking raw presence in AI answers is just part of it, but what matters is measuring context and sentiment, plus category share versus competitors. Automated tools to monitor multiple LLMs are rare, but since I work at MentionDesk, I know our platform tries to fill that gap by track",
+              "score": 1,
+              "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofxdjf4/"
+            }
+          ]
+        },
+        "published_at": "2026-04-13",
+        "relevance_hint": 0.49,
+        "snippet": "You are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms. Most teams are combining tools with manual tracking. The first step is defining key prompts that represent your business queries and checking how often your brand appears across different models. This is still partly manual, but some tools like Peec AI and Ahrefs are starting Thanks for contributing! If you're looking for guidance or suggestions, don't hesitate to ask. Let's keep the discussion positive and productive. Kindly avoid spam and promotional comments. Thank you. *I am a bot, and this action was performed automatically. Please [contact the moderators of this Most of what I\u2019ve seen is either manual prompt...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What tool(s) do you use to measure/quantify your ai visibility?",
+        "url": "https://www.reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "[CHAT] Need help adding 10th lines on pattern\nHi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing one. The pattern is in PDF format and I read it from a tablet if it helps! \n\nSorry if I didn't expla",
+        "container": "CrossStitch",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 5,
+          "upvote_ratio": 0.86
+        },
+        "engagement_score": 15,
+        "freshness": 51,
+        "item_id": "R26",
+        "local_rank_score": 0.29200000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-14",
+        "relevance_hint": 0.22,
+        "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "[CHAT] Need help adding 10th lines on pattern",
+        "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?\nIs there a tool that monitors Reddit for relevant conversations about what you can help with?\n\nI'm building a B2B SaaS and spending way too much time manually searching subreddits for threads where I could jump in and help people, and mention my product naturally. By the time I find a good thread, it's already 12 hours old and buried.\n\nI want something that watches specific subreddits and keywords, and pings me when there's a relevant post I should reply to.\n\nDoes anything like this exist? Or am",
+        "container": "DigitalMarketingHack",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 10,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 28,
+        "freshness": 45,
+        "item_id": "R10",
+        "local_rank_score": 0.29000000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-11",
+        "relevance_hint": 0.87,
+        "snippet": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?\n\nI'm building a B2B SaaS and spending way too much time manually searching subreddits for threads where I could jump in and help people, and mention my product naturally. By the time I find a good thread, it's already 12 hours old and buried.\n\nI want something that watches specific subreddits and keywords",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?",
+        "url": "https://www.reddit.com/r/DigitalMarketingHack/comments/1siigak/is_there_a_tool_that_monitors_reddit_for_relevant/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Most agencies I talked to pay $1,700/mo for SEO tools and use maybe 40% of the features\nRecently, I had a call with a digital marketing agency owner who runs 70 client projects. They're on Semrush at roughly $1,700/month.\u00a0\n\nWhen we actually analyzed what they use daily, there were: \n\n* site audit, \n* monthly reports, \n* rank tracking, \n* some competitor analysis. \n\nThat's it. They even use a separate tool for keyword research.\n\nBut the real pain is not the subscription itself. It is the $40 per user plus add-ons. Every time they hire a new SEO specialist or onboard a client that wa",
+        "container": "Sitechecker",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 8,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 23,
+        "freshness": 40,
+        "item_id": "R16",
+        "local_rank_score": 0.2725,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-08",
+        "relevance_hint": 0.22,
+        "snippet": "Recently, I had a call with a digital marketing agency owner who runs 70 client projects. They're on Semrush at roughly $1,700/month.\u00a0\n\nWhen we actually analyzed what they use daily, there were: \n\n* site audit, \n* monthly reports, \n* rank tracking, \n* some competitor analysis. \n\nThat's it. They even use a separate tool for keyword research.\n\nBut the real pain is not the subscription itself. It is",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Most agencies I talked to pay $1,700/mo for SEO tools and use maybe 40% of the features",
+        "url": "https://www.reddit.com/r/Sitechecker/comments/1sfs73h/most_agencies_i_talked_to_pay_1700mo_for_seo/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Inox question on straps\nHi all, I have a few 1st gen inox watches that I\u2019m having a hard time swapping on rubber bands and metal band\u2026especially metal band is giving me extremely hard time.  I see the 2nd gen inox watches come with easy release and install bands.  Would these work on my 1st gen inox watches? If not is there a tool that can help me especially with the metal band on my first gen inox watches ?",
+        "container": "victorinox",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 5,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 18,
+        "freshness": 40,
+        "item_id": "R23",
+        "local_rank_score": 0.2675,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-08",
+        "relevance_hint": 0.22,
+        "snippet": "Hi all, I have a few 1st gen inox watches that I\u2019m having a hard time swapping on rubber bands and metal band\u2026especially metal band is giving me extremely hard time.  I see the 2nd gen inox watches come with easy release and install bands.  Would these work on my 1st gen inox watches? If not is there a tool that can help me especially with the metal band on my first gen inox watches ?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Inox question on straps",
+        "url": "https://www.reddit.com/r/victorinox/comments/1sfeq10/inox_question_on_straps/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there a tool that\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there a tool that\", especially about \"is there that\"?",
+        "search_query": "\"is there that\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-08",
+  "range_to": "2026-05-08",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/contentmarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume",
+      "cluster_id": "cluster-1",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "n8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to approve before the upload fires. it handles larger files better than Zapier in my experience, especially for high-volume pipelines, and, self-hosting gives you full infrastructure control so you're not bottlenecked by shared API rate limits. the human- For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, general SaaS connectors like Zapier or Make, though you'd want to verify current capabilities independently since this space moves fast. The human-in-the-l the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Do no code automation tools exist for high-volume content distribution?\nWe produce a lot of video content that needs to be chopped up, captioned, and posted across six different social channels. I\u2019ve tried various no-code automation tools, but they usually fail at the upload stage or can't handle the file sizes. \nThis leaves my social media manager doing the same manual uploads every single day. We need a way to automate the distribution pipeline from Google Drive to the final platforms with some level of quality control in between. \nIs there a tool that allows for\nn8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to approve before the upload fires. it handles larger files better than Zapier in my experience, especially for high-volume pipelines, and, self-hosting gives you full infrastructure control so you're not bottlenecked by shared API rate limits. the human- For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, general SaaS connectors like Zapier or Make, though you'd want to verify current capabilities independently since this space moves fast. The human-in-the-l the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles this pretty well, you can, pause a scenario mid-execution and fire off an approval request via Slack or email before the final upload goes through. it's not a perfect out-of-the-box solution for heavy vid",
+          "container": "ContentMarketing",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 23,
+            "score": 15,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 36,
+          "freshness": 65,
+          "item_id": "R5",
+          "local_rank_score": 0.40650000000000003,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "n8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to ap...",
+              "For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, gener...",
+              "the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles this pretty well, you can, pause a scenario mid-execut...",
+              "the human-in-the-loop piece is honestly what makes or breaks these pipelines, and most people skip it until something embarrassing gets posted.",
+              "the human-in-loop piece is actually more solvable now than it used to be, tools like n8n, and Zapier have matured enough to handle high-volume video p...",
+              "I've seen wrk is perfect for this. Their no-code automation tools allow for that humanin the loop step you\u2019re looking for, so you get automation with...",
+              "they exist but if you want good  results you should not think of it as a step to just get out of the way",
+              "Yeah this pipeline does exist now, it just isn't one single tool usually.",
+              "This is a pain everyone in video distribution knows."
+            ],
+            "top_comments": [
+              {
+                "author": "zakhvifi",
+                "date": "2026-04-22",
+                "excerpt": "n8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to approve before the upload fires. it handles larger files better than Zapier in my experience, especially for high-volume pipelines, and, self-hosting gives you full infrastructure control so you're not bottlenecked by shared API rate limits. the human-",
+                "score": 2,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohlh4jz/"
+              },
+              {
+                "author": "taisferour",
+                "date": "2026-04-22",
+                "excerpt": "For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, general SaaS connectors like Zapier or Make, though you'd want to verify current capabilities independently since this space moves fast. The human-in-the-l",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohlitlm/"
+              },
+              {
+                "author": "viliban",
+                "date": "2026-04-22",
+                "excerpt": "the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles this pretty well, you can, pause a scenario mid-execution and fire off an approval request via Slack or email before the final upload goes through. it's not a perfect out-of-the-box solution for heavy vid",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohlqlix/"
+              },
+              {
+                "author": "chugpecu",
+                "date": "2026-04-22",
+                "excerpt": "the human-in-the-loop piece is honestly what makes or breaks these pipelines, and most people skip it until something embarrassing gets posted. if you go the n8n route, you can build in an approval step that fires off a Slack message or email with, a preview link before the publish nodes run, so you",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohm617l/"
+              },
+              {
+                "author": "Avocado_Faya",
+                "date": "2026-04-22",
+                "excerpt": "the human-in-loop piece is actually more solvable now than it used to be, tools like n8n, and Zapier have matured enough to handle high-volume video pipelines without falling apart at the upload stage. what's worked well is splitting it into two separate automations: the first pulls from Drive, trig",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohm66us/"
+              },
+              {
+                "author": "East-Significance956",
+                "date": "2026-04-22",
+                "excerpt": "I've seen wrk is perfect for this. Their no-code automation tools allow for that humanin the loop step you\u2019re looking for, so you get automation with a safety net.",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohnfjci/"
+              },
+              {
+                "author": "Bitter_Stress769",
+                "date": "2026-04-23",
+                "excerpt": "they exist but if you want good  results you should not think of it as a step to just get out of the way",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohsw8cg/"
+              },
+              {
+                "author": "wilzerjeanbaptiste",
+                "date": "2026-04-23",
+                "excerpt": "Yeah this pipeline does exist now, it just isn't one single tool usually. Here's the stack I've seen actually work for teams doing high volume video distribution.\n\n\n\nThe chopping and captioning part is usually Opus Clip, Submagic, or Descript. They'll take a long video and spit out 10 to 20 short cl",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohtdnsj/"
+              },
+              {
+                "author": "wilzerjeanbaptiste",
+                "date": "2026-04-23",
+                "excerpt": "This is a pain everyone in video distribution knows. The reason generic no-code tools (Zapier, Make, n8n) keep failing at the upload step is that platforms like TikTok and Instagram have really locked down their publishing APIs. So the automation breaks every few weeks when something changes.\n\n\n\nA s",
+                "score": 1,
+                "url": "https://reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/ohthueh/"
+              }
+            ]
+          },
+          "published_at": "2026-04-21",
+          "relevance_hint": 0.22,
+          "snippet": "n8n is probably your best bet here, you can pause the workflow mid-execution using a wait, or webhook node and ping your social manager on Slack to approve before the upload fires. it handles larger files better than Zapier in my experience, especially for high-volume pipelines, and, self-hosting gives you full infrastructure control so you're not bottlenecked by shared API rate limits. the human- For the Google Drive to multi-platform piece, there are tools built specifically around video chopping and redistribution workflows rather than, general SaaS connectors like Zapier or Make, though you'd want to verify current capabilities independently since this space moves fast. The human-in-the-l the human-in-the-loop part is what most tools fumble on, but Make (formerly Integromat) handles...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Do no code automation tools exist for high-volume content distribution?",
+          "url": "https://www.reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Do no code automation tools exist for high-volume content distribution?",
+      "url": "https://www.reddit.com/r/ContentMarketing/comments/1srwh3z/do_no_code_automation_tools_exist_for_highvolume/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/airankingstrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai",
+      "cluster_id": "cluster-2",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "You are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms. Most teams are combining tools with manual tracking. The first step is defining key prompts that represent your business queries and checking how often your brand appears across different models. This is still partly manual, but some tools like Peec AI and Ahrefs are starting Thanks for contributing! If you're looking for guidance or suggestions, don't hesitate to ask. Let's keep the discussion positive and productive. Kindly avoid spam and promotional comments. Thank you. *I am a bot, and this action was performed automatically. Please [contact the moderators of this Most of what I\u2019ve seen is either manual prompt...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What tool(s) do you use to measure/quantify your ai visibility?\nOur marketing team is expanding into AEO and I've been tasked with building the measurement framework before we scale anything. Problem is I'm used to tracking rankings and traffic through traditional SEO tools\u034f and I'm not sure what the equivalent looks like for AI\u034f visibility.\n\nI've seen Pe\u034fec AI and Ahr\u034fefs mentioned and I know some people track share of model manually by running prompts. Is there a tool that's reliable and automates tracking across multiple LLMs or is it still mostly manual\nYou are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms. Most teams are combining tools with manual tracking. The first step is defining key prompts that represent your business queries and checking how often your brand appears across different models. This is still partly manual, but some tools like Peec AI and Ahrefs are starting Thanks for contributing! If you're looking for guidance or suggestions, don't hesitate to ask. Let's keep the discussion positive and productive.\n\nKindly avoid spam and promotional comments. Thank you.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this Most of what I\u2019ve seen is either manual prompt tracking or people stitching things together from different tools. I'm also still looking for a clean \u201cGA for AI\u201d. What\u2019s been useful for me is tracking a fixed set of prompts and seeing where content actually shows up across models, then watching how t",
+          "container": "AIRankingStrategy",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 30,
+            "score": 11,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 35,
+          "freshness": 49,
+          "item_id": "R4",
+          "local_rank_score": 0.307,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "You are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms.",
+              "Most of what I\u2019ve seen is either manual prompt tracking or people stitching things together from different tools.",
+              "For reporting I'd track four things: whether you were mentioned at all, where you ranked in the answer, how you were framed, and which competitors kep...",
+              "What's your budge\u034ft? And how many keywords do you plan to track?",
+              "Semrush is probably the closest thing I\u2019ve used to GA4. It\u2019s been pretty solid for tracking and monitoring AI visibility.",
+              " was in your exact position about 4 months ago building out our AEO measurement stack from scratch.",
+              "There are so many tools in the market, one of my clients use Otterly.",
+              "Great question and one most teams are still figuring out.",
+              "I\u2019ve found that tracking raw presence in AI answers is just part of it, but what matters is measuring context and sentiment, plus category share versu..."
+            ],
+            "top_comments": [
+              {
+                "author": "Key_Arugula_4296",
+                "date": "2026-04-13",
+                "excerpt": "You are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms. Most teams are combining tools with manual tracking. The first step is defining key prompts that represent your business queries and checking how often your brand appears across different models. This is still partly manual, but some tools like Peec AI and Ahrefs are starting",
+                "score": 2,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofw4gq3/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-04-13",
+                "excerpt": "Thanks for contributing! If you're looking for guidance or suggestions, don't hesitate to ask. Let's keep the discussion positive and productive.\n\nKindly avoid spam and promotional comments. Thank you.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofw2noc/"
+              },
+              {
+                "author": "Niko_Growth",
+                "date": "2026-04-13",
+                "excerpt": "Most of what I\u2019ve seen is either manual prompt tracking or people stitching things together from different tools. I'm also still looking for a clean \u201cGA for AI\u201d. What\u2019s been useful for me is tracking a fixed set of prompts and seeing where content actually shows up across models, then watching how t",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwab0t/"
+              },
+              {
+                "author": "SuchRelative19",
+                "date": "2026-04-13",
+                "excerpt": "For reporting I'd track four things: whether you were mentioned at all, where you ranked in the answer, how you were framed, and which competitors kept appearing alongside you. Run the same prompt set every month across ChatGPT, Gemini, and Claude, and log the results. It's not perfect but it gives ",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwb9qx/"
+              },
+              {
+                "author": "Wild_Guess858",
+                "date": "2026-04-13",
+                "excerpt": "What's your budge\u034ft? And how many keywords do you plan to track? And how many queri\u034fes do you want to run/day? Ahr\u034fefs is a very good toold for measuring AI visibility but it can range from 30 bu\u034fcks ot 1.5k\n\n",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwd9h3/"
+              },
+              {
+                "author": "livzoop",
+                "date": "2026-04-13",
+                "excerpt": "Semrush is probably the closest thing I\u2019ve used to GA4. It\u2019s been pretty solid for tracking and monitoring AI visibility.",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwdnkp/"
+              },
+              {
+                "author": "HoNam_",
+                "date": "2026-04-13",
+                "excerpt": " was in your exact position about 4 months ago building out our AEO measurement stack from scratch. The biggest lesson I learned is don't try to recreate traditional SEO dashboards for AI visibility because the data just works differently. We tried a few tools and landed on Topify because it was the",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwkbbl/"
+              },
+              {
+                "author": "startages",
+                "date": "2026-04-13",
+                "excerpt": "There are so many tools in the market, one of my clients use Otterly. However, I personally didn't find it as complete as I would like it to be and thought it might be a chance for me to build something since this is still new, I call it SurfacedBy, but it's not officially out yet, if you want to gi",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofwo4u2/"
+              },
+              {
+                "author": "rankfastusa",
+                "date": "2026-04-13",
+                "excerpt": "Great question and one most teams are still figuring out. The honest answer is that this space is moving fast and no single tool covers everything yet.\n\nThe dedicated AI visibility tools worth knowing about right now are: OtterlyAI for fast self serve citation monitoring with strong URL level analys",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofx134h/"
+              },
+              {
+                "author": "mentiondesk",
+                "date": "2026-04-13",
+                "excerpt": "I\u2019ve found that tracking raw presence in AI answers is just part of it, but what matters is measuring context and sentiment, plus category share versus competitors. Automated tools to monitor multiple LLMs are rare, but since I work at MentionDesk, I know our platform tries to fill that gap by track",
+                "score": 1,
+                "url": "https://reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/ofxdjf4/"
+              }
+            ]
+          },
+          "published_at": "2026-04-13",
+          "relevance_hint": 0.49,
+          "snippet": "You are right, AI visibility is still early and there is no single reliable tool that works like traditional SEO platforms. Most teams are combining tools with manual tracking. The first step is defining key prompts that represent your business queries and checking how often your brand appears across different models. This is still partly manual, but some tools like Peec AI and Ahrefs are starting Thanks for contributing! If you're looking for guidance or suggestions, don't hesitate to ask. Let's keep the discussion positive and productive. Kindly avoid spam and promotional comments. Thank you. *I am a bot, and this action was performed automatically. Please [contact the moderators of this Most of what I\u2019ve seen is either manual prompt...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What tool(s) do you use to measure/quantify your ai visibility?",
+          "url": "https://www.reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What tool(s) do you use to measure/quantify your ai visibility?",
+      "url": "https://www.reddit.com/r/AIRankingStrategy/comments/1sk2f4r/what_tools_do_you_use_to_measurequantify_your_ai/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/digitalmarketinghack/comments/1siigak/is_there_a_tool_that_monitors_reddit_for_relevant",
+      "cluster_id": "cluster-3",
+      "engagement": 28,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R10",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R10",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 6.099999999999998,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?\n\nI'm building a B2B SaaS and spending way too much time manually searching subreddits for threads where I could jump in and help people, and mention my product naturally. By the time I find a good thread, it's already 12 hours old and buried.\n\nI want something that watches specific subreddits and keywords",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?\nIs there a tool that monitors Reddit for relevant conversations about what you can help with?\n\nI'm building a B2B SaaS and spending way too much time manually searching subreddits for threads where I could jump in and help people, and mention my product naturally. By the time I find a good thread, it's already 12 hours old and buried.\n\nI want something that watches specific subreddits and keywords, and pings me when there's a relevant post I should reply to.\n\nDoes anything like this exist? Or am",
+          "container": "DigitalMarketingHack",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 10,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 28,
+          "freshness": 45,
+          "item_id": "R10",
+          "local_rank_score": 0.29000000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-11",
+          "relevance_hint": 0.87,
+          "snippet": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?\n\nI'm building a B2B SaaS and spending way too much time manually searching subreddits for threads where I could jump in and help people, and mention my product naturally. By the time I find a good thread, it's already 12 hours old and buried.\n\nI want something that watches specific subreddits and keywords",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?",
+          "url": "https://www.reddit.com/r/DigitalMarketingHack/comments/1siigak/is_there_a_tool_that_monitors_reddit_for_relevant/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there a tool that monitors Reddit for relevant conversations about what you can help with?",
+      "url": "https://www.reddit.com/r/DigitalMarketingHack/comments/1siigak/is_there_a_tool_that_monitors_reddit_for_relevant/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize",
+      "cluster_id": "cluster-4",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 15.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n",
+          "container": "ediscovery",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 21,
+            "score": 6,
+            "upvote_ratio": 0.65
+          },
+          "engagement_score": 23,
+          "freshness": 91,
+          "item_id": "R8",
+          "local_rank_score": 0.4,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-04",
+          "relevance_hint": 0.87,
+          "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+          "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+      "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sitechecker/comments/1sfs73h/most_agencies_i_talked_to_pay_1700mo_for_seo",
+      "cluster_id": "cluster-5",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R16",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R16",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 5.099999999999998,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "Recently, I had a call with a digital marketing agency owner who runs 70 client projects. They're on Semrush at roughly $1,700/month.\u00a0\n\nWhen we actually analyzed what they use daily, there were: \n\n* site audit, \n* monthly reports, \n* rank tracking, \n* some competitor analysis. \n\nThat's it. They even use a separate tool for keyword research.\n\nBut the real pain is not the subscription itself. It is",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Most agencies I talked to pay $1,700/mo for SEO tools and use maybe 40% of the features\nRecently, I had a call with a digital marketing agency owner who runs 70 client projects. They're on Semrush at roughly $1,700/month.\u00a0\n\nWhen we actually analyzed what they use daily, there were: \n\n* site audit, \n* monthly reports, \n* rank tracking, \n* some competitor analysis. \n\nThat's it. They even use a separate tool for keyword research.\n\nBut the real pain is not the subscription itself. It is the $40 per user plus add-ons. Every time they hire a new SEO specialist or onboard a client that wa",
+          "container": "Sitechecker",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 8,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 23,
+          "freshness": 40,
+          "item_id": "R16",
+          "local_rank_score": 0.2725,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-08",
+          "relevance_hint": 0.22,
+          "snippet": "Recently, I had a call with a digital marketing agency owner who runs 70 client projects. They're on Semrush at roughly $1,700/month.\u00a0\n\nWhen we actually analyzed what they use daily, there were: \n\n* site audit, \n* monthly reports, \n* rank tracking, \n* some competitor analysis. \n\nThat's it. They even use a separate tool for keyword research.\n\nBut the real pain is not the subscription itself. It is",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Most agencies I talked to pay $1,700/mo for SEO tools and use maybe 40% of the features",
+          "url": "https://www.reddit.com/r/Sitechecker/comments/1sfs73h/most_agencies_i_talked_to_pay_1700mo_for_seo/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Most agencies I talked to pay $1,700/mo for SEO tools and use maybe 40% of the features",
+      "url": "https://www.reddit.com/r/Sitechecker/comments/1sfs73h/most_agencies_i_talked_to_pay_1700mo_for_seo/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/victorinox/comments/1sfeq10/inox_question_on_straps",
+      "cluster_id": "cluster-6",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R23",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R23",
+            "native_rank": 7,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 7
+      },
+      "rerank_score": 5.099999999999998,
+      "rrf_score": 0.007462686567164179,
+      "snippet": "Hi all, I have a few 1st gen inox watches that I\u2019m having a hard time swapping on rubber bands and metal band\u2026especially metal band is giving me extremely hard time.  I see the 2nd gen inox watches come with easy release and install bands.  Would these work on my 1st gen inox watches? If not is there a tool that can help me especially with the metal band on my first gen inox watches ?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Inox question on straps\nHi all, I have a few 1st gen inox watches that I\u2019m having a hard time swapping on rubber bands and metal band\u2026especially metal band is giving me extremely hard time.  I see the 2nd gen inox watches come with easy release and install bands.  Would these work on my 1st gen inox watches? If not is there a tool that can help me especially with the metal band on my first gen inox watches ?",
+          "container": "victorinox",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 5,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 18,
+          "freshness": 40,
+          "item_id": "R23",
+          "local_rank_score": 0.2675,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-08",
+          "relevance_hint": 0.22,
+          "snippet": "Hi all, I have a few 1st gen inox watches that I\u2019m having a hard time swapping on rubber bands and metal band\u2026especially metal band is giving me extremely hard time.  I see the 2nd gen inox watches come with easy release and install bands.  Would these work on my 1st gen inox watches? If not is there a tool that can help me especially with the metal band on my first gen inox watches ?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Inox question on straps",
+          "url": "https://www.reddit.com/r/victorinox/comments/1sfeq10/inox_question_on_straps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Inox question on straps",
+      "url": "https://www.reddit.com/r/victorinox/comments/1sfeq10/inox_question_on_straps/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern",
+      "cluster_id": "cluster-7",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 30.0,
+      "item_id": "R26",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R26",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 7.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "[CHAT] Need help adding 10th lines on pattern\nHi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing one. The pattern is in PDF format and I read it from a tablet if it helps! \n\nSorry if I didn't expla",
+          "container": "CrossStitch",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 5,
+            "upvote_ratio": 0.86
+          },
+          "engagement_score": 15,
+          "freshness": 51,
+          "item_id": "R26",
+          "local_rank_score": 0.29200000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-14",
+          "relevance_hint": 0.22,
+          "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "[CHAT] Need help adding 10th lines on pattern",
+          "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "[CHAT] Need help adding 10th lines on pattern",
+      "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/"
+    }
+  ],
+  "topic": "\"is there a tool that\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
