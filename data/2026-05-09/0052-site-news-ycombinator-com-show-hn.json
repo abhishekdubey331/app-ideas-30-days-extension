@@ -1,0 +1,190 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hackernews/comments/1sik5hu/show_hn_pardonnedcom_a_searchable_database_of_us"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/hackernews/comments/1sik5hu/show_hn_pardonnedcom_a_searchable_database_of_us"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-09T00:52:28.252611+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+        "container": "hackernews",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 3,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 100,
+        "freshness": 6,
+        "item_id": "R1",
+        "local_rank_score": 0.25150000000000006,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-11",
+        "relevance_hint": 0.44,
+        "snippet": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+        "url": "https://www.reddit.com/r/hackernews/comments/1sik5hu/show_hn_pardonnedcom_a_searchable_database_of_us/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\"",
+    "source_weights": {
+      "hackernews": 0.4390243902439025,
+      "reddit": 0.5609756097560976
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" reaction update",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-09",
+  "range_to": "2026-05-09",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/hackernews/comments/1sik5hu/show_hn_pardonnedcom_a_searchable_database_of_us",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 6,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 51.85,
+      "item_id": "R1",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1,
+        "reaction:reddit": 1
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.009196321471411436,
+      "snippet": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+          "container": "hackernews",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 3,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 100,
+          "freshness": 6,
+          "item_id": "R1",
+          "local_rank_score": 0.25150000000000006,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-11",
+          "relevance_hint": 0.44,
+          "snippet": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+          "url": "https://www.reddit.com/r/hackernews/comments/1sik5hu/show_hn_pardonnedcom_a_searchable_database_of_us/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+      "url": "https://www.reddit.com/r/hackernews/comments/1sik5hu/show_hn_pardonnedcom_a_searchable_database_of_us/"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

@@ -1,0 +1,315 @@
+Batch A sources=reddit,hackernews
+Started at 2026-05-09T00:51:49Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25586836445
+----
+
+===== Seed: site:reddit.com/r/sysadmin =====
+/last30days · researching: site:reddit.com/r/sysadmin
+⏳ [95mProcessing[0m Scoring and ranking...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs sysadmin
+[Competitors] Comparing: site:reddit.com vs r vs sysadmin
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] sysadmin: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="sysadmin" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=sysadmin&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit] Expanded 'sysadmin' into 1 queries: ['sysadmin']
+[Reddit] Global search 1/2: 'sysadmin' (sort=relevance)
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'pics', 'cats']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/pics for 'site:reddit.com'
+[Reddit] Subreddit search: r/cats for 'site:reddit.com'
+[Reddit]   -> 25 results for 'sysadmin'
+[Reddit] Discovered subreddits: ['sysadmin', 'ShittySysadmin', 'ITCareerQuestions']
+[Reddit] Subreddit search: r/sysadmin for 'sysadmin'
+[Reddit] Subreddit search: r/ShittySysadmin for 'sysadmin'
+[Reddit] Subreddit search: r/ITCareerQuestions for 'sysadmin'
+[Reddit]   -> 25 results from r/ITCareerQuestions
+[Reddit]   -> 25 results from r/pics
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['UnsentLetters', 'gaming', 'SubredditDrama']
+[Reddit] Subreddit search: r/UnsentLetters for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/SubredditDrama for 'r'
+[Reddit]   -> 25 results from r/sysadmin
+[Reddit]   -> 25 results from r/ShittySysadmin
+[Reddit] After dedup: 94 unique posts
+[Reddit] Filtered 64 posts outside date range
+[Reddit] Final: 30 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 25 results from r/cats
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit] After dedup: 88 unique posts
+[Reddit] Filtered 35 posts outside date range
+[Reddit] Final: 53 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/UnsentLetters
+[Reddit]   -> 25 results from r/SubredditDrama
+[Reddit] After dedup: 93 unique posts
+[Reddit] Filtered 57 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.5s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['UnsentLetters', 'gaming', 'SubredditDrama']
+[Reddit] Subreddit search: r/UnsentLetters for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/SubredditDrama for 'r'
+[Reddit]   -> 25 results from r/UnsentLetters
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/SubredditDrama
+[Reddit] After dedup: 93 unique posts
+[Reddit] Filtered 57 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Reddit] Enriched 5/5 posts in 9.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit] Enriched 5/5 posts in 8.5s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (17.8s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-09/0052-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/webdev =====
+/last30days · researching: site:reddit.com/r/webdev
+⏳ [95mProcessing[0m Organizing findings...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs webdev
+[Competitors] Comparing: site:reddit.com vs r vs webdev
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] webdev: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'pics', 'cats']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/pics for 'site:reddit.com'
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="webdev" sources=[reddit,hackernews]
+[Reddit] Subreddit search: r/cats for 'site:reddit.com'
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/pics
+[Reddit]   -> 25 results from r/cats
+[Reddit] After dedup: 88 unique posts
+[Reddit] Filtered 35 posts outside date range
+[Reddit] Final: 53 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['UnsentLetters', 'gaming', 'SubredditDrama']
+[Reddit] Subreddit search: r/UnsentLetters for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/SubredditDrama for 'r'
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/UnsentLetters
+[Reddit]   -> 25 results from r/SubredditDrama
+[Reddit] After dedup: 93 unique posts
+[Reddit] Filtered 57 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=webdev&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'webdev' into 1 queries: ['webdev']
+[Reddit] Global search 1/2: 'webdev' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['UnsentLetters', 'gaming', 'SubredditDrama']
+[Reddit] Subreddit search: r/UnsentLetters for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/SubredditDrama for 'r'
+[Reddit]   -> 25 results from r/UnsentLetters
+[Reddit]   -> 25 results from r/SubredditDrama
+[Reddit]   -> 25 results from r/gaming
+[Reddit] After dedup: 93 unique posts
+[Reddit] Filtered 57 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit]   -> 25 results for 'webdev'
+[Reddit] Discovered subreddits: ['webdev', 'Wallonia', 'Btechtards']
+[Reddit] Subreddit search: r/webdev for 'webdev'
+[Reddit] Subreddit search: r/Wallonia for 'webdev'
+[Reddit] Subreddit search: r/Btechtards for 'webdev'
+[Reddit]   -> 2 results from r/Wallonia
+[Reddit]   -> 25 results from r/Btechtards
+[Reddit]   -> 25 results from r/webdev
+[Reddit] After dedup: 75 unique posts
+[Reddit] Filtered 48 posts outside date range
+[Reddit] Final: 27 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 6.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=webdev&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'webdev' into 1 queries: ['webdev']
+[Reddit] Global search 1/2: 'webdev' (sort=relevance)
+[Reddit]   -> 25 results for 'webdev'
+[Reddit] Discovered subreddits: ['webdev', 'Wallonia', 'Btechtards']
+[Reddit] Subreddit search: r/webdev for 'webdev'
+[Reddit] Subreddit search: r/Wallonia for 'webdev'
+[Reddit] Subreddit search: r/Btechtards for 'webdev'
+[Reddit]   -> 25 results from r/webdev
+[Reddit]   -> 2 results from r/Wallonia
+[Reddit]   -> 25 results from r/Btechtards
+[Reddit] After dedup: 75 unique posts
+[Reddit] Filtered 48 posts outside date range
+[Reddit] Final: 27 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (12.2s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-09/0052-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:news.ycombinator.com "Show HN" =====
+/last30days · researching: site:news.ycombinator.com "Show HN"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=breaking_news, freshness=strict_recent, cluster_mode=story, subqueries=2, source=deterministic
+[Planner]   sq1 label=primary search="site:news.ycombinator.com "show hn"" sources=[reddit,hackernews]
+[Planner]   sq2 label=reaction search="site:news.ycombinator.com "show hn" reaction update" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Anews.ycombinator.com+%22Show+HN%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:news.ycombinator.com "Show HN"' into 1 queries: ['site:news.ycombinator.com "show hn"']
+[Reddit] Global search 1/2: 'site:news.ycombinator.com "show hn"' (sort=relevance)
+[Reddit]   -> 9 results for 'site:news.ycombinator.com "show hn"'
+[Reddit] Discovered subreddits: ['hypeurls', 'hackernews']
+[Reddit] Subreddit search: r/hypeurls for 'site:news.ycombinator.com "show hn"'
+[Reddit] Subreddit search: r/hackernews for 'site:news.ycombinator.com "show hn"'
+[Reddit]   -> 25 results from r/hypeurls
+[Reddit]   -> 25 results from r/hackernews
+[Reddit] After dedup: 50 unique posts
+[Reddit] Filtered 41 posts outside date range
+[Reddit] Final: 9 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 0/5 posts in 3.8s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Anews.ycombinator.com+%22Show+HN%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:news.ycombinator.com "Show HN"' into 1 queries: ['site:news.ycombinator.com "show hn"']
+[Reddit] Global search 1/2: 'site:news.ycombinator.com "show hn"' (sort=relevance)
+[Reddit]   -> 9 results for 'site:news.ycombinator.com "show hn"'
+[Reddit] Discovered subreddits: ['hypeurls', 'hackernews']
+[Reddit] Subreddit search: r/hypeurls for 'site:news.ycombinator.com "show hn"'
+[Reddit] Subreddit search: r/hackernews for 'site:news.ycombinator.com "show hn"'
+[Reddit]   -> 25 results from r/hypeurls
+[Reddit]   -> 25 results from r/hackernews
+[Reddit] After dedup: 50 unique posts
+[Reddit] Filtered 41 posts outside date range
+[Reddit] Final: 9 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 0/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (8.2s) - Reddit: 1 thread, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-09/0052-site-news-ycombinator-com-show-hn.json
+[OK] seed succeeded
+
+===== Seed: site:news.ycombinator.com "Ask HN" tool =====
+/last30days · researching: site:news.ycombinator.com "Ask HN" tool
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=breaking_news, freshness=strict_recent, cluster_mode=story, subqueries=2, source=deterministic
+[Planner]   sq1 label=primary search="site:news.ycombinator.com "ask hn"" sources=[reddit,hackernews]
+[Planner]   sq2 label=reaction search="site:news.ycombinator.com "ask hn" reaction update" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Anews.ycombinator.com+%22Ask+HN%22+tool&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:news.ycombinator.com "Ask HN" tool' into 1 queries: ['site:news.ycombinator.com "ask hn" tool']
+[Reddit] Global search 1/2: 'site:news.ycombinator.com "ask hn" tool' (sort=relevance)
+[Reddit]   -> 0 results for 'site:news.ycombinator.com "ask hn" tool'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Anews.ycombinator.com+%22Ask+HN%22+tool&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:news.ycombinator.com "Ask HN" tool' into 1 queries: ['site:news.ycombinator.com "ask hn" tool']
+[Reddit] Global search 1/2: 'site:news.ycombinator.com "ask hn" tool' (sort=relevance)
+[Reddit]   -> 0 results for 'site:news.ycombinator.com "ask hn" tool'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (1.8s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-09/0052-site-news-ycombinator-com-ask-hn-tool.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
