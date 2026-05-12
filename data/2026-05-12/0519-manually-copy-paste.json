@@ -1,0 +1,603 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"manually copy paste\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "why am i still manually copy pasting logs into a browser?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "A way to do multilingual WP without the manual copy-paste"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/canaihelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/canaihelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Manual copy-paste work is killing my time so can this be automated?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/mondaycrmexperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/mondaycrmexperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fashion_design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/fashion_design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-12T05:19:27.705486+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "why am i still manually copy pasting logs into a browser?\nhonestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extension directly in vscode and its annoying how much time i wasted doing it the old way. being able to ju",
+        "container": "BlackboxAI_",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 18,
+        "freshness": 73,
+        "item_id": "R14",
+        "local_rank_score": 0.35000000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.54,
+        "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "why am i still manually copy pasting logs into a browser?",
+        "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "A way to do multilingual WP without the manual copy-paste\nI\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from Lara Translate that handles the heavy lifting. The nice part is that it doesn't break the blocks or",
+        "container": "Wordpress",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2,
+          "upvote_ratio": 0.75
+        },
+        "engagement_score": 13,
+        "freshness": 70,
+        "item_id": "R16",
+        "local_rank_score": 0.3375,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 0.63,
+        "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "A way to do multilingual WP without the manual copy-paste",
+        "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80\nWe\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no typos.\n\n Dual-Perspective View:\n\n   1. The Roster: Who is working and when.\n\n   2. The Coverage Map",
+        "container": "MondayCRMExperts",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 41,
+        "item_id": "R23",
+        "local_rank_score": 0.3105,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-13",
+        "relevance_hint": 0.54,
+        "snippet": "We\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80",
+        "url": "https://www.reddit.com/r/MondayCRMExperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Manual copy-paste work is killing my time so can this be automated?\nEvery day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+        "container": "CanAIHelp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 4,
+        "freshness": 41,
+        "item_id": "R19",
+        "local_rank_score": 0.256,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-13",
+        "relevance_hint": 0.54,
+        "snippet": "Every day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Manual copy-paste work is killing my time so can this be automated?",
+        "url": "https://www.reddit.com/r/CanAIHelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?\nSomeone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is very limited, and I'm just trying to get a better understanding of the common problems and workflows",
+        "container": "Fashion_Design",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 40,
+        "item_id": "R24",
+        "local_rank_score": 0.24950000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-12",
+        "relevance_hint": 0.54,
+        "snippet": "Someone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is v",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?",
+        "url": "https://www.reddit.com/r/Fashion_Design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"manually copy paste\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"manually copy paste\"?",
+        "search_query": "\"manually copy paste\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-12",
+  "range_to": "2026-05-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a",
+      "cluster_id": "cluster-1",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 46.0,
+      "item_id": "R14",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R14",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.700000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "why am i still manually copy pasting logs into a browser?\nhonestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extension directly in vscode and its annoying how much time i wasted doing it the old way. being able to ju",
+          "container": "BlackboxAI_",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 18,
+          "freshness": 73,
+          "item_id": "R14",
+          "local_rank_score": 0.35000000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.54,
+          "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "why am i still manually copy pasting logs into a browser?",
+          "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "why am i still manually copy pasting logs into a browser?",
+      "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual",
+      "cluster_id": "cluster-2",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 26.0,
+      "item_id": "R16",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R16",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.099999999999994,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "A way to do multilingual WP without the manual copy-paste\nI\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from Lara Translate that handles the heavy lifting. The nice part is that it doesn't break the blocks or",
+          "container": "Wordpress",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2,
+            "upvote_ratio": 0.75
+          },
+          "engagement_score": 13,
+          "freshness": 70,
+          "item_id": "R16",
+          "local_rank_score": 0.3375,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 0.63,
+          "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "A way to do multilingual WP without the manual copy-paste",
+          "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "A way to do multilingual WP without the manual copy-paste",
+      "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/canaihelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can",
+      "cluster_id": "cluster-3",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 8.0,
+      "item_id": "R19",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "Every day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Manual copy-paste work is killing my time so can this be automated?\nEvery day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+          "container": "CanAIHelp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 4,
+          "freshness": 41,
+          "item_id": "R19",
+          "local_rank_score": 0.256,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-13",
+          "relevance_hint": 0.54,
+          "snippet": "Every day I copy data from emails into a spreadsheet.\n\nIt\u2019s repetitive and honestly feels stupid to do manually.\n\nAny simple tools or AI workflows that could handle this?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Manual copy-paste work is killing my time so can this be automated?",
+          "url": "https://www.reddit.com/r/CanAIHelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Manual copy-paste work is killing my time so can this be automated?",
+      "url": "https://www.reddit.com/r/CanAIHelp/comments/1sk79o7/manual_copypaste_work_is_killing_my_time_so_can/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/mondaycrmexperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R23",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R23",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 11.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "We\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80\nWe\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no typos.\n\n Dual-Perspective View:\n\n   1. The Roster: Who is working and when.\n\n   2. The Coverage Map",
+          "container": "MondayCRMExperts",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 41,
+          "item_id": "R23",
+          "local_rank_score": 0.3105,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-13",
+          "relevance_hint": 0.54,
+          "snippet": "We\u2019ve all been there: It\u2019s the end of the month, and you\u2019re stuck dragging and dropping the same shifts into a calendar for the 100th time. I just built a system for a client that nukes that manual work and adds a \"fail-safe\" for understaffed shifts.\n\nThe Workflow:\n\n The Replicator: On a set date each month, the system grabs a Master Template and clones it for the next 30 days. No manual entry, no",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80",
+          "url": "https://www.reddit.com/r/MondayCRMExperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Stop Manually Copy-Pasting Your Rosters: How I Automated Monthly Scheduling & Coverage Alerts\ud83d\ude80",
+      "url": "https://www.reddit.com/r/MondayCRMExperts/comments/1skcem5/stop_manually_copypasting_your_rosters_how_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/fashion_design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs",
+      "cluster_id": "cluster-5",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "R24",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R24",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 5.099999999999998,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Someone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is v",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?\nSomeone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is very limited, and I'm just trying to get a better understanding of the common problems and workflows",
+          "container": "Fashion_Design",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 40,
+          "item_id": "R24",
+          "local_rank_score": 0.24950000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-12",
+          "relevance_hint": 0.54,
+          "snippet": "Someone close to me works as a product quality engineer at a major scandinavian fashion brand, and I've noticed she often seems exhausted or complains about the PLM software they use being messy. One thing I've observed is that she has to manually paste data from one table on one browser tab to another table on another tab, all in the same software.\n\nMy knowledge about these types of software is v",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?",
+          "url": "https://www.reddit.com/r/Fashion_Design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is manually copy-pasting between PLM software tabs just a fact of life for product quality engineers in fashion?",
+      "url": "https://www.reddit.com/r/Fashion_Design/comments/1sjne9k/is_manually_copypasting_between_plm_software_tabs/"
+    }
+  ],
+  "topic": "\"manually copy paste\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
