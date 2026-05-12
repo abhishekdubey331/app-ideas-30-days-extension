@@ -1,0 +1,171 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "accountants \"manually\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/frugal_ind/comments/1so94ma/i_tracked_each_and_every_rupee_spent_over_the"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/frugal_ind/comments/1so94ma/i_tracked_each_and_every_rupee_spent_over_the"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I tracked each and every rupee spent over the last one year!!"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-12T09:05:45.707911+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I tracked each and every rupee spent over the last one year!!\nI have tracked each and every single rupee spent in last one year. Initially felt like a hassle and a time taking activity but now feels natural and hardly takes 2 minutes to manually fill and categorize my transactions. I now feel more in control and aware of where my money is going and how to do planning. \n\nSome might think it's too much but i feel good knowing about my income and expenditures. Pls suggest what do you think about this and is there anyone else who does the same?",
+        "container": "Frugal_Ind",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 382,
+          "score": 806,
+          "upvote_ratio": 0.96
+        },
+        "engagement_score": 69,
+        "freshness": 49,
+        "item_id": "R8",
+        "local_rank_score": 0.2955,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-17",
+        "relevance_hint": 0.09,
+        "snippet": "I have tracked each and every single rupee spent in last one year. Initially felt like a hassle and a time taking activity but now feels natural and hardly takes 2 minutes to manually fill and categorize my transactions. I now feel more in control and aware of where my money is going and how to do planning. \n\nSome might think it's too much but i feel good knowing about my income and expenditures.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I tracked each and every rupee spent over the last one year!!",
+        "url": "https://www.reddit.com/r/Frugal_Ind/comments/1so94ma/i_tracked_each_and_every_rupee_spent_over_the/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "accountants \"manually\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to accountants \"manually\"?",
+        "search_query": "accountants \"manually\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-12",
+  "range_to": "2026-05-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/frugal_ind/comments/1so94ma/i_tracked_each_and_every_rupee_spent_over_the",
+      "cluster_id": "cluster-1",
+      "engagement": 69,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 2.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I have tracked each and every single rupee spent in last one year. Initially felt like a hassle and a time taking activity but now feels natural and hardly takes 2 minutes to manually fill and categorize my transactions. I now feel more in control and aware of where my money is going and how to do planning. \n\nSome might think it's too much but i feel good knowing about my income and expenditures.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I tracked each and every rupee spent over the last one year!!\nI have tracked each and every single rupee spent in last one year. Initially felt like a hassle and a time taking activity but now feels natural and hardly takes 2 minutes to manually fill and categorize my transactions. I now feel more in control and aware of where my money is going and how to do planning. \n\nSome might think it's too much but i feel good knowing about my income and expenditures. Pls suggest what do you think about this and is there anyone else who does the same?",
+          "container": "Frugal_Ind",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 382,
+            "score": 806,
+            "upvote_ratio": 0.96
+          },
+          "engagement_score": 69,
+          "freshness": 49,
+          "item_id": "R8",
+          "local_rank_score": 0.2955,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-17",
+          "relevance_hint": 0.09,
+          "snippet": "I have tracked each and every single rupee spent in last one year. Initially felt like a hassle and a time taking activity but now feels natural and hardly takes 2 minutes to manually fill and categorize my transactions. I now feel more in control and aware of where my money is going and how to do planning. \n\nSome might think it's too much but i feel good knowing about my income and expenditures.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I tracked each and every rupee spent over the last one year!!",
+          "url": "https://www.reddit.com/r/Frugal_Ind/comments/1so94ma/i_tracked_each_and_every_rupee_spent_over_the/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I tracked each and every rupee spent over the last one year!!",
+      "url": "https://www.reddit.com/r/Frugal_Ind/comments/1so94ma/i_tracked_each_and_every_rupee_spent_over_the/"
+    }
+  ],
+  "topic": "accountants \"manually\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
