@@ -1,0 +1,496 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there a tool that\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "what does your SOC2 change management evidence actually look like for a production bug fix"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "[CHAT] Need help adding 10th lines on pattern"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-12T00:51:22.008114+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n",
+        "container": "ediscovery",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 23,
+          "score": 6,
+          "upvote_ratio": 0.65
+        },
+        "engagement_score": 24,
+        "freshness": 83,
+        "item_id": "R6",
+        "local_rank_score": 0.381,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-04",
+        "relevance_hint": 0.87,
+        "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+        "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?\ngoing through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are you handling this in practice? are teams writing this up manually? is there tooling that generates it",
+        "container": "cybersecurity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 7,
+          "upvote_ratio": 0.9
+        },
+        "engagement_score": 16,
+        "freshness": 76,
+        "item_id": "R25",
+        "local_rank_score": 0.3425,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.09,
+        "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+        "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "what does your SOC2 change management evidence actually look like for a production bug fix\ngoing through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we didn't have something that said here is the crash that happened in production, here is the test that",
+        "container": "devsecops",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 4,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 19,
+        "freshness": 71,
+        "item_id": "R15",
+        "local_rank_score": 0.333,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-28",
+        "relevance_hint": 0.09,
+        "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+        "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "[CHAT] Need help adding 10th lines on pattern\nHi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing one. The pattern is in PDF format and I read it from a tablet if it helps! \n\nSorry if I didn't expla",
+        "container": "CrossStitch",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 6,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 18,
+        "freshness": 43,
+        "item_id": "R22",
+        "local_rank_score": 0.275,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-14",
+        "relevance_hint": 0.22,
+        "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "[CHAT] Need help adding 10th lines on pattern",
+        "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there a tool that\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there a tool that\", especially about \"is there that\"?",
+        "search_query": "\"is there that\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-12",
+  "range_to": "2026-05-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize",
+      "cluster_id": "cluster-1",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.700000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n",
+          "container": "ediscovery",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 23,
+            "score": 6,
+            "upvote_ratio": 0.65
+          },
+          "engagement_score": 24,
+          "freshness": 83,
+          "item_id": "R6",
+          "local_rank_score": 0.381,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-04",
+          "relevance_hint": 0.87,
+          "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+          "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+      "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence",
+      "cluster_id": "cluster-2",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.0,
+      "item_id": "R15",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R15",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.899999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "what does your SOC2 change management evidence actually look like for a production bug fix\ngoing through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we didn't have something that said here is the crash that happened in production, here is the test that",
+          "container": "devsecops",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 4,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 19,
+          "freshness": 71,
+          "item_id": "R15",
+          "local_rank_score": 0.333,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-28",
+          "relevance_hint": 0.09,
+          "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+          "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+      "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern",
+      "cluster_id": "cluster-3",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R22",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R22",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 5.699999999999996,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "[CHAT] Need help adding 10th lines on pattern\nHi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing one. The pattern is in PDF format and I read it from a tablet if it helps! \n\nSorry if I didn't expla",
+          "container": "CrossStitch",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 6,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 18,
+          "freshness": 43,
+          "item_id": "R22",
+          "local_rank_score": 0.275,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-14",
+          "relevance_hint": 0.22,
+          "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "[CHAT] Need help adding 10th lines on pattern",
+          "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "[CHAT] Need help adding 10th lines on pattern",
+      "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look",
+      "cluster_id": "cluster-4",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "R25",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R25",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?\ngoing through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are you handling this in practice? are teams writing this up manually? is there tooling that generates it",
+          "container": "cybersecurity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 7,
+            "upvote_ratio": 0.9
+          },
+          "engagement_score": 16,
+          "freshness": 76,
+          "item_id": "R25",
+          "local_rank_score": 0.3425,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.09,
+          "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/"
+    }
+  ],
+  "topic": "\"is there a tool that\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
