@@ -1,0 +1,658 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there a tool that\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "[CHAT] Need help adding 10th lines on pattern"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "what does your SOC2 change management evidence actually look like for a production bug fix"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-13T09:09:43.528628+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n\nThat tool is basically the client\u2019s lawyer and EDRM team. I feel like the OP and this guy below are the same person lol No. Flat no.",
+        "container": "ediscovery",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 23,
+          "score": 7,
+          "upvote_ratio": 0.68
+        },
+        "engagement_score": 60,
+        "freshness": 82,
+        "item_id": "R5",
+        "local_rank_score": 0.41450000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "That tool is basically the client\u2019s lawyer and EDRM team. ",
+            "I feel like the OP and this guy below are the same person lol",
+            "Short answer: there isn\u2019t really a single tool that does all of that well for non-technical users.",
+            "Our firm uses Epiq for this. We started with Epiq Discover + Relativity, but switched about a year ago to using only Epiq Discover + Epiq AI.",
+            "Visio or ppt with embedded files \n\nYou can probably even embed files into a pdf or word doc ",
+            "Yes, my company www.delphorialegal.com does you one better!",
+            "Clients always think their files are organized until they start sending screenshots named final\\_v2\\_final\\_real.",
+            "It's been a minute but i think something like Relativity's Fact Finder would work. ",
+            "I have no experience trying this, but this is what AI is good at -- not creating, not \"thinking,\" but really good at sifting, sorting, putting in a hi..."
+          ],
+          "top_comments": [
+            {
+              "author": "mnpc",
+              "date": "2026-05-04",
+              "excerpt": "That tool is basically the client\u2019s lawyer and EDRM team. ",
+              "score": 25,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojyeon0/"
+            },
+            {
+              "author": "tooyoungtobesotired",
+              "date": "2026-05-04",
+              "excerpt": "I feel like the OP and this guy below are the same person lol",
+              "score": 21,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojypqxe/"
+            },
+            {
+              "author": "DaarthSpawn",
+              "date": "2026-05-04",
+              "excerpt": "No. Flat no. ",
+              "score": 8,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojy8y59/"
+            },
+            {
+              "author": "SweetAnxious2612",
+              "date": "2026-05-05",
+              "excerpt": "Short answer: there isn\u2019t really a single tool that does all of that well for non-technical users. Most ediscovery platforms (Relativity, Nuix, etc.) can handle timelines, but they\u2019re not client-friendly at all..\n\nwhat usually works better in practice is a simple workflow:  \n\u2022 Export emails (PST/MSG",
+              "score": 5,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok0s71k/"
+            },
+            {
+              "author": "rem10A",
+              "date": "2026-05-05",
+              "excerpt": "Our firm uses Epiq for this. We started with Epiq Discover + Relativity, but switched about a year ago to using only Epiq Discover + Epiq AI. Can use natural language to chat with the database. Generates timelines, summaries, fact sheets, etc. all with links to source docs.",
+              "score": 3,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok1sx6d/"
+            },
+            {
+              "author": "Historical_Virus5096",
+              "date": "2026-05-06",
+              "excerpt": "Yes, my company www.delphorialegal.com does you one better! We have a dashboard that plugs into collections and follows them through production; enabling timeline views, identification of relevant materials, location of redaction/privacy/privilege information and even contract reviewer quality! ",
+              "score": 2,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok9atg2/"
+            },
+            {
+              "author": "SewCarrieous",
+              "date": "2026-05-05",
+              "excerpt": "Visio or ppt with embedded files \n\nYou can probably even embed files into a pdf or word doc ",
+              "score": 1,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok1yni6/"
+            },
+            {
+              "author": "Sure-Blacksmith-8011",
+              "date": "2026-05-08",
+              "excerpt": "Clients always think their files are organized until they start sending screenshots named final\\_v2\\_final\\_real.pdf lol. Keeping records centralized honestly matters more than fancy features sometimes. Saw someone mention Quicken Lifehub for organizing important documents and it seemed like a decen",
+              "score": 1,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/okmrzs1/"
+            },
+            {
+              "author": "windymoto313",
+              "date": "2026-05-05",
+              "excerpt": "It's been a minute but i think something like Relativity's Fact Finder would work. ",
+              "score": 1,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok0e5u6/"
+            },
+            {
+              "author": "ChollyWheels",
+              "date": "2026-05-05",
+              "excerpt": "I have no experience trying this, but this is what AI is good at -- not creating, not \"thinking,\" but really good at sifting, sorting, putting in a hierarchy.\n\nYes, I know: hallucinations are a thing.   But in theory you could upload to Google NotebookLM (for example) a collection of any combination",
+              "score": 0,
+              "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojzbno8/"
+            }
+          ]
+        },
+        "published_at": "2026-05-04",
+        "relevance_hint": 0.87,
+        "snippet": "That tool is basically the client\u2019s lawyer and EDRM team. I feel like the OP and this guy below are the same person lol No. Flat no.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+        "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?\ngoing through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are you handling this in practice? are teams writing this up manually? is there tooling that generates it",
+        "container": "cybersecurity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 7,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 32,
+        "freshness": 73,
+        "item_id": "R26",
+        "local_rank_score": 0.351,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.09,
+        "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+        "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "what does your SOC2 change management evidence actually look like for a production bug fix\ngoing through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we didn't have something that said here is the crash that happened in production, here is the test that",
+        "container": "devsecops",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 4,
+          "upvote_ratio": 0.84
+        },
+        "engagement_score": 35,
+        "freshness": 70,
+        "item_id": "R16",
+        "local_rank_score": 0.3465,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-28",
+        "relevance_hint": 0.09,
+        "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+        "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "[CHAT] Need help adding 10th lines on pattern\nHi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing one. The pattern is in PDF format and I read it from a tablet if it helps! \n\nSorry if I didn't expla",
+        "container": "CrossStitch",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 6,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 35,
+        "freshness": 41,
+        "item_id": "R24",
+        "local_rank_score": 0.287,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-14",
+        "relevance_hint": 0.22,
+        "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "[CHAT] Need help adding 10th lines on pattern",
+        "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there a tool that\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there a tool that\", especially about \"is there that\"?",
+        "search_query": "\"is there that\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-13",
+  "range_to": "2026-05-13",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize",
+      "cluster_id": "cluster-1",
+      "engagement": 60,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "That tool is basically the client\u2019s lawyer and EDRM team. I feel like the OP and this guy below are the same person lol No. Flat no.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n\nThat tool is basically the client\u2019s lawyer and EDRM team. I feel like the OP and this guy below are the same person lol No. Flat no.",
+          "container": "ediscovery",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 23,
+            "score": 7,
+            "upvote_ratio": 0.68
+          },
+          "engagement_score": 60,
+          "freshness": 82,
+          "item_id": "R5",
+          "local_rank_score": 0.41450000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "That tool is basically the client\u2019s lawyer and EDRM team. ",
+              "I feel like the OP and this guy below are the same person lol",
+              "Short answer: there isn\u2019t really a single tool that does all of that well for non-technical users.",
+              "Our firm uses Epiq for this. We started with Epiq Discover + Relativity, but switched about a year ago to using only Epiq Discover + Epiq AI.",
+              "Visio or ppt with embedded files \n\nYou can probably even embed files into a pdf or word doc ",
+              "Yes, my company www.delphorialegal.com does you one better!",
+              "Clients always think their files are organized until they start sending screenshots named final\\_v2\\_final\\_real.",
+              "It's been a minute but i think something like Relativity's Fact Finder would work. ",
+              "I have no experience trying this, but this is what AI is good at -- not creating, not \"thinking,\" but really good at sifting, sorting, putting in a hi..."
+            ],
+            "top_comments": [
+              {
+                "author": "mnpc",
+                "date": "2026-05-04",
+                "excerpt": "That tool is basically the client\u2019s lawyer and EDRM team. ",
+                "score": 25,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojyeon0/"
+              },
+              {
+                "author": "tooyoungtobesotired",
+                "date": "2026-05-04",
+                "excerpt": "I feel like the OP and this guy below are the same person lol",
+                "score": 21,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojypqxe/"
+              },
+              {
+                "author": "DaarthSpawn",
+                "date": "2026-05-04",
+                "excerpt": "No. Flat no. ",
+                "score": 8,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojy8y59/"
+              },
+              {
+                "author": "SweetAnxious2612",
+                "date": "2026-05-05",
+                "excerpt": "Short answer: there isn\u2019t really a single tool that does all of that well for non-technical users. Most ediscovery platforms (Relativity, Nuix, etc.) can handle timelines, but they\u2019re not client-friendly at all..\n\nwhat usually works better in practice is a simple workflow:  \n\u2022 Export emails (PST/MSG",
+                "score": 5,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok0s71k/"
+              },
+              {
+                "author": "rem10A",
+                "date": "2026-05-05",
+                "excerpt": "Our firm uses Epiq for this. We started with Epiq Discover + Relativity, but switched about a year ago to using only Epiq Discover + Epiq AI. Can use natural language to chat with the database. Generates timelines, summaries, fact sheets, etc. all with links to source docs.",
+                "score": 3,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok1sx6d/"
+              },
+              {
+                "author": "Historical_Virus5096",
+                "date": "2026-05-06",
+                "excerpt": "Yes, my company www.delphorialegal.com does you one better! We have a dashboard that plugs into collections and follows them through production; enabling timeline views, identification of relevant materials, location of redaction/privacy/privilege information and even contract reviewer quality! ",
+                "score": 2,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok9atg2/"
+              },
+              {
+                "author": "SewCarrieous",
+                "date": "2026-05-05",
+                "excerpt": "Visio or ppt with embedded files \n\nYou can probably even embed files into a pdf or word doc ",
+                "score": 1,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok1yni6/"
+              },
+              {
+                "author": "Sure-Blacksmith-8011",
+                "date": "2026-05-08",
+                "excerpt": "Clients always think their files are organized until they start sending screenshots named final\\_v2\\_final\\_real.pdf lol. Keeping records centralized honestly matters more than fancy features sometimes. Saw someone mention Quicken Lifehub for organizing important documents and it seemed like a decen",
+                "score": 1,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/okmrzs1/"
+              },
+              {
+                "author": "windymoto313",
+                "date": "2026-05-05",
+                "excerpt": "It's been a minute but i think something like Relativity's Fact Finder would work. ",
+                "score": 1,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ok0e5u6/"
+              },
+              {
+                "author": "ChollyWheels",
+                "date": "2026-05-05",
+                "excerpt": "I have no experience trying this, but this is what AI is good at -- not creating, not \"thinking,\" but really good at sifting, sorting, putting in a hierarchy.\n\nYes, I know: hallucinations are a thing.   But in theory you could upload to Google NotebookLM (for example) a collection of any combination",
+                "score": 0,
+                "url": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/ojzbno8/"
+              }
+            ]
+          },
+          "published_at": "2026-05-04",
+          "relevance_hint": 0.87,
+          "snippet": "That tool is basically the client\u2019s lawyer and EDRM team. I feel like the OP and this guy below are the same person lol No. Flat no.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+          "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+      "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/crossstitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern",
+      "cluster_id": "cluster-2",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R24",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R24",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 5.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "[CHAT] Need help adding 10th lines on pattern\nHi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing one. The pattern is in PDF format and I read it from a tablet if it helps! \n\nSorry if I didn't expla",
+          "container": "CrossStitch",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 6,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 35,
+          "freshness": 41,
+          "item_id": "R24",
+          "local_rank_score": 0.287,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-14",
+          "relevance_hint": 0.22,
+          "snippet": "Hi! I've purchased a pattern which does not mark every 10th line in bold like I was used to in other patterns. It might sound silly but I'm having way more trouble than usual following the pattern and catching mistakes, especially since it's my first sampler. Is there a tool that might help me add it in? I usually use stitchfiddle to make my own patterns but I don't know how to add in an existing",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "[CHAT] Need help adding 10th lines on pattern",
+          "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "[CHAT] Need help adding 10th lines on pattern",
+      "url": "https://www.reddit.com/r/CrossStitch/comments/1slkvwg/chat_need_help_adding_10th_lines_on_pattern/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence",
+      "cluster_id": "cluster-3",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R16",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R16",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.700000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "what does your SOC2 change management evidence actually look like for a production bug fix\ngoing through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we didn't have something that said here is the crash that happened in production, here is the test that",
+          "container": "devsecops",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 4,
+            "upvote_ratio": 0.84
+          },
+          "engagement_score": 35,
+          "freshness": 70,
+          "item_id": "R16",
+          "local_rank_score": 0.3465,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-28",
+          "relevance_hint": 0.09,
+          "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+          "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+      "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look",
+      "cluster_id": "cluster-4",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R26",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R26",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?\ngoing through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are you handling this in practice? are teams writing this up manually? is there tooling that generates it",
+          "container": "cybersecurity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 7,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 32,
+          "freshness": 73,
+          "item_id": "R26",
+          "local_rank_score": 0.351,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.09,
+          "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/"
+    }
+  ],
+  "topic": "\"is there a tool that\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
