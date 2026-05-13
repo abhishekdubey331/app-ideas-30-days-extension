@@ -1,0 +1,603 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "local-first productivity",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/homestead/comments/1sv00fu/i_track_hay_prices_across_55_usda_markets_every"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/homestead/comments/1sv00fu/i_track_hay_prices_across_55_usda_markets_every"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I track hay prices across 55 USDA markets every week. Here's what the data says is coming this summer."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/miata/comments/1snb5ll/its_a_miata_whats_the_worst_that_could_happen"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/miata/comments/1snb5ll/its_a_miata_whats_the_worst_that_could_happen"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "It\u2019s a Miata, what\u2019s the worst that could happen?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/asktheworld/comments/1szghvu/whats_a_silly_and_inconsequential_news_story_from"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/asktheworld/comments/1szghvu/whats_a_silly_and_inconsequential_news_story_from"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What's a silly and inconsequential news story from your area that's been gripping the nation recently?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/musicals/comments/1t8xi6s/just_saw_a_local_production_of_hadestown_for_the"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/musicals/comments/1t8xi6s/just_saw_a_local_production_of_hadestown_for_the"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Just saw a local production of hadestown for the first time and this is all I thought about"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/webdev/comments/1szq1ik/what_do_you_check_first_when_a_local_app_breaks"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/webdev/comments/1szq1ik/what_do_you_check_first_when_a_local_app_breaks"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What do you check first when a local app breaks in production?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-13T05:23:37.608794+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Just saw a local production of hadestown for the first time and this is all I thought about\nAlso first time seeing this musical and hearing most the songs",
+        "container": "musicals",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 34,
+          "score": 879,
+          "upvote_ratio": 0.98
+        },
+        "engagement_score": 47,
+        "freshness": 94,
+        "item_id": "R21",
+        "local_rank_score": 0.4315,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-10",
+        "relevance_hint": 0.54,
+        "snippet": "Also first time seeing this musical and hearing most the songs",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Just saw a local production of hadestown for the first time and this is all I thought about",
+        "url": "https://www.reddit.com/r/musicals/comments/1t8xi6s/just_saw_a_local_production_of_hadestown_for_the/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What's a silly and inconsequential news story from your area that's been gripping the nation recently?\nHere in Belgium, a marketing disaster took place that caused people to grab their metaphorical pitchforks in what was basically a repeat of the New Coke fiasco. New Choc you could even say (which no one does).\n\nAt the center of our drama is Chocovit, a beloved local brand mostly known for selling chocolate milk beside other flavored dairy products. At some point last year they announced that they were retiring their classic, iconic glass bottles for a new plastic design, supposedly to make their",
+        "container": "AskTheWorld",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 285,
+          "score": 567,
+          "upvote_ratio": 0.99
+        },
+        "engagement_score": 55,
+        "freshness": 73,
+        "item_id": "R22",
+        "local_rank_score": 0.34149999999999997,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.14,
+        "snippet": "Here in Belgium, a marketing disaster took place that caused people to grab their metaphorical pitchforks in what was basically a repeat of the New Coke fiasco. New Choc you could even say (which no one does).\n\nAt the center of our drama is Chocovit, a beloved local brand mostly known for selling chocolate milk beside other flavored dairy products. At some point last year they announced that they",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What's a silly and inconsequential news story from your area that's been gripping the nation recently?",
+        "url": "https://www.reddit.com/r/AskTheWorld/comments/1szghvu/whats_a_silly_and_inconsequential_news_story_from/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What do you check first when a local app breaks in production?\nI'm trying to get better at debugging deployment issues instead of just changing random stuff and redeploying (I'm still a newbie).\n\nThe issues I had with my recent first deployment were basic stuff like env, db url issues, build/start confusion, and hardcoded stuff that shouldn't have been hardcoded. BUT it took me a while to figure out. I thought if it works on my laptop it'll just work when I put it online. I was wrong lol.\n\nI also had stuff visually break and just... work differently after d",
+        "container": "webdev",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 16,
+          "score": 4,
+          "upvote_ratio": 0.64
+        },
+        "engagement_score": 1,
+        "freshness": 73,
+        "item_id": "R25",
+        "local_rank_score": 0.333,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.54,
+        "snippet": "I'm trying to get better at debugging deployment issues instead of just changing random stuff and redeploying (I'm still a newbie).\n\nThe issues I had with my recent first deployment were basic stuff like env, db url issues, build/start confusion, and hardcoded stuff that shouldn't have been hardcoded. BUT it took me a while to figure out. I thought if it works on my laptop it'll just work when I p",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What do you check first when a local app breaks in production?",
+        "url": "https://www.reddit.com/r/webdev/comments/1szq1ik/what_do_you_check_first_when_a_local_app_breaks/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I track hay prices across 55 USDA markets every week. Here's what the data says is coming this summer.\nbeen doing this since february. every monday i pull auction reports from 55+ markets and look for patterns. here's what i'm seeing.\n\nthe midwest is becoming everyone's backstop\n\nwestern production is getting squeezed from every direction. water allocations cut to 27 days in some california districts. arizona towns running out of water within 2 months. when the west can't produce, buyers come east.\n\nit's already showing up at auction\n\n\u2022 missouri supreme alfalfa: up $113/ton in one week last month",
+        "container": "homestead",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 163,
+          "score": 1017,
+          "upvote_ratio": 0.97
+        },
+        "engagement_score": 56,
+        "freshness": 64,
+        "item_id": "R17",
+        "local_rank_score": 0.32,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-25",
+        "relevance_hint": 0.06,
+        "snippet": "been doing this since february. every monday i pull auction reports from 55+ markets and look for patterns. here's what i'm seeing.\n\nthe midwest is becoming everyone's backstop\n\nwestern production is getting squeezed from every direction. water allocations cut to 27 days in some california districts. arizona towns running out of water within 2 months. when the west can't produce, buyers come east.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I track hay prices across 55 USDA markets every week. Here's what the data says is coming this summer.",
+        "url": "https://www.reddit.com/r/homestead/comments/1sv00fu/i_track_hay_prices_across_55_usda_markets_every/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "It\u2019s a Miata, what\u2019s the worst that could happen?\nTLDR: I bought a Miata that turned out to be a pile of crap and it took a year and tons of money to make it right. \n\nI present to you my 2005 lava orange MSM. I bought this car in February 2025 and it didn\u2019t truly see its first miles until the last week of January 2026. It all started with an innocent thought\u2026 it\u2019d be really nice to learn to drive a manual, which evolved to: it\u2019d be nice to figure out how to wrench on my own car too. \n\nAfter weeks of searching for NBs I made my first mistake and",
+        "container": "Miata",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 161,
+          "score": 1005,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 56,
+        "freshness": 45,
+        "item_id": "R18",
+        "local_rank_score": 0.2725,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-16",
+        "relevance_hint": 0.14,
+        "snippet": "TLDR: I bought a Miata that turned out to be a pile of crap and it took a year and tons of money to make it right. \n\nI present to you my 2005 lava orange MSM. I bought this car in February 2025 and it didn\u2019t truly see its first miles until the last week of January 2026. It all started with an innocent thought\u2026 it\u2019d be really nice to learn to drive a manual, which evolved to: it\u2019d be nice to figure",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "It\u2019s a Miata, what\u2019s the worst that could happen?",
+        "url": "https://www.reddit.com/r/Miata/comments/1snb5ll/its_a_miata_whats_the_worst_that_could_happen/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "local-first productivity",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to local-first productivity?",
+        "search_query": "local-first productivity",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-13",
+  "range_to": "2026-05-13",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/homestead/comments/1sv00fu/i_track_hay_prices_across_55_usda_markets_every",
+      "cluster_id": "cluster-1",
+      "engagement": 56,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R17",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R17",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.0,
+      "rrf_score": 0.0078125,
+      "snippet": "been doing this since february. every monday i pull auction reports from 55+ markets and look for patterns. here's what i'm seeing.\n\nthe midwest is becoming everyone's backstop\n\nwestern production is getting squeezed from every direction. water allocations cut to 27 days in some california districts. arizona towns running out of water within 2 months. when the west can't produce, buyers come east.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I track hay prices across 55 USDA markets every week. Here's what the data says is coming this summer.\nbeen doing this since february. every monday i pull auction reports from 55+ markets and look for patterns. here's what i'm seeing.\n\nthe midwest is becoming everyone's backstop\n\nwestern production is getting squeezed from every direction. water allocations cut to 27 days in some california districts. arizona towns running out of water within 2 months. when the west can't produce, buyers come east.\n\nit's already showing up at auction\n\n\u2022 missouri supreme alfalfa: up $113/ton in one week last month",
+          "container": "homestead",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 163,
+            "score": 1017,
+            "upvote_ratio": 0.97
+          },
+          "engagement_score": 56,
+          "freshness": 64,
+          "item_id": "R17",
+          "local_rank_score": 0.32,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-25",
+          "relevance_hint": 0.06,
+          "snippet": "been doing this since february. every monday i pull auction reports from 55+ markets and look for patterns. here's what i'm seeing.\n\nthe midwest is becoming everyone's backstop\n\nwestern production is getting squeezed from every direction. water allocations cut to 27 days in some california districts. arizona towns running out of water within 2 months. when the west can't produce, buyers come east.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I track hay prices across 55 USDA markets every week. Here's what the data says is coming this summer.",
+          "url": "https://www.reddit.com/r/homestead/comments/1sv00fu/i_track_hay_prices_across_55_usda_markets_every/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I track hay prices across 55 USDA markets every week. Here's what the data says is coming this summer.",
+      "url": "https://www.reddit.com/r/homestead/comments/1sv00fu/i_track_hay_prices_across_55_usda_markets_every/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/miata/comments/1snb5ll/its_a_miata_whats_the_worst_that_could_happen",
+      "cluster_id": "cluster-2",
+      "engagement": 56,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R18",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R18",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 1.1999999999999993,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "TLDR: I bought a Miata that turned out to be a pile of crap and it took a year and tons of money to make it right. \n\nI present to you my 2005 lava orange MSM. I bought this car in February 2025 and it didn\u2019t truly see its first miles until the last week of January 2026. It all started with an innocent thought\u2026 it\u2019d be really nice to learn to drive a manual, which evolved to: it\u2019d be nice to figure",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "It\u2019s a Miata, what\u2019s the worst that could happen?\nTLDR: I bought a Miata that turned out to be a pile of crap and it took a year and tons of money to make it right. \n\nI present to you my 2005 lava orange MSM. I bought this car in February 2025 and it didn\u2019t truly see its first miles until the last week of January 2026. It all started with an innocent thought\u2026 it\u2019d be really nice to learn to drive a manual, which evolved to: it\u2019d be nice to figure out how to wrench on my own car too. \n\nAfter weeks of searching for NBs I made my first mistake and",
+          "container": "Miata",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 161,
+            "score": 1005,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 56,
+          "freshness": 45,
+          "item_id": "R18",
+          "local_rank_score": 0.2725,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-16",
+          "relevance_hint": 0.14,
+          "snippet": "TLDR: I bought a Miata that turned out to be a pile of crap and it took a year and tons of money to make it right. \n\nI present to you my 2005 lava orange MSM. I bought this car in February 2025 and it didn\u2019t truly see its first miles until the last week of January 2026. It all started with an innocent thought\u2026 it\u2019d be really nice to learn to drive a manual, which evolved to: it\u2019d be nice to figure",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "It\u2019s a Miata, what\u2019s the worst that could happen?",
+          "url": "https://www.reddit.com/r/Miata/comments/1snb5ll/its_a_miata_whats_the_worst_that_could_happen/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "It\u2019s a Miata, what\u2019s the worst that could happen?",
+      "url": "https://www.reddit.com/r/Miata/comments/1snb5ll/its_a_miata_whats_the_worst_that_could_happen/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/asktheworld/comments/1szghvu/whats_a_silly_and_inconsequential_news_story_from",
+      "cluster_id": "cluster-3",
+      "engagement": 55,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R22",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R22",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Here in Belgium, a marketing disaster took place that caused people to grab their metaphorical pitchforks in what was basically a repeat of the New Coke fiasco. New Choc you could even say (which no one does).\n\nAt the center of our drama is Chocovit, a beloved local brand mostly known for selling chocolate milk beside other flavored dairy products. At some point last year they announced that they",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What's a silly and inconsequential news story from your area that's been gripping the nation recently?\nHere in Belgium, a marketing disaster took place that caused people to grab their metaphorical pitchforks in what was basically a repeat of the New Coke fiasco. New Choc you could even say (which no one does).\n\nAt the center of our drama is Chocovit, a beloved local brand mostly known for selling chocolate milk beside other flavored dairy products. At some point last year they announced that they were retiring their classic, iconic glass bottles for a new plastic design, supposedly to make their",
+          "container": "AskTheWorld",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 285,
+            "score": 567,
+            "upvote_ratio": 0.99
+          },
+          "engagement_score": 55,
+          "freshness": 73,
+          "item_id": "R22",
+          "local_rank_score": 0.34149999999999997,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.14,
+          "snippet": "Here in Belgium, a marketing disaster took place that caused people to grab their metaphorical pitchforks in what was basically a repeat of the New Coke fiasco. New Choc you could even say (which no one does).\n\nAt the center of our drama is Chocovit, a beloved local brand mostly known for selling chocolate milk beside other flavored dairy products. At some point last year they announced that they",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What's a silly and inconsequential news story from your area that's been gripping the nation recently?",
+          "url": "https://www.reddit.com/r/AskTheWorld/comments/1szghvu/whats_a_silly_and_inconsequential_news_story_from/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What's a silly and inconsequential news story from your area that's been gripping the nation recently?",
+      "url": "https://www.reddit.com/r/AskTheWorld/comments/1szghvu/whats_a_silly_and_inconsequential_news_story_from/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/musicals/comments/1t8xi6s/just_saw_a_local_production_of_hadestown_for_the",
+      "cluster_id": "cluster-4",
+      "engagement": 47,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 46.9,
+      "item_id": "R21",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R21",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Also first time seeing this musical and hearing most the songs",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Just saw a local production of hadestown for the first time and this is all I thought about\nAlso first time seeing this musical and hearing most the songs",
+          "container": "musicals",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 34,
+            "score": 879,
+            "upvote_ratio": 0.98
+          },
+          "engagement_score": 47,
+          "freshness": 94,
+          "item_id": "R21",
+          "local_rank_score": 0.4315,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-10",
+          "relevance_hint": 0.54,
+          "snippet": "Also first time seeing this musical and hearing most the songs",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Just saw a local production of hadestown for the first time and this is all I thought about",
+          "url": "https://www.reddit.com/r/musicals/comments/1t8xi6s/just_saw_a_local_production_of_hadestown_for_the/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Just saw a local production of hadestown for the first time and this is all I thought about",
+      "url": "https://www.reddit.com/r/musicals/comments/1t8xi6s/just_saw_a_local_production_of_hadestown_for_the/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/webdev/comments/1szq1ik/what_do_you_check_first_when_a_local_app_breaks",
+      "cluster_id": "cluster-5",
+      "engagement": 1,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 2.0,
+      "item_id": "R25",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R25",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I'm trying to get better at debugging deployment issues instead of just changing random stuff and redeploying (I'm still a newbie).\n\nThe issues I had with my recent first deployment were basic stuff like env, db url issues, build/start confusion, and hardcoded stuff that shouldn't have been hardcoded. BUT it took me a while to figure out. I thought if it works on my laptop it'll just work when I p",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What do you check first when a local app breaks in production?\nI'm trying to get better at debugging deployment issues instead of just changing random stuff and redeploying (I'm still a newbie).\n\nThe issues I had with my recent first deployment were basic stuff like env, db url issues, build/start confusion, and hardcoded stuff that shouldn't have been hardcoded. BUT it took me a while to figure out. I thought if it works on my laptop it'll just work when I put it online. I was wrong lol.\n\nI also had stuff visually break and just... work differently after d",
+          "container": "webdev",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 16,
+            "score": 4,
+            "upvote_ratio": 0.64
+          },
+          "engagement_score": 1,
+          "freshness": 73,
+          "item_id": "R25",
+          "local_rank_score": 0.333,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.54,
+          "snippet": "I'm trying to get better at debugging deployment issues instead of just changing random stuff and redeploying (I'm still a newbie).\n\nThe issues I had with my recent first deployment were basic stuff like env, db url issues, build/start confusion, and hardcoded stuff that shouldn't have been hardcoded. BUT it took me a while to figure out. I thought if it works on my laptop it'll just work when I p",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What do you check first when a local app breaks in production?",
+          "url": "https://www.reddit.com/r/webdev/comments/1szq1ik/what_do_you_check_first_when_a_local_app_breaks/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What do you check first when a local app breaks in production?",
+      "url": "https://www.reddit.com/r/webdev/comments/1szq1ik/what_do_you_check_first_when_a_local_app_breaks/"
+    }
+  ],
+  "topic": "local-first productivity",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
