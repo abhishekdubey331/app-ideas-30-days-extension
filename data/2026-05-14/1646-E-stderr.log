@@ -1,0 +1,99 @@
+Batch E sources=github,polymarket
+Started at 2026-05-14T16:46:06Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25872797029
+----
+
+===== Seed: "I wish there was an app" =====
+/last30days · researching: "I wish there was an app"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""i wish there app"" sources=[github]
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+✓ Research complete (0.9s) - Polymarket: 0 markets, Github: 0 results
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/1646-i-wish-there-was-an-app.json
+[OK] seed succeeded
+
+===== Seed: "why is there no" tool =====
+/last30days · researching: "why is there no" tool
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""why there no"" sources=[github]
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+✓ Research complete (0.2s) - Polymarket: 0 markets, Github: 0 results
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/1646-why-is-there-no-tool.json
+[OK] seed succeeded
+
+===== Seed: "is there a tool that" =====
+/last30days · researching: "is there a tool that"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""is there that"" sources=[github]
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+✓ Research complete (0.2s) - Polymarket: 0 markets, Github: 0 results
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/1646-is-there-a-tool-that.json
+[OK] seed succeeded
+
+===== Seed: "frustrated with" software =====
+/last30days · researching: "frustrated with" software
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""frustrated with" software" sources=[github]
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+[GitHub] No GitHub token available (set GITHUB_TOKEN or install gh CLI)
+✓ Research complete (0.2s) - Polymarket: 0 markets, Github: 0 results
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/1646-frustrated-with-software.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
