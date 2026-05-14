@@ -1,0 +1,443 @@
+Batch A sources=reddit,hackernews
+Started at 2026-05-14T05:22:32Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25843359352
+----
+
+===== Seed: site:reddit.com/r/Entrepreneur =====
+/last30days · researching: site:reddit.com/r/Entrepreneur
+⏳ [95mProcessing[0m Finding patterns...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs Entrepreneur
+[Competitors] Comparing: site:reddit.com vs r vs Entrepreneur
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] Entrepreneur: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="entrepreneur" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=Entrepreneur&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'Entrepreneur' into 1 queries: ['entrepreneur']
+[Reddit] Global search 1/2: 'entrepreneur' (sort=relevance)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'entrepreneur'
+[Reddit] Discovered subreddits: ['youngentrepreneur', 'Entrepreneur', 'interestingasfuck']
+[Reddit] Subreddit search: r/youngentrepreneur for 'entrepreneur'
+[Reddit] Subreddit search: r/Entrepreneur for 'entrepreneur'
+[Reddit] Subreddit search: r/interestingasfuck for 'entrepreneur'
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'pics', 'whatisit']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/pics for 'site:reddit.com'
+[Reddit] Subreddit search: r/whatisit for 'site:reddit.com'
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/Entrepreneur
+[Reddit]   -> 25 results from r/interestingasfuck
+[Reddit]   -> 25 results from r/youngentrepreneur
+[Reddit] After dedup: 97 unique posts
+[Reddit] Filtered 60 posts outside date range
+[Reddit] Final: 37 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 0 results from r/whatisit
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit]   -> 25 results from r/pics
+[Reddit] After dedup: 65 unique posts
+[Reddit] Filtered 29 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 4.3s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=Entrepreneur&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'Entrepreneur' into 1 queries: ['entrepreneur']
+[Reddit] Global search 1/2: 'entrepreneur' (sort=relevance)
+[Reddit]   -> 25 results for 'entrepreneur'
+[Reddit] Discovered subreddits: ['youngentrepreneur', 'Entrepreneur', 'interestingasfuck']
+[Reddit] Subreddit search: r/youngentrepreneur for 'entrepreneur'
+[Reddit] Subreddit search: r/Entrepreneur for 'entrepreneur'
+[Reddit] Subreddit search: r/interestingasfuck for 'entrepreneur'
+[Reddit]   -> 25 results from r/youngentrepreneur
+[Reddit]   -> 25 results from r/interestingasfuck
+[Reddit]   -> 25 results from r/Entrepreneur
+[Reddit] After dedup: 97 unique posts
+[Reddit] Filtered 60 posts outside date range
+[Reddit] Final: 37 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit] Enriched 5/5 posts in 5.6s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit]   -> 25 results from r/gaming
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Reddit] Enriched 5/5 posts in 6.2s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (11.1s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/0522-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/SmallBusiness =====
+/last30days · researching: site:reddit.com/r/SmallBusiness
+⏳ [95mProcessing[0m Scoring and ranking...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs SmallBusiness
+[Competitors] Comparing: site:reddit.com vs r vs SmallBusiness
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] SmallBusiness: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'pics', 'whatisit']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/pics for 'site:reddit.com'
+[Reddit] Subreddit search: r/whatisit for 'site:reddit.com'
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/pics
+[Reddit]   -> 0 results from r/whatisit
+[Reddit] After dedup: 65 unique posts
+[Reddit] Filtered 29 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="smallbusiness" sources=[reddit,hackernews]
+[Reddit] Enriched 5/5 posts in 0.0s
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=SmallBusiness&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'SmallBusiness' into 1 queries: ['smallbusiness']
+[Reddit] Global search 1/2: 'smallbusiness' (sort=relevance)
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit]   -> 25 results for 'smallbusiness'
+[Reddit] Discovered subreddits: ['smallbusiness', 'SmallBusinessOwners', 'boulder']
+[Reddit] Subreddit search: r/smallbusiness for 'smallbusiness'
+[Reddit] Subreddit search: r/SmallBusinessOwners for 'smallbusiness'
+[Reddit] Subreddit search: r/boulder for 'smallbusiness'
+[Reddit]   -> 2 results from r/SmallBusinessOwners
+[Reddit]   -> 2 results from r/boulder
+[Reddit]   -> 25 results from r/smallbusiness
+[Reddit] After dedup: 51 unique posts
+[Reddit] Filtered 27 posts outside date range
+[Reddit] Final: 24 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.3s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=SmallBusiness&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'SmallBusiness' into 1 queries: ['smallbusiness']
+[Reddit] Global search 1/2: 'smallbusiness' (sort=relevance)
+[Reddit]   -> 25 results for 'smallbusiness'
+[Reddit] Discovered subreddits: ['smallbusiness', 'SmallBusinessOwners', 'boulder']
+[Reddit] Subreddit search: r/smallbusiness for 'smallbusiness'
+[Reddit] Subreddit search: r/SmallBusinessOwners for 'smallbusiness'
+[Reddit] Subreddit search: r/boulder for 'smallbusiness'
+[Reddit]   -> 2 results from r/boulder
+[Reddit]   -> 25 results from r/smallbusiness
+[Reddit]   -> 2 results from r/SmallBusinessOwners
+[Reddit] After dedup: 51 unique posts
+[Reddit] Filtered 27 posts outside date range
+[Reddit] Final: 24 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (10.2s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/0522-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/Freelance =====
+/last30days · researching: site:reddit.com/r/Freelance
+⏳ [95mProcessing[0m Removing duplicates...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs Freelance
+[Competitors] Comparing: site:reddit.com vs r vs Freelance
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] Freelance: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="freelance" sources=[reddit,hackernews]
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=Freelance&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'Freelance' into 1 queries: ['freelance']
+[Reddit] Global search 1/2: 'freelance' (sort=relevance)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'pics', 'whatisit']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/pics for 'site:reddit.com'
+[Reddit] Subreddit search: r/whatisit for 'site:reddit.com'
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/pics
+[Reddit]   -> 0 results from r/whatisit
+[Reddit] After dedup: 65 unique posts
+[Reddit] Filtered 29 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit]   -> 25 results for 'freelance'
+[Reddit] Discovered subreddits: ['StrangePigeon', 'AskReddit', 'LegalAdviceUK']
+[Reddit] Subreddit search: r/StrangePigeon for 'freelance'
+[Reddit] Subreddit search: r/AskReddit for 'freelance'
+[Reddit] Subreddit search: r/LegalAdviceUK for 'freelance'
+[Reddit]   -> 2 results from r/StrangePigeon
+[Reddit]   -> 25 results from r/AskReddit
+[Reddit]   -> 25 results from r/LegalAdviceUK
+[Reddit] After dedup: 72 unique posts
+[Reddit] Filtered 38 posts outside date range
+[Reddit] Final: 34 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.4s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (10.6s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/0523-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/sysadmin =====
+/last30days · researching: site:reddit.com/r/sysadmin
+⏳ [95mProcessing[0m Scoring and ranking...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs sysadmin
+[Competitors] Comparing: site:reddit.com vs r vs sysadmin
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] sysadmin: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="sysadmin" sources=[reddit,hackernews]
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'pics', 'whatisit']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=sysadmin&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'sysadmin' into 1 queries: ['sysadmin']
+[Reddit] Subreddit search: r/pics for 'site:reddit.com'
+[Reddit] Global search 1/2: 'sysadmin' (sort=relevance)
+[Reddit] Subreddit search: r/whatisit for 'site:reddit.com'
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/pics
+[Reddit]   -> 0 results from r/whatisit
+[Reddit] After dedup: 65 unique posts
+[Reddit] Filtered 29 posts outside date range
+[Reddit] Final: 36 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['todayilearned', 'gaming', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/todayilearned for 'r'
+[Reddit] Subreddit search: r/gaming for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/gaming
+[Reddit]   -> 25 results from r/todayilearned
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit] After dedup: 95 unique posts
+[Reddit] Filtered 72 posts outside date range
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit]   -> 25 results for 'sysadmin'
+[Reddit] Discovered subreddits: ['sysadmin', 'ShittySysadmin', 'TrueOffMyChest']
+[Reddit] Subreddit search: r/sysadmin for 'sysadmin'
+[Reddit] Subreddit search: r/ShittySysadmin for 'sysadmin'
+[Reddit] Subreddit search: r/TrueOffMyChest for 'sysadmin'
+[Reddit]   -> 25 results from r/ShittySysadmin
+[Reddit]   -> 9 results from r/TrueOffMyChest
+[Reddit]   -> 25 results from r/sysadmin
+[Reddit] After dedup: 79 unique posts
+[Reddit] Filtered 54 posts outside date range
+[Reddit] Final: 25 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 6.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (10.1s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-14/0523-site-reddit-com.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
