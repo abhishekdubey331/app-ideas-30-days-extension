@@ -1,0 +1,570 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "github trending awesome issues",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://instagram.com/reel/dykr3xzixuj"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://instagram.com/reel/dykr3xzixuj"
+      ],
+      "score": 0.0,
+      "sources": [
+        "instagram"
+      ],
+      "title": "@github what\u2019s going on \ud83d\ude2d",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@devbysami/video/7634586346509782275"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@devbysami/video/7634586346509782275"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "GitHub is Dying. | #software#programming#ai",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@startuphakk/video/7634928935679167757"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://tiktok.com/@startuphakk/video/7634928935679167757"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://instagram.com/reel/dxwn-7biyf6"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://instagram.com/reel/dxwn-7biyf6"
+      ],
+      "score": 0.0,
+      "sources": [
+        "instagram"
+      ],
+      "title": "You think you\u2019ve used GitHub a lot\u2026 but have you really used it?\nComment \u201cRepo\u201d for the repository link.\n\nMost people just browse projects f",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-14T12:46:32.590046+00:00",
+  "items_by_source": {
+    "instagram": [
+      {
+        "author": "synsation_",
+        "body": "@github what\u2019s going on \ud83d\ude2d\nWhat the heck is going on with GitHub? Because over the last 90 days, reliability has tanked. 84% uptime and 94 incidents. April was the worst at 78%. And if you zoom out, it's 256 incidents in just one year. 48 incidents that are major. You see, this is a system that developers rely on. We used to not second guess, if you merge a pull request, it's done. But now Actions is breaking and in April the merge queue was actually producing bad commits, silently reverting code from previously merged PRs. Mitchell Hashimoto, the guy behind Terraform and Vagrant, kept a journal where every day when GitHub wasn't working for him, he put an X. And after 18 years of him using GitHub, he is done and he is taking Ghosty and leaving the platform. GitHub did come forward after April's outages and explained that agentic development and AI tools have caused a massive spike in commits, PRs, and repos, and they're struggling to keep up. Here's the thing is that GitHub built a near monopoly of where code lives, and now we're seeing what happens when a single point of failure actually fails. 99.9% availability is the industry baseline and typically higher, and GitHub is well below that right now. When prominent figures like Hashimoto say, \"I'm done\", how many people actually follow? And do they move to GitLab or any of the other alternatives that exist, or is there something new that's going to come forward that is better built for the agentic era and how things are changing with the current software development environment?",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 48,
+          "likes": 2267,
+          "views": 46529
+        },
+        "engagement_score": 100,
+        "freshness": 86,
+        "item_id": "IG1",
+        "local_rank_score": 0.43199999999999994,
+        "local_relevance": 0.18,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-10",
+        "relevance_hint": 0.44,
+        "snippet": "What the heck is going on with GitHub? Because over the last 90 days, reliability has tanked. 84% uptime and 94 incidents. April was the worst at 78%. And if you zoom out, it's 256 incidents in just one year. 48 incidents that are major. You see, this is a system that developers rely on. We used to not second guess, if you merge a pull request, it's done. But now Actions is breaking and in April the merge queue was actually producing bad commits, silently reverting code from previously merged PRs. Mitchell Hashimoto, the guy behind Terraform and Vagrant, kept a journal where every day when GitHub wasn't working for him, he put an X. And after 18 years...",
+        "source": "instagram",
+        "source_quality": 0.58,
+        "title": "@github what\u2019s going on \ud83d\ude2d",
+        "url": "https://www.instagram.com/reel/DYKR3xZIXUJ/",
+        "why_relevant": "Instagram: @github what\u2019s going on \ud83d\ude2d"
+      },
+      {
+        "author": "parth.builds",
+        "body": "You think you\u2019ve used GitHub a lot\u2026 but have you really used it?\nComment \u201cRepo\u201d for the repository link.\n\nMost people just browse projects for 5\u201310 minutes and move on.\n\u201cYou notice a bug, UI issue, or a missing feature\u2026 and just scroll away.\u201d\n\nThat\u2019s exactly where GitHub Issues comes in.\n\nInstead of ignoring it \u2192 drop an issue.\nThat\u2019s how real open source starts.\nAnd if you go one step further \u2192 you can fix it with a pull request.\n\nSmall observation \u2192 real impact \u2192 actual contribution. \n\n(coding, college life, hackathon, engineering, engineer life, student, projects, trending, parth narkar, parth builds, GitHub, claude, vercel, deployment)\nBahut time se GitHub use kar rahe ho? Lekin kabhi issues create kiye hai? Issues? GitHub ka kuch issue hai kya? Abe chup, aap ek kisi website par ho aur aapko kuch UI mein error aaya. Button theek se kaam nahi kiya, aapko laga ki ye feature is website mein hona chahiye and aise bahut sare bugs and improvements. To isi cheez ke liye we use GitHub issues. Just go to this repository, test the website for 5 to 10 minutes and kuch issue laga to create kar dena. Issues mein aao, create new issue add title, description, labels, click on create. Then you have successfully created your GitHub issue. Just come and repo for getting the repository link and share this reel with your friends and follow kar lena for knowing each and everything about coding. Bye-bye.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 19,
+          "likes": -1,
+          "views": 5426
+        },
+        "engagement_score": 37,
+        "freshness": 53,
+        "item_id": "IG2",
+        "local_rank_score": 0.33849999999999997,
+        "local_relevance": 0.26,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.99,
+        "snippet": "Bahut time se GitHub use kar rahe ho? Lekin kabhi issues create kiye hai? Issues? GitHub ka kuch issue hai kya? Abe chup, aap ek kisi website par ho aur aapko kuch UI mein error aaya. Button theek se kaam nahi kiya, aapko laga ki ye feature is website mein hona chahiye and aise bahut sare bugs and improvements. To isi cheez ke liye we use GitHub issues. Just go to this repository, test the website for 5 to 10 minutes and kuch issue laga to create kar dena. Issues mein aao, create new issue add title, description, labels, click on create. Then you have successfully created your GitHub issue. Just come and repo for getting the repository link and...",
+        "source": "instagram",
+        "source_quality": 0.58,
+        "title": "You think you\u2019ve used GitHub a lot\u2026 but have you really used it?\nComment \u201cRepo\u201d for the repository link.\n\nMost people just browse projects f",
+        "url": "https://www.instagram.com/reel/DXwn-7BIyF6/",
+        "why_relevant": "Instagram: You think you\u2019ve used GitHub a lot\u2026 but have you really used"
+      }
+    ],
+    "tiktok": [
+      {
+        "author": "devbysami",
+        "body": "GitHub is Dying. | #software#programming#ai\nGithub is dying. I know this sounds crazy, but hear me out. For the last couple of weeks they have been having these crazy outages. So much so that Mitchell Hashimoto, the creator of The Ghostly Terminal, has decided to move off of Github after 18 years. And it's not just him. Even people like me are considering moving their projects off of Github just because of their huge reliability issues. And although that is one of the main reasons, it's not the only reason why. It's also insane things happening. Gitlab randomly deciding to revert changes that you already merged on a PR. Now this doesn't sound like such a big deal for the average person, but for you as a developer, I don't think you can understand how fucking crazy that is. Imagine working on a feature for 5 days. You spend these huge resources to just get this feature done, and finally you have it. You merge the PR, your entire team is happy, you get a bonus or whatever, and then it's just all fucking gone. Gitlab randomly decided to show you their middle finger and just remove it all. Now that in itself is completely unacceptable. However, this can still be excused because you are Gitlab. But what cannot be excused is the fact that you are hacked by a singular samicolon. It just fucking can't. On April 28th stagnits from with security posted this on Twitter we achieved RTU of Git Hub and got Access to millions of repositories belonging to other users and organizations. All it took was a single Git push. Are you fucking kidding me? The company that we are supposed to trust with all our data, code and all these secrets just gets hacked by a semicolon? And that's just a vulnerability. The actual exploit is a single git push. Is this reality? And if you don't understand the extent of severity for remote code execution, you basically can fuck up the entire company. And we are so, so lucky this was a white hat hacker. If this was black hat, everything would be cooked. When I Learned of this, this was my response. Long story short, Github is just not as reliable as it once was, with a near 85% uptime. And if you know anything about software, that uptime is horrendous. Even SHE or AI which is like the company that I lead has a uptime of 99.9% and that is actually the standard, believe it or not. 85% is not fucking normal. It just doesn't happen in the world of software. Except for like anthropic and get up. For some reason they just fucking vibe code everything, including their infrastructure. I don't understand how you manage to fuck up this bad. Like even if I use clots on it for it wouldn't be this bad. I urge you to reconsider whether you want to continue using Git Hub or move to something like Gitlab. And obviously this...",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 63,
+          "likes": 426,
+          "shares": 30,
+          "views": 14400
+        },
+        "engagement_score": 83,
+        "freshness": 53,
+        "item_id": "TK4",
+        "local_rank_score": 0.3845,
+        "local_relevance": 0.26,
+        "metadata": {
+          "hashtags": [
+            "software",
+            "programming",
+            "ai"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.37,
+        "snippet": "Github is dying. I know this sounds crazy, but hear me out. For the last couple of weeks they have been having these crazy outages. So much so that Mitchell Hashimoto, the creator of The Ghostly Terminal, has decided to move off of Github after 18 years. And it's not just him. Even people like me are considering moving their projects off of Github just because of their huge reliability issues. And although that is one of the main reasons, it's not the only reason why. It's also insane things happening. Gitlab randomly deciding to revert changes that you already merged on a PR. Now this doesn't sound like such a big deal for the average person, but for you...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "GitHub is Dying. | #software#programming#ai",
+        "url": "https://www.tiktok.com/@devbysami/video/7634586346509782275",
+        "why_relevant": "TikTok: GitHub is Dying. | #software#programming#ai"
+      },
+      {
+        "author": "startuphakk",
+        "body": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering work and lingering distrust. That's severe damage. #GitHub #DevOps #TechNews #Coding #SoftwareDevelopment #tiktok #reels",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 4,
+          "likes": 34,
+          "shares": 4,
+          "views": 1827
+        },
+        "engagement_score": 53,
+        "freshness": 56,
+        "item_id": "TK6",
+        "local_rank_score": 0.31,
+        "local_relevance": 0.18,
+        "metadata": {
+          "hashtags": [
+            "github",
+            "devops",
+            "technews",
+            "coding",
+            "softwaredevelopment",
+            "tiktok",
+            "reels"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-01",
+        "relevance_hint": 0.37,
+        "snippet": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering work and lingering distrust. That's severe damage. #GitHub #DevOps #TechNews #Coding #SoftwareDevelopment #tiktok #reels",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering",
+        "url": "https://www.tiktok.com/@startuphakk/video/7634928935679167757",
+        "why_relevant": "TikTok: GitHub's recent corruption incident highlights a critical is"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "github trending awesome issues",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to github trending awesome issues, especially about github issues?",
+        "search_query": "github issues",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for github trending awesome issues?",
+        "search_query": "github issues reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-14",
+  "range_to": "2026-05-14",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://instagram.com/reel/dykr3xzixuj",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 86,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "IG1",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "IG1",
+            "native_rank": 1,
+            "source": "instagram",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "IG1",
+            "native_rank": 1,
+            "source": "instagram",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:instagram": 1,
+        "reaction:instagram": 1
+      },
+      "rerank_score": 10.599999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "What the heck is going on with GitHub? Because over the last 90 days, reliability has tanked. 84% uptime and 94 incidents. April was the worst at 78%. And if you zoom out, it's 256 incidents in just one year. 48 incidents that are major. You see, this is a system that developers rely on. We used to not second guess, if you merge a pull request, it's done. But now Actions is breaking and in April the merge queue was actually producing bad commits, silently reverting code from previously merged PRs. Mitchell Hashimoto, the guy behind Terraform and Vagrant, kept a journal where every day when GitHub wasn't working for him, he put an X. And after 18 years...",
+      "source": "instagram",
+      "source_items": [
+        {
+          "author": "synsation_",
+          "body": "@github what\u2019s going on \ud83d\ude2d\nWhat the heck is going on with GitHub? Because over the last 90 days, reliability has tanked. 84% uptime and 94 incidents. April was the worst at 78%. And if you zoom out, it's 256 incidents in just one year. 48 incidents that are major. You see, this is a system that developers rely on. We used to not second guess, if you merge a pull request, it's done. But now Actions is breaking and in April the merge queue was actually producing bad commits, silently reverting code from previously merged PRs. Mitchell Hashimoto, the guy behind Terraform and Vagrant, kept a journal where every day when GitHub wasn't working for him, he put an X. And after 18 years of him using GitHub, he is done and he is taking Ghosty and leaving the platform. GitHub did come forward after April's outages and explained that agentic development and AI tools have caused a massive spike in commits, PRs, and repos, and they're struggling to keep up. Here's the thing is that GitHub built a near monopoly of where code lives, and now we're seeing what happens when a single point of failure actually fails. 99.9% availability is the industry baseline and typically higher, and GitHub is well below that right now. When prominent figures like Hashimoto say, \"I'm done\", how many people actually follow? And do they move to GitLab or any of the other alternatives that exist, or is there something new that's going to come forward that is better built for the agentic era and how things are changing with the current software development environment?",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 48,
+            "likes": 2267,
+            "views": 46529
+          },
+          "engagement_score": 100,
+          "freshness": 86,
+          "item_id": "IG1",
+          "local_rank_score": 0.43199999999999994,
+          "local_relevance": 0.18,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-10",
+          "relevance_hint": 0.44,
+          "snippet": "What the heck is going on with GitHub? Because over the last 90 days, reliability has tanked. 84% uptime and 94 incidents. April was the worst at 78%. And if you zoom out, it's 256 incidents in just one year. 48 incidents that are major. You see, this is a system that developers rely on. We used to not second guess, if you merge a pull request, it's done. But now Actions is breaking and in April the merge queue was actually producing bad commits, silently reverting code from previously merged PRs. Mitchell Hashimoto, the guy behind Terraform and Vagrant, kept a journal where every day when GitHub wasn't working for him, he put an X. And after 18 years...",
+          "source": "instagram",
+          "source_quality": 0.58,
+          "title": "@github what\u2019s going on \ud83d\ude2d",
+          "url": "https://www.instagram.com/reel/DYKR3xZIXUJ/",
+          "why_relevant": "Instagram: @github what\u2019s going on \ud83d\ude2d"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "instagram"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "@github what\u2019s going on \ud83d\ude2d",
+      "url": "https://www.instagram.com/reel/DYKR3xZIXUJ/"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@devbysami/video/7634586346509782275",
+      "cluster_id": "cluster-2",
+      "engagement": 83,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK4",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 9.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Github is dying. I know this sounds crazy, but hear me out. For the last couple of weeks they have been having these crazy outages. So much so that Mitchell Hashimoto, the creator of The Ghostly Terminal, has decided to move off of Github after 18 years. And it's not just him. Even people like me are considering moving their projects off of Github just because of their huge reliability issues. And although that is one of the main reasons, it's not the only reason why. It's also insane things happening. Gitlab randomly deciding to revert changes that you already merged on a PR. Now this doesn't sound like such a big deal for the average person, but for you...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "devbysami",
+          "body": "GitHub is Dying. | #software#programming#ai\nGithub is dying. I know this sounds crazy, but hear me out. For the last couple of weeks they have been having these crazy outages. So much so that Mitchell Hashimoto, the creator of The Ghostly Terminal, has decided to move off of Github after 18 years. And it's not just him. Even people like me are considering moving their projects off of Github just because of their huge reliability issues. And although that is one of the main reasons, it's not the only reason why. It's also insane things happening. Gitlab randomly deciding to revert changes that you already merged on a PR. Now this doesn't sound like such a big deal for the average person, but for you as a developer, I don't think you can understand how fucking crazy that is. Imagine working on a feature for 5 days. You spend these huge resources to just get this feature done, and finally you have it. You merge the PR, your entire team is happy, you get a bonus or whatever, and then it's just all fucking gone. Gitlab randomly decided to show you their middle finger and just remove it all. Now that in itself is completely unacceptable. However, this can still be excused because you are Gitlab. But what cannot be excused is the fact that you are hacked by a singular samicolon. It just fucking can't. On April 28th stagnits from with security posted this on Twitter we achieved RTU of Git Hub and got Access to millions of repositories belonging to other users and organizations. All it took was a single Git push. Are you fucking kidding me? The company that we are supposed to trust with all our data, code and all these secrets just gets hacked by a semicolon? And that's just a vulnerability. The actual exploit is a single git push. Is this reality? And if you don't understand the extent of severity for remote code execution, you basically can fuck up the entire company. And we are so, so lucky this was a white hat hacker. If this was black hat, everything would be cooked. When I Learned of this, this was my response. Long story short, Github is just not as reliable as it once was, with a near 85% uptime. And if you know anything about software, that uptime is horrendous. Even SHE or AI which is like the company that I lead has a uptime of 99.9% and that is actually the standard, believe it or not. 85% is not fucking normal. It just doesn't happen in the world of software. Except for like anthropic and get up. For some reason they just fucking vibe code everything, including their infrastructure. I don't understand how you manage to fuck up this bad. Like even if I use clots on it for it wouldn't be this bad. I urge you to reconsider whether you want to continue using Git Hub or move to something like Gitlab. And obviously this...",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 63,
+            "likes": 426,
+            "shares": 30,
+            "views": 14400
+          },
+          "engagement_score": 83,
+          "freshness": 53,
+          "item_id": "TK4",
+          "local_rank_score": 0.3845,
+          "local_relevance": 0.26,
+          "metadata": {
+            "hashtags": [
+              "software",
+              "programming",
+              "ai"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.37,
+          "snippet": "Github is dying. I know this sounds crazy, but hear me out. For the last couple of weeks they have been having these crazy outages. So much so that Mitchell Hashimoto, the creator of The Ghostly Terminal, has decided to move off of Github after 18 years. And it's not just him. Even people like me are considering moving their projects off of Github just because of their huge reliability issues. And although that is one of the main reasons, it's not the only reason why. It's also insane things happening. Gitlab randomly deciding to revert changes that you already merged on a PR. Now this doesn't sound like such a big deal for the average person, but for you...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "GitHub is Dying. | #software#programming#ai",
+          "url": "https://www.tiktok.com/@devbysami/video/7634586346509782275",
+          "why_relevant": "TikTok: GitHub is Dying. | #software#programming#ai"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "GitHub is Dying. | #software#programming#ai",
+      "url": "https://www.tiktok.com/@devbysami/video/7634586346509782275"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@startuphakk/video/7634928935679167757",
+      "cluster_id": "cluster-3",
+      "engagement": 53,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 56,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK6",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK6",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK6",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 2,
+        "reaction:tiktok": 2
+      },
+      "rerank_score": 4.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering work and lingering distrust. That's severe damage. #GitHub #DevOps #TechNews #Coding #SoftwareDevelopment #tiktok #reels",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "startuphakk",
+          "body": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering work and lingering distrust. That's severe damage. #GitHub #DevOps #TechNews #Coding #SoftwareDevelopment #tiktok #reels",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 4,
+            "likes": 34,
+            "shares": 4,
+            "views": 1827
+          },
+          "engagement_score": 53,
+          "freshness": 56,
+          "item_id": "TK6",
+          "local_rank_score": 0.31,
+          "local_relevance": 0.18,
+          "metadata": {
+            "hashtags": [
+              "github",
+              "devops",
+              "technews",
+              "coding",
+              "softwaredevelopment",
+              "tiktok",
+              "reels"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-01",
+          "relevance_hint": 0.37,
+          "snippet": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering work and lingering distrust. That's severe damage. #GitHub #DevOps #TechNews #Coding #SoftwareDevelopment #tiktok #reels",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering",
+          "url": "https://www.tiktok.com/@startuphakk/video/7634928935679167757",
+          "why_relevant": "TikTok: GitHub's recent corruption incident highlights a critical is"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "GitHub's recent corruption incident highlights a critical issue. Downtime is one thing, but corrupted repo history means days of engineering",
+      "url": "https://www.tiktok.com/@startuphakk/video/7634928935679167757"
+    },
+    {
+      "candidate_id": "https://instagram.com/reel/dxwn-7biyf6",
+      "cluster_id": "cluster-4",
+      "engagement": 37,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "IG2",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "IG2",
+            "native_rank": 2,
+            "source": "instagram",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "IG2",
+            "native_rank": 2,
+            "source": "instagram",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:instagram": 2,
+        "reaction:instagram": 2
+      },
+      "rerank_score": 9.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Bahut time se GitHub use kar rahe ho? Lekin kabhi issues create kiye hai? Issues? GitHub ka kuch issue hai kya? Abe chup, aap ek kisi website par ho aur aapko kuch UI mein error aaya. Button theek se kaam nahi kiya, aapko laga ki ye feature is website mein hona chahiye and aise bahut sare bugs and improvements. To isi cheez ke liye we use GitHub issues. Just go to this repository, test the website for 5 to 10 minutes and kuch issue laga to create kar dena. Issues mein aao, create new issue add title, description, labels, click on create. Then you have successfully created your GitHub issue. Just come and repo for getting the repository link and...",
+      "source": "instagram",
+      "source_items": [
+        {
+          "author": "parth.builds",
+          "body": "You think you\u2019ve used GitHub a lot\u2026 but have you really used it?\nComment \u201cRepo\u201d for the repository link.\n\nMost people just browse projects for 5\u201310 minutes and move on.\n\u201cYou notice a bug, UI issue, or a missing feature\u2026 and just scroll away.\u201d\n\nThat\u2019s exactly where GitHub Issues comes in.\n\nInstead of ignoring it \u2192 drop an issue.\nThat\u2019s how real open source starts.\nAnd if you go one step further \u2192 you can fix it with a pull request.\n\nSmall observation \u2192 real impact \u2192 actual contribution. \n\n(coding, college life, hackathon, engineering, engineer life, student, projects, trending, parth narkar, parth builds, GitHub, claude, vercel, deployment)\nBahut time se GitHub use kar rahe ho? Lekin kabhi issues create kiye hai? Issues? GitHub ka kuch issue hai kya? Abe chup, aap ek kisi website par ho aur aapko kuch UI mein error aaya. Button theek se kaam nahi kiya, aapko laga ki ye feature is website mein hona chahiye and aise bahut sare bugs and improvements. To isi cheez ke liye we use GitHub issues. Just go to this repository, test the website for 5 to 10 minutes and kuch issue laga to create kar dena. Issues mein aao, create new issue add title, description, labels, click on create. Then you have successfully created your GitHub issue. Just come and repo for getting the repository link and share this reel with your friends and follow kar lena for knowing each and everything about coding. Bye-bye.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 19,
+            "likes": -1,
+            "views": 5426
+          },
+          "engagement_score": 37,
+          "freshness": 53,
+          "item_id": "IG2",
+          "local_rank_score": 0.33849999999999997,
+          "local_relevance": 0.26,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.99,
+          "snippet": "Bahut time se GitHub use kar rahe ho? Lekin kabhi issues create kiye hai? Issues? GitHub ka kuch issue hai kya? Abe chup, aap ek kisi website par ho aur aapko kuch UI mein error aaya. Button theek se kaam nahi kiya, aapko laga ki ye feature is website mein hona chahiye and aise bahut sare bugs and improvements. To isi cheez ke liye we use GitHub issues. Just go to this repository, test the website for 5 to 10 minutes and kuch issue laga to create kar dena. Issues mein aao, create new issue add title, description, labels, click on create. Then you have successfully created your GitHub issue. Just come and repo for getting the repository link and...",
+          "source": "instagram",
+          "source_quality": 0.58,
+          "title": "You think you\u2019ve used GitHub a lot\u2026 but have you really used it?\nComment \u201cRepo\u201d for the repository link.\n\nMost people just browse projects f",
+          "url": "https://www.instagram.com/reel/DXwn-7BIyF6/",
+          "why_relevant": "Instagram: You think you\u2019ve used GitHub a lot\u2026 but have you really used"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "instagram"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "You think you\u2019ve used GitHub a lot\u2026 but have you really used it?\nComment \u201cRepo\u201d for the repository link.\n\nMost people just browse projects f",
+      "url": "https://www.instagram.com/reel/DXwn-7BIyF6/"
+    }
+  ],
+  "topic": "github trending awesome issues",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

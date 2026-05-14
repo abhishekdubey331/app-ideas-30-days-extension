@@ -1,0 +1,173 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@alexwormuth/video/7637502587268304141"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@alexwormuth/video/7637502587268304141"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "We need your support! \ud83d\ude4f  https://www.producthunt.com/products/transition"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-14T12:46:00.606461+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "alexwormuth",
+        "body": "We need your support! \ud83d\ude4f  https://www.producthunt.com/products/transition",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 4,
+          "shares": 1,
+          "views": 41
+        },
+        "engagement_score": 13,
+        "freshness": 88,
+        "item_id": "TK7",
+        "local_rank_score": 0.3305,
+        "local_relevance": 0.15,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-08",
+        "relevance_hint": 0.22,
+        "snippet": "We need your support! \ud83d\ude4f https://www.producthunt.com/products/transition",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "We need your support! \ud83d\ude4f  https://www.producthunt.com/products/transition",
+        "url": "https://www.tiktok.com/@alexwormuth/video/7637502587268304141",
+        "why_relevant": "TikTok: We need your support! \ud83d\ude4f  https://www.producthunt.com/product"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com comments",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com comments?",
+        "search_query": "site:producthunt.com comments",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-14",
+  "range_to": "2026-05-14",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@alexwormuth/video/7637502587268304141",
+      "cluster_id": "cluster-1",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 34.4,
+      "item_id": "TK7",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK7",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 8.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "We need your support! \ud83d\ude4f https://www.producthunt.com/products/transition",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "alexwormuth",
+          "body": "We need your support! \ud83d\ude4f  https://www.producthunt.com/products/transition",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 4,
+            "shares": 1,
+            "views": 41
+          },
+          "engagement_score": 13,
+          "freshness": 88,
+          "item_id": "TK7",
+          "local_rank_score": 0.3305,
+          "local_relevance": 0.15,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-08",
+          "relevance_hint": 0.22,
+          "snippet": "We need your support! \ud83d\ude4f https://www.producthunt.com/products/transition",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "We need your support! \ud83d\ude4f  https://www.producthunt.com/products/transition",
+          "url": "https://www.tiktok.com/@alexwormuth/video/7637502587268304141",
+          "why_relevant": "TikTok: We need your support! \ud83d\ude4f  https://www.producthunt.com/product"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We need your support! \ud83d\ude4f  https://www.producthunt.com/products/transition",
+      "url": "https://www.tiktok.com/@alexwormuth/video/7637502587268304141"
+    }
+  ],
+  "topic": "site:producthunt.com comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
