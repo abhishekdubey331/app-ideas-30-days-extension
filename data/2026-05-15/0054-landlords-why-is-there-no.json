@@ -1,0 +1,187 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "landlords \"why is there no\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My ndad is messing with my existential (financial) security, I think it's manipulation tactics, idk what to do (this post is really long)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-15T00:54:46.873015+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "My ndad is messing with my existential (financial) security, I think it's manipulation tactics, idk what to do (this post is really long)\nMy dad (61M) and I (23F) had a big fight on the phone a month or two ago, which resulted in me quickly cutting him off from most forms of communication from me, because it set off a domino affect which completely changed how I looked at my upbringing.\n\n(if you like Israel, you prob won't enjoy reading this.)\n\n\n\n1. THE FIGHT\n\nWe'd had other arguments and fights about Israel (he is a zionist, he raised us all to be zio as well but it only stuck for like 7 years longer than the Orthodox Judaism did\n**This is an automated message posted to ALL posts in RBN.**\n     \n**RBN is a heavily moderated subreddit.** Any rule breaking, regardless if it is the first-time offense, may result in an immediate ban. Failure to read our rules *in full* will not absolve you from breaking the rules. If you have not read our rules, read them first before commenting. \n\nPlease report inappropriate content so it can",
+        "container": "raisedbynarcissists",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 50,
+        "freshness": 97,
+        "item_id": "R1",
+        "local_rank_score": 0.33149999999999996,
+        "local_relevance": 0.06,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": [
+            {
+              "author": "AutoModerator",
+              "date": "2026-05-14",
+              "excerpt": "**This is an automated message posted to ALL posts in RBN.**\n     \n**RBN is a heavily moderated subreddit.** Any rule breaking, regardless if it is the first-time offense, may result in an immediate ban. Failure to read our rules *in full* will not absolve you from breaking the rules. If you have not read our rules, read them first before commenting. \n\nPlease report inappropriate content so it can",
+              "score": 1,
+              "url": "https://reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial/oloar3w/"
+            }
+          ]
+        },
+        "published_at": "2026-05-14",
+        "relevance_hint": 0.22,
+        "snippet": "**This is an automated message posted to ALL posts in RBN.**\n     \n**RBN is a heavily moderated subreddit.** Any rule breaking, regardless if it is the first-time offense, may result in an immediate ban. Failure to read our rules *in full* will not absolve you from breaking the rules. If you have not read our rules, read them first before commenting. \n\nPlease report inappropriate content so it can",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My ndad is messing with my existential (financial) security, I think it's manipulation tactics, idk what to do (this post is really long)",
+        "url": "https://www.reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "landlords \"why is there no\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to landlords \"why is there no\", especially about landlords \"why there no\"?",
+        "search_query": "landlords \"why there no\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-15",
+  "range_to": "2026-05-15",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.06,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 4.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "**This is an automated message posted to ALL posts in RBN.**\n     \n**RBN is a heavily moderated subreddit.** Any rule breaking, regardless if it is the first-time offense, may result in an immediate ban. Failure to read our rules *in full* will not absolve you from breaking the rules. If you have not read our rules, read them first before commenting. \n\nPlease report inappropriate content so it can",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My ndad is messing with my existential (financial) security, I think it's manipulation tactics, idk what to do (this post is really long)\nMy dad (61M) and I (23F) had a big fight on the phone a month or two ago, which resulted in me quickly cutting him off from most forms of communication from me, because it set off a domino affect which completely changed how I looked at my upbringing.\n\n(if you like Israel, you prob won't enjoy reading this.)\n\n\n\n1. THE FIGHT\n\nWe'd had other arguments and fights about Israel (he is a zionist, he raised us all to be zio as well but it only stuck for like 7 years longer than the Orthodox Judaism did\n**This is an automated message posted to ALL posts in RBN.**\n     \n**RBN is a heavily moderated subreddit.** Any rule breaking, regardless if it is the first-time offense, may result in an immediate ban. Failure to read our rules *in full* will not absolve you from breaking the rules. If you have not read our rules, read them first before commenting. \n\nPlease report inappropriate content so it can",
+          "container": "raisedbynarcissists",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 50,
+          "freshness": 97,
+          "item_id": "R1",
+          "local_rank_score": 0.33149999999999996,
+          "local_relevance": 0.06,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": [
+              {
+                "author": "AutoModerator",
+                "date": "2026-05-14",
+                "excerpt": "**This is an automated message posted to ALL posts in RBN.**\n     \n**RBN is a heavily moderated subreddit.** Any rule breaking, regardless if it is the first-time offense, may result in an immediate ban. Failure to read our rules *in full* will not absolve you from breaking the rules. If you have not read our rules, read them first before commenting. \n\nPlease report inappropriate content so it can",
+                "score": 1,
+                "url": "https://reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial/oloar3w/"
+              }
+            ]
+          },
+          "published_at": "2026-05-14",
+          "relevance_hint": 0.22,
+          "snippet": "**This is an automated message posted to ALL posts in RBN.**\n     \n**RBN is a heavily moderated subreddit.** Any rule breaking, regardless if it is the first-time offense, may result in an immediate ban. Failure to read our rules *in full* will not absolve you from breaking the rules. If you have not read our rules, read them first before commenting. \n\nPlease report inappropriate content so it can",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My ndad is messing with my existential (financial) security, I think it's manipulation tactics, idk what to do (this post is really long)",
+          "url": "https://www.reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My ndad is messing with my existential (financial) security, I think it's manipulation tactics, idk what to do (this post is really long)",
+      "url": "https://www.reddit.com/r/raisedbynarcissists/comments/1tcil17/my_ndad_is_messing_with_my_existential_financial/"
+    }
+  ],
+  "topic": "landlords \"why is there no\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
