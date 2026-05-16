@@ -1,0 +1,115 @@
+Batch C sources=youtube
+Started at 2026-05-16T08:40:27Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25957554710
+----
+
+===== Seed: "self-hosted alternative to" =====
+/last30days · researching: "self-hosted alternative to"
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""self-hosted alternative to"" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for '"self-hosted alternative to"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22self-hosted+alternative+to%22
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for '"self-hosted alternative to"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22self-hosted+alternative+to%22
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (0.5s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-16/0840-self-hosted-alternative-to.json
+[OK] seed succeeded
+
+===== Seed: freelancers "I wish" =====
+/last30days · researching: freelancers "I wish"
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="freelancers "i wish"" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for 'freelancers "i wish"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=freelancers+%22i+wish%22
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for 'freelancers "i wish"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=freelancers+%22i+wish%22
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (0.3s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-16/0840-freelancers-i-wish.json
+[OK] seed succeeded
+
+===== Seed: therapists "frustrated with" software =====
+/last30days · researching: therapists "frustrated with" software
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="therapists "frustrated with" software" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for 'therapists "frustrated with" software' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=therapists+%22frustrated+with%22+software
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for 'therapists "frustrated with" software' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=therapists+%22frustrated+with%22+software
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (0.3s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-16/0840-therapists-frustrated-with-software.json
+[OK] seed succeeded
+
+===== Seed: landlords "why is there no" =====
+/last30days · researching: landlords "why is there no"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="landlords "why there no"" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for 'landlords "why is there no"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=landlords+%22why+is+there+no%22
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for 'landlords "why is there no"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=landlords+%22why+is+there+no%22
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (0.3s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-16/0840-landlords-why-is-there-no.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
