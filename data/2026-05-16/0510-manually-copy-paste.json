@@ -1,0 +1,897 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"manually copy paste\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/developersindia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/developersindia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/claudecode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/claudecode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Are you all still managing multiple agent sessions manually?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/automation/comments/1ssoz56/to_ai_folks_how_would_you_approach_to_automate"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/automation/comments/1ssoz56/to_ai_folks_how_would_you_approach_to_automate"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "To AI folks - How would you approach to automate this simple looking task ?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "why am i still manually copy pasting logs into a browser?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "A way to do multilingual WP without the manual copy-paste"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-16T05:10:56.528856+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias\nHey guys,\n\nJust wanted to share a project I\u2019ve been working on.\n\nI\u2019ve been diving into the Model Context Protocol (MCP) lately and noticed that most of the cool tools for AI agents are built for the US markets. I wanted something that worked for us here in India, so I built an **MCP server for NSE public data.**\n\nBasically, it lets your AI agents (like Claude) plug directly into NSE APIs so you can analyze stocks or fetch data without any bias\u2014and without having to manually copy-paste stats into\nCool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+        "container": "developersIndia",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 21,
+          "score": 94,
+          "upvote_ratio": 0.98
+        },
+        "engagement_score": 62,
+        "freshness": 65,
+        "item_id": "R3",
+        "local_rank_score": 0.43250000000000005,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Cool. How long did it take for you to build this?",
+            "Have you tested it? Producing accurate information from those calls? ",
+            "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.",
+            "How much does it costs for this setup? Are you using claude Pro?",
+            "I see no API keys, are the quotes live?",
+            "Does it include historical equity/F&O data or just live data?",
+            "hey i am not a developer but i am budilding trading system based on growth investing concepts."
+          ],
+          "top_comments": [
+            {
+              "author": "theslowspoke",
+              "date": "2026-04-29",
+              "excerpt": "Cool. How long did it take for you to build this?",
+              "score": 11,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix9ddc/"
+            },
+            {
+              "author": "wam_bam_mam",
+              "date": "2026-04-29",
+              "excerpt": "Have you tested it? Producing accurate information from those calls? ",
+              "score": 7,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oixtl2v/"
+            },
+            {
+              "author": "sweet-0000",
+              "date": "2026-04-30",
+              "excerpt": "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+              "score": 2,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2pkz2/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-04-29",
+              "excerpt": ">Namaste!\nThanks for submitting to r/developersIndia. While participating in this thread, please follow the Community [Code of Conduct](https://developersindia.in/code-of-conduct/) and [rules](https://www.reddit.com/r/developersIndia/about/rules).\n \nIt's possible your query is not unique, use [`site:reddit.com/r/developersindia KEYWORDS`](https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fdev",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix55sy/"
+            },
+            {
+              "author": "BudgetSalad5873",
+              "date": "2026-04-29",
+              "excerpt": "How much does it costs for this setup? Are you using claude Pro?",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj0f57w/"
+            },
+            {
+              "author": "Mysterious_Role_3443",
+              "date": "2026-04-30",
+              "excerpt": "I see no API keys, are the quotes live?",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj1veik/"
+            },
+            {
+              "author": "SandwichUnlucky4244",
+              "date": "2026-04-30",
+              "excerpt": "Does it include historical equity/F&O data or just live data?",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2v0ym/"
+            },
+            {
+              "author": "Past_Highlight3775",
+              "date": "2026-05-15",
+              "excerpt": "hey i am not a developer but i am budilding trading system based on growth investing concepts.... i am looking to feed my system with various mcp servers which fetches the exchange data as an alternatives to keep it robust...can you tell me what popular mcp servers for US , canada and india you came",
+              "score": 1,
+              "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/om12l8g/"
+            }
+          ]
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.25,
+        "snippet": "Cool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias",
+        "url": "https://www.reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Are you all still managing multiple agent sessions manually?\nI feel like my current \u201cagentic workflow\u201d is kind of broken.\n\nRight now I open Superpower and run like 4\u20135 Claude Code sessions in parallel\u2026 but it just feels super disconnected. I\u2019m basically the one coordinating everything manually copy/pasting context, keeping track of progress, deciding what each one should do.\n\nIt makes me wonder\u2026 why isn\u2019t this just one agent?\n\nWhat I actually want is a single \u201ccommander\u201d agent that I can talk to, and it handles everything underneath:\n\n* It spawns 4\u20135 sub-\nI personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying. Keeping each process as seperate trains of thought that is easily reviewable makes the most sense to me. I mean of course if you're just vibing the dog shit out of everything and dont care about the code or the process and you just want results, having a Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.com/Bitmia-ai/RedEye)? \nIMHO paperclipai is way more powerful (full AI company, with agent auto scaling) but takes a some time to configure it right so it works well. \nRedEye is a simpler CC plugin; you just tell it wh Claude code agent teams. I have 3 different teams at the moment one for work on a React app with python backend (only used as reference to help implement the front end). Two personal projects. One for a monorepo that\u2019s iOS and react stack. And another express/react app. The work one I\u2019m more involve",
+        "container": "ClaudeCode",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 41,
+          "score": 12,
+          "upvote_ratio": 0.8
+        },
+        "engagement_score": 43,
+        "freshness": 71,
+        "item_id": "R5",
+        "local_rank_score": 0.37,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying.",
+            "Claude code agent teams. I have 3 different teams at the moment one for work on a React app with python backend (only used as reference to help implem...",
+            "Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.",
+            "Yeah most setups still push the coordination back to you.",
+            "Isn't this the default behavior before agent teams?",
+            "Ask it to spawn a team of agents and that's what you'll get.",
+            "You just described why OpenClaw was created. ",
+            "I made a small CLI tool that in essence just puts the agent in a loop until the work is done.",
+            "workmux has a skill that enables a single agent be the coordinator and fan out work to worktree agents, monitor progress and merge the results back to...",
+            "\nI\u2019ve used agent orchestration with and without Superpower plugin."
+          ],
+          "top_comments": [
+            {
+              "author": "we-meet-again",
+              "date": "2026-05-02",
+              "excerpt": "I personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying. Keeping each process as seperate trains of thought that is easily reviewable makes the most sense to me. I mean of course if you're just vibing the dog shit out of everything and dont care about the code or the process and you just want results, having a",
+              "score": 4,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojg9s5d/"
+            },
+            {
+              "author": "Temporary-Tradition1",
+              "date": "2026-05-02",
+              "excerpt": "Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.com/Bitmia-ai/RedEye)? \nIMHO paperclipai is way more powerful (full AI company, with agent auto scaling) but takes a some time to configure it right so it works well. \nRedEye is a simpler CC plugin; you just tell it wh",
+              "score": 4,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgil7k/"
+            },
+            {
+              "author": "clarson0",
+              "date": "2026-05-02",
+              "excerpt": "Claude code agent teams. I have 3 different teams at the moment one for work on a React app with python backend (only used as reference to help implement the front end). Two personal projects. One for a monorepo that\u2019s iOS and react stack. And another express/react app. The work one I\u2019m more involve",
+              "score": 3,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgf2at/"
+            },
+            {
+              "author": "Budget-Bus-551",
+              "date": "2026-05-02",
+              "excerpt": "Isn't this the default behavior before agent teams?",
+              "score": 3,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojg9wz7/"
+            },
+            {
+              "author": "thewookielotion",
+              "date": "2026-05-02",
+              "excerpt": "Ask it to spawn a team of agents and that's what you'll get. You can message each agent independently, or talk to the main guy/girl. \n\nIt works well when you need to explore a large codebase for example. ",
+              "score": 3,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgf5fy/"
+            },
+            {
+              "author": "LeaderAtLeading",
+              "date": "2026-05-02",
+              "excerpt": "Yeah most setups still push the coordination back to you. The missing layer is shared context and task ownership across agents. I\u2019d look for where devs already complain about juggling sessions and context loss, Leadline can surface those threads so you build around real friction.",
+              "score": 2,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgio6z/"
+            },
+            {
+              "author": "GP_103",
+              "date": "2026-05-02",
+              "excerpt": "You just described why OpenClaw was created. ",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojghwfo/"
+            },
+            {
+              "author": "rubyonhenry",
+              "date": "2026-05-02",
+              "excerpt": "I made a small CLI tool that in essence just puts the agent in a loop until the work is done. \n\nI spend the better part of my day writing and testing the requirements and then have the agent build it all unsupervised.",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgjdzq/"
+            },
+            {
+              "author": "rair41",
+              "date": "2026-05-02",
+              "excerpt": "workmux has a skill that enables a single agent be the coordinator and fan out work to worktree agents, monitor progress and merge the results back together.\n\n[https://workmux.raine.dev/guide/workflows#coordinating-multiple-agents](https://workmux.raine.dev/guide/workflows#coordinating-multiple-agen",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgn4gx/"
+            },
+            {
+              "author": "Bart-o-Man",
+              "date": "2026-05-02",
+              "excerpt": "\nI\u2019ve used agent orchestration with and without Superpower plugin.  \nWhen I enter planning mode, I bring 2 things:\n1.  need to have a complete spec written, ready for Opus to review.  \nI try to have that thing locked down, pre-written, pre-reviewed by other Claude agents.  Otherwise, you churn and c",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgrgx7/"
+            }
+          ]
+        },
+        "published_at": "2026-05-02",
+        "relevance_hint": 0.32,
+        "snippet": "I personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying. Keeping each process as seperate trains of thought that is easily reviewable makes the most sense to me. I mean of course if you're just vibing the dog shit out of everything and dont care about the code or the process and you just want results, having a Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.com/Bitmia-ai/RedEye)? IMHO paperclipai is way more powerful (full AI company, with agent auto scaling) but takes a some time to configure it right so it works well. RedEye is a simpler CC plugin; you just tell it wh Claude code agent teams. I...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Are you all still managing multiple agent sessions manually?",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "why am i still manually copy pasting logs into a browser?\nhonestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extension directly in vscode and its annoying how much time i wasted doing it the old way. being able to ju",
+        "container": "BlackboxAI_",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 18,
+        "freshness": 65,
+        "item_id": "R17",
+        "local_rank_score": 0.33000000000000007,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.54,
+        "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "why am i still manually copy pasting logs into a browser?",
+        "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "A way to do multilingual WP without the manual copy-paste\nI\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from Lara Translate that handles the heavy lifting. The nice part is that it doesn't break the blocks or",
+        "container": "Wordpress",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2,
+          "upvote_ratio": 0.75
+        },
+        "engagement_score": 13,
+        "freshness": 61,
+        "item_id": "R19",
+        "local_rank_score": 0.31500000000000006,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 0.63,
+        "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "A way to do multilingual WP without the manual copy-paste",
+        "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "To AI folks - How would you approach to automate this simple looking task ?\nHi everyone,\n\nI recently joined a well-known firm, and I came across a process that honestly surprised me.\n\nTL DR-\n\nA part of our team\u2019s work involves manually going through car OEM websites (like Mercedes), opening configurators, selecting models \u2192 engines \u2192 trims, removing default add-ons, and then capturing the base price + technical specs. This is repeated across all models and then across 20+ countries.\n\nThis has been done manually (copy-paste/data entry style) for \\\\\\\\\\\\\\~20 years, even by",
+        "container": "automation",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 20,
+        "freshness": 51,
+        "item_id": "R13",
+        "local_rank_score": 0.29700000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-22",
+        "relevance_hint": 0.25,
+        "snippet": "Hi everyone,\n\nI recently joined a well-known firm, and I came across a process that honestly surprised me.\n\nTL DR-\n\nA part of our team\u2019s work involves manually going through car OEM websites (like Mercedes), opening configurators, selecting models \u2192 engines \u2192 trims, removing default add-ons, and then capturing the base price + technical specs. This is repeated across all models and then across 20+",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "To AI folks - How would you approach to automate this simple looking task ?",
+        "url": "https://www.reddit.com/r/automation/comments/1ssoz56/to_ai_folks_how_would_you_approach_to_automate/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"manually copy paste\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"manually copy paste\"?",
+        "search_query": "\"manually copy paste\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-16",
+  "range_to": "2026-05-16",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/developersindia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai",
+      "cluster_id": "cluster-1",
+      "engagement": 62,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Cool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias\nHey guys,\n\nJust wanted to share a project I\u2019ve been working on.\n\nI\u2019ve been diving into the Model Context Protocol (MCP) lately and noticed that most of the cool tools for AI agents are built for the US markets. I wanted something that worked for us here in India, so I built an **MCP server for NSE public data.**\n\nBasically, it lets your AI agents (like Claude) plug directly into NSE APIs so you can analyze stocks or fetch data without any bias\u2014and without having to manually copy-paste stats into\nCool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+          "container": "developersIndia",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 21,
+            "score": 94,
+            "upvote_ratio": 0.98
+          },
+          "engagement_score": 62,
+          "freshness": 65,
+          "item_id": "R3",
+          "local_rank_score": 0.43250000000000005,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Cool. How long did it take for you to build this?",
+              "Have you tested it? Producing accurate information from those calls? ",
+              "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.",
+              "How much does it costs for this setup? Are you using claude Pro?",
+              "I see no API keys, are the quotes live?",
+              "Does it include historical equity/F&O data or just live data?",
+              "hey i am not a developer but i am budilding trading system based on growth investing concepts."
+            ],
+            "top_comments": [
+              {
+                "author": "theslowspoke",
+                "date": "2026-04-29",
+                "excerpt": "Cool. How long did it take for you to build this?",
+                "score": 11,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix9ddc/"
+              },
+              {
+                "author": "wam_bam_mam",
+                "date": "2026-04-29",
+                "excerpt": "Have you tested it? Producing accurate information from those calls? ",
+                "score": 7,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oixtl2v/"
+              },
+              {
+                "author": "sweet-0000",
+                "date": "2026-04-30",
+                "excerpt": "You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+                "score": 2,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2pkz2/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-04-29",
+                "excerpt": ">Namaste!\nThanks for submitting to r/developersIndia. While participating in this thread, please follow the Community [Code of Conduct](https://developersindia.in/code-of-conduct/) and [rules](https://www.reddit.com/r/developersIndia/about/rules).\n \nIt's possible your query is not unique, use [`site:reddit.com/r/developersindia KEYWORDS`](https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fdev",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oix55sy/"
+              },
+              {
+                "author": "BudgetSalad5873",
+                "date": "2026-04-29",
+                "excerpt": "How much does it costs for this setup? Are you using claude Pro?",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj0f57w/"
+              },
+              {
+                "author": "Mysterious_Role_3443",
+                "date": "2026-04-30",
+                "excerpt": "I see no API keys, are the quotes live?",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj1veik/"
+              },
+              {
+                "author": "SandwichUnlucky4244",
+                "date": "2026-04-30",
+                "excerpt": "Does it include historical equity/F&O data or just live data?",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/oj2v0ym/"
+              },
+              {
+                "author": "Past_Highlight3775",
+                "date": "2026-05-15",
+                "excerpt": "hey i am not a developer but i am budilding trading system based on growth investing concepts.... i am looking to feed my system with various mcp servers which fetches the exchange data as an alternatives to keep it robust...can you tell me what popular mcp servers for US , canada and india you came",
+                "score": 1,
+                "url": "https://reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/om12l8g/"
+              }
+            ]
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.25,
+          "snippet": "Cool. How long did it take for you to build this? Have you tested it? Producing accurate information from those calls? You might find this interesting: [https://github.com/SAGAR-TAMANG/groww-python-mcp](https://github.com/SAGAR-TAMANG/groww-python-mcp)\n\nGroww MCP server that does similar things. You can even trade stocks for Groww directly via any AI Agent like Claude.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias",
+          "url": "https://www.reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built an MCP server for NSE (India) data so AI agents can analyze the market without bias",
+      "url": "https://www.reddit.com/r/developersIndia/comments/1syw3if/i_built_an_mcp_server_for_nse_india_data_so_ai/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/claudecode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent",
+      "cluster_id": "cluster-2",
+      "engagement": 43,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying. Keeping each process as seperate trains of thought that is easily reviewable makes the most sense to me. I mean of course if you're just vibing the dog shit out of everything and dont care about the code or the process and you just want results, having a Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.com/Bitmia-ai/RedEye)? IMHO paperclipai is way more powerful (full AI company, with agent auto scaling) but takes a some time to configure it right so it works well. RedEye is a simpler CC plugin; you just tell it wh Claude code agent teams. I...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Are you all still managing multiple agent sessions manually?\nI feel like my current \u201cagentic workflow\u201d is kind of broken.\n\nRight now I open Superpower and run like 4\u20135 Claude Code sessions in parallel\u2026 but it just feels super disconnected. I\u2019m basically the one coordinating everything manually copy/pasting context, keeping track of progress, deciding what each one should do.\n\nIt makes me wonder\u2026 why isn\u2019t this just one agent?\n\nWhat I actually want is a single \u201ccommander\u201d agent that I can talk to, and it handles everything underneath:\n\n* It spawns 4\u20135 sub-\nI personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying. Keeping each process as seperate trains of thought that is easily reviewable makes the most sense to me. I mean of course if you're just vibing the dog shit out of everything and dont care about the code or the process and you just want results, having a Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.com/Bitmia-ai/RedEye)? \nIMHO paperclipai is way more powerful (full AI company, with agent auto scaling) but takes a some time to configure it right so it works well. \nRedEye is a simpler CC plugin; you just tell it wh Claude code agent teams. I have 3 different teams at the moment one for work on a React app with python backend (only used as reference to help implement the front end). Two personal projects. One for a monorepo that\u2019s iOS and react stack. And another express/react app. The work one I\u2019m more involve",
+          "container": "ClaudeCode",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 41,
+            "score": 12,
+            "upvote_ratio": 0.8
+          },
+          "engagement_score": 43,
+          "freshness": 71,
+          "item_id": "R5",
+          "local_rank_score": 0.37,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying.",
+              "Claude code agent teams. I have 3 different teams at the moment one for work on a React app with python backend (only used as reference to help implem...",
+              "Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.",
+              "Yeah most setups still push the coordination back to you.",
+              "Isn't this the default behavior before agent teams?",
+              "Ask it to spawn a team of agents and that's what you'll get.",
+              "You just described why OpenClaw was created. ",
+              "I made a small CLI tool that in essence just puts the agent in a loop until the work is done.",
+              "workmux has a skill that enables a single agent be the coordinator and fan out work to worktree agents, monitor progress and merge the results back to...",
+              "\nI\u2019ve used agent orchestration with and without Superpower plugin."
+            ],
+            "top_comments": [
+              {
+                "author": "we-meet-again",
+                "date": "2026-05-02",
+                "excerpt": "I personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying. Keeping each process as seperate trains of thought that is easily reviewable makes the most sense to me. I mean of course if you're just vibing the dog shit out of everything and dont care about the code or the process and you just want results, having a",
+                "score": 4,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojg9s5d/"
+              },
+              {
+                "author": "Temporary-Tradition1",
+                "date": "2026-05-02",
+                "excerpt": "Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.com/Bitmia-ai/RedEye)? \nIMHO paperclipai is way more powerful (full AI company, with agent auto scaling) but takes a some time to configure it right so it works well. \nRedEye is a simpler CC plugin; you just tell it wh",
+                "score": 4,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgil7k/"
+              },
+              {
+                "author": "clarson0",
+                "date": "2026-05-02",
+                "excerpt": "Claude code agent teams. I have 3 different teams at the moment one for work on a React app with python backend (only used as reference to help implement the front end). Two personal projects. One for a monorepo that\u2019s iOS and react stack. And another express/react app. The work one I\u2019m more involve",
+                "score": 3,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgf2at/"
+              },
+              {
+                "author": "Budget-Bus-551",
+                "date": "2026-05-02",
+                "excerpt": "Isn't this the default behavior before agent teams?",
+                "score": 3,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojg9wz7/"
+              },
+              {
+                "author": "thewookielotion",
+                "date": "2026-05-02",
+                "excerpt": "Ask it to spawn a team of agents and that's what you'll get. You can message each agent independently, or talk to the main guy/girl. \n\nIt works well when you need to explore a large codebase for example. ",
+                "score": 3,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgf5fy/"
+              },
+              {
+                "author": "LeaderAtLeading",
+                "date": "2026-05-02",
+                "excerpt": "Yeah most setups still push the coordination back to you. The missing layer is shared context and task ownership across agents. I\u2019d look for where devs already complain about juggling sessions and context loss, Leadline can surface those threads so you build around real friction.",
+                "score": 2,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgio6z/"
+              },
+              {
+                "author": "GP_103",
+                "date": "2026-05-02",
+                "excerpt": "You just described why OpenClaw was created. ",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojghwfo/"
+              },
+              {
+                "author": "rubyonhenry",
+                "date": "2026-05-02",
+                "excerpt": "I made a small CLI tool that in essence just puts the agent in a loop until the work is done. \n\nI spend the better part of my day writing and testing the requirements and then have the agent build it all unsupervised.",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgjdzq/"
+              },
+              {
+                "author": "rair41",
+                "date": "2026-05-02",
+                "excerpt": "workmux has a skill that enables a single agent be the coordinator and fan out work to worktree agents, monitor progress and merge the results back together.\n\n[https://workmux.raine.dev/guide/workflows#coordinating-multiple-agents](https://workmux.raine.dev/guide/workflows#coordinating-multiple-agen",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgn4gx/"
+              },
+              {
+                "author": "Bart-o-Man",
+                "date": "2026-05-02",
+                "excerpt": "\nI\u2019ve used agent orchestration with and without Superpower plugin.  \nWhen I enter planning mode, I bring 2 things:\n1.  need to have a complete spec written, ready for Opus to review.  \nI try to have that thing locked down, pre-written, pre-reviewed by other Claude agents.  Otherwise, you churn and c",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/ojgrgx7/"
+              }
+            ]
+          },
+          "published_at": "2026-05-02",
+          "relevance_hint": 0.32,
+          "snippet": "I personally prefer keeping them in different sessions - have one tab with one coversation with the \"commander\" feels like it would get annoying. Keeping each process as seperate trains of thought that is easily reviewable makes the most sense to me. I mean of course if you're just vibing the dog shit out of everything and dont care about the code or the process and you just want results, having a Have you checked [PaperClipAi](https://paperclip.ing/) or [RedEye](https://github.com/Bitmia-ai/RedEye)? IMHO paperclipai is way more powerful (full AI company, with agent auto scaling) but takes a some time to configure it right so it works well. RedEye is a simpler CC plugin; you just tell it wh Claude code agent teams. I...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Are you all still managing multiple agent sessions manually?",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Are you all still managing multiple agent sessions manually?",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1t1g6fv/are_you_all_still_managing_multiple_agent/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/automation/comments/1ssoz56/to_ai_folks_how_would_you_approach_to_automate",
+      "cluster_id": "cluster-3",
+      "engagement": 20,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.0,
+      "item_id": "R13",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R13",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 7.299999999999997,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Hi everyone,\n\nI recently joined a well-known firm, and I came across a process that honestly surprised me.\n\nTL DR-\n\nA part of our team\u2019s work involves manually going through car OEM websites (like Mercedes), opening configurators, selecting models \u2192 engines \u2192 trims, removing default add-ons, and then capturing the base price + technical specs. This is repeated across all models and then across 20+",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "To AI folks - How would you approach to automate this simple looking task ?\nHi everyone,\n\nI recently joined a well-known firm, and I came across a process that honestly surprised me.\n\nTL DR-\n\nA part of our team\u2019s work involves manually going through car OEM websites (like Mercedes), opening configurators, selecting models \u2192 engines \u2192 trims, removing default add-ons, and then capturing the base price + technical specs. This is repeated across all models and then across 20+ countries.\n\nThis has been done manually (copy-paste/data entry style) for \\\\\\\\\\\\\\~20 years, even by",
+          "container": "automation",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 20,
+          "freshness": 51,
+          "item_id": "R13",
+          "local_rank_score": 0.29700000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-22",
+          "relevance_hint": 0.25,
+          "snippet": "Hi everyone,\n\nI recently joined a well-known firm, and I came across a process that honestly surprised me.\n\nTL DR-\n\nA part of our team\u2019s work involves manually going through car OEM websites (like Mercedes), opening configurators, selecting models \u2192 engines \u2192 trims, removing default add-ons, and then capturing the base price + technical specs. This is repeated across all models and then across 20+",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "To AI folks - How would you approach to automate this simple looking task ?",
+          "url": "https://www.reddit.com/r/automation/comments/1ssoz56/to_ai_folks_how_would_you_approach_to_automate/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "To AI folks - How would you approach to automate this simple looking task ?",
+      "url": "https://www.reddit.com/r/automation/comments/1ssoz56/to_ai_folks_how_would_you_approach_to_automate/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/blackboxai_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a",
+      "cluster_id": "cluster-4",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 46.0,
+      "item_id": "R17",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R17",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.099999999999994,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "why am i still manually copy pasting logs into a browser?\nhonestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extension directly in vscode and its annoying how much time i wasted doing it the old way. being able to ju",
+          "container": "BlackboxAI_",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 18,
+          "freshness": 65,
+          "item_id": "R17",
+          "local_rank_score": 0.33000000000000007,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.54,
+          "snippet": "honestly i feel like a glorified data entry clerk half the time. i spent the morning trying to debug this weird race condition in a node worker and the workflow is just soul crushing. copy the error from the terminal, alt-tab to the browser, paste it into a chat, wait for the fix, alt-tab back, repeat until my brain turns into mush.\n\ni finally just gave in and started using the blackbox ai extensi",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "why am i still manually copy pasting logs into a browser?",
+          "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "why am i still manually copy pasting logs into a browser?",
+      "url": "https://www.reddit.com/r/BlackboxAI_/comments/1sz74c4/why_am_i_still_manually_copy_pasting_logs_into_a/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual",
+      "cluster_id": "cluster-5",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 26.0,
+      "item_id": "R19",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "A way to do multilingual WP without the manual copy-paste\nI\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from Lara Translate that handles the heavy lifting. The nice part is that it doesn't break the blocks or",
+          "container": "Wordpress",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2,
+            "upvote_ratio": 0.75
+          },
+          "engagement_score": 13,
+          "freshness": 61,
+          "item_id": "R19",
+          "local_rank_score": 0.31500000000000006,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 0.63,
+          "snippet": "I\u2019ve been trying to find a decent way to translate my site without paying a fortune for \"per-word\" services or manually moving text back and forth between an AI and the editor.\n\nI\u2019ve been messing with MCP (Model Context Protocol) and Claude lately and it\u2019s actually working pretty well.\n\nInstead of the usual mess, I\u2019m using a setup that connects Claude directly to my site. I use the MCP server from",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "A way to do multilingual WP without the manual copy-paste",
+          "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "A way to do multilingual WP without the manual copy-paste",
+      "url": "https://www.reddit.com/r/Wordpress/comments/1sww6to/a_way_to_do_multilingual_wp_without_the_manual/"
+    }
+  ],
+  "topic": "\"manually copy paste\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
