@@ -1,0 +1,660 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there a tool that\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "How to find prompts for ChatGPT without using any AI SEO tools"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "what does your SOC2 change management evidence actually look like for a production bug fix"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-16T00:51:42.455543+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "How to find prompts for ChatGPT without using any AI SEO tools\nThe first place we\u2019d start is Google Search Console. Filter for longer queries, around 30\u201335+ characters. What you\u2019ll usually find is a bunch of messy, natural-language searches, which is useful because that\u2019s pretty close to how people ask questions in ChatGPT, Perplexity, Gemini, etc.\n\nFor example, queries like \u201chow to check my website ranking on Google,\u201d \u201chow to find what keywords competitors are using,\u201d or \u201cbest way to track local rankings for clients\u201d are basically raw prompts. You can clea\nHonestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas. Real people usually give better inspiration than most AI SEO tools anyway. Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts. The Reddit/community angle is great becasue people describe problems more naturally here\n\nOne thing I\u2019d add: check your support tickets, sales calls, or onboarding questions too. Google search console may help you",
+        "container": "seogrowth",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 22,
+          "score": 35,
+          "upvote_ratio": 0.95
+        },
+        "engagement_score": 82,
+        "freshness": 91,
+        "item_id": "R2",
+        "local_rank_score": 0.459,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Honestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas.",
+            "Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts.",
+            "Google search console may help you",
+            "This is a really practical approach. GSC plus real community language gives much better prompts because they come from actual search behavior and real...",
+            "this is actually one of the smarter approaches I\u2019ve seen around prompt research\n\nespecially the Reddit/comments part.",
+            "I'd recommend his tool (u/SEOPub) that can pull the sub-queries GPT actually uses from the raw query. Those sub-queries make really nice prompts.",
+            "solid method and the gsc long query filter is genuinely underused for this\n\none thing worth adding that makes the community research step faster.",
+            "Bing webmaster tools launched a new feature to find \"grounding queries\" for AI search, which can be very useful.",
+            "This is actually one of the most realistic approach to AI prompt research as of today.",
+            "this is honestly a way better approach than blindly pulling \u201cAI keywords\u201d from random tools\n\nGSC already contains real language from real users, and a..."
+          ],
+          "top_comments": [
+            {
+              "author": "Fantastic_Put1168",
+              "date": "2026-05-13",
+              "excerpt": "Honestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas. Real people usually give better inspiration than most AI SEO tools anyway.",
+              "score": 4,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olh7ehc/"
+            },
+            {
+              "author": "IllContribution4921",
+              "date": "2026-05-12",
+              "excerpt": "Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts. The Reddit/community angle is great becasue people describe problems more naturally here\n\nOne thing I\u2019d add: check your support tickets, sales calls, or onboarding questions too. ",
+              "score": 3,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olcba44/"
+            },
+            {
+              "author": "kamililbird",
+              "date": "2026-05-12",
+              "excerpt": "Google search console may help you",
+              "score": 2,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olclafm/"
+            },
+            {
+              "author": "GetNachoNacho",
+              "date": "2026-05-12",
+              "excerpt": "This is a really practical approach. GSC plus real community language gives much better prompts because they come from actual search behavior and real user pain points.",
+              "score": 2,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/oldikyh/"
+            },
+            {
+              "author": "raftopyannis",
+              "date": "2026-05-12",
+              "excerpt": "this is actually one of the smarter approaches I\u2019ve seen around prompt research\n\nespecially the Reddit/comments part. people there describe problems way more naturally than in keyword tools\n\nI still think the hardest part in GEO is knowing whether the prompts you collect are truly representative or ",
+              "score": 2,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olfxg14/"
+            },
+            {
+              "author": "Wongpen_012",
+              "date": "2026-05-12",
+              "excerpt": "I'd recommend his tool (u/SEOPub) that can pull the sub-queries GPT actually uses from the raw query. Those sub-queries make really nice prompts.",
+              "score": 2,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olcl909/"
+            },
+            {
+              "author": "InflationSame7512",
+              "date": "2026-05-13",
+              "excerpt": "solid method and the gsc long query filter is genuinely underused for this\n\none thing worth adding that makes the community research step faster. search your main topic on reddit and filter by top posts of all time not just recent. the highest voted threads usually have the most concentrated pain po",
+              "score": 1,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/oljqecl/"
+            },
+            {
+              "author": "footix59",
+              "date": "2026-05-14",
+              "excerpt": "Bing webmaster tools launched a new feature to find \"grounding queries\" for AI search, which can be very useful.",
+              "score": 1,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olqty7t/"
+            },
+            {
+              "author": "sanjay2517",
+              "date": "2026-05-14",
+              "excerpt": "This is actually one of the most realistic approach to AI prompt research as of today. Everyone makes it more complicated than its necessary with expensive tools but the reality is if you have GSC then from Google itself you get real user intent. Long tail queries are gold, as they mimic how people ",
+              "score": 1,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olrg5lh/"
+            },
+            {
+              "author": "Tenacious-Sales",
+              "date": "2026-05-14",
+              "excerpt": "this is honestly a way better approach than blindly pulling \u201cAI keywords\u201d from random tools\n\nGSC already contains real language from real users, and a lot of those long messy queries are basically raw LLM prompts waiting to be cleaned up\n\nthe Reddit/community part is underrated too because people ex",
+              "score": 1,
+              "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olse352/"
+            }
+          ]
+        },
+        "published_at": "2026-05-12",
+        "relevance_hint": 0.22,
+        "snippet": "Honestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas. Real people usually give better inspiration than most AI SEO tools anyway. Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts. The Reddit/community angle is great becasue people describe problems more naturally here\n\nOne thing I\u2019d add: check your support tickets, sales calls, or onboarding questions too. Google search console may help you",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "How to find prompts for ChatGPT without using any AI SEO tools",
+        "url": "https://www.reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n",
+        "container": "ediscovery",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 23,
+          "score": 6,
+          "upvote_ratio": 0.65
+        },
+        "engagement_score": 45,
+        "freshness": 76,
+        "item_id": "R6",
+        "local_rank_score": 0.3845,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-04",
+        "relevance_hint": 0.87,
+        "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+        "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "what does your SOC2 change management evidence actually look like for a production bug fix\ngoing through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we didn't have something that said here is the crash that happened in production, here is the test that",
+        "container": "devsecops",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 5,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 40,
+        "freshness": 64,
+        "item_id": "R15",
+        "local_rank_score": 0.3365,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-28",
+        "relevance_hint": 0.09,
+        "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+        "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?\ngoing through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are you handling this in practice? are teams writing this up manually? is there tooling that generates it",
+        "container": "cybersecurity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 7,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 32,
+        "freshness": 67,
+        "item_id": "R25",
+        "local_rank_score": 0.3360000000000001,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-30",
+        "relevance_hint": 0.09,
+        "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+        "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there a tool that\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there a tool that\", especially about \"is there that\"?",
+        "search_query": "\"is there that\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-16",
+  "range_to": "2026-05-16",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any",
+      "cluster_id": "cluster-1",
+      "engagement": 82,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Honestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas. Real people usually give better inspiration than most AI SEO tools anyway. Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts. The Reddit/community angle is great becasue people describe problems more naturally here\n\nOne thing I\u2019d add: check your support tickets, sales calls, or onboarding questions too. Google search console may help you",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "How to find prompts for ChatGPT without using any AI SEO tools\nThe first place we\u2019d start is Google Search Console. Filter for longer queries, around 30\u201335+ characters. What you\u2019ll usually find is a bunch of messy, natural-language searches, which is useful because that\u2019s pretty close to how people ask questions in ChatGPT, Perplexity, Gemini, etc.\n\nFor example, queries like \u201chow to check my website ranking on Google,\u201d \u201chow to find what keywords competitors are using,\u201d or \u201cbest way to track local rankings for clients\u201d are basically raw prompts. You can clea\nHonestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas. Real people usually give better inspiration than most AI SEO tools anyway. Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts. The Reddit/community angle is great becasue people describe problems more naturally here\n\nOne thing I\u2019d add: check your support tickets, sales calls, or onboarding questions too. Google search console may help you",
+          "container": "seogrowth",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 22,
+            "score": 35,
+            "upvote_ratio": 0.95
+          },
+          "engagement_score": 82,
+          "freshness": 91,
+          "item_id": "R2",
+          "local_rank_score": 0.459,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Honestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas.",
+              "Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts.",
+              "Google search console may help you",
+              "This is a really practical approach. GSC plus real community language gives much better prompts because they come from actual search behavior and real...",
+              "this is actually one of the smarter approaches I\u2019ve seen around prompt research\n\nespecially the Reddit/comments part.",
+              "I'd recommend his tool (u/SEOPub) that can pull the sub-queries GPT actually uses from the raw query. Those sub-queries make really nice prompts.",
+              "solid method and the gsc long query filter is genuinely underused for this\n\none thing worth adding that makes the community research step faster.",
+              "Bing webmaster tools launched a new feature to find \"grounding queries\" for AI search, which can be very useful.",
+              "This is actually one of the most realistic approach to AI prompt research as of today.",
+              "this is honestly a way better approach than blindly pulling \u201cAI keywords\u201d from random tools\n\nGSC already contains real language from real users, and a..."
+            ],
+            "top_comments": [
+              {
+                "author": "Fantastic_Put1168",
+                "date": "2026-05-13",
+                "excerpt": "Honestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas. Real people usually give better inspiration than most AI SEO tools anyway.",
+                "score": 4,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olh7ehc/"
+              },
+              {
+                "author": "IllContribution4921",
+                "date": "2026-05-12",
+                "excerpt": "Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts. The Reddit/community angle is great becasue people describe problems more naturally here\n\nOne thing I\u2019d add: check your support tickets, sales calls, or onboarding questions too. ",
+                "score": 3,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olcba44/"
+              },
+              {
+                "author": "kamililbird",
+                "date": "2026-05-12",
+                "excerpt": "Google search console may help you",
+                "score": 2,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olclafm/"
+              },
+              {
+                "author": "GetNachoNacho",
+                "date": "2026-05-12",
+                "excerpt": "This is a really practical approach. GSC plus real community language gives much better prompts because they come from actual search behavior and real user pain points.",
+                "score": 2,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/oldikyh/"
+              },
+              {
+                "author": "raftopyannis",
+                "date": "2026-05-12",
+                "excerpt": "this is actually one of the smarter approaches I\u2019ve seen around prompt research\n\nespecially the Reddit/comments part. people there describe problems way more naturally than in keyword tools\n\nI still think the hardest part in GEO is knowing whether the prompts you collect are truly representative or ",
+                "score": 2,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olfxg14/"
+              },
+              {
+                "author": "Wongpen_012",
+                "date": "2026-05-12",
+                "excerpt": "I'd recommend his tool (u/SEOPub) that can pull the sub-queries GPT actually uses from the raw query. Those sub-queries make really nice prompts.",
+                "score": 2,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olcl909/"
+              },
+              {
+                "author": "InflationSame7512",
+                "date": "2026-05-13",
+                "excerpt": "solid method and the gsc long query filter is genuinely underused for this\n\none thing worth adding that makes the community research step faster. search your main topic on reddit and filter by top posts of all time not just recent. the highest voted threads usually have the most concentrated pain po",
+                "score": 1,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/oljqecl/"
+              },
+              {
+                "author": "footix59",
+                "date": "2026-05-14",
+                "excerpt": "Bing webmaster tools launched a new feature to find \"grounding queries\" for AI search, which can be very useful.",
+                "score": 1,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olqty7t/"
+              },
+              {
+                "author": "sanjay2517",
+                "date": "2026-05-14",
+                "excerpt": "This is actually one of the most realistic approach to AI prompt research as of today. Everyone makes it more complicated than its necessary with expensive tools but the reality is if you have GSC then from Google itself you get real user intent. Long tail queries are gold, as they mimic how people ",
+                "score": 1,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olrg5lh/"
+              },
+              {
+                "author": "Tenacious-Sales",
+                "date": "2026-05-14",
+                "excerpt": "this is honestly a way better approach than blindly pulling \u201cAI keywords\u201d from random tools\n\nGSC already contains real language from real users, and a lot of those long messy queries are basically raw LLM prompts waiting to be cleaned up\n\nthe Reddit/community part is underrated too because people ex",
+                "score": 1,
+                "url": "https://reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/olse352/"
+              }
+            ]
+          },
+          "published_at": "2026-05-12",
+          "relevance_hint": 0.22,
+          "snippet": "Honestly, Reddit, Google autocomplete, and YouTube comments are underrated for finding prompt ideas. Real people usually give better inspiration than most AI SEO tools anyway. Yep, GSC is underrated for finding \u201craw\u201d user language, especially longer-tail queries that already sound like prompts. The Reddit/community angle is great becasue people describe problems more naturally here\n\nOne thing I\u2019d add: check your support tickets, sales calls, or onboarding questions too. Google search console may help you",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "How to find prompts for ChatGPT without using any AI SEO tools",
+          "url": "https://www.reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "How to find prompts for ChatGPT without using any AI SEO tools",
+      "url": "https://www.reddit.com/r/seogrowth/comments/1tatnrj/how_to_find_prompts_for_chatgpt_without_using_any/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize",
+      "cluster_id": "cluster-2",
+      "engagement": 45,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?\nHey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view\n\n\\- Export the timeline as a clean PDF the lawyer can easily review\n\n\\- Be usable by someone with n",
+          "container": "ediscovery",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 23,
+            "score": 6,
+            "upvote_ratio": 0.65
+          },
+          "engagement_score": 45,
+          "freshness": 76,
+          "item_id": "R6",
+          "local_rank_score": 0.3845,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-04",
+          "relevance_hint": 0.87,
+          "snippet": "Hey everyone,\n\nI'm looking for a software or tool that helps clients (not lawyers themselves) organize and select relevant emails and documents, and arrange them into a chronological timeline to share with their attorney.\n\nIdeally it would:\n\n\\- Let you import or select emails (from Gmail, Outlook, etc.)\n\n\\- Attach documents and files alongside those emails\n\n\\- Arrange everything in a timeline view",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+          "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there a tool that helps clients organize emails and files into a timeline to send to their lawyer?",
+      "url": "https://www.reddit.com/r/ediscovery/comments/1t3w5ij/is_there_a_tool_that_helps_clients_organize/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence",
+      "cluster_id": "cluster-3",
+      "engagement": 40,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R15",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R15",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "what does your SOC2 change management evidence actually look like for a production bug fix\ngoing through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we didn't have something that said here is the crash that happened in production, here is the test that",
+          "container": "devsecops",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 5,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 40,
+          "freshness": 64,
+          "item_id": "R15",
+          "local_rank_score": 0.3365,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-28",
+          "relevance_hint": 0.09,
+          "snippet": "going through soc2 type II and got stuck on a specific question from our auditor that i wasn't expecting.\n\nwe had a billing bug in prod last quarter. found it, fixed it, deployed it. but when our auditor asked for evidence that the fix was tested before deployment and specifically that the fix addressed the root cause we kind of froze.\n\nwe had a PR with review approvals. we had ci passing. but we",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+          "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "what does your SOC2 change management evidence actually look like for a production bug fix",
+      "url": "https://www.reddit.com/r/devsecops/comments/1sydcvd/what_does_your_soc2_change_management_evidence/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look",
+      "cluster_id": "cluster-4",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R25",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R25",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.100000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?\ngoing through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are you handling this in practice? are teams writing this up manually? is there tooling that generates it",
+          "container": "cybersecurity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 7,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 32,
+          "freshness": 67,
+          "item_id": "R25",
+          "local_rank_score": 0.3360000000000001,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-30",
+          "relevance_hint": 0.09,
+          "snippet": "going through this with a client and got stuck on something specific. auditor asked for evidence that a billing bug fix was tested against the actual crash. not just PR approval and CI passing, but something that says here's the crash, here's the test that reproduces it, here's proof the fix works.                                                                                          \n\nhow are y",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "what does your SOC2 CC8.1 evidence actually look like for a production billing fix?",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1szjek5/what_does_your_soc2_cc81_evidence_actually_look/"
+    }
+  ],
+  "topic": "\"is there a tool that\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
