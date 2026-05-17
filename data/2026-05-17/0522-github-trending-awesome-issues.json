@@ -1,0 +1,1129 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "github trending awesome issues",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://githubstatus.com",
+        "https://githubstatus.com/incidents/kcf0thb1zp30",
+        "https://githubstatus.com/incidents/3f30ycplyr7l",
+        "https://reddit.com/r/linux/comments/1tcdrtv/id_never_realized_how_many_apps_are",
+        "https://reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues",
+        "https://reddit.com/r/github/comments/1ta0a8u/how_do_you_stop_github_issues_from_becoming_a"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://githubstatus.com",
+        "https://reddit.com/r/linux/comments/1tcdrtv/id_never_realized_how_many_apps_are",
+        "https://reddit.com/r/github/comments/1ta0a8u/how_do_you_stop_github_issues_from_becoming_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews",
+        "reddit"
+      ],
+      "title": "GitHub is having issues now",
+      "uncertainty": "thin-evidence"
+    },
+    {
+      "candidate_ids": [
+        "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "Addressing GitHub's recent availability issues",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://github.com/fuma-nama/fumadocs/issues"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "GitHub issues list not loading",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://news.ycombinator.com/item?id=47949488"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://ghfs.dev"
+      ],
+      "cluster_id": "cluster-8",
+      "representative_ids": [
+        "https://ghfs.dev"
+      ],
+      "score": 0.0,
+      "sources": [
+        "hackernews"
+      ],
+      "title": "Ghfs \u2013 GitHub Issues as a Filesystem",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-17T05:22:50.748354+00:00",
+  "items_by_source": {
+    "hackernews": [
+      {
+        "author": "mvdtnz",
+        "body": "Addressing GitHub's recent availability issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 4,
+          "points": 3
+        },
+        "engagement_score": 15,
+        "freshness": 80,
+        "item_id": "48090685",
+        "local_rank_score": 0.39050000000000007,
+        "local_relevance": 0.27,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=48090685",
+          "top_comments": []
+        },
+        "published_at": "2026-05-11",
+        "relevance_hint": 0.9,
+        "snippet": "Addressing GitHub's recent availability issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "Addressing GitHub's recent availability issues",
+        "url": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/",
+        "why_relevant": "HN story about Addressing GitHub's recent availability issues"
+      },
+      {
+        "author": "ankitg12",
+        "body": "Ghfs \u2013 GitHub Issues as a Filesystem",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "points": 4
+        },
+        "engagement_score": 2,
+        "freshness": 80,
+        "item_id": "48093684",
+        "local_rank_score": 0.3125,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=48093684",
+          "top_comments": []
+        },
+        "published_at": "2026-05-11",
+        "relevance_hint": 1.0,
+        "snippet": "Ghfs \u2013 GitHub Issues as a Filesystem",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "Ghfs \u2013 GitHub Issues as a Filesystem",
+        "url": "https://ghfs.dev/",
+        "why_relevant": "HN story about Ghfs \u2013 GitHub Issues as a Filesystem"
+      },
+      {
+        "author": "SenHeng",
+        "body": "GitHub is having issues now",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 123,
+          "points": 338
+        },
+        "engagement_score": 100,
+        "freshness": 33,
+        "item_id": "47924775",
+        "local_rank_score": 0.30600000000000005,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47924775",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub is having issues now",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub is having issues now",
+        "url": "https://www.githubstatus.com",
+        "why_relevant": "HN story about GitHub is having issues now"
+      },
+      {
+        "author": "debarshri",
+        "body": "Tell HN: GitHub Issues Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "points": 5
+        },
+        "engagement_score": 4,
+        "freshness": 40,
+        "item_id": "47949488",
+        "local_rank_score": 0.22750000000000004,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47949488",
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 1.0,
+        "snippet": "Tell HN: GitHub Issues Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "Tell HN: GitHub Issues Issues",
+        "url": "https://news.ycombinator.com/item?id=47949488",
+        "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+      },
+      {
+        "author": "SpyCoder77",
+        "body": "GitHub issues list not loading",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "points": 3
+        },
+        "engagement_score": 13,
+        "freshness": 33,
+        "item_id": "47923779",
+        "local_rank_score": 0.21900000000000003,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47923779",
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub issues list not loading",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub issues list not loading",
+        "url": "https://github.com/fuma-nama/fumadocs/issues",
+        "why_relevant": "HN story about GitHub issues list not loading"
+      },
+      {
+        "author": "connorbrinton",
+        "body": "GitHub Having Issues (Again)",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 1,
+          "points": 5
+        },
+        "engagement_score": 11,
+        "freshness": 19,
+        "item_id": "47876498",
+        "local_rank_score": 0.18200000000000002,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47876498",
+          "top_comments": []
+        },
+        "published_at": "2026-04-23",
+        "relevance_hint": 1.0,
+        "snippet": "GitHub Having Issues (Again)",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Having Issues (Again)",
+        "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+        "why_relevant": "HN story about GitHub Having Issues (Again)"
+      },
+      {
+        "author": "mkeeter",
+        "body": "GitHub Is Having Issues",
+        "container": "Hacker News",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 2,
+          "points": 7
+        },
+        "engagement_score": 18,
+        "freshness": 0,
+        "item_id": "47806704",
+        "local_rank_score": 0.161,
+        "local_relevance": 0.22,
+        "metadata": {
+          "comment_insights": [],
+          "hn_url": "https://news.ycombinator.com/item?id=47806704",
+          "top_comments": []
+        },
+        "published_at": "2026-04-17",
+        "relevance_hint": 0.96,
+        "snippet": "GitHub Is Having Issues",
+        "source": "hackernews",
+        "source_quality": 0.8,
+        "title": "GitHub Is Having Issues",
+        "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+        "why_relevant": "HN story about GitHub Is Having Issues"
+      }
+    ],
+    "reddit": [
+      {
+        "body": "I'd never realized how many apps are Linux-exclusive until now\nI've been considering switching back to Windows for some time, partly to see how it's gotten first-hand, partly because Deltarune Chapter 5 is coming out this year and I wanna make sure I don't bump into compatibility issues on my blind playthrough.\n\nSo, out of curiosity, I've begun checking out how to download my preferred apps on Windows. Surely a Windows build will be available on Github, or at least there will be build instructions, right?\n\nWell it turns out I couldn't be more wrong. Most of",
+        "container": "linux",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 290,
+          "score": 1581,
+          "upvote_ratio": 0.95
+        },
+        "engagement_score": 66,
+        "freshness": 86,
+        "item_id": "R26",
+        "local_rank_score": 0.39799999999999996,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-13",
+        "relevance_hint": 0.22,
+        "snippet": "I've been considering switching back to Windows for some time, partly to see how it's gotten first-hand, partly because Deltarune Chapter 5 is coming out this year and I wanna make sure I don't bump into compatibility issues on my blind playthrough.\n\nSo, out of curiosity, I've begun checking out how to download my preferred apps on Windows. Surely a Windows build will be available on Github, or at",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I'd never realized how many apps are Linux-exclusive until now",
+        "url": "https://www.reddit.com/r/linux/comments/1tcdrtv/id_never_realized_how_many_apps_are/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "How do you stop GitHub issues from becoming a dumping place?",
+        "container": "github",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 0
+        },
+        "engagement_score": 7,
+        "freshness": 80,
+        "item_id": "R46",
+        "local_rank_score": 0.31100000000000005,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-11",
+        "relevance_hint": 0.99,
+        "snippet": "How do you stop GitHub issues from becoming a dumping place?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "How do you stop GitHub issues from becoming a dumping place?",
+        "url": "https://www.reddit.com/r/github/comments/1ta0a8u/how_do_you_stop_github_issues_from_becoming_a/",
+        "why_relevant": "Reddit r/github search"
+      },
+      {
+        "body": "Github.com website issues?",
+        "container": "github",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 7
+        },
+        "engagement_score": 18,
+        "freshness": 33,
+        "item_id": "R45",
+        "local_rank_score": 0.224,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 0.9,
+        "snippet": "Github.com website issues?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Github.com website issues?",
+        "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/",
+        "why_relevant": "Reddit r/github search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "github trending awesome issues",
+    "source_weights": {
+      "hackernews": 0.4390243902439025,
+      "reddit": 0.5609756097560976
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to github trending awesome issues, especially about github issues?",
+        "search_query": "github issues",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for github trending awesome issues?",
+        "search_query": "github issues reaction update",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-17",
+  "range_to": "2026-05-17",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://githubstatus.com",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 33,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 61.75,
+      "item_id": "47924775",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47924775",
+            "native_rank": 3,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 3
+      },
+      "rerank_score": 2.8999999999999986,
+      "rrf_score": 0.004099200655872106,
+      "snippet": "GitHub is having issues now",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SenHeng",
+          "body": "GitHub is having issues now",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 123,
+            "points": 338
+          },
+          "engagement_score": 100,
+          "freshness": 33,
+          "item_id": "47924775",
+          "local_rank_score": 0.30600000000000005,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47924775",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub is having issues now",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub is having issues now",
+          "url": "https://www.githubstatus.com",
+          "why_relevant": "HN story about GitHub is having issues now"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub is having issues now",
+      "url": "https://www.githubstatus.com"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/linux/comments/1tcdrtv/id_never_realized_how_many_apps_are",
+      "cluster_id": "cluster-1",
+      "engagement": 66,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 86,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R26",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R26",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R26",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1,
+        "reaction:reddit": 1
+      },
+      "rerank_score": 10.799999999999997,
+      "rrf_score": 0.009196321471411436,
+      "snippet": "I've been considering switching back to Windows for some time, partly to see how it's gotten first-hand, partly because Deltarune Chapter 5 is coming out this year and I wanna make sure I don't bump into compatibility issues on my blind playthrough.\n\nSo, out of curiosity, I've begun checking out how to download my preferred apps on Windows. Surely a Windows build will be available on Github, or at",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I'd never realized how many apps are Linux-exclusive until now\nI've been considering switching back to Windows for some time, partly to see how it's gotten first-hand, partly because Deltarune Chapter 5 is coming out this year and I wanna make sure I don't bump into compatibility issues on my blind playthrough.\n\nSo, out of curiosity, I've begun checking out how to download my preferred apps on Windows. Surely a Windows build will be available on Github, or at least there will be build instructions, right?\n\nWell it turns out I couldn't be more wrong. Most of",
+          "container": "linux",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 290,
+            "score": 1581,
+            "upvote_ratio": 0.95
+          },
+          "engagement_score": 66,
+          "freshness": 86,
+          "item_id": "R26",
+          "local_rank_score": 0.39799999999999996,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-13",
+          "relevance_hint": 0.22,
+          "snippet": "I've been considering switching back to Windows for some time, partly to see how it's gotten first-hand, partly because Deltarune Chapter 5 is coming out this year and I wanna make sure I don't bump into compatibility issues on my blind playthrough.\n\nSo, out of curiosity, I've begun checking out how to download my preferred apps on Windows. Surely a Windows build will be available on Github, or at",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I'd never realized how many apps are Linux-exclusive until now",
+          "url": "https://www.reddit.com/r/linux/comments/1tcdrtv/id_never_realized_how_many_apps_are/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "I'd never realized how many apps are Linux-exclusive until now",
+      "url": "https://www.reddit.com/r/linux/comments/1tcdrtv/id_never_realized_how_many_apps_are/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues",
+      "cluster_id": "cluster-1",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 33,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 58.05,
+      "item_id": "R45",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R45",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R45",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3,
+        "reaction:reddit": 3
+      },
+      "rerank_score": 0.8999999999999986,
+      "rrf_score": 0.008904374758033295,
+      "snippet": "Github.com website issues?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Github.com website issues?",
+          "container": "github",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 7
+          },
+          "engagement_score": 18,
+          "freshness": 33,
+          "item_id": "R45",
+          "local_rank_score": 0.224,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 0.9,
+          "snippet": "Github.com website issues?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Github.com website issues?",
+          "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/",
+          "why_relevant": "Reddit r/github search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Github.com website issues?",
+      "url": "https://www.reddit.com/r/github/comments/1sxbs5m/githubcom_website_issues/"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/kcf0thb1zp30",
+      "cluster_id": "cluster-1",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 0,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 58.95,
+      "item_id": "47806704",
+      "local_relevance": 0.22,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47806704",
+            "native_rank": 7,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 7
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.003854472258506607,
+      "snippet": "GitHub Is Having Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "mkeeter",
+          "body": "GitHub Is Having Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 2,
+            "points": 7
+          },
+          "engagement_score": 18,
+          "freshness": 0,
+          "item_id": "47806704",
+          "local_rank_score": 0.161,
+          "local_relevance": 0.22,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47806704",
+            "top_comments": []
+          },
+          "published_at": "2026-04-17",
+          "relevance_hint": 0.96,
+          "snippet": "GitHub Is Having Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Is Having Issues",
+          "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30",
+          "why_relevant": "HN story about GitHub Is Having Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Is Having Issues",
+      "url": "https://www.githubstatus.com/incidents/kcf0thb1zp30"
+    },
+    {
+      "candidate_id": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2",
+      "cluster_id": "cluster-4",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 46.05,
+      "item_id": "48090685",
+      "local_relevance": 0.27,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "48090685",
+            "native_rank": 1,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 1
+      },
+      "rerank_score": 17.9,
+      "rrf_score": 0.004233600677376109,
+      "snippet": "Addressing GitHub's recent availability issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "mvdtnz",
+          "body": "Addressing GitHub's recent availability issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 4,
+            "points": 3
+          },
+          "engagement_score": 15,
+          "freshness": 80,
+          "item_id": "48090685",
+          "local_rank_score": 0.39050000000000007,
+          "local_relevance": 0.27,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=48090685",
+            "top_comments": []
+          },
+          "published_at": "2026-05-11",
+          "relevance_hint": 0.9,
+          "snippet": "Addressing GitHub's recent availability issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "Addressing GitHub's recent availability issues",
+          "url": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/",
+          "why_relevant": "HN story about Addressing GitHub's recent availability issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Addressing GitHub's recent availability issues",
+      "url": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/"
+    },
+    {
+      "candidate_id": "https://github.com/fuma-nama/fumadocs/issues",
+      "cluster_id": "cluster-5",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 33,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 46.849999999999994,
+      "item_id": "47923779",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47923779",
+            "native_rank": 5,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 5
+      },
+      "rerank_score": 2.8999999999999986,
+      "rrf_score": 0.003973071404922195,
+      "snippet": "GitHub issues list not loading",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "SpyCoder77",
+          "body": "GitHub issues list not loading",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "points": 3
+          },
+          "engagement_score": 13,
+          "freshness": 33,
+          "item_id": "47923779",
+          "local_rank_score": 0.21900000000000003,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47923779",
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub issues list not loading",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub issues list not loading",
+          "url": "https://github.com/fuma-nama/fumadocs/issues",
+          "why_relevant": "HN story about GitHub issues list not loading"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub issues list not loading",
+      "url": "https://github.com/fuma-nama/fumadocs/issues"
+    },
+    {
+      "candidate_id": "https://githubstatus.com/incidents/3f30ycplyr7l",
+      "cluster_id": "cluster-1",
+      "engagement": 11,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 19,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 43.45,
+      "item_id": "47876498",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47876498",
+            "native_rank": 6,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 6
+      },
+      "rerank_score": 0.09999999999999787,
+      "rrf_score": 0.003912873353332465,
+      "snippet": "GitHub Having Issues (Again)",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "connorbrinton",
+          "body": "GitHub Having Issues (Again)",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 1,
+            "points": 5
+          },
+          "engagement_score": 11,
+          "freshness": 19,
+          "item_id": "47876498",
+          "local_rank_score": 0.18200000000000002,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47876498",
+            "top_comments": []
+          },
+          "published_at": "2026-04-23",
+          "relevance_hint": 1.0,
+          "snippet": "GitHub Having Issues (Again)",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "GitHub Having Issues (Again)",
+          "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l",
+          "why_relevant": "HN story about GitHub Having Issues (Again)"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "GitHub Having Issues (Again)",
+      "url": "https://www.githubstatus.com/incidents/3f30ycplyr7l"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/github/comments/1ta0a8u/how_do_you_stop_github_issues_from_becoming_a",
+      "cluster_id": "cluster-1",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 25.85,
+      "item_id": "R46",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R46",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R46",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2,
+        "reaction:reddit": 2
+      },
+      "rerank_score": 8.200000000000003,
+      "rrf_score": 0.00904799370574351,
+      "snippet": "How do you stop GitHub issues from becoming a dumping place?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "How do you stop GitHub issues from becoming a dumping place?",
+          "container": "github",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 0
+          },
+          "engagement_score": 7,
+          "freshness": 80,
+          "item_id": "R46",
+          "local_rank_score": 0.31100000000000005,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-11",
+          "relevance_hint": 0.99,
+          "snippet": "How do you stop GitHub issues from becoming a dumping place?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "How do you stop GitHub issues from becoming a dumping place?",
+          "url": "https://www.reddit.com/r/github/comments/1ta0a8u/how_do_you_stop_github_issues_from_becoming_a/",
+          "why_relevant": "Reddit r/github search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "How do you stop GitHub issues from becoming a dumping place?",
+      "url": "https://www.reddit.com/r/github/comments/1ta0a8u/how_do_you_stop_github_issues_from_becoming_a/"
+    },
+    {
+      "candidate_id": "https://news.ycombinator.com/item?id=47949488",
+      "cluster_id": "cluster-7",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 29.15,
+      "item_id": "47949488",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "47949488",
+            "native_rank": 4,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 4
+      },
+      "rerank_score": 4.299999999999997,
+      "rrf_score": 0.004035150645624104,
+      "snippet": "Tell HN: GitHub Issues Issues",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "debarshri",
+          "body": "Tell HN: GitHub Issues Issues",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "points": 5
+          },
+          "engagement_score": 4,
+          "freshness": 40,
+          "item_id": "47949488",
+          "local_rank_score": 0.22750000000000004,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=47949488",
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 1.0,
+          "snippet": "Tell HN: GitHub Issues Issues",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "Tell HN: GitHub Issues Issues",
+          "url": "https://news.ycombinator.com/item?id=47949488",
+          "why_relevant": "HN story about Tell HN: GitHub Issues Issues"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Tell HN: GitHub Issues Issues",
+      "url": "https://news.ycombinator.com/item?id=47949488"
+    },
+    {
+      "candidate_id": "https://ghfs.dev",
+      "cluster_id": "cluster-8",
+      "engagement": 2,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 80,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 23.05,
+      "item_id": "48093684",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "48093684",
+            "native_rank": 2,
+            "source": "hackernews",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:hackernews": 2
+      },
+      "rerank_score": 10.899999999999999,
+      "rrf_score": 0.0041653167954829465,
+      "snippet": "Ghfs \u2013 GitHub Issues as a Filesystem",
+      "source": "hackernews",
+      "source_items": [
+        {
+          "author": "ankitg12",
+          "body": "Ghfs \u2013 GitHub Issues as a Filesystem",
+          "container": "Hacker News",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "points": 4
+          },
+          "engagement_score": 2,
+          "freshness": 80,
+          "item_id": "48093684",
+          "local_rank_score": 0.3125,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "hn_url": "https://news.ycombinator.com/item?id=48093684",
+            "top_comments": []
+          },
+          "published_at": "2026-05-11",
+          "relevance_hint": 1.0,
+          "snippet": "Ghfs \u2013 GitHub Issues as a Filesystem",
+          "source": "hackernews",
+          "source_quality": 0.8,
+          "title": "Ghfs \u2013 GitHub Issues as a Filesystem",
+          "url": "https://ghfs.dev/",
+          "why_relevant": "HN story about Ghfs \u2013 GitHub Issues as a Filesystem"
+        }
+      ],
+      "source_quality": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Ghfs \u2013 GitHub Issues as a Filesystem",
+      "url": "https://ghfs.dev/"
+    }
+  ],
+  "topic": "github trending awesome issues",
+  "warnings": []
+}
