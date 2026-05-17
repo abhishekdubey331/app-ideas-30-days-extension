@@ -1,0 +1,658 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hypeurls/comments/1t4lmdo/show_hn_airbyte_agents_context_for_agents_across"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/hypeurls/comments/1t4lmdo/show_hn_airbyte_agents_context_for_agents_across"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hypeurls/comments/1tb9lul/show_hn_gigacatalyst_extend_your_saas_with_an"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/hypeurls/comments/1tb9lul/show_hn_gigacatalyst_extend_your_saas_with_an"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hypeurls/comments/1t0p4w6/show_hn_perfect_bluetooth_midi_for_windows"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/hypeurls/comments/1t0p4w6/show_hn_perfect_bluetooth_midi_for_windows"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Show HN: Perfect Bluetooth MIDI for Windows",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hypeurls/comments/1sqvgj5/show_hn_alien_selfhosting_with_remote_management"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/hypeurls/comments/1sqvgj5/show_hn_alien_selfhosting_with_remote_management"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hypeurls/comments/1sq0c2i/show_hn_google_gemini_is_scanning_your_photos_and"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/hypeurls/comments/1sq0c2i/show_hn_google_gemini_is_scanning_your_photos_and"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-17T00:57:45.314350+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+        "container": "hypeurls",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 2,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 100,
+        "freshness": 60,
+        "item_id": "R1",
+        "local_rank_score": 0.3345,
+        "local_relevance": 0.13,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-05",
+        "relevance_hint": 0.27,
+        "snippet": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+        "url": "https://www.reddit.com/r/hypeurls/comments/1t4lmdo/show_hn_airbyte_agents_context_for_agents_across/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+        "container": "hypeurls",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 83,
+        "item_id": "R2",
+        "local_rank_score": 0.292,
+        "local_relevance": 0.13,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-12",
+        "relevance_hint": 0.26,
+        "snippet": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+        "url": "https://www.reddit.com/r/hypeurls/comments/1tb9lul/show_hn_gigacatalyst_extend_your_saas_with_an/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Show HN: Perfect Bluetooth MIDI for Windows",
+        "container": "hypeurls",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 46,
+        "item_id": "R3",
+        "local_rank_score": 0.21250000000000002,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-01",
+        "relevance_hint": 0.29,
+        "snippet": "Show HN: Perfect Bluetooth MIDI for Windows",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Show HN: Perfect Bluetooth MIDI for Windows",
+        "url": "https://www.reddit.com/r/hypeurls/comments/1t0p4w6/show_hn_perfect_bluetooth_midi_for_windows/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+        "container": "hypeurls",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 9,
+        "item_id": "R4",
+        "local_rank_score": 0.10700000000000001,
+        "local_relevance": 0.13,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-20",
+        "relevance_hint": 0.27,
+        "snippet": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+        "url": "https://www.reddit.com/r/hypeurls/comments/1sqvgj5/show_hn_alien_selfhosting_with_remote_management/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+        "container": "hypeurls",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 0,
+        "freshness": 6,
+        "item_id": "R5",
+        "local_rank_score": 0.10600000000000001,
+        "local_relevance": 0.14,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-19",
+        "relevance_hint": 0.27,
+        "snippet": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+        "url": "https://www.reddit.com/r/hypeurls/comments/1sq0c2i/show_hn_google_gemini_is_scanning_your_photos_and/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\"",
+    "source_weights": {
+      "hackernews": 0.4390243902439025,
+      "reddit": 0.5609756097560976
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" reaction update",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-17",
+  "range_to": "2026-05-17",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/hypeurls/comments/1t4lmdo/show_hn_airbyte_agents_context_for_agents_across",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 60,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 47.95,
+      "item_id": "R1",
+      "local_relevance": 0.13,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1,
+        "reaction:reddit": 1
+      },
+      "rerank_score": 2.1000000000000014,
+      "rrf_score": 0.009196321471411436,
+      "snippet": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+          "container": "hypeurls",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 2,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 100,
+          "freshness": 60,
+          "item_id": "R1",
+          "local_rank_score": 0.3345,
+          "local_relevance": 0.13,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-05",
+          "relevance_hint": 0.27,
+          "snippet": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+          "url": "https://www.reddit.com/r/hypeurls/comments/1t4lmdo/show_hn_airbyte_agents_context_for_agents_across/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
+      "url": "https://www.reddit.com/r/hypeurls/comments/1t4lmdo/show_hn_airbyte_agents_context_for_agents_across/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/hypeurls/comments/1tb9lul/show_hn_gigacatalyst_extend_your_saas_with_an",
+      "cluster_id": "cluster-2",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 9.45,
+      "item_id": "R2",
+      "local_relevance": 0.13,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2,
+        "reaction:reddit": 2
+      },
+      "rerank_score": 6.700000000000003,
+      "rrf_score": 0.00904799370574351,
+      "snippet": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+          "container": "hypeurls",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 83,
+          "item_id": "R2",
+          "local_rank_score": 0.292,
+          "local_relevance": 0.13,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-12",
+          "relevance_hint": 0.26,
+          "snippet": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+          "url": "https://www.reddit.com/r/hypeurls/comments/1tb9lul/show_hn_gigacatalyst_extend_your_saas_with_an/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+      "url": "https://www.reddit.com/r/hypeurls/comments/1tb9lul/show_hn_gigacatalyst_extend_your_saas_with_an/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/hypeurls/comments/1t0p4w6/show_hn_perfect_bluetooth_midi_for_windows",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 46,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 16.95,
+      "item_id": "R3",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3,
+        "reaction:reddit": 3
+      },
+      "rerank_score": 0.7000000000000028,
+      "rrf_score": 0.008904374758033295,
+      "snippet": "Show HN: Perfect Bluetooth MIDI for Windows",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Show HN: Perfect Bluetooth MIDI for Windows",
+          "container": "hypeurls",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 46,
+          "item_id": "R3",
+          "local_rank_score": 0.21250000000000002,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-01",
+          "relevance_hint": 0.29,
+          "snippet": "Show HN: Perfect Bluetooth MIDI for Windows",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Show HN: Perfect Bluetooth MIDI for Windows",
+          "url": "https://www.reddit.com/r/hypeurls/comments/1t0p4w6/show_hn_perfect_bluetooth_midi_for_windows/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Show HN: Perfect Bluetooth MIDI for Windows",
+      "url": "https://www.reddit.com/r/hypeurls/comments/1t0p4w6/show_hn_perfect_bluetooth_midi_for_windows/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/hypeurls/comments/1sqvgj5/show_hn_alien_selfhosting_with_remote_management",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 9,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 8.85,
+      "item_id": "R4",
+      "local_relevance": 0.13,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R4",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4,
+        "reaction:reddit": 4
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.008765243902439025,
+      "snippet": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+          "container": "hypeurls",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 9,
+          "item_id": "R4",
+          "local_rank_score": 0.10700000000000001,
+          "local_relevance": 0.13,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-20",
+          "relevance_hint": 0.27,
+          "snippet": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+          "url": "https://www.reddit.com/r/hypeurls/comments/1sqvgj5/show_hn_alien_selfhosting_with_remote_management/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Show HN: Alien \u2013 Self-hosting with remote management (written in Rust)",
+      "url": "https://www.reddit.com/r/hypeurls/comments/1sqvgj5/show_hn_alien_selfhosting_with_remote_management/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/hypeurls/comments/1sq0c2i/show_hn_google_gemini_is_scanning_your_photos_and",
+      "cluster_id": "cluster-5",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 6,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 9.75,
+      "item_id": "R5",
+      "local_relevance": 0.14,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R5",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5,
+        "reaction:reddit": 5
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.008630393996247654,
+      "snippet": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+          "container": "hypeurls",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 0,
+          "freshness": 6,
+          "item_id": "R5",
+          "local_rank_score": 0.10600000000000001,
+          "local_relevance": 0.14,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-19",
+          "relevance_hint": 0.27,
+          "snippet": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+          "url": "https://www.reddit.com/r/hypeurls/comments/1sq0c2i/show_hn_google_gemini_is_scanning_your_photos_and/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Show HN: Google Gemini Is Scanning Your Photos \u2013 and the EU Said No",
+      "url": "https://www.reddit.com/r/hypeurls/comments/1sq0c2i/show_hn_google_gemini_is_scanning_your_photos_and/"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
