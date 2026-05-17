@@ -1,0 +1,115 @@
+Batch C sources=youtube
+Started at 2026-05-17T08:48:36Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/25986281866
+----
+
+===== Seed: "I wish there was an app" =====
+/last30days · researching: "I wish there was an app"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""i wish there app"" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for '"i wish there was an app"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22i+wish+there+was+an+app%22
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for '"i wish there was an app"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22i+wish+there+was+an+app%22
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (1.1s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-17/0848-i-wish-there-was-an-app.json
+[OK] seed succeeded
+
+===== Seed: "why is there no" tool =====
+/last30days · researching: "why is there no" tool
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""why there no"" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for '"why is there no" tool' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22why+is+there+no%22+tool
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for '"why is there no" tool' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22why+is+there+no%22+tool
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (0.7s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-17/0848-why-is-there-no-tool.json
+[OK] seed succeeded
+
+===== Seed: "is there a tool that" =====
+/last30days · researching: "is there a tool that"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""is there that"" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for '"is there a tool that"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22is+there+a+tool+that%22
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for '"is there a tool that"' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22is+there+a+tool+that%22
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (4.4s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-17/0848-is-there-a-tool-that.json
+[OK] seed succeeded
+
+===== Seed: "frustrated with" software =====
+/last30days · researching: "frustrated with" software
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""frustrated with" software" sources=[youtube]
+[YouTube] Searching YouTube via ScrapeCreators for '"frustrated with" software' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22frustrated+with%22+software
+[YouTube] SC YouTube search returned 0 results
+[YouTube] Searching YouTube via ScrapeCreators for '"frustrated with" software' (depth=default)
+[YouTube] SC YouTube search error: 400 Client Error: Bad Request for url: https://api.scrapecreators.com/v1/youtube/search?keyword=%22frustrated+with%22+software
+[YouTube] SC YouTube search returned 0 results
+✓ Research complete (0.7s) - YouTube: 0 videos
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-17/0848-frustrated-with-software.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
