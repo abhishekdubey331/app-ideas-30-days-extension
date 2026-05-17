@@ -1,0 +1,300 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"better alternative to\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@noeldeyzel_fragrance/video/7635351281359490318"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@noeldeyzel_fragrance/video/7635351281359490318"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f #cologne #perfume"
+    },
+    {
+      "candidate_ids": [
+        "https://instagram.com/reel/dyd66udhtig"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://instagram.com/reel/dyd66udhtig"
+      ],
+      "score": 0.0,
+      "sources": [
+        "instagram"
+      ],
+      "title": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-17T12:28:22.624289+00:00",
+  "items_by_source": {
+    "instagram": [
+      {
+        "author": "917292i0",
+        "body": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter\nCanvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "likes": 330,
+          "views": 13951
+        },
+        "engagement_score": 50,
+        "freshness": 82,
+        "item_id": "IG5",
+        "local_rank_score": 0.255,
+        "local_relevance": 0.0,
+        "metadata": {
+          "hashtags": [
+            "school",
+            "finals",
+            "canvas",
+            "canvashack",
+            "shinyhunter"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-08",
+        "relevance_hint": 0.0,
+        "snippet": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+        "source": "instagram",
+        "source_quality": 0.58,
+        "title": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+        "url": "https://www.instagram.com/reel/DYD66uDhtiG/",
+        "why_relevant": "Instagram: Canvas hack might actually cook me #school #finals #canvas #"
+      }
+    ],
+    "tiktok": [
+      {
+        "author": "noeldeyzel_fragrance",
+        "body": "The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f #cologne #perfume\nThese are the best affordable alternatives to the most popular Louis Vuitton fragrances. Now these are expensive fragrances and this is based on my taste, so let's get into it. Starting off with Ombre Nomad. And my favourite alternative to that is Alchem Gold. From the top, this removes that barnyardness to it and makes it a bit more fruit fruity and fun. And I think for a lot of you guys this would make for a great first Ood fragrance. And next up, such a beautiful fragrance and that's Afternoon Swim. And my alternative that I choose is D X B by Mason Ashworth. Everyone's biggest complaint with Afternoon Swim is its performance, and this kind of fixes it. It doesn't smell 100% like Afternoon Swim, but I think it gets close enough. And next up we have city of stars, and my choice is Velixia Estaria. This captures the same profile so very well. And sunscreen fragrances like both of these I find to be so very comforting. Next up we have meteor, and my affordable alternative is Shaka Snow by cotton. Now both of these is just a clean baby wipe type of linen smell. Shaka Snow is a little bit softer, but it's an amazing masculine scent. And now the ever so hyped imagination, and the one that I'm choosing almost every single time, and that's by Jeremy Hector. To me, this is the closest take to imagination ever. I get similar performance, similar projection and I think this one is just a no brainer. And lastly, summer banger. And my inspiration of choice for this one is Maison Azur Vision. This one kind of flew under the radar for a little bit, but the performance on this is outstanding. It does carry a little bit more Musk in it, but overall a solid take on the D N A",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 446,
+          "likes": 75351,
+          "shares": 2801,
+          "views": 995898
+        },
+        "engagement_score": 100,
+        "freshness": 70,
+        "item_id": "TK1",
+        "local_rank_score": 0.379,
+        "local_relevance": 0.16,
+        "metadata": {
+          "hashtags": [
+            "cologne",
+            "perfume"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-02",
+        "relevance_hint": 0.0,
+        "snippet": "These are the best affordable alternatives to the most popular Louis Vuitton fragrances. Now these are expensive fragrances and this is based on my taste, so let's get into it. Starting off with Ombre Nomad. And my favourite alternative to that is Alchem Gold. From the top, this removes that barnyardness to it and makes it a bit more fruit fruity and fun. And I think for a lot of you guys this would make for a great first Ood fragrance. And next up, such a beautiful fragrance and that's Afternoon Swim. And my alternative that I choose is D X B by Mason Ashworth. Everyone's biggest complaint with Afternoon Swim is its performance, and this kind of fixes it....",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f #cologne #perfume",
+        "url": "https://www.tiktok.com/@noeldeyzel_fragrance/video/7635351281359490318",
+        "why_relevant": "TikTok: The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"better alternative to\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"better alternative to\"?",
+        "search_query": "\"better alternative to\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-17",
+  "range_to": "2026-05-17",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@noeldeyzel_fragrance/video/7635351281359490318",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK1",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 6.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "These are the best affordable alternatives to the most popular Louis Vuitton fragrances. Now these are expensive fragrances and this is based on my taste, so let's get into it. Starting off with Ombre Nomad. And my favourite alternative to that is Alchem Gold. From the top, this removes that barnyardness to it and makes it a bit more fruit fruity and fun. And I think for a lot of you guys this would make for a great first Ood fragrance. And next up, such a beautiful fragrance and that's Afternoon Swim. And my alternative that I choose is D X B by Mason Ashworth. Everyone's biggest complaint with Afternoon Swim is its performance, and this kind of fixes it....",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "noeldeyzel_fragrance",
+          "body": "The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f #cologne #perfume\nThese are the best affordable alternatives to the most popular Louis Vuitton fragrances. Now these are expensive fragrances and this is based on my taste, so let's get into it. Starting off with Ombre Nomad. And my favourite alternative to that is Alchem Gold. From the top, this removes that barnyardness to it and makes it a bit more fruit fruity and fun. And I think for a lot of you guys this would make for a great first Ood fragrance. And next up, such a beautiful fragrance and that's Afternoon Swim. And my alternative that I choose is D X B by Mason Ashworth. Everyone's biggest complaint with Afternoon Swim is its performance, and this kind of fixes it. It doesn't smell 100% like Afternoon Swim, but I think it gets close enough. And next up we have city of stars, and my choice is Velixia Estaria. This captures the same profile so very well. And sunscreen fragrances like both of these I find to be so very comforting. Next up we have meteor, and my affordable alternative is Shaka Snow by cotton. Now both of these is just a clean baby wipe type of linen smell. Shaka Snow is a little bit softer, but it's an amazing masculine scent. And now the ever so hyped imagination, and the one that I'm choosing almost every single time, and that's by Jeremy Hector. To me, this is the closest take to imagination ever. I get similar performance, similar projection and I think this one is just a no brainer. And lastly, summer banger. And my inspiration of choice for this one is Maison Azur Vision. This one kind of flew under the radar for a little bit, but the performance on this is outstanding. It does carry a little bit more Musk in it, but overall a solid take on the D N A",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 446,
+            "likes": 75351,
+            "shares": 2801,
+            "views": 995898
+          },
+          "engagement_score": 100,
+          "freshness": 70,
+          "item_id": "TK1",
+          "local_rank_score": 0.379,
+          "local_relevance": 0.16,
+          "metadata": {
+            "hashtags": [
+              "cologne",
+              "perfume"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-02",
+          "relevance_hint": 0.0,
+          "snippet": "These are the best affordable alternatives to the most popular Louis Vuitton fragrances. Now these are expensive fragrances and this is based on my taste, so let's get into it. Starting off with Ombre Nomad. And my favourite alternative to that is Alchem Gold. From the top, this removes that barnyardness to it and makes it a bit more fruit fruity and fun. And I think for a lot of you guys this would make for a great first Ood fragrance. And next up, such a beautiful fragrance and that's Afternoon Swim. And my alternative that I choose is D X B by Mason Ashworth. Everyone's biggest complaint with Afternoon Swim is its performance, and this kind of fixes it....",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f #cologne #perfume",
+          "url": "https://www.tiktok.com/@noeldeyzel_fragrance/video/7635351281359490318",
+          "why_relevant": "TikTok: The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "The BEST CHEAP alternatives to Louis Vuitton fragrances \ud83e\udee1\u2764\ufe0f #cologne #perfume",
+      "url": "https://www.tiktok.com/@noeldeyzel_fragrance/video/7635351281359490318"
+    },
+    {
+      "candidate_id": "https://instagram.com/reel/dyd66udhtig",
+      "cluster_id": "cluster-2",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 44.95,
+      "item_id": "IG5",
+      "local_relevance": 0.0,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "IG5",
+            "native_rank": 1,
+            "source": "instagram",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:instagram": 1
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+      "source": "instagram",
+      "source_items": [
+        {
+          "author": "917292i0",
+          "body": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter\nCanvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "likes": 330,
+            "views": 13951
+          },
+          "engagement_score": 50,
+          "freshness": 82,
+          "item_id": "IG5",
+          "local_rank_score": 0.255,
+          "local_relevance": 0.0,
+          "metadata": {
+            "hashtags": [
+              "school",
+              "finals",
+              "canvas",
+              "canvashack",
+              "shinyhunter"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-08",
+          "relevance_hint": 0.0,
+          "snippet": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+          "source": "instagram",
+          "source_quality": 0.58,
+          "title": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+          "url": "https://www.instagram.com/reel/DYD66uDhtiG/",
+          "why_relevant": "Instagram: Canvas hack might actually cook me #school #finals #canvas #"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "instagram"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Canvas hack might actually cook me #school #finals #canvas #canvashack #shinyhunter",
+      "url": "https://www.instagram.com/reel/DYD66uDhtiG/"
+    }
+  ],
+  "topic": "\"better alternative to\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
