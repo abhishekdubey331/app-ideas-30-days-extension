@@ -1,0 +1,210 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Ask HN\" tool",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/classicusenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/classicusenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Ask HN: When did computers stop being fun?",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-18T09:21:22.189463+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Ask HN: When did computers stop being fun?\n\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out.\n\nI don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012.\n\nI think community building is what's been missing or done badly f",
+        "container": "ClassicUsenet",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 50,
+        "freshness": 96,
+        "item_id": "R1",
+        "local_rank_score": 0.3485,
+        "local_relevance": 0.09,
+        "metadata": {
+          "comment_insights": [
+            "\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always so..."
+          ],
+          "top_comments": [
+            {
+              "author": "Parker51MKII",
+              "date": "2026-05-17",
+              "excerpt": "\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out.\n\nI don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012.\n\nI think community building is what's been missing or done badly f",
+              "score": 1,
+              "url": "https://reddit.com/r/ClassicUsenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun/omazyea/"
+            }
+          ]
+        },
+        "published_at": "2026-05-17",
+        "relevance_hint": 0.23,
+        "snippet": "\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out.\n\nI don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012.\n\nI think community building is what's been missing or done badly f",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Ask HN: When did computers stop being fun?",
+        "url": "https://www.reddit.com/r/ClassicUsenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Ask HN\" tool",
+    "source_weights": {
+      "hackernews": 0.4390243902439025,
+      "reddit": 0.5609756097560976
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Ask HN\" tool, especially about site:news.ycombinator.com \"ask hn\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Ask HN\" tool?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" reaction update",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-04-18",
+  "range_to": "2026-05-18",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/classicusenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 96,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.09,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1,
+        "reaction:reddit": 1
+      },
+      "rerank_score": 6.5000000000000036,
+      "rrf_score": 0.009196321471411436,
+      "snippet": "\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out.\n\nI don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012.\n\nI think community building is what's been missing or done badly f",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Ask HN: When did computers stop being fun?\n\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out.\n\nI don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012.\n\nI think community building is what's been missing or done badly f",
+          "container": "ClassicUsenet",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 50,
+          "freshness": 96,
+          "item_id": "R1",
+          "local_rank_score": 0.3485,
+          "local_relevance": 0.09,
+          "metadata": {
+            "comment_insights": [
+              "\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always so..."
+            ],
+            "top_comments": [
+              {
+                "author": "Parker51MKII",
+                "date": "2026-05-17",
+                "excerpt": "\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out.\n\nI don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012.\n\nI think community building is what's been missing or done badly f",
+                "score": 1,
+                "url": "https://reddit.com/r/ClassicUsenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun/omazyea/"
+              }
+            ]
+          },
+          "published_at": "2026-05-17",
+          "relevance_hint": 0.23,
+          "snippet": "\"BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out.\n\nI don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012.\n\nI think community building is what's been missing or done badly f",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Ask HN: When did computers stop being fun?",
+          "url": "https://www.reddit.com/r/ClassicUsenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Ask HN: When did computers stop being fun?",
+      "url": "https://www.reddit.com/r/ClassicUsenet/comments/1tfpqyg/ask_hn_when_did_computers_stop_being_fun/"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Ask HN\" tool",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
