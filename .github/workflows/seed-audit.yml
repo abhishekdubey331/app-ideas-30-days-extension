@@ -1,0 +1,161 @@
+name: Seed audit — monthly review of topics.yml yields
+
+# Runs once per month at 12:00 UTC on the 1st. Reads the rolling pool on
+# the `data` branch, cross-references it against the currently-enabled
+# seeds in `topics.yml`, and opens an issue on this repo with a swap
+# recommendation. Does NOT modify topics.yml automatically — the user
+# reviews the issue and makes the edits.
+#
+# No external secrets required. The audit script is pure stdlib Python
+# (no LLM call), so this workflow is essentially free compute.
+
+on:
+  schedule:
+    - cron: '0 12 1 * *'
+  workflow_dispatch:
+    inputs:
+      window_days:
+        description: 'Rolling lookback in days'
+        required: false
+        default: '30'
+  # Label-based trigger: add the `run-seed-audit` label to any issue and
+  # this workflow fires once. Label auto-removes so re-labelling fires a
+  # fresh run. Useful for on-demand testing of seed health.
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: read   # only reads topics.yml + the data branch
+  issues: write    # to open the audit issue + remove the trigger label
+
+concurrency:
+  group: seed-audit-${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    if: github.event_name != 'issues' || github.event.label.name == 'run-seed-audit'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout main (engine + topics.yml + audit script)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Acknowledge label trigger on the issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh issue comment "${{ github.event.issue.number }}" \
+            --repo "${{ github.repository }}" \
+            --body "Seed-audit workflow triggered via \`run-seed-audit\` label. Watch progress at: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh issue edit "${{ github.event.issue.number }}" \
+            --repo "${{ github.repository }}" \
+            --remove-label "run-seed-audit"
+
+      - name: Probe for `data` branch
+        # Skip the audit cleanly on first-month runs (no data branch yet).
+        id: probe-data
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads "https://github.com/${{ github.repository }}.git" data >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Skip + note when data branch is missing
+        if: steps.probe-data.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          MONTH=$(date -u +%Y-%m)
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "Seed audit — ${MONTH} — skipped (no data yet)" \
+            --body "Skipped this month's seed audit: the \`data\` branch does not exist yet. Audit will run normally once batches have started committing.\n\nRun: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Checkout `data` branch (rolling pool)
+        if: steps.probe-data.outputs.exists == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: batch-data
+          fetch-depth: 1
+
+      - name: Set up uv
+        if: steps.probe-data.outputs.exists == 'true'
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Set up Python 3.12
+        if: steps.probe-data.outputs.exists == 'true'
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        if: steps.probe-data.outputs.exists == 'true'
+        run: uv sync --frozen || uv sync
+
+      - name: Run seed audit
+        if: steps.probe-data.outputs.exists == 'true'
+        id: audit
+        run: |
+          set -euo pipefail
+          WINDOW="${{ github.event.inputs.window_days }}"
+          WINDOW="${WINDOW:-30}"
+          DATA_DIR="batch-data/data"
+          if [ ! -d "$DATA_DIR" ]; then
+            echo "::warning::data branch exists but has no data/ directory yet."
+            echo "have_audit=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if uv run --frozen python3 skills/seed-audit/scripts/audit_seeds.py \
+              --data-dir "$DATA_DIR" \
+              --topics topics.yml \
+              --window-days "$WINDOW" \
+              --emit markdown > /tmp/seed-audit.md; then
+            echo "have_audit=true" >> "$GITHUB_OUTPUT"
+            wc -l /tmp/seed-audit.md
+          else
+            echo "::warning::Audit script returned non-zero — likely empty rolling pool."
+            echo "have_audit=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open issue with audit report
+        if: steps.audit.outputs.have_audit == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          MONTH=$(date -u +%Y-%m)
+          TITLE="Seed audit — ${MONTH}"
+          BODY_FILE=/tmp/issue-body.md
+          {
+            echo "Auto-generated monthly seed audit. Reviews \`topics.yml\` seeds against the rolling 30-day pool on the \`data\` branch."
+            echo ""
+            echo "Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo ""
+            echo "---"
+            echo ""
+            cat /tmp/seed-audit.md
+            echo ""
+            echo "---"
+            echo ""
+            echo "### What to do with this"
+            echo "- **DEAD** seeds: remove from \`topics.yml\`."
+            echo "- **WEAK** seeds: replace with a sharper sibling phrase."
+            echo "- **DOMINANT** seeds: split into 2 narrower seeds rather than removing."
+            echo "- **HEALTHY** seeds: leave alone."
+            echo "- **ORPHAN** entries age out naturally — no action needed."
+            echo ""
+            echo "Close this issue when the \`topics.yml\` swap PR is merged."
+          } > "$BODY_FILE"
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "$TITLE" \
+            --body-file "$BODY_FILE"

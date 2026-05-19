@@ -286,8 +286,45 @@ jobs:
             echo "::warning::brief.md missing or empty; skipping brief persistence."
           fi
 
+      - name: Append rows to idea-ledger + capture dedup warnings
+        # The ledger lives in the App-Ideas repo (next to the ideas it
+        # tracks). Run a dry-pass first: if the script detects near-
+        # duplicates against existing ledger rows it returns exit code 3
+        # without writing anything. We then re-run with --force to commit
+        # the new rows and stash the warnings for a follow-up PR comment.
+        if: steps.synth.outputs.have_ideas == 'true'
+        id: ledger
+        run: |
+          set -euo pipefail
+          DAY="${{ steps.synth.outputs.day }}"
+          LEDGER="ideas-repo/ledger.csv"
+          BRIEF="ideas-repo/ideas/${DAY}/ideas.md"
+
+          LEDGER_RC=0
+          DEDUP_OUTPUT=$(uv run --frozen python3 skills/idea-ledger/scripts/ledger.py add \
+            --brief "$BRIEF" \
+            --ledger "$LEDGER" \
+            --init 2>&1) || LEDGER_RC=$?
+
+          if [ "$LEDGER_RC" -eq 0 ]; then
+            echo "$DEDUP_OUTPUT"
+            echo "have_warnings=false" >> "$GITHUB_OUTPUT"
+          elif [ "$LEDGER_RC" -eq 3 ]; then
+            echo "$DEDUP_OUTPUT" | tee /tmp/dedup-warnings.txt
+            uv run --frozen python3 skills/idea-ledger/scripts/ledger.py add \
+              --brief "$BRIEF" \
+              --ledger "$LEDGER" \
+              --init --force
+            echo "have_warnings=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::Ledger script returned ${LEDGER_RC} — skipping ledger update."
+            echo "$DEDUP_OUTPUT"
+            echo "have_warnings=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Open PR on the ideas repo
         if: steps.synth.outputs.have_ideas == 'true'
+        id: pr
         uses: peter-evans/create-pull-request@v6
         with:
           path: ideas-repo
@@ -303,16 +340,52 @@ jobs:
             `${{ github.repository }}@data`. Synthesized via Claude Code on
             the user's Max-plan OAuth token.
 
+            This PR includes:
+            - `ideas/${{ steps.synth.outputs.day }}/ideas.md` — today's ranked ideas
+            - `ideas/${{ steps.synth.outputs.day }}/brief.md` — source evidence pool
+            - `ledger.csv` — updated with new rows (see PR comments for any dedup warnings)
+
             Review tips:
             - Check each idea for evidence (URLs must trace back to the
               source batch).
             - Drop any idea where you can name 2+ existing competitors.
             - Treat PAIN + WILL-PAY items as highest-priority.
+            - If dedup warnings posted, review them before acting on
+              today's brief — you may be re-surfacing a previously
+              killed idea.
 
             Workflow run:
             https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           delete-branch: false
           draft: true
+
+      - name: Comment dedup warnings on the PR
+        # Only fires when the ledger step detected near-duplicate idea
+        # titles against existing rows. Surfaces the warnings as a PR
+        # comment (using PAT_TOKEN — GITHUB_TOKEN can't comment on a
+        # cross-repo PR) so the reviewer sees them inline.
+        if: |
+          steps.synth.outputs.have_ideas == 'true' &&
+          steps.ledger.outputs.have_warnings == 'true' &&
+          steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          set -euo pipefail
+          {
+            echo "### Idea ledger — dedup warnings"
+            echo ""
+            echo "The following titles in today's brief look similar to existing ledger rows. Review before acting — you may be re-surfacing an idea that was already killed or feasibility-tested."
+            echo ""
+            echo '```'
+            cat /tmp/dedup-warnings.txt
+            echo '```'
+            echo ""
+            echo "If a match is real, use \`/idea-ledger status <id> <new-status>\` on the existing row instead of treating today's row as a new idea."
+          } > /tmp/dedup-comment.md
+          gh pr comment "${{ steps.pr.outputs.pull-request-number }}" \
+            --repo "${{ env.IDEAS_REPO }}" \
+            --body-file /tmp/dedup-comment.md
 
       - name: Prune stale batches from data branch
         if: |
