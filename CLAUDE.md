@@ -8,6 +8,9 @@ Python scripts with multi-source search aggregation.
 - `skills/last30days/scripts/last30days.py` — main research engine
 - `skills/last30days/scripts/lib/` — search, enrichment, rendering modules
 - `skills/last30days/scripts/lib/vendor/bird-search/` — vendored X search client
+- `skills/brief-triage/SKILL.md` — `/brief-triage`: triage a daily `ideas.md` into OBVIOUS NO / WORTH FEASIBILITY / NEEDS INFO buckets before paying for `/app-idea-feasibility`
+- `skills/seed-audit/SKILL.md` + `scripts/audit_seeds.py` — `/seed-audit`: audit `topics.yml` seeds against the rolling pool on the `data` branch, recommend swaps for dead/weak seeds
+- `skills/idea-ledger/SKILL.md` + `scripts/ledger.py` — `/idea-ledger`: CSV ledger tracking every surfaced idea + its fate (state machine: surfaced → triaged → feasibility → validation → building → shipped/abandoned)
 
 ## Commands
 ```bash
