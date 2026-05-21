@@ -1,0 +1,548 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Help adding kid into photo"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nostupidquestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/nostupidquestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there an app that can block other apps for a certain amount of time?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-21T01:02:53.470774+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I\u2019m still spending more than I want to\u2026need a good budgeting app\nI have cut down on a lot of expenses but I\u2019m still not saving what I want to per month for how much my expenses are. I need a good budgeting app that tracks my purchases. I know that some people are against credit cards but I use 3 of them every month on all my purchases and pay them off at the end to use the airline miles. In 4 years I\u2019ve never paid one penny of interest. So with that being said, is there an app that I can put my credit cards in and it will automatically track my spending every",
+        "container": "personalfinance",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 13,
+          "score": 0,
+          "upvote_ratio": 0.4
+        },
+        "engagement_score": 21,
+        "freshness": 97,
+        "item_id": "R3",
+        "local_rank_score": 0.3935,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-20",
+        "relevance_hint": 0.4,
+        "snippet": "I have cut down on a lot of expenses but I\u2019m still not saving what I want to per month for how much my expenses are. I need a good budgeting app that tracks my purchases. I know that some people are against credit cards but I use 3 of them every month on all my purchases and pay them off at the end to use the airline miles. In 4 years I\u2019ve never paid one penny of interest. So with that being said,",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?\nI've been using a mix of MyFitnessPal, Strava, Whoop, and a couple others for the past few years and I'm increasingly annoyed by two things:\n\n1. The calculations are too generic and you can't change them. MFP's \"calories burned\" estimate during exercise is famously bad. Most apps assume one body type, one activity intensity, one metabolic profile. There's no way to say \"actually I know my output is closer to X\" or to plug in real measured data from another source. I'm familiar with better apps s\nThe new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+        "container": "FitnessTrackers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 4,
+          "upvote_ratio": 0.84
+        },
+        "engagement_score": 100,
+        "freshness": 59,
+        "item_id": "R2",
+        "local_rank_score": 0.37749999999999995,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "The new app that fixes everything recommendation coming in 3....2....1....",
+            "this frustration is the actual product gap in the entire fitness app stack and you nailed why.",
+            "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoa..."
+          ],
+          "top_comments": [
+            {
+              "author": "TrickyAirport5867",
+              "date": "2026-05-01",
+              "excerpt": "The new app that fixes everything recommendation coming in 3....2....1....",
+              "score": 2,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojdnz1d/"
+            },
+            {
+              "author": "OkDianaTell",
+              "date": "2026-05-03",
+              "excerpt": "this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor",
+              "score": 2,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojnxy14/"
+            },
+            {
+              "author": "teknical38",
+              "date": "2026-05-02",
+              "excerpt": "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+              "score": 1,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojjc8m2/"
+            }
+          ]
+        },
+        "published_at": "2026-05-01",
+        "relevance_hint": 0.22,
+        "snippet": "The new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?",
+        "url": "https://www.reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Help adding kid into photo\nHi, we had some photos taken and I realized after I don\u2019t have one alone with all of my kids in it. Would someone offer advice on how to essentially combine two photos? Is there an app that would do it?\n\nIf not, I\u2019m happy to pay someone for the job but please provide other photo references of similar jobs.\n\nThank you!\n\nEdit: this has been completed! Thank you to everyone who was interested.",
+        "container": "editmyphoto",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 17,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 78,
+        "freshness": 55,
+        "item_id": "R1",
+        "local_rank_score": 0.34550000000000003,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.22,
+        "snippet": "Hi, we had some photos taken and I realized after I don\u2019t have one alone with all of my kids in it. Would someone offer advice on how to essentially combine two photos? Is there an app that would do it?\n\nIf not, I\u2019m happy to pay someone for the job but please provide other photo references of similar jobs.\n\nThank you!\n\nEdit: this has been completed! Thank you to everyone who was interested.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Help adding kid into photo",
+        "url": "https://www.reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there an app that can block other apps for a certain amount of time?\nHey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+        "container": "NoStupidQuestions",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 18,
+        "freshness": 61,
+        "item_id": "R6",
+        "local_rank_score": 0.3005,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-02",
+        "relevance_hint": 0.63,
+        "snippet": "Hey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there an app that can block other apps for a certain amount of time?",
+        "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-21",
+  "range_to": "2026-05-21",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/fitnesstrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "The new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?\nI've been using a mix of MyFitnessPal, Strava, Whoop, and a couple others for the past few years and I'm increasingly annoyed by two things:\n\n1. The calculations are too generic and you can't change them. MFP's \"calories burned\" estimate during exercise is famously bad. Most apps assume one body type, one activity intensity, one metabolic profile. There's no way to say \"actually I know my output is closer to X\" or to plug in real measured data from another source. I'm familiar with better apps s\nThe new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+          "container": "FitnessTrackers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 4,
+            "upvote_ratio": 0.84
+          },
+          "engagement_score": 100,
+          "freshness": 59,
+          "item_id": "R2",
+          "local_rank_score": 0.37749999999999995,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "The new app that fixes everything recommendation coming in 3....2....1....",
+              "this frustration is the actual product gap in the entire fitness app stack and you nailed why.",
+              "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoa..."
+            ],
+            "top_comments": [
+              {
+                "author": "TrickyAirport5867",
+                "date": "2026-05-01",
+                "excerpt": "The new app that fixes everything recommendation coming in 3....2....1....",
+                "score": 2,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojdnz1d/"
+              },
+              {
+                "author": "OkDianaTell",
+                "date": "2026-05-03",
+                "excerpt": "this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor",
+                "score": 2,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojnxy14/"
+              },
+              {
+                "author": "teknical38",
+                "date": "2026-05-02",
+                "excerpt": "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+                "score": 1,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojjc8m2/"
+              }
+            ]
+          },
+          "published_at": "2026-05-01",
+          "relevance_hint": 0.22,
+          "snippet": "The new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?",
+          "url": "https://www.reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?",
+      "url": "https://www.reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo",
+      "cluster_id": "cluster-2",
+      "engagement": 78,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hi, we had some photos taken and I realized after I don\u2019t have one alone with all of my kids in it. Would someone offer advice on how to essentially combine two photos? Is there an app that would do it?\n\nIf not, I\u2019m happy to pay someone for the job but please provide other photo references of similar jobs.\n\nThank you!\n\nEdit: this has been completed! Thank you to everyone who was interested.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Help adding kid into photo\nHi, we had some photos taken and I realized after I don\u2019t have one alone with all of my kids in it. Would someone offer advice on how to essentially combine two photos? Is there an app that would do it?\n\nIf not, I\u2019m happy to pay someone for the job but please provide other photo references of similar jobs.\n\nThank you!\n\nEdit: this has been completed! Thank you to everyone who was interested.",
+          "container": "editmyphoto",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 17,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 78,
+          "freshness": 55,
+          "item_id": "R1",
+          "local_rank_score": 0.34550000000000003,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.22,
+          "snippet": "Hi, we had some photos taken and I realized after I don\u2019t have one alone with all of my kids in it. Would someone offer advice on how to essentially combine two photos? Is there an app that would do it?\n\nIf not, I\u2019m happy to pay someone for the job but please provide other photo references of similar jobs.\n\nThank you!\n\nEdit: this has been completed! Thank you to everyone who was interested.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Help adding kid into photo",
+          "url": "https://www.reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Help adding kid into photo",
+      "url": "https://www.reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good",
+      "cluster_id": "cluster-3",
+      "engagement": 21,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I have cut down on a lot of expenses but I\u2019m still not saving what I want to per month for how much my expenses are. I need a good budgeting app that tracks my purchases. I know that some people are against credit cards but I use 3 of them every month on all my purchases and pay them off at the end to use the airline miles. In 4 years I\u2019ve never paid one penny of interest. So with that being said,",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I\u2019m still spending more than I want to\u2026need a good budgeting app\nI have cut down on a lot of expenses but I\u2019m still not saving what I want to per month for how much my expenses are. I need a good budgeting app that tracks my purchases. I know that some people are against credit cards but I use 3 of them every month on all my purchases and pay them off at the end to use the airline miles. In 4 years I\u2019ve never paid one penny of interest. So with that being said, is there an app that I can put my credit cards in and it will automatically track my spending every",
+          "container": "personalfinance",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 13,
+            "score": 0,
+            "upvote_ratio": 0.4
+          },
+          "engagement_score": 21,
+          "freshness": 97,
+          "item_id": "R3",
+          "local_rank_score": 0.3935,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-20",
+          "relevance_hint": 0.4,
+          "snippet": "I have cut down on a lot of expenses but I\u2019m still not saving what I want to per month for how much my expenses are. I need a good budgeting app that tracks my purchases. I know that some people are against credit cards but I use 3 of them every month on all my purchases and pay them off at the end to use the airline miles. In 4 years I\u2019ve never paid one penny of interest. So with that being said,",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app",
+          "url": "https://www.reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/nostupidquestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a",
+      "cluster_id": "cluster-4",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R6",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 7.200000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "Hey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there an app that can block other apps for a certain amount of time?\nHey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+          "container": "NoStupidQuestions",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 18,
+          "freshness": 61,
+          "item_id": "R6",
+          "local_rank_score": 0.3005,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-02",
+          "relevance_hint": 0.63,
+          "snippet": "Hey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there an app that can block other apps for a certain amount of time?",
+          "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there an app that can block other apps for a certain amount of time?",
+      "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
