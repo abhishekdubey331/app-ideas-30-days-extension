@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@redditstories21p/video/7640506068015025438"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@redditstories21p/video/7640506068015025438"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "FULL STORY #redditstories #redditreadings #fyp #fyppppppppppppppppppppppp #reaction"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-23T12:29:59.867814+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "redditstories21p",
+        "body": "FULL STORY #redditstories #redditreadings #fyp #fyppppppppppppppppppppppp #reaction\nmy best friend disappeared 13 years ago he just added me on Snapchat and told me the horrifying reason why Danny Martinez was my best friend from kindergarten until the summer before eighth grade we did everything together sleepovers every weekend bike rides through the woods behind my house staying up until 3:00am playing video games while his mom yelled at us to go to sleep he was the closest thing I had to a brother on July 14th, 2012 Danny vanished we we're supposed to meet at the park that morning I waited for two hours but he never showed when I biked to his house his mom was standing in the front yard talking to police officer she was screaming and crying and pulling at her hair I've never seen an adult break down like that before they searched for months dogs helicopters volunteers combing through every inch of those woods they found his bike by the creek both tires slashed but no Danny nobody no witnesses no leads after a year the case went cold after three years most people stopped talking about it his mom moved away and his dad drank himself to death I never stopped thinking about him every birthday every graduation every milestone I wondered if Danny was out there somewhere alive or dead last night I got my answer I was scrolling through Snapchat around midnight when a notification popped up friend request from Dani m 2012 my heart stopped I clicked on the profile no Bitmoji no score nothing except a single photo on the story it was picture of two kids on bikes in front of a creek me and Danny the last photo ever taken of us together I accepted the request with shaking hands a message came through immediately Jake it's me I don't have much time so please just read I typed back who is this this isn't funny I know you don't believe me ask me something only Danny would know my fingers hovered over the keyboard I thought about all those nights we spent together all the secrets we shared what did we bury in my backyard the night before you disappeared the response came instantly a time capsule shoebox with baseball cards a note to our future selves and the bracelet I stole from Jessica Miller because I was too scared to give it to her I couldn't breathe we never told anyone about that not our parents not our other friend no one Danny what happened to you where have you been the typing indicator appeared and disappeared several times then a long message came through I can't explain everything they monitor what I say but you need to know the truth I wasn't kidnapped by a stranger it was someone we knew someone we trusted he told me he was taking me somewhere fun a surprise for my birthday I got in the car because I recognized him as you and I...",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 66,
+          "likes": 1287,
+          "shares": 69,
+          "views": 104569
+        },
+        "engagement_score": 82,
+        "freshness": 85,
+        "item_id": "TK3",
+        "local_rank_score": 0.444,
+        "local_relevance": 0.23,
+        "metadata": {
+          "hashtags": [
+            "redditstories",
+            "redditreadings",
+            "fyp",
+            "fyppppppppppppppppppppppp",
+            "reaction"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-16",
+        "relevance_hint": 0.26,
+        "snippet": "my best friend disappeared 13 years ago he just added me on Snapchat and told me the horrifying reason why Danny Martinez was my best friend from kindergarten until the summer before eighth grade we did everything together sleepovers every weekend bike rides through the woods behind my house staying up until 3:00am playing video games while his mom yelled at us to go to sleep he was the closest thing I had to a brother on July 14th, 2012 Danny vanished we we're supposed to meet at the park that morning I waited for two hours but he never showed when I biked to his house his mom was standing in the front yard talking to police officer she...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "FULL STORY #redditstories #redditreadings #fyp #fyppppppppppppppppppppppp #reaction",
+        "url": "https://www.tiktok.com/@redditstories21p/video/7640506068015025438",
+        "why_relevant": "TikTok: FULL STORY #redditstories #redditreadings #fyp #fypppppppppp"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-23",
+  "range_to": "2026-05-23",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@redditstories21p/video/7640506068015025438",
+      "cluster_id": "cluster-1",
+      "engagement": 82,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "TK3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK3",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 13.899999999999991,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "my best friend disappeared 13 years ago he just added me on Snapchat and told me the horrifying reason why Danny Martinez was my best friend from kindergarten until the summer before eighth grade we did everything together sleepovers every weekend bike rides through the woods behind my house staying up until 3:00am playing video games while his mom yelled at us to go to sleep he was the closest thing I had to a brother on July 14th, 2012 Danny vanished we we're supposed to meet at the park that morning I waited for two hours but he never showed when I biked to his house his mom was standing in the front yard talking to police officer she...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "redditstories21p",
+          "body": "FULL STORY #redditstories #redditreadings #fyp #fyppppppppppppppppppppppp #reaction\nmy best friend disappeared 13 years ago he just added me on Snapchat and told me the horrifying reason why Danny Martinez was my best friend from kindergarten until the summer before eighth grade we did everything together sleepovers every weekend bike rides through the woods behind my house staying up until 3:00am playing video games while his mom yelled at us to go to sleep he was the closest thing I had to a brother on July 14th, 2012 Danny vanished we we're supposed to meet at the park that morning I waited for two hours but he never showed when I biked to his house his mom was standing in the front yard talking to police officer she was screaming and crying and pulling at her hair I've never seen an adult break down like that before they searched for months dogs helicopters volunteers combing through every inch of those woods they found his bike by the creek both tires slashed but no Danny nobody no witnesses no leads after a year the case went cold after three years most people stopped talking about it his mom moved away and his dad drank himself to death I never stopped thinking about him every birthday every graduation every milestone I wondered if Danny was out there somewhere alive or dead last night I got my answer I was scrolling through Snapchat around midnight when a notification popped up friend request from Dani m 2012 my heart stopped I clicked on the profile no Bitmoji no score nothing except a single photo on the story it was picture of two kids on bikes in front of a creek me and Danny the last photo ever taken of us together I accepted the request with shaking hands a message came through immediately Jake it's me I don't have much time so please just read I typed back who is this this isn't funny I know you don't believe me ask me something only Danny would know my fingers hovered over the keyboard I thought about all those nights we spent together all the secrets we shared what did we bury in my backyard the night before you disappeared the response came instantly a time capsule shoebox with baseball cards a note to our future selves and the bracelet I stole from Jessica Miller because I was too scared to give it to her I couldn't breathe we never told anyone about that not our parents not our other friend no one Danny what happened to you where have you been the typing indicator appeared and disappeared several times then a long message came through I can't explain everything they monitor what I say but you need to know the truth I wasn't kidnapped by a stranger it was someone we knew someone we trusted he told me he was taking me somewhere fun a surprise for my birthday I got in the car because I recognized him as you and I...",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 66,
+            "likes": 1287,
+            "shares": 69,
+            "views": 104569
+          },
+          "engagement_score": 82,
+          "freshness": 85,
+          "item_id": "TK3",
+          "local_rank_score": 0.444,
+          "local_relevance": 0.23,
+          "metadata": {
+            "hashtags": [
+              "redditstories",
+              "redditreadings",
+              "fyp",
+              "fyppppppppppppppppppppppp",
+              "reaction"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-16",
+          "relevance_hint": 0.26,
+          "snippet": "my best friend disappeared 13 years ago he just added me on Snapchat and told me the horrifying reason why Danny Martinez was my best friend from kindergarten until the summer before eighth grade we did everything together sleepovers every weekend bike rides through the woods behind my house staying up until 3:00am playing video games while his mom yelled at us to go to sleep he was the closest thing I had to a brother on July 14th, 2012 Danny vanished we we're supposed to meet at the park that morning I waited for two hours but he never showed when I biked to his house his mom was standing in the front yard talking to police officer she...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "FULL STORY #redditstories #redditreadings #fyp #fyppppppppppppppppppppppp #reaction",
+          "url": "https://www.tiktok.com/@redditstories21p/video/7640506068015025438",
+          "why_relevant": "TikTok: FULL STORY #redditstories #redditreadings #fyp #fypppppppppp"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "FULL STORY #redditstories #redditreadings #fyp #fyppppppppppppppppppppppp #reaction",
+      "url": "https://www.tiktok.com/@redditstories21p/video/7640506068015025438"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
