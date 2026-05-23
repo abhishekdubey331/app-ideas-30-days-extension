@@ -1,0 +1,1361 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/googleplayconsole/comments/1til4xs/a_lot_of_android_devs_are_focusing_on_getting_20"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/googleplayconsole/comments/1til4xs/a_lot_of_android_devs_are_focusing_on_getting_20"
+      ],
+      "score": 12.736129032258063,
+      "sources": [
+        "reddit"
+      ],
+      "title": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/howtomen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/howtomen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker"
+      ],
+      "score": 12.109180327868849,
+      "sources": [
+        "reddit"
+      ],
+      "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/entrepreneurridealong/comments/1tl19s2/i_got_so_frustrated_with_manual_tracking_apps"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/entrepreneurridealong/comments/1tl19s2/i_got_so_frustrated_with_manual_tracking_apps"
+      ],
+      "score": 9.593125,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got so frustrated with manual tracking apps that I spent the last few months coding an AI fitness alternative for Android."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fishingforbeginners/comments/1tfsqhe/never_been_more_frustrated"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/fishingforbeginners/comments/1tfsqhe/never_been_more_frustrated"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Never Been More Frustrated"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nextcloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/nextcloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/google/comments/1th12x9/google_killing_meet_on_android_tv_is_a_massive"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/google/comments/1th12x9/google_killing_meet_on_android_tv_is_a_massive"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Google killing Meet on Android TV is a massive downgrade. The \"Casting\" workaround is completely broken. What now?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/applewatchfitness/comments/1tiejdc/iphone_workout_tracking_and_apple_watch_app_no"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://reddit.com/r/applewatchfitness/comments/1tiejdc/iphone_workout_tracking_and_apple_watch_app_no"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "iPhone Workout Tracking and Apple Watch app, no Subscriptions, totaly Free!\""
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/buildinpublic/comments/1teq0d2/i_built_a_workout_tracker_that_shows_you_exactly"
+      ],
+      "cluster_id": "cluster-8",
+      "representative_ids": [
+        "https://reddit.com/r/buildinpublic/comments/1teq0d2/i_built_a_workout_tracker_that_shows_you_exactly"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a workout tracker that shows you exactly which muscles you're hitting \u2014 just shipped to the App Store"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1teqmwk/i_got_tired_of_juggling_3_different_fitness_apps"
+      ],
+      "cluster_id": "cluster-9",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1teqmwk/i_got_tired_of_juggling_3_different_fitness_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of juggling 3 different fitness apps, so I built an all-in-one tracker for Android. (Giving away Premium for feedback)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-23T00:56:22.409722+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps\nI\u2019m 19 and recently released my first Android app called \u201cMinimal Lift.\u201d\n\nI originally made it for myself because most workout apps I tried felt way too overwhelming. A lot of them are packed with subscriptions, social features, ads, AI stuff, and screens I never actually used when training.\n\nI just wanted something simple where I could:\n\n* log workouts quickly\n* track lifts\n* stay consistent\n* and get out of the app fast\n\nSo I started building my own version with a more minimal approach.\n\nI\u2019m s",
+        "container": "HowToMen",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 25,
+          "score": 37,
+          "upvote_ratio": 0.97
+        },
+        "engagement_score": 69,
+        "freshness": 91,
+        "item_id": "R7",
+        "local_rank_score": 0.5045,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-19",
+        "relevance_hint": 0.89,
+        "snippet": "I\u2019m 19 and recently released my first Android app called \u201cMinimal Lift.\u201d\n\nI originally made it for myself because most workout apps I tried felt way too overwhelming. A lot of them are packed with subscriptions, social features, ads, AI stuff, and screens I never actually used when training.\n\nI just wanted something simple where I could:\n\n* log workouts quickly\n* track lifts\n* stay consistent\n* an",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps",
+        "url": "https://www.reddit.com/r/HowToMen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d\nA lot of Android devs are focusing on getting \u201c20 testers.\u201d\n\nBut honestly, the bigger issue is getting testers who actually behave like real users.\n\nMost testing groups are filled with people who:\n\n* install the app\n* open it once\n* never touch it again\n\nThat creates terrible feedback loops.\n\nIf someone built a finance app, they need testers already frustrated with existing finance tools.\n\nIf someone built a fitness app, they need people who already use fitness apps regularly.\n\nOtherwise the fee",
+        "container": "googleplayconsole",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 2,
+          "upvote_ratio": 0.75
+        },
+        "engagement_score": 23,
+        "freshness": 94,
+        "item_id": "R21",
+        "local_rank_score": 0.466,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-20",
+        "relevance_hint": 0.22,
+        "snippet": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d\n\nBut honestly, the bigger issue is getting testers who actually behave like real users.\n\nMost testing groups are filled with people who:\n\n* install the app\n* open it once\n* never touch it again\n\nThat creates terrible feedback loops.\n\nIf someone built a finance app, they need testers already frustrated with existing finance tools.\n\nIf some",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d",
+        "url": "https://www.reddit.com/r/googleplayconsole/comments/1til4xs/a_lot_of_android_devs_are_focusing_on_getting_20/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Never Been More Frustrated\nI\u2019ve never been more frustrated with a hobby in my life!\n\nI\u2019ve had to teach myself everything on how to fish because my middle child was interested. I\u2019ve watched numerous YouTube videos to help bought all good stuff and still today on a \u201cseasons best\u201d day in the app I\u2019m using we just battle tangled lines from the kid and two guys walk up right next to us and reel in a 3 or 4 lb bass on their 2nd cast while I\u2019m still untangling lines.. \n\nI\u2019ve picked up numerous hobbies through the years and never\nMy perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish.\n\nIt's nice being out in nature, watching the water, smelling the air and appreciating life. Finding a nice spot, setting up your line, switching out baits and lures, and trying different techniques are all a part of fishing.\n\nIf your satisfaction with the hobby depends entirely on whether or no I mean fishing is fun but it definitely isn't the simplest of hobbies. I have times I'll catch crappie one after another same with 5+ pound bass. Then I'll have days i literally get no bites all day long. Technical issues are just apart of fishing as well amd it can be annoying. Don't let other peop Apps will just get your hopes up. You can catch fish anytime. So, delete the app. That's step one.\n\nStep two: Just enjoy being in nature and spending time with your kid. Listen to the birds, watch the water.  Make some core memories together. Any fish you catch is a bonus.\n\nUnless they weighed that",
+        "container": "FishingForBeginners",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 87,
+          "score": 52,
+          "upvote_ratio": 0.95
+        },
+        "engagement_score": 96,
+        "freshness": 88,
+        "item_id": "R4",
+        "local_rank_score": 0.4655,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "My perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish.",
+            "I mean fishing is fun but it definitely isn't the simplest of hobbies.",
+            "Apps will just get your hopes up. You can catch fish anytime.",
+            "Just a heads up, those apps prediciting best times are usually junk.",
+            "It's called fishing not catching, we've all been there and done that.",
+            "Start with the basics. Hook, live worm, sinker and bobber.",
+            "You have given us very little information to use to help you out.",
+            "The goal is to enjoy your time with your kid. Catching fish is secondary. The more times you untangle a birds nest the better you\u2019ll get at it. ",
+            "Get a cane pole with a bobber and worm for each kid. Keep that hook on the water and tell them to forget casting. ",
+            "When I was a little girl probably middle school aged I told my Dad I wanted to start fishing."
+          ],
+          "top_comments": [
+            {
+              "author": "zMiiChy",
+              "date": "2026-05-17",
+              "excerpt": "My perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish.\n\nIt's nice being out in nature, watching the water, smelling the air and appreciating life. Finding a nice spot, setting up your line, switching out baits and lures, and trying different techniques are all a part of fishing.\n\nIf your satisfaction with the hobby depends entirely on whether or no",
+              "score": 78,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombo63n/"
+            },
+            {
+              "author": "DarkElfWanderer",
+              "date": "2026-05-17",
+              "excerpt": "I mean fishing is fun but it definitely isn't the simplest of hobbies. I have times I'll catch crappie one after another same with 5+ pound bass. Then I'll have days i literally get no bites all day long. Technical issues are just apart of fishing as well amd it can be annoying. Don't let other peop",
+              "score": 17,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombmkpz/"
+            },
+            {
+              "author": "Hey-ThatsNotBad",
+              "date": "2026-05-17",
+              "excerpt": "Apps will just get your hopes up. You can catch fish anytime. So, delete the app. That's step one.\n\nStep two: Just enjoy being in nature and spending time with your kid. Listen to the birds, watch the water.  Make some core memories together. Any fish you catch is a bonus.\n\nUnless they weighed that ",
+              "score": 16,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombpt38/"
+            },
+            {
+              "author": "Comprehensive_Bus_19",
+              "date": "2026-05-17",
+              "excerpt": "Just a heads up, those apps prediciting best times are usually junk. \n\nIt sounds like you're trying to do too much at once. Try and get 1 rod down for your kid then once they get the hang of it put yours out. Pay attention to tide/current/wind which will also tangle your lines.\n\nIf freshwater fishin",
+              "score": 9,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombnat8/"
+            },
+            {
+              "author": "Cashhkell",
+              "date": "2026-05-17",
+              "excerpt": "It's called fishing not catching, we've all been there and done that. Pay attention to wind directions and the weight of your lures when casting. No matter what gear you have you won't catch hardly anything if your presentation isn't right and if you cant even get lines in the water. Are you using b",
+              "score": 6,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombn70j/"
+            },
+            {
+              "author": "International_Bend68",
+              "date": "2026-05-17",
+              "excerpt": "Start with the basics. Hook, live worm, sinker and bobber. Cast to where there is some kind of structure - dock, grass, tree stumps, etc. \n\nIt may take them a while to start biting but once they do, it's usually non stop action. ",
+              "score": 5,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombt3a0/"
+            },
+            {
+              "author": "NovelPermission634",
+              "date": "2026-05-17",
+              "excerpt": "When I was a little girl probably middle school aged I told my Dad I wanted to start fishing. I didn't, I just knew we had nothing in common and this would be something we could do together. We went and got all the stuff and went down to the river. I tried talking to him and he told me to be quiet, ",
+              "score": 5,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/omcjghr/"
+            },
+            {
+              "author": "Andy-Tate",
+              "date": "2026-05-17",
+              "excerpt": "You have given us very little information to use to help you out. How old is the kid? In many cases simpler is better. A jihead with a Berkeley Power Nymph is my standard presentation for my kids. In my opinion those apps are a waste of time. I fish whenever I can. It doesn't matter what the moon ph",
+              "score": 4,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombpvgt/"
+            },
+            {
+              "author": "Archie_Marx",
+              "date": "2026-05-17",
+              "excerpt": "The goal is to enjoy your time with your kid. Catching fish is secondary. The more times you untangle a birds nest the better you\u2019ll get at it. ",
+              "score": 4,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombu7aq/"
+            },
+            {
+              "author": "holdthelight",
+              "date": "2026-05-17",
+              "excerpt": "Get a cane pole with a bobber and worm for each kid. Keep that hook on the water and tell them to forget casting. ",
+              "score": 4,
+              "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/omc0gja/"
+            }
+          ]
+        },
+        "published_at": "2026-05-17",
+        "relevance_hint": 0.33,
+        "snippet": "My perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish. It's nice being out in nature, watching the water, smelling the air and appreciating life. Finding a nice spot, setting up your line, switching out baits and lures, and trying different techniques are all a part of fishing. If your satisfaction with the hobby depends entirely on whether or no I mean fishing is fun but it definitely isn't the simplest of hobbies. I have times I'll catch crappie one after another same with 5+ pound bass. Then I'll have days i literally get no bites all day long. Technical issues are just apart of fishing as well amd it...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Never Been More Frustrated",
+        "url": "https://www.reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got so frustrated with manual tracking apps that I spent the last few months coding an AI fitness alternative for Android.\nHey fellow builders,\n\nLike many of you, I have a busy schedule, and I got incredibly frustrated having to manually weigh my food, search databases, and constantly reorganize my gym schedule every time life got in the way and I missed a workout.\n\nSo, I decided to scratch my own itch and build a native Android app called FitSense to automate it.\n\nI built a computer vision model where you just take a picture of your plate, and it returns the accurate macro breakdown (Protein, Carbs, Fat) in under 1",
+        "container": "EntrepreneurRideAlong",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 2,
+        "freshness": 100,
+        "item_id": "R24",
+        "local_rank_score": 0.46,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-23",
+        "relevance_hint": 0.54,
+        "snippet": "Hey fellow builders,\n\nLike many of you, I have a busy schedule, and I got incredibly frustrated having to manually weigh my food, search databases, and constantly reorganize my gym schedule every time life got in the way and I missed a workout.\n\nSo, I decided to scratch my own itch and build a native Android app called FitSense to automate it.\n\nI built a computer vision model where you just take a",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got so frustrated with manual tracking apps that I spent the last few months coding an AI fitness alternative for Android.",
+        "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tl19s2/i_got_so_frustrated_with_manual_tracking_apps/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51\nHey r/Nextcloud,\n\nLike many of you, I host my recipes using Nextcloud Cookbook. But the mobile experience was frustrating me: the existing apps haven't seen updates in a while, and the offline support wasn't completely fitting my needs when cooking in places with bad Wi-Fi.\n\nSo, I spent the last few months scratching my own itch and built\u00a0**AvoCook**.\n\nIt\u2019s a 100% free and open-source mobile client. My main goal was to make the offline experience seamless. It uses a local SQLite database, meanin\nI\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. How vibecoded is this? Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything.\n\nI\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Than",
+        "container": "NextCloud",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 56,
+          "score": 54,
+          "upvote_ratio": 0.92
+        },
+        "engagement_score": 86,
+        "freshness": 88,
+        "item_id": "R5",
+        "local_rank_score": 0.45550000000000007,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+            "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving...",
+            "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?\u00a0",
+            "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+            "Ive been playing with this app for the last couple days.",
+            "I haven't had any issues with: \nversion 0.7.9\ncom.nextcloud_cookbook_flutter.",
+            "If I started the app without syncing with Nextcloud, can I later without starting over?",
+            "How does this compare to Mealie while using the Ghee app for Android?",
+            "Does it work with self-signed certificate? I assume not."
+          ],
+          "top_comments": [
+            {
+              "author": "Allferry",
+              "date": "2026-05-17",
+              "excerpt": "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+              "score": 9,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcdb75/"
+            },
+            {
+              "author": "Inner-Hedgehog5494",
+              "date": "2026-05-17",
+              "excerpt": "How vibecoded is this?",
+              "score": 9,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcecb4/"
+            },
+            {
+              "author": "viviolay",
+              "date": "2026-05-17",
+              "excerpt": "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything.\n\nI\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Than",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcomct/"
+            },
+            {
+              "author": "Hellrazor_muc",
+              "date": "2026-05-17",
+              "excerpt": "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?\u00a0",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omddtev/"
+            },
+            {
+              "author": "gg_allins_microphone",
+              "date": "2026-05-18",
+              "excerpt": "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omfgu3o/"
+            },
+            {
+              "author": "mortsdeer",
+              "date": "2026-05-19",
+              "excerpt": "Ive been playing with this app for the last couple days. Had two bugs, filed issues (with logs), developer fixed them within hours. I'm on Android, I install from github releases via Obtanium.\n\nOne truly notable feature: the \"import from URL\" works better than the stock Cookbook web app: I routinely",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omq3z15/"
+            },
+            {
+              "author": "undrwater",
+              "date": "2026-05-17",
+              "excerpt": "I haven't had any issues with: \nversion 0.7.9\ncom.nextcloud_cookbook_flutter. It syncs and works offline perfectly.\n\nBut yours looks prettier. \n\nOne thing I would LOVE is a way to export and import recipes so we can share with each other our whole collection. That would mean scanning for dupes of co",
+              "score": 1,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcun50/"
+            },
+            {
+              "author": "supernoteslut",
+              "date": "2026-05-17",
+              "excerpt": "If I started the app without syncing with Nextcloud, can I later without starting over?",
+              "score": 1,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omd1wmo/"
+            },
+            {
+              "author": "th3pleasantpeasant",
+              "date": "2026-05-17",
+              "excerpt": "How does this compare to Mealie while using the Ghee app for Android?",
+              "score": 1,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omd5n3o/"
+            },
+            {
+              "author": "Alarming-Flatworm314",
+              "date": "2026-05-17",
+              "excerpt": "Does it work with self-signed certificate? I assume not.  It doesn't want to enter and it shows a generic error \"Unable to sign in.Check the server and app password\" ",
+              "score": 1,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omd6az8/"
+            }
+          ]
+        },
+        "published_at": "2026-05-17",
+        "relevance_hint": 0.24,
+        "snippet": "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. How vibecoded is this? Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything.\n\nI\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Than",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51",
+        "url": "https://www.reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Google killing Meet on Android TV is a massive downgrade. The \"Casting\" workaround is completely broken. What now?\nI\u2019m incredibly frustrated with Google\u2019s recent decision to officially kill off Google Meet for Android TV/Google TV.\n\nFor the last couple of years, my family had the perfect living room setup: an NVIDIA Shield TV Pro paired with a solid USB webcam/mic mounted on top of the TV. It allowed us to comfortably sit back on the couch and video call the grandparents, using the TV\u2019s screen size so the entire family could actually fit in the frame. It was one of the few smart home features that genuinely",
+        "container": "google",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 22,
+          "upvote_ratio": 0.86
+        },
+        "engagement_score": 48,
+        "freshness": 89,
+        "item_id": "R11",
+        "local_rank_score": 0.42,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-18",
+        "relevance_hint": 0.14,
+        "snippet": "I\u2019m incredibly frustrated with Google\u2019s recent decision to officially kill off Google Meet for Android TV/Google TV.\n\nFor the last couple of years, my family had the perfect living room setup: an NVIDIA Shield TV Pro paired with a solid USB webcam/mic mounted on top of the TV. It allowed us to comfortably sit back on the couch and video call the grandparents, using the TV\u2019s screen size so the enti",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Google killing Meet on Android TV is a massive downgrade. The \"Casting\" workaround is completely broken. What now?",
+        "url": "https://www.reddit.com/r/google/comments/1th12x9/google_killing_meet_on_android_tv_is_a_massive/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "iPhone Workout Tracking and Apple Watch app, no Subscriptions, totaly Free!\"\nHey everyone,\n\nI was frustrated with fitness apps locking basic features behind expensive monthly subscriptions, so I decided to build my own. It\u2019s called GymMe. I wanted something that works seamlessly between iPhone and Apple Watch, without needing to constantly take my phone out during a workout.\n\nYou can download it from the App Store here: [GymMe](https://apps.apple.com/gr/app/gymme-workout-pr-tracker/id6766061676) . **Please your comments in order to make it better :)**\n\n  \nBelow are the a",
+        "container": "AppleWatchFitness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 8,
+          "upvote_ratio": 0.66
+        },
+        "engagement_score": 33,
+        "freshness": 94,
+        "item_id": "R15",
+        "local_rank_score": 0.4175,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-20",
+        "relevance_hint": 0.4,
+        "snippet": "Hey everyone,\n\nI was frustrated with fitness apps locking basic features behind expensive monthly subscriptions, so I decided to build my own. It\u2019s called GymMe. I wanted something that works seamlessly between iPhone and Apple Watch, without needing to constantly take my phone out during a workout.\n\nYou can download it from the App Store here: [GymMe](https://apps.apple.com/gr/app/gymme-workout-p",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "iPhone Workout Tracking and Apple Watch app, no Subscriptions, totaly Free!\"",
+        "url": "https://www.reddit.com/r/AppleWatchFitness/comments/1tiejdc/iphone_workout_tracking_and_apple_watch_app_no/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a workout tracker that shows you exactly which muscles you're hitting \u2014 just shipped to the App Store\nA year ago I got frustrated with every fitness app feeling like a spreadsheet or an overcomplicated subscription trap. I wanted something that actually shows me what I'm training \u2014  not just a list of exercises.\n\n\n\n So I built Repbase.\n\n\n\n  **What it does:**\n\n  \\- Muscle map visualization \u2014 front & back body view with targeted muscles highlighted so you can see at a glance if you're overtraining one side or neglecting another\n\n  \\- Health dashboard that pulls Steps, Heart Rate, Calories, and Blo",
+        "container": "buildinpublic",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 3,
+          "upvote_ratio": 0.81
+        },
+        "engagement_score": 27,
+        "freshness": 85,
+        "item_id": "R19",
+        "local_rank_score": 0.389,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-16",
+        "relevance_hint": 0.4,
+        "snippet": "A year ago I got frustrated with every fitness app feeling like a spreadsheet or an overcomplicated subscription trap. I wanted something that actually shows me what I'm training \u2014  not just a list of exercises.\n\n\n\n So I built Repbase.\n\n\n\n  **What it does:**\n\n  \\- Muscle map visualization \u2014 front & back body view with targeted muscles highlighted so you can see at a glance if you're overtraining o",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a workout tracker that shows you exactly which muscles you're hitting \u2014 just shipped to the App Store",
+        "url": "https://www.reddit.com/r/buildinpublic/comments/1teq0d2/i_built_a_workout_tracker_that_shows_you_exactly/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of juggling 3 different fitness apps, so I built an all-in-one tracker for Android. (Giving away Premium for feedback)\nHey everyone,\n\nAfter 5 years of lifting and fitness research, I grew frustrated with having to use separate apps for my workouts, calories, and planning. I wanted something that actually adapted to my schedule.\n\nSo I built FitSense, an all-in-one Android app designed to replace your other fitness trackers.\n\nHere is what makes it different:\n\n* **Snap and Track:**\u00a0Log your meals and track calories instantly just by taking a picture.\n* **Dynamic Rescheduling:**\u00a0If you miss a workout, the app automa",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 10,
+          "score": 1,
+          "upvote_ratio": 0.66
+        },
+        "engagement_score": 19,
+        "freshness": 85,
+        "item_id": "R17",
+        "local_rank_score": 0.381,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-16",
+        "relevance_hint": 0.4,
+        "snippet": "Hey everyone,\n\nAfter 5 years of lifting and fitness research, I grew frustrated with having to use separate apps for my workouts, calories, and planning. I wanted something that actually adapted to my schedule.\n\nSo I built FitSense, an all-in-one Android app designed to replace your other fitness trackers.\n\nHere is what makes it different:\n\n* **Snap and Track:**\u00a0Log your meals and track calories i",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of juggling 3 different fitness apps, so I built an all-in-one tracker for Android. (Giving away Premium for feedback)",
+        "url": "https://www.reddit.com/r/SideProject/comments/1teqmwk/i_got_tired_of_juggling_3_different_fitness_apps/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-23",
+  "range_to": "2026-05-23",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/googleplayconsole/comments/1til4xs/a_lot_of_android_devs_are_focusing_on_getting_20",
+      "cluster_id": "cluster-1",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 12.736129032258063,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R21",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R21",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 22.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d\n\nBut honestly, the bigger issue is getting testers who actually behave like real users.\n\nMost testing groups are filled with people who:\n\n* install the app\n* open it once\n* never touch it again\n\nThat creates terrible feedback loops.\n\nIf someone built a finance app, they need testers already frustrated with existing finance tools.\n\nIf some",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d\nA lot of Android devs are focusing on getting \u201c20 testers.\u201d\n\nBut honestly, the bigger issue is getting testers who actually behave like real users.\n\nMost testing groups are filled with people who:\n\n* install the app\n* open it once\n* never touch it again\n\nThat creates terrible feedback loops.\n\nIf someone built a finance app, they need testers already frustrated with existing finance tools.\n\nIf someone built a fitness app, they need people who already use fitness apps regularly.\n\nOtherwise the fee",
+          "container": "googleplayconsole",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 2,
+            "upvote_ratio": 0.75
+          },
+          "engagement_score": 23,
+          "freshness": 94,
+          "item_id": "R21",
+          "local_rank_score": 0.466,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-20",
+          "relevance_hint": 0.22,
+          "snippet": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d\n\nBut honestly, the bigger issue is getting testers who actually behave like real users.\n\nMost testing groups are filled with people who:\n\n* install the app\n* open it once\n* never touch it again\n\nThat creates terrible feedback loops.\n\nIf someone built a finance app, they need testers already frustrated with existing finance tools.\n\nIf some",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d",
+          "url": "https://www.reddit.com/r/googleplayconsole/comments/1til4xs/a_lot_of_android_devs_are_focusing_on_getting_20/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "A lot of Android devs are focusing on getting \u201c20 testers.\u201d",
+      "url": "https://www.reddit.com/r/googleplayconsole/comments/1til4xs/a_lot_of_android_devs_are_focusing_on_getting_20/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/howtomen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker",
+      "cluster_id": "cluster-2",
+      "engagement": 69,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 12.109180327868849,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 21.599999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I\u2019m 19 and recently released my first Android app called \u201cMinimal Lift.\u201d\n\nI originally made it for myself because most workout apps I tried felt way too overwhelming. A lot of them are packed with subscriptions, social features, ads, AI stuff, and screens I never actually used when training.\n\nI just wanted something simple where I could:\n\n* log workouts quickly\n* track lifts\n* stay consistent\n* an",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps\nI\u2019m 19 and recently released my first Android app called \u201cMinimal Lift.\u201d\n\nI originally made it for myself because most workout apps I tried felt way too overwhelming. A lot of them are packed with subscriptions, social features, ads, AI stuff, and screens I never actually used when training.\n\nI just wanted something simple where I could:\n\n* log workouts quickly\n* track lifts\n* stay consistent\n* and get out of the app fast\n\nSo I started building my own version with a more minimal approach.\n\nI\u2019m s",
+          "container": "HowToMen",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 25,
+            "score": 37,
+            "upvote_ratio": 0.97
+          },
+          "engagement_score": 69,
+          "freshness": 91,
+          "item_id": "R7",
+          "local_rank_score": 0.5045,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-19",
+          "relevance_hint": 0.89,
+          "snippet": "I\u2019m 19 and recently released my first Android app called \u201cMinimal Lift.\u201d\n\nI originally made it for myself because most workout apps I tried felt way too overwhelming. A lot of them are packed with subscriptions, social features, ads, AI stuff, and screens I never actually used when training.\n\nI just wanted something simple where I could:\n\n* log workouts quickly\n* track lifts\n* stay consistent\n* an",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps",
+          "url": "https://www.reddit.com/r/HowToMen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps",
+      "url": "https://www.reddit.com/r/HowToMen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/entrepreneurridealong/comments/1tl19s2/i_got_so_frustrated_with_manual_tracking_apps",
+      "cluster_id": "cluster-3",
+      "engagement": 2,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 9.593125,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 4.0,
+      "item_id": "R24",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R24",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 23.4,
+      "rrf_score": 0.0078125,
+      "snippet": "Hey fellow builders,\n\nLike many of you, I have a busy schedule, and I got incredibly frustrated having to manually weigh my food, search databases, and constantly reorganize my gym schedule every time life got in the way and I missed a workout.\n\nSo, I decided to scratch my own itch and build a native Android app called FitSense to automate it.\n\nI built a computer vision model where you just take a",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got so frustrated with manual tracking apps that I spent the last few months coding an AI fitness alternative for Android.\nHey fellow builders,\n\nLike many of you, I have a busy schedule, and I got incredibly frustrated having to manually weigh my food, search databases, and constantly reorganize my gym schedule every time life got in the way and I missed a workout.\n\nSo, I decided to scratch my own itch and build a native Android app called FitSense to automate it.\n\nI built a computer vision model where you just take a picture of your plate, and it returns the accurate macro breakdown (Protein, Carbs, Fat) in under 1",
+          "container": "EntrepreneurRideAlong",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 2,
+          "freshness": 100,
+          "item_id": "R24",
+          "local_rank_score": 0.46,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-23",
+          "relevance_hint": 0.54,
+          "snippet": "Hey fellow builders,\n\nLike many of you, I have a busy schedule, and I got incredibly frustrated having to manually weigh my food, search databases, and constantly reorganize my gym schedule every time life got in the way and I missed a workout.\n\nSo, I decided to scratch my own itch and build a native Android app called FitSense to automate it.\n\nI built a computer vision model where you just take a",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got so frustrated with manual tracking apps that I spent the last few months coding an AI fitness alternative for Android.",
+          "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tl19s2/i_got_so_frustrated_with_manual_tracking_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got so frustrated with manual tracking apps that I spent the last few months coding an AI fitness alternative for Android.",
+      "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tl19s2/i_got_so_frustrated_with_manual_tracking_apps/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/fishingforbeginners/comments/1tfsqhe/never_been_more_frustrated",
+      "cluster_id": "cluster-4",
+      "engagement": 96,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 14.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "My perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish. It's nice being out in nature, watching the water, smelling the air and appreciating life. Finding a nice spot, setting up your line, switching out baits and lures, and trying different techniques are all a part of fishing. If your satisfaction with the hobby depends entirely on whether or no I mean fishing is fun but it definitely isn't the simplest of hobbies. I have times I'll catch crappie one after another same with 5+ pound bass. Then I'll have days i literally get no bites all day long. Technical issues are just apart of fishing as well amd it...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Never Been More Frustrated\nI\u2019ve never been more frustrated with a hobby in my life!\n\nI\u2019ve had to teach myself everything on how to fish because my middle child was interested. I\u2019ve watched numerous YouTube videos to help bought all good stuff and still today on a \u201cseasons best\u201d day in the app I\u2019m using we just battle tangled lines from the kid and two guys walk up right next to us and reel in a 3 or 4 lb bass on their 2nd cast while I\u2019m still untangling lines.. \n\nI\u2019ve picked up numerous hobbies through the years and never\nMy perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish.\n\nIt's nice being out in nature, watching the water, smelling the air and appreciating life. Finding a nice spot, setting up your line, switching out baits and lures, and trying different techniques are all a part of fishing.\n\nIf your satisfaction with the hobby depends entirely on whether or no I mean fishing is fun but it definitely isn't the simplest of hobbies. I have times I'll catch crappie one after another same with 5+ pound bass. Then I'll have days i literally get no bites all day long. Technical issues are just apart of fishing as well amd it can be annoying. Don't let other peop Apps will just get your hopes up. You can catch fish anytime. So, delete the app. That's step one.\n\nStep two: Just enjoy being in nature and spending time with your kid. Listen to the birds, watch the water.  Make some core memories together. Any fish you catch is a bonus.\n\nUnless they weighed that",
+          "container": "FishingForBeginners",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 87,
+            "score": 52,
+            "upvote_ratio": 0.95
+          },
+          "engagement_score": 96,
+          "freshness": 88,
+          "item_id": "R4",
+          "local_rank_score": 0.4655,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "My perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish.",
+              "I mean fishing is fun but it definitely isn't the simplest of hobbies.",
+              "Apps will just get your hopes up. You can catch fish anytime.",
+              "Just a heads up, those apps prediciting best times are usually junk.",
+              "It's called fishing not catching, we've all been there and done that.",
+              "Start with the basics. Hook, live worm, sinker and bobber.",
+              "You have given us very little information to use to help you out.",
+              "The goal is to enjoy your time with your kid. Catching fish is secondary. The more times you untangle a birds nest the better you\u2019ll get at it. ",
+              "Get a cane pole with a bobber and worm for each kid. Keep that hook on the water and tell them to forget casting. ",
+              "When I was a little girl probably middle school aged I told my Dad I wanted to start fishing."
+            ],
+            "top_comments": [
+              {
+                "author": "zMiiChy",
+                "date": "2026-05-17",
+                "excerpt": "My perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish.\n\nIt's nice being out in nature, watching the water, smelling the air and appreciating life. Finding a nice spot, setting up your line, switching out baits and lures, and trying different techniques are all a part of fishing.\n\nIf your satisfaction with the hobby depends entirely on whether or no",
+                "score": 78,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombo63n/"
+              },
+              {
+                "author": "DarkElfWanderer",
+                "date": "2026-05-17",
+                "excerpt": "I mean fishing is fun but it definitely isn't the simplest of hobbies. I have times I'll catch crappie one after another same with 5+ pound bass. Then I'll have days i literally get no bites all day long. Technical issues are just apart of fishing as well amd it can be annoying. Don't let other peop",
+                "score": 17,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombmkpz/"
+              },
+              {
+                "author": "Hey-ThatsNotBad",
+                "date": "2026-05-17",
+                "excerpt": "Apps will just get your hopes up. You can catch fish anytime. So, delete the app. That's step one.\n\nStep two: Just enjoy being in nature and spending time with your kid. Listen to the birds, watch the water.  Make some core memories together. Any fish you catch is a bonus.\n\nUnless they weighed that ",
+                "score": 16,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombpt38/"
+              },
+              {
+                "author": "Comprehensive_Bus_19",
+                "date": "2026-05-17",
+                "excerpt": "Just a heads up, those apps prediciting best times are usually junk. \n\nIt sounds like you're trying to do too much at once. Try and get 1 rod down for your kid then once they get the hang of it put yours out. Pay attention to tide/current/wind which will also tangle your lines.\n\nIf freshwater fishin",
+                "score": 9,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombnat8/"
+              },
+              {
+                "author": "Cashhkell",
+                "date": "2026-05-17",
+                "excerpt": "It's called fishing not catching, we've all been there and done that. Pay attention to wind directions and the weight of your lures when casting. No matter what gear you have you won't catch hardly anything if your presentation isn't right and if you cant even get lines in the water. Are you using b",
+                "score": 6,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombn70j/"
+              },
+              {
+                "author": "International_Bend68",
+                "date": "2026-05-17",
+                "excerpt": "Start with the basics. Hook, live worm, sinker and bobber. Cast to where there is some kind of structure - dock, grass, tree stumps, etc. \n\nIt may take them a while to start biting but once they do, it's usually non stop action. ",
+                "score": 5,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombt3a0/"
+              },
+              {
+                "author": "NovelPermission634",
+                "date": "2026-05-17",
+                "excerpt": "When I was a little girl probably middle school aged I told my Dad I wanted to start fishing. I didn't, I just knew we had nothing in common and this would be something we could do together. We went and got all the stuff and went down to the river. I tried talking to him and he told me to be quiet, ",
+                "score": 5,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/omcjghr/"
+              },
+              {
+                "author": "Andy-Tate",
+                "date": "2026-05-17",
+                "excerpt": "You have given us very little information to use to help you out. How old is the kid? In many cases simpler is better. A jihead with a Berkeley Power Nymph is my standard presentation for my kids. In my opinion those apps are a waste of time. I fish whenever I can. It doesn't matter what the moon ph",
+                "score": 4,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombpvgt/"
+              },
+              {
+                "author": "Archie_Marx",
+                "date": "2026-05-17",
+                "excerpt": "The goal is to enjoy your time with your kid. Catching fish is secondary. The more times you untangle a birds nest the better you\u2019ll get at it. ",
+                "score": 4,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/ombu7aq/"
+              },
+              {
+                "author": "holdthelight",
+                "date": "2026-05-17",
+                "excerpt": "Get a cane pole with a bobber and worm for each kid. Keep that hook on the water and tell them to forget casting. ",
+                "score": 4,
+                "url": "https://reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/omc0gja/"
+              }
+            ]
+          },
+          "published_at": "2026-05-17",
+          "relevance_hint": 0.33,
+          "snippet": "My perspective on fishing is that I don't tether my enjoyment of fishing on whether or not I catch fish. It's nice being out in nature, watching the water, smelling the air and appreciating life. Finding a nice spot, setting up your line, switching out baits and lures, and trying different techniques are all a part of fishing. If your satisfaction with the hobby depends entirely on whether or no I mean fishing is fun but it definitely isn't the simplest of hobbies. I have times I'll catch crappie one after another same with 5+ pound bass. Then I'll have days i literally get no bites all day long. Technical issues are just apart of fishing as well amd it...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Never Been More Frustrated",
+          "url": "https://www.reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Never Been More Frustrated",
+      "url": "https://www.reddit.com/r/FishingForBeginners/comments/1tfsqhe/never_been_more_frustrated/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/nextcloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook",
+      "cluster_id": "cluster-5",
+      "engagement": 86,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 14.700000000000003,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. How vibecoded is this? Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything.\n\nI\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Than",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51\nHey r/Nextcloud,\n\nLike many of you, I host my recipes using Nextcloud Cookbook. But the mobile experience was frustrating me: the existing apps haven't seen updates in a while, and the offline support wasn't completely fitting my needs when cooking in places with bad Wi-Fi.\n\nSo, I spent the last few months scratching my own itch and built\u00a0**AvoCook**.\n\nIt\u2019s a 100% free and open-source mobile client. My main goal was to make the offline experience seamless. It uses a local SQLite database, meanin\nI\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. How vibecoded is this? Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything.\n\nI\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Than",
+          "container": "NextCloud",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 56,
+            "score": 54,
+            "upvote_ratio": 0.92
+          },
+          "engagement_score": 86,
+          "freshness": 88,
+          "item_id": "R5",
+          "local_rank_score": 0.45550000000000007,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+              "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving...",
+              "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?\u00a0",
+              "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+              "Ive been playing with this app for the last couple days.",
+              "I haven't had any issues with: \nversion 0.7.9\ncom.nextcloud_cookbook_flutter.",
+              "If I started the app without syncing with Nextcloud, can I later without starting over?",
+              "How does this compare to Mealie while using the Ghee app for Android?",
+              "Does it work with self-signed certificate? I assume not."
+            ],
+            "top_comments": [
+              {
+                "author": "Allferry",
+                "date": "2026-05-17",
+                "excerpt": "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+                "score": 9,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcdb75/"
+              },
+              {
+                "author": "Inner-Hedgehog5494",
+                "date": "2026-05-17",
+                "excerpt": "How vibecoded is this?",
+                "score": 9,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcecb4/"
+              },
+              {
+                "author": "viviolay",
+                "date": "2026-05-17",
+                "excerpt": "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything.\n\nI\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Than",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcomct/"
+              },
+              {
+                "author": "Hellrazor_muc",
+                "date": "2026-05-17",
+                "excerpt": "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?\u00a0",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omddtev/"
+              },
+              {
+                "author": "gg_allins_microphone",
+                "date": "2026-05-18",
+                "excerpt": "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omfgu3o/"
+              },
+              {
+                "author": "mortsdeer",
+                "date": "2026-05-19",
+                "excerpt": "Ive been playing with this app for the last couple days. Had two bugs, filed issues (with logs), developer fixed them within hours. I'm on Android, I install from github releases via Obtanium.\n\nOne truly notable feature: the \"import from URL\" works better than the stock Cookbook web app: I routinely",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omq3z15/"
+              },
+              {
+                "author": "undrwater",
+                "date": "2026-05-17",
+                "excerpt": "I haven't had any issues with: \nversion 0.7.9\ncom.nextcloud_cookbook_flutter. It syncs and works offline perfectly.\n\nBut yours looks prettier. \n\nOne thing I would LOVE is a way to export and import recipes so we can share with each other our whole collection. That would mean scanning for dupes of co",
+                "score": 1,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omcun50/"
+              },
+              {
+                "author": "supernoteslut",
+                "date": "2026-05-17",
+                "excerpt": "If I started the app without syncing with Nextcloud, can I later without starting over?",
+                "score": 1,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omd1wmo/"
+              },
+              {
+                "author": "th3pleasantpeasant",
+                "date": "2026-05-17",
+                "excerpt": "How does this compare to Mealie while using the Ghee app for Android?",
+                "score": 1,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omd5n3o/"
+              },
+              {
+                "author": "Alarming-Flatworm314",
+                "date": "2026-05-17",
+                "excerpt": "Does it work with self-signed certificate? I assume not.  It doesn't want to enter and it shows a generic error \"Unable to sign in.Check the server and app password\" ",
+                "score": 1,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/omd6az8/"
+              }
+            ]
+          },
+          "published_at": "2026-05-17",
+          "relevance_hint": 0.24,
+          "snippet": "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. How vibecoded is this? Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything.\n\nI\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Than",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51",
+          "url": "https://www.reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51",
+      "url": "https://www.reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/google/comments/1th12x9/google_killing_meet_on_android_tv_is_a_massive",
+      "cluster_id": "cluster-6",
+      "engagement": 48,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R11",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 14.899999999999999,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "I\u2019m incredibly frustrated with Google\u2019s recent decision to officially kill off Google Meet for Android TV/Google TV.\n\nFor the last couple of years, my family had the perfect living room setup: an NVIDIA Shield TV Pro paired with a solid USB webcam/mic mounted on top of the TV. It allowed us to comfortably sit back on the couch and video call the grandparents, using the TV\u2019s screen size so the enti",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Google killing Meet on Android TV is a massive downgrade. The \"Casting\" workaround is completely broken. What now?\nI\u2019m incredibly frustrated with Google\u2019s recent decision to officially kill off Google Meet for Android TV/Google TV.\n\nFor the last couple of years, my family had the perfect living room setup: an NVIDIA Shield TV Pro paired with a solid USB webcam/mic mounted on top of the TV. It allowed us to comfortably sit back on the couch and video call the grandparents, using the TV\u2019s screen size so the entire family could actually fit in the frame. It was one of the few smart home features that genuinely",
+          "container": "google",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 22,
+            "upvote_ratio": 0.86
+          },
+          "engagement_score": 48,
+          "freshness": 89,
+          "item_id": "R11",
+          "local_rank_score": 0.42,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-18",
+          "relevance_hint": 0.14,
+          "snippet": "I\u2019m incredibly frustrated with Google\u2019s recent decision to officially kill off Google Meet for Android TV/Google TV.\n\nFor the last couple of years, my family had the perfect living room setup: an NVIDIA Shield TV Pro paired with a solid USB webcam/mic mounted on top of the TV. It allowed us to comfortably sit back on the couch and video call the grandparents, using the TV\u2019s screen size so the enti",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Google killing Meet on Android TV is a massive downgrade. The \"Casting\" workaround is completely broken. What now?",
+          "url": "https://www.reddit.com/r/google/comments/1th12x9/google_killing_meet_on_android_tv_is_a_massive/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Google killing Meet on Android TV is a massive downgrade. The \"Casting\" workaround is completely broken. What now?",
+      "url": "https://www.reddit.com/r/google/comments/1th12x9/google_killing_meet_on_android_tv_is_a_massive/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/applewatchfitness/comments/1tiejdc/iphone_workout_tracking_and_apple_watch_app_no",
+      "cluster_id": "cluster-7",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R15",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R15",
+            "native_rank": 7,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 7
+      },
+      "rerank_score": 15.899999999999999,
+      "rrf_score": 0.007462686567164179,
+      "snippet": "Hey everyone,\n\nI was frustrated with fitness apps locking basic features behind expensive monthly subscriptions, so I decided to build my own. It\u2019s called GymMe. I wanted something that works seamlessly between iPhone and Apple Watch, without needing to constantly take my phone out during a workout.\n\nYou can download it from the App Store here: [GymMe](https://apps.apple.com/gr/app/gymme-workout-p",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "iPhone Workout Tracking and Apple Watch app, no Subscriptions, totaly Free!\"\nHey everyone,\n\nI was frustrated with fitness apps locking basic features behind expensive monthly subscriptions, so I decided to build my own. It\u2019s called GymMe. I wanted something that works seamlessly between iPhone and Apple Watch, without needing to constantly take my phone out during a workout.\n\nYou can download it from the App Store here: [GymMe](https://apps.apple.com/gr/app/gymme-workout-pr-tracker/id6766061676) . **Please your comments in order to make it better :)**\n\n  \nBelow are the a",
+          "container": "AppleWatchFitness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 8,
+            "upvote_ratio": 0.66
+          },
+          "engagement_score": 33,
+          "freshness": 94,
+          "item_id": "R15",
+          "local_rank_score": 0.4175,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-20",
+          "relevance_hint": 0.4,
+          "snippet": "Hey everyone,\n\nI was frustrated with fitness apps locking basic features behind expensive monthly subscriptions, so I decided to build my own. It\u2019s called GymMe. I wanted something that works seamlessly between iPhone and Apple Watch, without needing to constantly take my phone out during a workout.\n\nYou can download it from the App Store here: [GymMe](https://apps.apple.com/gr/app/gymme-workout-p",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "iPhone Workout Tracking and Apple Watch app, no Subscriptions, totaly Free!\"",
+          "url": "https://www.reddit.com/r/AppleWatchFitness/comments/1tiejdc/iphone_workout_tracking_and_apple_watch_app_no/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "iPhone Workout Tracking and Apple Watch app, no Subscriptions, totaly Free!\"",
+      "url": "https://www.reddit.com/r/AppleWatchFitness/comments/1tiejdc/iphone_workout_tracking_and_apple_watch_app_no/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/buildinpublic/comments/1teq0d2/i_built_a_workout_tracker_that_shows_you_exactly",
+      "cluster_id": "cluster-8",
+      "engagement": 27,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R19",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 8,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 8
+      },
+      "rerank_score": 14.099999999999994,
+      "rrf_score": 0.007352941176470588,
+      "snippet": "A year ago I got frustrated with every fitness app feeling like a spreadsheet or an overcomplicated subscription trap. I wanted something that actually shows me what I'm training \u2014  not just a list of exercises.\n\n\n\n So I built Repbase.\n\n\n\n  **What it does:**\n\n  \\- Muscle map visualization \u2014 front & back body view with targeted muscles highlighted so you can see at a glance if you're overtraining o",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a workout tracker that shows you exactly which muscles you're hitting \u2014 just shipped to the App Store\nA year ago I got frustrated with every fitness app feeling like a spreadsheet or an overcomplicated subscription trap. I wanted something that actually shows me what I'm training \u2014  not just a list of exercises.\n\n\n\n So I built Repbase.\n\n\n\n  **What it does:**\n\n  \\- Muscle map visualization \u2014 front & back body view with targeted muscles highlighted so you can see at a glance if you're overtraining one side or neglecting another\n\n  \\- Health dashboard that pulls Steps, Heart Rate, Calories, and Blo",
+          "container": "buildinpublic",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 3,
+            "upvote_ratio": 0.81
+          },
+          "engagement_score": 27,
+          "freshness": 85,
+          "item_id": "R19",
+          "local_rank_score": 0.389,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-16",
+          "relevance_hint": 0.4,
+          "snippet": "A year ago I got frustrated with every fitness app feeling like a spreadsheet or an overcomplicated subscription trap. I wanted something that actually shows me what I'm training \u2014  not just a list of exercises.\n\n\n\n So I built Repbase.\n\n\n\n  **What it does:**\n\n  \\- Muscle map visualization \u2014 front & back body view with targeted muscles highlighted so you can see at a glance if you're overtraining o",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a workout tracker that shows you exactly which muscles you're hitting \u2014 just shipped to the App Store",
+          "url": "https://www.reddit.com/r/buildinpublic/comments/1teq0d2/i_built_a_workout_tracker_that_shows_you_exactly/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a workout tracker that shows you exactly which muscles you're hitting \u2014 just shipped to the App Store",
+      "url": "https://www.reddit.com/r/buildinpublic/comments/1teq0d2/i_built_a_workout_tracker_that_shows_you_exactly/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1teqmwk/i_got_tired_of_juggling_3_different_fitness_apps",
+      "cluster_id": "cluster-9",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.0,
+      "item_id": "R17",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R17",
+            "native_rank": 9,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 9
+      },
+      "rerank_score": 14.099999999999994,
+      "rrf_score": 0.007246376811594203,
+      "snippet": "Hey everyone,\n\nAfter 5 years of lifting and fitness research, I grew frustrated with having to use separate apps for my workouts, calories, and planning. I wanted something that actually adapted to my schedule.\n\nSo I built FitSense, an all-in-one Android app designed to replace your other fitness trackers.\n\nHere is what makes it different:\n\n* **Snap and Track:**\u00a0Log your meals and track calories i",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of juggling 3 different fitness apps, so I built an all-in-one tracker for Android. (Giving away Premium for feedback)\nHey everyone,\n\nAfter 5 years of lifting and fitness research, I grew frustrated with having to use separate apps for my workouts, calories, and planning. I wanted something that actually adapted to my schedule.\n\nSo I built FitSense, an all-in-one Android app designed to replace your other fitness trackers.\n\nHere is what makes it different:\n\n* **Snap and Track:**\u00a0Log your meals and track calories instantly just by taking a picture.\n* **Dynamic Rescheduling:**\u00a0If you miss a workout, the app automa",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 10,
+            "score": 1,
+            "upvote_ratio": 0.66
+          },
+          "engagement_score": 19,
+          "freshness": 85,
+          "item_id": "R17",
+          "local_rank_score": 0.381,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-16",
+          "relevance_hint": 0.4,
+          "snippet": "Hey everyone,\n\nAfter 5 years of lifting and fitness research, I grew frustrated with having to use separate apps for my workouts, calories, and planning. I wanted something that actually adapted to my schedule.\n\nSo I built FitSense, an all-in-one Android app designed to replace your other fitness trackers.\n\nHere is what makes it different:\n\n* **Snap and Track:**\u00a0Log your meals and track calories i",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of juggling 3 different fitness apps, so I built an all-in-one tracker for Android. (Giving away Premium for feedback)",
+          "url": "https://www.reddit.com/r/SideProject/comments/1teqmwk/i_got_tired_of_juggling_3_different_fitness_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of juggling 3 different fitness apps, so I built an all-in-one tracker for Android. (Giving away Premium for feedback)",
+      "url": "https://www.reddit.com/r/SideProject/comments/1teqmwk/i_got_tired_of_juggling_3_different_fitness_apps/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
