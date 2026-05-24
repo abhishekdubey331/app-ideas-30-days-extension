@@ -1,0 +1,302 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://instagram.com/reel/dxpgo9kkksv"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://instagram.com/reel/dxpgo9kkksv"
+      ],
+      "score": 0.0,
+      "sources": [
+        "instagram"
+      ],
+      "title": "MacBook App Worth Paying For\n\nIf there\u2019s one paid app that has been crucial to my workflow, it\u2019s this.\n\n#macbook #macbookneo #appstore"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@addy.growth/video/7635132252225113374"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@addy.growth/video/7635132252225113374"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "these are the BEST apps for self improvement #deepstash #ph #apps #SelfImprovement #book"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-24T12:33:14.369288+00:00",
+  "items_by_source": {
+    "instagram": [
+      {
+        "author": "jonimperial",
+        "body": "MacBook App Worth Paying For\n\nIf there\u2019s one paid app that has been crucial to my workflow, it\u2019s this.\n\n#macbook #macbookneo #appstore\nIf there's one paid app I would recommend you get for your new MacBook, it would be this one. So did you know that your MacBook has a built-in window management tool? All you need to do is press Function and Control, and you can move it to the left, to the right, top half, bottom half. You can press Function, Control, F for full screen. It's pretty handy, but it is limited. So what I like to use is an app called Magnet, and it allows you to do so much more. With Magnet, you can fill a third of your screen. You can do 2/3 and you can even do a quarter of your screen with simple shortcuts. And trust me, the more you use this, the more you'll get used to the shortcuts. Most of the time I like working in this 2/3, 1/3 configuration or 1/3, 1/3, 1/3 like this. And Magnet makes it so much easier for me to quickly change my setup. This is not a sponsored video, I just really like this app, but let me know if this is something you would pay for, and make sure to follow for more.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 10,
+          "likes": 368,
+          "views": 9252
+        },
+        "engagement_score": 100,
+        "freshness": 45,
+        "item_id": "IG1",
+        "local_rank_score": 0.4075,
+        "local_relevance": 0.3,
+        "metadata": {
+          "hashtags": [
+            "macbook",
+            "macbookneo",
+            "appstore"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-04-27",
+        "relevance_hint": 0.89,
+        "snippet": "If there's one paid app I would recommend you get for your new MacBook, it would be this one. So did you know that your MacBook has a built-in window management tool? All you need to do is press Function and Control, and you can move it to the left, to the right, top half, bottom half. You can press Function, Control, F for full screen. It's pretty handy, but it is limited. So what I like to use is an app called Magnet, and it allows you to do so much more. With Magnet, you can fill a third of your screen. You can do 2/3 and you can even do a quarter of your screen with simple shortcuts....",
+        "source": "instagram",
+        "source_quality": 0.58,
+        "title": "MacBook App Worth Paying For\n\nIf there\u2019s one paid app that has been crucial to my workflow, it\u2019s this.\n\n#macbook #macbookneo #appstore",
+        "url": "https://www.instagram.com/reel/DXpgo9kkksv/",
+        "why_relevant": "Instagram: MacBook App Worth Paying For\n\nIf there\u2019s one paid app that h"
+      }
+    ],
+    "tiktok": [
+      {
+        "author": "addy.growth",
+        "body": "these are the BEST apps for self improvement #deepstash #ph #apps #SelfImprovement #book\nHere are three apps to start your self improvement journey. The first one is notion and don't mention the notes app that is useless. The second one is Deep Stash and it's the best micro learning app to learn and apply all the most important books. You can also scan any book and get a summary with all the most important info and most actionable steps with also the possibility of saving all the ideas you want into your own personal library.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "likes": 69,
+          "shares": 3,
+          "views": 9282
+        },
+        "engagement_score": 90,
+        "freshness": 55,
+        "item_id": "TK1",
+        "local_rank_score": 0.325,
+        "local_relevance": 0.15,
+        "metadata": {
+          "hashtags": [
+            "deepstash",
+            "ph",
+            "apps",
+            "selfimprovement",
+            "book"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-02",
+        "relevance_hint": 0.28,
+        "snippet": "Here are three apps to start your self improvement journey. The first one is notion and don't mention the notes app that is useless. The second one is Deep Stash and it's the best micro learning app to learn and apply all the most important books. You can also scan any book and get a summary with all the most important info and most actionable steps with also the possibility of saving all the ideas you want into your own personal library.",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "these are the BEST apps for self improvement #deepstash #ph #apps #SelfImprovement #book",
+        "url": "https://www.tiktok.com/@addy.growth/video/7635132252225113374",
+        "why_relevant": "TikTok: these are the BEST apps for self improvement #deepstash #ph"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-24",
+  "range_to": "2026-05-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://instagram.com/reel/dxpgo9kkksv",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "IG1",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "IG1",
+            "native_rank": 1,
+            "source": "instagram",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:instagram": 1
+      },
+      "rerank_score": 10.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "If there's one paid app I would recommend you get for your new MacBook, it would be this one. So did you know that your MacBook has a built-in window management tool? All you need to do is press Function and Control, and you can move it to the left, to the right, top half, bottom half. You can press Function, Control, F for full screen. It's pretty handy, but it is limited. So what I like to use is an app called Magnet, and it allows you to do so much more. With Magnet, you can fill a third of your screen. You can do 2/3 and you can even do a quarter of your screen with simple shortcuts....",
+      "source": "instagram",
+      "source_items": [
+        {
+          "author": "jonimperial",
+          "body": "MacBook App Worth Paying For\n\nIf there\u2019s one paid app that has been crucial to my workflow, it\u2019s this.\n\n#macbook #macbookneo #appstore\nIf there's one paid app I would recommend you get for your new MacBook, it would be this one. So did you know that your MacBook has a built-in window management tool? All you need to do is press Function and Control, and you can move it to the left, to the right, top half, bottom half. You can press Function, Control, F for full screen. It's pretty handy, but it is limited. So what I like to use is an app called Magnet, and it allows you to do so much more. With Magnet, you can fill a third of your screen. You can do 2/3 and you can even do a quarter of your screen with simple shortcuts. And trust me, the more you use this, the more you'll get used to the shortcuts. Most of the time I like working in this 2/3, 1/3 configuration or 1/3, 1/3, 1/3 like this. And Magnet makes it so much easier for me to quickly change my setup. This is not a sponsored video, I just really like this app, but let me know if this is something you would pay for, and make sure to follow for more.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 10,
+            "likes": 368,
+            "views": 9252
+          },
+          "engagement_score": 100,
+          "freshness": 45,
+          "item_id": "IG1",
+          "local_rank_score": 0.4075,
+          "local_relevance": 0.3,
+          "metadata": {
+            "hashtags": [
+              "macbook",
+              "macbookneo",
+              "appstore"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-04-27",
+          "relevance_hint": 0.89,
+          "snippet": "If there's one paid app I would recommend you get for your new MacBook, it would be this one. So did you know that your MacBook has a built-in window management tool? All you need to do is press Function and Control, and you can move it to the left, to the right, top half, bottom half. You can press Function, Control, F for full screen. It's pretty handy, but it is limited. So what I like to use is an app called Magnet, and it allows you to do so much more. With Magnet, you can fill a third of your screen. You can do 2/3 and you can even do a quarter of your screen with simple shortcuts....",
+          "source": "instagram",
+          "source_quality": 0.58,
+          "title": "MacBook App Worth Paying For\n\nIf there\u2019s one paid app that has been crucial to my workflow, it\u2019s this.\n\n#macbook #macbookneo #appstore",
+          "url": "https://www.instagram.com/reel/DXpgo9kkksv/",
+          "why_relevant": "Instagram: MacBook App Worth Paying For\n\nIf there\u2019s one paid app that h"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "instagram"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "MacBook App Worth Paying For\n\nIf there\u2019s one paid app that has been crucial to my workflow, it\u2019s this.\n\n#macbook #macbookneo #appstore",
+      "url": "https://www.instagram.com/reel/DXpgo9kkksv/"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@addy.growth/video/7635132252225113374",
+      "cluster_id": "cluster-2",
+      "engagement": 90,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK1",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 2.3000000000000007,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Here are three apps to start your self improvement journey. The first one is notion and don't mention the notes app that is useless. The second one is Deep Stash and it's the best micro learning app to learn and apply all the most important books. You can also scan any book and get a summary with all the most important info and most actionable steps with also the possibility of saving all the ideas you want into your own personal library.",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "addy.growth",
+          "body": "these are the BEST apps for self improvement #deepstash #ph #apps #SelfImprovement #book\nHere are three apps to start your self improvement journey. The first one is notion and don't mention the notes app that is useless. The second one is Deep Stash and it's the best micro learning app to learn and apply all the most important books. You can also scan any book and get a summary with all the most important info and most actionable steps with also the possibility of saving all the ideas you want into your own personal library.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "likes": 69,
+            "shares": 3,
+            "views": 9282
+          },
+          "engagement_score": 90,
+          "freshness": 55,
+          "item_id": "TK1",
+          "local_rank_score": 0.325,
+          "local_relevance": 0.15,
+          "metadata": {
+            "hashtags": [
+              "deepstash",
+              "ph",
+              "apps",
+              "selfimprovement",
+              "book"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-02",
+          "relevance_hint": 0.28,
+          "snippet": "Here are three apps to start your self improvement journey. The first one is notion and don't mention the notes app that is useless. The second one is Deep Stash and it's the best micro learning app to learn and apply all the most important books. You can also scan any book and get a summary with all the most important info and most actionable steps with also the possibility of saving all the ideas you want into your own personal library.",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "these are the BEST apps for self improvement #deepstash #ph #apps #SelfImprovement #book",
+          "url": "https://www.tiktok.com/@addy.growth/video/7635132252225113374",
+          "why_relevant": "TikTok: these are the BEST apps for self improvement #deepstash #ph"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "these are the BEST apps for self improvement #deepstash #ph #apps #SelfImprovement #book",
+      "url": "https://www.tiktok.com/@addy.growth/video/7635132252225113374"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
