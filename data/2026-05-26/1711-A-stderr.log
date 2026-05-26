@@ -1,0 +1,319 @@
+Batch A sources=reddit,hackernews
+Started at 2026-05-26T17:11:50Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/26463397465
+----
+
+===== Seed: truckers "is there an app that" paid =====
+/last30days · researching: truckers "is there an app that" paid
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="truckers "is there app that" paid" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=truckers+%22is+there+an+app+that%22+paid&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'truckers "is there an app that" paid' into 2 queries: ['truckers "is there app that" paid', 'truckers "is there an app that" paid']
+[Reddit] Global search 1/2: 'truckers "is there app that" paid' (sort=relevance)
+[Reddit] Global search 2/2: 'truckers "is there an app that" paid' (sort=top)
+[Reddit]   -> 0 results for 'truckers "is there app that" paid'
+[Reddit]   -> 0 results for 'truckers "is there an app that" paid'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=truckers+%22is+there+an+app+that%22+paid&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'truckers "is there an app that" paid' into 2 queries: ['truckers "is there app that" paid', 'truckers "is there an app that" paid']
+[Reddit] Global search 1/2: 'truckers "is there app that" paid' (sort=relevance)
+[Reddit] Global search 2/2: 'truckers "is there an app that" paid' (sort=top)
+[Reddit]   -> 0 results for 'truckers "is there an app that" paid'
+[Reddit]   -> 0 results for 'truckers "is there app that" paid'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (3.1s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-26/1711-truckers-is-there-an-app-that-paid.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/androidapps =====
+/last30days · researching: site:reddit.com/r/androidapps
+⏳ [95mProcessing[0m Finding patterns...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs androidapps
+[Competitors] Comparing: site:reddit.com vs r vs androidapps
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] androidapps: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="androidapps" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=androidapps&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'androidapps' into 1 queries: ['androidapps']
+[Reddit] Global search 1/2: 'androidapps' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['law', 'okbuddycinephile', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/law for 'r'
+[Reddit] Subreddit search: r/okbuddycinephile for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results for 'androidapps'
+[Reddit] Discovered subreddits: ['androidapps', 'facebook', 'HowToMen']
+[Reddit] Subreddit search: r/androidapps for 'androidapps'
+[Reddit] Subreddit search: r/facebook for 'androidapps'
+[Reddit] Subreddit search: r/HowToMen for 'androidapps'
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'whatisit', 'bald']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/whatisit for 'site:reddit.com'
+[Reddit] Subreddit search: r/bald for 'site:reddit.com'
+[Reddit]   -> 1 results from r/facebook
+[Reddit]   -> 5 results from r/HowToMen
+[Reddit]   -> 25 results from r/law
+[Reddit]   -> 25 results from r/androidapps
+[Reddit] After dedup: 47 unique posts
+[Reddit] Filtered 22 posts outside date range
+[Reddit] Final: 25 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit]   -> 25 results from r/okbuddycinephile
+[Reddit] After dedup: 96 unique posts
+[Reddit] Filtered 68 posts outside date range
+[Reddit] Final: 28 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 25 results from r/whatisit
+[Reddit]   -> 25 results from r/bald
+[Reddit] After dedup: 89 unique posts
+[Reddit] Filtered 34 posts outside date range
+[Reddit] Final: 55 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.1s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=androidapps&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'androidapps' into 1 queries: ['androidapps']
+[Reddit] Global search 1/2: 'androidapps' (sort=relevance)
+[Reddit]   -> 25 results for 'androidapps'
+[Reddit] Discovered subreddits: ['androidapps', 'facebook', 'HowToMen']
+[Reddit] Subreddit search: r/androidapps for 'androidapps'
+[Reddit] Subreddit search: r/facebook for 'androidapps'
+[Reddit] Subreddit search: r/HowToMen for 'androidapps'
+[Reddit]   -> 1 results from r/facebook
+[Reddit]   -> 5 results from r/HowToMen
+[Reddit]   -> 25 results from r/androidapps
+[Reddit] After dedup: 47 unique posts
+[Reddit] Filtered 22 posts outside date range
+[Reddit] Final: 25 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit] Enriched 5/5 posts in 6.3s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit] Enriched 5/5 posts in 6.4s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (11.9s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-26/1712-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/Android =====
+/last30days · researching: site:reddit.com/r/Android
+⏳ [95mProcessing[0m Removing duplicates...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs Android
+[Competitors] Comparing: site:reddit.com vs r vs Android
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] Android: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'whatisit', 'bald']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/whatisit for 'site:reddit.com'
+[Reddit] Subreddit search: r/bald for 'site:reddit.com'
+[Reddit]   -> 25 results from r/whatisit
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/bald
+[Reddit] After dedup: 89 unique posts
+[Reddit] Filtered 34 posts outside date range
+[Reddit] Final: 55 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="android" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['law', 'okbuddycinephile', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/law for 'r'
+[Reddit] Subreddit search: r/okbuddycinephile for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/okbuddycinephile
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit]   -> 25 results from r/law
+[Reddit] After dedup: 96 unique posts
+[Reddit] Filtered 68 posts outside date range
+[Reddit] Final: 28 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=Android&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'Android' into 1 queries: ['android']
+[Reddit] Global search 1/2: 'android' (sort=relevance)
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit]   -> 25 results for 'android'
+[Reddit] Discovered subreddits: ['degoogle', 'AndroidAuto', 'Android']
+[Reddit] Subreddit search: r/degoogle for 'android'
+[Reddit] Subreddit search: r/AndroidAuto for 'android'
+[Reddit] Subreddit search: r/Android for 'android'
+[Reddit]   -> 25 results from r/degoogle
+[Reddit]   -> 25 results from r/AndroidAuto
+[Reddit]   -> 25 results from r/Android
+[Reddit] After dedup: 93 unique posts
+[Reddit] Filtered 59 posts outside date range
+[Reddit] Final: 34 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 4.7s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (10.0s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-26/1712-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/iOSApps =====
+/last30days · researching: site:reddit.com/r/iOSApps
+⏳ [95mProcessing[0m Finding patterns...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs iOSApps
+[Competitors] Comparing: site:reddit.com vs r vs iOSApps
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] iOSApps: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 400: Bad Request
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="iosapps" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 25 results for 'r'
+[Reddit] Discovered subreddits: ['law', 'okbuddycinephile', 'OutOfTheLoop']
+[Reddit] Subreddit search: r/law for 'r'
+[Reddit] Subreddit search: r/okbuddycinephile for 'r'
+[Reddit] Subreddit search: r/OutOfTheLoop for 'r'
+[Reddit]   -> 25 results from r/law
+[Reddit]   -> 25 results from r/OutOfTheLoop
+[Reddit]   -> 25 results from r/okbuddycinephile
+[Reddit] After dedup: 96 unique posts
+[Reddit] Filtered 68 posts outside date range
+[Reddit] Final: 28 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=iOSApps&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'iOSApps' into 1 queries: ['iosapps']
+[Reddit] Enriched 5/5 posts in 0.0s
+[Reddit] Global search 1/2: 'iosapps' (sort=relevance)
+[Reddit]   -> 25 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['mildlyinfuriating', 'whatisit', 'bald']
+[Reddit] Subreddit search: r/mildlyinfuriating for 'site:reddit.com'
+[Reddit] Subreddit search: r/whatisit for 'site:reddit.com'
+[Reddit] Subreddit search: r/bald for 'site:reddit.com'
+[Reddit]   -> 25 results from r/mildlyinfuriating
+[Reddit]   -> 25 results from r/bald
+[Reddit]   -> 25 results from r/whatisit
+[Reddit] After dedup: 89 unique posts
+[Reddit] Filtered 34 posts outside date range
+[Reddit] Final: 55 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+[Reddit]   -> 25 results for 'iosapps'
+[Reddit] Discovered subreddits: ['iosapps', 'SideProject', 'macapps']
+[Reddit] Subreddit search: r/iosapps for 'iosapps'
+[Reddit] Subreddit search: r/SideProject for 'iosapps'
+[Reddit] Subreddit search: r/macapps for 'iosapps'
+[Reddit]   -> 12 results from r/macapps
+[Reddit]   -> 25 results from r/SideProject
+[Reddit]   -> 25 results from r/iosapps
+[Reddit] After dedup: 79 unique posts
+[Reddit] Filtered 52 posts outside date range
+[Reddit] Final: 27 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 4.5s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 400: Bad Request
+[FunJudge] LLM scoring failed: HTTPError: HTTP 400: Bad Request
+✓ Research complete (11.1s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-05-26/1712-site-reddit-com.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
