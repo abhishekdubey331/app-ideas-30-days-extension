@@ -1,0 +1,965 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Help adding kid into photo"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/runninglifestyle/comments/1thk5eb/android_app_to_keep_pace"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/runninglifestyle/comments/1thk5eb/android_app_to_keep_pace"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Android App to keep pace"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nostupidquestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/nostupidquestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there an app that can block other apps for a certain amount of time?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-27T13:20:51.009571+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I\u2019m still spending more than I want to\u2026need a good budgeting app\nI have cut down on a lot of expenses but I\u2019m still not saving what I want to per month for how much my expenses are. I need a good budgeting app that tracks my purchases. I know that some people are against credit cards but I use 3 of them every month on all my purchases and pay them off at the end to use the airline miles. In 4 years I\u2019ve never paid one penny of interest. So with that being said, is there an app that I can put my credit cards in and it will automatically track my spending every\nYou don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*. There is always something to cut.\n\n\nClick the pf wiki click budgeting My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year. Monarch Money is great but a bit noisy with all the features and similarly priced.\n\nBudgetBadger connects to credit cards, auto-categorizes transactions, and auto-generates budgets and report YNAB",
+        "container": "personalfinance",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 19,
+          "score": 0,
+          "upvote_ratio": 0.33
+        },
+        "engagement_score": 44,
+        "freshness": 85,
+        "item_id": "R2",
+        "local_rank_score": 0.3865,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "You don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*.",
+            "My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year.",
+            "I find that manually tracking my spending makes me more aware of my purchases.",
+            "Like a golfer saying he needs better clubs. It aint the clubs my guy, its whose swinging them.\u00a0",
+            "Using multiple cards for points can work fine, but it gets messy fast when spending is split across all of them.",
+            "Why do you need 3 credit cards? If your goal is to reduce spending and track where your money is going then reducing it to one card would greatly help...",
+            "I mean any competent finance app can track your CC usage. ",
+            "Try SmartSpent from AppStore, I made it :)"
+          ],
+          "top_comments": [
+            {
+              "author": "nozzery",
+              "date": "2026-05-20",
+              "excerpt": "You don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*. There is always something to cut.\n\n\nClick the pf wiki click budgeting",
+              "score": 5,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omwfx1h/"
+            },
+            {
+              "author": "StrangerWaste5704",
+              "date": "2026-05-20",
+              "excerpt": "My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year. Monarch Money is great but a bit noisy with all the features and similarly priced.\n\nBudgetBadger connects to credit cards, auto-categorizes transactions, and auto-generates budgets and report",
+              "score": 3,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw7dlu/"
+            },
+            {
+              "author": "ravensgirl72",
+              "date": "2026-05-20",
+              "excerpt": "YNAB",
+              "score": 2,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omwivae/"
+            },
+            {
+              "author": "JazzySaid",
+              "date": "2026-05-20",
+              "excerpt": "I find that manually tracking my spending makes me more aware of my purchases. Automated apps are convenient, but if you're trying to cut back it doesn't make you more aware until after you've spent the money.",
+              "score": 2,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omwpbvg/"
+            },
+            {
+              "author": "Overhear_Overponder",
+              "date": "2026-05-20",
+              "excerpt": "Like a golfer saying he needs better clubs. It aint the clubs my guy, its whose swinging them.\u00a0",
+              "score": 2,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omxn6al/"
+            },
+            {
+              "author": "potatograndmaster890",
+              "date": "2026-05-25",
+              "excerpt": "Using multiple cards for points can work fine, but it gets messy fast when spending is split across all of them.\nQuicken Simplifi is worth looking at for pulling cards, bank accounts, bills, and savings goals into one place so the monthly picture is easier to track.",
+              "score": 2,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/onsq77z/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-05-20",
+              "excerpt": "You may find these links helpful:\n\n- [Budgeting](/r/personalfinance/wiki/budgeting)\n- [Tools and spreadsheets](/r/personalfinance/wiki/tools)\n- r/ynab\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/personalfinance)",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw18b6/"
+            },
+            {
+              "author": "josh_josh_josh_",
+              "date": "2026-05-20",
+              "excerpt": "Why do you need 3 credit cards? If your goal is to reduce spending and track where your money is going then reducing it to one card would greatly help.\n\nCredit cards companies want you to think the secret to happiness is juggling multiple credit cards. In reality, they make much more money when your",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw2l9b/"
+            },
+            {
+              "author": "alwayslookingout",
+              "date": "2026-05-20",
+              "excerpt": "I mean any competent finance app can track your CC usage. ",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw9b8e/"
+            },
+            {
+              "author": "Ecstatic-Cheetah190",
+              "date": "2026-05-22",
+              "excerpt": "Try SmartSpent from AppStore, I made it :)",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/onaacgn/"
+            }
+          ]
+        },
+        "published_at": "2026-05-20",
+        "relevance_hint": 0.4,
+        "snippet": "You don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*. There is always something to cut.\n\n\nClick the pf wiki click budgeting My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year. Monarch Money is great but a bit noisy with all the features and similarly priced.\n\nBudgetBadger connects to credit cards, auto-categorizes transactions, and auto-generates budgets and report YNAB",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Android App to keep pace\nI need to run a 1.5 mile in certain time, is there an app that will continuously alert me if i am running fast enough/too slow etc? Free is best, but wi;ling to pay a few bucks a month. Android....",
+        "container": "runninglifestyle",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 32,
+        "freshness": 83,
+        "item_id": "R9",
+        "local_rank_score": 0.36950000000000005,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-19",
+        "relevance_hint": 0.42,
+        "snippet": "I need to run a 1.5 mile in certain time, is there an app that will continuously alert me if i am running fast enough/too slow etc? Free is best, but wi;ling to pay a few bucks a month. Android....",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Android App to keep pace",
+        "url": "https://www.reddit.com/r/runninglifestyle/comments/1thk5eb/android_app_to_keep_pace/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?\nI've been using a mix of MyFitnessPal, Strava, Whoop, and a couple others for the past few years and I'm increasingly annoyed by two things:\n\n1. The calculations are too generic and you can't change them. MFP's \"calories burned\" estimate during exercise is famously bad. Most apps assume one body type, one activity intensity, one metabolic profile. There's no way to say \"actually I know my output is closer to X\" or to plug in real measured data from another source. I'm familiar with better apps s\nThe new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+        "container": "FitnessTrackers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 3,
+          "upvote_ratio": 0.81
+        },
+        "engagement_score": 69,
+        "freshness": 47,
+        "item_id": "R5",
+        "local_rank_score": 0.3165,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "The new app that fixes everything recommendation coming in 3....2....1....",
+            "this frustration is the actual product gap in the entire fitness app stack and you nailed why.",
+            "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoa..."
+          ],
+          "top_comments": [
+            {
+              "author": "TrickyAirport5867",
+              "date": "2026-05-01",
+              "excerpt": "The new app that fixes everything recommendation coming in 3....2....1....",
+              "score": 2,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojdnz1d/"
+            },
+            {
+              "author": "OkDianaTell",
+              "date": "2026-05-03",
+              "excerpt": "this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor",
+              "score": 2,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojnxy14/"
+            },
+            {
+              "author": "teknical38",
+              "date": "2026-05-02",
+              "excerpt": "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+              "score": 1,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojjc8m2/"
+            }
+          ]
+        },
+        "published_at": "2026-05-01",
+        "relevance_hint": 0.22,
+        "snippet": "The new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?",
+        "url": "https://www.reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Help adding kid into photo\nHi, we had some photos taken and I realized after I don\u2019t have one alone with all of my kids in it. Would someone offer advice on how to essentially combine two photos? Is there an app that would do it?\n\nIf not, I\u2019m happy to pay someone for the job but please provide other photo references of similar jobs.\n\nThank you!\n\nEdit: this has been completed! Thank you to everyone who was interested.\nHi u/carebk,this is a [paid](https://www.reddit.com/r/editmyphoto/wiki/paid/) request, some the submissions might have watermarks. Review all submissions carefully, and \nonce you choose and pay for one, the editor will give you the file without watermarks.please comment with \"solved\" in case of request complete or \"unsolved\" if incomplete after reviewing all the submissions(PLEASE DO NOT RESPOND connect with our best editors here Discord= https://discord.gg/ZuQNZpM34A , instagram = www.instagram.com/reditmyphoto\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/editmyphoto) if you have any questions or concer Interested!",
+        "container": "editmyphoto",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 17,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 65,
+        "freshness": 43,
+        "item_id": "R3",
+        "local_rank_score": 0.3025,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "I can assist in this task, feel free to message.",
+            "Interested! You can check my [Portfolio](https://www.reddit.com/user/Public-Month6942/comments/1sotw7v/photo_editing_portfolio/)",
+            "u/carebk Hi! I'm interested, feel free to check my [portfolio](https://zekes.me/portfolio) for edits references \ud83d\ude04 and my DMs are always open!"
+          ],
+          "top_comments": [
+            {
+              "author": "AutoModerator",
+              "date": "2026-04-29",
+              "excerpt": "\n\nHi u/carebk,this is a [paid](https://www.reddit.com/r/editmyphoto/wiki/paid/) request, some the submissions might have watermarks. Review all submissions carefully, and \nonce you choose and pay for one, the editor will give you the file without watermarks.please comment with \"solved\" in case of request complete or \"unsolved\" if incomplete after reviewing all the submissions(PLEASE DO NOT RESPOND",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8fgc/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-04-29",
+              "excerpt": "connect with our best editors here Discord= https://discord.gg/ZuQNZpM34A , instagram = www.instagram.com/reditmyphoto\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/editmyphoto) if you have any questions or concer",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8fhh/"
+            },
+            {
+              "author": "honeyandalmondmilk",
+              "date": "2026-04-29",
+              "excerpt": "Interested! ",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8gz7/"
+            },
+            {
+              "author": "Alena_52",
+              "date": "2026-04-29",
+              "excerpt": "interested ",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8hre/"
+            },
+            {
+              "author": "dadotelo",
+              "date": "2026-04-29",
+              "excerpt": "interested",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8jls/"
+            },
+            {
+              "author": "Admirable_Tutor_5965",
+              "date": "2026-04-29",
+              "excerpt": "Interested",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8mz7/"
+            },
+            {
+              "author": "photoeditor557",
+              "date": "2026-04-29",
+              "excerpt": "I can assist in this task, feel free to message.",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv93zf/"
+            },
+            {
+              "author": "Public-Month6942",
+              "date": "2026-04-29",
+              "excerpt": "Interested! You can check my [Portfolio](https://www.reddit.com/user/Public-Month6942/comments/1sotw7v/photo_editing_portfolio/)",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiwc3p4/"
+            },
+            {
+              "author": "Left_Sky_6978",
+              "date": "2026-04-29",
+              "excerpt": "I'm interested please Dm",
+              "score": 1,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiwck2l/"
+            },
+            {
+              "author": "16bit_Zeke",
+              "date": "2026-04-29",
+              "excerpt": "u/carebk Hi! I'm interested, feel free to check my [portfolio](https://zekes.me/portfolio) for edits references \ud83d\ude04 and my DMs are always open!",
+              "score": 0,
+              "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oixoj29/"
+            }
+          ]
+        },
+        "published_at": "2026-04-29",
+        "relevance_hint": 0.22,
+        "snippet": "Hi u/carebk,this is a [paid](https://www.reddit.com/r/editmyphoto/wiki/paid/) request, some the submissions might have watermarks. Review all submissions carefully, and \nonce you choose and pay for one, the editor will give you the file without watermarks.please comment with \"solved\" in case of request complete or \"unsolved\" if incomplete after reviewing all the submissions(PLEASE DO NOT RESPOND connect with our best editors here Discord= https://discord.gg/ZuQNZpM34A , instagram = www.instagram.com/reditmyphoto\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/editmyphoto) if you have any questions or concer Interested!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Help adding kid into photo",
+        "url": "https://www.reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there an app that can block other apps for a certain amount of time?\nHey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+        "container": "NoStupidQuestions",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 32,
+        "freshness": 49,
+        "item_id": "R8",
+        "local_rank_score": 0.2845,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-02",
+        "relevance_hint": 0.63,
+        "snippet": "Hey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there an app that can block other apps for a certain amount of time?",
+        "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-27",
+  "range_to": "2026-05-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/fitnesstrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these",
+      "cluster_id": "cluster-1",
+      "engagement": 69,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R5",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "The new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?\nI've been using a mix of MyFitnessPal, Strava, Whoop, and a couple others for the past few years and I'm increasingly annoyed by two things:\n\n1. The calculations are too generic and you can't change them. MFP's \"calories burned\" estimate during exercise is famously bad. Most apps assume one body type, one activity intensity, one metabolic profile. There's no way to say \"actually I know my output is closer to X\" or to plug in real measured data from another source. I'm familiar with better apps s\nThe new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+          "container": "FitnessTrackers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 3,
+            "upvote_ratio": 0.81
+          },
+          "engagement_score": 69,
+          "freshness": 47,
+          "item_id": "R5",
+          "local_rank_score": 0.3165,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "The new app that fixes everything recommendation coming in 3....2....1....",
+              "this frustration is the actual product gap in the entire fitness app stack and you nailed why.",
+              "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoa..."
+            ],
+            "top_comments": [
+              {
+                "author": "TrickyAirport5867",
+                "date": "2026-05-01",
+                "excerpt": "The new app that fixes everything recommendation coming in 3....2....1....",
+                "score": 2,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojdnz1d/"
+              },
+              {
+                "author": "OkDianaTell",
+                "date": "2026-05-03",
+                "excerpt": "this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor",
+                "score": 2,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojnxy14/"
+              },
+              {
+                "author": "teknical38",
+                "date": "2026-05-02",
+                "excerpt": "I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+                "score": 1,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/ojjc8m2/"
+              }
+            ]
+          },
+          "published_at": "2026-05-01",
+          "relevance_hint": 0.22,
+          "snippet": "The new app that fixes everything recommendation coming in 3....2....1.... this frustration is the actual product gap in the entire fitness app stack and you nailed why. apple health and google fit are technically the integration layer but they only pass numeric values, not context. whoop tells health you slept 6 hours, mfp pulls that and shows it in a chart, but the calor I developed an app to fix this it reads all the wearable devices and uses AI to make suggestions and training guidance check it out [https://healthcoach.teknicalsolutionz.com](https://healthcoach.teknicalsolutionz.com)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?",
+          "url": "https://www.reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Anyone else frustrated that none of these fitness/nutrition apps actually talk to each other?",
+      "url": "https://www.reddit.com/r/FitnessTrackers/comments/1t13jd8/anyone_else_frustrated_that_none_of_these/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo",
+      "cluster_id": "cluster-2",
+      "engagement": 65,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 3.6000000000000014,
+      "rrf_score": 0.0078125,
+      "snippet": "Hi u/carebk,this is a [paid](https://www.reddit.com/r/editmyphoto/wiki/paid/) request, some the submissions might have watermarks. Review all submissions carefully, and \nonce you choose and pay for one, the editor will give you the file without watermarks.please comment with \"solved\" in case of request complete or \"unsolved\" if incomplete after reviewing all the submissions(PLEASE DO NOT RESPOND connect with our best editors here Discord= https://discord.gg/ZuQNZpM34A , instagram = www.instagram.com/reditmyphoto\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/editmyphoto) if you have any questions or concer Interested!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Help adding kid into photo\nHi, we had some photos taken and I realized after I don\u2019t have one alone with all of my kids in it. Would someone offer advice on how to essentially combine two photos? Is there an app that would do it?\n\nIf not, I\u2019m happy to pay someone for the job but please provide other photo references of similar jobs.\n\nThank you!\n\nEdit: this has been completed! Thank you to everyone who was interested.\nHi u/carebk,this is a [paid](https://www.reddit.com/r/editmyphoto/wiki/paid/) request, some the submissions might have watermarks. Review all submissions carefully, and \nonce you choose and pay for one, the editor will give you the file without watermarks.please comment with \"solved\" in case of request complete or \"unsolved\" if incomplete after reviewing all the submissions(PLEASE DO NOT RESPOND connect with our best editors here Discord= https://discord.gg/ZuQNZpM34A , instagram = www.instagram.com/reditmyphoto\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/editmyphoto) if you have any questions or concer Interested!",
+          "container": "editmyphoto",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 17,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 65,
+          "freshness": 43,
+          "item_id": "R3",
+          "local_rank_score": 0.3025,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "I can assist in this task, feel free to message.",
+              "Interested! You can check my [Portfolio](https://www.reddit.com/user/Public-Month6942/comments/1sotw7v/photo_editing_portfolio/)",
+              "u/carebk Hi! I'm interested, feel free to check my [portfolio](https://zekes.me/portfolio) for edits references \ud83d\ude04 and my DMs are always open!"
+            ],
+            "top_comments": [
+              {
+                "author": "AutoModerator",
+                "date": "2026-04-29",
+                "excerpt": "\n\nHi u/carebk,this is a [paid](https://www.reddit.com/r/editmyphoto/wiki/paid/) request, some the submissions might have watermarks. Review all submissions carefully, and \nonce you choose and pay for one, the editor will give you the file without watermarks.please comment with \"solved\" in case of request complete or \"unsolved\" if incomplete after reviewing all the submissions(PLEASE DO NOT RESPOND",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8fgc/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-04-29",
+                "excerpt": "connect with our best editors here Discord= https://discord.gg/ZuQNZpM34A , instagram = www.instagram.com/reditmyphoto\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/editmyphoto) if you have any questions or concer",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8fhh/"
+              },
+              {
+                "author": "honeyandalmondmilk",
+                "date": "2026-04-29",
+                "excerpt": "Interested! ",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8gz7/"
+              },
+              {
+                "author": "Alena_52",
+                "date": "2026-04-29",
+                "excerpt": "interested ",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8hre/"
+              },
+              {
+                "author": "dadotelo",
+                "date": "2026-04-29",
+                "excerpt": "interested",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8jls/"
+              },
+              {
+                "author": "Admirable_Tutor_5965",
+                "date": "2026-04-29",
+                "excerpt": "Interested",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv8mz7/"
+              },
+              {
+                "author": "photoeditor557",
+                "date": "2026-04-29",
+                "excerpt": "I can assist in this task, feel free to message.",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiv93zf/"
+              },
+              {
+                "author": "Public-Month6942",
+                "date": "2026-04-29",
+                "excerpt": "Interested! You can check my [Portfolio](https://www.reddit.com/user/Public-Month6942/comments/1sotw7v/photo_editing_portfolio/)",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiwc3p4/"
+              },
+              {
+                "author": "Left_Sky_6978",
+                "date": "2026-04-29",
+                "excerpt": "I'm interested please Dm",
+                "score": 1,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oiwck2l/"
+              },
+              {
+                "author": "16bit_Zeke",
+                "date": "2026-04-29",
+                "excerpt": "u/carebk Hi! I'm interested, feel free to check my [portfolio](https://zekes.me/portfolio) for edits references \ud83d\ude04 and my DMs are always open!",
+                "score": 0,
+                "url": "https://reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/oixoj29/"
+              }
+            ]
+          },
+          "published_at": "2026-04-29",
+          "relevance_hint": 0.22,
+          "snippet": "Hi u/carebk,this is a [paid](https://www.reddit.com/r/editmyphoto/wiki/paid/) request, some the submissions might have watermarks. Review all submissions carefully, and \nonce you choose and pay for one, the editor will give you the file without watermarks.please comment with \"solved\" in case of request complete or \"unsolved\" if incomplete after reviewing all the submissions(PLEASE DO NOT RESPOND connect with our best editors here Discord= https://discord.gg/ZuQNZpM34A , instagram = www.instagram.com/reditmyphoto\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/editmyphoto) if you have any questions or concer Interested!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Help adding kid into photo",
+          "url": "https://www.reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Help adding kid into photo",
+      "url": "https://www.reddit.com/r/editmyphoto/comments/1sylzkw/help_adding_kid_into_photo/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good",
+      "cluster_id": "cluster-3",
+      "engagement": 44,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "You don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*. There is always something to cut.\n\n\nClick the pf wiki click budgeting My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year. Monarch Money is great but a bit noisy with all the features and similarly priced.\n\nBudgetBadger connects to credit cards, auto-categorizes transactions, and auto-generates budgets and report YNAB",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I\u2019m still spending more than I want to\u2026need a good budgeting app\nI have cut down on a lot of expenses but I\u2019m still not saving what I want to per month for how much my expenses are. I need a good budgeting app that tracks my purchases. I know that some people are against credit cards but I use 3 of them every month on all my purchases and pay them off at the end to use the airline miles. In 4 years I\u2019ve never paid one penny of interest. So with that being said, is there an app that I can put my credit cards in and it will automatically track my spending every\nYou don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*. There is always something to cut.\n\n\nClick the pf wiki click budgeting My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year. Monarch Money is great but a bit noisy with all the features and similarly priced.\n\nBudgetBadger connects to credit cards, auto-categorizes transactions, and auto-generates budgets and report YNAB",
+          "container": "personalfinance",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 19,
+            "score": 0,
+            "upvote_ratio": 0.33
+          },
+          "engagement_score": 44,
+          "freshness": 85,
+          "item_id": "R2",
+          "local_rank_score": 0.3865,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "You don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*.",
+              "My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year.",
+              "I find that manually tracking my spending makes me more aware of my purchases.",
+              "Like a golfer saying he needs better clubs. It aint the clubs my guy, its whose swinging them.\u00a0",
+              "Using multiple cards for points can work fine, but it gets messy fast when spending is split across all of them.",
+              "Why do you need 3 credit cards? If your goal is to reduce spending and track where your money is going then reducing it to one card would greatly help...",
+              "I mean any competent finance app can track your CC usage. ",
+              "Try SmartSpent from AppStore, I made it :)"
+            ],
+            "top_comments": [
+              {
+                "author": "nozzery",
+                "date": "2026-05-20",
+                "excerpt": "You don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*. There is always something to cut.\n\n\nClick the pf wiki click budgeting",
+                "score": 5,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omwfx1h/"
+              },
+              {
+                "author": "StrangerWaste5704",
+                "date": "2026-05-20",
+                "excerpt": "My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year. Monarch Money is great but a bit noisy with all the features and similarly priced.\n\nBudgetBadger connects to credit cards, auto-categorizes transactions, and auto-generates budgets and report",
+                "score": 3,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw7dlu/"
+              },
+              {
+                "author": "ravensgirl72",
+                "date": "2026-05-20",
+                "excerpt": "YNAB",
+                "score": 2,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omwivae/"
+              },
+              {
+                "author": "JazzySaid",
+                "date": "2026-05-20",
+                "excerpt": "I find that manually tracking my spending makes me more aware of my purchases. Automated apps are convenient, but if you're trying to cut back it doesn't make you more aware until after you've spent the money.",
+                "score": 2,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omwpbvg/"
+              },
+              {
+                "author": "Overhear_Overponder",
+                "date": "2026-05-20",
+                "excerpt": "Like a golfer saying he needs better clubs. It aint the clubs my guy, its whose swinging them.\u00a0",
+                "score": 2,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omxn6al/"
+              },
+              {
+                "author": "potatograndmaster890",
+                "date": "2026-05-25",
+                "excerpt": "Using multiple cards for points can work fine, but it gets messy fast when spending is split across all of them.\nQuicken Simplifi is worth looking at for pulling cards, bank accounts, bills, and savings goals into one place so the monthly picture is easier to track.",
+                "score": 2,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/onsq77z/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-05-20",
+                "excerpt": "You may find these links helpful:\n\n- [Budgeting](/r/personalfinance/wiki/budgeting)\n- [Tools and spreadsheets](/r/personalfinance/wiki/tools)\n- r/ynab\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/personalfinance)",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw18b6/"
+              },
+              {
+                "author": "josh_josh_josh_",
+                "date": "2026-05-20",
+                "excerpt": "Why do you need 3 credit cards? If your goal is to reduce spending and track where your money is going then reducing it to one card would greatly help.\n\nCredit cards companies want you to think the secret to happiness is juggling multiple credit cards. In reality, they make much more money when your",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw2l9b/"
+              },
+              {
+                "author": "alwayslookingout",
+                "date": "2026-05-20",
+                "excerpt": "I mean any competent finance app can track your CC usage. ",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/omw9b8e/"
+              },
+              {
+                "author": "Ecstatic-Cheetah190",
+                "date": "2026-05-22",
+                "excerpt": "Try SmartSpent from AppStore, I made it :)",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/onaacgn/"
+              }
+            ]
+          },
+          "published_at": "2026-05-20",
+          "relevance_hint": 0.4,
+          "snippet": "You don't need an app, you need to create a budget and if it's not in the budget, *don't spend it*. There is always something to cut.\n\n\nClick the pf wiki click budgeting My two cents:\n\nYNAB is popular but it's zero-based budgeting, which takes some learning and it's >$100/year. Monarch Money is great but a bit noisy with all the features and similarly priced.\n\nBudgetBadger connects to credit cards, auto-categorizes transactions, and auto-generates budgets and report YNAB",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app",
+          "url": "https://www.reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I\u2019m still spending more than I want to\u2026need a good budgeting app",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tiqhhz/im_still_spending_more_than_i_want_toneed_a_good/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/runninglifestyle/comments/1thk5eb/android_app_to_keep_pace",
+      "cluster_id": "cluster-4",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R9",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I need to run a 1.5 mile in certain time, is there an app that will continuously alert me if i am running fast enough/too slow etc? Free is best, but wi;ling to pay a few bucks a month. Android....",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Android App to keep pace\nI need to run a 1.5 mile in certain time, is there an app that will continuously alert me if i am running fast enough/too slow etc? Free is best, but wi;ling to pay a few bucks a month. Android....",
+          "container": "runninglifestyle",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 32,
+          "freshness": 83,
+          "item_id": "R9",
+          "local_rank_score": 0.36950000000000005,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-19",
+          "relevance_hint": 0.42,
+          "snippet": "I need to run a 1.5 mile in certain time, is there an app that will continuously alert me if i am running fast enough/too slow etc? Free is best, but wi;ling to pay a few bucks a month. Android....",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Android App to keep pace",
+          "url": "https://www.reddit.com/r/runninglifestyle/comments/1thk5eb/android_app_to_keep_pace/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Android App to keep pace",
+      "url": "https://www.reddit.com/r/runninglifestyle/comments/1thk5eb/android_app_to_keep_pace/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/nostupidquestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a",
+      "cluster_id": "cluster-5",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 4.800000000000001,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Hey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there an app that can block other apps for a certain amount of time?\nHey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+          "container": "NoStupidQuestions",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 32,
+          "freshness": 49,
+          "item_id": "R8",
+          "local_rank_score": 0.2845,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-02",
+          "relevance_hint": 0.63,
+          "snippet": "Hey Reddit. weird question here but is there an app that blocks certain apps until a specified time? for example, I want to block instagram until 8pm and have it lock again at midnight. I found one app that does this called appblocker but you have to pay for the premium version in order to have this feature. any suggestions would be great, thanks!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there an app that can block other apps for a certain amount of time?",
+          "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there an app that can block other apps for a certain amount of time?",
+      "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1t1s4op/is_there_an_app_that_can_block_other_apps_for_a/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
