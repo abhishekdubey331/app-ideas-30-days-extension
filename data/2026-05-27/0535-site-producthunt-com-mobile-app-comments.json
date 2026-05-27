@@ -1,0 +1,528 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Launched Novus Journal on Product Hunt today"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Listed my app on Product Hunt today. I\u2019d appreciate some support and feedback"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-27T05:35:29.058807+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Launching today - Aware: a free Chrome extension that shows your screen time in real time\nHey everyone!   \n  \nLaunching on Product Hunt today and would really appreciate your support \ud83d\ude4f\n\n**What is Aware?** A free Chrome extension that tracks how much time you spend on each website, in real time, right in your browser.\n\nNo signup. No data collection. No paywall. Just a quiet nudge to help you be more intentional with your screen time.\n\n**Why I built it:** I'm a solo indie dev. I kept losing hours to YouTube and Reddit without realizing it. I didn't want another blocker app, I just want\nCongrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.io](http://ShipBoost.io) might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: [https://www.producthunt.com/@spotch\\_founder](https://www.producthunt.com/@spotch_founder) Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.\n\nThe goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating.\n\nDo check us out",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 6,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 100,
+        "freshness": 73,
+        "item_id": "R1",
+        "local_rank_score": 0.393,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.",
+            "Congratulations on your launch.. upvoted and followed.",
+            "Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.",
+            "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep."
+          ],
+          "top_comments": [
+            {
+              "author": "addicted-coffee",
+              "date": "2026-05-14",
+              "excerpt": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.io](http://ShipBoost.io) might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing.",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olry9qe/"
+            },
+            {
+              "author": "Spotch_Platform",
+              "date": "2026-05-14",
+              "excerpt": "Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: [https://www.producthunt.com/@spotch\\_founder](https://www.producthunt.com/@spotch_founder)",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olsd42g/"
+            },
+            {
+              "author": "AlexTrAn666",
+              "date": "2026-05-14",
+              "excerpt": "Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.\n\nThe goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating.\n\nDo check us out",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olsh6v5/"
+            },
+            {
+              "author": "Necessary-Summer-348",
+              "date": "2026-05-14",
+              "excerpt": "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep. Curious if you're surfacing anything beyond raw minutes, like context switches or app clustering?",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olu6dp4/"
+            }
+          ]
+        },
+        "published_at": "2026-05-14",
+        "relevance_hint": 0.03,
+        "snippet": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.io](http://ShipBoost.io) might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: [https://www.producthunt.com/@spotch\\_founder](https://www.producthunt.com/@spotch_founder) Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.\n\nThe goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating.\n\nDo check us out",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Launched Novus Journal on Product Hunt today\nA big reason I built Novus Journal was because most journaling apps started feeling overcomplicated and difficult to stick to consistently.\n\nI wanted to create something simpler a clean space for reflection, clarity, and daily consistency without all the clutter and overwhelm.\n\nAfter months of work, I finally launched it on Product Hunt today and I\u2019d genuinely appreciate any support, feedback, or thoughts from the community. Launch days are tough, so every upvote and comment really helps.\nOn launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets in the first five minutes. A lot of launches blur into clean and simple language. The clearer you make the before and after, the better the comments usually convert. Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write. Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding. Premium includes a hand-written editorial spotlight, so it is a bit more useful than a plain listing.",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 2,
+          "upvote_ratio": 1
+        },
+        "engagement_score": 73,
+        "freshness": 79,
+        "item_id": "R2",
+        "local_rank_score": 0.38100000000000006,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "On launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets...",
+            "Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write.",
+            "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding."
+          ],
+          "top_comments": [
+            {
+              "author": "high-roller-all-in78",
+              "date": "2026-05-17",
+              "excerpt": "On launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets in the first five minutes. A lot of launches blur into clean and simple language. The clearer you make the before and after, the better the comments usually convert.",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/om924wp/"
+            },
+            {
+              "author": "LeaderAtLeading",
+              "date": "2026-05-17",
+              "excerpt": "Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write.",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/om9l8r6/"
+            },
+            {
+              "author": "addicted-coffee",
+              "date": "2026-05-17",
+              "excerpt": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding. Premium includes a hand-written editorial spotlight, so it is a bit more useful than a plain listing.",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/omb1ueh/"
+            }
+          ]
+        },
+        "published_at": "2026-05-17",
+        "relevance_hint": 0.0,
+        "snippet": "On launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets in the first five minutes. A lot of launches blur into clean and simple language. The clearer you make the before and after, the better the comments usually convert. Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write. Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding. Premium includes a hand-written editorial spotlight, so it is a bit more useful than a plain listing.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Launched Novus Journal on Product Hunt today",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Listed my app on Product Hunt today. I\u2019d appreciate some support and feedback\nAfter going back and forth, i've built up just enough courage to deploy my app **DBHost** and publish it on **Product Hunt**.\n\n[Link to product hunt page](https://www.producthunt.com/posts/dbhost/maker-invite?code=ANzATM)\n\nAs a developer with undiagnozed ADHD i've always had many ideas and projects going at once. The **one** **thing** they **all** shared was needing a **postgres database**, and me ending up with a \\`database setup\\*\\*\\` side-track.\\*\\*\n\n**DBHost** was built over the course of th\nFor a Product Hunt launch, I would check the first-screen promise before asking for more traffic.\n\nThe page needs to answer very fast:\n\n\\- who is this for?\n\n\\- what painful workflow does it replace?\n\n\\- what do I get after trying it?\n\n\\- why should I trust it before signup?\n\nIf those are clear, support/upvotes have somewhere to land. If they are not, the launch traffic will mostly bounce even if t",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 0,
+          "upvote_ratio": 0.5
+        },
+        "engagement_score": 13,
+        "freshness": 51,
+        "item_id": "R3",
+        "local_rank_score": 0.251,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "For a Product Hunt launch, I would check the first-screen promise before asking for more traffic."
+          ],
+          "top_comments": [
+            {
+              "author": "owlyvision",
+              "date": "2026-05-03",
+              "excerpt": "For a Product Hunt launch, I would check the first-screen promise before asking for more traffic.\n\nThe page needs to answer very fast:\n\n\\- who is this for?\n\n\\- what painful workflow does it replace?\n\n\\- what do I get after trying it?\n\n\\- why should I trust it before signup?\n\nIf those are clear, support/upvotes have somewhere to land. If they are not, the launch traffic will mostly bounce even if t",
+              "score": 2,
+              "url": "https://reddit.com/r/SaaS/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate/ojo2uxf/"
+            }
+          ]
+        },
+        "published_at": "2026-05-03",
+        "relevance_hint": 0.22,
+        "snippet": "For a Product Hunt launch, I would check the first-screen promise before asking for more traffic.\n\nThe page needs to answer very fast:\n\n\\- who is this for?\n\n\\- what painful workflow does it replace?\n\n\\- what do I get after trying it?\n\n\\- why should I trust it before signup?\n\nIf those are clear, support/upvotes have somewhere to land. If they are not, the launch traffic will mostly bounce even if t",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Listed my app on Product Hunt today. I\u2019d appreciate some support and feedback",
+        "url": "https://www.reddit.com/r/SaaS/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-27",
+  "range_to": "2026-05-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 7.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.io](http://ShipBoost.io) might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: [https://www.producthunt.com/@spotch\\_founder](https://www.producthunt.com/@spotch_founder) Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.\n\nThe goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating.\n\nDo check us out",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Launching today - Aware: a free Chrome extension that shows your screen time in real time\nHey everyone!   \n  \nLaunching on Product Hunt today and would really appreciate your support \ud83d\ude4f\n\n**What is Aware?** A free Chrome extension that tracks how much time you spend on each website, in real time, right in your browser.\n\nNo signup. No data collection. No paywall. Just a quiet nudge to help you be more intentional with your screen time.\n\n**Why I built it:** I'm a solo indie dev. I kept losing hours to YouTube and Reddit without realizing it. I didn't want another blocker app, I just want\nCongrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.io](http://ShipBoost.io) might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: [https://www.producthunt.com/@spotch\\_founder](https://www.producthunt.com/@spotch_founder) Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.\n\nThe goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating.\n\nDo check us out",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 6,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 100,
+          "freshness": 73,
+          "item_id": "R1",
+          "local_rank_score": 0.393,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.",
+              "Congratulations on your launch.. upvoted and followed.",
+              "Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.",
+              "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep."
+            ],
+            "top_comments": [
+              {
+                "author": "addicted-coffee",
+                "date": "2026-05-14",
+                "excerpt": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.io](http://ShipBoost.io) might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing.",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olry9qe/"
+              },
+              {
+                "author": "Spotch_Platform",
+                "date": "2026-05-14",
+                "excerpt": "Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: [https://www.producthunt.com/@spotch\\_founder](https://www.producthunt.com/@spotch_founder)",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olsd42g/"
+              },
+              {
+                "author": "AlexTrAn666",
+                "date": "2026-05-14",
+                "excerpt": "Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.\n\nThe goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating.\n\nDo check us out",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olsh6v5/"
+              },
+              {
+                "author": "Necessary-Summer-348",
+                "date": "2026-05-14",
+                "excerpt": "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep. Curious if you're surfacing anything beyond raw minutes, like context switches or app clustering?",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/olu6dp4/"
+              }
+            ]
+          },
+          "published_at": "2026-05-14",
+          "relevance_hint": 0.03,
+          "snippet": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, [ShipBoost.io](http://ShipBoost.io) might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: [https://www.producthunt.com/@spotch\\_founder](https://www.producthunt.com/@spotch_founder) Congrats to your launch!\n\nI have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.\n\nThe goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating.\n\nDo check us out",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today",
+      "cluster_id": "cluster-2",
+      "engagement": 73,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 8.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "On launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets in the first five minutes. A lot of launches blur into clean and simple language. The clearer you make the before and after, the better the comments usually convert. Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write. Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding. Premium includes a hand-written editorial spotlight, so it is a bit more useful than a plain listing.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Launched Novus Journal on Product Hunt today\nA big reason I built Novus Journal was because most journaling apps started feeling overcomplicated and difficult to stick to consistently.\n\nI wanted to create something simpler a clean space for reflection, clarity, and daily consistency without all the clutter and overwhelm.\n\nAfter months of work, I finally launched it on Product Hunt today and I\u2019d genuinely appreciate any support, feedback, or thoughts from the community. Launch days are tough, so every upvote and comment really helps.\nOn launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets in the first five minutes. A lot of launches blur into clean and simple language. The clearer you make the before and after, the better the comments usually convert. Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write. Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding. Premium includes a hand-written editorial spotlight, so it is a bit more useful than a plain listing.",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 2,
+            "upvote_ratio": 1
+          },
+          "engagement_score": 73,
+          "freshness": 79,
+          "item_id": "R2",
+          "local_rank_score": 0.38100000000000006,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "On launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets...",
+              "Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write.",
+              "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding."
+            ],
+            "top_comments": [
+              {
+                "author": "high-roller-all-in78",
+                "date": "2026-05-17",
+                "excerpt": "On launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets in the first five minutes. A lot of launches blur into clean and simple language. The clearer you make the before and after, the better the comments usually convert.",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/om924wp/"
+              },
+              {
+                "author": "LeaderAtLeading",
+                "date": "2026-05-17",
+                "excerpt": "Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write.",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/om9l8r6/"
+              },
+              {
+                "author": "addicted-coffee",
+                "date": "2026-05-17",
+                "excerpt": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding. Premium includes a hand-written editorial spotlight, so it is a bit more useful than a plain listing.",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/omb1ueh/"
+              }
+            ]
+          },
+          "published_at": "2026-05-17",
+          "relevance_hint": 0.0,
+          "snippet": "On launch day I would make the page do three things fast: show who it is for, why it is simpler than the bigger journaling apps, and what someone gets in the first five minutes. A lot of launches blur into clean and simple language. The clearer you make the before and after, the better the comments usually convert. Simple is probably the right angle here. Journaling apps get bloated fast when the core job is just making it easy to actually write. Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost might be worth adding. Premium includes a hand-written editorial spotlight, so it is a bit more useful than a plain listing.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Launched Novus Journal on Product Hunt today",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Launched Novus Journal on Product Hunt today",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1tf9t3f/launched_novus_journal_on_product_hunt_today/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate",
+      "cluster_id": "cluster-3",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 26.0,
+      "item_id": "R3",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 3.1000000000000014,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "For a Product Hunt launch, I would check the first-screen promise before asking for more traffic.\n\nThe page needs to answer very fast:\n\n\\- who is this for?\n\n\\- what painful workflow does it replace?\n\n\\- what do I get after trying it?\n\n\\- why should I trust it before signup?\n\nIf those are clear, support/upvotes have somewhere to land. If they are not, the launch traffic will mostly bounce even if t",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Listed my app on Product Hunt today. I\u2019d appreciate some support and feedback\nAfter going back and forth, i've built up just enough courage to deploy my app **DBHost** and publish it on **Product Hunt**.\n\n[Link to product hunt page](https://www.producthunt.com/posts/dbhost/maker-invite?code=ANzATM)\n\nAs a developer with undiagnozed ADHD i've always had many ideas and projects going at once. The **one** **thing** they **all** shared was needing a **postgres database**, and me ending up with a \\`database setup\\*\\*\\` side-track.\\*\\*\n\n**DBHost** was built over the course of th\nFor a Product Hunt launch, I would check the first-screen promise before asking for more traffic.\n\nThe page needs to answer very fast:\n\n\\- who is this for?\n\n\\- what painful workflow does it replace?\n\n\\- what do I get after trying it?\n\n\\- why should I trust it before signup?\n\nIf those are clear, support/upvotes have somewhere to land. If they are not, the launch traffic will mostly bounce even if t",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 0,
+            "upvote_ratio": 0.5
+          },
+          "engagement_score": 13,
+          "freshness": 51,
+          "item_id": "R3",
+          "local_rank_score": 0.251,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "For a Product Hunt launch, I would check the first-screen promise before asking for more traffic."
+            ],
+            "top_comments": [
+              {
+                "author": "owlyvision",
+                "date": "2026-05-03",
+                "excerpt": "For a Product Hunt launch, I would check the first-screen promise before asking for more traffic.\n\nThe page needs to answer very fast:\n\n\\- who is this for?\n\n\\- what painful workflow does it replace?\n\n\\- what do I get after trying it?\n\n\\- why should I trust it before signup?\n\nIf those are clear, support/upvotes have somewhere to land. If they are not, the launch traffic will mostly bounce even if t",
+                "score": 2,
+                "url": "https://reddit.com/r/SaaS/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate/ojo2uxf/"
+              }
+            ]
+          },
+          "published_at": "2026-05-03",
+          "relevance_hint": 0.22,
+          "snippet": "For a Product Hunt launch, I would check the first-screen promise before asking for more traffic.\n\nThe page needs to answer very fast:\n\n\\- who is this for?\n\n\\- what painful workflow does it replace?\n\n\\- what do I get after trying it?\n\n\\- why should I trust it before signup?\n\nIf those are clear, support/upvotes have somewhere to land. If they are not, the launch traffic will mostly bounce even if t",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Listed my app on Product Hunt today. I\u2019d appreciate some support and feedback",
+          "url": "https://www.reddit.com/r/SaaS/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Listed my app on Product Hunt today. I\u2019d appreciate some support and feedback",
+      "url": "https://www.reddit.com/r/SaaS/comments/1t2impq/listed_my_app_on_product_hunt_today_id_appreciate/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
