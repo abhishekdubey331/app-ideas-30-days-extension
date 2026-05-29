@@ -1,0 +1,221 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I would pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/kyiv/comments/1t9cpft/best_weather_app_ios_for_accuracy_and_ux_for_kyiv"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/kyiv/comments/1t9cpft/best_weather_app_ios_for_accuracy_and_ux_for_kyiv"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Best weather app (iOS) for accuracy and UX for Kyiv? Default weather app is unreliable."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-29T01:02:23.737903+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Best weather app (iOS) for accuracy and UX for Kyiv? Default weather app is unreliable.\nWindy app with default model works well for me Problem is not in application, it\u2019s what model does use. Try ventusky, there you will be able to switch from one model to another one. Probably, you will find what is most suitable for you. I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise. Just set it up to your closest weather station.",
+        "container": "Kyiv",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 3
+        },
+        "engagement_score": 50,
+        "freshness": 61,
+        "item_id": "R1",
+        "local_rank_score": 0.287,
+        "local_relevance": 0.13,
+        "metadata": {
+          "comment_insights": [
+            "Windy app with default model works well for me",
+            "Problem is not in application, it\u2019s what model does use.",
+            "I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise."
+          ],
+          "top_comments": [
+            {
+              "author": "Kitchen_Animal_2644",
+              "date": "2026-05-10",
+              "excerpt": "Windy app with default model works well for me",
+              "score": 2,
+              "url": "https://reddit.com/r/Kyiv/comments/1t9cpft/comment/ol20ht3/"
+            },
+            {
+              "author": "Electronic-Yellow-87",
+              "date": "2026-05-10",
+              "excerpt": "Problem is not in application, it\u2019s what model does use. Try ventusky, there you will be able to switch from one model to another one. Probably, you will find what is most suitable for you.",
+              "score": 1,
+              "url": "https://reddit.com/r/Kyiv/comments/1t9cpft/comment/ol14ubs/"
+            },
+            {
+              "author": "Substantial_Deal8025",
+              "date": "2026-05-12",
+              "excerpt": "I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise. Just set it up to your closest weather station.",
+              "score": 1,
+              "url": "https://reddit.com/r/Kyiv/comments/1t9cpft/comment/olfkgvu/"
+            }
+          ]
+        },
+        "published_at": "2026-05-10",
+        "relevance_hint": 0.24,
+        "snippet": "Windy app with default model works well for me Problem is not in application, it\u2019s what model does use. Try ventusky, there you will be able to switch from one model to another one. Probably, you will find what is most suitable for you. I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise. Just set it up to your closest weather station.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Best weather app (iOS) for accuracy and UX for Kyiv? Default weather app is unreliable.",
+        "url": "https://www.reddit.com/r/Kyiv/comments/1t9cpft/best_weather_app_ios_for_accuracy_and_ux_for_kyiv/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I would pay for an app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I would pay for an app\", especially about \"i pay app\"?",
+        "search_query": "\"i pay app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-29",
+  "range_to": "2026-05-29",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/kyiv/comments/1t9cpft/best_weather_app_ios_for_accuracy_and_ux_for_kyiv",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.13,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 2.3000000000000007,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Windy app with default model works well for me Problem is not in application, it\u2019s what model does use. Try ventusky, there you will be able to switch from one model to another one. Probably, you will find what is most suitable for you. I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise. Just set it up to your closest weather station.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Best weather app (iOS) for accuracy and UX for Kyiv? Default weather app is unreliable.\nWindy app with default model works well for me Problem is not in application, it\u2019s what model does use. Try ventusky, there you will be able to switch from one model to another one. Probably, you will find what is most suitable for you. I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise. Just set it up to your closest weather station.",
+          "container": "Kyiv",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 3
+          },
+          "engagement_score": 50,
+          "freshness": 61,
+          "item_id": "R1",
+          "local_rank_score": 0.287,
+          "local_relevance": 0.13,
+          "metadata": {
+            "comment_insights": [
+              "Windy app with default model works well for me",
+              "Problem is not in application, it\u2019s what model does use.",
+              "I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise."
+            ],
+            "top_comments": [
+              {
+                "author": "Kitchen_Animal_2644",
+                "date": "2026-05-10",
+                "excerpt": "Windy app with default model works well for me",
+                "score": 2,
+                "url": "https://reddit.com/r/Kyiv/comments/1t9cpft/comment/ol20ht3/"
+              },
+              {
+                "author": "Electronic-Yellow-87",
+                "date": "2026-05-10",
+                "excerpt": "Problem is not in application, it\u2019s what model does use. Try ventusky, there you will be able to switch from one model to another one. Probably, you will find what is most suitable for you.",
+                "score": 1,
+                "url": "https://reddit.com/r/Kyiv/comments/1t9cpft/comment/ol14ubs/"
+              },
+              {
+                "author": "Substantial_Deal8025",
+                "date": "2026-05-12",
+                "excerpt": "I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise. Just set it up to your closest weather station.",
+                "score": 1,
+                "url": "https://reddit.com/r/Kyiv/comments/1t9cpft/comment/olfkgvu/"
+              }
+            ]
+          },
+          "published_at": "2026-05-10",
+          "relevance_hint": 0.24,
+          "snippet": "Windy app with default model works well for me Problem is not in application, it\u2019s what model does use. Try ventusky, there you will be able to switch from one model to another one. Probably, you will find what is most suitable for you. I am living in Kyiv :) My family is using Weather Underground (former Intellicast) for years, it is informative and quite precise. Just set it up to your closest weather station.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Best weather app (iOS) for accuracy and UX for Kyiv? Default weather app is unreliable.",
+          "url": "https://www.reddit.com/r/Kyiv/comments/1t9cpft/best_weather_app_ios_for_accuracy_and_ux_for_kyiv/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Best weather app (iOS) for accuracy and UX for Kyiv? Default weather app is unreliable.",
+      "url": "https://www.reddit.com/r/Kyiv/comments/1t9cpft/best_weather_app_ios_for_accuracy_and_ux_for_kyiv/"
+    }
+  ],
+  "topic": "\"I would pay for an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
