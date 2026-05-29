@@ -1,0 +1,488 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"any good app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any good apps for logging yume info?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/luciddreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/luciddreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1teodif/any_app_for_tracking_longterm_milestones_with"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1teodif/any_app_for_tracking_longterm_milestones_with"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any app for tracking long-term milestones with visual progress?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iih/comments/1tqjohg/any_good_apps_for_symptom_tracking"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/iih/comments/1tqjohg/any_good_apps_for_symptom_tracking"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "any good apps for symptom tracking?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-29T05:33:43.284449+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "any good apps for symptom tracking?",
+        "container": "iih",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 5
+        },
+        "engagement_score": 30,
+        "freshness": 97,
+        "item_id": "R13",
+        "local_rank_score": 0.38949999999999996,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-28",
+        "relevance_hint": 0.38,
+        "snippet": "any good apps for symptom tracking?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "any good apps for symptom tracking?",
+        "url": "https://www.reddit.com/r/iih/comments/1tqjohg/any_good_apps_for_symptom_tracking/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any good apps for logging yume info?",
+        "container": "yumeshipping",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 7
+        },
+        "engagement_score": 40,
+        "freshness": 89,
+        "item_id": "R9",
+        "local_rank_score": 0.373,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-24",
+        "relevance_hint": 0.37,
+        "snippet": "Any good apps for logging yume info?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any good apps for logging yume info?",
+        "url": "https://www.reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+        "container": "LucidDreaming",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 7
+        },
+        "engagement_score": 40,
+        "freshness": 70,
+        "item_id": "R10",
+        "local_rank_score": 0.345,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-14",
+        "relevance_hint": 0.87,
+        "snippet": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+        "url": "https://www.reddit.com/r/LucidDreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any app for tracking long-term milestones with visual progress?",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 3
+        },
+        "engagement_score": 35,
+        "freshness": 73,
+        "item_id": "R8",
+        "local_rank_score": 0.315,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-16",
+        "relevance_hint": 0.99,
+        "snippet": "Any app for tracking long-term milestones with visual progress?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any app for tracking long-term milestones with visual progress?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1teodif/any_app_for_tracking_longterm_milestones_with/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"any good app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"any good app for\", especially about \"any app for\"?",
+        "search_query": "\"any app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-29",
+  "range_to": "2026-05-29",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info",
+      "cluster_id": "cluster-1",
+      "engagement": 40,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 59.05,
+      "item_id": "R9",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Any good apps for logging yume info?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any good apps for logging yume info?",
+          "container": "yumeshipping",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 7
+          },
+          "engagement_score": 40,
+          "freshness": 89,
+          "item_id": "R9",
+          "local_rank_score": 0.373,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-24",
+          "relevance_hint": 0.37,
+          "snippet": "Any good apps for logging yume info?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any good apps for logging yume info?",
+          "url": "https://www.reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any good apps for logging yume info?",
+      "url": "https://www.reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/luciddreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc",
+      "cluster_id": "cluster-2",
+      "engagement": 40,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R10",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R10",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+          "container": "LucidDreaming",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 7
+          },
+          "engagement_score": 40,
+          "freshness": 70,
+          "item_id": "R10",
+          "local_rank_score": 0.345,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-14",
+          "relevance_hint": 0.87,
+          "snippet": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+          "url": "https://www.reddit.com/r/LucidDreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+      "url": "https://www.reddit.com/r/LucidDreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1teodif/any_app_for_tracking_longterm_milestones_with",
+      "cluster_id": "cluster-3",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.95,
+      "item_id": "R8",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.100000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "Any app for tracking long-term milestones with visual progress?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any app for tracking long-term milestones with visual progress?",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 3
+          },
+          "engagement_score": 35,
+          "freshness": 73,
+          "item_id": "R8",
+          "local_rank_score": 0.315,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-16",
+          "relevance_hint": 0.99,
+          "snippet": "Any app for tracking long-term milestones with visual progress?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any app for tracking long-term milestones with visual progress?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1teodif/any_app_for_tracking_longterm_milestones_with/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any app for tracking long-term milestones with visual progress?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1teodif/any_app_for_tracking_longterm_milestones_with/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/iih/comments/1tqjohg/any_good_apps_for_symptom_tracking",
+      "cluster_id": "cluster-4",
+      "engagement": 30,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 59.35,
+      "item_id": "R13",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R13",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "any good apps for symptom tracking?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "any good apps for symptom tracking?",
+          "container": "iih",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 5
+          },
+          "engagement_score": 30,
+          "freshness": 97,
+          "item_id": "R13",
+          "local_rank_score": 0.38949999999999996,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-28",
+          "relevance_hint": 0.38,
+          "snippet": "any good apps for symptom tracking?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "any good apps for symptom tracking?",
+          "url": "https://www.reddit.com/r/iih/comments/1tqjohg/any_good_apps_for_symptom_tracking/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "any good apps for symptom tracking?",
+      "url": "https://www.reddit.com/r/iih/comments/1tqjohg/any_good_apps_for_symptom_tracking/"
+    }
+  ],
+  "topic": "\"any good app for\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
