@@ -1,0 +1,300 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@aubrey_in_wonderland/video/7641570340405087502"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@aubrey_in_wonderland/video/7641570340405087502"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "I wish there was one app where all communications could come through where I don\u2019t have to have five different apps for my four different ki"
+    },
+    {
+      "candidate_ids": [
+        "https://instagram.com/reel/dyaontbst0k"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://instagram.com/reel/dyaontbst0k"
+      ],
+      "score": 0.0,
+      "sources": [
+        "instagram"
+      ],
+      "title": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-30T12:35:33.283453+00:00",
+  "items_by_source": {
+    "instagram": [
+      {
+        "author": "portuisright4u",
+        "body": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner\nComing off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 14,
+          "likes": -1,
+          "views": 26491
+        },
+        "engagement_score": 50,
+        "freshness": 51,
+        "item_id": "IG2",
+        "local_rank_score": 0.21650000000000003,
+        "local_relevance": 0.06,
+        "metadata": {
+          "hashtags": [
+            "datingapps",
+            "justgirlythings",
+            "duetpartner"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-06",
+        "relevance_hint": 0.24,
+        "snippet": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+        "source": "instagram",
+        "source_quality": 0.58,
+        "title": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+        "url": "https://www.instagram.com/reel/DYAoNtBSt0k/",
+        "why_relevant": "Instagram: Coming off a little too strong is my ministry! #datingapps #"
+      }
+    ],
+    "tiktok": [
+      {
+        "author": "aubrey_in_wonderland",
+        "body": "I wish there was one app where all communications could come through where I don\u2019t have to have five different apps for my four different kids. #fyp #parenting #endofschool #maycember\nWell, I bragged a little too soon. I said that I only had three extra things this week in addition to school and work. I just dropped my son off, and everyone else was getting out of their car in bathing suits. You know who's not in a bathing suit? May simber. Everybody.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 6,
+          "likes": 60,
+          "shares": 2,
+          "views": 7590
+        },
+        "engagement_score": 92,
+        "freshness": 77,
+        "item_id": "TK1",
+        "local_rank_score": 0.41450000000000004,
+        "local_relevance": 0.2,
+        "metadata": {
+          "hashtags": [
+            "fyp",
+            "parenting",
+            "endofschool",
+            "maycember"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-19",
+        "relevance_hint": 0.89,
+        "snippet": "Well, I bragged a little too soon. I said that I only had three extra things this week in addition to school and work. I just dropped my son off, and everyone else was getting out of their car in bathing suits. You know who's not in a bathing suit? May simber. Everybody.",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "I wish there was one app where all communications could come through where I don\u2019t have to have five different apps for my four different ki",
+        "url": "https://www.tiktok.com/@aubrey_in_wonderland/video/7641570340405087502",
+        "why_relevant": "TikTok: I wish there was one app where all communications could come"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app for\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app for\", especially about \"i wish there app for\"?",
+        "search_query": "\"i wish there app for\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-04-30",
+  "range_to": "2026-05-30",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@aubrey_in_wonderland/video/7641570340405087502",
+      "cluster_id": "cluster-1",
+      "engagement": 92,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 10.199999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Well, I bragged a little too soon. I said that I only had three extra things this week in addition to school and work. I just dropped my son off, and everyone else was getting out of their car in bathing suits. You know who's not in a bathing suit? May simber. Everybody.",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "aubrey_in_wonderland",
+          "body": "I wish there was one app where all communications could come through where I don\u2019t have to have five different apps for my four different kids. #fyp #parenting #endofschool #maycember\nWell, I bragged a little too soon. I said that I only had three extra things this week in addition to school and work. I just dropped my son off, and everyone else was getting out of their car in bathing suits. You know who's not in a bathing suit? May simber. Everybody.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 6,
+            "likes": 60,
+            "shares": 2,
+            "views": 7590
+          },
+          "engagement_score": 92,
+          "freshness": 77,
+          "item_id": "TK1",
+          "local_rank_score": 0.41450000000000004,
+          "local_relevance": 0.2,
+          "metadata": {
+            "hashtags": [
+              "fyp",
+              "parenting",
+              "endofschool",
+              "maycember"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-19",
+          "relevance_hint": 0.89,
+          "snippet": "Well, I bragged a little too soon. I said that I only had three extra things this week in addition to school and work. I just dropped my son off, and everyone else was getting out of their car in bathing suits. You know who's not in a bathing suit? May simber. Everybody.",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "I wish there was one app where all communications could come through where I don\u2019t have to have five different apps for my four different ki",
+          "url": "https://www.tiktok.com/@aubrey_in_wonderland/video/7641570340405087502",
+          "why_relevant": "TikTok: I wish there was one app where all communications could come"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I wish there was one app where all communications could come through where I don\u2019t have to have five different apps for my four different ki",
+      "url": "https://www.tiktok.com/@aubrey_in_wonderland/video/7641570340405087502"
+    },
+    {
+      "candidate_id": "https://instagram.com/reel/dyaontbst0k",
+      "cluster_id": "cluster-2",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 43.45,
+      "item_id": "IG2",
+      "local_relevance": 0.06,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "IG2",
+            "native_rank": 1,
+            "source": "instagram",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:instagram": 1
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+      "source": "instagram",
+      "source_items": [
+        {
+          "author": "portuisright4u",
+          "body": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner\nComing off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 14,
+            "likes": -1,
+            "views": 26491
+          },
+          "engagement_score": 50,
+          "freshness": 51,
+          "item_id": "IG2",
+          "local_rank_score": 0.21650000000000003,
+          "local_relevance": 0.06,
+          "metadata": {
+            "hashtags": [
+              "datingapps",
+              "justgirlythings",
+              "duetpartner"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-06",
+          "relevance_hint": 0.24,
+          "snippet": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+          "source": "instagram",
+          "source_quality": 0.58,
+          "title": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+          "url": "https://www.instagram.com/reel/DYAoNtBSt0k/",
+          "why_relevant": "Instagram: Coming off a little too strong is my ministry! #datingapps #"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "instagram"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Coming off a little too strong is my ministry! #datingapps #justgirlythings #duetpartner",
+      "url": "https://www.instagram.com/reel/DYAoNtBSt0k/"
+    }
+  ],
+  "topic": "\"I wish there was an app for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
