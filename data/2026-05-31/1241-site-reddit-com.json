@@ -1,0 +1,187 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@redditstories_doggo/video/7644003113321516318"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@redditstories_doggo/video/7644003113321516318"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Our roommate was on the fence about getting a new apartment with my girlfriend and I, so when we saw the perfect opportunity for a 2 person"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-31T12:40:25.567260+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "redditstories_doggo",
+        "body": "Our roommate was on the fence about getting a new apartment with my girlfriend and I, so when we saw the perfect opportunity for a 2 person apartment we took it, and now he's furious at us for \"leaving him.\"  Plus one update.  Posted by: u/jammin727 #reddit #redditstories #redditreadings #redditdoggo #minecraftparkour #storytime\nour roommate was on the fence about getting a new apartment with my girlfriend and I so when we saw the perfect opportunity for a two person apartment we took it and now he's furious at us for leaving him posted by you slash jamin 7 27 a little background my gf we'll call her Marie 25 f and I 31 m have been dating for about 8 months things honestly between us are very good we get along great she loves my quirks and I love hers she has been living with her friend the 28 metres we'll call him Verne for two years and they've been friends for about six years I'm a graduate student she works for the university and Verne is a manager at a movie theatre for the last year I lived in graduate student apartments and she has lived with him for about two years Marie and I decide we want to live together so since my lease was up at the end of June and their lease was up in July Marie and Verne both decided it was cool if I lived with them for a month paying my share of the bills they were intent on moving after their lease was up because Marie wants to be closer to work and Verne has had multiple run ins with the neighbours Marie and I have never had any problems with the neighbours that part is important and I'll explain why later the three of us decided to stay an extra month in the current place at slightly increased month to month cost just to get our finances in better order about the same time we had a group discussion and broached the concept of not getting a place together Verne had said that he was exploring options of living on his own or with other people as he wasn't sure if he wanted to live with a couple Marie and I admitted we had been looking at getting a place on our own without him as well as we both would prefer to live very close to campus whereas Verne's workplace is kind of on the outskirts of town this is where we left the conversation and Marie and I both assumed that we would be getting our own place and he would be getting his own place cut to yesterday Marie had been looking at apartments and found the perfect one for us three minute walk from her work five minute walk from the building I frequent the most for class and about 7 minute walk from the local grocery store perfect for us and a great price too well since it's nearing the end of summer break here in a fairly large and busy college town apartments are filling up the people in the office tell us if we want that apartment we had to fill out paperwork that day so we do note we haven't given them any money yet...",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 37,
+          "likes": 22847,
+          "shares": 98,
+          "views": 302810
+        },
+        "engagement_score": 96,
+        "freshness": 89,
+        "item_id": "TK2",
+        "local_rank_score": 0.46799999999999997,
+        "local_relevance": 0.23,
+        "metadata": {
+          "hashtags": [
+            "reddit",
+            "redditstories",
+            "redditreadings",
+            "redditdoggo",
+            "minecraftparkour",
+            "storytime"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-26",
+        "relevance_hint": 0.24,
+        "snippet": "our roommate was on the fence about getting a new apartment with my girlfriend and I so when we saw the perfect opportunity for a two person apartment we took it and now he's furious at us for leaving him posted by you slash jamin 7 27 a little background my gf we'll call her Marie 25 f and I 31 m have been dating for about 8 months things honestly between us are very good we get along great she loves my quirks and I love hers she has been living with her friend the 28 metres we'll call him Verne for two years and they've been friends for about six years I'm a graduate student she works for...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Our roommate was on the fence about getting a new apartment with my girlfriend and I, so when we saw the perfect opportunity for a 2 person",
+        "url": "https://www.tiktok.com/@redditstories_doggo/video/7644003113321516318",
+        "why_relevant": "TikTok: Our roommate was on the fence about getting a new apartment"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-01",
+  "range_to": "2026-05-31",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@redditstories_doggo/video/7644003113321516318",
+      "cluster_id": "cluster-1",
+      "engagement": 96,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK2",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 14.699999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "our roommate was on the fence about getting a new apartment with my girlfriend and I so when we saw the perfect opportunity for a two person apartment we took it and now he's furious at us for leaving him posted by you slash jamin 7 27 a little background my gf we'll call her Marie 25 f and I 31 m have been dating for about 8 months things honestly between us are very good we get along great she loves my quirks and I love hers she has been living with her friend the 28 metres we'll call him Verne for two years and they've been friends for about six years I'm a graduate student she works for...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "redditstories_doggo",
+          "body": "Our roommate was on the fence about getting a new apartment with my girlfriend and I, so when we saw the perfect opportunity for a 2 person apartment we took it, and now he's furious at us for \"leaving him.\"  Plus one update.  Posted by: u/jammin727 #reddit #redditstories #redditreadings #redditdoggo #minecraftparkour #storytime\nour roommate was on the fence about getting a new apartment with my girlfriend and I so when we saw the perfect opportunity for a two person apartment we took it and now he's furious at us for leaving him posted by you slash jamin 7 27 a little background my gf we'll call her Marie 25 f and I 31 m have been dating for about 8 months things honestly between us are very good we get along great she loves my quirks and I love hers she has been living with her friend the 28 metres we'll call him Verne for two years and they've been friends for about six years I'm a graduate student she works for the university and Verne is a manager at a movie theatre for the last year I lived in graduate student apartments and she has lived with him for about two years Marie and I decide we want to live together so since my lease was up at the end of June and their lease was up in July Marie and Verne both decided it was cool if I lived with them for a month paying my share of the bills they were intent on moving after their lease was up because Marie wants to be closer to work and Verne has had multiple run ins with the neighbours Marie and I have never had any problems with the neighbours that part is important and I'll explain why later the three of us decided to stay an extra month in the current place at slightly increased month to month cost just to get our finances in better order about the same time we had a group discussion and broached the concept of not getting a place together Verne had said that he was exploring options of living on his own or with other people as he wasn't sure if he wanted to live with a couple Marie and I admitted we had been looking at getting a place on our own without him as well as we both would prefer to live very close to campus whereas Verne's workplace is kind of on the outskirts of town this is where we left the conversation and Marie and I both assumed that we would be getting our own place and he would be getting his own place cut to yesterday Marie had been looking at apartments and found the perfect one for us three minute walk from her work five minute walk from the building I frequent the most for class and about 7 minute walk from the local grocery store perfect for us and a great price too well since it's nearing the end of summer break here in a fairly large and busy college town apartments are filling up the people in the office tell us if we want that apartment we had to fill out paperwork that day so we do note we haven't given them any money yet...",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 37,
+            "likes": 22847,
+            "shares": 98,
+            "views": 302810
+          },
+          "engagement_score": 96,
+          "freshness": 89,
+          "item_id": "TK2",
+          "local_rank_score": 0.46799999999999997,
+          "local_relevance": 0.23,
+          "metadata": {
+            "hashtags": [
+              "reddit",
+              "redditstories",
+              "redditreadings",
+              "redditdoggo",
+              "minecraftparkour",
+              "storytime"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-26",
+          "relevance_hint": 0.24,
+          "snippet": "our roommate was on the fence about getting a new apartment with my girlfriend and I so when we saw the perfect opportunity for a two person apartment we took it and now he's furious at us for leaving him posted by you slash jamin 7 27 a little background my gf we'll call her Marie 25 f and I 31 m have been dating for about 8 months things honestly between us are very good we get along great she loves my quirks and I love hers she has been living with her friend the 28 metres we'll call him Verne for two years and they've been friends for about six years I'm a graduate student she works for...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Our roommate was on the fence about getting a new apartment with my girlfriend and I, so when we saw the perfect opportunity for a 2 person",
+          "url": "https://www.tiktok.com/@redditstories_doggo/video/7644003113321516318",
+          "why_relevant": "TikTok: Our roommate was on the fence about getting a new apartment"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Our roommate was on the fence about getting a new apartment with my girlfriend and I, so when we saw the perfect opportunity for a 2 person",
+      "url": "https://www.tiktok.com/@redditstories_doggo/video/7644003113321516318"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
