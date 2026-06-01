@@ -1,0 +1,544 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nextcloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/nextcloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1tbb1bs/i_got_frustrated_with_my_own_productivity_system"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1tbb1bs/i_got_frustrated_with_my_own_productivity_system"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1tru4ih/built_something_after_getting_frustrated_with"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1tru4ih/built_something_after_getting_frustrated_with"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Built something after getting frustrated with every finance app I tried"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-01T14:11:21.591453+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51\nHow vibecoded is this? I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything. I\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Thank",
+        "container": "NextCloud",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 60,
+          "score": 54
+        },
+        "engagement_score": 100,
+        "freshness": 70,
+        "item_id": "R1",
+        "local_rank_score": 0.379,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+            "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving...",
+            "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?",
+            "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+            "Ive been playing with this app for the last couple days.",
+            "Love your app man, we desperately needed a functional nextcloud recipe app.",
+            "Adopted! Recipe grabbing works great. When it doesn't, one useful feature could be automatically adding one ingredient per line when copy/pasting ingr...",
+            "I haven't had any issues with: version 0.7.9 com.nextcloud_cookbook_flutter.",
+            "If I started the app without syncing with Nextcloud, can I later without starting over?"
+          ],
+          "top_comments": [
+            {
+              "author": "Inner-Hedgehog5494",
+              "date": "2026-05-17",
+              "excerpt": "How vibecoded is this?",
+              "score": 10,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcecb4/"
+            },
+            {
+              "author": "Allferry",
+              "date": "2026-05-17",
+              "excerpt": "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+              "score": 9,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcdb75/"
+            },
+            {
+              "author": "viviolay",
+              "date": "2026-05-17",
+              "excerpt": "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything. I\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Thank",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcomct/"
+            },
+            {
+              "author": "Hellrazor_muc",
+              "date": "2026-05-17",
+              "excerpt": "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omddtev/"
+            },
+            {
+              "author": "gg_allins_microphone",
+              "date": "2026-05-18",
+              "excerpt": "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omfgu3o/"
+            },
+            {
+              "author": "mortsdeer",
+              "date": "2026-05-19",
+              "excerpt": "Ive been playing with this app for the last couple days. Had two bugs, filed issues (with logs), developer fixed them within hours. I'm on Android, I install from github releases via Obtanium. One truly notable feature: the \"import from URL\" works better than the stock Cookbook web app: I routinely ",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omq3z15/"
+            },
+            {
+              "author": "punkpipo",
+              "date": "2026-05-27",
+              "excerpt": "Love your app man, we desperately needed a functional nextcloud recipe app. The offline feature makes this soo much more useful. I can finally use nextcloud cookbook again without downloading overkill self hosted recipe apps. Thanks!!",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/oo9tqyv/"
+            },
+            {
+              "author": "Herbert_Khrill",
+              "date": "2026-05-30",
+              "excerpt": "Adopted! Recipe grabbing works great. When it doesn't, one useful feature could be automatically adding one ingredient per line when copy/pasting ingredients containing paragraph breaks, like the web app does. At the moment, everything gets pasted onto the same line (as in the official app furthermo",
+              "score": 2,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/ooq9ibf/"
+            },
+            {
+              "author": "undrwater",
+              "date": "2026-05-17",
+              "excerpt": "I haven't had any issues with: version 0.7.9 com.nextcloud_cookbook_flutter. It syncs and works offline perfectly. But yours looks prettier. One thing I would LOVE is a way to export and import recipes so we can share with each other our whole collection. That would mean scanning for dupes of course",
+              "score": 1,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcun50/"
+            },
+            {
+              "author": "supernoteslut",
+              "date": "2026-05-17",
+              "excerpt": "If I started the app without syncing with Nextcloud, can I later without starting over?",
+              "score": 1,
+              "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omd1wmo/"
+            }
+          ]
+        },
+        "published_at": "2026-05-17",
+        "relevance_hint": 0.37,
+        "snippet": "How vibecoded is this? I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything. I\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Thank",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51",
+        "url": "https://www.reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Built something after getting frustrated with every finance app I tried",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 11,
+        "freshness": 95,
+        "item_id": "R11",
+        "local_rank_score": 0.359,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-30",
+        "relevance_hint": 0.87,
+        "snippet": "Built something after getting frustrated with every finance app I tried",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Built something after getting frustrated with every finance app I tried",
+        "url": "https://www.reddit.com/r/SaaS/comments/1tru4ih/built_something_after_getting_frustrated_with/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2
+        },
+        "engagement_score": 24,
+        "freshness": 59,
+        "item_id": "R7",
+        "local_rank_score": 0.3405,
+        "local_relevance": 0.26,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-12",
+        "relevance_hint": 0.87,
+        "snippet": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+        "url": "https://www.reddit.com/r/SaaS/comments/1tbb1bs/i_got_frustrated_with_my_own_productivity_system/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-02",
+  "range_to": "2026-06-01",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/nextcloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 6.199999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "How vibecoded is this? I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything. I\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Thank",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51\nHow vibecoded is this? I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything. I\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Thank",
+          "container": "NextCloud",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 60,
+            "score": 54
+          },
+          "engagement_score": 100,
+          "freshness": 70,
+          "item_id": "R1",
+          "local_rank_score": 0.379,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+              "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving...",
+              "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?",
+              "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+              "Ive been playing with this app for the last couple days.",
+              "Love your app man, we desperately needed a functional nextcloud recipe app.",
+              "Adopted! Recipe grabbing works great. When it doesn't, one useful feature could be automatically adding one ingredient per line when copy/pasting ingr...",
+              "I haven't had any issues with: version 0.7.9 com.nextcloud_cookbook_flutter.",
+              "If I started the app without syncing with Nextcloud, can I later without starting over?"
+            ],
+            "top_comments": [
+              {
+                "author": "Inner-Hedgehog5494",
+                "date": "2026-05-17",
+                "excerpt": "How vibecoded is this?",
+                "score": 10,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcecb4/"
+              },
+              {
+                "author": "Allferry",
+                "date": "2026-05-17",
+                "excerpt": "I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps.",
+                "score": 9,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcdb75/"
+              },
+              {
+                "author": "viviolay",
+                "date": "2026-05-17",
+                "excerpt": "Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything. I\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Thank",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcomct/"
+              },
+              {
+                "author": "Hellrazor_muc",
+                "date": "2026-05-17",
+                "excerpt": "Great, thank you for your effort! Is there any chance this app will come to F-Droid or the Google Play Store in the future?",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omddtev/"
+              },
+              {
+                "author": "gg_allins_microphone",
+                "date": "2026-05-18",
+                "excerpt": "It looks nice and loaded up all my recipes, but it crashes a lot when trying to open a recipe.",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omfgu3o/"
+              },
+              {
+                "author": "mortsdeer",
+                "date": "2026-05-19",
+                "excerpt": "Ive been playing with this app for the last couple days. Had two bugs, filed issues (with logs), developer fixed them within hours. I'm on Android, I install from github releases via Obtanium. One truly notable feature: the \"import from URL\" works better than the stock Cookbook web app: I routinely ",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omq3z15/"
+              },
+              {
+                "author": "punkpipo",
+                "date": "2026-05-27",
+                "excerpt": "Love your app man, we desperately needed a functional nextcloud recipe app. The offline feature makes this soo much more useful. I can finally use nextcloud cookbook again without downloading overkill self hosted recipe apps. Thanks!!",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/oo9tqyv/"
+              },
+              {
+                "author": "Herbert_Khrill",
+                "date": "2026-05-30",
+                "excerpt": "Adopted! Recipe grabbing works great. When it doesn't, one useful feature could be automatically adding one ingredient per line when copy/pasting ingredients containing paragraph breaks, like the web app does. At the moment, everything gets pasted onto the same line (as in the official app furthermo",
+                "score": 2,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/ooq9ibf/"
+              },
+              {
+                "author": "undrwater",
+                "date": "2026-05-17",
+                "excerpt": "I haven't had any issues with: version 0.7.9 com.nextcloud_cookbook_flutter. It syncs and works offline perfectly. But yours looks prettier. One thing I would LOVE is a way to export and import recipes so we can share with each other our whole collection. That would mean scanning for dupes of course",
+                "score": 1,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omcun50/"
+              },
+              {
+                "author": "supernoteslut",
+                "date": "2026-05-17",
+                "excerpt": "If I started the app without syncing with Nextcloud, can I later without starting over?",
+                "score": 1,
+                "url": "https://reddit.com/r/NextCloud/comments/1tfvpuc/comment/omd1wmo/"
+              }
+            ]
+          },
+          "published_at": "2026-05-17",
+          "relevance_hint": 0.37,
+          "snippet": "How vibecoded is this? I\u2019ve just tried it and it\u2019s really good. A few steps above the other Nextcloud recipes apps. Looks really good! I imported a recipe from the internet since I don\u2019t have NC cookbook setup (I use paprika 3 normally tho was held back from moving to the cookbook app due to not wanting to move everything. I\u2019ll try using it for a few dinners and will share more thoughts if I get the chance. Thank",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51",
+          "url": "https://www.reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got frustrated with outdated Nextcloud Cookbook apps, so I built a modern, open-source alternative with full offline sync (iOS/Android) \ud83e\udd51",
+      "url": "https://www.reddit.com/r/NextCloud/comments/1tfvpuc/i_got_frustrated_with_outdated_nextcloud_cookbook/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1tbb1bs/i_got_frustrated_with_my_own_productivity_system",
+      "cluster_id": "cluster-2",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 11.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2
+          },
+          "engagement_score": 24,
+          "freshness": 59,
+          "item_id": "R7",
+          "local_rank_score": 0.3405,
+          "local_relevance": 0.26,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-12",
+          "relevance_hint": 0.87,
+          "snippet": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+          "url": "https://www.reddit.com/r/SaaS/comments/1tbb1bs/i_got_frustrated_with_my_own_productivity_system/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got frustrated with my own productivity system so I built an app to fix it - 10 days in, 2 paying subscribers",
+      "url": "https://www.reddit.com/r/SaaS/comments/1tbb1bs/i_got_frustrated_with_my_own_productivity_system/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1tru4ih/built_something_after_getting_frustrated_with",
+      "cluster_id": "cluster-3",
+      "engagement": 11,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 30.549999999999997,
+      "item_id": "R11",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.899999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Built something after getting frustrated with every finance app I tried",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Built something after getting frustrated with every finance app I tried",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 11,
+          "freshness": 95,
+          "item_id": "R11",
+          "local_rank_score": 0.359,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-30",
+          "relevance_hint": 0.87,
+          "snippet": "Built something after getting frustrated with every finance app I tried",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Built something after getting frustrated with every finance app I tried",
+          "url": "https://www.reddit.com/r/SaaS/comments/1tru4ih/built_something_after_getting_frustrated_with/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Built something after getting frustrated with every finance app I tried",
+      "url": "https://www.reddit.com/r/SaaS/comments/1tru4ih/built_something_after_getting_frustrated_with/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
