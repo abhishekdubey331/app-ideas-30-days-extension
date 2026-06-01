@@ -1,0 +1,488 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"any good app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any good apps for logging yume info?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/luciddreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/luciddreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1teodif/any_app_for_tracking_longterm_milestones_with"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1teodif/any_app_for_tracking_longterm_milestones_with"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any app for tracking long-term milestones with visual progress?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ausmoneymates/comments/1tdojc5/anyone_have_any_good_apps_for_saving_money_on_food"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/ausmoneymates/comments/1tdojc5/anyone_have_any_good_apps_for_saving_money_on_food"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "anyone have any good apps for saving money on food?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-01T09:58:12.082178+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Any good apps for logging yume info?",
+        "container": "yumeshipping",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 7
+        },
+        "engagement_score": 55,
+        "freshness": 83,
+        "item_id": "R7",
+        "local_rank_score": 0.373,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-24",
+        "relevance_hint": 0.37,
+        "snippet": "Any good apps for logging yume info?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any good apps for logging yume info?",
+        "url": "https://www.reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+        "container": "LucidDreaming",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 7
+        },
+        "engagement_score": 55,
+        "freshness": 64,
+        "item_id": "R8",
+        "local_rank_score": 0.34500000000000003,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-14",
+        "relevance_hint": 0.87,
+        "snippet": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+        "url": "https://www.reddit.com/r/LucidDreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any app for tracking long-term milestones with visual progress?",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 3
+        },
+        "engagement_score": 49,
+        "freshness": 67,
+        "item_id": "R6",
+        "local_rank_score": 0.314,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-16",
+        "relevance_hint": 0.99,
+        "snippet": "Any app for tracking long-term milestones with visual progress?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any app for tracking long-term milestones with visual progress?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1teodif/any_app_for_tracking_longterm_milestones_with/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      },
+      {
+        "body": "anyone have any good apps for saving money on food?",
+        "container": "AusMoneyMates",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 5
+        },
+        "engagement_score": 39,
+        "freshness": 65,
+        "item_id": "R13",
+        "local_rank_score": 0.3055,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-15",
+        "relevance_hint": 0.37,
+        "snippet": "anyone have any good apps for saving money on food?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "anyone have any good apps for saving money on food?",
+        "url": "https://www.reddit.com/r/AusMoneyMates/comments/1tdojc5/anyone_have_any_good_apps_for_saving_money_on_food/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"any good app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"any good app for\", especially about \"any app for\"?",
+        "search_query": "\"any app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-02",
+  "range_to": "2026-06-01",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info",
+      "cluster_id": "cluster-1",
+      "engagement": 55,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 59.05,
+      "item_id": "R7",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 9.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Any good apps for logging yume info?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any good apps for logging yume info?",
+          "container": "yumeshipping",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 7
+          },
+          "engagement_score": 55,
+          "freshness": 83,
+          "item_id": "R7",
+          "local_rank_score": 0.373,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-24",
+          "relevance_hint": 0.37,
+          "snippet": "Any good apps for logging yume info?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any good apps for logging yume info?",
+          "url": "https://www.reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any good apps for logging yume info?",
+      "url": "https://www.reddit.com/r/yumeshipping/comments/1tmjz2q/any_good_apps_for_logging_yume_info/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/luciddreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc",
+      "cluster_id": "cluster-2",
+      "engagement": 55,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 7.799999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+          "container": "LucidDreaming",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 7
+          },
+          "engagement_score": 55,
+          "freshness": 64,
+          "item_id": "R8",
+          "local_rank_score": 0.34500000000000003,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-14",
+          "relevance_hint": 0.87,
+          "snippet": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+          "url": "https://www.reddit.com/r/LucidDreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any good apps for lucid dreaming? Things like RC reminders, journaling, techniques etc. (I'm aware that i could use the default reminder app or set alarms but it would be nice to have a dedicated app)",
+      "url": "https://www.reddit.com/r/LucidDreaming/comments/1tcw6n1/any_good_apps_for_lucid_dreaming_things_like_rc/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1teodif/any_app_for_tracking_longterm_milestones_with",
+      "cluster_id": "cluster-3",
+      "engagement": 49,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.95,
+      "item_id": "R6",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 4.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Any app for tracking long-term milestones with visual progress?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any app for tracking long-term milestones with visual progress?",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 3
+          },
+          "engagement_score": 49,
+          "freshness": 67,
+          "item_id": "R6",
+          "local_rank_score": 0.314,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-16",
+          "relevance_hint": 0.99,
+          "snippet": "Any app for tracking long-term milestones with visual progress?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any app for tracking long-term milestones with visual progress?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1teodif/any_app_for_tracking_longterm_milestones_with/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any app for tracking long-term milestones with visual progress?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1teodif/any_app_for_tracking_longterm_milestones_with/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ausmoneymates/comments/1tdojc5/anyone_have_any_good_apps_for_saving_money_on_food",
+      "cluster_id": "cluster-4",
+      "engagement": 39,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 54.55,
+      "item_id": "R13",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R13",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.199999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "anyone have any good apps for saving money on food?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "anyone have any good apps for saving money on food?",
+          "container": "AusMoneyMates",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 5
+          },
+          "engagement_score": 39,
+          "freshness": 65,
+          "item_id": "R13",
+          "local_rank_score": 0.3055,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-15",
+          "relevance_hint": 0.37,
+          "snippet": "anyone have any good apps for saving money on food?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "anyone have any good apps for saving money on food?",
+          "url": "https://www.reddit.com/r/AusMoneyMates/comments/1tdojc5/anyone_have_any_good_apps_for_saving_money_on_food/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "anyone have any good apps for saving money on food?",
+      "url": "https://www.reddit.com/r/AusMoneyMates/comments/1tdojc5/anyone_have_any_good_apps_for_saving_money_on_food/"
+    }
+  ],
+  "topic": "\"any good app for\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
