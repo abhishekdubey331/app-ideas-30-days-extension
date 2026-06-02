@@ -1,0 +1,237 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-02T17:39:20.630626+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Launching today - Aware: a free Chrome extension that shows your screen time in real time\nCongrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.io might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: https://www.producthunt.com/@spotch_founder Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming. The goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating. Do check us out. E",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 6
+        },
+        "engagement_score": 100,
+        "freshness": 61,
+        "item_id": "R1",
+        "local_rank_score": 0.363,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.",
+            "Congratulations on your launch.. upvoted and followed.",
+            "Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.",
+            "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep."
+          ],
+          "top_comments": [
+            {
+              "author": "addicted-coffee",
+              "date": "2026-05-14",
+              "excerpt": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.io might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing.",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olry9qe/"
+            },
+            {
+              "author": "Spotch_Platform",
+              "date": "2026-05-14",
+              "excerpt": "Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: https://www.producthunt.com/@spotch_founder",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olsd42g/"
+            },
+            {
+              "author": "AlexTrAn666",
+              "date": "2026-05-14",
+              "excerpt": "Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming. The goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating. Do check us out. E",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olsh6v5/"
+            },
+            {
+              "author": "Necessary-Summer-348",
+              "date": "2026-05-14",
+              "excerpt": "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep. Curious if you're surfacing anything beyond raw minutes, like context switches or app clustering?",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olu6dp4/"
+            }
+          ]
+        },
+        "published_at": "2026-05-14",
+        "relevance_hint": 0.0,
+        "snippet": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.io might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: https://www.producthunt.com/@spotch_founder Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming. The goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating. Do check us out. E",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-03",
+  "range_to": "2026-06-02",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 5.100000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.io might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: https://www.producthunt.com/@spotch_founder Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming. The goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating. Do check us out. E",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Launching today - Aware: a free Chrome extension that shows your screen time in real time\nCongrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.io might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: https://www.producthunt.com/@spotch_founder Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming. The goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating. Do check us out. E",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 6
+          },
+          "engagement_score": 100,
+          "freshness": 61,
+          "item_id": "R1",
+          "local_rank_score": 0.363,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.",
+              "Congratulations on your launch.. upvoted and followed.",
+              "Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming.",
+              "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep."
+            ],
+            "top_comments": [
+              {
+                "author": "addicted-coffee",
+                "date": "2026-05-14",
+                "excerpt": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.io might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing.",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olry9qe/"
+              },
+              {
+                "author": "Spotch_Platform",
+                "date": "2026-05-14",
+                "excerpt": "Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: https://www.producthunt.com/@spotch_founder",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olsd42g/"
+              },
+              {
+                "author": "AlexTrAn666",
+                "date": "2026-05-14",
+                "excerpt": "Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming. The goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating. Do check us out. E",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olsh6v5/"
+              },
+              {
+                "author": "Necessary-Summer-348",
+                "date": "2026-05-14",
+                "excerpt": "Real-time display is smart \u2014 the shame mechanic works way better than end-of-day reports when you're 6 hours deep. Curious if you're surfacing anything beyond raw minutes, like context switches or app clustering?",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1tcy87s/comment/olu6dp4/"
+              }
+            ]
+          },
+          "published_at": "2026-05-14",
+          "relevance_hint": 0.0,
+          "snippet": "Congrats on the launch, upvoted. If you\u2019re still doing distribution after this, ShipBoost.io might be worth adding. The premium option includes an editorial spotlight, so it is a bit more useful than a plain listing. Congratulations on your launch.. upvoted and followed. Would appreciate a follow as well. We\u2019re gearing up for our launch soon: https://www.producthunt.com/@spotch_founder Congrats to your launch! I have launched Pianify An AI piano learning app that make piano learning more approachable and habit-forming. The goal is not just to help people \u201clearn piano,\u201d but to help them build a daily piano habit in a way that feels more fun and less intimidating. Do check us out. E",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Launching today - Aware: a free Chrome extension that shows your screen time in real time",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1tcy87s/launching_today_aware_a_free_chrome_extension/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

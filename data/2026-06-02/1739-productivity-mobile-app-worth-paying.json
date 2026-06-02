@@ -1,0 +1,859 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "productivity mobile app \"worth paying\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1tftnsm/what_is_the_most_useful_app_for_improving"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1tftnsm/what_is_the_most_useful_app_for_improving"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What is the most useful app for improving productivity?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Which productivity apps are worth paying for vs staying on the free version?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I made my own gamified productivity app and it\u2019s weirdly working"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/habits/comments/1t3txgn/what_is_the_best_mobile_application_for"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/habits/comments/1t3txgn/what_is_the_best_mobile_application_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What is the best mobile application for productivity ?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What Keeps You Using A Productivity App?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1t4ibfb/your_top_productivity_app"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1t4ibfb/your_top_productivity_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Your Top Productivity App?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-02T17:39:40.264440+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "What Keeps You Using A Productivity App?",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 33,
+          "score": 6
+        },
+        "engagement_score": 39,
+        "freshness": 97,
+        "item_id": "R11",
+        "local_rank_score": 0.405,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-01",
+        "relevance_hint": 0.38,
+        "snippet": "What Keeps You Using A Productivity App?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What Keeps You Using A Productivity App?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      },
+      {
+        "body": "Which productivity apps are worth paying for vs staying on the free version?",
+        "container": "apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 38,
+          "score": 32
+        },
+        "engagement_score": 60,
+        "freshness": 83,
+        "item_id": "R7",
+        "local_rank_score": 0.3975,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-25",
+        "relevance_hint": 0.47,
+        "snippet": "Which productivity apps are worth paying for vs staying on the free version?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Which productivity apps are worth paying for vs staying on the free version?",
+        "url": "https://www.reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I made my own gamified productivity app and it\u2019s weirdly working",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 26,
+          "score": 17
+        },
+        "engagement_score": 49,
+        "freshness": 91,
+        "item_id": "R10",
+        "local_rank_score": 0.374,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-29",
+        "relevance_hint": 0.34,
+        "snippet": "I made my own gamified productivity app and it\u2019s weirdly working",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I made my own gamified productivity app and it\u2019s weirdly working",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      },
+      {
+        "body": "What is the most useful app for improving productivity?\nthe best produtivity is pen and paper ! Ticktick The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating system for your life. The moment maintaining the \u201cproductivity system\u201d becomes a task itself, I start becoming less productive, not more \ud83d\ude04",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 133,
+          "score": 38
+        },
+        "engagement_score": 80,
+        "freshness": 67,
+        "item_id": "R3",
+        "local_rank_score": 0.37100000000000005,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [
+            "the best produtivity is pen and paper !",
+            "The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating syst...",
+            "Productivity is something which can not be dependent on any app.",
+            "Super Productivity . By far the best I've tried and it keeps getting better.",
+            "Notion. You can create a lot cool stuff if you know its formula.",
+            "I use Flowbuddy on iPhone it saves me so much time",
+            "try kubbo.appgamified habit tracker that let you build an empire from your daily habits",
+            "What is keeping you from being productive?"
+          ],
+          "top_comments": [
+            {
+              "author": "Hefty-While-9995",
+              "date": "2026-05-17",
+              "excerpt": "the best produtivity is pen and paper !",
+              "score": 20,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omcapja/"
+            },
+            {
+              "author": "Weird_Deal326",
+              "date": "2026-05-17",
+              "excerpt": "Ticktick",
+              "score": 9,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omccg4f/"
+            },
+            {
+              "author": "Nikolaev_",
+              "date": "2026-05-17",
+              "excerpt": "The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating system for your life. The moment maintaining the \u201cproductivity system\u201d becomes a task itself, I start becoming less productive, not more \ud83d\ude04",
+              "score": 6,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omclef2/"
+            },
+            {
+              "author": "SouthernKiwi495",
+              "date": "2026-05-18",
+              "excerpt": "Claude Saner and AppleMusic",
+              "score": 3,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omexcsp/"
+            },
+            {
+              "author": "jpgaubier",
+              "date": "2026-05-17",
+              "excerpt": "Super Productivity . By far the best I've tried and it keeps getting better.",
+              "score": 3,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omc1335/"
+            },
+            {
+              "author": "Rupesh__sp",
+              "date": "2026-05-17",
+              "excerpt": "Productivity is something which can not be dependent on any app. productivity apps are just to remove burden from your brain so you can think about other important things.You can use notion - but you need to know all about databases and proper management. It will become your one-stop solution powerh",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omd6o11/"
+            },
+            {
+              "author": "Jade_Lim",
+              "date": "2026-05-17",
+              "excerpt": "Notion. You can create a lot cool stuff if you know its formula.",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omc171b/"
+            },
+            {
+              "author": "berncoflow",
+              "date": "2026-05-17",
+              "excerpt": "I use Flowbuddy on iPhone it saves me so much time",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omch1ht/"
+            },
+            {
+              "author": "mcfly-dev",
+              "date": "2026-05-17",
+              "excerpt": "try kubbo.appgamified habit tracker that let you build an empire from your daily habits",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omckk6k/"
+            },
+            {
+              "author": "CartographerFeisty66",
+              "date": "2026-05-17",
+              "excerpt": "What is keeping you from being productive?",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omcn38j/"
+            }
+          ]
+        },
+        "published_at": "2026-05-17",
+        "relevance_hint": 0.36,
+        "snippet": "the best produtivity is pen and paper ! Ticktick The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating system for your life. The moment maintaining the \u201cproductivity system\u201d becomes a task itself, I start becoming less productive, not more \ud83d\ude04",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What is the most useful app for improving productivity?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1tftnsm/what_is_the_most_useful_app_for_improving/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Your Top Productivity App?",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 42,
+          "score": 3
+        },
+        "engagement_score": 35,
+        "freshness": 43,
+        "item_id": "R9",
+        "local_rank_score": 0.292,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-05",
+        "relevance_hint": 0.42,
+        "snippet": "Your Top Productivity App?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Your Top Productivity App?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1t4ibfb/your_top_productivity_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What is the best mobile application for productivity ?",
+        "container": "Habits",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 28,
+          "score": 10
+        },
+        "engagement_score": 44,
+        "freshness": 41,
+        "item_id": "R12",
+        "local_rank_score": 0.27,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-04",
+        "relevance_hint": 0.38,
+        "snippet": "What is the best mobile application for productivity ?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What is the best mobile application for productivity ?",
+        "url": "https://www.reddit.com/r/Habits/comments/1t3txgn/what_is_the_best_mobile_application_for/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "productivity mobile app \"worth paying\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to productivity mobile app \"worth paying\"?",
+        "search_query": "productivity mobile app \"worth paying\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-03",
+  "range_to": "2026-06-02",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1tftnsm/what_is_the_most_useful_app_for_improving",
+      "cluster_id": "cluster-1",
+      "engagement": 80,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 7.700000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "the best produtivity is pen and paper ! Ticktick The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating system for your life. The moment maintaining the \u201cproductivity system\u201d becomes a task itself, I start becoming less productive, not more \ud83d\ude04",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What is the most useful app for improving productivity?\nthe best produtivity is pen and paper ! Ticktick The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating system for your life. The moment maintaining the \u201cproductivity system\u201d becomes a task itself, I start becoming less productive, not more \ud83d\ude04",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 133,
+            "score": 38
+          },
+          "engagement_score": 80,
+          "freshness": 67,
+          "item_id": "R3",
+          "local_rank_score": 0.37100000000000005,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [
+              "the best produtivity is pen and paper !",
+              "The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating syst...",
+              "Productivity is something which can not be dependent on any app.",
+              "Super Productivity . By far the best I've tried and it keeps getting better.",
+              "Notion. You can create a lot cool stuff if you know its formula.",
+              "I use Flowbuddy on iPhone it saves me so much time",
+              "try kubbo.appgamified habit tracker that let you build an empire from your daily habits",
+              "What is keeping you from being productive?"
+            ],
+            "top_comments": [
+              {
+                "author": "Hefty-While-9995",
+                "date": "2026-05-17",
+                "excerpt": "the best produtivity is pen and paper !",
+                "score": 20,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omcapja/"
+              },
+              {
+                "author": "Weird_Deal326",
+                "date": "2026-05-17",
+                "excerpt": "Ticktick",
+                "score": 9,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omccg4f/"
+              },
+              {
+                "author": "Nikolaev_",
+                "date": "2026-05-17",
+                "excerpt": "The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating system for your life. The moment maintaining the \u201cproductivity system\u201d becomes a task itself, I start becoming less productive, not more \ud83d\ude04",
+                "score": 6,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omclef2/"
+              },
+              {
+                "author": "SouthernKiwi495",
+                "date": "2026-05-18",
+                "excerpt": "Claude Saner and AppleMusic",
+                "score": 3,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omexcsp/"
+              },
+              {
+                "author": "jpgaubier",
+                "date": "2026-05-17",
+                "excerpt": "Super Productivity . By far the best I've tried and it keeps getting better.",
+                "score": 3,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omc1335/"
+              },
+              {
+                "author": "Rupesh__sp",
+                "date": "2026-05-17",
+                "excerpt": "Productivity is something which can not be dependent on any app. productivity apps are just to remove burden from your brain so you can think about other important things.You can use notion - but you need to know all about databases and proper management. It will become your one-stop solution powerh",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omd6o11/"
+              },
+              {
+                "author": "Jade_Lim",
+                "date": "2026-05-17",
+                "excerpt": "Notion. You can create a lot cool stuff if you know its formula.",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omc171b/"
+              },
+              {
+                "author": "berncoflow",
+                "date": "2026-05-17",
+                "excerpt": "I use Flowbuddy on iPhone it saves me so much time",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omch1ht/"
+              },
+              {
+                "author": "mcfly-dev",
+                "date": "2026-05-17",
+                "excerpt": "try kubbo.appgamified habit tracker that let you build an empire from your daily habits",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omckk6k/"
+              },
+              {
+                "author": "CartographerFeisty66",
+                "date": "2026-05-17",
+                "excerpt": "What is keeping you from being productive?",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1tftnsm/comment/omcn38j/"
+              }
+            ]
+          },
+          "published_at": "2026-05-17",
+          "relevance_hint": 0.36,
+          "snippet": "the best produtivity is pen and paper ! Ticktick The best productivity app I\u2019ve personally found is usually the one that reduces friction the most instead of trying to become an entire operating system for your life. The moment maintaining the \u201cproductivity system\u201d becomes a task itself, I start becoming less productive, not more \ud83d\ude04",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What is the most useful app for improving productivity?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1tftnsm/what_is_the_most_useful_app_for_improving/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What is the most useful app for improving productivity?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1tftnsm/what_is_the_most_useful_app_for_improving/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs",
+      "cluster_id": "cluster-2",
+      "engagement": 60,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 47.05,
+      "item_id": "R7",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Which productivity apps are worth paying for vs staying on the free version?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Which productivity apps are worth paying for vs staying on the free version?",
+          "container": "apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 38,
+            "score": 32
+          },
+          "engagement_score": 60,
+          "freshness": 83,
+          "item_id": "R7",
+          "local_rank_score": 0.3975,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-25",
+          "relevance_hint": 0.47,
+          "snippet": "Which productivity apps are worth paying for vs staying on the free version?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Which productivity apps are worth paying for vs staying on the free version?",
+          "url": "https://www.reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Which productivity apps are worth paying for vs staying on the free version?",
+      "url": "https://www.reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its",
+      "cluster_id": "cluster-3",
+      "engagement": 49,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.65,
+      "item_id": "R10",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R10",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I made my own gamified productivity app and it\u2019s weirdly working",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I made my own gamified productivity app and it\u2019s weirdly working",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 26,
+            "score": 17
+          },
+          "engagement_score": 49,
+          "freshness": 91,
+          "item_id": "R10",
+          "local_rank_score": 0.374,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-29",
+          "relevance_hint": 0.34,
+          "snippet": "I made my own gamified productivity app and it\u2019s weirdly working",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I made my own gamified productivity app and it\u2019s weirdly working",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I made my own gamified productivity app and it\u2019s weirdly working",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/habits/comments/1t3txgn/what_is_the_best_mobile_application_for",
+      "cluster_id": "cluster-4",
+      "engagement": 44,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 53.65,
+      "item_id": "R12",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R12",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 2.5,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "What is the best mobile application for productivity ?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What is the best mobile application for productivity ?",
+          "container": "Habits",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 28,
+            "score": 10
+          },
+          "engagement_score": 44,
+          "freshness": 41,
+          "item_id": "R12",
+          "local_rank_score": 0.27,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-04",
+          "relevance_hint": 0.38,
+          "snippet": "What is the best mobile application for productivity ?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What is the best mobile application for productivity ?",
+          "url": "https://www.reddit.com/r/Habits/comments/1t3txgn/what_is_the_best_mobile_application_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What is the best mobile application for productivity ?",
+      "url": "https://www.reddit.com/r/Habits/comments/1t3txgn/what_is_the_best_mobile_application_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app",
+      "cluster_id": "cluster-5",
+      "engagement": 39,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 57.849999999999994,
+      "item_id": "R11",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.700000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "What Keeps You Using A Productivity App?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What Keeps You Using A Productivity App?",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 33,
+            "score": 6
+          },
+          "engagement_score": 39,
+          "freshness": 97,
+          "item_id": "R11",
+          "local_rank_score": 0.405,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-01",
+          "relevance_hint": 0.38,
+          "snippet": "What Keeps You Using A Productivity App?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What Keeps You Using A Productivity App?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What Keeps You Using A Productivity App?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1t4ibfb/your_top_productivity_app",
+      "cluster_id": "cluster-6",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 62.05,
+      "item_id": "R9",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 5.699999999999996,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Your Top Productivity App?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Your Top Productivity App?",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 42,
+            "score": 3
+          },
+          "engagement_score": 35,
+          "freshness": 43,
+          "item_id": "R9",
+          "local_rank_score": 0.292,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-05",
+          "relevance_hint": 0.42,
+          "snippet": "Your Top Productivity App?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Your Top Productivity App?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1t4ibfb/your_top_productivity_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Your Top Productivity App?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1t4ibfb/your_top_productivity_app/"
+    }
+  ],
+  "topic": "productivity mobile app \"worth paying\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
