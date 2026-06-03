@@ -1,0 +1,285 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-03T05:44:58.441118+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)\nI agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I honestly think subscriptions only work when the app keeps delivering ongoing value or has real infra costs behind it. People will tolerate paying monthly for Spotify,Dropbox,maybe even AI tools they use daily.But flashlight apps,alarm apps,calculators suddenly wanting $8/mo broke people\u2019s brains a",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 7
+        },
+        "engagement_score": 35,
+        "freshness": 64,
+        "item_id": "R4",
+        "local_rank_score": 0.40299999999999997,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees.",
+            "I'm with you - the enshitification of apps is ridiculous.",
+            "I honestly think subscriptions only work when the app keeps delivering ongoing value or has real infra costs behind it.",
+            "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business.",
+            "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything.",
+            "How utilitiy apps manage to get approved for subscription at the first place?",
+            "Maitey (trip planner) moved in that direction. No more subscriptions."
+          ],
+          "top_comments": [
+            {
+              "author": "Impressive-Sir9633",
+              "date": "2026-05-16",
+              "excerpt": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t",
+              "score": 3,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5zkiu/"
+            },
+            {
+              "author": "ExogamousUnfolding",
+              "date": "2026-05-16",
+              "excerpt": "I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs",
+              "score": 3,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5xlkq/"
+            },
+            {
+              "author": "DisasterPrudent1030",
+              "date": "2026-05-16",
+              "excerpt": "I honestly think subscriptions only work when the app keeps delivering ongoing value or has real infra costs behind it. People will tolerate paying monthly for Spotify,Dropbox,maybe even AI tools they use daily.But flashlight apps,alarm apps,calculators suddenly wanting $8/mo broke people\u2019s brains a",
+              "score": 3,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om6kyxx/"
+            },
+            {
+              "author": "satinekk",
+              "date": "2026-05-16",
+              "excerpt": "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business. And yeah subscription fatigue is real, but also there are still enough people that are willing to pay subscriptions. Alarmy makes 500k per month. Doesn't look like th",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om6602z/"
+            },
+            {
+              "author": "Alki_Soupboy",
+              "date": "2026-05-16",
+              "excerpt": "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything. And then I have an AI subscription option.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7envf/"
+            },
+            {
+              "author": "pimeme",
+              "date": "2026-05-16",
+              "excerpt": "How utilitiy apps manage to get approved for subscription at the first place? I tired to submit a camera app to apple and they rejected it saying that my app have to provide new content on monthly basis in order to sell subscription. I could had easily solve it by pushing new camer filter every mont",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7eq4f/"
+            },
+            {
+              "author": "MaiteyApp",
+              "date": "2026-05-16",
+              "excerpt": "Maitey (trip planner) moved in that direction. No more subscriptions. Just \"Travel Day\" passes. Buy the pass you need to suit the length of your trip (1/3/7/14/20/31 days). It just didn't make sense to charge a monthly or yearly subscription when people don't travel in that manner. If anyone wants t",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7w0nj/"
+            }
+          ]
+        },
+        "published_at": "2026-05-16",
+        "relevance_hint": 0.24,
+        "snippet": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I honestly...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-04",
+  "range_to": "2026-06-03",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my",
+      "cluster_id": "cluster-1",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I honestly...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)\nI agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I honestly think subscriptions only work when the app keeps delivering ongoing value or has real infra costs behind it. People will tolerate paying monthly for Spotify,Dropbox,maybe even AI tools they use daily.But flashlight apps,alarm apps,calculators suddenly wanting $8/mo broke people\u2019s brains a",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 7
+          },
+          "engagement_score": 35,
+          "freshness": 64,
+          "item_id": "R4",
+          "local_rank_score": 0.40299999999999997,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees.",
+              "I'm with you - the enshitification of apps is ridiculous.",
+              "I honestly think subscriptions only work when the app keeps delivering ongoing value or has real infra costs behind it.",
+              "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business.",
+              "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything.",
+              "How utilitiy apps manage to get approved for subscription at the first place?",
+              "Maitey (trip planner) moved in that direction. No more subscriptions."
+            ],
+            "top_comments": [
+              {
+                "author": "Impressive-Sir9633",
+                "date": "2026-05-16",
+                "excerpt": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t",
+                "score": 3,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5zkiu/"
+              },
+              {
+                "author": "ExogamousUnfolding",
+                "date": "2026-05-16",
+                "excerpt": "I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs",
+                "score": 3,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5xlkq/"
+              },
+              {
+                "author": "DisasterPrudent1030",
+                "date": "2026-05-16",
+                "excerpt": "I honestly think subscriptions only work when the app keeps delivering ongoing value or has real infra costs behind it. People will tolerate paying monthly for Spotify,Dropbox,maybe even AI tools they use daily.But flashlight apps,alarm apps,calculators suddenly wanting $8/mo broke people\u2019s brains a",
+                "score": 3,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om6kyxx/"
+              },
+              {
+                "author": "satinekk",
+                "date": "2026-05-16",
+                "excerpt": "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business. And yeah subscription fatigue is real, but also there are still enough people that are willing to pay subscriptions. Alarmy makes 500k per month. Doesn't look like th",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om6602z/"
+              },
+              {
+                "author": "Alki_Soupboy",
+                "date": "2026-05-16",
+                "excerpt": "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything. And then I have an AI subscription option.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7envf/"
+              },
+              {
+                "author": "pimeme",
+                "date": "2026-05-16",
+                "excerpt": "How utilitiy apps manage to get approved for subscription at the first place? I tired to submit a camera app to apple and they rejected it saying that my app have to provide new content on monthly basis in order to sell subscription. I could had easily solve it by pushing new camer filter every mont",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7eq4f/"
+              },
+              {
+                "author": "MaiteyApp",
+                "date": "2026-05-16",
+                "excerpt": "Maitey (trip planner) moved in that direction. No more subscriptions. Just \"Travel Day\" passes. Buy the pass you need to suit the length of your trip (1/3/7/14/20/31 days). It just didn't make sense to charge a monthly or yearly subscription when people don't travel in that manner. If anyone wants t",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7w0nj/"
+              }
+            ]
+          },
+          "published_at": "2026-05-16",
+          "relevance_hint": 0.24,
+          "snippet": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I honestly...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
