@@ -1,0 +1,189 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no app that just... handles random errands for you?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-04T17:09:26.601015+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Why is there no app that just... handles random errands for you?\nYeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+        "container": "alphaandbetausers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1
+        },
+        "engagement_score": 57,
+        "freshness": 73,
+        "item_id": "R2",
+        "local_rank_score": 0.42150000000000004,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out."
+          ],
+          "top_comments": [
+            {
+              "author": "SomewhereFun3480",
+              "date": "2026-05-22",
+              "excerpt": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+              "score": 1,
+              "url": "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/comment/on8nwuz/"
+            }
+          ]
+        },
+        "published_at": "2026-05-22",
+        "relevance_hint": 0.9,
+        "snippet": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no app that just... handles random errands for you?",
+        "url": "https://www.reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-05",
+  "range_to": "2026-06-04",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random",
+      "cluster_id": "cluster-1",
+      "engagement": 57,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no app that just... handles random errands for you?\nYeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+          "container": "alphaandbetausers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1
+          },
+          "engagement_score": 57,
+          "freshness": 73,
+          "item_id": "R2",
+          "local_rank_score": 0.42150000000000004,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out."
+            ],
+            "top_comments": [
+              {
+                "author": "SomewhereFun3480",
+                "date": "2026-05-22",
+                "excerpt": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+                "score": 1,
+                "url": "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/comment/on8nwuz/"
+              }
+            ]
+          },
+          "published_at": "2026-05-22",
+          "relevance_hint": 0.9,
+          "snippet": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no app that just... handles random errands for you?",
+          "url": "https://www.reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no app that just... handles random errands for you?",
+      "url": "https://www.reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
