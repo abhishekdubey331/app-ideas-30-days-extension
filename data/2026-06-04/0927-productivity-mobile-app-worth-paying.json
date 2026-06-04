@@ -1,0 +1,382 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "productivity mobile app \"worth paying\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Which productivity apps are worth paying for vs staying on the free version?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I made my own gamified productivity app and it\u2019s weirdly working"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What Keeps You Using A Productivity App?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-04T09:27:23.946523+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "What Keeps You Using A Productivity App?",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 38,
+          "score": 7
+        },
+        "engagement_score": 42,
+        "freshness": 94,
+        "item_id": "R9",
+        "local_rank_score": 0.40049999999999997,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-01",
+        "relevance_hint": 0.38,
+        "snippet": "What Keeps You Using A Productivity App?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What Keeps You Using A Productivity App?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      },
+      {
+        "body": "Which productivity apps are worth paying for vs staying on the free version?",
+        "container": "apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 40,
+          "score": 30
+        },
+        "engagement_score": 59,
+        "freshness": 79,
+        "item_id": "R7",
+        "local_rank_score": 0.3865,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-25",
+        "relevance_hint": 0.47,
+        "snippet": "Which productivity apps are worth paying for vs staying on the free version?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Which productivity apps are worth paying for vs staying on the free version?",
+        "url": "https://www.reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I made my own gamified productivity app and it\u2019s weirdly working",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 26,
+          "score": 15
+        },
+        "engagement_score": 48,
+        "freshness": 88,
+        "item_id": "R10",
+        "local_rank_score": 0.3655,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-29",
+        "relevance_hint": 0.34,
+        "snippet": "I made my own gamified productivity app and it\u2019s weirdly working",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I made my own gamified productivity app and it\u2019s weirdly working",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "productivity mobile app \"worth paying\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to productivity mobile app \"worth paying\"?",
+        "search_query": "productivity mobile app \"worth paying\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-05",
+  "range_to": "2026-06-04",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs",
+      "cluster_id": "cluster-1",
+      "engagement": 59,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 47.05,
+      "item_id": "R7",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.799999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Which productivity apps are worth paying for vs staying on the free version?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Which productivity apps are worth paying for vs staying on the free version?",
+          "container": "apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 40,
+            "score": 30
+          },
+          "engagement_score": 59,
+          "freshness": 79,
+          "item_id": "R7",
+          "local_rank_score": 0.3865,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-25",
+          "relevance_hint": 0.47,
+          "snippet": "Which productivity apps are worth paying for vs staying on the free version?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Which productivity apps are worth paying for vs staying on the free version?",
+          "url": "https://www.reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Which productivity apps are worth paying for vs staying on the free version?",
+      "url": "https://www.reddit.com/r/apps/comments/1tne1hv/which_productivity_apps_are_worth_paying_for_vs/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its",
+      "cluster_id": "cluster-2",
+      "engagement": 48,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.65,
+      "item_id": "R10",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R10",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.100000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I made my own gamified productivity app and it\u2019s weirdly working",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I made my own gamified productivity app and it\u2019s weirdly working",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 26,
+            "score": 15
+          },
+          "engagement_score": 48,
+          "freshness": 88,
+          "item_id": "R10",
+          "local_rank_score": 0.3655,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-29",
+          "relevance_hint": 0.34,
+          "snippet": "I made my own gamified productivity app and it\u2019s weirdly working",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I made my own gamified productivity app and it\u2019s weirdly working",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I made my own gamified productivity app and it\u2019s weirdly working",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1tqp96n/i_made_my_own_gamified_productivity_app_and_its/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app",
+      "cluster_id": "cluster-3",
+      "engagement": 42,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 57.849999999999994,
+      "item_id": "R9",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.100000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "What Keeps You Using A Productivity App?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What Keeps You Using A Productivity App?",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 38,
+            "score": 7
+          },
+          "engagement_score": 42,
+          "freshness": 94,
+          "item_id": "R9",
+          "local_rank_score": 0.40049999999999997,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-01",
+          "relevance_hint": 0.38,
+          "snippet": "What Keeps You Using A Productivity App?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What Keeps You Using A Productivity App?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What Keeps You Using A Productivity App?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/"
+    }
+  ],
+  "topic": "productivity mobile app \"worth paying\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
