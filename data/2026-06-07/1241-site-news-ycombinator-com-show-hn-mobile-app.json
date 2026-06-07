@@ -1,0 +1,204 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@memiai6/video/7637687758303104269"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@memiai6/video/7637687758303104269"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "This Is day one. #ycombinator #startup #app  #entrepreneur #viral",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-07T12:41:23.657310+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "memiai6",
+        "body": "This Is day one. #ycombinator #startup #app  #entrepreneur #viral",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 24,
+          "likes": 55,
+          "shares": 34,
+          "views": 1820
+        },
+        "engagement_score": 36,
+        "freshness": 3,
+        "item_id": "TK6",
+        "local_rank_score": 0.167,
+        "local_relevance": 0.19,
+        "metadata": {
+          "hashtags": [
+            "ycombinator",
+            "startup",
+            "app",
+            "entrepreneur",
+            "viral"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-09",
+        "relevance_hint": 0.33,
+        "snippet": "This Is day one. #ycombinator #startup #app #entrepreneur #viral",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "This Is day one. #ycombinator #startup #app  #entrepreneur #viral",
+        "url": "https://www.tiktok.com/@memiai6/video/7637687758303104269",
+        "why_relevant": "TikTok: This Is day one. #ycombinator #startup #app  #entrepreneur #"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-05-08",
+  "range_to": "2026-06-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@memiai6/video/7637687758303104269",
+      "cluster_id": "cluster-1",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 3,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.5,
+      "item_id": "TK6",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK6",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK6",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "This Is day one. #ycombinator #startup #app #entrepreneur #viral",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "memiai6",
+          "body": "This Is day one. #ycombinator #startup #app  #entrepreneur #viral",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 24,
+            "likes": 55,
+            "shares": 34,
+            "views": 1820
+          },
+          "engagement_score": 36,
+          "freshness": 3,
+          "item_id": "TK6",
+          "local_rank_score": 0.167,
+          "local_relevance": 0.19,
+          "metadata": {
+            "hashtags": [
+              "ycombinator",
+              "startup",
+              "app",
+              "entrepreneur",
+              "viral"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-09",
+          "relevance_hint": 0.33,
+          "snippet": "This Is day one. #ycombinator #startup #app #entrepreneur #viral",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "This Is day one. #ycombinator #startup #app  #entrepreneur #viral",
+          "url": "https://www.tiktok.com/@memiai6/video/7637687758303104269",
+          "why_relevant": "TikTok: This Is day one. #ycombinator #startup #app  #entrepreneur #"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "This Is day one. #ycombinator #startup #app  #entrepreneur #viral",
+      "url": "https://www.tiktok.com/@memiai6/video/7637687758303104269"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

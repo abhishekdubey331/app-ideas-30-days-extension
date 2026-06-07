@@ -1,0 +1,204 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@gigaqian/video/7646943021069503758"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@gigaqian/video/7646943021069503758"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "A seemingly unlikely figure has explicitly gone against big tech! In a recent video, Pewdiepie announced Odysseus: an entirely free AI works",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-07T12:42:11.625250+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "gigaqian",
+        "body": "A seemingly unlikely figure has explicitly gone against big tech! In a recent video, Pewdiepie announced Odysseus: an entirely free AI workspace that combines the most popular AI use cases into one application. While some complain that he\u2019s taking other peoples\u2019 work and making it his own, it\u2019s undeniable that he\u2019s introducing self-hosted AI and agentic workflows to a whole new audience! #technews #aitools #free #pewdiepie #gigaqian\nWe have a new hero who's fighting against big tech, and it's not at all who you would think. He built an AI workspace that lets you run autonomous AI agents and do a lot more for free forever. But there's a big controversy. I'm Giga Chen, and if you've been following me, you'll be surprised to hear today we're talking about Pewdiepie and his Odysseus project. Odysseus is free, self hosted, and open source. There are no subscriptions, there's no data mining, and it's built as a direct alternative to cloud based AI subscriptions. And it actually does quite a lot. You have persistent memory and self evolving skills. You have an email assistant that provides summaries, style matched replies, auto tagging, and spam triage. You have a deep research feature that does multi step runs to gather, read, and synthesize sources into reports. You have built in tools and MCP connectivity. You have customizable chats with multiple models and agents. We'll come back to that. The feature I really like is called the cookbook. It does a lot, but it analyzes your hardware, lets you know what models you can run, and then lets you set them up locally with one click. We're talking about hundreds of models to choose from. But I know some people will say I like GPT 5.5, I like Claude Opus 4.8. Maybe I don't have the hardware to actually run local models. Don't worry, you can still connect to cloud APIs which Makes sense because you can run Odysseus on your phone. Which only makes it better because you can do Cron jobs. Cron comes from Kronos, the Greek god of time. I know the pronunciation is different, but that's because they shortened it when they created the command for Unix systems in the seventies. So we're talking scheduling. See, I told you. We come back to the agents. You can schedule your local agents to trigger crawl and run workflows at any hour, including all night. Sounds awesome, right? What's the controversy? A lot of devs are pissed. The guys on Hacker News call it vibe coded slop. They say it's just a Python UI on top of open source tools. And they're right, but they still missed something. This dude's got subscribers. He just introduced self hosted AI to an audience that's never heard of O L A M A M C p's or local L L m's. And he's inviting people who do know to contribute. So there are a ton of ways to engage with this project. The question is, do you want to?",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 214,
+          "likes": 6148,
+          "shares": 962,
+          "views": 57516
+        },
+        "engagement_score": 82,
+        "freshness": 83,
+        "item_id": "TK2",
+        "local_rank_score": 0.439,
+        "local_relevance": 0.23,
+        "metadata": {
+          "hashtags": [
+            "technews",
+            "aitools",
+            "free",
+            "pewdiepie",
+            "gigaqian"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-06-02",
+        "relevance_hint": 0.15,
+        "snippet": "We have a new hero who's fighting against big tech, and it's not at all who you would think. He built an AI workspace that lets you run autonomous AI agents and do a lot more for free forever. But there's a big controversy. I'm Giga Chen, and if you've been following me, you'll be surprised to hear today we're talking about Pewdiepie and his Odysseus project. Odysseus is free, self hosted, and open source. There are no subscriptions, there's no data mining, and it's built as a direct alternative to cloud based AI subscriptions. And it actually does quite a lot. You have persistent memory and self evolving skills. You have an email assistant that provides summaries, style matched...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "A seemingly unlikely figure has explicitly gone against big tech! In a recent video, Pewdiepie announced Odysseus: an entirely free AI works",
+        "url": "https://www.tiktok.com/@gigaqian/video/7646943021069503758",
+        "why_relevant": "TikTok: A seemingly unlikely figure has explicitly gone against big"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Ask HN\" \"is there an app\", especially about site:news.ycombinator.com \"ask hn\" \"is there app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Ask HN\" \"is there an app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-05-08",
+  "range_to": "2026-06-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@gigaqian/video/7646943021069503758",
+      "cluster_id": "cluster-1",
+      "engagement": 82,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK2",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK2",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "We have a new hero who's fighting against big tech, and it's not at all who you would think. He built an AI workspace that lets you run autonomous AI agents and do a lot more for free forever. But there's a big controversy. I'm Giga Chen, and if you've been following me, you'll be surprised to hear today we're talking about Pewdiepie and his Odysseus project. Odysseus is free, self hosted, and open source. There are no subscriptions, there's no data mining, and it's built as a direct alternative to cloud based AI subscriptions. And it actually does quite a lot. You have persistent memory and self evolving skills. You have an email assistant that provides summaries, style matched...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "gigaqian",
+          "body": "A seemingly unlikely figure has explicitly gone against big tech! In a recent video, Pewdiepie announced Odysseus: an entirely free AI workspace that combines the most popular AI use cases into one application. While some complain that he\u2019s taking other peoples\u2019 work and making it his own, it\u2019s undeniable that he\u2019s introducing self-hosted AI and agentic workflows to a whole new audience! #technews #aitools #free #pewdiepie #gigaqian\nWe have a new hero who's fighting against big tech, and it's not at all who you would think. He built an AI workspace that lets you run autonomous AI agents and do a lot more for free forever. But there's a big controversy. I'm Giga Chen, and if you've been following me, you'll be surprised to hear today we're talking about Pewdiepie and his Odysseus project. Odysseus is free, self hosted, and open source. There are no subscriptions, there's no data mining, and it's built as a direct alternative to cloud based AI subscriptions. And it actually does quite a lot. You have persistent memory and self evolving skills. You have an email assistant that provides summaries, style matched replies, auto tagging, and spam triage. You have a deep research feature that does multi step runs to gather, read, and synthesize sources into reports. You have built in tools and MCP connectivity. You have customizable chats with multiple models and agents. We'll come back to that. The feature I really like is called the cookbook. It does a lot, but it analyzes your hardware, lets you know what models you can run, and then lets you set them up locally with one click. We're talking about hundreds of models to choose from. But I know some people will say I like GPT 5.5, I like Claude Opus 4.8. Maybe I don't have the hardware to actually run local models. Don't worry, you can still connect to cloud APIs which Makes sense because you can run Odysseus on your phone. Which only makes it better because you can do Cron jobs. Cron comes from Kronos, the Greek god of time. I know the pronunciation is different, but that's because they shortened it when they created the command for Unix systems in the seventies. So we're talking scheduling. See, I told you. We come back to the agents. You can schedule your local agents to trigger crawl and run workflows at any hour, including all night. Sounds awesome, right? What's the controversy? A lot of devs are pissed. The guys on Hacker News call it vibe coded slop. They say it's just a Python UI on top of open source tools. And they're right, but they still missed something. This dude's got subscribers. He just introduced self hosted AI to an audience that's never heard of O L A M A M C p's or local L L m's. And he's inviting people who do know to contribute. So there are a ton of ways to engage with this project. The question is, do you want to?",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 214,
+            "likes": 6148,
+            "shares": 962,
+            "views": 57516
+          },
+          "engagement_score": 82,
+          "freshness": 83,
+          "item_id": "TK2",
+          "local_rank_score": 0.439,
+          "local_relevance": 0.23,
+          "metadata": {
+            "hashtags": [
+              "technews",
+              "aitools",
+              "free",
+              "pewdiepie",
+              "gigaqian"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-06-02",
+          "relevance_hint": 0.15,
+          "snippet": "We have a new hero who's fighting against big tech, and it's not at all who you would think. He built an AI workspace that lets you run autonomous AI agents and do a lot more for free forever. But there's a big controversy. I'm Giga Chen, and if you've been following me, you'll be surprised to hear today we're talking about Pewdiepie and his Odysseus project. Odysseus is free, self hosted, and open source. There are no subscriptions, there's no data mining, and it's built as a direct alternative to cloud based AI subscriptions. And it actually does quite a lot. You have persistent memory and self evolving skills. You have an email assistant that provides summaries, style matched...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "A seemingly unlikely figure has explicitly gone against big tech! In a recent video, Pewdiepie announced Odysseus: an entirely free AI works",
+          "url": "https://www.tiktok.com/@gigaqian/video/7646943021069503758",
+          "why_relevant": "TikTok: A seemingly unlikely figure has explicitly gone against big"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "A seemingly unlikely figure has explicitly gone against big tech! In a recent video, Pewdiepie announced Odysseus: an entirely free AI works",
+      "url": "https://www.tiktok.com/@gigaqian/video/7646943021069503758"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
