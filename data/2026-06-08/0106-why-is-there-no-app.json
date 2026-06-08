@@ -1,0 +1,451 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/jellyfincommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/jellyfincommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "why there's no \"jellyfin\" for gaming?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no app that just... handles random errands for you?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-08T01:06:11.499137+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "why there's no \"jellyfin\" for gaming?\nhttps://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+        "container": "JellyfinCommunity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 22,
+          "score": 1
+        },
+        "engagement_score": 100,
+        "freshness": 97,
+        "item_id": "R1",
+        "local_rank_score": 0.47250000000000003,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "I'm currently testing JellyEmu, it seems promising but doesn't do the download part.",
+            "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+            "There is, Hydra. You will need a debrid service to use it properly though.",
+            "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+            "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+            "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other..."
+          ],
+          "top_comments": [
+            {
+              "author": "AngelGrade",
+              "date": "2026-06-07",
+              "excerpt": "https://romm.app",
+              "score": 12,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqabta6/"
+            },
+            {
+              "author": "shadowpuppetrap",
+              "date": "2026-06-07",
+              "excerpt": "There is - Questarr.",
+              "score": 9,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaauqd/"
+            },
+            {
+              "author": "EngelGate",
+              "date": "2026-06-07",
+              "excerpt": "I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+              "score": 5,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqacz7c/"
+            },
+            {
+              "author": "Happy2032",
+              "date": "2026-06-07",
+              "excerpt": "There is, Hydra. You will need a debrid service to use it properly though.",
+              "score": 5,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqadskv/"
+            },
+            {
+              "author": "loudsound-org",
+              "date": "2026-06-07",
+              "excerpt": "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+              "score": 3,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqc5yjc/"
+            },
+            {
+              "author": "Green-Cucumber8507",
+              "date": "2026-06-07",
+              "excerpt": "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+              "score": 2,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbp0nn/"
+            },
+            {
+              "author": "tgiokdi",
+              "date": "2026-06-07",
+              "excerpt": "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+              "score": 1,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaj8eg/"
+            },
+            {
+              "author": "Electrical_Engine314",
+              "date": "2026-06-07",
+              "excerpt": "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other ones. They all do different things for different needs \ud83d\ude0a.",
+              "score": 1,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqan0bk/"
+            },
+            {
+              "author": "bumbacbumbac",
+              "date": "2026-06-07",
+              "excerpt": "Hydra Launcher \ud83d\ude09",
+              "score": 1,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbesgv/"
+            },
+            {
+              "author": "kyoanime3",
+              "date": "2026-06-07",
+              "excerpt": "Launchbox",
+              "score": 1,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbz469/"
+            }
+          ]
+        },
+        "published_at": "2026-06-07",
+        "relevance_hint": 0.58,
+        "snippet": "https://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "why there's no \"jellyfin\" for gaming?",
+        "url": "https://www.reddit.com/r/JellyfinCommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why is there no app that just... handles random errands for you?\nYeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+        "container": "alphaandbetausers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 65,
+        "item_id": "R3",
+        "local_rank_score": 0.34450000000000003,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out."
+          ],
+          "top_comments": [
+            {
+              "author": "SomewhereFun3480",
+              "date": "2026-05-22",
+              "excerpt": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+              "score": 1,
+              "url": "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/comment/on8nwuz/"
+            }
+          ]
+        },
+        "published_at": "2026-05-22",
+        "relevance_hint": 0.9,
+        "snippet": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no app that just... handles random errands for you?",
+        "url": "https://www.reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-09",
+  "range_to": "2026-06-08",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/jellyfincommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "https://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "why there's no \"jellyfin\" for gaming?\nhttps://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+          "container": "JellyfinCommunity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 22,
+            "score": 1
+          },
+          "engagement_score": 100,
+          "freshness": 97,
+          "item_id": "R1",
+          "local_rank_score": 0.47250000000000003,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "I'm currently testing JellyEmu, it seems promising but doesn't do the download part.",
+              "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+              "There is, Hydra. You will need a debrid service to use it properly though.",
+              "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+              "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+              "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other..."
+            ],
+            "top_comments": [
+              {
+                "author": "AngelGrade",
+                "date": "2026-06-07",
+                "excerpt": "https://romm.app",
+                "score": 12,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqabta6/"
+              },
+              {
+                "author": "shadowpuppetrap",
+                "date": "2026-06-07",
+                "excerpt": "There is - Questarr.",
+                "score": 9,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaauqd/"
+              },
+              {
+                "author": "EngelGate",
+                "date": "2026-06-07",
+                "excerpt": "I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+                "score": 5,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqacz7c/"
+              },
+              {
+                "author": "Happy2032",
+                "date": "2026-06-07",
+                "excerpt": "There is, Hydra. You will need a debrid service to use it properly though.",
+                "score": 5,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqadskv/"
+              },
+              {
+                "author": "loudsound-org",
+                "date": "2026-06-07",
+                "excerpt": "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+                "score": 3,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqc5yjc/"
+              },
+              {
+                "author": "Green-Cucumber8507",
+                "date": "2026-06-07",
+                "excerpt": "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+                "score": 2,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbp0nn/"
+              },
+              {
+                "author": "tgiokdi",
+                "date": "2026-06-07",
+                "excerpt": "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+                "score": 1,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaj8eg/"
+              },
+              {
+                "author": "Electrical_Engine314",
+                "date": "2026-06-07",
+                "excerpt": "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other ones. They all do different things for different needs \ud83d\ude0a.",
+                "score": 1,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqan0bk/"
+              },
+              {
+                "author": "bumbacbumbac",
+                "date": "2026-06-07",
+                "excerpt": "Hydra Launcher \ud83d\ude09",
+                "score": 1,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbesgv/"
+              },
+              {
+                "author": "kyoanime3",
+                "date": "2026-06-07",
+                "excerpt": "Launchbox",
+                "score": 1,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbz469/"
+              }
+            ]
+          },
+          "published_at": "2026-06-07",
+          "relevance_hint": 0.58,
+          "snippet": "https://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "why there's no \"jellyfin\" for gaming?",
+          "url": "https://www.reddit.com/r/JellyfinCommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "why there's no \"jellyfin\" for gaming?",
+      "url": "https://www.reddit.com/r/JellyfinCommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random",
+      "cluster_id": "cluster-2",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R3",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no app that just... handles random errands for you?\nYeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+          "container": "alphaandbetausers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 65,
+          "item_id": "R3",
+          "local_rank_score": 0.34450000000000003,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out."
+            ],
+            "top_comments": [
+              {
+                "author": "SomewhereFun3480",
+                "date": "2026-05-22",
+                "excerpt": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+                "score": 1,
+                "url": "https://reddit.com/r/alphaandbetausers/comments/1tkhrds/comment/on8nwuz/"
+              }
+            ]
+          },
+          "published_at": "2026-05-22",
+          "relevance_hint": 0.9,
+          "snippet": "Yeah I feel this so much, especially with prescription pickups since I need mine pretty regularly and sometimes timing just doesn't work out. I've tried few different approaches but nothing feels quite right - either it's too expensive or the person doesn't really get what you need For food ordering I usually ignore the deals unless they're like really obvious ones that pop up automatically. Too m",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no app that just... handles random errands for you?",
+          "url": "https://www.reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no app that just... handles random errands for you?",
+      "url": "https://www.reddit.com/r/alphaandbetausers/comments/1tkhrds/why_is_there_no_app_that_just_handles_random/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
