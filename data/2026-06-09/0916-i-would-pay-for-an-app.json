@@ -1,0 +1,305 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I would pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iosprogramming/comments/1tzelu2/i_would_pay_for_an_app_that_makes_screenshot_of"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/iosprogramming/comments/1tzelu2/i_would_pay_for_an_app_that_makes_screenshot_of"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I would pay for an app that makes screenshot of the app in every language available"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-09T09:16:37.307064+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I would pay for an app that makes screenshot of the app in every language available\nFastlane. Its free. r/butterkit The bigger ROI move is localizing the App Store text first. Title, subtitle, keywords, description in every locale. The store ranks \"available in this language\" pretty highly, and a localized listing with English screenshots still beats an English-only listing. I've done full-locale rollouts across",
+        "container": "iOSProgramming",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 21,
+          "score": 5
+        },
+        "engagement_score": 100,
+        "freshness": 95,
+        "item_id": "R1",
+        "local_rank_score": 0.4675,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "The bigger ROI move is localizing the App Store text first.",
+            "I literally just spent all morning doing this for just 2 languages. I need one for setting pricing for every country based on buying power.",
+            "Mine does: https://www.yuzool.com/apps/dispatch/"
+          ],
+          "top_comments": [
+            {
+              "author": "DannysFluffyCat",
+              "date": "2026-06-07",
+              "excerpt": "Fastlane. Its free.",
+              "score": 13,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqa43m0/"
+            },
+            {
+              "author": "Tom42-59",
+              "date": "2026-06-07",
+              "excerpt": "r/butterkit",
+              "score": 3,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqa5m3q/"
+            },
+            {
+              "author": "BigMasterpiece",
+              "date": "2026-06-08",
+              "excerpt": "The bigger ROI move is localizing the App Store text first. Title, subtitle, keywords, description in every locale. The store ranks \"available in this language\" pretty highly, and a localized listing with English screenshots still beats an English-only listing. I've done full-locale rollouts across ",
+              "score": 3,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqdah5i/"
+            },
+            {
+              "author": "Kooky-Wolverine2613",
+              "date": "2026-06-08",
+              "excerpt": "AppScreens.com",
+              "score": 3,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqer5to/"
+            },
+            {
+              "author": "neogeodev",
+              "date": "2026-06-07",
+              "excerpt": "Snapscreens.com",
+              "score": 2,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqctigt/"
+            },
+            {
+              "author": "femosky",
+              "date": "2026-06-08",
+              "excerpt": "I literally just spent all morning doing this for just 2 languages. I need one for setting pricing for every country based on buying power.",
+              "score": 2,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqd6fvi/"
+            },
+            {
+              "author": "Consistent-Fix-1701",
+              "date": "2026-06-08",
+              "excerpt": "Mine does: https://www.yuzool.com/apps/dispatch/",
+              "score": 2,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqest6d/"
+            },
+            {
+              "author": "byaruhaf",
+              "date": "2026-06-08",
+              "excerpt": "Just use Butterkit",
+              "score": 2,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqgliri/"
+            },
+            {
+              "author": "bbrockit",
+              "date": "2026-06-08",
+              "excerpt": "ButterKit makes this easy",
+              "score": 2,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqi5zxl/"
+            }
+          ]
+        },
+        "published_at": "2026-06-07",
+        "relevance_hint": 0.89,
+        "snippet": "Fastlane. Its free. r/butterkit The bigger ROI move is localizing the App Store text first. Title, subtitle, keywords, description in every locale. The store ranks \"available in this language\" pretty highly, and a localized listing with English screenshots still beats an English-only listing. I've done full-locale rollouts across",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I would pay for an app that makes screenshot of the app in every language available",
+        "url": "https://www.reddit.com/r/iOSProgramming/comments/1tzelu2/i_would_pay_for_an_app_that_makes_screenshot_of/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I would pay for an app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I would pay for an app\", especially about \"i pay app\"?",
+        "search_query": "\"i pay app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-10",
+  "range_to": "2026-06-09",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/iosprogramming/comments/1tzelu2/i_would_pay_for_an_app_that_makes_screenshot_of",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Fastlane. Its free. r/butterkit The bigger ROI move is localizing the App Store text first. Title, subtitle, keywords, description in every locale. The store ranks \"available in this language\" pretty highly, and a localized listing with English screenshots still beats an English-only listing. I've done full-locale rollouts across",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I would pay for an app that makes screenshot of the app in every language available\nFastlane. Its free. r/butterkit The bigger ROI move is localizing the App Store text first. Title, subtitle, keywords, description in every locale. The store ranks \"available in this language\" pretty highly, and a localized listing with English screenshots still beats an English-only listing. I've done full-locale rollouts across",
+          "container": "iOSProgramming",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 21,
+            "score": 5
+          },
+          "engagement_score": 100,
+          "freshness": 95,
+          "item_id": "R1",
+          "local_rank_score": 0.4675,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "The bigger ROI move is localizing the App Store text first.",
+              "I literally just spent all morning doing this for just 2 languages. I need one for setting pricing for every country based on buying power.",
+              "Mine does: https://www.yuzool.com/apps/dispatch/"
+            ],
+            "top_comments": [
+              {
+                "author": "DannysFluffyCat",
+                "date": "2026-06-07",
+                "excerpt": "Fastlane. Its free.",
+                "score": 13,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqa43m0/"
+              },
+              {
+                "author": "Tom42-59",
+                "date": "2026-06-07",
+                "excerpt": "r/butterkit",
+                "score": 3,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqa5m3q/"
+              },
+              {
+                "author": "BigMasterpiece",
+                "date": "2026-06-08",
+                "excerpt": "The bigger ROI move is localizing the App Store text first. Title, subtitle, keywords, description in every locale. The store ranks \"available in this language\" pretty highly, and a localized listing with English screenshots still beats an English-only listing. I've done full-locale rollouts across ",
+                "score": 3,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqdah5i/"
+              },
+              {
+                "author": "Kooky-Wolverine2613",
+                "date": "2026-06-08",
+                "excerpt": "AppScreens.com",
+                "score": 3,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqer5to/"
+              },
+              {
+                "author": "neogeodev",
+                "date": "2026-06-07",
+                "excerpt": "Snapscreens.com",
+                "score": 2,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqctigt/"
+              },
+              {
+                "author": "femosky",
+                "date": "2026-06-08",
+                "excerpt": "I literally just spent all morning doing this for just 2 languages. I need one for setting pricing for every country based on buying power.",
+                "score": 2,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqd6fvi/"
+              },
+              {
+                "author": "Consistent-Fix-1701",
+                "date": "2026-06-08",
+                "excerpt": "Mine does: https://www.yuzool.com/apps/dispatch/",
+                "score": 2,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqest6d/"
+              },
+              {
+                "author": "byaruhaf",
+                "date": "2026-06-08",
+                "excerpt": "Just use Butterkit",
+                "score": 2,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqgliri/"
+              },
+              {
+                "author": "bbrockit",
+                "date": "2026-06-08",
+                "excerpt": "ButterKit makes this easy",
+                "score": 2,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1tzelu2/comment/oqi5zxl/"
+              }
+            ]
+          },
+          "published_at": "2026-06-07",
+          "relevance_hint": 0.89,
+          "snippet": "Fastlane. Its free. r/butterkit The bigger ROI move is localizing the App Store text first. Title, subtitle, keywords, description in every locale. The store ranks \"available in this language\" pretty highly, and a localized listing with English screenshots still beats an English-only listing. I've done full-locale rollouts across",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I would pay for an app that makes screenshot of the app in every language available",
+          "url": "https://www.reddit.com/r/iOSProgramming/comments/1tzelu2/i_would_pay_for_an_app_that_makes_screenshot_of/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I would pay for an app that makes screenshot of the app in every language available",
+      "url": "https://www.reddit.com/r/iOSProgramming/comments/1tzelu2/i_would_pay_for_an_app_that_makes_screenshot_of/"
+    }
+  ],
+  "topic": "\"I would pay for an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
