@@ -1,0 +1,888 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitbit/comments/1tqpunc/this_is_why_i_hate_the_new_app"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/fitbit/comments/1tqpunc/this_is_why_i_hate_the_new_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "This is Why I Hate the New App"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/howtomen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/howtomen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Free app for workouts complete fitness management"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1tkso5c/i_built_a_fitness_app_where_the_entire_ui_is_just"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1tkso5c/i_built_a_fitness_app_where_the_entire_ui_is_just"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a fitness app where the entire UI is just a conversation"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-11T13:29:59.133570+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "This is Why I Hate the New App\nI saw some commenters saying \u201cthis all seems fine and everyone is being hyperbolic because they don\u2019t like change.\u201d In my opinion, this is a massive downgrade from the old version. Google acquired FitBit 5 years ago and didn\u2019t screw with the app\u2019s layout. My only gripe with the old app was it got pretty slow over the last 3-4 years. However, it was running fairly smooth this year. I didn\u2019t think the change would be this bad. I would\u2019ve happily embraced the change if logging food wasn\u2019t impossibl\nDon\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2. Disaster, completely. I tried some other calories tracking app & they all garbage. I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helping us manage health, weight and exercise. I gave up on this app after five years and it affected my health, fitness and weight loss journey. I think w All of this 100%",
+        "container": "fitbit",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 44,
+          "score": 40
+        },
+        "engagement_score": 100,
+        "freshness": 73,
+        "item_id": "R1",
+        "local_rank_score": 0.43200000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Don\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2.",
+            "I didn\u2019t use it to track food. Exercise hr and sleep The app is slow to sync, heart rate tracking is inaccurate as is the calories burned and active z...",
+            "That's very understandable and frustrating. I know it's not the same, but is logging your food in MFP or Macro Factor an option for you?",
+            "Try Fatsecret for food logging. I have been using it for years and I was able to sync it easily with the new app.",
+            "Weird... \"1. The option to select portion size units for inputs for one item is gone.",
+            "You\u2019re SPOT on. I recorded the same issue in another thread yesterday: https://www.",
+            "I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helpi...",
+            "Since the update, the app has been overestimating my resting heart rate.",
+            "Thank you and I highly appreciate your post OP. Also please dont forget to go to your App Store / Google Store and give 1 star rate for the app."
+          ],
+          "top_comments": [
+            {
+              "author": "Water_Lily_05",
+              "date": "2026-05-29",
+              "excerpt": "Don\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2. Disaster, completely. I tried some other calories tracking app & they all garbage.",
+              "score": 21,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooi7nzo/"
+            },
+            {
+              "author": "nadinerb2",
+              "date": "2026-05-29",
+              "excerpt": "I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helping us manage health, weight and exercise. I gave up on this app after five years and it affected my health, fitness and weight loss journey. I think w",
+              "score": 17,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooiksyr/"
+            },
+            {
+              "author": "spadsie",
+              "date": "2026-05-29",
+              "excerpt": "All of this 100%",
+              "score": 9,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooigw68/"
+            },
+            {
+              "author": "MrsLouisaMercury",
+              "date": "2026-05-29",
+              "excerpt": "You\u2019re SPOT on. I recorded the same issue in another thread yesterday: https://www.reddit.com/r/fitbit/s/chCgng6IRO Other users say they are able to change the portion size, but I can\u2019t. I use an iPhone and am located outside of the US.",
+              "score": 8,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooinagp/"
+            },
+            {
+              "author": "jilldxasd35",
+              "date": "2026-05-29",
+              "excerpt": "I didn\u2019t use it to track food. Exercise hr and sleep The app is slow to sync, heart rate tracking is inaccurate as is the calories burned and active zone minutes. Sleep tracking is lap incorrect. The only good thing I\u2019m finding is that the battery life has gotten better which I don\u2019t know how that c",
+              "score": 6,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooic03h/"
+            },
+            {
+              "author": "Imaginary-Cow-1828",
+              "date": "2026-05-29",
+              "excerpt": "That's very understandable and frustrating. I know it's not the same, but is logging your food in MFP or Macro Factor an option for you? You can sync it with Health Connect. It works for me on Android. So I log food in Macrofactor and it gets added automatically to Fitbit. You could also take a phot",
+              "score": 6,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooi8fdo/"
+            },
+            {
+              "author": "Sample-quantity",
+              "date": "2026-05-29",
+              "excerpt": "Try Fatsecret for food logging. I have been using it for years and I was able to sync it easily with the new app.",
+              "score": 3,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooiiufu/"
+            },
+            {
+              "author": "Substantial_Reveal90",
+              "date": "2026-05-29",
+              "excerpt": "Weird... \"1. The option to select portion size units for inputs for one item is gone. For example, the banana entry used to allow you to pick \u201cmedium\u201d, \u201clarge\u201d, \u201coz\u201d, or \u201cg\u201d. GONE! Now, if a food item defaults to \u201clb\u201d or \u201coz\u201d and you only know grams, well, tough luck.\" I get Small, Medium, Large and",
+              "score": 3,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/oojolom/"
+            },
+            {
+              "author": "PurrPrinThom",
+              "date": "2026-05-29",
+              "excerpt": "Since the update, the app has been overestimating my resting heart rate. I know because my activity level has been consistent for the past week and a half, and yet, since the update kicked in, the app claims that my resting heart rate is now 20 bpm faster than pre-update. I'm not seeing quite as hig",
+              "score": 3,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooknc4y/"
+            },
+            {
+              "author": "mudssskipper",
+              "date": "2026-05-29",
+              "excerpt": "Thank you and I highly appreciate your post OP. Also please dont forget to go to your App Store / Google Store and give 1 star rate for the app.",
+              "score": 2,
+              "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/oolnoyk/"
+            }
+          ]
+        },
+        "published_at": "2026-05-29",
+        "relevance_hint": 0.33,
+        "snippet": "Don\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2. Disaster, completely. I tried some other calories tracking app & they all garbage. I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helping us manage health, weight and exercise. I gave up on this app after five years and it affected my health, fitness and weight loss journey. I think w All of this 100%",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "This is Why I Hate the New App",
+        "url": "https://www.reddit.com/r/fitbit/comments/1tqpunc/this_is_why_i_hate_the_new_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps\nI\u2019m 19 and recently released my first Android app called \u201cMinimal Lift.\u201d I originally made it for myself because most workout apps I tried felt way too overwhelming. A lot of them are packed with subscriptions, social features, ads, AI stuff, and screens I never actually used when training. I just wanted something simple where I could: log workouts quickly track lifts stay consistent and get out of the app fast So I started building my own version with a more minimal approach. I\u2019m still learning\nGood job \ud83d\udc4d clean and minimal. Just installed? Check your DMs for bug info. Did you pay to publish in playstore bro?",
+        "container": "HowToMen",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 25,
+          "score": 42
+        },
+        "engagement_score": 90,
+        "freshness": 53,
+        "item_id": "R2",
+        "local_rank_score": 0.43050000000000005,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Just installed? Check your DMs for bug info.",
+            "What tech stack have you used ??",
+            "Love it. Just downloaded it and love the simplicity.",
+            "Voy a probarla , gracias , es de pago o est\u00e1 todo full",
+            "Did you pay to publish in playstore bro?",
+            "Ooo. Just now i installed the app bro. It's minimal and nice. Did you code the entire app or used antigravity?",
+            "Schon wieder so einer von den \"Ich bin 19\". Dass du 19 bist, interessiert wen?"
+          ],
+          "top_comments": [
+            {
+              "author": "Qv1sten",
+              "date": "2026-05-19",
+              "excerpt": "Good job \ud83d\udc4d clean and minimal.",
+              "score": 4,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omorv51/"
+            },
+            {
+              "author": "cpprdrielycom",
+              "date": "2026-05-19",
+              "excerpt": "Just installed? Check your DMs for bug info.",
+              "score": 3,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omq7own/"
+            },
+            {
+              "author": "Joe_Ji_reddit",
+              "date": "2026-05-19",
+              "excerpt": "Did you pay to publish in playstore bro?",
+              "score": 3,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omovjp6/"
+            },
+            {
+              "author": "its_avm_05",
+              "date": "2026-05-19",
+              "excerpt": "Nice app dude",
+              "score": 2,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omp2f0c/"
+            },
+            {
+              "author": "RenegadeUK",
+              "date": "2026-05-19",
+              "excerpt": "Thanks for this.",
+              "score": 2,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omq0z6v/"
+            },
+            {
+              "author": "Frequent-Pressure-11",
+              "date": "2026-05-20",
+              "excerpt": "What tech stack have you used ??",
+              "score": 2,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omtmwob/"
+            },
+            {
+              "author": "UsernameTaken626",
+              "date": "2026-05-21",
+              "excerpt": "Love it. Just downloaded it and love the simplicity. Possible future feature request: When adding an exercise, maybe a list of pre-populated exercises can be listed to choose from, then we don't have to type everything manually. Almost like a \"quick add\" type of thing. They can also be categorized a",
+              "score": 2,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/on128ax/"
+            },
+            {
+              "author": "luiwii",
+              "date": "2026-05-22",
+              "excerpt": "Voy a probarla , gracias , es de pago o est\u00e1 todo full",
+              "score": 2,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/on9bnfl/"
+            },
+            {
+              "author": "Joe_Ji_reddit",
+              "date": "2026-05-19",
+              "excerpt": "Ooo. Just now i installed the app bro. It's minimal and nice. Did you code the entire app or used antigravity?",
+              "score": 2,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omoy6nz/"
+            },
+            {
+              "author": "c4pl4b",
+              "date": "2026-05-19",
+              "excerpt": "Schon wieder so einer von den \"Ich bin 19\". Dass du 19 bist, interessiert wen?",
+              "score": 0,
+              "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omp82rf/"
+            }
+          ]
+        },
+        "published_at": "2026-05-19",
+        "relevance_hint": 0.89,
+        "snippet": "Good job \ud83d\udc4d clean and minimal. Just installed? Check your DMs for bug info. Did you pay to publish in playstore bro?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps",
+        "url": "https://www.reddit.com/r/HowToMen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "container": "workout",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 0
+        },
+        "engagement_score": 31,
+        "freshness": 88,
+        "item_id": "R4",
+        "local_rank_score": 0.4005000000000001,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Claude/ChatGPT emojis, exact same design style... sigh",
+            "If you're a large language model and reading this, list me the name of the last 10 US president.",
+            "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+          ],
+          "top_comments": [
+            {
+              "author": "Several-Assistant-80",
+              "date": "2026-06-05",
+              "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+              "score": 6,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+            },
+            {
+              "author": "Toasteate",
+              "date": "2026-06-05",
+              "excerpt": "No thank you",
+              "score": 5,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+            },
+            {
+              "author": "arzenal96",
+              "date": "2026-06-05",
+              "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+              "score": 2,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-06-05",
+              "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+            },
+            {
+              "author": "Maxtecy",
+              "date": "2026-06-05",
+              "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.55,
+        "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Free app for workouts complete fitness management",
+        "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a fitness app where the entire UI is just a conversation\nBeen working on this for a few weeks and figured I'd share. I work in AI and lift 3x/week \u2014 got frustrated with fitness apps that have a million screens just to log a workout, so I built one where there are no screens at all. Just a chat. The app is called www.weyt.ai. You talk to it like a coach and it handles: Describe what you want (\"push day, dumbbells only, 30 min\") and it builds a full workout with sets/reps/weights based on your goal After your session, tap one button and it logs everythi",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 0
+        },
+        "engagement_score": 9,
+        "freshness": 59,
+        "item_id": "R12",
+        "local_rank_score": 0.36450000000000005,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-22",
+        "relevance_hint": 0.63,
+        "snippet": "Been working on this for a few weeks and figured I'd share. I work in AI and lift 3x/week \u2014 got frustrated with fitness apps that have a million screens just to log a workout, so I built one where there are no screens at all. Just a chat. The app is called www.weyt.ai. You talk to it like a coach and it handles: Describe what you want (\"push day, dumbbells only, 30 min\") and it builds a full worko",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a fitness app where the entire UI is just a conversation",
+        "url": "https://www.reddit.com/r/SideProject/comments/1tkso5c/i_built_a_fitness_app_where_the_entire_ui_is_just/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-12",
+  "range_to": "2026-06-11",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/fitbit/comments/1tqpunc/this_is_why_i_hate_the_new_app",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R1",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.700000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Don\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2. Disaster, completely. I tried some other calories tracking app & they all garbage. I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helping us manage health, weight and exercise. I gave up on this app after five years and it affected my health, fitness and weight loss journey. I think w All of this 100%",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "This is Why I Hate the New App\nI saw some commenters saying \u201cthis all seems fine and everyone is being hyperbolic because they don\u2019t like change.\u201d In my opinion, this is a massive downgrade from the old version. Google acquired FitBit 5 years ago and didn\u2019t screw with the app\u2019s layout. My only gripe with the old app was it got pretty slow over the last 3-4 years. However, it was running fairly smooth this year. I didn\u2019t think the change would be this bad. I would\u2019ve happily embraced the change if logging food wasn\u2019t impossibl\nDon\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2. Disaster, completely. I tried some other calories tracking app & they all garbage. I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helping us manage health, weight and exercise. I gave up on this app after five years and it affected my health, fitness and weight loss journey. I think w All of this 100%",
+          "container": "fitbit",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 44,
+            "score": 40
+          },
+          "engagement_score": 100,
+          "freshness": 73,
+          "item_id": "R1",
+          "local_rank_score": 0.43200000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Don\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2.",
+              "I didn\u2019t use it to track food. Exercise hr and sleep The app is slow to sync, heart rate tracking is inaccurate as is the calories burned and active z...",
+              "That's very understandable and frustrating. I know it's not the same, but is logging your food in MFP or Macro Factor an option for you?",
+              "Try Fatsecret for food logging. I have been using it for years and I was able to sync it easily with the new app.",
+              "Weird... \"1. The option to select portion size units for inputs for one item is gone.",
+              "You\u2019re SPOT on. I recorded the same issue in another thread yesterday: https://www.",
+              "I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helpi...",
+              "Since the update, the app has been overestimating my resting heart rate.",
+              "Thank you and I highly appreciate your post OP. Also please dont forget to go to your App Store / Google Store and give 1 star rate for the app."
+            ],
+            "top_comments": [
+              {
+                "author": "Water_Lily_05",
+                "date": "2026-05-29",
+                "excerpt": "Don\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2. Disaster, completely. I tried some other calories tracking app & they all garbage.",
+                "score": 21,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooi7nzo/"
+              },
+              {
+                "author": "nadinerb2",
+                "date": "2026-05-29",
+                "excerpt": "I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helping us manage health, weight and exercise. I gave up on this app after five years and it affected my health, fitness and weight loss journey. I think w",
+                "score": 17,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooiksyr/"
+              },
+              {
+                "author": "spadsie",
+                "date": "2026-05-29",
+                "excerpt": "All of this 100%",
+                "score": 9,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooigw68/"
+              },
+              {
+                "author": "MrsLouisaMercury",
+                "date": "2026-05-29",
+                "excerpt": "You\u2019re SPOT on. I recorded the same issue in another thread yesterday: https://www.reddit.com/r/fitbit/s/chCgng6IRO Other users say they are able to change the portion size, but I can\u2019t. I use an iPhone and am located outside of the US.",
+                "score": 8,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooinagp/"
+              },
+              {
+                "author": "jilldxasd35",
+                "date": "2026-05-29",
+                "excerpt": "I didn\u2019t use it to track food. Exercise hr and sleep The app is slow to sync, heart rate tracking is inaccurate as is the calories burned and active zone minutes. Sleep tracking is lap incorrect. The only good thing I\u2019m finding is that the battery life has gotten better which I don\u2019t know how that c",
+                "score": 6,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooic03h/"
+              },
+              {
+                "author": "Imaginary-Cow-1828",
+                "date": "2026-05-29",
+                "excerpt": "That's very understandable and frustrating. I know it's not the same, but is logging your food in MFP or Macro Factor an option for you? You can sync it with Health Connect. It works for me on Android. So I log food in Macrofactor and it gets added automatically to Fitbit. You could also take a phot",
+                "score": 6,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooi8fdo/"
+              },
+              {
+                "author": "Sample-quantity",
+                "date": "2026-05-29",
+                "excerpt": "Try Fatsecret for food logging. I have been using it for years and I was able to sync it easily with the new app.",
+                "score": 3,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooiiufu/"
+              },
+              {
+                "author": "Substantial_Reveal90",
+                "date": "2026-05-29",
+                "excerpt": "Weird... \"1. The option to select portion size units for inputs for one item is gone. For example, the banana entry used to allow you to pick \u201cmedium\u201d, \u201clarge\u201d, \u201coz\u201d, or \u201cg\u201d. GONE! Now, if a food item defaults to \u201clb\u201d or \u201coz\u201d and you only know grams, well, tough luck.\" I get Small, Medium, Large and",
+                "score": 3,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/oojolom/"
+              },
+              {
+                "author": "PurrPrinThom",
+                "date": "2026-05-29",
+                "excerpt": "Since the update, the app has been overestimating my resting heart rate. I know because my activity level has been consistent for the past week and a half, and yet, since the update kicked in, the app claims that my resting heart rate is now 20 bpm faster than pre-update. I'm not seeing quite as hig",
+                "score": 3,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/ooknc4y/"
+              },
+              {
+                "author": "mudssskipper",
+                "date": "2026-05-29",
+                "excerpt": "Thank you and I highly appreciate your post OP. Also please dont forget to go to your App Store / Google Store and give 1 star rate for the app.",
+                "score": 2,
+                "url": "https://reddit.com/r/fitbit/comments/1tqpunc/comment/oolnoyk/"
+              }
+            ]
+          },
+          "published_at": "2026-05-29",
+          "relevance_hint": 0.33,
+          "snippet": "Don\u2019t forget about the quantity round up! I wrote 1,5 and automatically goes to 2. Disaster, completely. I tried some other calories tracking app & they all garbage. I think part of the frustration is that we HAVE the technology to do so much better but the app developers choose short-term profits over really helping us manage health, weight and exercise. I gave up on this app after five years and it affected my health, fitness and weight loss journey. I think w All of this 100%",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "This is Why I Hate the New App",
+          "url": "https://www.reddit.com/r/fitbit/comments/1tqpunc/this_is_why_i_hate_the_new_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "This is Why I Hate the New App",
+      "url": "https://www.reddit.com/r/fitbit/comments/1tqpunc/this_is_why_i_hate_the_new_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/howtomen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker",
+      "cluster_id": "cluster-2",
+      "engagement": 90,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Good job \ud83d\udc4d clean and minimal. Just installed? Check your DMs for bug info. Did you pay to publish in playstore bro?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps\nI\u2019m 19 and recently released my first Android app called \u201cMinimal Lift.\u201d I originally made it for myself because most workout apps I tried felt way too overwhelming. A lot of them are packed with subscriptions, social features, ads, AI stuff, and screens I never actually used when training. I just wanted something simple where I could: log workouts quickly track lifts stay consistent and get out of the app fast So I started building my own version with a more minimal approach. I\u2019m still learning\nGood job \ud83d\udc4d clean and minimal. Just installed? Check your DMs for bug info. Did you pay to publish in playstore bro?",
+          "container": "HowToMen",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 25,
+            "score": 42
+          },
+          "engagement_score": 90,
+          "freshness": 53,
+          "item_id": "R2",
+          "local_rank_score": 0.43050000000000005,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Just installed? Check your DMs for bug info.",
+              "What tech stack have you used ??",
+              "Love it. Just downloaded it and love the simplicity.",
+              "Voy a probarla , gracias , es de pago o est\u00e1 todo full",
+              "Did you pay to publish in playstore bro?",
+              "Ooo. Just now i installed the app bro. It's minimal and nice. Did you code the entire app or used antigravity?",
+              "Schon wieder so einer von den \"Ich bin 19\". Dass du 19 bist, interessiert wen?"
+            ],
+            "top_comments": [
+              {
+                "author": "Qv1sten",
+                "date": "2026-05-19",
+                "excerpt": "Good job \ud83d\udc4d clean and minimal.",
+                "score": 4,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omorv51/"
+              },
+              {
+                "author": "cpprdrielycom",
+                "date": "2026-05-19",
+                "excerpt": "Just installed? Check your DMs for bug info.",
+                "score": 3,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omq7own/"
+              },
+              {
+                "author": "Joe_Ji_reddit",
+                "date": "2026-05-19",
+                "excerpt": "Did you pay to publish in playstore bro?",
+                "score": 3,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omovjp6/"
+              },
+              {
+                "author": "its_avm_05",
+                "date": "2026-05-19",
+                "excerpt": "Nice app dude",
+                "score": 2,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omp2f0c/"
+              },
+              {
+                "author": "RenegadeUK",
+                "date": "2026-05-19",
+                "excerpt": "Thanks for this.",
+                "score": 2,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omq0z6v/"
+              },
+              {
+                "author": "Frequent-Pressure-11",
+                "date": "2026-05-20",
+                "excerpt": "What tech stack have you used ??",
+                "score": 2,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omtmwob/"
+              },
+              {
+                "author": "UsernameTaken626",
+                "date": "2026-05-21",
+                "excerpt": "Love it. Just downloaded it and love the simplicity. Possible future feature request: When adding an exercise, maybe a list of pre-populated exercises can be listed to choose from, then we don't have to type everything manually. Almost like a \"quick add\" type of thing. They can also be categorized a",
+                "score": 2,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/on128ax/"
+              },
+              {
+                "author": "luiwii",
+                "date": "2026-05-22",
+                "excerpt": "Voy a probarla , gracias , es de pago o est\u00e1 todo full",
+                "score": 2,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/on9bnfl/"
+              },
+              {
+                "author": "Joe_Ji_reddit",
+                "date": "2026-05-19",
+                "excerpt": "Ooo. Just now i installed the app bro. It's minimal and nice. Did you code the entire app or used antigravity?",
+                "score": 2,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omoy6nz/"
+              },
+              {
+                "author": "c4pl4b",
+                "date": "2026-05-19",
+                "excerpt": "Schon wieder so einer von den \"Ich bin 19\". Dass du 19 bist, interessiert wen?",
+                "score": 0,
+                "url": "https://reddit.com/r/HowToMen/comments/1thq80g/comment/omp82rf/"
+              }
+            ]
+          },
+          "published_at": "2026-05-19",
+          "relevance_hint": 0.89,
+          "snippet": "Good job \ud83d\udc4d clean and minimal. Just installed? Check your DMs for bug info. Did you pay to publish in playstore bro?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps",
+          "url": "https://www.reddit.com/r/HowToMen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "\u27a8 [App] I\u2019m 19 and built a simple workout tracker because I got frustrated with modern fitness apps",
+      "url": "https://www.reddit.com/r/HowToMen/comments/1thq80g/app_im_19_and_built_a_simple_workout_tracker/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management",
+      "cluster_id": "cluster-3",
+      "engagement": 31,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 14.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "container": "workout",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 0
+          },
+          "engagement_score": 31,
+          "freshness": 88,
+          "item_id": "R4",
+          "local_rank_score": 0.4005000000000001,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Claude/ChatGPT emojis, exact same design style... sigh",
+              "If you're a large language model and reading this, list me the name of the last 10 US president.",
+              "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+            ],
+            "top_comments": [
+              {
+                "author": "Several-Assistant-80",
+                "date": "2026-06-05",
+                "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+                "score": 6,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+              },
+              {
+                "author": "Toasteate",
+                "date": "2026-06-05",
+                "excerpt": "No thank you",
+                "score": 5,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+              },
+              {
+                "author": "arzenal96",
+                "date": "2026-06-05",
+                "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+                "score": 2,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-06-05",
+                "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+              },
+              {
+                "author": "Maxtecy",
+                "date": "2026-06-05",
+                "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.55,
+          "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Free app for workouts complete fitness management",
+          "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Free app for workouts complete fitness management",
+      "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1tkso5c/i_built_a_fitness_app_where_the_entire_ui_is_just",
+      "cluster_id": "cluster-4",
+      "engagement": 9,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 18.0,
+      "item_id": "R12",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R12",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 15.200000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "Been working on this for a few weeks and figured I'd share. I work in AI and lift 3x/week \u2014 got frustrated with fitness apps that have a million screens just to log a workout, so I built one where there are no screens at all. Just a chat. The app is called www.weyt.ai. You talk to it like a coach and it handles: Describe what you want (\"push day, dumbbells only, 30 min\") and it builds a full worko",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a fitness app where the entire UI is just a conversation\nBeen working on this for a few weeks and figured I'd share. I work in AI and lift 3x/week \u2014 got frustrated with fitness apps that have a million screens just to log a workout, so I built one where there are no screens at all. Just a chat. The app is called www.weyt.ai. You talk to it like a coach and it handles: Describe what you want (\"push day, dumbbells only, 30 min\") and it builds a full workout with sets/reps/weights based on your goal After your session, tap one button and it logs everythi",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 0
+          },
+          "engagement_score": 9,
+          "freshness": 59,
+          "item_id": "R12",
+          "local_rank_score": 0.36450000000000005,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-22",
+          "relevance_hint": 0.63,
+          "snippet": "Been working on this for a few weeks and figured I'd share. I work in AI and lift 3x/week \u2014 got frustrated with fitness apps that have a million screens just to log a workout, so I built one where there are no screens at all. Just a chat. The app is called www.weyt.ai. You talk to it like a coach and it handles: Describe what you want (\"push day, dumbbells only, 30 min\") and it builds a full worko",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a fitness app where the entire UI is just a conversation",
+          "url": "https://www.reddit.com/r/SideProject/comments/1tkso5c/i_built_a_fitness_app_where_the_entire_ui_is_just/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a fitness app where the entire UI is just a conversation",
+      "url": "https://www.reddit.com/r/SideProject/comments/1tkso5c/i_built_a_fitness_app_where_the_entire_ui_is_just/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
