@@ -1,0 +1,163 @@
+Batch A sources=reddit,hackernews
+Started at 2026-06-11T05:41:39Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/27326429416
+----
+
+===== Seed: "any good app for" =====
+/last30days · researching: "any good app for"
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""any app for"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22any+good+app+for%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"any good app for"' into 2 queries: ['"any app for"', '"any good app for"']
+[Reddit] Global search 1/2: '"any app for"' (sort=relevance)
+[Reddit] Global search 2/2: '"any good app for"' (sort=top)
+[Reddit]   -> 7 results for '"any good app for"'
+[Reddit]   -> 7 results for '"any app for"'
+[Reddit] Discovered subreddits: ['droidappshowcase', 'ProductivityApps', 'DuelMasters']
+[Reddit] Subreddit search: r/droidappshowcase for '"any app for"'
+[Reddit] Subreddit search: r/ProductivityApps for '"any app for"'
+[Reddit] Subreddit search: r/DuelMasters for '"any app for"'
+[Reddit]   -> 2 results from r/ProductivityApps
+[Reddit]   -> 0 results from r/DuelMasters
+[Reddit]   -> 1 results from r/droidappshowcase
+[Reddit] After dedup: 15 unique posts
+[Reddit] Final: 15 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 4/5 posts in 5.2s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (21.7s) - Reddit: 7 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-11/0542-any-good-app-for.json
+[OK] seed succeeded
+
+===== Seed: "better app than" =====
+/last30days · researching: "better app than"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""better app than"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22better+app+than%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"better app than"' into 1 queries: ['"better app than"']
+[Reddit] Global search 1/2: '"better app than"' (sort=relevance)
+[Reddit]   -> 7 results for '"better app than"'
+[Reddit] Discovered subreddits: ['ShowMeYourApps', 'whatsapp', 'FreeCash']
+[Reddit] Subreddit search: r/ShowMeYourApps for '"better app than"'
+[Reddit] Subreddit search: r/whatsapp for '"better app than"'
+[Reddit] Subreddit search: r/FreeCash for '"better app than"'
+[Reddit]   -> 1 results from r/whatsapp
+[Reddit]   -> 1 results from r/FreeCash
+[Reddit]   -> 1 results from r/ShowMeYourApps
+[Reddit] After dedup: 7 unique posts
+[Reddit] Final: 7 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.4s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (16.5s) - Reddit: 3 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-11/0542-better-app-than.json
+[OK] seed succeeded
+
+===== Seed: "why is there no app" =====
+/last30days · researching: "why is there no app"
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""why there no app"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22why+is+there+no+app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"why is there no app"' into 2 queries: ['"why there no app"', '"why is there no app"']
+[Reddit] Global search 1/2: '"why there no app"' (sort=relevance)
+[Reddit] Global search 2/2: '"why is there no app"' (sort=top)
+[Reddit]   -> 3 results for '"why is there no app"'
+[Reddit]   -> 2 results for '"why there no app"'
+[Reddit] Discovered subreddits: ['ShowMeYourApps', 'favikon', 'alphaandbetausers']
+[Reddit] Subreddit search: r/ShowMeYourApps for '"why there no app"'
+[Reddit] Subreddit search: r/favikon for '"why there no app"'
+[Reddit] Subreddit search: r/alphaandbetausers for '"why there no app"'
+[Reddit]   -> 0 results from r/favikon
+[Reddit]   -> 0 results from r/alphaandbetausers
+[Reddit]   -> 0 results from r/ShowMeYourApps
+[Reddit] After dedup: 5 unique posts
+[Reddit] Final: 5 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 4/5 posts in 5.4s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (13.7s) - Reddit: 4 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-11/0542-why-is-there-no-app.json
+[OK] seed succeeded
+
+===== Seed: "frustrated with" app =====
+/last30days · researching: "frustrated with" app
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""frustrated with" app" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22frustrated+with%22+app&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"frustrated with" app' into 1 queries: ['"frustrated with" app']
+[Reddit] Global search 1/2: '"frustrated with" app' (sort=relevance)
+[Reddit]   -> 7 results for '"frustrated with" app'
+[Reddit] Discovered subreddits: ['GooglePlayDeveloper', 'dating_advice', 'SaaS']
+[Reddit] Subreddit search: r/GooglePlayDeveloper for '"frustrated with" app'
+[Reddit] Subreddit search: r/dating_advice for '"frustrated with" app'
+[Reddit] Subreddit search: r/SaaS for '"frustrated with" app'
+[Reddit]   -> 4 results from r/dating_advice
+[Reddit]   -> 3 results from r/GooglePlayDeveloper
+[Reddit]   -> 7 results from r/SaaS
+[Reddit] After dedup: 18 unique posts
+[Reddit] Final: 18 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.5s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (15.8s) - Reddit: 7 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-11/0542-frustrated-with-app.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
