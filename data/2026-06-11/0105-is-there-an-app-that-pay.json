@@ -1,0 +1,718 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/affirm/comments/1tx9i23/another_app_like_affirm"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/affirm/comments/1tx9i23/another_app_like_affirm"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Another app like affirm?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "App for just vocab?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Questions and advice please"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-11T01:05:30.638344+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "App for just vocab?\nIs there an app that is just decks of vocalized flashcards? Could be words or phrases or both. I'd like just vocab to practice on spaced repetition, with the words read to me in addition the the print. Would be happy to pay a subscription or a purchase price. I don't need to play the tediously slow Duolingo or LingoDeer games and don't need to be forced through the vocab I already know. Spaced repitition would be ideal, instead of lesson plans. Thanks!\nAnki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+        "container": "learnvietnamese",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 15,
+          "score": 5
+        },
+        "engagement_score": 51,
+        "freshness": 89,
+        "item_id": "R3",
+        "local_rank_score": 0.4555,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+            "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app.",
+            "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern.",
+            "www.Podglot.com ios and android 100% free (northern and southern audio).",
+            "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/"
+          ],
+          "top_comments": [
+            {
+              "author": "ShishiyaSeneca",
+              "date": "2026-06-06",
+              "excerpt": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+              "score": 4,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2262a/"
+            },
+            {
+              "author": "misschickpea",
+              "date": "2026-06-06",
+              "excerpt": "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial",
+              "score": 3,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq5sh7x/"
+            },
+            {
+              "author": "Fabulous-Explorer281",
+              "date": "2026-06-06",
+              "excerpt": "Any particular dialect?",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2bgo7/"
+            },
+            {
+              "author": "banyanflashcardsapp",
+              "date": "2026-06-07",
+              "excerpt": "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app. My best friend uses it to help him with Vietnamese vocab. You can add vocab from photos or generate automatically from a description of what you want to le",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq6xl8v/"
+            },
+            {
+              "author": "vnthu6z",
+              "date": "2026-06-06",
+              "excerpt": "www.Podglot.com ios and android 100% free (northern and southern audio).",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq24ss7/"
+            },
+            {
+              "author": "Sparklerre",
+              "date": "2026-06-10",
+              "excerpt": "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oqvp7nm/"
+            }
+          ]
+        },
+        "published_at": "2026-06-06",
+        "relevance_hint": 0.45,
+        "snippet": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "App for just vocab?",
+        "url": "https://www.reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Another app like affirm?\nIs there another app similar to affirm. I know about klarna, after pay etc but is there an app that stretches out the payment plan like affirm?\nSezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+        "container": "Affirm",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 32,
+          "score": 35
+        },
+        "engagement_score": 100,
+        "freshness": 88,
+        "item_id": "R1",
+        "local_rank_score": 0.44999999999999996,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+            "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well.",
+            "PayPal credit as well as PayPal 4 or something like that.",
+            "There is klarna and PayPal that I have used.",
+            "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm"
+          ],
+          "top_comments": [
+            {
+              "author": "Tranquilo710",
+              "date": "2026-06-05",
+              "excerpt": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+              "score": 12,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opu7e1u/"
+            },
+            {
+              "author": "Tranquilo710",
+              "date": "2026-06-05",
+              "excerpt": "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans.",
+              "score": 4,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opuiru2/"
+            },
+            {
+              "author": "RealisticClassroom96",
+              "date": "2026-06-06",
+              "excerpt": "PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+              "score": 3,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0rclk/"
+            },
+            {
+              "author": "Sensitive_Singer_273",
+              "date": "2026-06-05",
+              "excerpt": "PayPal",
+              "score": 2,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwvwz9/"
+            },
+            {
+              "author": "Romy90210",
+              "date": "2026-06-05",
+              "excerpt": "Four, Afterpay",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvw29s/"
+            },
+            {
+              "author": "Accomplished-Tie9620",
+              "date": "2026-06-05",
+              "excerpt": "Afterpay is another",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvvtki/"
+            },
+            {
+              "author": "meg8278",
+              "date": "2026-06-05",
+              "excerpt": "There is klarna and PayPal that I have used.",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwwo7k/"
+            },
+            {
+              "author": "Romanharper2013",
+              "date": "2026-06-05",
+              "excerpt": "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opyhzhv/"
+            },
+            {
+              "author": "Affectionate-Boat393",
+              "date": "2026-06-06",
+              "excerpt": "Sunbit",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0x1m9/"
+            },
+            {
+              "author": "Pimpeto",
+              "date": "2026-06-06",
+              "excerpt": "Bread",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq17frc/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.42,
+        "snippet": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Another app like affirm?",
+        "url": "https://www.reddit.com/r/Affirm/comments/1tx9i23/another_app_like_affirm/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Questions and advice please\nHey people, I just received a job offer as an overnight supervisor. Curious to have some insight on the role and anyone\u2019s thoughts or advice they can give me for working for sheetz. Also is there an app that will let me access my wages early like payactiv, daily pay, rapid pay, instant pay, etc? If so what is it and how does it work and about how much could I access? Also what day and around what time do you guys get paid? [Normal payday and if you get 2 day early direct deposit like me?? I bank\nBe prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+        "container": "sheetz",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 2
+        },
+        "engagement_score": 30,
+        "freshness": 83,
+        "item_id": "R5",
+        "local_rank_score": 0.4195,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "I'm an overnight team member, and the over night sups have a lot of work with very little manpower.",
+            "How it is varies a lot from store to store depending on business, staffing, store culture.",
+            "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb qu...",
+            "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start t...",
+            "Be prepared to have your ass run ragged."
+          ],
+          "top_comments": [
+            {
+              "author": "RegularImpressive819",
+              "date": "2026-06-03",
+              "excerpt": "Be prepared to have your ass run ragged.",
+              "score": 9,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/ophlb7q/"
+            },
+            {
+              "author": "Easy-Bathroom2120",
+              "date": "2026-06-03",
+              "excerpt": "I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s",
+              "score": 4,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opg52yn/"
+            },
+            {
+              "author": "Technician_Grouchy",
+              "date": "2026-06-03",
+              "excerpt": "How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+              "score": 4,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opgavx3/"
+            },
+            {
+              "author": "Exotic_Expert_8138",
+              "date": "2026-06-04",
+              "excerpt": "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb quickly. But be warned. You have the heaviest work load with the least amount of people, and you are given a lot of pretty important tasks such as EOD, ",
+              "score": 3,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opm99xb/"
+            },
+            {
+              "author": "Optimal_Entertainer1",
+              "date": "2026-06-06",
+              "excerpt": "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start training in a few weeks rather than right away. give u time to adjust but u would get less pay but less work as well to settle in. whatever seems best ",
+              "score": 1,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/oq5gpci/"
+            }
+          ]
+        },
+        "published_at": "2026-06-03",
+        "relevance_hint": 0.22,
+        "snippet": "Be prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Questions and advice please",
+        "url": "https://www.reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-12",
+  "range_to": "2026-06-11",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/affirm/comments/1tx9i23/another_app_like_affirm",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Another app like affirm?\nIs there another app similar to affirm. I know about klarna, after pay etc but is there an app that stretches out the payment plan like affirm?\nSezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+          "container": "Affirm",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 32,
+            "score": 35
+          },
+          "engagement_score": 100,
+          "freshness": 88,
+          "item_id": "R1",
+          "local_rank_score": 0.44999999999999996,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+              "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well.",
+              "PayPal credit as well as PayPal 4 or something like that.",
+              "There is klarna and PayPal that I have used.",
+              "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm"
+            ],
+            "top_comments": [
+              {
+                "author": "Tranquilo710",
+                "date": "2026-06-05",
+                "excerpt": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+                "score": 12,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opu7e1u/"
+              },
+              {
+                "author": "Tranquilo710",
+                "date": "2026-06-05",
+                "excerpt": "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans.",
+                "score": 4,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opuiru2/"
+              },
+              {
+                "author": "RealisticClassroom96",
+                "date": "2026-06-06",
+                "excerpt": "PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+                "score": 3,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0rclk/"
+              },
+              {
+                "author": "Sensitive_Singer_273",
+                "date": "2026-06-05",
+                "excerpt": "PayPal",
+                "score": 2,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwvwz9/"
+              },
+              {
+                "author": "Romy90210",
+                "date": "2026-06-05",
+                "excerpt": "Four, Afterpay",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvw29s/"
+              },
+              {
+                "author": "Accomplished-Tie9620",
+                "date": "2026-06-05",
+                "excerpt": "Afterpay is another",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvvtki/"
+              },
+              {
+                "author": "meg8278",
+                "date": "2026-06-05",
+                "excerpt": "There is klarna and PayPal that I have used.",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwwo7k/"
+              },
+              {
+                "author": "Romanharper2013",
+                "date": "2026-06-05",
+                "excerpt": "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opyhzhv/"
+              },
+              {
+                "author": "Affectionate-Boat393",
+                "date": "2026-06-06",
+                "excerpt": "Sunbit",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0x1m9/"
+              },
+              {
+                "author": "Pimpeto",
+                "date": "2026-06-06",
+                "excerpt": "Bread",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq17frc/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.42,
+          "snippet": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Another app like affirm?",
+          "url": "https://www.reddit.com/r/Affirm/comments/1tx9i23/another_app_like_affirm/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Another app like affirm?",
+      "url": "https://www.reddit.com/r/Affirm/comments/1tx9i23/another_app_like_affirm/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab",
+      "cluster_id": "cluster-2",
+      "engagement": 51,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "App for just vocab?\nIs there an app that is just decks of vocalized flashcards? Could be words or phrases or both. I'd like just vocab to practice on spaced repetition, with the words read to me in addition the the print. Would be happy to pay a subscription or a purchase price. I don't need to play the tediously slow Duolingo or LingoDeer games and don't need to be forced through the vocab I already know. Spaced repitition would be ideal, instead of lesson plans. Thanks!\nAnki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+          "container": "learnvietnamese",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 15,
+            "score": 5
+          },
+          "engagement_score": 51,
+          "freshness": 89,
+          "item_id": "R3",
+          "local_rank_score": 0.4555,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+              "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app.",
+              "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern.",
+              "www.Podglot.com ios and android 100% free (northern and southern audio).",
+              "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/"
+            ],
+            "top_comments": [
+              {
+                "author": "ShishiyaSeneca",
+                "date": "2026-06-06",
+                "excerpt": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+                "score": 4,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2262a/"
+              },
+              {
+                "author": "misschickpea",
+                "date": "2026-06-06",
+                "excerpt": "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial",
+                "score": 3,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq5sh7x/"
+              },
+              {
+                "author": "Fabulous-Explorer281",
+                "date": "2026-06-06",
+                "excerpt": "Any particular dialect?",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2bgo7/"
+              },
+              {
+                "author": "banyanflashcardsapp",
+                "date": "2026-06-07",
+                "excerpt": "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app. My best friend uses it to help him with Vietnamese vocab. You can add vocab from photos or generate automatically from a description of what you want to le",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq6xl8v/"
+              },
+              {
+                "author": "vnthu6z",
+                "date": "2026-06-06",
+                "excerpt": "www.Podglot.com ios and android 100% free (northern and southern audio).",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq24ss7/"
+              },
+              {
+                "author": "Sparklerre",
+                "date": "2026-06-10",
+                "excerpt": "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oqvp7nm/"
+              }
+            ]
+          },
+          "published_at": "2026-06-06",
+          "relevance_hint": 0.45,
+          "snippet": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "App for just vocab?",
+          "url": "https://www.reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "App for just vocab?",
+      "url": "https://www.reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please",
+      "cluster_id": "cluster-3",
+      "engagement": 30,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 17.200000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Be prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Questions and advice please\nHey people, I just received a job offer as an overnight supervisor. Curious to have some insight on the role and anyone\u2019s thoughts or advice they can give me for working for sheetz. Also is there an app that will let me access my wages early like payactiv, daily pay, rapid pay, instant pay, etc? If so what is it and how does it work and about how much could I access? Also what day and around what time do you guys get paid? [Normal payday and if you get 2 day early direct deposit like me?? I bank\nBe prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+          "container": "sheetz",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 2
+          },
+          "engagement_score": 30,
+          "freshness": 83,
+          "item_id": "R5",
+          "local_rank_score": 0.4195,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "I'm an overnight team member, and the over night sups have a lot of work with very little manpower.",
+              "How it is varies a lot from store to store depending on business, staffing, store culture.",
+              "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb qu...",
+              "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start t...",
+              "Be prepared to have your ass run ragged."
+            ],
+            "top_comments": [
+              {
+                "author": "RegularImpressive819",
+                "date": "2026-06-03",
+                "excerpt": "Be prepared to have your ass run ragged.",
+                "score": 9,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/ophlb7q/"
+              },
+              {
+                "author": "Easy-Bathroom2120",
+                "date": "2026-06-03",
+                "excerpt": "I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s",
+                "score": 4,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opg52yn/"
+              },
+              {
+                "author": "Technician_Grouchy",
+                "date": "2026-06-03",
+                "excerpt": "How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+                "score": 4,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opgavx3/"
+              },
+              {
+                "author": "Exotic_Expert_8138",
+                "date": "2026-06-04",
+                "excerpt": "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb quickly. But be warned. You have the heaviest work load with the least amount of people, and you are given a lot of pretty important tasks such as EOD, ",
+                "score": 3,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opm99xb/"
+              },
+              {
+                "author": "Optimal_Entertainer1",
+                "date": "2026-06-06",
+                "excerpt": "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start training in a few weeks rather than right away. give u time to adjust but u would get less pay but less work as well to settle in. whatever seems best ",
+                "score": 1,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/oq5gpci/"
+              }
+            ]
+          },
+          "published_at": "2026-06-03",
+          "relevance_hint": 0.22,
+          "snippet": "Be prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Questions and advice please",
+          "url": "https://www.reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Questions and advice please",
+      "url": "https://www.reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
