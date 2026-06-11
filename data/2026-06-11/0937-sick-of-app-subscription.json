@@ -1,0 +1,990 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/macosapps/comments/1tjgjrb/we_built_a_free_and_opensource_alternative_to"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/macosapps/comments/1tjgjrb/we_built_a_free_and_opensource_alternative_to"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We built a free and open-source alternative to Cotypist because we're sick of paying subscriptions for apps that run on our own hardware"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/genxwomen/comments/1toy36g/is_there_a_name_for_this_type_of_crap_chores_that"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/genxwomen/comments/1toy36g/is_there_a_name_for_this_type_of_crap_chores_that"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there a name for this type of crap chores that are taking over my life?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/discount_subscription/comments/1tdesai/cable_is_dead_and_juggling_5_streaming_apps_is_a"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/discount_subscription/comments/1tdesai/cable_is_dead_and_juggling_5_streaming_apps_is_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Cable is dead, and juggling 5 streaming apps is a scam. Here is the ultimate zero-buffer setup (June 2026 Price Increase Alert)\ud83d\udc7b\ud83d\udcfa"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-11T09:37:43.771370+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "We built a free and open-source alternative to Cotypist because we're sick of paying subscriptions for apps that run on our own hardware\nIf you haven't saw the recent news around Cotypist, they're charging a subscription for an app that runs entirely on your hardware using free, open-source models. They're gating which models you can run on your own machine behind pricing tiers, paywalling clipboard awareness and per-app customization, and capping at 100 words a day. I'm not sure about you, but this sounds insane to me for local inference, on your own Mac. That's why we've been working on an open-source version called Tabby. It's\nCan you add a homebrew option? There is a terminal called tabby . Might cause confusion with that. Great work guys! And thanks for making it free. Will download and test it. Does it support other languages than English? Couldn't find that on your site. Btw, it's possible to do a donation; there's a Buy Me a Coffee button.",
+        "container": "MacOSApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 135,
+          "score": 257
+        },
+        "engagement_score": 100,
+        "freshness": 58,
+        "item_id": "R1",
+        "local_rank_score": 0.45299999999999996,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Can you add a homebrew option?",
+            "There is a terminal called tabby . Might cause confusion with that.",
+            "Great work guys! And thanks for making it free. Will download and test it.",
+            "I like ProTypist a lot. And I'm thrilled you are doing this.",
+            "Just installed! Thank you for this. I starred the repo for sure.",
+            "When I type does it remember the way I type to suggest next time the way I am typing usually?",
+            "Cool to see more tools in this space. I built Charm which focuses more on real-time typo correction and autocorrect rather than pure inline autocomple...",
+            "Which text fields are compatible, I have tried a few apps (e.",
+            "This is awesome, installing now. If you need any help with QA let me know, I\u2019m not like a professional at it but I I\u2019m pretty good at breaking things."
+          ],
+          "top_comments": [
+            {
+              "author": "Accurate-Two8018",
+              "date": "2026-05-21",
+              "excerpt": "Can you add a homebrew option?",
+              "score": 9,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1bn8m/"
+            },
+            {
+              "author": "theseus2222",
+              "date": "2026-05-21",
+              "excerpt": "There is a terminal called tabby . Might cause confusion with that.",
+              "score": 6,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on17fj6/"
+            },
+            {
+              "author": "MaxGaav",
+              "date": "2026-05-21",
+              "excerpt": "Great work guys! And thanks for making it free. Will download and test it. Does it support other languages than English? Couldn't find that on your site. Btw, it's possible to do a donation; there's a Buy Me a Coffee button.",
+              "score": 6,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1jigh/"
+            },
+            {
+              "author": "ConsistentAndWin",
+              "date": "2026-05-21",
+              "excerpt": "I like ProTypist a lot. And I'm thrilled you are doing this. I wouldn't mind paying once but if something is running on my computer, you shouldn't be charging monthly so I think it's great you are blazing the trail correctly here.",
+              "score": 4,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on38x4f/"
+            },
+            {
+              "author": "OpenSourceVillain",
+              "date": "2026-05-21",
+              "excerpt": "Woop woop!!!",
+              "score": 3,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on19nkn/"
+            },
+            {
+              "author": "yeenis",
+              "date": "2026-05-21",
+              "excerpt": "Just installed! Thank you for this. I starred the repo for sure.",
+              "score": 3,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1fi3t/"
+            },
+            {
+              "author": "ZeroReader",
+              "date": "2026-05-21",
+              "excerpt": "When I type does it remember the way I type to suggest next time the way I am typing usually?",
+              "score": 3,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on40cxz/"
+            },
+            {
+              "author": "__TJH",
+              "date": "2026-05-22",
+              "excerpt": "Cool to see more tools in this space. I built Charm which focuses more on real-time typo correction and autocorrect rather than pure inline autocomplete, so it's a bit of a different angle if anyone's looking for that side of things.",
+              "score": 3,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on7dtlg/"
+            },
+            {
+              "author": "medoc76",
+              "date": "2026-05-21",
+              "excerpt": "Which text fields are compatible, I have tried a few apps (e.g Chrome, also Safari here in the comment field of reddit) and no suggestions are showing up. What am I doing wrong? (all permissions are set)",
+              "score": 3,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on2ckwi/"
+            },
+            {
+              "author": "dnlstk",
+              "date": "2026-05-21",
+              "excerpt": "This is awesome, installing now. If you need any help with QA let me know, I\u2019m not like a professional at it but I I\u2019m pretty good at breaking things.",
+              "score": 2,
+              "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1wcu9/"
+            }
+          ]
+        },
+        "published_at": "2026-05-21",
+        "relevance_hint": 0.32,
+        "snippet": "Can you add a homebrew option? There is a terminal called tabby . Might cause confusion with that. Great work guys! And thanks for making it free. Will download and test it. Does it support other languages than English? Couldn't find that on your site. Btw, it's possible to do a donation; there's a Buy Me a Coffee button.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We built a free and open-source alternative to Cotypist because we're sick of paying subscriptions for apps that run on our own hardware",
+        "url": "https://www.reddit.com/r/MacOSApps/comments/1tjgjrb/we_built_a_free_and_opensource_alternative_to/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there a name for this type of crap chores that are taking over my life?\nSo when it comes to work, I have my paid job. Then there are chores at home like cooking, cleaning, yard work, etc. But is there a name for dealing with all the information-based stuff like taxes, accounts, bills, investments, insurance, appointments, updates, subscriptions, planning, reservations, etc. It's all the chores that are done primarily by phone, app, email, and snail mail. I'm really sick of this kind of chore and feel like it's taking over my life! Especially because I'm doing my dad\nLife admin. That's what my millennial chums call it. I believe it's called the Mental Load/intellectual labor. I hate it. I tried to write it all down once in case I died during surgery. That's when I no longer felt guilty that my husband did more physical work. It is an immense amount of work. I call it administrivia",
+        "container": "GenXWomen",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 85,
+          "score": 139
+        },
+        "engagement_score": 94,
+        "freshness": 70,
+        "item_id": "R2",
+        "local_rank_score": 0.386,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "Girl, same. Im working on my mom\u2019s estate right now and every bit of it is like pulling teeth while someone rakes their nails down a chalkboard.",
+            "Life admin. You absolutely must delegate more. Hand over certain types of appointments and admin, like dental or house insurance or car insurance, and...",
+            "Dealing with paperwork, bureaucracy, and all the little tasks you describe is soul draining.",
+            "Years ago I read about people you could hire as personal assistants for this kind of thing.",
+            "One thing that makes it worse is that employers have used technology to push this \u201cadministrivia\u201d onto workers.",
+            "Life admin. That's what my millennial chums call it.",
+            "I believe it's called the Mental Load/intellectual labor.",
+            "Chores of Theseus SysiphysThank you u/Turbulent-Caramel25",
+            "When my mom moved in with us a year ago, my life admin work tripled or more, became Mom is 86."
+          ],
+          "top_comments": [
+            {
+              "author": "TimelyYogurtcloset82",
+              "date": "2026-05-27",
+              "excerpt": "Life admin. That's what my millennial chums call it.",
+              "score": 129,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4qar0/"
+            },
+            {
+              "author": "GeneralyAnnoyed5050",
+              "date": "2026-05-27",
+              "excerpt": "I believe it's called the Mental Load/intellectual labor. I hate it. I tried to write it all down once in case I died during surgery. That's when I no longer felt guilty that my husband did more physical work. It is an immense amount of work.",
+              "score": 91,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4tbhm/"
+            },
+            {
+              "author": "Loud_Welder_4819",
+              "date": "2026-05-27",
+              "excerpt": "I call it administrivia",
+              "score": 61,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo5aok2/"
+            },
+            {
+              "author": "TesseractToo",
+              "date": "2026-05-27",
+              "excerpt": "Chores of Theseus SysiphysThank you u/Turbulent-Caramel25",
+              "score": 50,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo50prw/"
+            },
+            {
+              "author": "NorthernTransplant94",
+              "date": "2026-05-27",
+              "excerpt": "When my mom moved in with us a year ago, my life admin work tripled or more, became Mom is 86. I finally had to get upset with my husband to get him to take a little fucking initiative after being woken up by a blaring (malfunctioning) alarm system for the fourth time on a month because somehow that",
+              "score": 29,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4usdp/"
+            },
+            {
+              "author": "Wulfkat",
+              "date": "2026-05-27",
+              "excerpt": "Girl, same. Im working on my mom\u2019s estate right now and every bit of it is like pulling teeth while someone rakes their nails down a chalkboard. If I\u2019m ever forced to do this shit again, I\u2019m hiring a lawyer.",
+              "score": 18,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo53m9h/"
+            },
+            {
+              "author": "pezzlingpod",
+              "date": "2026-05-27",
+              "excerpt": "Life admin. You absolutely must delegate more. Hand over certain types of appointments and admin, like dental or house insurance or car insurance, and have a handover/ training session! Reservations and subscriptions can definitely be handled by either party.",
+              "score": 17,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4rns2/"
+            },
+            {
+              "author": "zielawolfsong",
+              "date": "2026-05-27",
+              "excerpt": "Dealing with paperwork, bureaucracy, and all the little tasks you describe is soul draining. Thankfully my husband does a lot of it, but our son is disabled and I'm the one who does all of that stuff. Medicaid, in home care, IEPs, regional center (California agency that coordinates services), speech",
+              "score": 3,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo9ski5/"
+            },
+            {
+              "author": "yellatsomecheese",
+              "date": "2026-05-28",
+              "excerpt": "Years ago I read about people you could hire as personal assistants for this kind of thing. Exactly like having a housewife. At the time I thought it would really take off. I suppose there is an issue with trusting people with your accounts and such but\u2026 surely there is a way for a company to vet pe",
+              "score": 3,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/ood053g/"
+            },
+            {
+              "author": "Exciting-Author1330",
+              "date": "2026-06-01",
+              "excerpt": "One thing that makes it worse is that employers have used technology to push this \u201cadministrivia\u201d onto workers. As a tiny example, HR or Payroll used to log your sick time, and now you log into an app (one of a billion), select the time and dates, reason for leave, check it\u2019s all correct, etc. Inste",
+              "score": 2,
+              "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/op48gew/"
+            }
+          ]
+        },
+        "published_at": "2026-05-27",
+        "relevance_hint": 0.14,
+        "snippet": "Life admin. That's what my millennial chums call it. I believe it's called the Mental Load/intellectual labor. I hate it. I tried to write it all down once in case I died during surgery. That's when I no longer felt guilty that my husband did more physical work. It is an immense amount of work. I call it administrivia",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there a name for this type of crap chores that are taking over my life?",
+        "url": "https://www.reddit.com/r/GenXWomen/comments/1toy36g/is_there_a_name_for_this_type_of_crap_chores_that/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)\nSubscription fatigue is real and I think a lot of indie devs are leaving money on the table by blindly copying the SaaS model for simple utilities. I have been working on an alarm app designed for chronic oversleepers. If you look at the major players in this space like Alarmy they are charging users a recurring monthly fee just to access basic phone sensors like the accelerometer or the camera. To me that feels broken. You are asking a user to rent a feature their hardware already paid for. Whe\nI agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business. And yeah subscription fatigue is real, but also there are still enough people that are willing to pay subscriptions. Alarmy makes 500k per month. Doesn't look like th",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 7
+        },
+        "engagement_score": 36,
+        "freshness": 47,
+        "item_id": "R4",
+        "local_rank_score": 0.3615,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees.",
+            "I'm with you - the enshitification of apps is ridiculous.",
+            "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business.",
+            "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything.",
+            "How utilitiy apps manage to get approved for subscription at the first place?",
+            "Maitey (trip planner) moved in that direction. No more subscriptions."
+          ],
+          "top_comments": [
+            {
+              "author": "Impressive-Sir9633",
+              "date": "2026-05-16",
+              "excerpt": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t",
+              "score": 3,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5zkiu/"
+            },
+            {
+              "author": "ExogamousUnfolding",
+              "date": "2026-05-16",
+              "excerpt": "I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs",
+              "score": 3,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5xlkq/"
+            },
+            {
+              "author": "satinekk",
+              "date": "2026-05-16",
+              "excerpt": "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business. And yeah subscription fatigue is real, but also there are still enough people that are willing to pay subscriptions. Alarmy makes 500k per month. Doesn't look like th",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om6602z/"
+            },
+            {
+              "author": "Alki_Soupboy",
+              "date": "2026-05-16",
+              "excerpt": "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything. And then I have an AI subscription option.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7envf/"
+            },
+            {
+              "author": "pimeme",
+              "date": "2026-05-16",
+              "excerpt": "How utilitiy apps manage to get approved for subscription at the first place? I tired to submit a camera app to apple and they rejected it saying that my app have to provide new content on monthly basis in order to sell subscription. I could had easily solve it by pushing new camer filter every mont",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7eq4f/"
+            },
+            {
+              "author": "MaiteyApp",
+              "date": "2026-05-16",
+              "excerpt": "Maitey (trip planner) moved in that direction. No more subscriptions. Just \"Travel Day\" passes. Buy the pass you need to suit the length of your trip (1/3/7/14/20/31 days). It just didn't make sense to charge a monthly or yearly subscription when people don't travel in that manner. If anyone wants t",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7w0nj/"
+            }
+          ]
+        },
+        "published_at": "2026-05-16",
+        "relevance_hint": 0.4,
+        "snippet": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I disagree.I...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Cable is dead, and juggling 5 streaming apps is a scam. Here is the ultimate zero-buffer setup (June 2026 Price Increase Alert)\ud83d\udc7b\ud83d\udcfa\nIf you\u2019re tired of paying $150+ a month for traditional cable, or you're sick of juggling five different streaming subscriptions just to watch your local sports team get blacked out, it\u2019s time to rethink your setup. Welcome to the streaming rebellion. I wanted to give a shoutout to the Ghost Cable network. It\u2019s basically an all-access pass to global entertainment without the massive bills, hardware rentals, or locked-in contracts. Here is what\u2019s under the hood of the network: \ud83c\udf10 30,000+ Live Chan\nWant a one day trial interested in a trial Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+        "container": "Discount_Subscription",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 2
+        },
+        "engagement_score": 18,
+        "freshness": 43,
+        "item_id": "R5",
+        "local_rank_score": 0.24249999999999997,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+            "I would like to have a demo. Will I need to download any specific app? Please let me know."
+          ],
+          "top_comments": [
+            {
+              "author": "dheerajjotwani",
+              "date": "2026-06-08",
+              "excerpt": "Want a one day trial",
+              "score": 1,
+              "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/oqgsqyn/"
+            },
+            {
+              "author": "OnePermission4775",
+              "date": "2026-06-10",
+              "excerpt": "interested in a trial",
+              "score": 1,
+              "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/oqrpzgh/"
+            },
+            {
+              "author": "Fit-Departure5678",
+              "date": "2026-05-15",
+              "excerpt": "Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+              "score": 1,
+              "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/olvy2jn/"
+            },
+            {
+              "author": "FantasticPath1230",
+              "date": "2026-05-15",
+              "excerpt": "O testes, what channels are ?",
+              "score": 1,
+              "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/om09xex/"
+            },
+            {
+              "author": "Ok-Committee-5474",
+              "date": "2026-05-16",
+              "excerpt": "I would like to have a demo. Will I need to download any specific app? Please let me know.",
+              "score": 1,
+              "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/om716bh/"
+            }
+          ]
+        },
+        "published_at": "2026-05-14",
+        "relevance_hint": 0.14,
+        "snippet": "Want a one day trial interested in a trial Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Cable is dead, and juggling 5 streaming apps is a scam. Here is the ultimate zero-buffer setup (June 2026 Price Increase Alert)\ud83d\udc7b\ud83d\udcfa",
+        "url": "https://www.reddit.com/r/Discount_Subscription/comments/1tdesai/cable_is_dead_and_juggling_5_streaming_apps_is_a/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-12",
+  "range_to": "2026-06-11",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/macosapps/comments/1tjgjrb/we_built_a_free_and_opensource_alternative_to",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Can you add a homebrew option? There is a terminal called tabby . Might cause confusion with that. Great work guys! And thanks for making it free. Will download and test it. Does it support other languages than English? Couldn't find that on your site. Btw, it's possible to do a donation; there's a Buy Me a Coffee button.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We built a free and open-source alternative to Cotypist because we're sick of paying subscriptions for apps that run on our own hardware\nIf you haven't saw the recent news around Cotypist, they're charging a subscription for an app that runs entirely on your hardware using free, open-source models. They're gating which models you can run on your own machine behind pricing tiers, paywalling clipboard awareness and per-app customization, and capping at 100 words a day. I'm not sure about you, but this sounds insane to me for local inference, on your own Mac. That's why we've been working on an open-source version called Tabby. It's\nCan you add a homebrew option? There is a terminal called tabby . Might cause confusion with that. Great work guys! And thanks for making it free. Will download and test it. Does it support other languages than English? Couldn't find that on your site. Btw, it's possible to do a donation; there's a Buy Me a Coffee button.",
+          "container": "MacOSApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 135,
+            "score": 257
+          },
+          "engagement_score": 100,
+          "freshness": 58,
+          "item_id": "R1",
+          "local_rank_score": 0.45299999999999996,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Can you add a homebrew option?",
+              "There is a terminal called tabby . Might cause confusion with that.",
+              "Great work guys! And thanks for making it free. Will download and test it.",
+              "I like ProTypist a lot. And I'm thrilled you are doing this.",
+              "Just installed! Thank you for this. I starred the repo for sure.",
+              "When I type does it remember the way I type to suggest next time the way I am typing usually?",
+              "Cool to see more tools in this space. I built Charm which focuses more on real-time typo correction and autocorrect rather than pure inline autocomple...",
+              "Which text fields are compatible, I have tried a few apps (e.",
+              "This is awesome, installing now. If you need any help with QA let me know, I\u2019m not like a professional at it but I I\u2019m pretty good at breaking things."
+            ],
+            "top_comments": [
+              {
+                "author": "Accurate-Two8018",
+                "date": "2026-05-21",
+                "excerpt": "Can you add a homebrew option?",
+                "score": 9,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1bn8m/"
+              },
+              {
+                "author": "theseus2222",
+                "date": "2026-05-21",
+                "excerpt": "There is a terminal called tabby . Might cause confusion with that.",
+                "score": 6,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on17fj6/"
+              },
+              {
+                "author": "MaxGaav",
+                "date": "2026-05-21",
+                "excerpt": "Great work guys! And thanks for making it free. Will download and test it. Does it support other languages than English? Couldn't find that on your site. Btw, it's possible to do a donation; there's a Buy Me a Coffee button.",
+                "score": 6,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1jigh/"
+              },
+              {
+                "author": "ConsistentAndWin",
+                "date": "2026-05-21",
+                "excerpt": "I like ProTypist a lot. And I'm thrilled you are doing this. I wouldn't mind paying once but if something is running on my computer, you shouldn't be charging monthly so I think it's great you are blazing the trail correctly here.",
+                "score": 4,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on38x4f/"
+              },
+              {
+                "author": "OpenSourceVillain",
+                "date": "2026-05-21",
+                "excerpt": "Woop woop!!!",
+                "score": 3,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on19nkn/"
+              },
+              {
+                "author": "yeenis",
+                "date": "2026-05-21",
+                "excerpt": "Just installed! Thank you for this. I starred the repo for sure.",
+                "score": 3,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1fi3t/"
+              },
+              {
+                "author": "ZeroReader",
+                "date": "2026-05-21",
+                "excerpt": "When I type does it remember the way I type to suggest next time the way I am typing usually?",
+                "score": 3,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on40cxz/"
+              },
+              {
+                "author": "__TJH",
+                "date": "2026-05-22",
+                "excerpt": "Cool to see more tools in this space. I built Charm which focuses more on real-time typo correction and autocorrect rather than pure inline autocomplete, so it's a bit of a different angle if anyone's looking for that side of things.",
+                "score": 3,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on7dtlg/"
+              },
+              {
+                "author": "medoc76",
+                "date": "2026-05-21",
+                "excerpt": "Which text fields are compatible, I have tried a few apps (e.g Chrome, also Safari here in the comment field of reddit) and no suggestions are showing up. What am I doing wrong? (all permissions are set)",
+                "score": 3,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on2ckwi/"
+              },
+              {
+                "author": "dnlstk",
+                "date": "2026-05-21",
+                "excerpt": "This is awesome, installing now. If you need any help with QA let me know, I\u2019m not like a professional at it but I I\u2019m pretty good at breaking things.",
+                "score": 2,
+                "url": "https://reddit.com/r/MacOSApps/comments/1tjgjrb/comment/on1wcu9/"
+              }
+            ]
+          },
+          "published_at": "2026-05-21",
+          "relevance_hint": 0.32,
+          "snippet": "Can you add a homebrew option? There is a terminal called tabby . Might cause confusion with that. Great work guys! And thanks for making it free. Will download and test it. Does it support other languages than English? Couldn't find that on your site. Btw, it's possible to do a donation; there's a Buy Me a Coffee button.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We built a free and open-source alternative to Cotypist because we're sick of paying subscriptions for apps that run on our own hardware",
+          "url": "https://www.reddit.com/r/MacOSApps/comments/1tjgjrb/we_built_a_free_and_opensource_alternative_to/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We built a free and open-source alternative to Cotypist because we're sick of paying subscriptions for apps that run on our own hardware",
+      "url": "https://www.reddit.com/r/MacOSApps/comments/1tjgjrb/we_built_a_free_and_opensource_alternative_to/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/genxwomen/comments/1toy36g/is_there_a_name_for_this_type_of_crap_chores_that",
+      "cluster_id": "cluster-2",
+      "engagement": 94,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 7.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Life admin. That's what my millennial chums call it. I believe it's called the Mental Load/intellectual labor. I hate it. I tried to write it all down once in case I died during surgery. That's when I no longer felt guilty that my husband did more physical work. It is an immense amount of work. I call it administrivia",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there a name for this type of crap chores that are taking over my life?\nSo when it comes to work, I have my paid job. Then there are chores at home like cooking, cleaning, yard work, etc. But is there a name for dealing with all the information-based stuff like taxes, accounts, bills, investments, insurance, appointments, updates, subscriptions, planning, reservations, etc. It's all the chores that are done primarily by phone, app, email, and snail mail. I'm really sick of this kind of chore and feel like it's taking over my life! Especially because I'm doing my dad\nLife admin. That's what my millennial chums call it. I believe it's called the Mental Load/intellectual labor. I hate it. I tried to write it all down once in case I died during surgery. That's when I no longer felt guilty that my husband did more physical work. It is an immense amount of work. I call it administrivia",
+          "container": "GenXWomen",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 85,
+            "score": 139
+          },
+          "engagement_score": 94,
+          "freshness": 70,
+          "item_id": "R2",
+          "local_rank_score": 0.386,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "Girl, same. Im working on my mom\u2019s estate right now and every bit of it is like pulling teeth while someone rakes their nails down a chalkboard.",
+              "Life admin. You absolutely must delegate more. Hand over certain types of appointments and admin, like dental or house insurance or car insurance, and...",
+              "Dealing with paperwork, bureaucracy, and all the little tasks you describe is soul draining.",
+              "Years ago I read about people you could hire as personal assistants for this kind of thing.",
+              "One thing that makes it worse is that employers have used technology to push this \u201cadministrivia\u201d onto workers.",
+              "Life admin. That's what my millennial chums call it.",
+              "I believe it's called the Mental Load/intellectual labor.",
+              "Chores of Theseus SysiphysThank you u/Turbulent-Caramel25",
+              "When my mom moved in with us a year ago, my life admin work tripled or more, became Mom is 86."
+            ],
+            "top_comments": [
+              {
+                "author": "TimelyYogurtcloset82",
+                "date": "2026-05-27",
+                "excerpt": "Life admin. That's what my millennial chums call it.",
+                "score": 129,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4qar0/"
+              },
+              {
+                "author": "GeneralyAnnoyed5050",
+                "date": "2026-05-27",
+                "excerpt": "I believe it's called the Mental Load/intellectual labor. I hate it. I tried to write it all down once in case I died during surgery. That's when I no longer felt guilty that my husband did more physical work. It is an immense amount of work.",
+                "score": 91,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4tbhm/"
+              },
+              {
+                "author": "Loud_Welder_4819",
+                "date": "2026-05-27",
+                "excerpt": "I call it administrivia",
+                "score": 61,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo5aok2/"
+              },
+              {
+                "author": "TesseractToo",
+                "date": "2026-05-27",
+                "excerpt": "Chores of Theseus SysiphysThank you u/Turbulent-Caramel25",
+                "score": 50,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo50prw/"
+              },
+              {
+                "author": "NorthernTransplant94",
+                "date": "2026-05-27",
+                "excerpt": "When my mom moved in with us a year ago, my life admin work tripled or more, became Mom is 86. I finally had to get upset with my husband to get him to take a little fucking initiative after being woken up by a blaring (malfunctioning) alarm system for the fourth time on a month because somehow that",
+                "score": 29,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4usdp/"
+              },
+              {
+                "author": "Wulfkat",
+                "date": "2026-05-27",
+                "excerpt": "Girl, same. Im working on my mom\u2019s estate right now and every bit of it is like pulling teeth while someone rakes their nails down a chalkboard. If I\u2019m ever forced to do this shit again, I\u2019m hiring a lawyer.",
+                "score": 18,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo53m9h/"
+              },
+              {
+                "author": "pezzlingpod",
+                "date": "2026-05-27",
+                "excerpt": "Life admin. You absolutely must delegate more. Hand over certain types of appointments and admin, like dental or house insurance or car insurance, and have a handover/ training session! Reservations and subscriptions can definitely be handled by either party.",
+                "score": 17,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo4rns2/"
+              },
+              {
+                "author": "zielawolfsong",
+                "date": "2026-05-27",
+                "excerpt": "Dealing with paperwork, bureaucracy, and all the little tasks you describe is soul draining. Thankfully my husband does a lot of it, but our son is disabled and I'm the one who does all of that stuff. Medicaid, in home care, IEPs, regional center (California agency that coordinates services), speech",
+                "score": 3,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/oo9ski5/"
+              },
+              {
+                "author": "yellatsomecheese",
+                "date": "2026-05-28",
+                "excerpt": "Years ago I read about people you could hire as personal assistants for this kind of thing. Exactly like having a housewife. At the time I thought it would really take off. I suppose there is an issue with trusting people with your accounts and such but\u2026 surely there is a way for a company to vet pe",
+                "score": 3,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/ood053g/"
+              },
+              {
+                "author": "Exciting-Author1330",
+                "date": "2026-06-01",
+                "excerpt": "One thing that makes it worse is that employers have used technology to push this \u201cadministrivia\u201d onto workers. As a tiny example, HR or Payroll used to log your sick time, and now you log into an app (one of a billion), select the time and dates, reason for leave, check it\u2019s all correct, etc. Inste",
+                "score": 2,
+                "url": "https://reddit.com/r/GenXWomen/comments/1toy36g/comment/op48gew/"
+              }
+            ]
+          },
+          "published_at": "2026-05-27",
+          "relevance_hint": 0.14,
+          "snippet": "Life admin. That's what my millennial chums call it. I believe it's called the Mental Load/intellectual labor. I hate it. I tried to write it all down once in case I died during surgery. That's when I no longer felt guilty that my husband did more physical work. It is an immense amount of work. I call it administrivia",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there a name for this type of crap chores that are taking over my life?",
+          "url": "https://www.reddit.com/r/GenXWomen/comments/1toy36g/is_there_a_name_for_this_type_of_crap_chores_that/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there a name for this type of crap chores that are taking over my life?",
+      "url": "https://www.reddit.com/r/GenXWomen/comments/1toy36g/is_there_a_name_for_this_type_of_crap_chores_that/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my",
+      "cluster_id": "cluster-3",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.799999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I disagree.I...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)\nSubscription fatigue is real and I think a lot of indie devs are leaving money on the table by blindly copying the SaaS model for simple utilities. I have been working on an alarm app designed for chronic oversleepers. If you look at the major players in this space like Alarmy they are charging users a recurring monthly fee just to access basic phone sensors like the accelerometer or the camera. To me that feels broken. You are asking a user to rent a feature their hardware already paid for. Whe\nI agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business. And yeah subscription fatigue is real, but also there are still enough people that are willing to pay subscriptions. Alarmy makes 500k per month. Doesn't look like th",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 7
+          },
+          "engagement_score": 36,
+          "freshness": 47,
+          "item_id": "R4",
+          "local_rank_score": 0.3615,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees.",
+              "I'm with you - the enshitification of apps is ridiculous.",
+              "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business.",
+              "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything.",
+              "How utilitiy apps manage to get approved for subscription at the first place?",
+              "Maitey (trip planner) moved in that direction. No more subscriptions."
+            ],
+            "top_comments": [
+              {
+                "author": "Impressive-Sir9633",
+                "date": "2026-05-16",
+                "excerpt": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t",
+                "score": 3,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5zkiu/"
+              },
+              {
+                "author": "ExogamousUnfolding",
+                "date": "2026-05-16",
+                "excerpt": "I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs",
+                "score": 3,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om5xlkq/"
+              },
+              {
+                "author": "satinekk",
+                "date": "2026-05-16",
+                "excerpt": "I disagree.I mean it depends on your goals, but a 1 time payment will not make enough money if you want this to be a bigger business. And yeah subscription fatigue is real, but also there are still enough people that are willing to pay subscriptions. Alarmy makes 500k per month. Doesn't look like th",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om6602z/"
+              },
+              {
+                "author": "Alki_Soupboy",
+                "date": "2026-05-16",
+                "excerpt": "I did something similar. Very generous free tier, lifetime unlock for a decent price that basically unlocks everything. And then I have an AI subscription option.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7envf/"
+              },
+              {
+                "author": "pimeme",
+                "date": "2026-05-16",
+                "excerpt": "How utilitiy apps manage to get approved for subscription at the first place? I tired to submit a camera app to apple and they rejected it saying that my app have to provide new content on monthly basis in order to sell subscription. I could had easily solve it by pushing new camer filter every mont",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7eq4f/"
+              },
+              {
+                "author": "MaiteyApp",
+                "date": "2026-05-16",
+                "excerpt": "Maitey (trip planner) moved in that direction. No more subscriptions. Just \"Travel Day\" passes. Buy the pass you need to suit the length of your trip (1/3/7/14/20/31 days). It just didn't make sense to charge a monthly or yearly subscription when people don't travel in that manner. If anyone wants t",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1tezf1i/comment/om7w0nj/"
+              }
+            ]
+          },
+          "published_at": "2026-05-16",
+          "relevance_hint": 0.4,
+          "snippet": "I agree with the sentiment. However it's very hard to compete with massive players charging monthly subscription fees. Customer acquisition is extremely hard. I offer lifetime subscription for an app where other people charge over $ 10 for the same app. My current lifetime subscription cost is $ 49. So the CAC > LTV. Seems like a mountain to climb. https://apps.apple.com/us/app/dictawiz-voice-to-t I'm with you - the enshitification of apps is ridiculous. Everything doesn't need to be a subscription and I feel users are getting sick of it. For all my apps that don't have ongoing large server needs its a one time purchase. Most apps are so basic it is amazing anyone thinks they are worth a subs I disagree.I...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why I am betting against subscriptions for my utility app (And competing with players who charge $10/mo)",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1tezf1i/why_i_am_betting_against_subscriptions_for_my/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/discount_subscription/comments/1tdesai/cable_is_dead_and_juggling_5_streaming_apps_is_a",
+      "cluster_id": "cluster-4",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 46.0,
+      "item_id": "R5",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 2.1999999999999993,
+      "rrf_score": 0.0078125,
+      "snippet": "Want a one day trial interested in a trial Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Cable is dead, and juggling 5 streaming apps is a scam. Here is the ultimate zero-buffer setup (June 2026 Price Increase Alert)\ud83d\udc7b\ud83d\udcfa\nIf you\u2019re tired of paying $150+ a month for traditional cable, or you're sick of juggling five different streaming subscriptions just to watch your local sports team get blacked out, it\u2019s time to rethink your setup. Welcome to the streaming rebellion. I wanted to give a shoutout to the Ghost Cable network. It\u2019s basically an all-access pass to global entertainment without the massive bills, hardware rentals, or locked-in contracts. Here is what\u2019s under the hood of the network: \ud83c\udf10 30,000+ Live Chan\nWant a one day trial interested in a trial Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+          "container": "Discount_Subscription",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 2
+          },
+          "engagement_score": 18,
+          "freshness": 43,
+          "item_id": "R5",
+          "local_rank_score": 0.24249999999999997,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+              "I would like to have a demo. Will I need to download any specific app? Please let me know."
+            ],
+            "top_comments": [
+              {
+                "author": "dheerajjotwani",
+                "date": "2026-06-08",
+                "excerpt": "Want a one day trial",
+                "score": 1,
+                "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/oqgsqyn/"
+              },
+              {
+                "author": "OnePermission4775",
+                "date": "2026-06-10",
+                "excerpt": "interested in a trial",
+                "score": 1,
+                "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/oqrpzgh/"
+              },
+              {
+                "author": "Fit-Departure5678",
+                "date": "2026-05-15",
+                "excerpt": "Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+                "score": 1,
+                "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/olvy2jn/"
+              },
+              {
+                "author": "FantasticPath1230",
+                "date": "2026-05-15",
+                "excerpt": "O testes, what channels are ?",
+                "score": 1,
+                "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/om09xex/"
+              },
+              {
+                "author": "Ok-Committee-5474",
+                "date": "2026-05-16",
+                "excerpt": "I would like to have a demo. Will I need to download any specific app? Please let me know.",
+                "score": 1,
+                "url": "https://reddit.com/r/Discount_Subscription/comments/1tdesai/comment/om716bh/"
+              }
+            ]
+          },
+          "published_at": "2026-05-14",
+          "relevance_hint": 0.14,
+          "snippet": "Want a one day trial interested in a trial Lol zero buffer on public cheap ott, sign me right up, price increase? Can get much cheaper than you charge, stop mugging people off",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Cable is dead, and juggling 5 streaming apps is a scam. Here is the ultimate zero-buffer setup (June 2026 Price Increase Alert)\ud83d\udc7b\ud83d\udcfa",
+          "url": "https://www.reddit.com/r/Discount_Subscription/comments/1tdesai/cable_is_dead_and_juggling_5_streaming_apps_is_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Cable is dead, and juggling 5 streaming apps is a scam. Here is the ultimate zero-buffer setup (June 2026 Price Increase Alert)\ud83d\udc7b\ud83d\udcfa",
+      "url": "https://www.reddit.com/r/Discount_Subscription/comments/1tdesai/cable_is_dead_and_juggling_5_streaming_apps_is_a/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
