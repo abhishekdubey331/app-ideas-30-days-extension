@@ -1,0 +1,282 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "therapists \"I would pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://instagram.com/reel/dyjy237gg-x"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://instagram.com/reel/dyjy237gg-x"
+      ],
+      "score": 0.0,
+      "sources": [
+        "instagram"
+      ],
+      "title": "Had myself some fun trying to do these re-enactments of how I often react in sessions\ud83e\udd2a\n\nSometimes I wish I could go back and show myself as"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@getinnermost/video/7645496995343273229"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@getinnermost/video/7645496995343273229"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "therapists understand the value of this app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-13T12:45:02.339285+00:00",
+  "items_by_source": {
+    "instagram": [
+      {
+        "author": "drcolleenreichmann",
+        "body": "Had myself some fun trying to do these re-enactments of how I often react in sessions\ud83e\udd2a\n\nSometimes I wish I could go back and show myself as a psychologist now to my grad school self-the one who was so concerned with not crossing her legs and keeping her face neutral. \n\nIn all seriousness, I think that the \u201cblank slate\u201d emphasis totally overlooks the fact that sometimes, your face and body language ARE the intervention. I really deeply believe that, alongside of evidenced based tools, there is healing that happens for when you *truly* listen and react with your full expression. \n\nAnd one last piece on this that I\u2019ve been sitting with lately: expression-less listening was a technique that was developed long before the era of social media and smart phones-Prior to the epidemic of  everyone half-listening to each other in day to day conversations while also scrolling. Reflective, full body listening feels less and less common, so bringing it into the therapy space feels more important and clinically relevant today than ever before\ud83e\udd14\n\nLooking for more support navigating your mental health?\nWildflower Therapy can help if you reside in PA, DE, FL, VA, VT, MA, NJ, OH, or SC. We offer virtual therapy and also offer in person therapy in center city Philadelphia or Devon, and have therapists who specialize in eating disorders, anxiety, OCD, depression, infertility, perinatal mental health, maternal mental health, and more.\n\nVisit www.wildflowertherapyllc.com to fill out our referral form and request a free 30 minute consult with one of our therapists. Or just email wildflowertherapyllc@gmail.com\nMy face is a map of the world.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 40,
+          "likes": -1,
+          "views": 21335
+        },
+        "engagement_score": 100,
+        "freshness": 51,
+        "item_id": "IG1",
+        "local_rank_score": 0.39649999999999996,
+        "local_relevance": 0.26,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-20",
+        "relevance_hint": 0.11,
+        "snippet": "My face is a map of the world.",
+        "source": "instagram",
+        "source_quality": 0.58,
+        "title": "Had myself some fun trying to do these re-enactments of how I often react in sessions\ud83e\udd2a\n\nSometimes I wish I could go back and show myself as",
+        "url": "https://www.instagram.com/reel/DYjy237gg-x/",
+        "why_relevant": "Instagram: Had myself some fun trying to do these re-enactments of how"
+      }
+    ],
+    "tiktok": [
+      {
+        "author": "getinnermost",
+        "body": "therapists understand the value of this app\ntherapists understand the value of this app",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 9,
+          "shares": 0,
+          "views": 330
+        },
+        "engagement_score": 100,
+        "freshness": 71,
+        "item_id": "TK1",
+        "local_rank_score": 0.401,
+        "local_relevance": 0.19,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-30",
+        "relevance_hint": 0.44,
+        "snippet": "therapists understand the value of this app",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "therapists understand the value of this app",
+        "url": "https://www.tiktok.com/@getinnermost/video/7645496995343273229",
+        "why_relevant": "TikTok: therapists understand the value of this app"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "therapists \"I would pay for an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to therapists \"I would pay for an app\", especially about therapists \"i pay app\"?",
+        "search_query": "therapists \"i pay app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-14",
+  "range_to": "2026-06-13",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://instagram.com/reel/dyjy237gg-x",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 44.5,
+      "item_id": "IG1",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "IG1",
+            "native_rank": 1,
+            "source": "instagram",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:instagram": 1
+      },
+      "rerank_score": 9.199999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "My face is a map of the world.",
+      "source": "instagram",
+      "source_items": [
+        {
+          "author": "drcolleenreichmann",
+          "body": "Had myself some fun trying to do these re-enactments of how I often react in sessions\ud83e\udd2a\n\nSometimes I wish I could go back and show myself as a psychologist now to my grad school self-the one who was so concerned with not crossing her legs and keeping her face neutral. \n\nIn all seriousness, I think that the \u201cblank slate\u201d emphasis totally overlooks the fact that sometimes, your face and body language ARE the intervention. I really deeply believe that, alongside of evidenced based tools, there is healing that happens for when you *truly* listen and react with your full expression. \n\nAnd one last piece on this that I\u2019ve been sitting with lately: expression-less listening was a technique that was developed long before the era of social media and smart phones-Prior to the epidemic of  everyone half-listening to each other in day to day conversations while also scrolling. Reflective, full body listening feels less and less common, so bringing it into the therapy space feels more important and clinically relevant today than ever before\ud83e\udd14\n\nLooking for more support navigating your mental health?\nWildflower Therapy can help if you reside in PA, DE, FL, VA, VT, MA, NJ, OH, or SC. We offer virtual therapy and also offer in person therapy in center city Philadelphia or Devon, and have therapists who specialize in eating disorders, anxiety, OCD, depression, infertility, perinatal mental health, maternal mental health, and more.\n\nVisit www.wildflowertherapyllc.com to fill out our referral form and request a free 30 minute consult with one of our therapists. Or just email wildflowertherapyllc@gmail.com\nMy face is a map of the world.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 40,
+            "likes": -1,
+            "views": 21335
+          },
+          "engagement_score": 100,
+          "freshness": 51,
+          "item_id": "IG1",
+          "local_rank_score": 0.39649999999999996,
+          "local_relevance": 0.26,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-20",
+          "relevance_hint": 0.11,
+          "snippet": "My face is a map of the world.",
+          "source": "instagram",
+          "source_quality": 0.58,
+          "title": "Had myself some fun trying to do these re-enactments of how I often react in sessions\ud83e\udd2a\n\nSometimes I wish I could go back and show myself as",
+          "url": "https://www.instagram.com/reel/DYjy237gg-x/",
+          "why_relevant": "Instagram: Had myself some fun trying to do these re-enactments of how"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "instagram"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Had myself some fun trying to do these re-enactments of how I often react in sessions\ud83e\udd2a\n\nSometimes I wish I could go back and show myself as",
+      "url": "https://www.instagram.com/reel/DYjy237gg-x/"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@getinnermost/video/7645496995343273229",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 56.95,
+      "item_id": "TK1",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 8.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "therapists understand the value of this app",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "getinnermost",
+          "body": "therapists understand the value of this app\ntherapists understand the value of this app",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 9,
+            "shares": 0,
+            "views": 330
+          },
+          "engagement_score": 100,
+          "freshness": 71,
+          "item_id": "TK1",
+          "local_rank_score": 0.401,
+          "local_relevance": 0.19,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-30",
+          "relevance_hint": 0.44,
+          "snippet": "therapists understand the value of this app",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "therapists understand the value of this app",
+          "url": "https://www.tiktok.com/@getinnermost/video/7645496995343273229",
+          "why_relevant": "TikTok: therapists understand the value of this app"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "therapists understand the value of this app",
+      "url": "https://www.tiktok.com/@getinnermost/video/7645496995343273229"
+    }
+  ],
+  "topic": "therapists \"I would pay for an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
