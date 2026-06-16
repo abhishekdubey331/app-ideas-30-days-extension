@@ -1,0 +1,177 @@
+Batch A sources=reddit,hackernews
+Started at 2026-06-16T05:57:02Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/27597371770
+----
+
+===== Seed: "frustrated with" app =====
+/last30days · researching: "frustrated with" app
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""frustrated with" app" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22frustrated+with%22+app&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"frustrated with" app' into 1 queries: ['"frustrated with" app']
+[Reddit] Global search 1/2: '"frustrated with" app' (sort=relevance)
+[Reddit]   -> 7 results for '"frustrated with" app'
+[Reddit] Discovered subreddits: ['GooglePlayDeveloper', 'SaaS', 'dating_advice']
+[Reddit] Subreddit search: r/GooglePlayDeveloper for '"frustrated with" app'
+[Reddit] Subreddit search: r/SaaS for '"frustrated with" app'
+[Reddit] Subreddit search: r/dating_advice for '"frustrated with" app'
+[Reddit]   -> 3 results from r/GooglePlayDeveloper
+[Reddit]   -> 4 results from r/dating_advice
+[Reddit]   -> 7 results from r/SaaS
+[Reddit] After dedup: 18 unique posts
+[Reddit] Final: 18 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 4.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (11.2s) - Reddit: 5 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-16/0557-frustrated-with-app.json
+[OK] seed succeeded
+
+===== Seed: "sick of" app subscription =====
+/last30days · researching: "sick of" app subscription
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""sick of" app subscription" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22sick+of%22+app+subscription&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"sick of" app subscription' into 1 queries: ['"sick of" app subscription']
+[Reddit] Global search 1/2: '"sick of" app subscription' (sort=relevance)
+[Reddit]   -> 7 results for '"sick of" app subscription'
+[Reddit] Discovered subreddits: ['MacOSApps', 'AppBusiness', 'IMadeThis']
+[Reddit] Subreddit search: r/MacOSApps for '"sick of" app subscription'
+[Reddit] Subreddit search: r/AppBusiness for '"sick of" app subscription'
+[Reddit] Subreddit search: r/IMadeThis for '"sick of" app subscription'
+[Reddit]   -> 2 results from r/IMadeThis
+[Reddit]   -> 1 results from r/MacOSApps
+[Reddit]   -> 1 results from r/AppBusiness
+[Reddit] After dedup: 8 unique posts
+[Reddit] Filtered 1 posts outside date range
+[Reddit] Final: 7 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 3.8s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (12.2s) - Reddit: 5 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-16/0557-sick-of-app-subscription.json
+[OK] seed succeeded
+
+===== Seed: "currently paying" "app" =====
+/last30days · researching: "currently paying" "app"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""currently paying" "app"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22currently+paying%22+%22app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"currently paying" "app"' into 1 queries: ['"currently paying" "app"']
+[Reddit] Global search 1/2: '"currently paying" "app"' (sort=relevance)
+[Reddit]   -> 7 results for '"currently paying" "app"'
+[Reddit] Discovered subreddits: ['IndiaSideHustle', 'jobs', 'SideJobs']
+[Reddit] Subreddit search: r/IndiaSideHustle for '"currently paying" "app"'
+[Reddit] Subreddit search: r/jobs for '"currently paying" "app"'
+[Reddit] Subreddit search: r/SideJobs for '"currently paying" "app"'
+[Reddit]   -> 1 results from r/IndiaSideHustle
+[Reddit]   -> 1 results from r/SideJobs
+[Reddit]   -> 1 results from r/jobs
+[Reddit] After dedup: 7 unique posts
+[Reddit] Filtered 1 posts outside date range
+[Reddit] Final: 6 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 3.5s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22currently+paying%22+%22app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"currently paying" "app"' into 1 queries: ['"currently paying" "app"']
+[Reddit] Global search 1/2: '"currently paying" "app"' (sort=relevance)
+[Reddit]   -> 7 results for '"currently paying" "app"'
+[Reddit] Discovered subreddits: ['IndiaSideHustle', 'jobs', 'SideJobs']
+[Reddit] Subreddit search: r/IndiaSideHustle for '"currently paying" "app"'
+[Reddit] Subreddit search: r/jobs for '"currently paying" "app"'
+[Reddit] Subreddit search: r/SideJobs for '"currently paying" "app"'
+[Reddit]   -> 1 results from r/jobs
+[Reddit]   -> 1 results from r/IndiaSideHustle
+[Reddit]   -> 1 results from r/SideJobs
+[Reddit] After dedup: 7 unique posts
+[Reddit] Filtered 1 posts outside date range
+[Reddit] Final: 6 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (12.5s) - Reddit: 5 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-16/0557-currently-paying-app.json
+[OK] seed succeeded
+
+===== Seed: "worth paying for" app =====
+/last30days · researching: "worth paying for" app
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""worth paying for" app" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22worth+paying+for%22+app&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"worth paying for" app' into 1 queries: ['"worth paying for" app']
+[Reddit] Global search 1/2: '"worth paying for" app' (sort=relevance)
+[Reddit]   -> 7 results for '"worth paying for" app'
+[Reddit] Discovered subreddits: ['AppstrategyLab', 'AppIdeas', 'appledevelopers']
+[Reddit] Subreddit search: r/AppstrategyLab for '"worth paying for" app'
+[Reddit] Subreddit search: r/AppIdeas for '"worth paying for" app'
+[Reddit] Subreddit search: r/appledevelopers for '"worth paying for" app'
+[Reddit]   -> 1 results from r/AppstrategyLab
+[Reddit]   -> 2 results from r/appledevelopers
+[Reddit]   -> 2 results from r/AppIdeas
+[Reddit] After dedup: 9 unique posts
+[Reddit] Final: 9 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.3s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (16.3s) - Reddit: 6 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-16/0557-worth-paying-for-app.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
