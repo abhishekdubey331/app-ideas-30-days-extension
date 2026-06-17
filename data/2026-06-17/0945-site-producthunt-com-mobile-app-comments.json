@@ -1,0 +1,418 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1u5ofgw/i_built_an_app_to_hopefully_get_my_wife_and_our"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1u5ofgw/i_built_an_app_to_hopefully_get_my_wife_and_our"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built an app to hopefully get my wife and our on the way baby boy a house."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1tlffgx/i_built_retromac_realtime_crt_vhs_game_boy"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1tlffgx/i_built_retromac_realtime_crt_vhs_game_boy"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built RetroMac: real-time CRT, VHS & Game Boy shaders for your whole Mac screen"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1tm7lhf/we_just_launched_modelhub_on_product_hunt"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1tm7lhf/we_just_launched_modelhub_on_product_hunt"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We just launched ModelHub on Product Hunt \ud83d\ude80"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-17T09:45:17.315630+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I built an app to hopefully get my wife and our on the way baby boy a house.\nI actually have a pretty cool job, I\u2019m a drone operator who inspects critical infrastructure. I work like 6 days, 10 hours a day. So after a long week, I was on my way home when I was thinking about an app to help my wife and I keep track of our plans because we kept forgetting them. Well, for the past 7 months since early December, I would work on my app, PlanThat: Daily Planner. I told my dad about it and he was very supportive and encouraging to me. He always liked my ambition and projects. U\nCongratulations to you too!! Don't ever take the negativity personal when you get it because you will. A lot of people have no idea what it even takes getting approved on IOS and Android. Good job\ud83d\ude42 Good luck with your launch, check out launchpact.io to find support and upvotes",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 5
+        },
+        "engagement_score": 100,
+        "freshness": 94,
+        "item_id": "R1",
+        "local_rank_score": 0.4065,
+        "local_relevance": 0.11,
+        "metadata": {
+          "comment_insights": [
+            "Congratulations to you too!! Don't ever take the negativity personal when you get it because you will.",
+            "Good luck with your launch, check out launchpact.io to find support and upvotes"
+          ],
+          "top_comments": [
+            {
+              "author": "Beforethedates",
+              "date": "2026-06-15",
+              "excerpt": "Congratulations to you too!! Don't ever take the negativity personal when you get it because you will. A lot of people have no idea what it even takes getting approved on IOS and Android. Good job\ud83d\ude42",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductHunters/comments/1u5ofgw/comment/orpam65/"
+            },
+            {
+              "author": "Competitive_Tune_590",
+              "date": "2026-06-14",
+              "excerpt": "Good luck with your launch, check out launchpact.io to find support and upvotes",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1u5ofgw/comment/ormaolp/"
+            }
+          ]
+        },
+        "published_at": "2026-06-14",
+        "relevance_hint": 0.11,
+        "snippet": "Congratulations to you too!! Don't ever take the negativity personal when you get it because you will. A lot of people have no idea what it even takes getting approved on IOS and Android. Good job\ud83d\ude42 Good luck with your launch, check out launchpact.io to find support and upvotes",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built an app to hopefully get my wife and our on the way baby boy a house.",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1u5ofgw/i_built_an_app_to_hopefully_get_my_wife_and_our/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built RetroMac: real-time CRT, VHS & Game Boy shaders for your whole Mac screen\nHey! I built RetroMac, a tiny macOS menu bar app that applies real-time retro shader effects to your entire screen \u2013 think glowing CRTs, VHS glitches, classic Macintosh look, Game Boy green and more, all live with one click. What it does 30+ shader presets (CRT, VHS, Game Boy, Macintosh, arcade, etc.) Per-app profiles so different apps can get different looks Custom dock styles & themed screenshots for that perfect retro vibe Eco modes so your Mac stays smooth and cool even with effects on Prici",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 49,
+        "item_id": "R3",
+        "local_rank_score": 0.194,
+        "local_relevance": 0.11,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-23",
+        "relevance_hint": 0.1,
+        "snippet": "Hey! I built RetroMac, a tiny macOS menu bar app that applies real-time retro shader effects to your entire screen \u2013 think glowing CRTs, VHS glitches, classic Macintosh look, Game Boy green and more, all live with one click. What it does 30+ shader presets (CRT, VHS, Game Boy, Macintosh, arcade, etc.) Per-app profiles so different apps can get different looks Custom dock styles & themed screenshot",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built RetroMac: real-time CRT, VHS & Game Boy shaders for your whole Mac screen",
+        "url": "https://www.reddit.com/r/SideProject/comments/1tlffgx/i_built_retromac_realtime_crt_vhs_game_boy/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "We just launched ModelHub on Product Hunt \ud83d\ude80\nModelHub is a small macOS menu bar app for discovering and managing local models from Hugging Face, then using them with Ollama, MLX, LM Studio, and llama.cpp. would love feedback from everyone here. if it feels useful, a GitHub star or Product Hunt comment would really help us.",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 51,
+        "item_id": "R2",
+        "local_rank_score": 0.16,
+        "local_relevance": 0.05,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-24",
+        "relevance_hint": 0.03,
+        "snippet": "ModelHub is a small macOS menu bar app for discovering and managing local models from Hugging Face, then using them with Ollama, MLX, LM Studio, and llama.cpp. would love feedback from everyone here. if it feels useful, a GitHub star or Product Hunt comment would really help us.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We just launched ModelHub on Product Hunt \ud83d\ude80",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1tm7lhf/we_just_launched_modelhub_on_product_hunt/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-18",
+  "range_to": "2026-06-17",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1u5ofgw/i_built_an_app_to_hopefully_get_my_wife_and_our",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.11,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 7.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Congratulations to you too!! Don't ever take the negativity personal when you get it because you will. A lot of people have no idea what it even takes getting approved on IOS and Android. Good job\ud83d\ude42 Good luck with your launch, check out launchpact.io to find support and upvotes",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built an app to hopefully get my wife and our on the way baby boy a house.\nI actually have a pretty cool job, I\u2019m a drone operator who inspects critical infrastructure. I work like 6 days, 10 hours a day. So after a long week, I was on my way home when I was thinking about an app to help my wife and I keep track of our plans because we kept forgetting them. Well, for the past 7 months since early December, I would work on my app, PlanThat: Daily Planner. I told my dad about it and he was very supportive and encouraging to me. He always liked my ambition and projects. U\nCongratulations to you too!! Don't ever take the negativity personal when you get it because you will. A lot of people have no idea what it even takes getting approved on IOS and Android. Good job\ud83d\ude42 Good luck with your launch, check out launchpact.io to find support and upvotes",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 5
+          },
+          "engagement_score": 100,
+          "freshness": 94,
+          "item_id": "R1",
+          "local_rank_score": 0.4065,
+          "local_relevance": 0.11,
+          "metadata": {
+            "comment_insights": [
+              "Congratulations to you too!! Don't ever take the negativity personal when you get it because you will.",
+              "Good luck with your launch, check out launchpact.io to find support and upvotes"
+            ],
+            "top_comments": [
+              {
+                "author": "Beforethedates",
+                "date": "2026-06-15",
+                "excerpt": "Congratulations to you too!! Don't ever take the negativity personal when you get it because you will. A lot of people have no idea what it even takes getting approved on IOS and Android. Good job\ud83d\ude42",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductHunters/comments/1u5ofgw/comment/orpam65/"
+              },
+              {
+                "author": "Competitive_Tune_590",
+                "date": "2026-06-14",
+                "excerpt": "Good luck with your launch, check out launchpact.io to find support and upvotes",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1u5ofgw/comment/ormaolp/"
+              }
+            ]
+          },
+          "published_at": "2026-06-14",
+          "relevance_hint": 0.11,
+          "snippet": "Congratulations to you too!! Don't ever take the negativity personal when you get it because you will. A lot of people have no idea what it even takes getting approved on IOS and Android. Good job\ud83d\ude42 Good luck with your launch, check out launchpact.io to find support and upvotes",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built an app to hopefully get my wife and our on the way baby boy a house.",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1u5ofgw/i_built_an_app_to_hopefully_get_my_wife_and_our/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built an app to hopefully get my wife and our on the way baby boy a house.",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1u5ofgw/i_built_an_app_to_hopefully_get_my_wife_and_our/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1tlffgx/i_built_retromac_realtime_crt_vhs_game_boy",
+      "cluster_id": "cluster-2",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R3",
+      "local_relevance": 0.11,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hey! I built RetroMac, a tiny macOS menu bar app that applies real-time retro shader effects to your entire screen \u2013 think glowing CRTs, VHS glitches, classic Macintosh look, Game Boy green and more, all live with one click. What it does 30+ shader presets (CRT, VHS, Game Boy, Macintosh, arcade, etc.) Per-app profiles so different apps can get different looks Custom dock styles & themed screenshot",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built RetroMac: real-time CRT, VHS & Game Boy shaders for your whole Mac screen\nHey! I built RetroMac, a tiny macOS menu bar app that applies real-time retro shader effects to your entire screen \u2013 think glowing CRTs, VHS glitches, classic Macintosh look, Game Boy green and more, all live with one click. What it does 30+ shader presets (CRT, VHS, Game Boy, Macintosh, arcade, etc.) Per-app profiles so different apps can get different looks Custom dock styles & themed screenshots for that perfect retro vibe Eco modes so your Mac stays smooth and cool even with effects on Prici",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 49,
+          "item_id": "R3",
+          "local_rank_score": 0.194,
+          "local_relevance": 0.11,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-23",
+          "relevance_hint": 0.1,
+          "snippet": "Hey! I built RetroMac, a tiny macOS menu bar app that applies real-time retro shader effects to your entire screen \u2013 think glowing CRTs, VHS glitches, classic Macintosh look, Game Boy green and more, all live with one click. What it does 30+ shader presets (CRT, VHS, Game Boy, Macintosh, arcade, etc.) Per-app profiles so different apps can get different looks Custom dock styles & themed screenshot",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built RetroMac: real-time CRT, VHS & Game Boy shaders for your whole Mac screen",
+          "url": "https://www.reddit.com/r/SideProject/comments/1tlffgx/i_built_retromac_realtime_crt_vhs_game_boy/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built RetroMac: real-time CRT, VHS & Game Boy shaders for your whole Mac screen",
+      "url": "https://www.reddit.com/r/SideProject/comments/1tlffgx/i_built_retromac_realtime_crt_vhs_game_boy/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1tm7lhf/we_just_launched_modelhub_on_product_hunt",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R2",
+      "local_relevance": 0.05,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "ModelHub is a small macOS menu bar app for discovering and managing local models from Hugging Face, then using them with Ollama, MLX, LM Studio, and llama.cpp. would love feedback from everyone here. if it feels useful, a GitHub star or Product Hunt comment would really help us.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We just launched ModelHub on Product Hunt \ud83d\ude80\nModelHub is a small macOS menu bar app for discovering and managing local models from Hugging Face, then using them with Ollama, MLX, LM Studio, and llama.cpp. would love feedback from everyone here. if it feels useful, a GitHub star or Product Hunt comment would really help us.",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 51,
+          "item_id": "R2",
+          "local_rank_score": 0.16,
+          "local_relevance": 0.05,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-24",
+          "relevance_hint": 0.03,
+          "snippet": "ModelHub is a small macOS menu bar app for discovering and managing local models from Hugging Face, then using them with Ollama, MLX, LM Studio, and llama.cpp. would love feedback from everyone here. if it feels useful, a GitHub star or Product Hunt comment would really help us.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We just launched ModelHub on Product Hunt \ud83d\ude80",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1tm7lhf/we_just_launched_modelhub_on_product_hunt/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We just launched ModelHub on Product Hunt \ud83d\ude80",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1tm7lhf/we_just_launched_modelhub_on_product_hunt/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
