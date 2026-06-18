@@ -1,0 +1,189 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "creators \"I would pay for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/battleglide/comments/1tkvqfr/when_will_they_add_the_game_to_steam"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/battleglide/comments/1tkvqfr/when_will_they_add_the_game_to_steam"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "When will they add the game to steam?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-18T05:42:59.995985+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "When will they add the game to steam?\nI have been following the development of this game for a while and when it was released, I realized they didn't have it on steam and I don't have a quest so i would pay for the game if it was on steam.\nMost likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest. Quest is totally worth it as it has most of vr games that exist.",
+        "container": "battleglide",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 45,
+        "item_id": "R1",
+        "local_rank_score": 0.2925,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Most likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest."
+          ],
+          "top_comments": [
+            {
+              "author": "Frequent_Progress648",
+              "date": "2026-05-22",
+              "excerpt": "Most likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest. Quest is totally worth it as it has most of vr games that exist.",
+              "score": 1,
+              "url": "https://reddit.com/r/battleglide/comments/1tkvqfr/comment/onbl88s/"
+            }
+          ]
+        },
+        "published_at": "2026-05-22",
+        "relevance_hint": 0.14,
+        "snippet": "Most likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest. Quest is totally worth it as it has most of vr games that exist.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "When will they add the game to steam?",
+        "url": "https://www.reddit.com/r/battleglide/comments/1tkvqfr/when_will_they_add_the_game_to_steam/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "creators \"I would pay for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to creators \"I would pay for\", especially about creators \"i pay for\"?",
+        "search_query": "creators \"i pay for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-19",
+  "range_to": "2026-06-18",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/battleglide/comments/1tkvqfr/when_will_they_add_the_game_to_steam",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 4.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Most likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest. Quest is totally worth it as it has most of vr games that exist.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "When will they add the game to steam?\nI have been following the development of this game for a while and when it was released, I realized they didn't have it on steam and I don't have a quest so i would pay for the game if it was on steam.\nMost likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest. Quest is totally worth it as it has most of vr games that exist.",
+          "container": "battleglide",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 45,
+          "item_id": "R1",
+          "local_rank_score": 0.2925,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Most likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest."
+            ],
+            "top_comments": [
+              {
+                "author": "Frequent_Progress648",
+                "date": "2026-05-22",
+                "excerpt": "Most likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest. Quest is totally worth it as it has most of vr games that exist.",
+                "score": 1,
+                "url": "https://reddit.com/r/battleglide/comments/1tkvqfr/comment/onbl88s/"
+              }
+            ]
+          },
+          "published_at": "2026-05-22",
+          "relevance_hint": 0.14,
+          "snippet": "Most likely the creator doesn't want to do the licensing for steam and just wants it to keep on quest. Quest is totally worth it as it has most of vr games that exist.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "When will they add the game to steam?",
+          "url": "https://www.reddit.com/r/battleglide/comments/1tkvqfr/when_will_they_add_the_game_to_steam/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "When will they add the game to steam?",
+      "url": "https://www.reddit.com/r/battleglide/comments/1tkvqfr/when_will_they_add_the_game_to_steam/"
+    }
+  ],
+  "topic": "creators \"I would pay for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
