@@ -1,0 +1,382 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "productivity mobile app \"worth paying\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u0bj6i/i_didnt_quit_building_my_productivity_app"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u0bj6i/i_didnt_quit_building_my_productivity_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "i didn't quit building my productivity app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/techimpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/techimpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What reminder app are you using on desktop and mobile?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivity/comments/1todfyz/thoughts_on_productivity_apps"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivity/comments/1todfyz/thoughts_on_productivity_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "thoughts on productivity apps??"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-19T01:13:12.205051+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "i didn't quit building my productivity app\nNone",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 37,
+          "score": 31
+        },
+        "engagement_score": 52,
+        "freshness": 77,
+        "item_id": "R8",
+        "local_rank_score": 0.3485,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-08",
+        "relevance_hint": 0.36,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "i didn't quit building my productivity app",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1u0bj6i/i_didnt_quit_building_my_productivity_app/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      },
+      {
+        "body": "What reminder app are you using on desktop and mobile?\nNone",
+        "container": "TechImpact",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 18,
+        "freshness": 82,
+        "item_id": "R21",
+        "local_rank_score": 0.327,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-10",
+        "relevance_hint": 0.36,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What reminder app are you using on desktop and mobile?",
+        "url": "https://www.reddit.com/r/TechImpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and/",
+        "why_relevant": "Reddit r/TechImpact search"
+      },
+      {
+        "body": "thoughts on productivity apps??\nHi guys, just wanted to ask a genuine question about productivity methods. I\u2019ve always preferred the Pomodoro method mixed with time blocking and a rough task list to start off my day. This was basically what I was doing back when I was jobless trying to cram interviews, LeetCodes, projects, etc. I feel like it didn\u2019t last long though. Not sure if it was the apps I was using or just how my brain is wired, but I think what helped me the most personally was actually the time blocking and morning t",
+        "container": "productivity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 13,
+          "score": 0
+        },
+        "engagement_score": 10,
+        "freshness": 51,
+        "item_id": "R18",
+        "local_rank_score": 0.261,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-26",
+        "relevance_hint": 0.19,
+        "snippet": "Hi guys, just wanted to ask a genuine question about productivity methods. I\u2019ve always preferred the Pomodoro method mixed with time blocking and a rough task list to start off my day. This was basically what I was doing back when I was jobless trying to cram interviews, LeetCodes, projects, etc. I feel like it didn\u2019t last long though. Not sure if it was the apps I was using or just how my brain i",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "thoughts on productivity apps??",
+        "url": "https://www.reddit.com/r/productivity/comments/1todfyz/thoughts_on_productivity_apps/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "productivity mobile app \"worth paying\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to productivity mobile app \"worth paying\"?",
+        "search_query": "productivity mobile app \"worth paying\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-20",
+  "range_to": "2026-06-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1u0bj6i/i_didnt_quit_building_my_productivity_app",
+      "cluster_id": "cluster-1",
+      "engagement": 52,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 62.95,
+      "item_id": "R8",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 7.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "i didn't quit building my productivity app\nNone",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 37,
+            "score": 31
+          },
+          "engagement_score": 52,
+          "freshness": 77,
+          "item_id": "R8",
+          "local_rank_score": 0.3485,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-08",
+          "relevance_hint": 0.36,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "i didn't quit building my productivity app",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1u0bj6i/i_didnt_quit_building_my_productivity_app/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "i didn't quit building my productivity app",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1u0bj6i/i_didnt_quit_building_my_productivity_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/techimpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and",
+      "cluster_id": "cluster-2",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 57.15,
+      "item_id": "R21",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R21",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 8.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What reminder app are you using on desktop and mobile?\nNone",
+          "container": "TechImpact",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 18,
+          "freshness": 82,
+          "item_id": "R21",
+          "local_rank_score": 0.327,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-10",
+          "relevance_hint": 0.36,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What reminder app are you using on desktop and mobile?",
+          "url": "https://www.reddit.com/r/TechImpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and/",
+          "why_relevant": "Reddit r/TechImpact search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What reminder app are you using on desktop and mobile?",
+      "url": "https://www.reddit.com/r/TechImpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivity/comments/1todfyz/thoughts_on_productivity_apps",
+      "cluster_id": "cluster-3",
+      "engagement": 10,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 20.0,
+      "item_id": "R18",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R18",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 4.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hi guys, just wanted to ask a genuine question about productivity methods. I\u2019ve always preferred the Pomodoro method mixed with time blocking and a rough task list to start off my day. This was basically what I was doing back when I was jobless trying to cram interviews, LeetCodes, projects, etc. I feel like it didn\u2019t last long though. Not sure if it was the apps I was using or just how my brain i",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "thoughts on productivity apps??\nHi guys, just wanted to ask a genuine question about productivity methods. I\u2019ve always preferred the Pomodoro method mixed with time blocking and a rough task list to start off my day. This was basically what I was doing back when I was jobless trying to cram interviews, LeetCodes, projects, etc. I feel like it didn\u2019t last long though. Not sure if it was the apps I was using or just how my brain is wired, but I think what helped me the most personally was actually the time blocking and morning t",
+          "container": "productivity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 13,
+            "score": 0
+          },
+          "engagement_score": 10,
+          "freshness": 51,
+          "item_id": "R18",
+          "local_rank_score": 0.261,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-26",
+          "relevance_hint": 0.19,
+          "snippet": "Hi guys, just wanted to ask a genuine question about productivity methods. I\u2019ve always preferred the Pomodoro method mixed with time blocking and a rough task list to start off my day. This was basically what I was doing back when I was jobless trying to cram interviews, LeetCodes, projects, etc. I feel like it didn\u2019t last long though. Not sure if it was the apps I was using or just how my brain i",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "thoughts on productivity apps??",
+          "url": "https://www.reddit.com/r/productivity/comments/1todfyz/thoughts_on_productivity_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "thoughts on productivity apps??",
+      "url": "https://www.reddit.com/r/productivity/comments/1todfyz/thoughts_on_productivity_apps/"
+    }
+  ],
+  "topic": "productivity mobile app \"worth paying\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
