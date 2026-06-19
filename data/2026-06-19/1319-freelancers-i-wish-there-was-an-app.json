@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "freelancers \"I wish there was an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/buildinpublic/comments/1u0xtaw/how_to_validate_an_idea_using_reddit"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/buildinpublic/comments/1u0xtaw/how_to_validate_an_idea_using_reddit"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "How to validate an idea using Reddit:"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-19T13:19:45.930271+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "How to validate an idea using Reddit:\nSearch the Problem Go to Reddit and search for the pain point (e.g., \"hate managing invoices\" or \"can't find good freelance designers\") your idea solves. And set the filter to Top / All Time. 2. Read the Posts Like a Heatmap If you see dozens of threads complaining about the same problem across multiple subreddits, that's a real problem. Then, we all realize there is no solution or only a partial one. 3. Check the Upvotes / Comments High upvotes + many comments = strong pain, active community, r",
+        "container": "buildinpublic",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1
+        },
+        "engagement_score": 100,
+        "freshness": 79,
+        "item_id": "R1",
+        "local_rank_score": 0.33,
+        "local_relevance": 0.05,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-09",
+        "relevance_hint": 0.16,
+        "snippet": "Search the Problem Go to Reddit and search for the pain point (e.g., \"hate managing invoices\" or \"can't find good freelance designers\") your idea solves. And set the filter to Top / All Time. 2. Read the Posts Like a Heatmap If you see dozens of threads complaining about the same problem across multiple subreddits, that's a real problem. Then, we all realize there is no solution or only a partial",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "How to validate an idea using Reddit:",
+        "url": "https://www.reddit.com/r/buildinpublic/comments/1u0xtaw/how_to_validate_an_idea_using_reddit/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "freelancers \"I wish there was an app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to freelancers \"I wish there was an app\", especially about freelancers \"i wish there app\"?",
+        "search_query": "freelancers \"i wish there app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-20",
+  "range_to": "2026-06-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/buildinpublic/comments/1u0xtaw/how_to_validate_an_idea_using_reddit",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.05,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 0.3000000000000007,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Search the Problem Go to Reddit and search for the pain point (e.g., \"hate managing invoices\" or \"can't find good freelance designers\") your idea solves. And set the filter to Top / All Time. 2. Read the Posts Like a Heatmap If you see dozens of threads complaining about the same problem across multiple subreddits, that's a real problem. Then, we all realize there is no solution or only a partial",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "How to validate an idea using Reddit:\nSearch the Problem Go to Reddit and search for the pain point (e.g., \"hate managing invoices\" or \"can't find good freelance designers\") your idea solves. And set the filter to Top / All Time. 2. Read the Posts Like a Heatmap If you see dozens of threads complaining about the same problem across multiple subreddits, that's a real problem. Then, we all realize there is no solution or only a partial one. 3. Check the Upvotes / Comments High upvotes + many comments = strong pain, active community, r",
+          "container": "buildinpublic",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1
+          },
+          "engagement_score": 100,
+          "freshness": 79,
+          "item_id": "R1",
+          "local_rank_score": 0.33,
+          "local_relevance": 0.05,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-09",
+          "relevance_hint": 0.16,
+          "snippet": "Search the Problem Go to Reddit and search for the pain point (e.g., \"hate managing invoices\" or \"can't find good freelance designers\") your idea solves. And set the filter to Top / All Time. 2. Read the Posts Like a Heatmap If you see dozens of threads complaining about the same problem across multiple subreddits, that's a real problem. Then, we all realize there is no solution or only a partial",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "How to validate an idea using Reddit:",
+          "url": "https://www.reddit.com/r/buildinpublic/comments/1u0xtaw/how_to_validate_an_idea_using_reddit/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "How to validate an idea using Reddit:",
+      "url": "https://www.reddit.com/r/buildinpublic/comments/1u0xtaw/how_to_validate_an_idea_using_reddit/"
+    }
+  ],
+  "topic": "freelancers \"I wish there was an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

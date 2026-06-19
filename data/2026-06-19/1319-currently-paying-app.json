@@ -1,0 +1,644 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"currently paying\" \"app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/aiassisted/comments/1tp01td/built_a_tool_that_shows_where_startups_waste"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/aiassisted/comments/1tp01td/built_a_tool_that_shows_where_startups_waste"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Built a tool that shows where startups waste money on AI tools"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbuilding/comments/1u27t5p/content_creators_is_building_your_own_app"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/appbuilding/comments/1u27t5p/content_creators_is_building_your_own_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Content creators is building your own app actually worth it or am I overthinking this?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/secondbrain/comments/1tyhdv5/trying_out_thebrain_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/secondbrain/comments/1tyhdv5/trying_out_thebrain_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Trying out 'Thebrain' app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-19T13:19:26.499384+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.\nMost of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a habit tracker $5, whatever you've got] For each one, be honest with me: 1. The specific thing I actua\nWhich ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 2
+        },
+        "engagement_score": 23,
+        "freshness": 95,
+        "item_id": "R5",
+        "local_rank_score": 0.41000000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where yo..."
+          ],
+          "top_comments": [
+            {
+              "author": "Littlebird_Alex",
+              "date": "2026-06-17",
+              "excerpt": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1u844pv/comment/os9sjsc/"
+            }
+          ]
+        },
+        "published_at": "2026-06-17",
+        "relevance_hint": 0.4,
+        "snippet": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Trying out 'Thebrain' app\nSo I have been hearing about this app called the brain v15 at https://thebrain.comAnd even though it's definitely on the pricey side I believe from what I have seen thus far from their videos that it alone can replace 3 apps I'm currently paying for on my Mac as I have pretty bad ADHD and work on my mac from 8 to 10 hours every single day since retiring early. I started an e-commerce app which is closing in on 1,500 sales in the last couple of years but because of this it has become a NIGHTMARE",
+        "container": "secondbrain",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 15,
+        "freshness": 73,
+        "item_id": "R7",
+        "local_rank_score": 0.4055,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-06",
+        "relevance_hint": 0.42,
+        "snippet": "So I have been hearing about this app called the brain v15 at https://thebrain.comAnd even though it's definitely on the pricey side I believe from what I have seen thus far from their videos that it alone can replace 3 apps I'm currently paying for on my Mac as I have pretty bad ADHD and work on my mac from 8 to 10 hours every single day since retiring early. I started an e-commerce app which is",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Trying out 'Thebrain' app",
+        "url": "https://www.reddit.com/r/secondbrain/comments/1tyhdv5/trying_out_thebrain_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Content creators is building your own app actually worth it or am I overthinking this?\nSo I've been going back and forth on this for like two months now and I figured I'd just ask people who've actually done it. I run a fitness/nutrition community nothing huge, about 12k followers across platforms, maybe 800 really engaged people in my Discord. I do meal plans, workout programs, weekly live Q&As, that kind of thing. Right now everything is spread across Patreon, Discord, a Telegram group, and my website. It's honestly a mess to manage and I feel like people are constantly missing\nI think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+        "container": "AppBuilding",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 3
+        },
+        "engagement_score": 65,
+        "freshness": 82,
+        "item_id": "R2",
+        "local_rank_score": 0.374,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app.",
+            "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue?",
+            "Yes it could be worth it depending on your current revenue and what your future offers would be.",
+            "You have 12k people to ask about if they want it and if yes than what it should be.",
+            "Not worth it yet. 800 engaged Discord users is a community, not an app business. Build a paid membership first.",
+            "If you are still looking for a dev feel free to contact me :)"
+          ],
+          "top_comments": [
+            {
+              "author": "OndaSupply",
+              "date": "2026-06-10",
+              "excerpt": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqvfv71/"
+            },
+            {
+              "author": "Tampa_Real_Estate_Ag",
+              "date": "2026-06-10",
+              "excerpt": "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my ",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqws1uu/"
+            },
+            {
+              "author": "dhalls12",
+              "date": "2026-06-10",
+              "excerpt": "Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqx6oqm/"
+            },
+            {
+              "author": "Time_Philosophy_167",
+              "date": "2026-06-11",
+              "excerpt": "You have 12k people to ask about if they want it and if yes than what it should be.Also do the actual work of DOING MATH and calculate what are your expectations of earnings (ROI).Are you going to spend $10k-$15k on an app and then what? Get 20 users at $20/mo? - thats $4800 ARR of gross income. 3 y",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/or1u764/"
+            },
+            {
+              "author": "LeaderAtLeading",
+              "date": "2026-06-13",
+              "excerpt": "Not worth it yet. 800 engaged Discord users is a community, not an app business. Build a paid membership first.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/ordug9l/"
+            },
+            {
+              "author": "ProperAd9832",
+              "date": "2026-06-10",
+              "excerpt": "If you are still looking for a dev feel free to contact me :)",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqwukdm/"
+            }
+          ]
+        },
+        "published_at": "2026-06-10",
+        "relevance_hint": 0.4,
+        "snippet": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Content creators is building your own app actually worth it or am I overthinking this?",
+        "url": "https://www.reddit.com/r/AppBuilding/comments/1u27t5p/content_creators_is_building_your_own_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Built a tool that shows where startups waste money on AI tools\nBuilt a small tool that audits your AI subscriptions/API usage and tries to show where you might be overspending (Cursor, Claude, ChatGPT, OpenAI APIs etc.) A lot of people seem to stack AI subscriptions without realizing how much overlap there is between tools. Still improving it, so I genuinely wanted feedback from people actively using AI tools daily: Which AI tools do you currently pay for? Do you actually track your monthly AI spending? Have you ever realized you were paying for tools you b\nand why is it not on a professional domain.. you not believe in it but want a community to? AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output.",
+        "container": "AIAssisted",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 15,
+          "score": 7
+        },
+        "engagement_score": 100,
+        "freshness": 53,
+        "item_id": "R1",
+        "local_rank_score": 0.3365,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "and why is it not on a professional domain.. you not believe in it but want a community to?",
+            "AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output."
+          ],
+          "top_comments": [
+            {
+              "author": "CrypticZombies",
+              "date": "2026-05-27",
+              "excerpt": "and why is it not on a professional domain.. you not believe in it but want a community to?",
+              "score": 1,
+              "url": "https://reddit.com/r/AIAssisted/comments/1tp01td/comment/oo6obwh/"
+            },
+            {
+              "author": "LeaderAtLeading",
+              "date": "2026-05-27",
+              "excerpt": "AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output.",
+              "score": 1,
+              "url": "https://reddit.com/r/AIAssisted/comments/1tp01td/comment/oo7vj1u/"
+            }
+          ]
+        },
+        "published_at": "2026-05-27",
+        "relevance_hint": 0.14,
+        "snippet": "and why is it not on a professional domain.. you not believe in it but want a community to? AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Built a tool that shows where startups waste money on AI tools",
+        "url": "https://www.reddit.com/r/AIAssisted/comments/1tp01td/built_a_tool_that_shows_where_startups_waste/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"currently paying\" \"app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"currently paying\" \"app\"?",
+        "search_query": "\"currently paying\" \"app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-20",
+  "range_to": "2026-06-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/aiassisted/comments/1tp01td/built_a_tool_that_shows_where_startups_waste",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 2.8000000000000007,
+      "rrf_score": 0.0078125,
+      "snippet": "and why is it not on a professional domain.. you not believe in it but want a community to? AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Built a tool that shows where startups waste money on AI tools\nBuilt a small tool that audits your AI subscriptions/API usage and tries to show where you might be overspending (Cursor, Claude, ChatGPT, OpenAI APIs etc.) A lot of people seem to stack AI subscriptions without realizing how much overlap there is between tools. Still improving it, so I genuinely wanted feedback from people actively using AI tools daily: Which AI tools do you currently pay for? Do you actually track your monthly AI spending? Have you ever realized you were paying for tools you b\nand why is it not on a professional domain.. you not believe in it but want a community to? AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output.",
+          "container": "AIAssisted",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 15,
+            "score": 7
+          },
+          "engagement_score": 100,
+          "freshness": 53,
+          "item_id": "R1",
+          "local_rank_score": 0.3365,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "and why is it not on a professional domain.. you not believe in it but want a community to?",
+              "AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output."
+            ],
+            "top_comments": [
+              {
+                "author": "CrypticZombies",
+                "date": "2026-05-27",
+                "excerpt": "and why is it not on a professional domain.. you not believe in it but want a community to?",
+                "score": 1,
+                "url": "https://reddit.com/r/AIAssisted/comments/1tp01td/comment/oo6obwh/"
+              },
+              {
+                "author": "LeaderAtLeading",
+                "date": "2026-05-27",
+                "excerpt": "AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output.",
+                "score": 1,
+                "url": "https://reddit.com/r/AIAssisted/comments/1tp01td/comment/oo7vj1u/"
+              }
+            ]
+          },
+          "published_at": "2026-05-27",
+          "relevance_hint": 0.14,
+          "snippet": "and why is it not on a professional domain.. you not believe in it but want a community to? AI spend gets messy fast because every tool looks cheap alone. The useful part is showing which ones are actually tied to output.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Built a tool that shows where startups waste money on AI tools",
+          "url": "https://www.reddit.com/r/AIAssisted/comments/1tp01td/built_a_tool_that_shows_where_startups_waste/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Built a tool that shows where startups waste money on AI tools",
+      "url": "https://www.reddit.com/r/AIAssisted/comments/1tp01td/built_a_tool_that_shows_where_startups_waste/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appbuilding/comments/1u27t5p/content_creators_is_building_your_own_app",
+      "cluster_id": "cluster-2",
+      "engagement": 65,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Content creators is building your own app actually worth it or am I overthinking this?\nSo I've been going back and forth on this for like two months now and I figured I'd just ask people who've actually done it. I run a fitness/nutrition community nothing huge, about 12k followers across platforms, maybe 800 really engaged people in my Discord. I do meal plans, workout programs, weekly live Q&As, that kind of thing. Right now everything is spread across Patreon, Discord, a Telegram group, and my website. It's honestly a mess to manage and I feel like people are constantly missing\nI think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+          "container": "AppBuilding",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 3
+          },
+          "engagement_score": 65,
+          "freshness": 82,
+          "item_id": "R2",
+          "local_rank_score": 0.374,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app.",
+              "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue?",
+              "Yes it could be worth it depending on your current revenue and what your future offers would be.",
+              "You have 12k people to ask about if they want it and if yes than what it should be.",
+              "Not worth it yet. 800 engaged Discord users is a community, not an app business. Build a paid membership first.",
+              "If you are still looking for a dev feel free to contact me :)"
+            ],
+            "top_comments": [
+              {
+                "author": "OndaSupply",
+                "date": "2026-06-10",
+                "excerpt": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqvfv71/"
+              },
+              {
+                "author": "Tampa_Real_Estate_Ag",
+                "date": "2026-06-10",
+                "excerpt": "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my ",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqws1uu/"
+              },
+              {
+                "author": "dhalls12",
+                "date": "2026-06-10",
+                "excerpt": "Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqx6oqm/"
+              },
+              {
+                "author": "Time_Philosophy_167",
+                "date": "2026-06-11",
+                "excerpt": "You have 12k people to ask about if they want it and if yes than what it should be.Also do the actual work of DOING MATH and calculate what are your expectations of earnings (ROI).Are you going to spend $10k-$15k on an app and then what? Get 20 users at $20/mo? - thats $4800 ARR of gross income. 3 y",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/or1u764/"
+              },
+              {
+                "author": "LeaderAtLeading",
+                "date": "2026-06-13",
+                "excerpt": "Not worth it yet. 800 engaged Discord users is a community, not an app business. Build a paid membership first.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/ordug9l/"
+              },
+              {
+                "author": "ProperAd9832",
+                "date": "2026-06-10",
+                "excerpt": "If you are still looking for a dev feel free to contact me :)",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqwukdm/"
+              }
+            ]
+          },
+          "published_at": "2026-06-10",
+          "relevance_hint": 0.4,
+          "snippet": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Content creators is building your own app actually worth it or am I overthinking this?",
+          "url": "https://www.reddit.com/r/AppBuilding/comments/1u27t5p/content_creators_is_building_your_own_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Content creators is building your own app actually worth it or am I overthinking this?",
+      "url": "https://www.reddit.com/r/AppBuilding/comments/1u27t5p/content_creators_is_building_your_own_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt",
+      "cluster_id": "cluster-3",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.\nMost of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a habit tracker $5, whatever you've got] For each one, be honest with me: 1. The specific thing I actua\nWhich ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 2
+          },
+          "engagement_score": 23,
+          "freshness": 95,
+          "item_id": "R5",
+          "local_rank_score": 0.41000000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where yo..."
+            ],
+            "top_comments": [
+              {
+                "author": "Littlebird_Alex",
+                "date": "2026-06-17",
+                "excerpt": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1u844pv/comment/os9sjsc/"
+              }
+            ]
+          },
+          "published_at": "2026-06-17",
+          "relevance_hint": 0.4,
+          "snippet": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/secondbrain/comments/1tyhdv5/trying_out_thebrain_app",
+      "cluster_id": "cluster-4",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 30.0,
+      "item_id": "R7",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 18.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "So I have been hearing about this app called the brain v15 at https://thebrain.comAnd even though it's definitely on the pricey side I believe from what I have seen thus far from their videos that it alone can replace 3 apps I'm currently paying for on my Mac as I have pretty bad ADHD and work on my mac from 8 to 10 hours every single day since retiring early. I started an e-commerce app which is",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Trying out 'Thebrain' app\nSo I have been hearing about this app called the brain v15 at https://thebrain.comAnd even though it's definitely on the pricey side I believe from what I have seen thus far from their videos that it alone can replace 3 apps I'm currently paying for on my Mac as I have pretty bad ADHD and work on my mac from 8 to 10 hours every single day since retiring early. I started an e-commerce app which is closing in on 1,500 sales in the last couple of years but because of this it has become a NIGHTMARE",
+          "container": "secondbrain",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 15,
+          "freshness": 73,
+          "item_id": "R7",
+          "local_rank_score": 0.4055,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-06",
+          "relevance_hint": 0.42,
+          "snippet": "So I have been hearing about this app called the brain v15 at https://thebrain.comAnd even though it's definitely on the pricey side I believe from what I have seen thus far from their videos that it alone can replace 3 apps I'm currently paying for on my Mac as I have pretty bad ADHD and work on my mac from 8 to 10 hours every single day since retiring early. I started an e-commerce app which is",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Trying out 'Thebrain' app",
+          "url": "https://www.reddit.com/r/secondbrain/comments/1tyhdv5/trying_out_thebrain_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Trying out 'Thebrain' app",
+      "url": "https://www.reddit.com/r/secondbrain/comments/1tyhdv5/trying_out_thebrain_app/"
+    }
+  ],
+  "topic": "\"currently paying\" \"app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
