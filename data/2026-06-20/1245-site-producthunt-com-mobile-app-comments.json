@@ -1,0 +1,173 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@juspostapp/video/7653283812603858196"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@juspostapp/video/7653283812603858196"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly.  \ud83c\udf10 Visit Our We"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-20T12:45:34.811653+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "juspostapp",
+        "body": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly.  \ud83c\udf10 Visit Our Website: https://www.producthunt.com/products/juspost?launch=juspost \ud83d\udce7 Contact Us: admin@juspost.app \ud83d\udcf1 Follow Us on Social Media: \ud83d\udd39 Facebook: https://www.facebook.com/profile.php?id=61589819019956 \ud83d\udd39 Instagram: https://www.instagram.com/juspost21/ \ud83d\udd39 WhatsApp: https://wa.me/12506823667 Subscribe for more marketplace automation tips and reseller tools! #CarDealers #VancouverBusiness #AutoSales #FacebookMarketplace #JusPost #AI #DealershipMarketing",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 2,
+          "shares": 0,
+          "views": 119
+        },
+        "engagement_score": 2,
+        "freshness": 100,
+        "item_id": "TK23",
+        "local_rank_score": 0.36250000000000004,
+        "local_relevance": 0.17,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-20",
+        "relevance_hint": 0.25,
+        "snippet": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly. \ud83c\udf10 Visit Our Website: https://www.producthunt.com/products/juspost?launch=juspost \ud83d\udce7 Contact Us: admin@juspost.app \ud83d\udcf1 Follow Us on Social Media: \ud83d\udd39 Facebook: https://www.facebook.com/profile.php?id=61589819019956 \ud83d\udd39 Instagram: https://www.instagram.com/juspost21/ \ud83d\udd39 WhatsApp: https://wa.me/12506823667 Subscribe for more marketplace automation tips and reseller tools! #CarDealers #VancouverBusiness #AutoSales #FacebookMarketplace #JusPost #AI #DealershipMarketing",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly.  \ud83c\udf10 Visit Our We",
+        "url": "https://www.tiktok.com/@juspostapp/video/7653283812603858196",
+        "why_relevant": "TikTok: About JusPost.app List once. Post everywhere. Auto-post vehi"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-21",
+  "range_to": "2026-06-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@juspostapp/video/7653283812603858196",
+      "cluster_id": "cluster-1",
+      "engagement": 2,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 4.0,
+      "item_id": "TK23",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK23",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 12.699999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly. \ud83c\udf10 Visit Our Website: https://www.producthunt.com/products/juspost?launch=juspost \ud83d\udce7 Contact Us: admin@juspost.app \ud83d\udcf1 Follow Us on Social Media: \ud83d\udd39 Facebook: https://www.facebook.com/profile.php?id=61589819019956 \ud83d\udd39 Instagram: https://www.instagram.com/juspost21/ \ud83d\udd39 WhatsApp: https://wa.me/12506823667 Subscribe for more marketplace automation tips and reseller tools! #CarDealers #VancouverBusiness #AutoSales #FacebookMarketplace #JusPost #AI #DealershipMarketing",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "juspostapp",
+          "body": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly.  \ud83c\udf10 Visit Our Website: https://www.producthunt.com/products/juspost?launch=juspost \ud83d\udce7 Contact Us: admin@juspost.app \ud83d\udcf1 Follow Us on Social Media: \ud83d\udd39 Facebook: https://www.facebook.com/profile.php?id=61589819019956 \ud83d\udd39 Instagram: https://www.instagram.com/juspost21/ \ud83d\udd39 WhatsApp: https://wa.me/12506823667 Subscribe for more marketplace automation tips and reseller tools! #CarDealers #VancouverBusiness #AutoSales #FacebookMarketplace #JusPost #AI #DealershipMarketing",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 2,
+            "shares": 0,
+            "views": 119
+          },
+          "engagement_score": 2,
+          "freshness": 100,
+          "item_id": "TK23",
+          "local_rank_score": 0.36250000000000004,
+          "local_relevance": 0.17,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-20",
+          "relevance_hint": 0.25,
+          "snippet": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly. \ud83c\udf10 Visit Our Website: https://www.producthunt.com/products/juspost?launch=juspost \ud83d\udce7 Contact Us: admin@juspost.app \ud83d\udcf1 Follow Us on Social Media: \ud83d\udd39 Facebook: https://www.facebook.com/profile.php?id=61589819019956 \ud83d\udd39 Instagram: https://www.instagram.com/juspost21/ \ud83d\udd39 WhatsApp: https://wa.me/12506823667 Subscribe for more marketplace automation tips and reseller tools! #CarDealers #VancouverBusiness #AutoSales #FacebookMarketplace #JusPost #AI #DealershipMarketing",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly.  \ud83c\udf10 Visit Our We",
+          "url": "https://www.tiktok.com/@juspostapp/video/7653283812603858196",
+          "why_relevant": "TikTok: About JusPost.app List once. Post everywhere. Auto-post vehi"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "About JusPost.app List once. Post everywhere. Auto-post vehicles, furniture & anything else to major marketplaces instantly.  \ud83c\udf10 Visit Our We",
+      "url": "https://www.tiktok.com/@juspostapp/video/7653283812603858196"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@opengovsg/video/7651934387407260949"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@opengovsg/video/7651934387407260949"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Meet the coolest navigation app ever (literally) \u2013 say hello to Undercover \ud83d\udeb6 Developed at OGP's Hack for Public Good 2026, Undercover helps",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-20T12:45:02.936828+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "opengovsg",
+        "body": "Meet the coolest navigation app ever (literally) \u2013 say hello to Undercover \ud83d\udeb6 Developed at OGP's Hack for Public Good 2026, Undercover helps you find shaded walking routes on sunny days \u2014 combining geospatial data, shaded pedestrian networks, and dynamic environmental information to plot cooler, more comfortable routes across the island. It's an early prototype, and we're refining routes as we go. With 2026 designated by @msesingapore as Singapore\u2019s Year of Climate Adaptation, navigating warmer days just got a little easier. \ud83d\udc49 Undercover is now live! Check it out at https://undercover.gov.sg or via the link in our bio. #YearofClimateAdaptation\nThere's no way walking all the way under the heat just to get home. But what if there's an app that gets you to your destination using the most covered and sheltered walking path? Meet Undercover, a navigational app built exactly for that purpose. Popular navigation apps can show you the fastest walking route to your destination. But walking in Singapore is hot and studies show it's only getting hotter. A 30 degrees day already feels like 37 degrees. Is there a cooler way home? At OGP's 2026 hack for Public Good, Undercover was built to help Singaporeans spend less time walking under the sun. How? Select two points anywhere in Singapore and you'll get three options, the most shaded path, the shortest path and a recommended path, a sweet spot between shade and distance. After more than 300 user tests and 750+ routes taken, 95% of users opted for the recommended path suggested by undercover. And this is just the start. The team exploring more routes for rainy days, car avoidance and accessible paths with lifts and gentler slopes. There's so much more to be done, like pairing our data with other government agencies to include sheltered walkways or underground passes. The goal is to make shaded routes easier to find for all.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 46,
+          "likes": 1563,
+          "shares": 1328,
+          "views": 38312
+        },
+        "engagement_score": 76,
+        "freshness": 86,
+        "item_id": "TK5",
+        "local_rank_score": 0.4665,
+        "local_relevance": 0.27,
+        "metadata": {
+          "hashtags": [
+            "YearofClimateAdaptation"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-06-16",
+        "relevance_hint": 0.09,
+        "snippet": "There's no way walking all the way under the heat just to get home. But what if there's an app that gets you to your destination using the most covered and sheltered walking path? Meet Undercover, a navigational app built exactly for that purpose. Popular navigation apps can show you the fastest walking route to your destination. But walking in Singapore is hot and studies show it's only getting hotter. A 30 degrees day already feels like 37 degrees. Is there a cooler way home? At OGP's 2026 hack for Public Good, Undercover was built to help Singaporeans spend less time walking under the sun. How? Select two points anywhere in Singapore and you'll get three options, the most shaded...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Meet the coolest navigation app ever (literally) \u2013 say hello to Undercover \ud83d\udeb6 Developed at OGP's Hack for Public Good 2026, Undercover helps",
+        "url": "https://www.tiktok.com/@opengovsg/video/7651934387407260949",
+        "why_relevant": "TikTok: Meet the coolest navigation app ever (literally) \u2013 say hello"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-05-21",
+  "range_to": "2026-06-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@opengovsg/video/7651934387407260949",
+      "cluster_id": "cluster-1",
+      "engagement": 76,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 86,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK5",
+      "local_relevance": 0.27,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK5",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK5",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 16.89999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "There's no way walking all the way under the heat just to get home. But what if there's an app that gets you to your destination using the most covered and sheltered walking path? Meet Undercover, a navigational app built exactly for that purpose. Popular navigation apps can show you the fastest walking route to your destination. But walking in Singapore is hot and studies show it's only getting hotter. A 30 degrees day already feels like 37 degrees. Is there a cooler way home? At OGP's 2026 hack for Public Good, Undercover was built to help Singaporeans spend less time walking under the sun. How? Select two points anywhere in Singapore and you'll get three options, the most shaded...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "opengovsg",
+          "body": "Meet the coolest navigation app ever (literally) \u2013 say hello to Undercover \ud83d\udeb6 Developed at OGP's Hack for Public Good 2026, Undercover helps you find shaded walking routes on sunny days \u2014 combining geospatial data, shaded pedestrian networks, and dynamic environmental information to plot cooler, more comfortable routes across the island. It's an early prototype, and we're refining routes as we go. With 2026 designated by @msesingapore as Singapore\u2019s Year of Climate Adaptation, navigating warmer days just got a little easier. \ud83d\udc49 Undercover is now live! Check it out at https://undercover.gov.sg or via the link in our bio. #YearofClimateAdaptation\nThere's no way walking all the way under the heat just to get home. But what if there's an app that gets you to your destination using the most covered and sheltered walking path? Meet Undercover, a navigational app built exactly for that purpose. Popular navigation apps can show you the fastest walking route to your destination. But walking in Singapore is hot and studies show it's only getting hotter. A 30 degrees day already feels like 37 degrees. Is there a cooler way home? At OGP's 2026 hack for Public Good, Undercover was built to help Singaporeans spend less time walking under the sun. How? Select two points anywhere in Singapore and you'll get three options, the most shaded path, the shortest path and a recommended path, a sweet spot between shade and distance. After more than 300 user tests and 750+ routes taken, 95% of users opted for the recommended path suggested by undercover. And this is just the start. The team exploring more routes for rainy days, car avoidance and accessible paths with lifts and gentler slopes. There's so much more to be done, like pairing our data with other government agencies to include sheltered walkways or underground passes. The goal is to make shaded routes easier to find for all.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 46,
+            "likes": 1563,
+            "shares": 1328,
+            "views": 38312
+          },
+          "engagement_score": 76,
+          "freshness": 86,
+          "item_id": "TK5",
+          "local_rank_score": 0.4665,
+          "local_relevance": 0.27,
+          "metadata": {
+            "hashtags": [
+              "YearofClimateAdaptation"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-06-16",
+          "relevance_hint": 0.09,
+          "snippet": "There's no way walking all the way under the heat just to get home. But what if there's an app that gets you to your destination using the most covered and sheltered walking path? Meet Undercover, a navigational app built exactly for that purpose. Popular navigation apps can show you the fastest walking route to your destination. But walking in Singapore is hot and studies show it's only getting hotter. A 30 degrees day already feels like 37 degrees. Is there a cooler way home? At OGP's 2026 hack for Public Good, Undercover was built to help Singaporeans spend less time walking under the sun. How? Select two points anywhere in Singapore and you'll get three options, the most shaded...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Meet the coolest navigation app ever (literally) \u2013 say hello to Undercover \ud83d\udeb6 Developed at OGP's Hack for Public Good 2026, Undercover helps",
+          "url": "https://www.tiktok.com/@opengovsg/video/7651934387407260949",
+          "why_relevant": "TikTok: Meet the coolest navigation app ever (literally) \u2013 say hello"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Meet the coolest navigation app ever (literally) \u2013 say hello to Undercover \ud83d\udeb6 Developed at OGP's Hack for Public Good 2026, Undercover helps",
+      "url": "https://www.tiktok.com/@opengovsg/video/7651934387407260949"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@b3nthebuilder/video/7646640101556014367"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@b3nthebuilder/video/7646640101556014367"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "#aistartup #b2b #ycombinator #larp",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-20T12:45:17.837161+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "b3nthebuilder",
+        "body": "#aistartup #b2b #ycombinator #larp\nThis is the most devious LARP of all time. This is Thomas a y C backed startup and it's absolutely crazy. Basically, the idea is Thomas doesn't do stuff for you. Thomas is the whole thing. You just ask Thomas to make money and that's what it goes out and does there. This idea is insane. For one, it's the most crazy pie in the sky Sky Net Matrix LARP of all time. Like how are you supposed to do this? Um, it's assuming that AI can do anything and that it will eventually be able to do anything and then somehow that will just all translate to the value of Thomas. Um, I think if models get that good, it's probably not going to Thomas. It's not, it's not gonna go to your freelance model. I can tell you that. I don't know how y c fun of this. This is like devious levels of LARP. Um, I, I would give it slop as a service, but, um, but no, this, this is probably just gonna burn through all your credits and leave you broke and you're gonna, you know, feel really dumb. So crazy larp.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 88,
+          "likes": 5420,
+          "shares": 729,
+          "views": 101582
+        },
+        "engagement_score": 100,
+        "freshness": 40,
+        "item_id": "TK1",
+        "local_rank_score": 0.36250000000000004,
+        "local_relevance": 0.25,
+        "metadata": {
+          "hashtags": [
+            "aistartup",
+            "b2b",
+            "ycombinator",
+            "larp"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-06-02",
+        "relevance_hint": 0.24,
+        "snippet": "This is the most devious LARP of all time. This is Thomas a y C backed startup and it's absolutely crazy. Basically, the idea is Thomas doesn't do stuff for you. Thomas is the whole thing. You just ask Thomas to make money and that's what it goes out and does there. This idea is insane. For one, it's the most crazy pie in the sky Sky Net Matrix LARP of all time. Like how are you supposed to do this? Um, it's assuming that AI can do anything and that it will eventually be able to do anything and then somehow that will just all translate to the value of Thomas. Um, I think if models get that good,...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "#aistartup #b2b #ycombinator #larp",
+        "url": "https://www.tiktok.com/@b3nthebuilder/video/7646640101556014367",
+        "why_relevant": "TikTok: #aistartup #b2b #ycombinator #larp"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Ask HN\" \"is there an app\", especially about site:news.ycombinator.com \"ask hn\" \"is there app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Ask HN\" \"is there an app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-05-21",
+  "range_to": "2026-06-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@b3nthebuilder/video/7646640101556014367",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK1",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 6.300000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "This is the most devious LARP of all time. This is Thomas a y C backed startup and it's absolutely crazy. Basically, the idea is Thomas doesn't do stuff for you. Thomas is the whole thing. You just ask Thomas to make money and that's what it goes out and does there. This idea is insane. For one, it's the most crazy pie in the sky Sky Net Matrix LARP of all time. Like how are you supposed to do this? Um, it's assuming that AI can do anything and that it will eventually be able to do anything and then somehow that will just all translate to the value of Thomas. Um, I think if models get that good,...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "b3nthebuilder",
+          "body": "#aistartup #b2b #ycombinator #larp\nThis is the most devious LARP of all time. This is Thomas a y C backed startup and it's absolutely crazy. Basically, the idea is Thomas doesn't do stuff for you. Thomas is the whole thing. You just ask Thomas to make money and that's what it goes out and does there. This idea is insane. For one, it's the most crazy pie in the sky Sky Net Matrix LARP of all time. Like how are you supposed to do this? Um, it's assuming that AI can do anything and that it will eventually be able to do anything and then somehow that will just all translate to the value of Thomas. Um, I think if models get that good, it's probably not going to Thomas. It's not, it's not gonna go to your freelance model. I can tell you that. I don't know how y c fun of this. This is like devious levels of LARP. Um, I, I would give it slop as a service, but, um, but no, this, this is probably just gonna burn through all your credits and leave you broke and you're gonna, you know, feel really dumb. So crazy larp.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 88,
+            "likes": 5420,
+            "shares": 729,
+            "views": 101582
+          },
+          "engagement_score": 100,
+          "freshness": 40,
+          "item_id": "TK1",
+          "local_rank_score": 0.36250000000000004,
+          "local_relevance": 0.25,
+          "metadata": {
+            "hashtags": [
+              "aistartup",
+              "b2b",
+              "ycombinator",
+              "larp"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-06-02",
+          "relevance_hint": 0.24,
+          "snippet": "This is the most devious LARP of all time. This is Thomas a y C backed startup and it's absolutely crazy. Basically, the idea is Thomas doesn't do stuff for you. Thomas is the whole thing. You just ask Thomas to make money and that's what it goes out and does there. This idea is insane. For one, it's the most crazy pie in the sky Sky Net Matrix LARP of all time. Like how are you supposed to do this? Um, it's assuming that AI can do anything and that it will eventually be able to do anything and then somehow that will just all translate to the value of Thomas. Um, I think if models get that good,...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "#aistartup #b2b #ycombinator #larp",
+          "url": "https://www.tiktok.com/@b3nthebuilder/video/7646640101556014367",
+          "why_relevant": "TikTok: #aistartup #b2b #ycombinator #larp"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "#aistartup #b2b #ycombinator #larp",
+      "url": "https://www.tiktok.com/@b3nthebuilder/video/7646640101556014367"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
