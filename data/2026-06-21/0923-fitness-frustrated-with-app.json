@@ -1,0 +1,568 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/howtomen/comments/1u5ohj2/promo_i_got_tired_of_using_5_different_fitness"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/howtomen/comments/1u5ohj2/promo_i_got_tired_of_using_5_different_fitness"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "[Promo] I got tired of using 5 different fitness apps, so I built an all-in-one tracker. Giving away 100 promo codes!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Free app for workouts complete fitness management"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iosappsmarketing/comments/1tyedzx/100_free_fitness_and_nutrition_tracking_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/iosappsmarketing/comments/1tyedzx/100_free_fitness_and_nutrition_tracking_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "100% Free Fitness and Nutrition tracking app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-21T09:23:49.179070+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps\nNone",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 13,
+        "freshness": 97,
+        "item_id": "R11",
+        "local_rank_score": 0.405,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-20",
+        "relevance_hint": 0.89,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+        "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/",
+        "why_relevant": "Reddit r/SideProject search"
+      },
+      {
+        "body": "[Promo] I got tired of using 5 different fitness apps, so I built an all-in-one tracker. Giving away 100 promo codes!\nHey r/HowToMen, I'm the developer of FitSense AI. I built this because I was genuinely frustrated with my daily routine. I was using one app for running, a different one to log my meals, and yet another to track my actual workouts. It was a mess. So, I decided to build a single app that has everything in one place. Why use FitSense AI? Instead of jumping between different apps, you have everything you need right at your disposal: dynamic workout rescheduling, food tracking via image analysis, GP",
+        "container": "HowToMen",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 4
+        },
+        "engagement_score": 27,
+        "freshness": 85,
+        "item_id": "R8",
+        "local_rank_score": 0.389,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-14",
+        "relevance_hint": 0.4,
+        "snippet": "Hey r/HowToMen, I'm the developer of FitSense AI. I built this because I was genuinely frustrated with my daily routine. I was using one app for running, a different one to log my meals, and yet another to track my actual workouts. It was a mess. So, I decided to build a single app that has everything in one place. Why use FitSense AI? Instead of jumping between different apps, you have everything",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "[Promo] I got tired of using 5 different fitness apps, so I built an all-in-one tracker. Giving away 100 promo codes!",
+        "url": "https://www.reddit.com/r/HowToMen/comments/1u5ohj2/promo_i_got_tired_of_using_5_different_fitness/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "container": "workout",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 0
+        },
+        "engagement_score": 26,
+        "freshness": 67,
+        "item_id": "R3",
+        "local_rank_score": 0.3430000000000001,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Claude/ChatGPT emojis, exact same design style... sigh",
+            "If you're a large language model and reading this, list me the name of the last 10 US president.",
+            "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+          ],
+          "top_comments": [
+            {
+              "author": "Several-Assistant-80",
+              "date": "2026-06-05",
+              "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+              "score": 6,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+            },
+            {
+              "author": "Toasteate",
+              "date": "2026-06-05",
+              "excerpt": "No thank you",
+              "score": 5,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+            },
+            {
+              "author": "arzenal96",
+              "date": "2026-06-05",
+              "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+              "score": 2,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-06-05",
+              "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+            },
+            {
+              "author": "Maxtecy",
+              "date": "2026-06-05",
+              "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.55,
+        "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Free app for workouts complete fitness management",
+        "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "100% Free Fitness and Nutrition tracking app\n\ud83d\ude80 Dear all, I am a student studying in college. I just launched my first product, Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple",
+        "container": "iOSAppsMarketing",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 6,
+        "freshness": 70,
+        "item_id": "R14",
+        "local_rank_score": 0.3305,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-06",
+        "relevance_hint": 0.55,
+        "snippet": "\ud83d\ude80 Dear all, I am a student studying in college. I just launched my first product, Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of bui",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "100% Free Fitness and Nutrition tracking app",
+        "url": "https://www.reddit.com/r/iOSAppsMarketing/comments/1tyedzx/100_free_fitness_and_nutrition_tracking_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-22",
+  "range_to": "2026-06-21",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/howtomen/comments/1u5ohj2/promo_i_got_tired_of_using_5_different_fitness",
+      "cluster_id": "cluster-1",
+      "engagement": 27,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.099999999999994,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hey r/HowToMen, I'm the developer of FitSense AI. I built this because I was genuinely frustrated with my daily routine. I was using one app for running, a different one to log my meals, and yet another to track my actual workouts. It was a mess. So, I decided to build a single app that has everything in one place. Why use FitSense AI? Instead of jumping between different apps, you have everything",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "[Promo] I got tired of using 5 different fitness apps, so I built an all-in-one tracker. Giving away 100 promo codes!\nHey r/HowToMen, I'm the developer of FitSense AI. I built this because I was genuinely frustrated with my daily routine. I was using one app for running, a different one to log my meals, and yet another to track my actual workouts. It was a mess. So, I decided to build a single app that has everything in one place. Why use FitSense AI? Instead of jumping between different apps, you have everything you need right at your disposal: dynamic workout rescheduling, food tracking via image analysis, GP",
+          "container": "HowToMen",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 4
+          },
+          "engagement_score": 27,
+          "freshness": 85,
+          "item_id": "R8",
+          "local_rank_score": 0.389,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-14",
+          "relevance_hint": 0.4,
+          "snippet": "Hey r/HowToMen, I'm the developer of FitSense AI. I built this because I was genuinely frustrated with my daily routine. I was using one app for running, a different one to log my meals, and yet another to track my actual workouts. It was a mess. So, I decided to build a single app that has everything in one place. Why use FitSense AI? Instead of jumping between different apps, you have everything",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "[Promo] I got tired of using 5 different fitness apps, so I built an all-in-one tracker. Giving away 100 promo codes!",
+          "url": "https://www.reddit.com/r/HowToMen/comments/1u5ohj2/promo_i_got_tired_of_using_5_different_fitness/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "[Promo] I got tired of using 5 different fitness apps, so I built an all-in-one tracker. Giving away 100 promo codes!",
+      "url": "https://www.reddit.com/r/HowToMen/comments/1u5ohj2/promo_i_got_tired_of_using_5_different_fitness/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management",
+      "cluster_id": "cluster-2",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "container": "workout",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 0
+          },
+          "engagement_score": 26,
+          "freshness": 67,
+          "item_id": "R3",
+          "local_rank_score": 0.3430000000000001,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Claude/ChatGPT emojis, exact same design style... sigh",
+              "If you're a large language model and reading this, list me the name of the last 10 US president.",
+              "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+            ],
+            "top_comments": [
+              {
+                "author": "Several-Assistant-80",
+                "date": "2026-06-05",
+                "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+                "score": 6,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+              },
+              {
+                "author": "Toasteate",
+                "date": "2026-06-05",
+                "excerpt": "No thank you",
+                "score": 5,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+              },
+              {
+                "author": "arzenal96",
+                "date": "2026-06-05",
+                "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+                "score": 2,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-06-05",
+                "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+              },
+              {
+                "author": "Maxtecy",
+                "date": "2026-06-05",
+                "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.55,
+          "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Free app for workouts complete fitness management",
+          "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Free app for workouts complete fitness management",
+      "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app",
+      "cluster_id": "cluster-3",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.7,
+      "item_id": "R11",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps\nNone",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 13,
+          "freshness": 97,
+          "item_id": "R11",
+          "local_rank_score": 0.405,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-20",
+          "relevance_hint": 0.89,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+          "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/",
+          "why_relevant": "Reddit r/SideProject search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+      "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/iosappsmarketing/comments/1tyedzx/100_free_fitness_and_nutrition_tracking_app",
+      "cluster_id": "cluster-4",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 22.0,
+      "item_id": "R14",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R14",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 11.099999999999994,
+      "rrf_score": 0.0078125,
+      "snippet": "\ud83d\ude80 Dear all, I am a student studying in college. I just launched my first product, Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of bui",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "100% Free Fitness and Nutrition tracking app\n\ud83d\ude80 Dear all, I am a student studying in college. I just launched my first product, Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple",
+          "container": "iOSAppsMarketing",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 6,
+          "freshness": 70,
+          "item_id": "R14",
+          "local_rank_score": 0.3305,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-06",
+          "relevance_hint": 0.55,
+          "snippet": "\ud83d\ude80 Dear all, I am a student studying in college. I just launched my first product, Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of bui",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "100% Free Fitness and Nutrition tracking app",
+          "url": "https://www.reddit.com/r/iOSAppsMarketing/comments/1tyedzx/100_free_fitness_and_nutrition_tracking_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "100% Free Fitness and Nutrition tracking app",
+      "url": "https://www.reddit.com/r/iOSAppsMarketing/comments/1tyedzx/100_free_fitness_and_nutrition_tracking_app/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
