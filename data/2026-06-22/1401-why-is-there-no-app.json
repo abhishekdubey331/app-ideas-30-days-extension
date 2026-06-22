@@ -1,0 +1,610 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/jellyfincommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/jellyfincommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "why there's no \"jellyfin\" for gaming?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Without an app, it\u2019s awful to use"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no app?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-22T14:01:49.489273+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Without an app, it\u2019s awful to use\nUsing it from a mobile browser is a terrible experience. Why is there no app?\nI mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+        "container": "isle31",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 4
+        },
+        "engagement_score": 61,
+        "freshness": 91,
+        "item_id": "R2",
+        "local_rank_score": 0.41850000000000004,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+            "I am using an app on my iPad - would love the app on my Samsung phone, too"
+          ],
+          "top_comments": [
+            {
+              "author": "Early_Cockroach2518",
+              "date": "2026-06-18",
+              "excerpt": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+              "score": 3,
+              "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osczxei/"
+            },
+            {
+              "author": "drumorgan",
+              "date": "2026-06-18",
+              "excerpt": "I am using an app on my iPad - would love the app on my Samsung phone, too",
+              "score": 0,
+              "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osfin5b/"
+            }
+          ]
+        },
+        "published_at": "2026-06-18",
+        "relevance_hint": 0.42,
+        "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Without an app, it\u2019s awful to use",
+        "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "why there's no \"jellyfin\" for gaming?\nWhy there's no app, combined with other apps, who can automatise searching, downloading, collect informations of a game, and organize all of that for games?\nhttps://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+        "container": "JellyfinCommunity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 32,
+          "score": 2
+        },
+        "engagement_score": 100,
+        "freshness": 70,
+        "item_id": "R1",
+        "local_rank_score": 0.405,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "I'm currently testing JellyEmu, it seems promising but doesn't do the download part.",
+            "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+            "There is, Hydra. You will need a debrid service to use it properly though.",
+            "Good question! Maybe you should make one. Its probably not exactly what you have in mind, but there is Romm.",
+            "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+            "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+            "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other..."
+          ],
+          "top_comments": [
+            {
+              "author": "AngelGrade",
+              "date": "2026-06-07",
+              "excerpt": "https://romm.app",
+              "score": 29,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqabta6/"
+            },
+            {
+              "author": "shadowpuppetrap",
+              "date": "2026-06-07",
+              "excerpt": "There is - Questarr.",
+              "score": 15,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaauqd/"
+            },
+            {
+              "author": "EngelGate",
+              "date": "2026-06-07",
+              "excerpt": "I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+              "score": 7,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqacz7c/"
+            },
+            {
+              "author": "Happy2032",
+              "date": "2026-06-07",
+              "excerpt": "There is, Hydra. You will need a debrid service to use it properly though.",
+              "score": 7,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqadskv/"
+            },
+            {
+              "author": "loudsound-org",
+              "date": "2026-06-07",
+              "excerpt": "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+              "score": 4,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqc5yjc/"
+            },
+            {
+              "author": "tgiokdi",
+              "date": "2026-06-07",
+              "excerpt": "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+              "score": 2,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaj8eg/"
+            },
+            {
+              "author": "Green-Cucumber8507",
+              "date": "2026-06-07",
+              "excerpt": "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+              "score": 2,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbp0nn/"
+            },
+            {
+              "author": "SuperG9",
+              "date": "2026-06-07",
+              "excerpt": "Good question! Maybe you should make one. Its probably not exactly what you have in mind, but there is Romm.",
+              "score": 1,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaawdm/"
+            },
+            {
+              "author": "Electrical_Engine314",
+              "date": "2026-06-07",
+              "excerpt": "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other ones. They all do different things for different needs \ud83d\ude0a.",
+              "score": 1,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqan0bk/"
+            },
+            {
+              "author": "bumbacbumbac",
+              "date": "2026-06-07",
+              "excerpt": "Hydra Launcher \ud83d\ude09",
+              "score": 1,
+              "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbesgv/"
+            }
+          ]
+        },
+        "published_at": "2026-06-07",
+        "relevance_hint": 0.66,
+        "snippet": "https://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "why there's no \"jellyfin\" for gaming?",
+        "url": "https://www.reddit.com/r/JellyfinCommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why is there no app?\nTwo things I like using Favikon for: Ego boost (checking my ratings) Partnership screening But I always need to log in through browser.I wish there was just an app and it would also notify about rating changes, new campaigns that match your profile. Another one would be nice to have a function to look for collabs with other creators on your platform e.g. live streams, articles together, podcasts. But not in the web interface\nComing in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+        "container": "favikon",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 4
+        },
+        "engagement_score": 55,
+        "freshness": 71,
+        "item_id": "R3",
+        "local_rank_score": 0.3625,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why"
+          ],
+          "top_comments": [
+            {
+              "author": "jeremydeparis",
+              "date": "2026-06-09",
+              "excerpt": "Coming in September \ud83d\ude04",
+              "score": 3,
+              "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/oqla7xk/"
+            },
+            {
+              "author": "Dry_Commission6476",
+              "date": "2026-06-12",
+              "excerpt": "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+              "score": 2,
+              "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/or6c656/"
+            }
+          ]
+        },
+        "published_at": "2026-06-08",
+        "relevance_hint": 1.0,
+        "snippet": "Coming in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no app?",
+        "url": "https://www.reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-23",
+  "range_to": "2026-06-22",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/jellyfincommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 9.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "https://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "why there's no \"jellyfin\" for gaming?\nWhy there's no app, combined with other apps, who can automatise searching, downloading, collect informations of a game, and organize all of that for games?\nhttps://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+          "container": "JellyfinCommunity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 32,
+            "score": 2
+          },
+          "engagement_score": 100,
+          "freshness": 70,
+          "item_id": "R1",
+          "local_rank_score": 0.405,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "I'm currently testing JellyEmu, it seems promising but doesn't do the download part.",
+              "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+              "There is, Hydra. You will need a debrid service to use it properly though.",
+              "Good question! Maybe you should make one. Its probably not exactly what you have in mind, but there is Romm.",
+              "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+              "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+              "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other..."
+            ],
+            "top_comments": [
+              {
+                "author": "AngelGrade",
+                "date": "2026-06-07",
+                "excerpt": "https://romm.app",
+                "score": 29,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqabta6/"
+              },
+              {
+                "author": "shadowpuppetrap",
+                "date": "2026-06-07",
+                "excerpt": "There is - Questarr.",
+                "score": 15,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaauqd/"
+              },
+              {
+                "author": "EngelGate",
+                "date": "2026-06-07",
+                "excerpt": "I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+                "score": 7,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqacz7c/"
+              },
+              {
+                "author": "Happy2032",
+                "date": "2026-06-07",
+                "excerpt": "There is, Hydra. You will need a debrid service to use it properly though.",
+                "score": 7,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqadskv/"
+              },
+              {
+                "author": "loudsound-org",
+                "date": "2026-06-07",
+                "excerpt": "Playnite is exactly it. Not sure what you mean about \"downloading\" though. Jellyfin doesn't download videos.",
+                "score": 4,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqc5yjc/"
+              },
+              {
+                "author": "tgiokdi",
+                "date": "2026-06-07",
+                "excerpt": "Gog galaxy does a lot of the heavy lifting for a unified game library too",
+                "score": 2,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaj8eg/"
+              },
+              {
+                "author": "Green-Cucumber8507",
+                "date": "2026-06-07",
+                "excerpt": "There is plenty of options. I personally went with sunlight/moonlight with a custom ESDE front end.",
+                "score": 2,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbp0nn/"
+              },
+              {
+                "author": "SuperG9",
+                "date": "2026-06-07",
+                "excerpt": "Good question! Maybe you should make one. Its probably not exactly what you have in mind, but there is Romm.",
+                "score": 1,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqaawdm/"
+              },
+              {
+                "author": "Electrical_Engine314",
+                "date": "2026-06-07",
+                "excerpt": "There is: Gameyfin for local games, Playnite for having a unified place for all the platforms (steam, epic etc), Romm for \"roms\" and a bunch of other ones. They all do different things for different needs \ud83d\ude0a.",
+                "score": 1,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqan0bk/"
+              },
+              {
+                "author": "bumbacbumbac",
+                "date": "2026-06-07",
+                "excerpt": "Hydra Launcher \ud83d\ude09",
+                "score": 1,
+                "url": "https://reddit.com/r/JellyfinCommunity/comments/1tzfkkt/comment/oqbesgv/"
+              }
+            ]
+          },
+          "published_at": "2026-06-07",
+          "relevance_hint": 0.66,
+          "snippet": "https://romm.app There is - Questarr. I'm currently testing JellyEmu, it seems promising but doesn't do the download part. https://www.reddit.com/r/JellyfinCommunity/comments/1sra4p1/jellyemu_alpha/",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "why there's no \"jellyfin\" for gaming?",
+          "url": "https://www.reddit.com/r/JellyfinCommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "why there's no \"jellyfin\" for gaming?",
+      "url": "https://www.reddit.com/r/JellyfinCommunity/comments/1tzfkkt/why_theres_no_jellyfin_for_gaming/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use",
+      "cluster_id": "cluster-2",
+      "engagement": 61,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Without an app, it\u2019s awful to use\nUsing it from a mobile browser is a terrible experience. Why is there no app?\nI mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+          "container": "isle31",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 4
+          },
+          "engagement_score": 61,
+          "freshness": 91,
+          "item_id": "R2",
+          "local_rank_score": 0.41850000000000004,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+              "I am using an app on my iPad - would love the app on my Samsung phone, too"
+            ],
+            "top_comments": [
+              {
+                "author": "Early_Cockroach2518",
+                "date": "2026-06-18",
+                "excerpt": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+                "score": 3,
+                "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osczxei/"
+              },
+              {
+                "author": "drumorgan",
+                "date": "2026-06-18",
+                "excerpt": "I am using an app on my iPad - would love the app on my Samsung phone, too",
+                "score": 0,
+                "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osfin5b/"
+              }
+            ]
+          },
+          "published_at": "2026-06-18",
+          "relevance_hint": 0.42,
+          "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Without an app, it\u2019s awful to use",
+          "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Without an app, it\u2019s awful to use",
+      "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app",
+      "cluster_id": "cluster-3",
+      "engagement": 55,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.200000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Coming in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no app?\nTwo things I like using Favikon for: Ego boost (checking my ratings) Partnership screening But I always need to log in through browser.I wish there was just an app and it would also notify about rating changes, new campaigns that match your profile. Another one would be nice to have a function to look for collabs with other creators on your platform e.g. live streams, articles together, podcasts. But not in the web interface\nComing in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+          "container": "favikon",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 4
+          },
+          "engagement_score": 55,
+          "freshness": 71,
+          "item_id": "R3",
+          "local_rank_score": 0.3625,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why"
+            ],
+            "top_comments": [
+              {
+                "author": "jeremydeparis",
+                "date": "2026-06-09",
+                "excerpt": "Coming in September \ud83d\ude04",
+                "score": 3,
+                "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/oqla7xk/"
+              },
+              {
+                "author": "Dry_Commission6476",
+                "date": "2026-06-12",
+                "excerpt": "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+                "score": 2,
+                "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/or6c656/"
+              }
+            ]
+          },
+          "published_at": "2026-06-08",
+          "relevance_hint": 1.0,
+          "snippet": "Coming in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no app?",
+          "url": "https://www.reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no app?",
+      "url": "https://www.reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
