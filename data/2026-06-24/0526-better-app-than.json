@@ -1,0 +1,754 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"better app than\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/whatsapp/comments/1tngry4/why_telegram_is_working_better_than_wa"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/whatsapp/comments/1tngry4/why_telegram_is_working_better_than_wa"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why Telegram is working better than WA?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/plantsvszombies/comments/1u1scw8/any_other_apps_than_filpaclip"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/plantsvszombies/comments/1u1scw8/any_other_apps_than_filpaclip"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "any other apps than filpaclip"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/peugeot/comments/1u9bvxs/my_peugeot_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/peugeot/comments/1u9bvxs/my_peugeot_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My peugeot app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/swerveapp/comments/1tvd3zg/someone_tell_swerve_ai_to_remove_the_damn_gore"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/swerveapp/comments/1tvd3zg/someone_tell_swerve_ai_to_remove_the_damn_gore"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "someone tell swerve ai to remove the damn gore filter and chat limit"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-24T05:26:15.014622+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "My peugeot app\nHi, So i own a 2008 electric, and honestly the purpose of this post is to shame a company like peugeot by having such an utter trash app, like I've used some sketchy aliexpress bargain bin tech products with better apps than this one, it's so bad, constant login errors, millions of alerts for no good reason, horrendous UI design, among many problems, the only reason I used it is for knowing when the car reaches full charge ( because I'm unable to set charge values on the app because why should i",
+        "container": "peugeot",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 12
+        },
+        "engagement_score": 33,
+        "freshness": 88,
+        "item_id": "R7",
+        "local_rank_score": 0.4025000000000001,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-18",
+        "relevance_hint": 0.45,
+        "snippet": "Hi, So i own a 2008 electric, and honestly the purpose of this post is to shame a company like peugeot by having such an utter trash app, like I've used some sketchy aliexpress bargain bin tech products with better apps than this one, it's so bad, constant login errors, millions of alerts for no good reason, horrendous UI design, among many problems, the only reason I used it is for knowing when t",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My peugeot app",
+        "url": "https://www.reddit.com/r/peugeot/comments/1u9bvxs/my_peugeot_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "any other apps than filpaclip\nIs there other apps than filpaclip, because I wanna continue drawing but it's difficult to get the drawing to reddit, first I gotta take a screenshot then I gotta crop out the useless stuff then I get to upload it to reddit, but the problem is that the image becomes blurry and I don't like it blurry, so does anybody know a better app than filpaclip, also it's gotta be a mobile app because I draw my drawings on my phone\nKrita. It's one of the best drawing programs out there. But if you're locked to mobile then I suppose \"IbisPaint X\" is your best option since digital art on mobile just straight up sucks. Sticknodes. You can find other people\u2019s rigs or make your own on the website! (If you have the right properties.) You might not find the zombie rig, but you could make it! if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+        "container": "PlantsVSZombies",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 45,
+          "score": 7
+        },
+        "engagement_score": 59,
+        "freshness": 71,
+        "item_id": "R3",
+        "local_rank_score": 0.386,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Sticknodes. You can find other people\u2019s rigs or make your own on the website!",
+            "Krita. It's one of the best drawing programs out there.",
+            "if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+            "i mainly use flipanim for my drawings"
+          ],
+          "top_comments": [
+            {
+              "author": "A_Sh4d0w",
+              "date": "2026-06-10",
+              "excerpt": "Krita. It's one of the best drawing programs out there. But if you're locked to mobile then I suppose \"IbisPaint X\" is your best option since digital art on mobile just straight up sucks.",
+              "score": 3,
+              "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqs4yxd/"
+            },
+            {
+              "author": "Floogulliscool",
+              "date": "2026-06-10",
+              "excerpt": "Sticknodes. You can find other people\u2019s rigs or make your own on the website! (If you have the right properties.) You might not find the zombie rig, but you could make it!",
+              "score": 1,
+              "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqs3foc/"
+            },
+            {
+              "author": "The_rookie_man",
+              "date": "2026-06-10",
+              "excerpt": "if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+              "score": 1,
+              "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqs4qg0/"
+            },
+            {
+              "author": "RacistLizard69",
+              "date": "2026-06-10",
+              "excerpt": "i mainly use flipanim for my drawings",
+              "score": 1,
+              "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqt1gnv/"
+            },
+            {
+              "author": "DeezWall-Nuts0426",
+              "date": "2026-06-10",
+              "excerpt": "Neat",
+              "score": 1,
+              "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqusy0w/"
+            }
+          ]
+        },
+        "published_at": "2026-06-10",
+        "relevance_hint": 0.44,
+        "snippet": "Krita. It's one of the best drawing programs out there. But if you're locked to mobile then I suppose \"IbisPaint X\" is your best option since digital art on mobile just straight up sucks. Sticknodes. You can find other people\u2019s rigs or make your own on the website! (If you have the right properties.) You might not find the zombie rig, but you could make it! if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "any other apps than filpaclip",
+        "url": "https://www.reddit.com/r/PlantsVSZombies/comments/1u1scw8/any_other_apps_than_filpaclip/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "someone tell swerve ai to remove the damn gore filter and chat limit\nit's genuinely a better app than character ai by far, the only issue is the gem thing and the gore/suicide filter. it's accurate to character personality and appearance (in my opinion) and it's way more immersive, but the damn limits bro </3\njust send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol",
+        "container": "SwerveApp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 16
+        },
+        "engagement_score": 33,
+        "freshness": 58,
+        "item_id": "R5",
+        "local_rank_score": 0.3275,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "just send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol"
+          ],
+          "top_comments": [
+            {
+              "author": "RacingFan2012",
+              "date": "2026-06-03",
+              "excerpt": "just send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol",
+              "score": 1,
+              "url": "https://reddit.com/r/SwerveApp/comments/1tvd3zg/comment/oph1m7l/"
+            }
+          ]
+        },
+        "published_at": "2026-06-03",
+        "relevance_hint": 0.25,
+        "snippet": "just send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "someone tell swerve ai to remove the damn gore filter and chat limit",
+        "url": "https://www.reddit.com/r/SwerveApp/comments/1tvd3zg/someone_tell_swerve_ai_to_remove_the_damn_gore/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why Telegram is working better than WA?\nBit of a rant. I\u2019m quite surprised for such big company, Meta with all the advantages of having financial backing from investors and many developers, WhatsApp is still lagging behind Telegram in terms of features. For Windows they even replaced the native app with Electron which runs slow and consumes RAM. How is it possible that Telegram with far fewer devs can make a better app than big tech?\nI wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog. Try monitoring its memory usage using the browser's task manager (Shift+Esc) Just because you're bigger doesn't mean you're better. Usually it's the smaller teams that are more nimble and don't have all the bloat and corporate BS. This is not new btw: small game studios often beat large game companies during game awards. CoD is crap compared to small indie games like Expedit",
+        "container": "whatsapp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 67,
+          "score": 10
+        },
+        "engagement_score": 73,
+        "freshness": 40,
+        "item_id": "R2",
+        "local_rank_score": 0.3225,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats",
+            "Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog.",
+            "Telegram may be better than whatsapp, but signal is better than telegram",
+            "Just because you're bigger doesn't mean you're better.",
+            "Telegram is not encrypted by default! Telegram does not have half of the functionality of WhatsApp like Satellite messaging and calls support, pools,...",
+            "is whatsapp not available anymore on the microsoft store?",
+            "What do they insist on making everything an electron app",
+            "Surprised that they can't create a desktop app for WhatsApp Business separately. They only came to iPad recently, and no one wants it!",
+            "Big orgs reach incompetence as they add more people. It's normal scheme of things.",
+            "People like me consider telegram\u2019s \u201cfeatures\u201d as bloat. We prefer a nice clean app with strong core functionality."
+          ],
+          "top_comments": [
+            {
+              "author": "NepuNeptuneNep",
+              "date": "2026-05-25",
+              "excerpt": "I wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats",
+              "score": 6,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontxaye/"
+            },
+            {
+              "author": "AbdullahMRiad",
+              "date": "2026-05-25",
+              "excerpt": "Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog. Try monitoring its memory usage using the browser's task manager (Shift+Esc)",
+              "score": 2,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontyo9c/"
+            },
+            {
+              "author": "theMuhubi",
+              "date": "2026-05-25",
+              "excerpt": "Just because you're bigger doesn't mean you're better. Usually it's the smaller teams that are more nimble and don't have all the bloat and corporate BS. This is not new btw: small game studios often beat large game companies during game awards. CoD is crap compared to small indie games like Expedit",
+              "score": 2,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontx4n2/"
+            },
+            {
+              "author": "atiaa11",
+              "date": "2026-05-25",
+              "excerpt": "Telegram may be better than whatsapp, but signal is better than telegram",
+              "score": 1,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onv9nhl/"
+            },
+            {
+              "author": "theogreader",
+              "date": "2026-05-25",
+              "excerpt": "is whatsapp not available anymore on the microsoft store?",
+              "score": 1,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontydft/"
+            },
+            {
+              "author": "Useful-Passion6267",
+              "date": "2026-05-26",
+              "excerpt": "What do they insist on making everything an electron app",
+              "score": 1,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onwj6rq/"
+            },
+            {
+              "author": "sibotix",
+              "date": "2026-05-26",
+              "excerpt": "Surprised that they can't create a desktop app for WhatsApp Business separately. They only came to iPad recently, and no one wants it!",
+              "score": 1,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onwt29u/"
+            },
+            {
+              "author": "sibotix",
+              "date": "2026-05-26",
+              "excerpt": "Big orgs reach incompetence as they add more people. It's normal scheme of things.",
+              "score": 1,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onwt4wn/"
+            },
+            {
+              "author": "Wise-Candle9832",
+              "date": "2026-05-26",
+              "excerpt": "People like me consider telegram\u2019s \u201cfeatures\u201d as bloat. We prefer a nice clean app with strong core functionality.",
+              "score": 1,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onxiset/"
+            },
+            {
+              "author": "erivaldoff",
+              "date": "2026-05-25",
+              "excerpt": "Telegram is not encrypted by default! Telegram does not have half of the functionality of WhatsApp like Satellite messaging and calls support, pools, events, schedule calls, business directory, payment system, No one uses Telegram!",
+              "score": 0,
+              "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onu4gd4/"
+            }
+          ]
+        },
+        "published_at": "2026-05-25",
+        "relevance_hint": 0.66,
+        "snippet": "I wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog. Try monitoring its memory usage using the browser's task manager (Shift+Esc) Just because you're bigger doesn't mean you're better. Usually it's the smaller teams that are more nimble and don't have all the bloat and corporate BS. This is not new btw: small game studios often beat large game companies during game awards. CoD is crap compared to small indie games like Expedit",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why Telegram is working better than WA?",
+        "url": "https://www.reddit.com/r/whatsapp/comments/1tngry4/why_telegram_is_working_better_than_wa/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"better app than\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"better app than\"?",
+        "search_query": "\"better app than\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-25",
+  "range_to": "2026-06-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/whatsapp/comments/1tngry4/why_telegram_is_working_better_than_wa",
+      "cluster_id": "cluster-1",
+      "engagement": 73,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.099999999999998,
+      "rrf_score": 0.0078125,
+      "snippet": "I wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog. Try monitoring its memory usage using the browser's task manager (Shift+Esc) Just because you're bigger doesn't mean you're better. Usually it's the smaller teams that are more nimble and don't have all the bloat and corporate BS. This is not new btw: small game studios often beat large game companies during game awards. CoD is crap compared to small indie games like Expedit",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why Telegram is working better than WA?\nBit of a rant. I\u2019m quite surprised for such big company, Meta with all the advantages of having financial backing from investors and many developers, WhatsApp is still lagging behind Telegram in terms of features. For Windows they even replaced the native app with Electron which runs slow and consumes RAM. How is it possible that Telegram with far fewer devs can make a better app than big tech?\nI wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog. Try monitoring its memory usage using the browser's task manager (Shift+Esc) Just because you're bigger doesn't mean you're better. Usually it's the smaller teams that are more nimble and don't have all the bloat and corporate BS. This is not new btw: small game studios often beat large game companies during game awards. CoD is crap compared to small indie games like Expedit",
+          "container": "whatsapp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 67,
+            "score": 10
+          },
+          "engagement_score": 73,
+          "freshness": 40,
+          "item_id": "R2",
+          "local_rank_score": 0.3225,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats",
+              "Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog.",
+              "Telegram may be better than whatsapp, but signal is better than telegram",
+              "Just because you're bigger doesn't mean you're better.",
+              "Telegram is not encrypted by default! Telegram does not have half of the functionality of WhatsApp like Satellite messaging and calls support, pools,...",
+              "is whatsapp not available anymore on the microsoft store?",
+              "What do they insist on making everything an electron app",
+              "Surprised that they can't create a desktop app for WhatsApp Business separately. They only came to iPad recently, and no one wants it!",
+              "Big orgs reach incompetence as they add more people. It's normal scheme of things.",
+              "People like me consider telegram\u2019s \u201cfeatures\u201d as bloat. We prefer a nice clean app with strong core functionality."
+            ],
+            "top_comments": [
+              {
+                "author": "NepuNeptuneNep",
+                "date": "2026-05-25",
+                "excerpt": "I wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats",
+                "score": 6,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontxaye/"
+              },
+              {
+                "author": "AbdullahMRiad",
+                "date": "2026-05-25",
+                "excerpt": "Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog. Try monitoring its memory usage using the browser's task manager (Shift+Esc)",
+                "score": 2,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontyo9c/"
+              },
+              {
+                "author": "theMuhubi",
+                "date": "2026-05-25",
+                "excerpt": "Just because you're bigger doesn't mean you're better. Usually it's the smaller teams that are more nimble and don't have all the bloat and corporate BS. This is not new btw: small game studios often beat large game companies during game awards. CoD is crap compared to small indie games like Expedit",
+                "score": 2,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontx4n2/"
+              },
+              {
+                "author": "atiaa11",
+                "date": "2026-05-25",
+                "excerpt": "Telegram may be better than whatsapp, but signal is better than telegram",
+                "score": 1,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onv9nhl/"
+              },
+              {
+                "author": "theogreader",
+                "date": "2026-05-25",
+                "excerpt": "is whatsapp not available anymore on the microsoft store?",
+                "score": 1,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/ontydft/"
+              },
+              {
+                "author": "Useful-Passion6267",
+                "date": "2026-05-26",
+                "excerpt": "What do they insist on making everything an electron app",
+                "score": 1,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onwj6rq/"
+              },
+              {
+                "author": "sibotix",
+                "date": "2026-05-26",
+                "excerpt": "Surprised that they can't create a desktop app for WhatsApp Business separately. They only came to iPad recently, and no one wants it!",
+                "score": 1,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onwt29u/"
+              },
+              {
+                "author": "sibotix",
+                "date": "2026-05-26",
+                "excerpt": "Big orgs reach incompetence as they add more people. It's normal scheme of things.",
+                "score": 1,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onwt4wn/"
+              },
+              {
+                "author": "Wise-Candle9832",
+                "date": "2026-05-26",
+                "excerpt": "People like me consider telegram\u2019s \u201cfeatures\u201d as bloat. We prefer a nice clean app with strong core functionality.",
+                "score": 1,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onxiset/"
+              },
+              {
+                "author": "erivaldoff",
+                "date": "2026-05-25",
+                "excerpt": "Telegram is not encrypted by default! Telegram does not have half of the functionality of WhatsApp like Satellite messaging and calls support, pools, events, schedule calls, business directory, payment system, No one uses Telegram!",
+                "score": 0,
+                "url": "https://reddit.com/r/whatsapp/comments/1tngry4/comment/onu4gd4/"
+              }
+            ]
+          },
+          "published_at": "2026-05-25",
+          "relevance_hint": 0.66,
+          "snippet": "I wouldnt call an app better that does not know how to make E2EE the default and possible at all for group chats Even if we ignore electron (some genuinely great apps use electron actually like Obsidian), WhatsApp Web app itself is a big fat memory hog. Try monitoring its memory usage using the browser's task manager (Shift+Esc) Just because you're bigger doesn't mean you're better. Usually it's the smaller teams that are more nimble and don't have all the bloat and corporate BS. This is not new btw: small game studios often beat large game companies during game awards. CoD is crap compared to small indie games like Expedit",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why Telegram is working better than WA?",
+          "url": "https://www.reddit.com/r/whatsapp/comments/1tngry4/why_telegram_is_working_better_than_wa/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why Telegram is working better than WA?",
+      "url": "https://www.reddit.com/r/whatsapp/comments/1tngry4/why_telegram_is_working_better_than_wa/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/plantsvszombies/comments/1u1scw8/any_other_apps_than_filpaclip",
+      "cluster_id": "cluster-2",
+      "engagement": 59,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Krita. It's one of the best drawing programs out there. But if you're locked to mobile then I suppose \"IbisPaint X\" is your best option since digital art on mobile just straight up sucks. Sticknodes. You can find other people\u2019s rigs or make your own on the website! (If you have the right properties.) You might not find the zombie rig, but you could make it! if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "any other apps than filpaclip\nIs there other apps than filpaclip, because I wanna continue drawing but it's difficult to get the drawing to reddit, first I gotta take a screenshot then I gotta crop out the useless stuff then I get to upload it to reddit, but the problem is that the image becomes blurry and I don't like it blurry, so does anybody know a better app than filpaclip, also it's gotta be a mobile app because I draw my drawings on my phone\nKrita. It's one of the best drawing programs out there. But if you're locked to mobile then I suppose \"IbisPaint X\" is your best option since digital art on mobile just straight up sucks. Sticknodes. You can find other people\u2019s rigs or make your own on the website! (If you have the right properties.) You might not find the zombie rig, but you could make it! if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+          "container": "PlantsVSZombies",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 45,
+            "score": 7
+          },
+          "engagement_score": 59,
+          "freshness": 71,
+          "item_id": "R3",
+          "local_rank_score": 0.386,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Sticknodes. You can find other people\u2019s rigs or make your own on the website!",
+              "Krita. It's one of the best drawing programs out there.",
+              "if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+              "i mainly use flipanim for my drawings"
+            ],
+            "top_comments": [
+              {
+                "author": "A_Sh4d0w",
+                "date": "2026-06-10",
+                "excerpt": "Krita. It's one of the best drawing programs out there. But if you're locked to mobile then I suppose \"IbisPaint X\" is your best option since digital art on mobile just straight up sucks.",
+                "score": 3,
+                "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqs4yxd/"
+              },
+              {
+                "author": "Floogulliscool",
+                "date": "2026-06-10",
+                "excerpt": "Sticknodes. You can find other people\u2019s rigs or make your own on the website! (If you have the right properties.) You might not find the zombie rig, but you could make it!",
+                "score": 1,
+                "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqs3foc/"
+              },
+              {
+                "author": "The_rookie_man",
+                "date": "2026-06-10",
+                "excerpt": "if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+                "score": 1,
+                "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqs4qg0/"
+              },
+              {
+                "author": "RacistLizard69",
+                "date": "2026-06-10",
+                "excerpt": "i mainly use flipanim for my drawings",
+                "score": 1,
+                "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqt1gnv/"
+              },
+              {
+                "author": "DeezWall-Nuts0426",
+                "date": "2026-06-10",
+                "excerpt": "Neat",
+                "score": 1,
+                "url": "https://reddit.com/r/PlantsVSZombies/comments/1u1scw8/comment/oqusy0w/"
+              }
+            ]
+          },
+          "published_at": "2026-06-10",
+          "relevance_hint": 0.44,
+          "snippet": "Krita. It's one of the best drawing programs out there. But if you're locked to mobile then I suppose \"IbisPaint X\" is your best option since digital art on mobile just straight up sucks. Sticknodes. You can find other people\u2019s rigs or make your own on the website! (If you have the right properties.) You might not find the zombie rig, but you could make it! if all you're interested in is drawing and editing photos You can use ibis paint, it meets all your requirements",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "any other apps than filpaclip",
+          "url": "https://www.reddit.com/r/PlantsVSZombies/comments/1u1scw8/any_other_apps_than_filpaclip/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "any other apps than filpaclip",
+      "url": "https://www.reddit.com/r/PlantsVSZombies/comments/1u1scw8/any_other_apps_than_filpaclip/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/peugeot/comments/1u9bvxs/my_peugeot_app",
+      "cluster_id": "cluster-3",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.700000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hi, So i own a 2008 electric, and honestly the purpose of this post is to shame a company like peugeot by having such an utter trash app, like I've used some sketchy aliexpress bargain bin tech products with better apps than this one, it's so bad, constant login errors, millions of alerts for no good reason, horrendous UI design, among many problems, the only reason I used it is for knowing when t",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My peugeot app\nHi, So i own a 2008 electric, and honestly the purpose of this post is to shame a company like peugeot by having such an utter trash app, like I've used some sketchy aliexpress bargain bin tech products with better apps than this one, it's so bad, constant login errors, millions of alerts for no good reason, horrendous UI design, among many problems, the only reason I used it is for knowing when the car reaches full charge ( because I'm unable to set charge values on the app because why should i",
+          "container": "peugeot",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 12
+          },
+          "engagement_score": 33,
+          "freshness": 88,
+          "item_id": "R7",
+          "local_rank_score": 0.4025000000000001,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-18",
+          "relevance_hint": 0.45,
+          "snippet": "Hi, So i own a 2008 electric, and honestly the purpose of this post is to shame a company like peugeot by having such an utter trash app, like I've used some sketchy aliexpress bargain bin tech products with better apps than this one, it's so bad, constant login errors, millions of alerts for no good reason, horrendous UI design, among many problems, the only reason I used it is for knowing when t",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My peugeot app",
+          "url": "https://www.reddit.com/r/peugeot/comments/1u9bvxs/my_peugeot_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My peugeot app",
+      "url": "https://www.reddit.com/r/peugeot/comments/1u9bvxs/my_peugeot_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/swerveapp/comments/1tvd3zg/someone_tell_swerve_ai_to_remove_the_damn_gore",
+      "cluster_id": "cluster-4",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "just send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "someone tell swerve ai to remove the damn gore filter and chat limit\nit's genuinely a better app than character ai by far, the only issue is the gem thing and the gore/suicide filter. it's accurate to character personality and appearance (in my opinion) and it's way more immersive, but the damn limits bro </3\njust send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol",
+          "container": "SwerveApp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 16
+          },
+          "engagement_score": 33,
+          "freshness": 58,
+          "item_id": "R5",
+          "local_rank_score": 0.3275,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "just send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol"
+            ],
+            "top_comments": [
+              {
+                "author": "RacingFan2012",
+                "date": "2026-06-03",
+                "excerpt": "just send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol",
+                "score": 1,
+                "url": "https://reddit.com/r/SwerveApp/comments/1tvd3zg/comment/oph1m7l/"
+              }
+            ]
+          },
+          "published_at": "2026-06-03",
+          "relevance_hint": 0.25,
+          "snippet": "just send a \u201c.\u201d after it gives you the self harm warning and it\u2019ll reply like normal lol",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "someone tell swerve ai to remove the damn gore filter and chat limit",
+          "url": "https://www.reddit.com/r/SwerveApp/comments/1tvd3zg/someone_tell_swerve_ai_to_remove_the_damn_gore/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "someone tell swerve ai to remove the damn gore filter and chat limit",
+      "url": "https://www.reddit.com/r/SwerveApp/comments/1tvd3zg/someone_tell_swerve_ai_to_remove_the_damn_gore/"
+    }
+  ],
+  "topic": "\"better app than\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

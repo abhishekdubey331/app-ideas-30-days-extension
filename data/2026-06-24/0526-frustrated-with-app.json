@@ -1,0 +1,825 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/googleplaydeveloper/comments/1tycbh5/30_days_after_launch_the_results_of_my_first_app"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/googleplaydeveloper/comments/1tycbh5/30_days_after_launch_the_results_of_my_first_app"
+      ],
+      "score": 12.049180327868854,
+      "sources": [
+        "reddit"
+      ],
+      "title": "30 days after launch, the results of my first app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/devsecops/comments/1txej31/need_advice_im_frustrated_with_vulnerability"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/devsecops/comments/1txej31/need_advice_im_frustrated_with_vulnerability"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Need advice: im frustrated with vulnerability management platforms"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/cairevolution/comments/1u3ze02/im_so_frustrated_with_this_app_i_cant"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/cairevolution/comments/1u3ze02/im_so_frustrated_with_this_app_i_cant"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "i'm so frustrated with this app, i can't"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Men / Women beyond frustrated with dating apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1tru4ih/built_something_after_getting_frustrated_with"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1tru4ih/built_something_after_getting_frustrated_with"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Built something after getting frustrated with every finance app I tried"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-24T05:26:38.030865+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "30 days after launch, the results of my first app\nA month ago, I released my first app, HabitSet, on Google Play. I built it because I was frustrated with habit trackers that counted weekly and monthly streaks based on completed days instead of actual goals met. I also didn't like losing streaks when increasing my goals\u2014it felt more like punishment than motivation. So I decided to build an app that solved those problems. A few things I learned: Getting people to visit your store page is much harder than I expected. A good conversion rate doesn'\nGood work! The app looks good. Build SEO and run ads of you can, it can go a long way Congratulations, I found some bugs as most of button are not properly visible to click, you may check it did you share it or left it passively and kept updating the app?",
+        "container": "GooglePlayDeveloper",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 25,
+          "score": 35
+        },
+        "engagement_score": 100,
+        "freshness": 64,
+        "item_id": "R1",
+        "local_rank_score": 0.559,
+        "local_relevance": 0.46,
+        "metadata": {
+          "comment_insights": [
+            "Good work! The app looks good. Build SEO and run ads of you can, it can go a long way",
+            "Congratulations, I found some bugs as most of button are not properly visible to click, you may check it",
+            "This app: https://play.google.com/store/apps/details?id=com.egyindie.habitset.app ?",
+            "Congrats on releasing your fourth app. But why so disingenuous, by telling its your first?",
+            "How did you earn mate? With ads?",
+            "Ottimo, veramente un buon risultato. Io ho fatto un app che al momento ha 50 installazioni da 1 mese.",
+            "did you share it or left it passively and kept updating the app?",
+            "On google, I think my app has received zero visibility."
+          ],
+          "top_comments": [
+            {
+              "author": "One_Voice_81",
+              "date": "2026-06-06",
+              "excerpt": "Good work! The app looks good. Build SEO and run ads of you can, it can go a long way",
+              "score": 2,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq29f59/"
+            },
+            {
+              "author": "Alive_Situation_3616",
+              "date": "2026-06-07",
+              "excerpt": "Congratulations, I found some bugs as most of button are not properly visible to click, you may check it",
+              "score": 2,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq86h45/"
+            },
+            {
+              "author": "Ruin_Psychological",
+              "date": "2026-06-06",
+              "excerpt": "did you share it or left it passively and kept updating the app?",
+              "score": 2,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq276v2/"
+            },
+            {
+              "author": "AD-LB",
+              "date": "2026-06-06",
+              "excerpt": "This app: https://play.google.com/store/apps/details?id=com.egyindie.habitset.app ?",
+              "score": 1,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq36v8q/"
+            },
+            {
+              "author": "23P5",
+              "date": "2026-06-07",
+              "excerpt": "Congrats on releasing your fourth app. But why so disingenuous, by telling its your first?",
+              "score": 1,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq8038j/"
+            },
+            {
+              "author": "surviving_on_earth",
+              "date": "2026-06-10",
+              "excerpt": "How did you earn mate? With ads?",
+              "score": 1,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oqsons2/"
+            },
+            {
+              "author": "Separate-Entry5108",
+              "date": "2026-06-10",
+              "excerpt": "Ottimo, veramente un buon risultato. Io ho fatto un app che al momento ha 50 installazioni da 1 mese..per\u00f2 non sembra andare cosi bene.\u00e9 pur vero che non ho fatto pubblicit\u00e1.",
+              "score": 1,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oqvrg3c/"
+            },
+            {
+              "author": "HealthEProfile",
+              "date": "2026-06-07",
+              "excerpt": "On google, I think my app has received zero visibility. My report shows 37 acquisitions, but I have absolutely no subscribers from google so it\u2019s hard to trust any of their numbers. Good luck with your app!",
+              "score": 1,
+              "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oqchodp/"
+            }
+          ]
+        },
+        "published_at": "2026-06-06",
+        "relevance_hint": 0.49,
+        "snippet": "Good work! The app looks good. Build SEO and run ads of you can, it can go a long way Congratulations, I found some bugs as most of button are not properly visible to click, you may check it did you share it or left it passively and kept updating the app?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "30 days after launch, the results of my first app",
+        "url": "https://www.reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/30_days_after_launch_the_results_of_my_first_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "i'm so frustrated with this app, i can't\nBots are currently the most dumbest things right now, they keep rping as my character when I clearly stated that I don't want them to. I'm so frustrated with this bs, no matter how often I edit or swipe IT KEEPS HAPPENING, A PURE PORTION OF RAGEBAITING ME",
+        "container": "CAIRevolution",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 4
+        },
+        "engagement_score": 25,
+        "freshness": 76,
+        "item_id": "R6",
+        "local_rank_score": 0.37750000000000006,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-12",
+        "relevance_hint": 1.0,
+        "snippet": "Bots are currently the most dumbest things right now, they keep rping as my character when I clearly stated that I don't want them to. I'm so frustrated with this bs, no matter how often I edit or swipe IT KEEPS HAPPENING, A PURE PORTION OF RAGEBAITING ME",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "i'm so frustrated with this app, i can't",
+        "url": "https://www.reddit.com/r/CAIRevolution/comments/1u3ze02/im_so_frustrated_with_this_app_i_cant/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Men / Women beyond frustrated with dating apps\nWhat\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+        "container": "dating_apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 3
+        },
+        "engagement_score": 21,
+        "freshness": 91,
+        "item_id": "R7",
+        "local_rank_score": 0.35250000000000004,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-20",
+        "relevance_hint": 0.37,
+        "snippet": "What\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Men / Women beyond frustrated with dating apps",
+        "url": "https://www.reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Need advice: im frustrated with vulnerability management platforms\nI'm an IT operations manager and VM got dropped onto my team after a reorg earlier this year. came from infra originally, not security, and i dont think anybody realized how much of this job is basically workflow cleanup. Scanner coverage itself seems fine. we've got qualys, tenable, trivy, defender, a couple internal scripts, probably more stuff i'm forgetting. leadership sees \"centralized visibility.\" what my team actually sees is analysts bouncing between Jira, ServiceNow and old spreadsheets\nYour CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model. The single biggest fix we made for the same problem was tying every finding to a service catalog entry instead of hostnames or team names, because hostnames change, teams g we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate triage and ownership confusion. ended up trialing Nucleus Security because another team had already looked at it previously. didnt clean up the org/process mess overnight but it reduced a lot of the manual reconciliation work between systems which at le Great perspectives in this thread. One thing I'd add: pick one authoritative system of record for remediation state and make everything else additive. Unless there's a discrepancy, like a non-authority scanner flagging a critical that others missed, don't surface it separately. That alone should cut",
+        "container": "devsecops",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 21,
+          "score": 6
+        },
+        "engagement_score": 68,
+        "freshness": 61,
+        "item_id": "R3",
+        "local_rank_score": 0.3245,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate tri...",
+            "Your CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model.",
+            "Great perspectives in this thread. One thing I'd add: pick one authoritative system of record for remediation state and make everything else additive.",
+            "Coming from an infrastructure background into vulnerability management is a brutal wake-up call because the real bottleneck is almost always the human...",
+            "There's 2 parts worth highlighting here. the part that surprises me most is how much of Vulnerability Management seems to depend on organizational ali...",
+            "ownership mapping for us was a nightmare too, especially after reorgs."
+          ],
+          "top_comments": [
+            {
+              "author": "Devji00",
+              "date": "2026-06-05",
+              "excerpt": "Your CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model. The single biggest fix we made for the same problem was tying every finding to a service catalog entry instead of hostnames or team names, because hostnames change, teams g",
+              "score": 6,
+              "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/opv5uwq/"
+            },
+            {
+              "author": "Bright-View-8289",
+              "date": "2026-06-09",
+              "excerpt": "we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate triage and ownership confusion. ended up trialing Nucleus Security because another team had already looked at it previously. didnt clean up the org/process mess overnight but it reduced a lot of the manual reconciliation work between systems which at le",
+              "score": 1,
+              "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/oqld8q5/"
+            },
+            {
+              "author": "buildingEmphere",
+              "date": "2026-06-05",
+              "excerpt": "Great perspectives in this thread. One thing I'd add: pick one authoritative system of record for remediation state and make everything else additive. Unless there's a discrepancy, like a non-authority scanner flagging a critical that others missed, don't surface it separately. That alone should cut",
+              "score": 1,
+              "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/opzlkzz/"
+            },
+            {
+              "author": "FirefighterMean7497",
+              "date": "2026-06-08",
+              "excerpt": "Coming from an infrastructure background into vulnerability management is a brutal wake-up call because the real bottleneck is almost always the human workflow and asset ownership, not the detection itself. To cut down on the reconciliation chaos, the best approach is to aggressively eliminate the s",
+              "score": 1,
+              "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/oqifhcb/"
+            },
+            {
+              "author": "sccm_sometimes",
+              "date": "2026-06-09",
+              "excerpt": "There's 2 parts worth highlighting here. the part that surprises me most is how much of Vulnerability Management seems to depend on organizational alignment instead of detection. Once they're detected someone else actually has to do the work of resolving them. The truth that many orgs don't want to ",
+              "score": 1,
+              "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/oqlj8k4/"
+            },
+            {
+              "author": "Few-Drawer-6695",
+              "date": "2026-06-22",
+              "excerpt": "ownership mapping for us was a nightmare too, especially after reorgs. what helped was getting all the scanner data and tickets pulled into one view where you can see asset state and ownership at a glance. nucleus security did that for us and the dupe ticket drama calmed down a lot.",
+              "score": 1,
+              "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/ot48g7l/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.37,
+        "snippet": "Your CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model. The single biggest fix we made for the same problem was tying every finding to a service catalog entry instead of hostnames or team names, because hostnames change, teams g we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate triage and ownership confusion. ended up trialing Nucleus Security because another team had already looked at it previously. didnt clean up the org/process mess overnight but it reduced a lot of the manual reconciliation work between systems which at le Great perspectives in this thread. One...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Need advice: im frustrated with vulnerability management platforms",
+        "url": "https://www.reddit.com/r/devsecops/comments/1txej31/need_advice_im_frustrated_with_vulnerability/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Built something after getting frustrated with every finance app I tried\nBeen building a finance app for the past year. The thing that kept bothering me with everything I tried was that they all show you your money but none of them actually tell you what to do about it. You see a chart, feel vaguely stressed, close the app. So I built one that watches your patterns over time and tells you specifically what is happening. Which days you consistently overspend. Which habits actually move the needle on your budget. Whether your savings are on track or quietly falling beh",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 7,
+        "freshness": 49,
+        "item_id": "R9",
+        "local_rank_score": 0.29200000000000004,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-30",
+        "relevance_hint": 0.87,
+        "snippet": "Been building a finance app for the past year. The thing that kept bothering me with everything I tried was that they all show you your money but none of them actually tell you what to do about it. You see a chart, feel vaguely stressed, close the app. So I built one that watches your patterns over time and tells you specifically what is happening. Which days you consistently overspend. Which habi",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Built something after getting frustrated with every finance app I tried",
+        "url": "https://www.reddit.com/r/SaaS/comments/1tru4ih/built_something_after_getting_frustrated_with/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-25",
+  "range_to": "2026-06-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/googleplaydeveloper/comments/1tycbh5/30_days_after_launch_the_results_of_my_first_app",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 12.049180327868854,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.46,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 26.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Good work! The app looks good. Build SEO and run ads of you can, it can go a long way Congratulations, I found some bugs as most of button are not properly visible to click, you may check it did you share it or left it passively and kept updating the app?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "30 days after launch, the results of my first app\nA month ago, I released my first app, HabitSet, on Google Play. I built it because I was frustrated with habit trackers that counted weekly and monthly streaks based on completed days instead of actual goals met. I also didn't like losing streaks when increasing my goals\u2014it felt more like punishment than motivation. So I decided to build an app that solved those problems. A few things I learned: Getting people to visit your store page is much harder than I expected. A good conversion rate doesn'\nGood work! The app looks good. Build SEO and run ads of you can, it can go a long way Congratulations, I found some bugs as most of button are not properly visible to click, you may check it did you share it or left it passively and kept updating the app?",
+          "container": "GooglePlayDeveloper",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 25,
+            "score": 35
+          },
+          "engagement_score": 100,
+          "freshness": 64,
+          "item_id": "R1",
+          "local_rank_score": 0.559,
+          "local_relevance": 0.46,
+          "metadata": {
+            "comment_insights": [
+              "Good work! The app looks good. Build SEO and run ads of you can, it can go a long way",
+              "Congratulations, I found some bugs as most of button are not properly visible to click, you may check it",
+              "This app: https://play.google.com/store/apps/details?id=com.egyindie.habitset.app ?",
+              "Congrats on releasing your fourth app. But why so disingenuous, by telling its your first?",
+              "How did you earn mate? With ads?",
+              "Ottimo, veramente un buon risultato. Io ho fatto un app che al momento ha 50 installazioni da 1 mese.",
+              "did you share it or left it passively and kept updating the app?",
+              "On google, I think my app has received zero visibility."
+            ],
+            "top_comments": [
+              {
+                "author": "One_Voice_81",
+                "date": "2026-06-06",
+                "excerpt": "Good work! The app looks good. Build SEO and run ads of you can, it can go a long way",
+                "score": 2,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq29f59/"
+              },
+              {
+                "author": "Alive_Situation_3616",
+                "date": "2026-06-07",
+                "excerpt": "Congratulations, I found some bugs as most of button are not properly visible to click, you may check it",
+                "score": 2,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq86h45/"
+              },
+              {
+                "author": "Ruin_Psychological",
+                "date": "2026-06-06",
+                "excerpt": "did you share it or left it passively and kept updating the app?",
+                "score": 2,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq276v2/"
+              },
+              {
+                "author": "AD-LB",
+                "date": "2026-06-06",
+                "excerpt": "This app: https://play.google.com/store/apps/details?id=com.egyindie.habitset.app ?",
+                "score": 1,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq36v8q/"
+              },
+              {
+                "author": "23P5",
+                "date": "2026-06-07",
+                "excerpt": "Congrats on releasing your fourth app. But why so disingenuous, by telling its your first?",
+                "score": 1,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oq8038j/"
+              },
+              {
+                "author": "surviving_on_earth",
+                "date": "2026-06-10",
+                "excerpt": "How did you earn mate? With ads?",
+                "score": 1,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oqsons2/"
+              },
+              {
+                "author": "Separate-Entry5108",
+                "date": "2026-06-10",
+                "excerpt": "Ottimo, veramente un buon risultato. Io ho fatto un app che al momento ha 50 installazioni da 1 mese..per\u00f2 non sembra andare cosi bene.\u00e9 pur vero che non ho fatto pubblicit\u00e1.",
+                "score": 1,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oqvrg3c/"
+              },
+              {
+                "author": "HealthEProfile",
+                "date": "2026-06-07",
+                "excerpt": "On google, I think my app has received zero visibility. My report shows 37 acquisitions, but I have absolutely no subscribers from google so it\u2019s hard to trust any of their numbers. Good luck with your app!",
+                "score": 1,
+                "url": "https://reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/comment/oqchodp/"
+              }
+            ]
+          },
+          "published_at": "2026-06-06",
+          "relevance_hint": 0.49,
+          "snippet": "Good work! The app looks good. Build SEO and run ads of you can, it can go a long way Congratulations, I found some bugs as most of button are not properly visible to click, you may check it did you share it or left it passively and kept updating the app?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "30 days after launch, the results of my first app",
+          "url": "https://www.reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/30_days_after_launch_the_results_of_my_first_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "30 days after launch, the results of my first app",
+      "url": "https://www.reddit.com/r/GooglePlayDeveloper/comments/1tycbh5/30_days_after_launch_the_results_of_my_first_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/devsecops/comments/1txej31/need_advice_im_frustrated_with_vulnerability",
+      "cluster_id": "cluster-2",
+      "engagement": 68,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "Your CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model. The single biggest fix we made for the same problem was tying every finding to a service catalog entry instead of hostnames or team names, because hostnames change, teams g we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate triage and ownership confusion. ended up trialing Nucleus Security because another team had already looked at it previously. didnt clean up the org/process mess overnight but it reduced a lot of the manual reconciliation work between systems which at le Great perspectives in this thread. One...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Need advice: im frustrated with vulnerability management platforms\nI'm an IT operations manager and VM got dropped onto my team after a reorg earlier this year. came from infra originally, not security, and i dont think anybody realized how much of this job is basically workflow cleanup. Scanner coverage itself seems fine. we've got qualys, tenable, trivy, defender, a couple internal scripts, probably more stuff i'm forgetting. leadership sees \"centralized visibility.\" what my team actually sees is analysts bouncing between Jira, ServiceNow and old spreadsheets\nYour CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model. The single biggest fix we made for the same problem was tying every finding to a service catalog entry instead of hostnames or team names, because hostnames change, teams g we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate triage and ownership confusion. ended up trialing Nucleus Security because another team had already looked at it previously. didnt clean up the org/process mess overnight but it reduced a lot of the manual reconciliation work between systems which at le Great perspectives in this thread. One thing I'd add: pick one authoritative system of record for remediation state and make everything else additive. Unless there's a discrepancy, like a non-authority scanner flagging a critical that others missed, don't surface it separately. That alone should cut",
+          "container": "devsecops",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 21,
+            "score": 6
+          },
+          "engagement_score": 68,
+          "freshness": 61,
+          "item_id": "R3",
+          "local_rank_score": 0.3245,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate tri...",
+              "Your CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model.",
+              "Great perspectives in this thread. One thing I'd add: pick one authoritative system of record for remediation state and make everything else additive.",
+              "Coming from an infrastructure background into vulnerability management is a brutal wake-up call because the real bottleneck is almost always the human...",
+              "There's 2 parts worth highlighting here. the part that surprises me most is how much of Vulnerability Management seems to depend on organizational ali...",
+              "ownership mapping for us was a nightmare too, especially after reorgs."
+            ],
+            "top_comments": [
+              {
+                "author": "Devji00",
+                "date": "2026-06-05",
+                "excerpt": "Your CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model. The single biggest fix we made for the same problem was tying every finding to a service catalog entry instead of hostnames or team names, because hostnames change, teams g",
+                "score": 6,
+                "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/opv5uwq/"
+              },
+              {
+                "author": "Bright-View-8289",
+                "date": "2026-06-09",
+                "excerpt": "we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate triage and ownership confusion. ended up trialing Nucleus Security because another team had already looked at it previously. didnt clean up the org/process mess overnight but it reduced a lot of the manual reconciliation work between systems which at le",
+                "score": 1,
+                "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/oqld8q5/"
+              },
+              {
+                "author": "buildingEmphere",
+                "date": "2026-06-05",
+                "excerpt": "Great perspectives in this thread. One thing I'd add: pick one authoritative system of record for remediation state and make everything else additive. Unless there's a discrepancy, like a non-authority scanner flagging a critical that others missed, don't surface it separately. That alone should cut",
+                "score": 1,
+                "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/opzlkzz/"
+              },
+              {
+                "author": "FirefighterMean7497",
+                "date": "2026-06-08",
+                "excerpt": "Coming from an infrastructure background into vulnerability management is a brutal wake-up call because the real bottleneck is almost always the human workflow and asset ownership, not the detection itself. To cut down on the reconciliation chaos, the best approach is to aggressively eliminate the s",
+                "score": 1,
+                "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/oqifhcb/"
+              },
+              {
+                "author": "sccm_sometimes",
+                "date": "2026-06-09",
+                "excerpt": "There's 2 parts worth highlighting here. the part that surprises me most is how much of Vulnerability Management seems to depend on organizational alignment instead of detection. Once they're detected someone else actually has to do the work of resolving them. The truth that many orgs don't want to ",
+                "score": 1,
+                "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/oqlj8k4/"
+              },
+              {
+                "author": "Few-Drawer-6695",
+                "date": "2026-06-22",
+                "excerpt": "ownership mapping for us was a nightmare too, especially after reorgs. what helped was getting all the scanner data and tickets pulled into one view where you can see asset state and ownership at a glance. nucleus security did that for us and the dupe ticket drama calmed down a lot.",
+                "score": 1,
+                "url": "https://reddit.com/r/devsecops/comments/1txej31/comment/ot48g7l/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.37,
+          "snippet": "Your CISO story is the most telling part honestly because it proves the tooling isn't the bottleneck, it's the ownership model. The single biggest fix we made for the same problem was tying every finding to a service catalog entry instead of hostnames or team names, because hostnames change, teams g we got pushed into looking at normalization tooling after an internal audit basically showed how much analyst time was getting burned on duplicate triage and ownership confusion. ended up trialing Nucleus Security because another team had already looked at it previously. didnt clean up the org/process mess overnight but it reduced a lot of the manual reconciliation work between systems which at le Great perspectives in this thread. One...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Need advice: im frustrated with vulnerability management platforms",
+          "url": "https://www.reddit.com/r/devsecops/comments/1txej31/need_advice_im_frustrated_with_vulnerability/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Need advice: im frustrated with vulnerability management platforms",
+      "url": "https://www.reddit.com/r/devsecops/comments/1txej31/need_advice_im_frustrated_with_vulnerability/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/cairevolution/comments/1u3ze02/im_so_frustrated_with_this_app_i_cant",
+      "cluster_id": "cluster-3",
+      "engagement": 25,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Bots are currently the most dumbest things right now, they keep rping as my character when I clearly stated that I don't want them to. I'm so frustrated with this bs, no matter how often I edit or swipe IT KEEPS HAPPENING, A PURE PORTION OF RAGEBAITING ME",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "i'm so frustrated with this app, i can't\nBots are currently the most dumbest things right now, they keep rping as my character when I clearly stated that I don't want them to. I'm so frustrated with this bs, no matter how often I edit or swipe IT KEEPS HAPPENING, A PURE PORTION OF RAGEBAITING ME",
+          "container": "CAIRevolution",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 4
+          },
+          "engagement_score": 25,
+          "freshness": 76,
+          "item_id": "R6",
+          "local_rank_score": 0.37750000000000006,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-12",
+          "relevance_hint": 1.0,
+          "snippet": "Bots are currently the most dumbest things right now, they keep rping as my character when I clearly stated that I don't want them to. I'm so frustrated with this bs, no matter how often I edit or swipe IT KEEPS HAPPENING, A PURE PORTION OF RAGEBAITING ME",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "i'm so frustrated with this app, i can't",
+          "url": "https://www.reddit.com/r/CAIRevolution/comments/1u3ze02/im_so_frustrated_with_this_app_i_cant/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "i'm so frustrated with this app, i can't",
+      "url": "https://www.reddit.com/r/CAIRevolution/comments/1u3ze02/im_so_frustrated_with_this_app_i_cant/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps",
+      "cluster_id": "cluster-4",
+      "engagement": 21,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 47.35,
+      "item_id": "R7",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "What\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Men / Women beyond frustrated with dating apps\nWhat\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+          "container": "dating_apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 3
+          },
+          "engagement_score": 21,
+          "freshness": 91,
+          "item_id": "R7",
+          "local_rank_score": 0.35250000000000004,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-20",
+          "relevance_hint": 0.37,
+          "snippet": "What\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Men / Women beyond frustrated with dating apps",
+          "url": "https://www.reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Men / Women beyond frustrated with dating apps",
+      "url": "https://www.reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1tru4ih/built_something_after_getting_frustrated_with",
+      "cluster_id": "cluster-5",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 14.0,
+      "item_id": "R9",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 8.299999999999997,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Been building a finance app for the past year. The thing that kept bothering me with everything I tried was that they all show you your money but none of them actually tell you what to do about it. You see a chart, feel vaguely stressed, close the app. So I built one that watches your patterns over time and tells you specifically what is happening. Which days you consistently overspend. Which habi",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Built something after getting frustrated with every finance app I tried\nBeen building a finance app for the past year. The thing that kept bothering me with everything I tried was that they all show you your money but none of them actually tell you what to do about it. You see a chart, feel vaguely stressed, close the app. So I built one that watches your patterns over time and tells you specifically what is happening. Which days you consistently overspend. Which habits actually move the needle on your budget. Whether your savings are on track or quietly falling beh",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 7,
+          "freshness": 49,
+          "item_id": "R9",
+          "local_rank_score": 0.29200000000000004,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-30",
+          "relevance_hint": 0.87,
+          "snippet": "Been building a finance app for the past year. The thing that kept bothering me with everything I tried was that they all show you your money but none of them actually tell you what to do about it. You see a chart, feel vaguely stressed, close the app. So I built one that watches your patterns over time and tells you specifically what is happening. Which days you consistently overspend. Which habi",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Built something after getting frustrated with every finance app I tried",
+          "url": "https://www.reddit.com/r/SaaS/comments/1tru4ih/built_something_after_getting_frustrated_with/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Built something after getting frustrated with every finance app I tried",
+      "url": "https://www.reddit.com/r/SaaS/comments/1tru4ih/built_something_after_getting_frustrated_with/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
