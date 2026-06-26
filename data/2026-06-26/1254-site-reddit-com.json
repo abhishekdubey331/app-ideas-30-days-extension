@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@misterd50/video/7646079352785980692"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@misterd50/video/7646079352785980692"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "reddit history complete  #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-26T12:54:02.633288+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "misterd50",
+        "body": "reddit history complete  #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "likes": 160,
+          "shares": 7,
+          "views": 3977
+        },
+        "engagement_score": 38,
+        "freshness": 47,
+        "item_id": "TK18",
+        "local_rank_score": 0.2595,
+        "local_relevance": 0.16,
+        "metadata": {
+          "hashtags": [
+            "reddit",
+            "reddit_tiktok",
+            "historiasreddit",
+            "historiacompleta",
+            "redditstories"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-05-31",
+        "relevance_hint": 0.54,
+        "snippet": "reddit history complete #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "reddit history complete  #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+        "url": "https://www.tiktok.com/@misterd50/video/7646079352785980692",
+        "why_relevant": "TikTok: reddit history complete  #reddit #reddit_tiktok #historiasre"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-27",
+  "range_to": "2026-06-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@misterd50/video/7646079352785980692",
+      "cluster_id": "cluster-1",
+      "engagement": 38,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.9,
+      "item_id": "TK18",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK18",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 1.4000000000000021,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "reddit history complete #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "misterd50",
+          "body": "reddit history complete  #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "likes": 160,
+            "shares": 7,
+            "views": 3977
+          },
+          "engagement_score": 38,
+          "freshness": 47,
+          "item_id": "TK18",
+          "local_rank_score": 0.2595,
+          "local_relevance": 0.16,
+          "metadata": {
+            "hashtags": [
+              "reddit",
+              "reddit_tiktok",
+              "historiasreddit",
+              "historiacompleta",
+              "redditstories"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-05-31",
+          "relevance_hint": 0.54,
+          "snippet": "reddit history complete #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "reddit history complete  #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+          "url": "https://www.tiktok.com/@misterd50/video/7646079352785980692",
+          "why_relevant": "TikTok: reddit history complete  #reddit #reddit_tiktok #historiasre"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "reddit history complete  #reddit #reddit_tiktok #historiasreddit #historiacompleta #redditstories",
+      "url": "https://www.tiktok.com/@misterd50/video/7646079352785980692"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
