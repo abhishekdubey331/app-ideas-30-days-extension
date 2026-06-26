@@ -1,0 +1,592 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"currently paying\" \"app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbuilding/comments/1u27t5p/content_creators_is_building_your_own_app"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appbuilding/comments/1u27t5p/content_creators_is_building_your_own_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Content creators is building your own app actually worth it or am I overthinking this?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/influencermarketing/comments/1u5qhy2/hiring_new_fitnessnutrition_app_looking_for_ugc"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/influencermarketing/comments/1u5qhy2/hiring_new_fitnessnutrition_app_looking_for_ugc"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/makemoneyinuk/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/makemoneyinuk/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-26T01:02:53.053061+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)\nero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, Lacoste, HSBC, DoorDash, Uber and more. Most missions currently pay around $2 and only take a couple o",
+        "container": "MakeMoneyInUK",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 2
+        },
+        "engagement_score": 0,
+        "freshness": 97,
+        "item_id": "R8",
+        "local_rank_score": 0.392,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-25",
+        "relevance_hint": 0.14,
+        "snippet": "ero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, La",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)",
+        "url": "https://www.reddit.com/r/MakeMoneyInUK/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.\nMost of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a habit tracker $5, whatever you've got] For each one, be honest with me: 1. The specific thing I actua",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 2
+        },
+        "engagement_score": 13,
+        "freshness": 82,
+        "item_id": "R7",
+        "local_rank_score": 0.36750000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-17",
+        "relevance_hint": 0.4,
+        "snippet": "Most of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a h",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video)\n[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video) Hey everyone, We\u2019re a new startup in the fitness and nutrition space looking for creators interested in making content for our AI nutrition app. We\u2019re still getting off the ground, so our budget is limited right now. We currently pay $15 per approved 15\u201320 second video, but we\u2019re looking for long-term relationships. If your content directly helps us grow, we absolutely plan to increase compensation as the company\nall your competitors pay so much more, why would anyone even think about working such crap wages?",
+        "container": "influencermarketing",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 2
+        },
+        "engagement_score": 27,
+        "freshness": 76,
+        "item_id": "R4",
+        "local_rank_score": 0.32100000000000006,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "all your competitors pay so much more, why would anyone even think about working such crap wages?"
+          ],
+          "top_comments": [
+            {
+              "author": "Windows-To",
+              "date": "2026-06-14",
+              "excerpt": "all your competitors pay so much more, why would anyone even think about working such crap wages?",
+              "score": 1,
+              "url": "https://reddit.com/r/influencermarketing/comments/1u5qhy2/comment/ormrp33/"
+            }
+          ]
+        },
+        "published_at": "2026-06-14",
+        "relevance_hint": 0.32,
+        "snippet": "all your competitors pay so much more, why would anyone even think about working such crap wages?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video)",
+        "url": "https://www.reddit.com/r/influencermarketing/comments/1u5qhy2/hiring_new_fitnessnutrition_app_looking_for_ugc/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Content creators is building your own app actually worth it or am I overthinking this?\nSo I've been going back and forth on this for like two months now and I figured I'd just ask people who've actually done it. I run a fitness/nutrition community nothing huge, about 12k followers across platforms, maybe 800 really engaged people in my Discord. I do meal plans, workout programs, weekly live Q&As, that kind of thing. Right now everything is spread across Patreon, Discord, a Telegram group, and my website. It's honestly a mess to manage and I feel like people are constantly missing\nI think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+        "container": "AppBuilding",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 3
+        },
+        "engagement_score": 33,
+        "freshness": 67,
+        "item_id": "R3",
+        "local_rank_score": 0.3045,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app.",
+            "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue?",
+            "Yes it could be worth it depending on your current revenue and what your future offers would be.",
+            "You have 12k people to ask about if they want it and if yes than what it should be.",
+            "If you are still looking for a dev feel free to contact me :)"
+          ],
+          "top_comments": [
+            {
+              "author": "OndaSupply",
+              "date": "2026-06-10",
+              "excerpt": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqvfv71/"
+            },
+            {
+              "author": "Tampa_Real_Estate_Ag",
+              "date": "2026-06-10",
+              "excerpt": "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my ",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqws1uu/"
+            },
+            {
+              "author": "dhalls12",
+              "date": "2026-06-10",
+              "excerpt": "Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqx6oqm/"
+            },
+            {
+              "author": "Time_Philosophy_167",
+              "date": "2026-06-11",
+              "excerpt": "You have 12k people to ask about if they want it and if yes than what it should be.Also do the actual work of DOING MATH and calculate what are your expectations of earnings (ROI).Are you going to spend $10k-$15k on an app and then what? Get 20 users at $20/mo? - thats $4800 ARR of gross income. 3 y",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/or1u764/"
+            },
+            {
+              "author": "ProperAd9832",
+              "date": "2026-06-10",
+              "excerpt": "If you are still looking for a dev feel free to contact me :)",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqwukdm/"
+            }
+          ]
+        },
+        "published_at": "2026-06-10",
+        "relevance_hint": 0.4,
+        "snippet": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Content creators is building your own app actually worth it or am I overthinking this?",
+        "url": "https://www.reddit.com/r/AppBuilding/comments/1u27t5p/content_creators_is_building_your_own_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"currently paying\" \"app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"currently paying\" \"app\"?",
+        "search_query": "\"currently paying\" \"app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-27",
+  "range_to": "2026-06-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appbuilding/comments/1u27t5p/content_creators_is_building_your_own_app",
+      "cluster_id": "cluster-1",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.600000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Content creators is building your own app actually worth it or am I overthinking this?\nSo I've been going back and forth on this for like two months now and I figured I'd just ask people who've actually done it. I run a fitness/nutrition community nothing huge, about 12k followers across platforms, maybe 800 really engaged people in my Discord. I do meal plans, workout programs, weekly live Q&As, that kind of thing. Right now everything is spread across Patreon, Discord, a Telegram group, and my website. It's honestly a mess to manage and I feel like people are constantly missing\nI think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+          "container": "AppBuilding",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 3
+          },
+          "engagement_score": 33,
+          "freshness": 67,
+          "item_id": "R3",
+          "local_rank_score": 0.3045,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app.",
+              "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue?",
+              "Yes it could be worth it depending on your current revenue and what your future offers would be.",
+              "You have 12k people to ask about if they want it and if yes than what it should be.",
+              "If you are still looking for a dev feel free to contact me :)"
+            ],
+            "top_comments": [
+              {
+                "author": "OndaSupply",
+                "date": "2026-06-10",
+                "excerpt": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqvfv71/"
+              },
+              {
+                "author": "Tampa_Real_Estate_Ag",
+                "date": "2026-06-10",
+                "excerpt": "It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my ",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqws1uu/"
+              },
+              {
+                "author": "dhalls12",
+                "date": "2026-06-10",
+                "excerpt": "Yes it could be worth it depending on your current revenue and what your future offers would be. I would have to know more about how your business structure is set up to know if it would be worth it. Knowing what I know now though, I would be very hesitant going with the $3k build.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqx6oqm/"
+              },
+              {
+                "author": "Time_Philosophy_167",
+                "date": "2026-06-11",
+                "excerpt": "You have 12k people to ask about if they want it and if yes than what it should be.Also do the actual work of DOING MATH and calculate what are your expectations of earnings (ROI).Are you going to spend $10k-$15k on an app and then what? Get 20 users at $20/mo? - thats $4800 ARR of gross income. 3 y",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/or1u764/"
+              },
+              {
+                "author": "ProperAd9832",
+                "date": "2026-06-10",
+                "excerpt": "If you are still looking for a dev feel free to contact me :)",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBuilding/comments/1u27t5p/comment/oqwukdm/"
+              }
+            ]
+          },
+          "published_at": "2026-06-10",
+          "relevance_hint": 0.4,
+          "snippet": "I think you're asking the right question. Based on what you described, I'd be careful about jumping straight into a custom app. You already have: An audience Paying members Content people want The biggest risk isn't building the app. It's building an app that doesn't actually improve retention or engagement enough to justify the cost. The features you're describing (gated content, subscriptions, p It\u2019s just another level of merch. Do you want to create a new line of \u201cmerch\u201d that will create more revenue? Build it yourself and spend the time, or pay someone else and spend the cash. Build something you actually use and it\u2019ll come off as genuinely just more of your content.I built an app for my...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Content creators is building your own app actually worth it or am I overthinking this?",
+          "url": "https://www.reddit.com/r/AppBuilding/comments/1u27t5p/content_creators_is_building_your_own_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Content creators is building your own app actually worth it or am I overthinking this?",
+      "url": "https://www.reddit.com/r/AppBuilding/comments/1u27t5p/content_creators_is_building_your_own_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/influencermarketing/comments/1u5qhy2/hiring_new_fitnessnutrition_app_looking_for_ugc",
+      "cluster_id": "cluster-2",
+      "engagement": 27,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 7.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "all your competitors pay so much more, why would anyone even think about working such crap wages?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video)\n[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video) Hey everyone, We\u2019re a new startup in the fitness and nutrition space looking for creators interested in making content for our AI nutrition app. We\u2019re still getting off the ground, so our budget is limited right now. We currently pay $15 per approved 15\u201320 second video, but we\u2019re looking for long-term relationships. If your content directly helps us grow, we absolutely plan to increase compensation as the company\nall your competitors pay so much more, why would anyone even think about working such crap wages?",
+          "container": "influencermarketing",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 2
+          },
+          "engagement_score": 27,
+          "freshness": 76,
+          "item_id": "R4",
+          "local_rank_score": 0.32100000000000006,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "all your competitors pay so much more, why would anyone even think about working such crap wages?"
+            ],
+            "top_comments": [
+              {
+                "author": "Windows-To",
+                "date": "2026-06-14",
+                "excerpt": "all your competitors pay so much more, why would anyone even think about working such crap wages?",
+                "score": 1,
+                "url": "https://reddit.com/r/influencermarketing/comments/1u5qhy2/comment/ormrp33/"
+              }
+            ]
+          },
+          "published_at": "2026-06-14",
+          "relevance_hint": 0.32,
+          "snippet": "all your competitors pay so much more, why would anyone even think about working such crap wages?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video)",
+          "url": "https://www.reddit.com/r/influencermarketing/comments/1u5qhy2/hiring_new_fitnessnutrition_app_looking_for_ugc/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "[HIRING] New Fitness/Nutrition App Looking for UGC Creators ($15 per 15\u201320s Video)",
+      "url": "https://www.reddit.com/r/influencermarketing/comments/1u5qhy2/hiring_new_fitnessnutrition_app_looking_for_ugc/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt",
+      "cluster_id": "cluster-3",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 26.0,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Most of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a h",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.\nMost of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a habit tracker $5, whatever you've got] For each one, be honest with me: 1. The specific thing I actua",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 2
+          },
+          "engagement_score": 13,
+          "freshness": 82,
+          "item_id": "R7",
+          "local_rank_score": 0.36750000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-17",
+          "relevance_hint": 0.4,
+          "snippet": "Most of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a h",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/makemoneyinuk/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R8",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "ero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, La",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)\nero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, Lacoste, HSBC, DoorDash, Uber and more. Most missions currently pay around $2 and only take a couple o",
+          "container": "MakeMoneyInUK",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 2
+          },
+          "engagement_score": 0,
+          "freshness": 97,
+          "item_id": "R8",
+          "local_rank_score": 0.392,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-25",
+          "relevance_hint": 0.14,
+          "snippet": "ero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, La",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)",
+          "url": "https://www.reddit.com/r/MakeMoneyInUK/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)",
+      "url": "https://www.reddit.com/r/MakeMoneyInUK/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand/"
+    }
+  ],
+  "topic": "\"currently paying\" \"app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

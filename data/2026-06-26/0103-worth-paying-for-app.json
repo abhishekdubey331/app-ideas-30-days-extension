@@ -1,0 +1,889 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1tp4x3j/spent_the_last_3_months_working_on_my"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1tp4x3j/spent_the_last_3_months_working_on_my"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "spent the last 3 months working on my productivity app, 4 things i wish i knew earlier :)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1ubw4u3/my_first_customer_paid_for_my_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1ubw4u3/my_first_customer_paid_for_my_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My first customer paid for my app."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/founder/comments/1u2lr59/what_aso_tools_are_actually_worth_it_for_a"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/founder/comments/1u2lr59/what_aso_tools_are_actually_worth_it_for_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What ASO tools are actually worth it for a bootstrapped founder?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1tp7mgc/spent_the_last_3_months_working_on_my"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1tp7mgc/spent_the_last_3_months_working_on_my"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "spent the last 3 months working on my productivity app, 4 pieces of advice i wish i had"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-26T01:03:08.177250+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited\nA bit of background: I'm not a full-time founder or a programmer. I'm just someone who likes building stuff in my free time. For the last few months I've been working on a Dental PG exam prep app for students preparing for exams like NEET MDS, INI-CET and state dental exams. Lots of late nights, lots of rewriting features, lots of second-guessing whether anyone would actually use it. I launched it on Google Play a couple of days ago. Today I got my first paying customer. Financially it's not muc",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 3
+        },
+        "engagement_score": 35,
+        "freshness": 61,
+        "item_id": "R6",
+        "local_rank_score": 0.40199999999999997,
+        "local_relevance": 0.33,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-07",
+        "relevance_hint": 0.7,
+        "snippet": "A bit of background: I'm not a full-time founder or a programmer. I'm just someone who likes building stuff in my free time. For the last few months I've been working on a Dental PG exam prep app for students preparing for exams like NEET MDS, INI-CET and state dental exams. Lots of late nights, lots of rewriting features, lots of second-guessing whether anyone would actually use it. I launched it",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited",
+        "url": "https://www.reddit.com/r/SideProject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My first customer paid for my app.\nToday I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording voice notes and then forgetting about them. I'd have hundreds of notes, screenshots, and random remin",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 3
+        },
+        "engagement_score": 26,
+        "freshness": 89,
+        "item_id": "R7",
+        "local_rank_score": 0.385,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-21",
+        "relevance_hint": 0.45,
+        "snippet": "Today I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording v",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My first customer paid for my app.",
+        "url": "https://www.reddit.com/r/SideProject/comments/1ubw4u3/my_first_customer_paid_for_my_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What ASO tools are actually worth it for a bootstrapped founder?\nHello, everyone! I\u2019m looking for recommendations for a GOOD ASO tool/platform for an indie startup app. Context: Early-stage app Limited budget Need App Store keyword tracking, metadata optimization, competitor research, and ranking visibility Don\u2019t need enterprise pricing or huge agency-level feature sets Most tools I\u2019m finding are ($100\u2013$500+/month) Current app category: Bible study / gamified learning / AI-assisted education Question: Especially looking for: affordable practical useful withou",
+        "container": "founder",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 3
+        },
+        "engagement_score": 23,
+        "freshness": 70,
+        "item_id": "R10",
+        "local_rank_score": 0.3345,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-11",
+        "relevance_hint": 0.34,
+        "snippet": "Hello, everyone! I\u2019m looking for recommendations for a GOOD ASO tool/platform for an indie startup app. Context: Early-stage app Limited budget Need App Store keyword tracking, metadata optimization, competitor research, and ranking visibility Don\u2019t need enterprise pricing or huge agency-level feature sets Most tools I\u2019m finding are ($100\u2013$500+/month) Current app category: Bible study / gamified l",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What ASO tools are actually worth it for a bootstrapped founder?",
+        "url": "https://www.reddit.com/r/founder/comments/1u2lr59/what_aso_tools_are_actually_worth_it_for_a/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating\nI\u2019m still kind of speechless... honestly 48 hours ago I launched Weekline, a small weekly planner I built around one simple idea: Most to-do apps let you add infinite tasks. But your week is not infinite. So instead of projects, folders, tags and dashboards, Weekline gives each task a simple weight and each day a capacity. When the day is full, the line shows what no longer fits. It\u2019s a small app. No team. No big launch. Just a lot of late nights, extrem coffee, App Store screenshots, tiny UI de\nGunzenhausen:D servus Its good \ud83d\udc4d Congratulations\ud83d\ude4c",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 73,
+          "score": 78
+        },
+        "engagement_score": 100,
+        "freshness": 49,
+        "item_id": "R1",
+        "local_rank_score": 0.32,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [
+            "Looks great mate! Legit good stuff and simple to use.",
+            "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+            "Congratsss mate! Such a great achievement!",
+            "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!"
+          ],
+          "top_comments": [
+            {
+              "author": "AppleProUser",
+              "date": "2026-06-16",
+              "excerpt": "Gunzenhausen:D servus",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/os0559h/"
+            },
+            {
+              "author": "Fit_Prune_6910",
+              "date": "2026-06-08",
+              "excerpt": "Its good \ud83d\udc4d",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oqf1yj7/"
+            },
+            {
+              "author": "Appropriate-Lie6687",
+              "date": "2026-06-07",
+              "excerpt": "Congratulations\ud83d\ude4c",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq7oguu/"
+            },
+            {
+              "author": "bhood1992",
+              "date": "2026-06-06",
+              "excerpt": "Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq67qu2/"
+            },
+            {
+              "author": "Friendly_Picture_943",
+              "date": "2026-06-06",
+              "excerpt": "felicidades",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq41v6j/"
+            },
+            {
+              "author": "assasinezio4",
+              "date": "2026-06-06",
+              "excerpt": "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1xlja/"
+            },
+            {
+              "author": "Decent_Hornet_7074",
+              "date": "2026-06-06",
+              "excerpt": "Congratsss mate! Such a great achievement!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1q83c/"
+            },
+            {
+              "author": "SideQuestNomad",
+              "date": "2026-06-03",
+              "excerpt": "Congratulations, well done!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/ophik23/"
+            },
+            {
+              "author": "tarasleskiv",
+              "date": "2026-06-02",
+              "excerpt": "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/opdxw2g/"
+            }
+          ]
+        },
+        "published_at": "2026-06-01",
+        "relevance_hint": 0.43,
+        "snippet": "Gunzenhausen:D servus Its good \ud83d\udc4d Congratulations\ud83d\ude4c",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "spent the last 3 months working on my productivity app, 4 things i wish i knew earlier :)\nNone\nThis post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i need to build the best tool with all features working like a charm, best in security\" that made my project got delayed by 1-2 week and the caviar is i got burned-out too like exhausting all my motivation at once. The best thing that is working for me is Congrats on getting traction. I just launched too, and thats been the most difficult part. These are actually helpful tips. although in my case i did offer a free way to use some of the features that provide some value, but locked other nice to have features for premium users. Is that approach fine polish is fake work until someone is using the ugly version. the offset button was never the risk, building 200 hours before the pain was proven was.",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 6
+        },
+        "engagement_score": 46,
+        "freshness": 40,
+        "item_id": "R5",
+        "local_rank_score": 0.29550000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "This post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i nee...",
+            "Congrats on getting traction. I just launched too, and thats been the most difficult part.",
+            "polish is fake work until someone is using the ugly version. the offset button was never the risk, building 200 hours before the pain was proven was."
+          ],
+          "top_comments": [
+            {
+              "author": "SAHILSAWANA",
+              "date": "2026-05-27",
+              "excerpt": "This post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i need to build the best tool with all features working like a charm, best in security\" that made my project got delayed by 1-2 week and the caviar is i got burned-out too like exhausting all my motivation at once. The best thing that is working for me is",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1tp4x3j/comment/oo67f0o/"
+            },
+            {
+              "author": "hmida56",
+              "date": "2026-05-27",
+              "excerpt": "Congrats on getting traction. I just launched too, and thats been the most difficult part. These are actually helpful tips. although in my case i did offer a free way to use some of the features that provide some value, but locked other nice to have features for premium users. Is that approach fine ",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1tp4x3j/comment/oo6wmio/"
+            },
+            {
+              "author": "Weary-Step-8818",
+              "date": "2026-05-27",
+              "excerpt": "polish is fake work until someone is using the ugly version. the offset button was never the risk, building 200 hours before the pain was proven was.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1tp4x3j/comment/oo6jiyf/"
+            }
+          ]
+        },
+        "published_at": "2026-05-27",
+        "relevance_hint": 0.28,
+        "snippet": "This post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i need to build the best tool with all features working like a charm, best in security\" that made my project got delayed by 1-2 week and the caviar is i got burned-out too like exhausting all my motivation at once. The best thing that is working for me is Congrats on getting traction. I just launched too, and thats been the most difficult part. These are actually helpful tips. although in my case i did offer a free way to use some of the features that provide some value, but locked other...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "spent the last 3 months working on my productivity app, 4 things i wish i knew earlier :)",
+        "url": "https://www.reddit.com/r/SideProject/comments/1tp4x3j/spent_the_last_3_months_working_on_my/",
+        "why_relevant": "Reddit r/SideProject search"
+      },
+      {
+        "body": "spent the last 3 months working on my productivity app, 4 pieces of advice i wish i had\nNone",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 3
+        },
+        "engagement_score": 23,
+        "freshness": 40,
+        "item_id": "R11",
+        "local_rank_score": 0.2205,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-05-27",
+        "relevance_hint": 0.28,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "spent the last 3 months working on my productivity app, 4 pieces of advice i wish i had",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1tp7mgc/spent_the_last_3_months_working_on_my/",
+        "why_relevant": "Reddit r/appledevelopers search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-27",
+  "range_to": "2026-06-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 1.3000000000000007,
+      "rrf_score": 0.0078125,
+      "snippet": "Gunzenhausen:D servus Its good \ud83d\udc4d Congratulations\ud83d\ude4c",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating\nI\u2019m still kind of speechless... honestly 48 hours ago I launched Weekline, a small weekly planner I built around one simple idea: Most to-do apps let you add infinite tasks. But your week is not infinite. So instead of projects, folders, tags and dashboards, Weekline gives each task a simple weight and each day a capacity. When the day is full, the line shows what no longer fits. It\u2019s a small app. No team. No big launch. Just a lot of late nights, extrem coffee, App Store screenshots, tiny UI de\nGunzenhausen:D servus Its good \ud83d\udc4d Congratulations\ud83d\ude4c",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 73,
+            "score": 78
+          },
+          "engagement_score": 100,
+          "freshness": 49,
+          "item_id": "R1",
+          "local_rank_score": 0.32,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [
+              "Looks great mate! Legit good stuff and simple to use.",
+              "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+              "Congratsss mate! Such a great achievement!",
+              "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!"
+            ],
+            "top_comments": [
+              {
+                "author": "AppleProUser",
+                "date": "2026-06-16",
+                "excerpt": "Gunzenhausen:D servus",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/os0559h/"
+              },
+              {
+                "author": "Fit_Prune_6910",
+                "date": "2026-06-08",
+                "excerpt": "Its good \ud83d\udc4d",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oqf1yj7/"
+              },
+              {
+                "author": "Appropriate-Lie6687",
+                "date": "2026-06-07",
+                "excerpt": "Congratulations\ud83d\ude4c",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq7oguu/"
+              },
+              {
+                "author": "bhood1992",
+                "date": "2026-06-06",
+                "excerpt": "Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq67qu2/"
+              },
+              {
+                "author": "Friendly_Picture_943",
+                "date": "2026-06-06",
+                "excerpt": "felicidades",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq41v6j/"
+              },
+              {
+                "author": "assasinezio4",
+                "date": "2026-06-06",
+                "excerpt": "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1xlja/"
+              },
+              {
+                "author": "Decent_Hornet_7074",
+                "date": "2026-06-06",
+                "excerpt": "Congratsss mate! Such a great achievement!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1q83c/"
+              },
+              {
+                "author": "SideQuestNomad",
+                "date": "2026-06-03",
+                "excerpt": "Congratulations, well done!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/ophik23/"
+              },
+              {
+                "author": "tarasleskiv",
+                "date": "2026-06-02",
+                "excerpt": "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/opdxw2g/"
+              }
+            ]
+          },
+          "published_at": "2026-06-01",
+          "relevance_hint": 0.43,
+          "snippet": "Gunzenhausen:D servus Its good \ud83d\udc4d Congratulations\ud83d\ude4c",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1tp4x3j/spent_the_last_3_months_working_on_my",
+      "cluster_id": "cluster-2",
+      "engagement": 46,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 5.099999999999998,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "This post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i need to build the best tool with all features working like a charm, best in security\" that made my project got delayed by 1-2 week and the caviar is i got burned-out too like exhausting all my motivation at once. The best thing that is working for me is Congrats on getting traction. I just launched too, and thats been the most difficult part. These are actually helpful tips. although in my case i did offer a free way to use some of the features that provide some value, but locked other...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "spent the last 3 months working on my productivity app, 4 things i wish i knew earlier :)\nNone\nThis post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i need to build the best tool with all features working like a charm, best in security\" that made my project got delayed by 1-2 week and the caviar is i got burned-out too like exhausting all my motivation at once. The best thing that is working for me is Congrats on getting traction. I just launched too, and thats been the most difficult part. These are actually helpful tips. although in my case i did offer a free way to use some of the features that provide some value, but locked other nice to have features for premium users. Is that approach fine polish is fake work until someone is using the ugly version. the offset button was never the risk, building 200 hours before the pain was proven was.",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 6
+          },
+          "engagement_score": 46,
+          "freshness": 40,
+          "item_id": "R5",
+          "local_rank_score": 0.29550000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "This post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i nee...",
+              "Congrats on getting traction. I just launched too, and thats been the most difficult part.",
+              "polish is fake work until someone is using the ugly version. the offset button was never the risk, building 200 hours before the pain was proven was."
+            ],
+            "top_comments": [
+              {
+                "author": "SAHILSAWANA",
+                "date": "2026-05-27",
+                "excerpt": "This post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i need to build the best tool with all features working like a charm, best in security\" that made my project got delayed by 1-2 week and the caviar is i got burned-out too like exhausting all my motivation at once. The best thing that is working for me is",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1tp4x3j/comment/oo67f0o/"
+              },
+              {
+                "author": "hmida56",
+                "date": "2026-05-27",
+                "excerpt": "Congrats on getting traction. I just launched too, and thats been the most difficult part. These are actually helpful tips. although in my case i did offer a free way to use some of the features that provide some value, but locked other nice to have features for premium users. Is that approach fine ",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1tp4x3j/comment/oo6wmio/"
+              },
+              {
+                "author": "Weary-Step-8818",
+                "date": "2026-05-27",
+                "excerpt": "polish is fake work until someone is using the ugly version. the offset button was never the risk, building 200 hours before the pain was proven was.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1tp4x3j/comment/oo6jiyf/"
+              }
+            ]
+          },
+          "published_at": "2026-05-27",
+          "relevance_hint": 0.28,
+          "snippet": "This post make things much clear. I'm about to launch my own tool and to be very honest, i was running behind the perfection in everything like \"i need to build the best tool with all features working like a charm, best in security\" that made my project got delayed by 1-2 week and the caviar is i got burned-out too like exhausting all my motivation at once. The best thing that is working for me is Congrats on getting traction. I just launched too, and thats been the most difficult part. These are actually helpful tips. although in my case i did offer a free way to use some of the features that provide some value, but locked other...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "spent the last 3 months working on my productivity app, 4 things i wish i knew earlier :)",
+          "url": "https://www.reddit.com/r/SideProject/comments/1tp4x3j/spent_the_last_3_months_working_on_my/",
+          "why_relevant": "Reddit r/SideProject search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "spent the last 3 months working on my productivity app, 4 things i wish i knew earlier :)",
+      "url": "https://www.reddit.com/r/SideProject/comments/1tp4x3j/spent_the_last_3_months_working_on_my/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after",
+      "cluster_id": "cluster-3",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.33,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "A bit of background: I'm not a full-time founder or a programmer. I'm just someone who likes building stuff in my free time. For the last few months I've been working on a Dental PG exam prep app for students preparing for exams like NEET MDS, INI-CET and state dental exams. Lots of late nights, lots of rewriting features, lots of second-guessing whether anyone would actually use it. I launched it",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited\nA bit of background: I'm not a full-time founder or a programmer. I'm just someone who likes building stuff in my free time. For the last few months I've been working on a Dental PG exam prep app for students preparing for exams like NEET MDS, INI-CET and state dental exams. Lots of late nights, lots of rewriting features, lots of second-guessing whether anyone would actually use it. I launched it on Google Play a couple of days ago. Today I got my first paying customer. Financially it's not muc",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 3
+          },
+          "engagement_score": 35,
+          "freshness": 61,
+          "item_id": "R6",
+          "local_rank_score": 0.40199999999999997,
+          "local_relevance": 0.33,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-07",
+          "relevance_hint": 0.7,
+          "snippet": "A bit of background: I'm not a full-time founder or a programmer. I'm just someone who likes building stuff in my free time. For the last few months I've been working on a Dental PG exam prep app for students preparing for exams like NEET MDS, INI-CET and state dental exams. Lots of late nights, lots of rewriting features, lots of second-guessing whether anyone would actually use it. I launched it",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited",
+          "url": "https://www.reddit.com/r/SideProject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited",
+      "url": "https://www.reddit.com/r/SideProject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1ubw4u3/my_first_customer_paid_for_my_app",
+      "cluster_id": "cluster-4",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Today I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording v",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My first customer paid for my app.\nToday I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording voice notes and then forgetting about them. I'd have hundreds of notes, screenshots, and random remin",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 3
+          },
+          "engagement_score": 26,
+          "freshness": 89,
+          "item_id": "R7",
+          "local_rank_score": 0.385,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-21",
+          "relevance_hint": 0.45,
+          "snippet": "Today I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording v",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My first customer paid for my app.",
+          "url": "https://www.reddit.com/r/SideProject/comments/1ubw4u3/my_first_customer_paid_for_my_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My first customer paid for my app.",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ubw4u3/my_first_customer_paid_for_my_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/founder/comments/1u2lr59/what_aso_tools_are_actually_worth_it_for_a",
+      "cluster_id": "cluster-5",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R10",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R10",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hello, everyone! I\u2019m looking for recommendations for a GOOD ASO tool/platform for an indie startup app. Context: Early-stage app Limited budget Need App Store keyword tracking, metadata optimization, competitor research, and ranking visibility Don\u2019t need enterprise pricing or huge agency-level feature sets Most tools I\u2019m finding are ($100\u2013$500+/month) Current app category: Bible study / gamified l",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What ASO tools are actually worth it for a bootstrapped founder?\nHello, everyone! I\u2019m looking for recommendations for a GOOD ASO tool/platform for an indie startup app. Context: Early-stage app Limited budget Need App Store keyword tracking, metadata optimization, competitor research, and ranking visibility Don\u2019t need enterprise pricing or huge agency-level feature sets Most tools I\u2019m finding are ($100\u2013$500+/month) Current app category: Bible study / gamified learning / AI-assisted education Question: Especially looking for: affordable practical useful withou",
+          "container": "founder",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 3
+          },
+          "engagement_score": 23,
+          "freshness": 70,
+          "item_id": "R10",
+          "local_rank_score": 0.3345,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-11",
+          "relevance_hint": 0.34,
+          "snippet": "Hello, everyone! I\u2019m looking for recommendations for a GOOD ASO tool/platform for an indie startup app. Context: Early-stage app Limited budget Need App Store keyword tracking, metadata optimization, competitor research, and ranking visibility Don\u2019t need enterprise pricing or huge agency-level feature sets Most tools I\u2019m finding are ($100\u2013$500+/month) Current app category: Bible study / gamified l",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What ASO tools are actually worth it for a bootstrapped founder?",
+          "url": "https://www.reddit.com/r/founder/comments/1u2lr59/what_aso_tools_are_actually_worth_it_for_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What ASO tools are actually worth it for a bootstrapped founder?",
+      "url": "https://www.reddit.com/r/founder/comments/1u2lr59/what_aso_tools_are_actually_worth_it_for_a/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1tp7mgc/spent_the_last_3_months_working_on_my",
+      "cluster_id": "cluster-6",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 56.2,
+      "item_id": "R11",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "spent the last 3 months working on my productivity app, 4 pieces of advice i wish i had\nNone",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 3
+          },
+          "engagement_score": 23,
+          "freshness": 40,
+          "item_id": "R11",
+          "local_rank_score": 0.2205,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-05-27",
+          "relevance_hint": 0.28,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "spent the last 3 months working on my productivity app, 4 pieces of advice i wish i had",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1tp7mgc/spent_the_last_3_months_working_on_my/",
+          "why_relevant": "Reddit r/appledevelopers search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "spent the last 3 months working on my productivity app, 4 pieces of advice i wish i had",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1tp7mgc/spent_the_last_3_months_working_on_my/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
