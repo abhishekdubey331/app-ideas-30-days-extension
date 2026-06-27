@@ -1,0 +1,488 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "productivity mobile app \"worth paying\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What Keeps You Using A Productivity App?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1udtgcs/what_productivity_app_are_you_most_upset_with_at"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1udtgcs/what_productivity_app_are_you_most_upset_with_at"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What productivity app are you most upset with at the moment and why?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/techimpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/techimpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What reminder app are you using on desktop and mobile?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1uaevoj/can_an_app_really_be_productivity_without_a"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1uaevoj/can_an_app_really_be_productivity_without_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Can an app really be 'productivity' without a native mobile app?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-27T05:23:04.487913+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "What productivity app are you most upset with at the moment and why?\nNone",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 25,
+          "score": 4
+        },
+        "engagement_score": 28,
+        "freshness": 91,
+        "item_id": "R11",
+        "local_rank_score": 0.41150000000000003,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-23",
+        "relevance_hint": 0.35,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What productivity app are you most upset with at the moment and why?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1udtgcs/what_productivity_app_are_you_most_upset_with_at/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      },
+      {
+        "body": "Can an app really be 'productivity' without a native mobile app?\nI keep seeing \"productivity apps\" that are web-only, and I struggle to call them productivity tools. To me, productivity means capturing a task or idea the moment it happens \u2014 on the train, between meetings, away from a laptop. If the only way in is a browser tab, you've already lost that moment. Native apps can also give you offline access and widgets. Counterargument I get: \"a good responsive web app is enough.\" Maybe, but how many web-only tools do you actually open daily vs. native apps? Is",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 10,
+          "score": 0
+        },
+        "engagement_score": 4,
+        "freshness": 83,
+        "item_id": "R18",
+        "local_rank_score": 0.335,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-19",
+        "relevance_hint": 0.56,
+        "snippet": "I keep seeing \"productivity apps\" that are web-only, and I struggle to call them productivity tools. To me, productivity means capturing a task or idea the moment it happens \u2014 on the train, between meetings, away from a laptop. If the only way in is a browser tab, you've already lost that moment. Native apps can also give you offline access and widgets. Counterargument I get: \"a good responsive we",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Can an app really be 'productivity' without a native mobile app?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1uaevoj/can_an_app_really_be_productivity_without_a/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What reminder app are you using on desktop and mobile?\nNone",
+        "container": "TechImpact",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 3
+        },
+        "engagement_score": 16,
+        "freshness": 65,
+        "item_id": "R19",
+        "local_rank_score": 0.28250000000000003,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-10",
+        "relevance_hint": 0.36,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What reminder app are you using on desktop and mobile?",
+        "url": "https://www.reddit.com/r/TechImpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and/",
+        "why_relevant": "Reddit r/TechImpact search"
+      },
+      {
+        "body": "What Keeps You Using A Productivity App?\nNone",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 45,
+          "score": 7
+        },
+        "engagement_score": 37,
+        "freshness": 47,
+        "item_id": "R9",
+        "local_rank_score": 0.265,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-01",
+        "relevance_hint": 0.38,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What Keeps You Using A Productivity App?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "productivity mobile app \"worth paying\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to productivity mobile app \"worth paying\"?",
+        "search_query": "productivity mobile app \"worth paying\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-28",
+  "range_to": "2026-06-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1ttvamj/what_keeps_you_using_a_productivity_app",
+      "cluster_id": "cluster-1",
+      "engagement": 37,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 63.25,
+      "item_id": "R9",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 2.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What Keeps You Using A Productivity App?\nNone",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 45,
+            "score": 7
+          },
+          "engagement_score": 37,
+          "freshness": 47,
+          "item_id": "R9",
+          "local_rank_score": 0.265,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-01",
+          "relevance_hint": 0.38,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What Keeps You Using A Productivity App?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What Keeps You Using A Productivity App?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1ttvamj/what_keeps_you_using_a_productivity_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1udtgcs/what_productivity_app_are_you_most_upset_with_at",
+      "cluster_id": "cluster-2",
+      "engagement": 28,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 59.05,
+      "item_id": "R11",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What productivity app are you most upset with at the moment and why?\nNone",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 25,
+            "score": 4
+          },
+          "engagement_score": 28,
+          "freshness": 91,
+          "item_id": "R11",
+          "local_rank_score": 0.41150000000000003,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-23",
+          "relevance_hint": 0.35,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What productivity app are you most upset with at the moment and why?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1udtgcs/what_productivity_app_are_you_most_upset_with_at/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What productivity app are you most upset with at the moment and why?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1udtgcs/what_productivity_app_are_you_most_upset_with_at/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/techimpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and",
+      "cluster_id": "cluster-3",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 53.15,
+      "item_id": "R19",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 5.199999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What reminder app are you using on desktop and mobile?\nNone",
+          "container": "TechImpact",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 3
+          },
+          "engagement_score": 16,
+          "freshness": 65,
+          "item_id": "R19",
+          "local_rank_score": 0.28250000000000003,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-10",
+          "relevance_hint": 0.36,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What reminder app are you using on desktop and mobile?",
+          "url": "https://www.reddit.com/r/TechImpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and/",
+          "why_relevant": "Reddit r/TechImpact search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What reminder app are you using on desktop and mobile?",
+      "url": "https://www.reddit.com/r/TechImpact/comments/1u28qlk/what_reminder_app_are_you_using_on_desktop_and/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1uaevoj/can_an_app_really_be_productivity_without_a",
+      "cluster_id": "cluster-4",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 18.0,
+      "item_id": "R18",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R18",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.899999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I keep seeing \"productivity apps\" that are web-only, and I struggle to call them productivity tools. To me, productivity means capturing a task or idea the moment it happens \u2014 on the train, between meetings, away from a laptop. If the only way in is a browser tab, you've already lost that moment. Native apps can also give you offline access and widgets. Counterargument I get: \"a good responsive we",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Can an app really be 'productivity' without a native mobile app?\nI keep seeing \"productivity apps\" that are web-only, and I struggle to call them productivity tools. To me, productivity means capturing a task or idea the moment it happens \u2014 on the train, between meetings, away from a laptop. If the only way in is a browser tab, you've already lost that moment. Native apps can also give you offline access and widgets. Counterargument I get: \"a good responsive web app is enough.\" Maybe, but how many web-only tools do you actually open daily vs. native apps? Is",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 10,
+            "score": 0
+          },
+          "engagement_score": 4,
+          "freshness": 83,
+          "item_id": "R18",
+          "local_rank_score": 0.335,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-19",
+          "relevance_hint": 0.56,
+          "snippet": "I keep seeing \"productivity apps\" that are web-only, and I struggle to call them productivity tools. To me, productivity means capturing a task or idea the moment it happens \u2014 on the train, between meetings, away from a laptop. If the only way in is a browser tab, you've already lost that moment. Native apps can also give you offline access and widgets. Counterargument I get: \"a good responsive we",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Can an app really be 'productivity' without a native mobile app?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1uaevoj/can_an_app_really_be_productivity_without_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Can an app really be 'productivity' without a native mobile app?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1uaevoj/can_an_app_really_be_productivity_without_a/"
+    }
+  ],
+  "topic": "productivity mobile app \"worth paying\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
