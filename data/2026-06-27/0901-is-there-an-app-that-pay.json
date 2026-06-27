@@ -1,0 +1,988 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/affirm/comments/1tx9i23/another_app_like_affirm"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/affirm/comments/1tx9i23/another_app_like_affirm"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Another app like affirm?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/askphilly/comments/1u2la8c/visiting_later_this_summer_and_would_love_some"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/askphilly/comments/1u2la8c/visiting_later_this_summer_and_would_love_some"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Visiting later this summer and would love some advice/info"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "App for just vocab?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Questions and advice please"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-27T09:01:26.650086+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "App for just vocab?\nIs there an app that is just decks of vocalized flashcards? Could be words or phrases or both. I'd like just vocab to practice on spaced repetition, with the words read to me in addition the the print. Would be happy to pay a subscription or a purchase price. I don't need to play the tediously slow Duolingo or LingoDeer games and don't need to be forced through the vocab I already know. Spaced repitition would be ideal, instead of lesson plans. Thanks!\nAnki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+        "container": "learnvietnamese",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 16,
+          "score": 5
+        },
+        "engagement_score": 48,
+        "freshness": 58,
+        "item_id": "R3",
+        "local_rank_score": 0.375,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+            "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app.",
+            "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern.",
+            "www.Podglot.com ios and android 100% free (northern and southern audio).",
+            "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/"
+          ],
+          "top_comments": [
+            {
+              "author": "ShishiyaSeneca",
+              "date": "2026-06-06",
+              "excerpt": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+              "score": 4,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2262a/"
+            },
+            {
+              "author": "misschickpea",
+              "date": "2026-06-06",
+              "excerpt": "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial",
+              "score": 3,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq5sh7x/"
+            },
+            {
+              "author": "Fabulous-Explorer281",
+              "date": "2026-06-06",
+              "excerpt": "Any particular dialect?",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2bgo7/"
+            },
+            {
+              "author": "banyanflashcardsapp",
+              "date": "2026-06-07",
+              "excerpt": "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app. My best friend uses it to help him with Vietnamese vocab. You can add vocab from photos or generate automatically from a description of what you want to le",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq6xl8v/"
+            },
+            {
+              "author": "vnthu6z",
+              "date": "2026-06-06",
+              "excerpt": "www.Podglot.com ios and android 100% free (northern and southern audio).",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq24ss7/"
+            },
+            {
+              "author": "Sparklerre",
+              "date": "2026-06-10",
+              "excerpt": "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/",
+              "score": 1,
+              "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oqvp7nm/"
+            }
+          ]
+        },
+        "published_at": "2026-06-06",
+        "relevance_hint": 0.45,
+        "snippet": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "App for just vocab?",
+        "url": "https://www.reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Another app like affirm?\nIs there another app similar to affirm. I know about klarna, after pay etc but is there an app that stretches out the payment plan like affirm?\nSezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+        "container": "Affirm",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 32,
+          "score": 35
+        },
+        "engagement_score": 100,
+        "freshness": 55,
+        "item_id": "R1",
+        "local_rank_score": 0.36750000000000005,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+            "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well.",
+            "PayPal credit as well as PayPal 4 or something like that.",
+            "There is klarna and PayPal that I have used.",
+            "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm"
+          ],
+          "top_comments": [
+            {
+              "author": "Tranquilo710",
+              "date": "2026-06-05",
+              "excerpt": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+              "score": 12,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opu7e1u/"
+            },
+            {
+              "author": "Tranquilo710",
+              "date": "2026-06-05",
+              "excerpt": "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans.",
+              "score": 4,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opuiru2/"
+            },
+            {
+              "author": "RealisticClassroom96",
+              "date": "2026-06-06",
+              "excerpt": "PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+              "score": 3,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0rclk/"
+            },
+            {
+              "author": "Sensitive_Singer_273",
+              "date": "2026-06-05",
+              "excerpt": "PayPal",
+              "score": 2,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwvwz9/"
+            },
+            {
+              "author": "Romy90210",
+              "date": "2026-06-05",
+              "excerpt": "Four, Afterpay",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvw29s/"
+            },
+            {
+              "author": "Accomplished-Tie9620",
+              "date": "2026-06-05",
+              "excerpt": "Afterpay is another",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvvtki/"
+            },
+            {
+              "author": "meg8278",
+              "date": "2026-06-05",
+              "excerpt": "There is klarna and PayPal that I have used.",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwwo7k/"
+            },
+            {
+              "author": "Romanharper2013",
+              "date": "2026-06-05",
+              "excerpt": "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opyhzhv/"
+            },
+            {
+              "author": "Affectionate-Boat393",
+              "date": "2026-06-06",
+              "excerpt": "Sunbit",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0x1m9/"
+            },
+            {
+              "author": "Pimpeto",
+              "date": "2026-06-06",
+              "excerpt": "Bread",
+              "score": 1,
+              "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq17frc/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.42,
+        "snippet": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Another app like affirm?",
+        "url": "https://www.reddit.com/r/Affirm/comments/1tx9i23/another_app_like_affirm/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Visiting later this summer and would love some advice/info\nHi y'all, I'm visiting Philly for about 5 days at the end of August/beginning of September. I've never been there, coming for a conference, my work is paying the conference registration but none of my travel costs so trying to keep things as cheap as possible while still getting to have an awesome trip. A few things I'd love info or advice on Apple hostel: seems to have very good reviews and looks very affordable. I've never stayed in a hostel before, but it's walkable to the conference and seem\nThe easiest thing you can do for SEPTA is use any contactless credit card you have. It really is that easy now. Unless you are riding multiple trips per day on regional rail I wouldn't worry about getting a pass. The fare for subway and busses is the same for credit cards as it is for Septa Key Card I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you. They're $31, plus $4.95 for the SEPTA Key card. They run Monday midnight - Monday 2am, so if your stay invludes a Monday, you're straddling 2 weeks. It's probably best to just pay per-ride, which is $2.90, and you Regarding 2: We have 2 major subways. The Market Frankford Line (aka MFL aka the El) and the Broad Street Line (aka BSL). The El goes east and west (essentially) and the BSL goes north and south. They basically make a cross. Buses are better for transportation if you\u2019re going anywhere that\u2019s not alo",
+        "container": "AskPhilly",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 21,
+          "score": 7
+        },
+        "engagement_score": 59,
+        "freshness": 67,
+        "item_id": "R2",
+        "local_rank_score": 0.3565,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "I had some friends stay here and say it was good You can get a SEPTAKey and load it with $31 weekly Trailpass that will work on the busses, subway, an...",
+            "The easiest thing you can do for SEPTA is use any contactless credit card you have.",
+            "I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you.",
+            "Regarding 2: We have 2 major subways. The Market Frankford Line (aka MFL aka the El) and the Broad Street Line (aka BSL).",
+            "So where is the actual conference held? What we usually just call \u201cthe convention center\u201d in center city is really \u201cThe Pennsylvania Convention Center...",
+            "You should go to the mutter museum.",
+            "The SEPTA key card can also by used on the Philly Phlash bus which takes you to the key tourist spots in Philadelphia in air conditioning (hot & humid...",
+            "Hi! For public transportation this might help: https://www.",
+            "Center City is only 2 miles wide. One can easily walk from river to river in an hour (2 mph).",
+            "From my personal experience, the SEPTA humans at the PHL rail connection, the main 30th St station, and on any train I\u2019ve been on are well informed an..."
+          ],
+          "top_comments": [
+            {
+              "author": "_ogg",
+              "date": "2026-06-11",
+              "excerpt": "The easiest thing you can do for SEPTA is use any contactless credit card you have. It really is that easy now. Unless you are riding multiple trips per day on regional rail I wouldn't worry about getting a pass. The fare for subway and busses is the same for credit cards as it is for Septa Key Card",
+              "score": 6,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqycf1r/"
+            },
+            {
+              "author": "tet3",
+              "date": "2026-06-11",
+              "excerpt": "I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you. They're $31, plus $4.95 for the SEPTA Key card. They run Monday midnight - Monday 2am, so if your stay invludes a Monday, you're straddling 2 weeks. It's probably best to just pay per-ride, which is $2.90, and you",
+              "score": 6,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyeqq8/"
+            },
+            {
+              "author": "Jpachu16",
+              "date": "2026-06-11",
+              "excerpt": "Regarding 2: We have 2 major subways. The Market Frankford Line (aka MFL aka the El) and the Broad Street Line (aka BSL). The El goes east and west (essentially) and the BSL goes north and south. They basically make a cross. Buses are better for transportation if you\u2019re going anywhere that\u2019s not alo",
+              "score": 4,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyg055/"
+            },
+            {
+              "author": "Brraaap",
+              "date": "2026-06-11",
+              "excerpt": "I had some friends stay here and say it was good You can get a SEPTAKey and load it with $31 weekly Trailpass that will work on the busses, subway, and el. There's a whole lot of must see stuff",
+              "score": 3,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyblth/"
+            },
+            {
+              "author": "OwnAlternative",
+              "date": "2026-06-11",
+              "excerpt": "The SEPTA key card can also by used on the Philly Phlash bus which takes you to the key tourist spots in Philadelphia in air conditioning (hot & humid here in August). https://ridephillyphlash.com/",
+              "score": 3,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqycz8f/"
+            },
+            {
+              "author": "Successful_You_8433",
+              "date": "2026-06-11",
+              "excerpt": "Hi! For public transportation this might help: https://www.septa.org. You can take the regional rail from the airport to center city. To use public transit you can have a \u201csepta key\u201d (ie transit card) or just tap in with a regular credit card. Center City is walkable if that\u2019s where you end up stayi",
+              "score": 2,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyc6s2/"
+            },
+            {
+              "author": "WissahickonKid",
+              "date": "2026-06-11",
+              "excerpt": "Center City is only 2 miles wide. One can easily walk from river to river in an hour (2 mph). A good, brisk city-dweller walk is about 3mph. A lot of bus transit in Center City will take about the same time as walking when you factor in time spent waiting for a bus that may get stuck in traffic. The",
+              "score": 2,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqygm1o/"
+            },
+            {
+              "author": "janejacobs1",
+              "date": "2026-06-11",
+              "excerpt": "From my personal experience, the SEPTA humans at the PHL rail connection, the main 30th St station, and on any train I\u2019ve been on are well informed and happy to help newbies and travelers. Yes, it\u2019s all pretty confusing trying to sort it out online, but they\u2019ll help you with your ticket purchase at ",
+              "score": 2,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/or02v2y/"
+            },
+            {
+              "author": "TwistedClyster",
+              "date": "2026-06-11",
+              "excerpt": "So where is the actual conference held? What we usually just call \u201cthe convention center\u201d in center city is really \u201cThe Pennsylvania Convention Center\u201d. It\u2019s right by Reading Terminal Market, close to City Hall and just a few blocks north of what we call \u201cThe Gayborhood\u201d with has most of our gay bar",
+              "score": 1,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/or15r90/"
+            },
+            {
+              "author": "Tall_Engineer685",
+              "date": "2026-06-13",
+              "excerpt": "You should go to the mutter museum.",
+              "score": 1,
+              "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/orgmffh/"
+            }
+          ]
+        },
+        "published_at": "2026-06-11",
+        "relevance_hint": 0.22,
+        "snippet": "The easiest thing you can do for SEPTA is use any contactless credit card you have. It really is that easy now. Unless you are riding multiple trips per day on regional rail I wouldn't worry about getting a pass. The fare for subway and busses is the same for credit cards as it is for Septa Key Card I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you. They're $31, plus $4.95 for the SEPTA Key card. They run Monday midnight - Monday 2am, so if your stay invludes a Monday, you're straddling 2 weeks. It's probably best to just pay per-ride, which is $2.90, and you Regarding 2: We have 2...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Visiting later this summer and would love some advice/info",
+        "url": "https://www.reddit.com/r/AskPhilly/comments/1u2la8c/visiting_later_this_summer_and_would_love_some/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Questions and advice please\nHey people, I just received a job offer as an overnight supervisor. Curious to have some insight on the role and anyone\u2019s thoughts or advice they can give me for working for sheetz. Also is there an app that will let me access my wages early like payactiv, daily pay, rapid pay, instant pay, etc? If so what is it and how does it work and about how much could I access? Also what day and around what time do you guys get paid? [Normal payday and if you get 2 day early direct deposit like me?? I bank\nBe prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+        "container": "sheetz",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 2
+        },
+        "engagement_score": 25,
+        "freshness": 51,
+        "item_id": "R5",
+        "local_rank_score": 0.3345,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "I'm an overnight team member, and the over night sups have a lot of work with very little manpower.",
+            "How it is varies a lot from store to store depending on business, staffing, store culture.",
+            "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb qu...",
+            "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start t...",
+            "Be prepared to have your ass run ragged."
+          ],
+          "top_comments": [
+            {
+              "author": "RegularImpressive819",
+              "date": "2026-06-03",
+              "excerpt": "Be prepared to have your ass run ragged.",
+              "score": 9,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/ophlb7q/"
+            },
+            {
+              "author": "Easy-Bathroom2120",
+              "date": "2026-06-03",
+              "excerpt": "I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s",
+              "score": 4,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opg52yn/"
+            },
+            {
+              "author": "Technician_Grouchy",
+              "date": "2026-06-03",
+              "excerpt": "How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+              "score": 4,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opgavx3/"
+            },
+            {
+              "author": "Exotic_Expert_8138",
+              "date": "2026-06-04",
+              "excerpt": "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb quickly. But be warned. You have the heaviest work load with the least amount of people, and you are given a lot of pretty important tasks such as EOD, ",
+              "score": 3,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opm99xb/"
+            },
+            {
+              "author": "Optimal_Entertainer1",
+              "date": "2026-06-06",
+              "excerpt": "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start training in a few weeks rather than right away. give u time to adjust but u would get less pay but less work as well to settle in. whatever seems best ",
+              "score": 1,
+              "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/oq5gpci/"
+            }
+          ]
+        },
+        "published_at": "2026-06-03",
+        "relevance_hint": 0.22,
+        "snippet": "Be prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Questions and advice please",
+        "url": "https://www.reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-28",
+  "range_to": "2026-06-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/affirm/comments/1tx9i23/another_app_like_affirm",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 6.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Another app like affirm?\nIs there another app similar to affirm. I know about klarna, after pay etc but is there an app that stretches out the payment plan like affirm?\nSezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+          "container": "Affirm",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 32,
+            "score": 35
+          },
+          "engagement_score": 100,
+          "freshness": 55,
+          "item_id": "R1",
+          "local_rank_score": 0.36750000000000005,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+              "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well.",
+              "PayPal credit as well as PayPal 4 or something like that.",
+              "There is klarna and PayPal that I have used.",
+              "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm"
+            ],
+            "top_comments": [
+              {
+                "author": "Tranquilo710",
+                "date": "2026-06-05",
+                "excerpt": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3.",
+                "score": 12,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opu7e1u/"
+              },
+              {
+                "author": "Tranquilo710",
+                "date": "2026-06-05",
+                "excerpt": "Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans.",
+                "score": 4,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opuiru2/"
+              },
+              {
+                "author": "RealisticClassroom96",
+                "date": "2026-06-06",
+                "excerpt": "PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can pay with PayPal credit and get 6 months 0 interest",
+                "score": 3,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0rclk/"
+              },
+              {
+                "author": "Sensitive_Singer_273",
+                "date": "2026-06-05",
+                "excerpt": "PayPal",
+                "score": 2,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwvwz9/"
+              },
+              {
+                "author": "Romy90210",
+                "date": "2026-06-05",
+                "excerpt": "Four, Afterpay",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvw29s/"
+              },
+              {
+                "author": "Accomplished-Tie9620",
+                "date": "2026-06-05",
+                "excerpt": "Afterpay is another",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opvvtki/"
+              },
+              {
+                "author": "meg8278",
+                "date": "2026-06-05",
+                "excerpt": "There is klarna and PayPal that I have used.",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opwwo7k/"
+              },
+              {
+                "author": "Romanharper2013",
+                "date": "2026-06-05",
+                "excerpt": "I use zip pay too but I think you can only do 4 payments also paypal pay later has an option to stretch out like affirm",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/opyhzhv/"
+              },
+              {
+                "author": "Affectionate-Boat393",
+                "date": "2026-06-06",
+                "excerpt": "Sunbit",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq0x1m9/"
+              },
+              {
+                "author": "Pimpeto",
+                "date": "2026-06-06",
+                "excerpt": "Bread",
+                "score": 1,
+                "url": "https://reddit.com/r/Affirm/comments/1tx9i23/comment/oq17frc/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.42,
+          "snippet": "Sezzle started doing monthly payments. At least for me im offered up to 3 years. They offered me like 7 different plans compared to affirms usual 3. Ive been using sezzle since it began and been apart of sezzle anywhere since it began as well. Not sure if that has anything to do with it but i put a 570$ target order today and had those options available to me. There is interest tho like affirm once you start choosing the monthly/yearly plans. PayPal credit as well as PayPal 4 or something like that. I prefer PayPal credit as anything you buy pass $150 is divided into 6 months no interest as long as the merchant accepts PayPal you can...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Another app like affirm?",
+          "url": "https://www.reddit.com/r/Affirm/comments/1tx9i23/another_app_like_affirm/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Another app like affirm?",
+      "url": "https://www.reddit.com/r/Affirm/comments/1tx9i23/another_app_like_affirm/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/askphilly/comments/1u2la8c/visiting_later_this_summer_and_would_love_some",
+      "cluster_id": "cluster-2",
+      "engagement": 59,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "The easiest thing you can do for SEPTA is use any contactless credit card you have. It really is that easy now. Unless you are riding multiple trips per day on regional rail I wouldn't worry about getting a pass. The fare for subway and busses is the same for credit cards as it is for Septa Key Card I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you. They're $31, plus $4.95 for the SEPTA Key card. They run Monday midnight - Monday 2am, so if your stay invludes a Monday, you're straddling 2 weeks. It's probably best to just pay per-ride, which is $2.90, and you Regarding 2: We have 2...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Visiting later this summer and would love some advice/info\nHi y'all, I'm visiting Philly for about 5 days at the end of August/beginning of September. I've never been there, coming for a conference, my work is paying the conference registration but none of my travel costs so trying to keep things as cheap as possible while still getting to have an awesome trip. A few things I'd love info or advice on Apple hostel: seems to have very good reviews and looks very affordable. I've never stayed in a hostel before, but it's walkable to the conference and seem\nThe easiest thing you can do for SEPTA is use any contactless credit card you have. It really is that easy now. Unless you are riding multiple trips per day on regional rail I wouldn't worry about getting a pass. The fare for subway and busses is the same for credit cards as it is for Septa Key Card I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you. They're $31, plus $4.95 for the SEPTA Key card. They run Monday midnight - Monday 2am, so if your stay invludes a Monday, you're straddling 2 weeks. It's probably best to just pay per-ride, which is $2.90, and you Regarding 2: We have 2 major subways. The Market Frankford Line (aka MFL aka the El) and the Broad Street Line (aka BSL). The El goes east and west (essentially) and the BSL goes north and south. They basically make a cross. Buses are better for transportation if you\u2019re going anywhere that\u2019s not alo",
+          "container": "AskPhilly",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 21,
+            "score": 7
+          },
+          "engagement_score": 59,
+          "freshness": 67,
+          "item_id": "R2",
+          "local_rank_score": 0.3565,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "I had some friends stay here and say it was good You can get a SEPTAKey and load it with $31 weekly Trailpass that will work on the busses, subway, an...",
+              "The easiest thing you can do for SEPTA is use any contactless credit card you have.",
+              "I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you.",
+              "Regarding 2: We have 2 major subways. The Market Frankford Line (aka MFL aka the El) and the Broad Street Line (aka BSL).",
+              "So where is the actual conference held? What we usually just call \u201cthe convention center\u201d in center city is really \u201cThe Pennsylvania Convention Center...",
+              "You should go to the mutter museum.",
+              "The SEPTA key card can also by used on the Philly Phlash bus which takes you to the key tourist spots in Philadelphia in air conditioning (hot & humid...",
+              "Hi! For public transportation this might help: https://www.",
+              "Center City is only 2 miles wide. One can easily walk from river to river in an hour (2 mph).",
+              "From my personal experience, the SEPTA humans at the PHL rail connection, the main 30th St station, and on any train I\u2019ve been on are well informed an..."
+            ],
+            "top_comments": [
+              {
+                "author": "_ogg",
+                "date": "2026-06-11",
+                "excerpt": "The easiest thing you can do for SEPTA is use any contactless credit card you have. It really is that easy now. Unless you are riding multiple trips per day on regional rail I wouldn't worry about getting a pass. The fare for subway and busses is the same for credit cards as it is for Septa Key Card",
+                "score": 6,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqycf1r/"
+              },
+              {
+                "author": "tet3",
+                "date": "2026-06-11",
+                "excerpt": "I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you. They're $31, plus $4.95 for the SEPTA Key card. They run Monday midnight - Monday 2am, so if your stay invludes a Monday, you're straddling 2 weeks. It's probably best to just pay per-ride, which is $2.90, and you",
+                "score": 6,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyeqq8/"
+              },
+              {
+                "author": "Jpachu16",
+                "date": "2026-06-11",
+                "excerpt": "Regarding 2: We have 2 major subways. The Market Frankford Line (aka MFL aka the El) and the Broad Street Line (aka BSL). The El goes east and west (essentially) and the BSL goes north and south. They basically make a cross. Buses are better for transportation if you\u2019re going anywhere that\u2019s not alo",
+                "score": 4,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyg055/"
+              },
+              {
+                "author": "Brraaap",
+                "date": "2026-06-11",
+                "excerpt": "I had some friends stay here and say it was good You can get a SEPTAKey and load it with $31 weekly Trailpass that will work on the busses, subway, and el. There's a whole lot of must see stuff",
+                "score": 3,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyblth/"
+              },
+              {
+                "author": "OwnAlternative",
+                "date": "2026-06-11",
+                "excerpt": "The SEPTA key card can also by used on the Philly Phlash bus which takes you to the key tourist spots in Philadelphia in air conditioning (hot & humid here in August). https://ridephillyphlash.com/",
+                "score": 3,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqycz8f/"
+              },
+              {
+                "author": "Successful_You_8433",
+                "date": "2026-06-11",
+                "excerpt": "Hi! For public transportation this might help: https://www.septa.org. You can take the regional rail from the airport to center city. To use public transit you can have a \u201csepta key\u201d (ie transit card) or just tap in with a regular credit card. Center City is walkable if that\u2019s where you end up stayi",
+                "score": 2,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqyc6s2/"
+              },
+              {
+                "author": "WissahickonKid",
+                "date": "2026-06-11",
+                "excerpt": "Center City is only 2 miles wide. One can easily walk from river to river in an hour (2 mph). A good, brisk city-dweller walk is about 3mph. A lot of bus transit in Center City will take about the same time as walking when you factor in time spent waiting for a bus that may get stuck in traffic. The",
+                "score": 2,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/oqygm1o/"
+              },
+              {
+                "author": "janejacobs1",
+                "date": "2026-06-11",
+                "excerpt": "From my personal experience, the SEPTA humans at the PHL rail connection, the main 30th St station, and on any train I\u2019ve been on are well informed and happy to help newbies and travelers. Yes, it\u2019s all pretty confusing trying to sort it out online, but they\u2019ll help you with your ticket purchase at ",
+                "score": 2,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/or02v2y/"
+              },
+              {
+                "author": "TwistedClyster",
+                "date": "2026-06-11",
+                "excerpt": "So where is the actual conference held? What we usually just call \u201cthe convention center\u201d in center city is really \u201cThe Pennsylvania Convention Center\u201d. It\u2019s right by Reading Terminal Market, close to City Hall and just a few blocks north of what we call \u201cThe Gayborhood\u201d with has most of our gay bar",
+                "score": 1,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/or15r90/"
+              },
+              {
+                "author": "Tall_Engineer685",
+                "date": "2026-06-13",
+                "excerpt": "You should go to the mutter museum.",
+                "score": 1,
+                "url": "https://reddit.com/r/AskPhilly/comments/1u2la8c/comment/orgmffh/"
+              }
+            ]
+          },
+          "published_at": "2026-06-11",
+          "relevance_hint": 0.22,
+          "snippet": "The easiest thing you can do for SEPTA is use any contactless credit card you have. It really is that easy now. Unless you are riding multiple trips per day on regional rail I wouldn't worry about getting a pass. The fare for subway and busses is the same for credit cards as it is for Septa Key Card I can't speak to Apple Hostel. A weekly transit pass is probably not worth it for you. They're $31, plus $4.95 for the SEPTA Key card. They run Monday midnight - Monday 2am, so if your stay invludes a Monday, you're straddling 2 weeks. It's probably best to just pay per-ride, which is $2.90, and you Regarding 2: We have 2...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Visiting later this summer and would love some advice/info",
+          "url": "https://www.reddit.com/r/AskPhilly/comments/1u2la8c/visiting_later_this_summer_and_would_love_some/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Visiting later this summer and would love some advice/info",
+      "url": "https://www.reddit.com/r/AskPhilly/comments/1u2la8c/visiting_later_this_summer_and_would_love_some/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab",
+      "cluster_id": "cluster-3",
+      "engagement": 48,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "App for just vocab?\nIs there an app that is just decks of vocalized flashcards? Could be words or phrases or both. I'd like just vocab to practice on spaced repetition, with the words read to me in addition the the print. Would be happy to pay a subscription or a purchase price. I don't need to play the tediously slow Duolingo or LingoDeer games and don't need to be forced through the vocab I already know. Spaced repitition would be ideal, instead of lesson plans. Thanks!\nAnki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+          "container": "learnvietnamese",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 16,
+            "score": 5
+          },
+          "engagement_score": 48,
+          "freshness": 58,
+          "item_id": "R3",
+          "local_rank_score": 0.375,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+              "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app.",
+              "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern.",
+              "www.Podglot.com ios and android 100% free (northern and southern audio).",
+              "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/"
+            ],
+            "top_comments": [
+              {
+                "author": "ShishiyaSeneca",
+                "date": "2026-06-06",
+                "excerpt": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine",
+                "score": 4,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2262a/"
+              },
+              {
+                "author": "misschickpea",
+                "date": "2026-06-06",
+                "excerpt": "I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial",
+                "score": 3,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq5sh7x/"
+              },
+              {
+                "author": "Fabulous-Explorer281",
+                "date": "2026-06-06",
+                "excerpt": "Any particular dialect?",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq2bgo7/"
+              },
+              {
+                "author": "banyanflashcardsapp",
+                "date": "2026-06-07",
+                "excerpt": "There\u2019s Banyan Flashcards if you use iOS, which teaches you vocab passively throughout the day, without you having to spend any time in the app. My best friend uses it to help him with Vietnamese vocab. You can add vocab from photos or generate automatically from a description of what you want to le",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq6xl8v/"
+              },
+              {
+                "author": "vnthu6z",
+                "date": "2026-06-06",
+                "excerpt": "www.Podglot.com ios and android 100% free (northern and southern audio).",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oq24ss7/"
+              },
+              {
+                "author": "Sparklerre",
+                "date": "2026-06-10",
+                "excerpt": "Another vote for Anki. I used to download audio from Forvo and add it like this: https://morevietnamese.com/add-audio-to-anki/",
+                "score": 1,
+                "url": "https://reddit.com/r/learnvietnamese/comments/1tyawvw/comment/oqvp7nm/"
+              }
+            ]
+          },
+          "published_at": "2026-06-06",
+          "relevance_hint": 0.45,
+          "snippet": "Anki! Since I started with it 1.5 years ago, my Vietnamese has improved so much. I do my reps every day and it has become an easy routine I do Drops to introduce me to new vocab I don\u2019t know, but it\u2019s more standard Northern Vietnamese than Southern. My family speaks Southern and I use it bc I can tell now like what words are used by both or figure out the pronunciation on my own. Most vocab between the two are the same anyway especial Any particular dialect?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "App for just vocab?",
+          "url": "https://www.reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "App for just vocab?",
+      "url": "https://www.reddit.com/r/learnvietnamese/comments/1tyawvw/app_for_just_vocab/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please",
+      "cluster_id": "cluster-4",
+      "engagement": 25,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 10.800000000000004,
+      "rrf_score": 0.0078125,
+      "snippet": "Be prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Questions and advice please\nHey people, I just received a job offer as an overnight supervisor. Curious to have some insight on the role and anyone\u2019s thoughts or advice they can give me for working for sheetz. Also is there an app that will let me access my wages early like payactiv, daily pay, rapid pay, instant pay, etc? If so what is it and how does it work and about how much could I access? Also what day and around what time do you guys get paid? [Normal payday and if you get 2 day early direct deposit like me?? I bank\nBe prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+          "container": "sheetz",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 2
+          },
+          "engagement_score": 25,
+          "freshness": 51,
+          "item_id": "R5",
+          "local_rank_score": 0.3345,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "I'm an overnight team member, and the over night sups have a lot of work with very little manpower.",
+              "How it is varies a lot from store to store depending on business, staffing, store culture.",
+              "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb qu...",
+              "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start t...",
+              "Be prepared to have your ass run ragged."
+            ],
+            "top_comments": [
+              {
+                "author": "RegularImpressive819",
+                "date": "2026-06-03",
+                "excerpt": "Be prepared to have your ass run ragged.",
+                "score": 9,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/ophlb7q/"
+              },
+              {
+                "author": "Easy-Bathroom2120",
+                "date": "2026-06-03",
+                "excerpt": "I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s",
+                "score": 4,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opg52yn/"
+              },
+              {
+                "author": "Technician_Grouchy",
+                "date": "2026-06-03",
+                "excerpt": "How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially coming to it externally. The best things you can do is build a good routine, multitasking and getting used to the flow of bu",
+                "score": 4,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opgavx3/"
+              },
+              {
+                "author": "Exotic_Expert_8138",
+                "date": "2026-06-04",
+                "excerpt": "I\u2019m an overnight spv at a decently busy store. I will say, if you\u2019re looking to progress through the ranks, taking the job is the best way to climb quickly. But be warned. You have the heaviest work load with the least amount of people, and you are given a lot of pretty important tasks such as EOD, ",
+                "score": 3,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/opm99xb/"
+              },
+              {
+                "author": "Optimal_Entertainer1",
+                "date": "2026-06-06",
+                "excerpt": "if they have an open position for team member overnight i\u2019d recommend that but tell them you\u2019re interested in supervisor and they might have u start training in a few weeks rather than right away. give u time to adjust but u would get less pay but less work as well to settle in. whatever seems best ",
+                "score": 1,
+                "url": "https://reddit.com/r/sheetz/comments/1tvcqop/comment/oq5gpci/"
+              }
+            ]
+          },
+          "published_at": "2026-06-03",
+          "relevance_hint": 0.22,
+          "snippet": "Be prepared to have your ass run ragged. I'm an overnight team member, and the over night sups have a lot of work with very little manpower. As for the pay, regular pay is every other Friday. Early pay is the Wednesday before. We also have rapid pay, and they give you access to your earned wages as soon as a week early, and I think you can get as much as half of your paycheck with it. I use early pay, and I normally get it at 3 pm, but s How it is varies a lot from store to store depending on business, staffing, store culture. 3rd shift supervisor is definitely one of the more challenging positions, especially...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Questions and advice please",
+          "url": "https://www.reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Questions and advice please",
+      "url": "https://www.reddit.com/r/sheetz/comments/1tvcqop/questions_and_advice_please/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
