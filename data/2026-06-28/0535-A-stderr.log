@@ -1,0 +1,309 @@
+Batch A sources=reddit,hackernews
+Started at 2026-06-28T05:35:44Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/28312703301
+----
+
+===== Seed: truckers "is there an app that" paid =====
+/last30days · researching: truckers "is there an app that" paid
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="truckers "is there app that" paid" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=truckers+%22is+there+an+app+that%22+paid&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'truckers "is there an app that" paid' into 2 queries: ['truckers "is there app that" paid', 'truckers "is there an app that" paid']
+[Reddit] Global search 1/2: 'truckers "is there app that" paid' (sort=relevance)
+[Reddit] Global search 2/2: 'truckers "is there an app that" paid' (sort=top)
+[Reddit]   -> 0 results for 'truckers "is there an app that" paid'
+[Reddit]   -> 0 results for 'truckers "is there app that" paid'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=truckers+%22is+there+an+app+that%22+paid&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'truckers "is there an app that" paid' into 2 queries: ['truckers "is there app that" paid', 'truckers "is there an app that" paid']
+[Reddit] Global search 1/2: 'truckers "is there app that" paid' (sort=relevance)
+[Reddit] Global search 2/2: 'truckers "is there an app that" paid' (sort=top)
+[Reddit]   -> 0 results for 'truckers "is there app that" paid'
+[Reddit]   -> 0 results for 'truckers "is there an app that" paid'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (1.8s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-28/0535-truckers-is-there-an-app-that-paid.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/androidapps =====
+/last30days · researching: site:reddit.com/r/androidapps
+⏳ [95mProcessing[0m Scoring and ranking...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs androidapps
+[Competitors] Comparing: site:reddit.com vs r vs androidapps
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] androidapps: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="androidapps" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=androidapps&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'androidapps' into 1 queries: ['androidapps']
+[Reddit] Global search 1/2: 'androidapps' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Reddit]   -> 7 results for 'r'
+[Reddit] Discovered subreddits: ['hatethissmug', 'ITOI', 'Piracy']
+[Reddit] Subreddit search: r/hatethissmug for 'r'
+[Reddit] Subreddit search: r/ITOI for 'r'
+[Reddit] Subreddit search: r/Piracy for 'r'
+[Reddit]   -> 7 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['Schaffrillas', 'malelivingspace', 'Weird']
+[Reddit] Subreddit search: r/Schaffrillas for 'site:reddit.com'
+[Reddit] Subreddit search: r/malelivingspace for 'site:reddit.com'
+[Reddit] Subreddit search: r/Weird for 'site:reddit.com'
+[Reddit]   -> 7 results from r/Piracy
+[Reddit]   -> 1 results from r/ITOI
+[Reddit]   -> 7 results for 'androidapps'
+[Reddit] Discovered subreddits: ['androidapps', 'Android', 'androiddev']
+[Reddit] Subreddit search: r/androidapps for 'androidapps'
+[Reddit] Subreddit search: r/Android for 'androidapps'
+[Reddit] Subreddit search: r/androiddev for 'androidapps'
+[Reddit]   -> 7 results from r/hatethissmug
+[Reddit] After dedup: 19 unique posts
+[Reddit] Final: 19 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 7 results from r/malelivingspace
+[Reddit]   -> 7 results from r/Schaffrillas
+[Reddit]   -> 7 results from r/Weird
+[Reddit] After dedup: 27 unique posts
+[Reddit] Final: 27 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 7 results from r/Android
+[Reddit]   -> 7 results from r/androidapps
+[Reddit]   -> 7 results from r/androiddev
+[Reddit] After dedup: 23 unique posts
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 7.0s
+[Reddit] Enriched 5/5 posts in 5.4s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Reddit] Enriched 5/5 posts in 8.9s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (21.1s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-28/0536-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/Android =====
+/last30days · researching: site:reddit.com/r/Android
+⏳ [95mProcessing[0m Finding patterns...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs Android
+[Competitors] Comparing: site:reddit.com vs r vs Android
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] Android: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="android" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=Android&sort=relevance&t=month&limit=25&raw_json=1
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'Android' into 1 queries: ['android']
+[Reddit] Global search 1/2: 'android' (sort=relevance)
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[Reddit]   -> 7 results for 'r'
+[Reddit] Discovered subreddits: ['hatethissmug', 'ITOI', 'Piracy']
+[Reddit] Subreddit search: r/hatethissmug for 'r'
+[Reddit]   -> 7 results for 'site:reddit.com'
+[Reddit] Subreddit search: r/ITOI for 'r'
+[Reddit] Subreddit search: r/Piracy for 'r'
+[Reddit] Discovered subreddits: ['Schaffrillas', 'malelivingspace', 'Weird']
+[Reddit]   -> 1 results from r/ITOI
+[Reddit] Subreddit search: r/Schaffrillas for 'site:reddit.com'
+[Reddit]   -> 7 results from r/hatethissmug
+[Reddit] Subreddit search: r/malelivingspace for 'site:reddit.com'
+[Reddit]   -> 7 results from r/Piracy
+[Reddit] Subreddit search: r/Weird for 'site:reddit.com'
+[Reddit]   -> 7 results from r/Schaffrillas
+[Reddit] After dedup: 19 unique posts
+[Reddit] Final: 19 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit]   -> 7 results from r/malelivingspace
+[Reddit]   -> 7 results from r/Weird
+[Reddit] After dedup: 27 unique posts
+[Reddit] Final: 27 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Reddit]   -> 7 results for 'android'
+[Reddit] Discovered subreddits: ['Android', 'androidapps', 'samsunggalaxy']
+[Reddit] Subreddit search: r/Android for 'android'
+[Reddit] Subreddit search: r/androidapps for 'android'
+[Reddit] Subreddit search: r/samsunggalaxy for 'android'
+[Reddit]   -> 7 results from r/samsunggalaxy
+[Reddit]   -> 7 results from r/androidapps
+[Reddit]   -> 7 results from r/Android
+[Reddit] After dedup: 24 unique posts
+[Reddit] Final: 24 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 3.7s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (18.7s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-28/0536-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/iOSApps =====
+/last30days · researching: site:reddit.com/r/iOSApps
+⏳ [95mProcessing[0m Organizing findings...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs iOSApps
+[Competitors] Comparing: site:reddit.com vs r vs iOSApps
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] iOSApps: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[reddit,hackernews]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="iosapps" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=iOSApps&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'iOSApps' into 1 queries: ['iosapps']
+[Reddit] Global search 1/2: 'iosapps' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=site%3Areddit.com&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'site:reddit.com' into 1 queries: ['site:reddit.com']
+[Reddit] Global search 1/2: 'site:reddit.com' (sort=relevance)
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=r&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'r' into 1 queries: ['r']
+[Reddit] Global search 1/2: 'r' (sort=relevance)
+[Reddit]   -> 7 results for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['Schaffrillas', 'malelivingspace', 'Weird']
+[Reddit] Subreddit search: r/Schaffrillas for 'site:reddit.com'
+[Reddit]   -> 7 results for 'r'
+[Reddit] Subreddit search: r/malelivingspace for 'site:reddit.com'
+[Reddit] Discovered subreddits: ['hatethissmug', 'ITOI', 'Piracy']
+[Reddit] Subreddit search: r/hatethissmug for 'r'
+[Reddit] Subreddit search: r/Weird for 'site:reddit.com'
+[Reddit] Subreddit search: r/ITOI for 'r'
+[Reddit]   -> 7 results from r/malelivingspace
+[Reddit] Subreddit search: r/Piracy for 'r'
+[Reddit]   -> 7 results from r/Schaffrillas
+[Reddit]   -> 7 results from r/hatethissmug
+[Reddit]   -> 7 results from r/Weird
+[Reddit]   -> 1 results from r/ITOI
+[Reddit]   -> 7 results from r/Piracy
+[Reddit] After dedup: 27 unique posts
+[Reddit] Final: 27 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] After dedup: 19 unique posts
+[Reddit] Final: 19 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Reddit]   -> 7 results for 'iosapps'
+[Reddit] Discovered subreddits: ['IPhoneApps', 'iosapps', 'ProductivityApps']
+[Reddit] Subreddit search: r/IPhoneApps for 'iosapps'
+[Reddit] Subreddit search: r/iosapps for 'iosapps'
+[Reddit] Subreddit search: r/ProductivityApps for 'iosapps'
+[Reddit]   -> 7 results from r/IPhoneApps
+[Reddit]   -> 7 results from r/ProductivityApps
+[Reddit]   -> 7 results from r/iosapps
+[Reddit] After dedup: 23 unique posts
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 6.1s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=iOSApps&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'iOSApps' into 1 queries: ['iosapps']
+[Reddit] Global search 1/2: 'iosapps' (sort=relevance)
+[Reddit]   -> 7 results for 'iosapps'
+[Reddit] Discovered subreddits: ['IPhoneApps', 'iosapps', 'ProductivityApps']
+[Reddit] Subreddit search: r/IPhoneApps for 'iosapps'
+[Reddit] Subreddit search: r/iosapps for 'iosapps'
+[Reddit] Subreddit search: r/ProductivityApps for 'iosapps'
+[Reddit]   -> 7 results from r/IPhoneApps
+[Reddit]   -> 7 results from r/ProductivityApps
+[Reddit]   -> 7 results from r/iosapps
+[Reddit] After dedup: 23 unique posts
+[Reddit] Final: 23 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (18.0s) - Reddit: 12 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-06-28/0536-site-reddit-com.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
