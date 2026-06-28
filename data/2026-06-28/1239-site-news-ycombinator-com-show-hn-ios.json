@@ -1,0 +1,204 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\" iOS",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@zauey/video/7652123036723776781"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@zauey/video/7652123036723776781"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "A few observations and takeaways from this Y Combinator Spring 2026 batch \ud83e\udd16 Every company is an AI company now (173 of 196 lead with AI or a",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-28T12:39:03.060156+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "zauey",
+        "body": "A few observations and takeaways from this Y Combinator Spring 2026 batch \ud83e\udd16 Every company is an AI company now (173 of 196 lead with AI or agents, and only 23 don\u2019t mention it at all) \ud83c\udfe2 It\u2019s overwhelmingly B2B - about 61% sell to businesses vs. just 6% consumer \ud83d\udc77 It\u2019s an engineer\u2019s batch: 70% of founders are technical, ~half the companies are all-technical teams, and only 3% are dropouts. \ud83c\udfed Hardware is back. Industrials (defense, robotics, energy) jumped from ~2% of YC three years ago to 13%, with 11 in defense alone. \ud83d\udcde ~11% build for a customer that isn\u2019t human, building infrastructure for agents \ud83d\udcbc At least 17 companies are AI-native services, going after consulting and back-office budgets. #startups #founder #venturecapital #ycombinator #Tech\nIt's officially YC Demo Day today. Here are high level takeaways from the spring 2026 batch. Naturally, every company now is an AI company. 173 of the hundred ninety six companies lead with AI or agents, and only 23 of them don't mention AI at all. It's also overwhelmingly B to B. About 61% sell to other businesses or enterprises, and pure consumer only makes up about 6%. The most common founder setup is still two co founders. 116 companies are pair co founders, but you do have 38 founders who are solo. This sort of tracks of everything we're seeing around AI assisted coding. This is also a heavy engineers batch. Seventy percent of the founders are technical, and half of all companies have an all technical founding team. The only 3% dropped out of school to start a company. So the whole dropout founder thing might be less common than you think. For me, I feel like there were three big themes that dominated. First is that hardware is back. Industrials, defense, robotics, energy. All went from about 2% of YC three years ago to now 13%, including 11 in the defense space alone. You even have companies like Apollo Atomics that are building compact nuclear reactors. Also a lot of companies building the physical layer of AI itself. For example, Madrone that's building data center cooling that cuts power and water by 30%. Mat Forge is using AI to discover new semiconductor materials. And companies like expanse or Zebra squeezing more compute out of GPU clusters. There's basically a company for every part of the AI hardware supply chain. The second big theme were companies whose customer is an AI agent. This made up about 11% of them. Agent Phone, for example, gives agents their own phone numbers. And identity allowance is a payment card with spending limits for agents. Mount is an insurance carrier for AI agents. And so many more focused on memory and context reliability and observability for these agents. The idea here is that if agents start acting on their own, they need a lot of the same infrastructure that people users do. So you have a whole software stack that gets rebuilt. And finally the third big category were AI native services, with about 17 companies that aren't really selling software but actually using AI to do the actual service work itself. Foser, for example, is building the AI native. Mackenzie Harbor is an AI native. Clinical trials org, Tega and Arctic Health are these autonomous healthcare back offices. And prism, which is an AI native recruiting agency. Instead of selling a tool into a software budget, they're actually going after the millions that companies spend on consultants and back office stuff. A few years ago, most of the batches were focused on using AI to do X, but that's now sort of table stakes. And you can see here that the batches are now moving to everything around the AI itself....",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 54,
+          "likes": 2798,
+          "shares": 283,
+          "views": 33547
+        },
+        "engagement_score": 78,
+        "freshness": 60,
+        "item_id": "TK4",
+        "local_rank_score": 0.37100000000000005,
+        "local_relevance": 0.22,
+        "metadata": {
+          "hashtags": [
+            "startups",
+            "founder",
+            "venturecapital",
+            "ycombinator",
+            "tech"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-06-16",
+        "relevance_hint": 0.22,
+        "snippet": "It's officially YC Demo Day today. Here are high level takeaways from the spring 2026 batch. Naturally, every company now is an AI company. 173 of the hundred ninety six companies lead with AI or agents, and only 23 of them don't mention AI at all. It's also overwhelmingly B to B. About 61% sell to other businesses or enterprises, and pure consumer only makes up about 6%. The most common founder setup is still two co founders. 116 companies are pair co founders, but you do have 38 founders who are solo. This sort of tracks of everything we're seeing around AI assisted coding. This is also a heavy engineers batch. Seventy percent of the founders are technical, and...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "A few observations and takeaways from this Y Combinator Spring 2026 batch \ud83e\udd16 Every company is an AI company now (173 of 196 lead with AI or a",
+        "url": "https://www.tiktok.com/@zauey/video/7652123036723776781",
+        "why_relevant": "TikTok: A few observations and takeaways from this Y Combinator Spri"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\" iOS",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\" iOS?",
+        "search_query": "site:news.ycombinator.com \"show hn\" ios",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\" iOS?",
+        "search_query": "site:news.ycombinator.com \"show hn\" ios reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-05-29",
+  "range_to": "2026-06-28",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@zauey/video/7652123036723776781",
+      "cluster_id": "cluster-1",
+      "engagement": 78,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 60,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK4",
+      "local_relevance": 0.22,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 8.199999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "It's officially YC Demo Day today. Here are high level takeaways from the spring 2026 batch. Naturally, every company now is an AI company. 173 of the hundred ninety six companies lead with AI or agents, and only 23 of them don't mention AI at all. It's also overwhelmingly B to B. About 61% sell to other businesses or enterprises, and pure consumer only makes up about 6%. The most common founder setup is still two co founders. 116 companies are pair co founders, but you do have 38 founders who are solo. This sort of tracks of everything we're seeing around AI assisted coding. This is also a heavy engineers batch. Seventy percent of the founders are technical, and...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "zauey",
+          "body": "A few observations and takeaways from this Y Combinator Spring 2026 batch \ud83e\udd16 Every company is an AI company now (173 of 196 lead with AI or agents, and only 23 don\u2019t mention it at all) \ud83c\udfe2 It\u2019s overwhelmingly B2B - about 61% sell to businesses vs. just 6% consumer \ud83d\udc77 It\u2019s an engineer\u2019s batch: 70% of founders are technical, ~half the companies are all-technical teams, and only 3% are dropouts. \ud83c\udfed Hardware is back. Industrials (defense, robotics, energy) jumped from ~2% of YC three years ago to 13%, with 11 in defense alone. \ud83d\udcde ~11% build for a customer that isn\u2019t human, building infrastructure for agents \ud83d\udcbc At least 17 companies are AI-native services, going after consulting and back-office budgets. #startups #founder #venturecapital #ycombinator #Tech\nIt's officially YC Demo Day today. Here are high level takeaways from the spring 2026 batch. Naturally, every company now is an AI company. 173 of the hundred ninety six companies lead with AI or agents, and only 23 of them don't mention AI at all. It's also overwhelmingly B to B. About 61% sell to other businesses or enterprises, and pure consumer only makes up about 6%. The most common founder setup is still two co founders. 116 companies are pair co founders, but you do have 38 founders who are solo. This sort of tracks of everything we're seeing around AI assisted coding. This is also a heavy engineers batch. Seventy percent of the founders are technical, and half of all companies have an all technical founding team. The only 3% dropped out of school to start a company. So the whole dropout founder thing might be less common than you think. For me, I feel like there were three big themes that dominated. First is that hardware is back. Industrials, defense, robotics, energy. All went from about 2% of YC three years ago to now 13%, including 11 in the defense space alone. You even have companies like Apollo Atomics that are building compact nuclear reactors. Also a lot of companies building the physical layer of AI itself. For example, Madrone that's building data center cooling that cuts power and water by 30%. Mat Forge is using AI to discover new semiconductor materials. And companies like expanse or Zebra squeezing more compute out of GPU clusters. There's basically a company for every part of the AI hardware supply chain. The second big theme were companies whose customer is an AI agent. This made up about 11% of them. Agent Phone, for example, gives agents their own phone numbers. And identity allowance is a payment card with spending limits for agents. Mount is an insurance carrier for AI agents. And so many more focused on memory and context reliability and observability for these agents. The idea here is that if agents start acting on their own, they need a lot of the same infrastructure that people users do. So you have a whole software stack that gets rebuilt. And finally the third big category were AI native services, with about 17 companies that aren't really selling software but actually using AI to do the actual service work itself. Foser, for example, is building the AI native. Mackenzie Harbor is an AI native. Clinical trials org, Tega and Arctic Health are these autonomous healthcare back offices. And prism, which is an AI native recruiting agency. Instead of selling a tool into a software budget, they're actually going after the millions that companies spend on consultants and back office stuff. A few years ago, most of the batches were focused on using AI to do X, but that's now sort of table stakes. And you can see here that the batches are now moving to everything around the AI itself....",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 54,
+            "likes": 2798,
+            "shares": 283,
+            "views": 33547
+          },
+          "engagement_score": 78,
+          "freshness": 60,
+          "item_id": "TK4",
+          "local_rank_score": 0.37100000000000005,
+          "local_relevance": 0.22,
+          "metadata": {
+            "hashtags": [
+              "startups",
+              "founder",
+              "venturecapital",
+              "ycombinator",
+              "tech"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-06-16",
+          "relevance_hint": 0.22,
+          "snippet": "It's officially YC Demo Day today. Here are high level takeaways from the spring 2026 batch. Naturally, every company now is an AI company. 173 of the hundred ninety six companies lead with AI or agents, and only 23 of them don't mention AI at all. It's also overwhelmingly B to B. About 61% sell to other businesses or enterprises, and pure consumer only makes up about 6%. The most common founder setup is still two co founders. 116 companies are pair co founders, but you do have 38 founders who are solo. This sort of tracks of everything we're seeing around AI assisted coding. This is also a heavy engineers batch. Seventy percent of the founders are technical, and...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "A few observations and takeaways from this Y Combinator Spring 2026 batch \ud83e\udd16 Every company is an AI company now (173 of 196 lead with AI or a",
+          "url": "https://www.tiktok.com/@zauey/video/7652123036723776781",
+          "why_relevant": "TikTok: A few observations and takeaways from this Y Combinator Spri"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "A few observations and takeaways from this Y Combinator Spring 2026 batch \ud83e\udd16 Every company is an AI company now (173 of 196 lead with AI or a",
+      "url": "https://www.tiktok.com/@zauey/video/7652123036723776781"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\" iOS",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
