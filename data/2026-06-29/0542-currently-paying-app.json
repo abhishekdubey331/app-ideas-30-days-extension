@@ -1,0 +1,415 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"currently paying\" \"app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/letmehelpyouout/comments/1uglh1q/request_again_added_bill_photo"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/letmehelpyouout/comments/1uglh1q/request_again_added_bill_photo"
+      ],
+      "score": 7.7691803278688525,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Request again (added bill photo)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/makemoneyinuk/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/makemoneyinuk/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-29T05:42:08.374932+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Request again (added bill photo)\nHi it was brought to my attention that I had to include the bill in my post. That is why I\u2019m reposting. I was curious if anyone could help me with a utility bill? I currently caught up on everything except my water. I\u2019m unable to catch up because I spent the last $60 at the grocery store. I\u2019mNot setting a set price but anything helps. I have Zelle, PayPal, and Cash App. Thank you Also- if anyone knows any resources our tips to keep usage down please let me know. I\u2019m currently paying bills at two",
+        "container": "LetMeHelpYouOut",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 0
+        },
+        "freshness": 94,
+        "item_id": "R8",
+        "local_rank_score": 0.443,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-26",
+        "relevance_hint": 0.22,
+        "snippet": "Hi it was brought to my attention that I had to include the bill in my post. That is why I\u2019m reposting. I was curious if anyone could help me with a utility bill? I currently caught up on everything except my water. I\u2019m unable to catch up because I spent the last $60 at the grocery store. I\u2019mNot setting a set price but anything helps. I have Zelle, PayPal, and Cash App. Thank you Also- if anyone k",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Request again (added bill photo)",
+        "url": "https://www.reddit.com/r/LetMeHelpYouOut/comments/1uglh1q/request_again_added_bill_photo/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)\nero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, Lacoste, HSBC, DoorDash, Uber and more. Most missions currently pay around $2 and only take a couple o",
+        "container": "MakeMoneyInUK",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 2
+        },
+        "engagement_score": 29,
+        "freshness": 91,
+        "item_id": "R6",
+        "local_rank_score": 0.406,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-25",
+        "relevance_hint": 0.14,
+        "snippet": "ero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, La",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)",
+        "url": "https://www.reddit.com/r/MakeMoneyInUK/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.\nMost of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a habit tracker $5, whatever you've got] For each one, be honest with me: 1. The specific thing I actua\nWhich ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised.",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 2
+        },
+        "engagement_score": 49,
+        "freshness": 76,
+        "item_id": "R5",
+        "local_rank_score": 0.3885,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where yo...",
+            "Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised."
+          ],
+          "top_comments": [
+            {
+              "author": "Littlebird_Alex",
+              "date": "2026-06-17",
+              "excerpt": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1u844pv/comment/os9sjsc/"
+            },
+            {
+              "author": "Purge117",
+              "date": "2026-06-19",
+              "excerpt": "Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised.",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1u844pv/comment/oslnamu/"
+            }
+          ]
+        },
+        "published_at": "2026-06-17",
+        "relevance_hint": 0.4,
+        "snippet": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"currently paying\" \"app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"currently paying\" \"app\"?",
+        "search_query": "\"currently paying\" \"app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-30",
+  "range_to": "2026-06-29",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/letmehelpyouout/comments/1uglh1q/request_again_added_bill_photo",
+      "cluster_id": "cluster-1",
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 7.7691803278688525,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "R8",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 22.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hi it was brought to my attention that I had to include the bill in my post. That is why I\u2019m reposting. I was curious if anyone could help me with a utility bill? I currently caught up on everything except my water. I\u2019m unable to catch up because I spent the last $60 at the grocery store. I\u2019mNot setting a set price but anything helps. I have Zelle, PayPal, and Cash App. Thank you Also- if anyone k",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Request again (added bill photo)\nHi it was brought to my attention that I had to include the bill in my post. That is why I\u2019m reposting. I was curious if anyone could help me with a utility bill? I currently caught up on everything except my water. I\u2019m unable to catch up because I spent the last $60 at the grocery store. I\u2019mNot setting a set price but anything helps. I have Zelle, PayPal, and Cash App. Thank you Also- if anyone knows any resources our tips to keep usage down please let me know. I\u2019m currently paying bills at two",
+          "container": "LetMeHelpYouOut",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 0
+          },
+          "freshness": 94,
+          "item_id": "R8",
+          "local_rank_score": 0.443,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-26",
+          "relevance_hint": 0.22,
+          "snippet": "Hi it was brought to my attention that I had to include the bill in my post. That is why I\u2019m reposting. I was curious if anyone could help me with a utility bill? I currently caught up on everything except my water. I\u2019m unable to catch up because I spent the last $60 at the grocery store. I\u2019mNot setting a set price but anything helps. I have Zelle, PayPal, and Cash App. Thank you Also- if anyone k",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Request again (added bill photo)",
+          "url": "https://www.reddit.com/r/LetMeHelpYouOut/comments/1uglh1q/request_again_added_bill_photo/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Request again (added bill photo)",
+      "url": "https://www.reddit.com/r/LetMeHelpYouOut/comments/1uglh1q/request_again_added_bill_photo/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt",
+      "cluster_id": "cluster-2",
+      "engagement": 49,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.\nMost of us collect productivity apps the way other people collect tabs. A tool for notes, one for tasks, one for summarizing, one for writing, one for tracking. Half of them now do something a single AI prompt does for nothing. This makes you confront which ones. Here is every app I currently pay for, with what each one costs me per month: [list them, e.g. Notion AI $10, Otter $17, Jasper $49, a habit tracker $5, whatever you've got] For each one, be honest with me: 1. The specific thing I actua\nWhich ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised.",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 2
+          },
+          "engagement_score": 49,
+          "freshness": 76,
+          "item_id": "R5",
+          "local_rank_score": 0.3885,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where yo...",
+              "Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised."
+            ],
+            "top_comments": [
+              {
+                "author": "Littlebird_Alex",
+                "date": "2026-06-17",
+                "excerpt": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1u844pv/comment/os9sjsc/"
+              },
+              {
+                "author": "Purge117",
+                "date": "2026-06-19",
+                "excerpt": "Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised.",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1u844pv/comment/oslnamu/"
+              }
+            ]
+          },
+          "published_at": "2026-06-17",
+          "relevance_hint": 0.4,
+          "snippet": "Which ones did you end up cutting? I think ChatGPT can be good at replacing tools you use for output \u2014 writing helpers, summarizers, anything where you're generating text. It's bad at replacing anything that needs to remember things over time or plug into your actual workflow. The tools I don\u2019t think I can drop are the things I rely on to keep a running history (CRM, project tracking), anything do Very neat idea! Would be interesting to see how much you save over time and if you have to reinstall any if the AI overpromised.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I listed every app I pay for and asked ChatGPT which ones it could already replace. I cancelled three that week.",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1u844pv/i_listed_every_app_i_pay_for_and_asked_chatgpt/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/makemoneyinuk/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand",
+      "cluster_id": "cluster-3",
+      "engagement": 29,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 15.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "ero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, La",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)\nero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, Lacoste, HSBC, DoorDash, Uber and more. Most missions currently pay around $2 and only take a couple o",
+          "container": "MakeMoneyInUK",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 2
+          },
+          "engagement_score": 29,
+          "freshness": 91,
+          "item_id": "R6",
+          "local_rank_score": 0.406,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-25",
+          "relevance_hint": 0.14,
+          "snippet": "ero is a rewards app by EarnOS where users complete short brand missions in exchange for cash rewards. So far I've earned $12 from spending just a few minutes each day completing missions. What stood out to me is that the opportunities come directly from brands rather than the usual survey-style platforms. The brands available seem to rotate regularly. I've seen missions from HelloFresh, Snoop, La",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)",
+          "url": "https://www.reddit.com/r/MakeMoneyInUK/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "ero (by EarnOS) | Earn money completing short brand missions ($2 per task, up to 3 per day)",
+      "url": "https://www.reddit.com/r/MakeMoneyInUK/comments/1ufahyn/ero_by_earnos_earn_money_completing_short_brand/"
+    }
+  ],
+  "topic": "\"currently paying\" \"app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

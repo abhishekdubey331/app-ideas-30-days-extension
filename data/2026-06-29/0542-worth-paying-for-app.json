@@ -1,0 +1,814 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any apps or subscriptions worth paying for if you hate grocery runs?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/thefounders/comments/1tu1zjb/got_my_first"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/thefounders/comments/1tu1zjb/got_my_first"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Got my First $$$ \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/saas_tools_worth_paying_for_how_do_you_track"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/saas_tools_worth_paying_for_how_do_you_track"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "SaaS tools worth paying for? How do you track leads without losing your mind?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-06-29T05:42:21.815558+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "SaaS tools worth paying for? How do you track leads without losing your mind?\nIm at that annoying stage where spreadsheets arent cutting it anymore but paying $50+/month for a real CRM feels like overkill. Right now I got: notes app for quick thoughts Google Sheets for contact list email drafts as reminders to follow up and a pile of sticky notes I'm too embarrassed to admit exists Its working at 10 leads a week. But Im adding maybe 30-40 now and somethings gonna slip. Anyone found a middle ground? A tool that does contact tracking + basic email sequencing without needing\nHubspot free tier; or the lowest $10/mo tier should work for you Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why would you not be willing to pay for a solution? Also just a quick google search will tell you some free ones to use. Twenty for example can be self hos I'd pay for the CRM, what's the opportunity cost of losing one lead? For most of my clients, it's between 50$ to 10k (because you never know that lead). Basically pays for itself?",
+        "container": "smallbusinessowner",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 4
+        },
+        "engagement_score": 47,
+        "freshness": 51,
+        "item_id": "R2",
+        "local_rank_score": 0.4345,
+        "local_relevance": 0.4,
+        "metadata": {
+          "comment_insights": [
+            "I'd pay for the CRM, what's the opportunity cost of losing one lead?",
+            "lol the sticky notes thing is relatable, I had a literal wall of them at one point before my cofounder staged an intervention.",
+            "I'm a software developer, I can make you a custom solution for what you do and since I'm trying to get my name out there, I'll do it for super cheap.",
+            "Hubspot free tier; or the lowest $10/mo tier should work for you",
+            "Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why w..."
+          ],
+          "top_comments": [
+            {
+              "author": "Milan_SmoothWorkAI",
+              "date": "2026-06-05",
+              "excerpt": "Hubspot free tier; or the lowest $10/mo tier should work for you",
+              "score": 2,
+              "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/opv8mrn/"
+            },
+            {
+              "author": "Machinium74",
+              "date": "2026-06-05",
+              "excerpt": "Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why would you not be willing to pay for a solution? Also just a quick google search will tell you some free ones to use. Twenty for example can be self hos",
+              "score": 2,
+              "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/opx6gjm/"
+            },
+            {
+              "author": "retreatsRfun",
+              "date": "2026-06-09",
+              "excerpt": "I'd pay for the CRM, what's the opportunity cost of losing one lead? For most of my clients, it's between 50$ to 10k (because you never know that lead). Basically pays for itself?",
+              "score": 1,
+              "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/oqkmz1m/"
+            },
+            {
+              "author": "Excellent_Inside4985",
+              "date": "2026-06-09",
+              "excerpt": "lol the sticky notes thing is relatable, I had a literal wall of them at one point before my cofounder staged an intervention. So at 30-40 leads a week you're definitely past the spreadsheet stage but you dont need HubSpot level complexity either. A few solid options at your price range: Pipedrive i",
+              "score": 1,
+              "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/oql72bq/"
+            },
+            {
+              "author": "CremeFrosty9308",
+              "date": "2026-06-08",
+              "excerpt": "I'm a software developer, I can make you a custom solution for what you do and since I'm trying to get my name out there, I'll do it for super cheap.",
+              "score": 1,
+              "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/oqhnnsd/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.53,
+        "snippet": "Hubspot free tier; or the lowest $10/mo tier should work for you Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why would you not be willing to pay for a solution? Also just a quick google search will tell you some free ones to use. Twenty for example can be self hos I'd pay for the CRM, what's the opportunity cost of losing one lead? For most of my clients, it's between 50$ to 10k (because you never know that lead). Basically pays for itself?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "SaaS tools worth paying for? How do you track leads without losing your mind?",
+        "url": "https://www.reddit.com/r/smallbusinessowner/comments/1tx6f7o/saas_tools_worth_paying_for_how_do_you_track/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any apps or subscriptions worth paying for if you hate grocery runs?\nWife and I have been much more busy lately and find less time doing household errands like groceries and cooking in general so we've been getting food delivered a lot more. This hasn't been good for our budget but I also get annoyed when I'm in the mood to cook and realize we're missing some ingredients. Last minute grocery runs feel like so much wasted time to me. Do you guys have delivery subscriptions you'd recommend that saves money in the long run? Any suggestions or tips are welcome Updati\nYep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+        "container": "Adulting",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 10
+        },
+        "engagement_score": 55,
+        "freshness": 61,
+        "item_id": "R4",
+        "local_rank_score": 0.4025,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [
+            "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+            "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees.",
+            "Some stores you get pickup for free. You just park and they bring it to you through the grocery app.",
+            "We are only restocking items used so shopping is pretty quick."
+          ],
+          "top_comments": [
+            {
+              "author": "gpbuilder",
+              "date": "2026-06-10",
+              "excerpt": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+              "score": 3,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqs3tmw/"
+            },
+            {
+              "author": "Bright_iD-BushyTail",
+              "date": "2026-06-10",
+              "excerpt": "Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery.",
+              "score": 2,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsr3go/"
+            },
+            {
+              "author": "RalexanderSingleton",
+              "date": "2026-06-22",
+              "excerpt": "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+              "score": 1,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/ot2phmk/"
+            },
+            {
+              "author": "cwsjr2323",
+              "date": "2026-06-10",
+              "excerpt": "We are only restocking items used so shopping is pretty quick. From our rural village to a supermarket is 25 miles, which uses two gallons of gas. We go once a month and have a lunch in town making it more of a date night event. That makes it tolerable.",
+              "score": 1,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsptiz/"
+            }
+          ]
+        },
+        "published_at": "2026-06-10",
+        "relevance_hint": 0.5,
+        "snippet": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any apps or subscriptions worth paying for if you hate grocery runs?",
+        "url": "https://www.reddit.com/r/Adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Got my First $$$ \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\nGUYSSS FINALLYY!!This morning I woke up to something that probably won't sound like much to most people. Someone bought the annual plan for my product. +$99. Not life-changing money. Not even close. But it was the first time a complete stranger decided something I built was worth paying for. I've been building TradePilot for the last couple of months an AI-powered Chrome extension that lives inside TradingView and helps traders create, edit, debug, and optimize Pine Script strategies using plain\nCongratulations my brother \ud83c\udf89 Hitting that milestone on your 4th venture proves that persistence really is everything. Huge congratulations on validation day\u2014here's to many more annual sign-ups! \ud83c\udf89 Cheers!",
+        "container": "TheFounders",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 10,
+          "score": 12
+        },
+        "engagement_score": 54,
+        "freshness": 43,
+        "item_id": "R3",
+        "local_rank_score": 0.3565,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [
+            "Hitting that milestone on your 4th venture proves that persistence really is everything."
+          ],
+          "top_comments": [
+            {
+              "author": "Unusual-Mountain1005",
+              "date": "2026-06-01",
+              "excerpt": "Congratulations my brother \ud83c\udf89",
+              "score": 1,
+              "url": "https://reddit.com/r/TheFounders/comments/1tu1zjb/comment/op72tfw/"
+            },
+            {
+              "author": "Master_sodaa",
+              "date": "2026-06-24",
+              "excerpt": "Hitting that milestone on your 4th venture proves that persistence really is everything. Huge congratulations on validation day\u2014here's to many more annual sign-ups! \ud83c\udf89 Cheers!",
+              "score": 1,
+              "url": "https://reddit.com/r/TheFounders/comments/1tu1zjb/comment/otmkaig/"
+            }
+          ]
+        },
+        "published_at": "2026-06-01",
+        "relevance_hint": 0.22,
+        "snippet": "Congratulations my brother \ud83c\udf89 Hitting that milestone on your 4th venture proves that persistence really is everything. Huge congratulations on validation day\u2014here's to many more annual sign-ups! \ud83c\udf89 Cheers!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Got my First $$$ \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+        "url": "https://www.reddit.com/r/TheFounders/comments/1tu1zjb/got_my_first/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating\nI\u2019m still kind of speechless... honestly 48 hours ago I launched Weekline, a small weekly planner I built around one simple idea: Most to-do apps let you add infinite tasks. But your week is not infinite. So instead of projects, folders, tags and dashboards, Weekline gives each task a simple weight and each day a capacity. When the day is full, the line shows what no longer fits. It\u2019s a small app. No team. No big launch. Just a lot of late nights, extrem coffee, App Store screenshots, tiny UI de\nGunzenhausen:D servus Congratulations\ud83d\ude4c Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 73,
+          "score": 78
+        },
+        "engagement_score": 100,
+        "freshness": 43,
+        "item_id": "R1",
+        "local_rank_score": 0.30500000000000005,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [
+            "Looks great mate! Legit good stuff and simple to use.",
+            "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+            "Congratsss mate! Such a great achievement!",
+            "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!",
+            "Hey, awesome job! Always happy to hear the success of others, especially those who are passionate about what they build."
+          ],
+          "top_comments": [
+            {
+              "author": "AppleProUser",
+              "date": "2026-06-16",
+              "excerpt": "Gunzenhausen:D servus",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/os0559h/"
+            },
+            {
+              "author": "Appropriate-Lie6687",
+              "date": "2026-06-07",
+              "excerpt": "Congratulations\ud83d\ude4c",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq7oguu/"
+            },
+            {
+              "author": "bhood1992",
+              "date": "2026-06-06",
+              "excerpt": "Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq67qu2/"
+            },
+            {
+              "author": "Friendly_Picture_943",
+              "date": "2026-06-06",
+              "excerpt": "felicidades",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq41v6j/"
+            },
+            {
+              "author": "assasinezio4",
+              "date": "2026-06-06",
+              "excerpt": "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1xlja/"
+            },
+            {
+              "author": "Decent_Hornet_7074",
+              "date": "2026-06-06",
+              "excerpt": "Congratsss mate! Such a great achievement!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1q83c/"
+            },
+            {
+              "author": "SideQuestNomad",
+              "date": "2026-06-03",
+              "excerpt": "Congratulations, well done!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/ophik23/"
+            },
+            {
+              "author": "tarasleskiv",
+              "date": "2026-06-02",
+              "excerpt": "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/opdxw2g/"
+            },
+            {
+              "author": "softdeveloper23",
+              "date": "2026-06-02",
+              "excerpt": "Hey, awesome job! Always happy to hear the success of others, especially those who are passionate about what they build. The idea behind your weekly planner, Weekline, sounds really unique. It's a fantastic idea! I hope your app sees much more success in the long run. Keep up the great work!",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/opcfs74/"
+            }
+          ]
+        },
+        "published_at": "2026-06-01",
+        "relevance_hint": 0.43,
+        "snippet": "Gunzenhausen:D servus Congratulations\ud83d\ude4c Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-05-30",
+  "range_to": "2026-06-29",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 0.10000000000000142,
+      "rrf_score": 0.0078125,
+      "snippet": "Gunzenhausen:D servus Congratulations\ud83d\ude4c Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating\nI\u2019m still kind of speechless... honestly 48 hours ago I launched Weekline, a small weekly planner I built around one simple idea: Most to-do apps let you add infinite tasks. But your week is not infinite. So instead of projects, folders, tags and dashboards, Weekline gives each task a simple weight and each day a capacity. When the day is full, the line shows what no longer fits. It\u2019s a small app. No team. No big launch. Just a lot of late nights, extrem coffee, App Store screenshots, tiny UI de\nGunzenhausen:D servus Congratulations\ud83d\ude4c Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 73,
+            "score": 78
+          },
+          "engagement_score": 100,
+          "freshness": 43,
+          "item_id": "R1",
+          "local_rank_score": 0.30500000000000005,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [
+              "Looks great mate! Legit good stuff and simple to use.",
+              "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+              "Congratsss mate! Such a great achievement!",
+              "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!",
+              "Hey, awesome job! Always happy to hear the success of others, especially those who are passionate about what they build."
+            ],
+            "top_comments": [
+              {
+                "author": "AppleProUser",
+                "date": "2026-06-16",
+                "excerpt": "Gunzenhausen:D servus",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/os0559h/"
+              },
+              {
+                "author": "Appropriate-Lie6687",
+                "date": "2026-06-07",
+                "excerpt": "Congratulations\ud83d\ude4c",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq7oguu/"
+              },
+              {
+                "author": "bhood1992",
+                "date": "2026-06-06",
+                "excerpt": "Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq67qu2/"
+              },
+              {
+                "author": "Friendly_Picture_943",
+                "date": "2026-06-06",
+                "excerpt": "felicidades",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq41v6j/"
+              },
+              {
+                "author": "assasinezio4",
+                "date": "2026-06-06",
+                "excerpt": "I'll download it and give it a try. I liked the onboarding right away \ud83d\ude04",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1xlja/"
+              },
+              {
+                "author": "Decent_Hornet_7074",
+                "date": "2026-06-06",
+                "excerpt": "Congratsss mate! Such a great achievement!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/oq1q83c/"
+              },
+              {
+                "author": "SideQuestNomad",
+                "date": "2026-06-03",
+                "excerpt": "Congratulations, well done!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/ophik23/"
+              },
+              {
+                "author": "tarasleskiv",
+                "date": "2026-06-02",
+                "excerpt": "Congratulations on the launch! I am so glad you found Screenshot Bro useful for making app store screenshots! Love the app idea!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/opdxw2g/"
+              },
+              {
+                "author": "softdeveloper23",
+                "date": "2026-06-02",
+                "excerpt": "Hey, awesome job! Always happy to hear the success of others, especially those who are passionate about what they build. The idea behind your weekly planner, Weekline, sounds really unique. It's a fantastic idea! I hope your app sees much more success in the long run. Keep up the great work!",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1tu14nd/comment/opcfs74/"
+              }
+            ]
+          },
+          "published_at": "2026-06-01",
+          "relevance_hint": 0.43,
+          "snippet": "Gunzenhausen:D servus Congratulations\ud83d\ude4c Looks great mate! Legit good stuff and simple to use. 1 suggestion, ask for a review once person adds their first task. You\u2019ll most likely boost up ratings fast. Good luck!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "48 hours after launching my little iOS app: 3 paid customers and my first 5-star rating",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1tu14nd/48_hours_after_launching_my_little_ios_app_3_paid/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you",
+      "cluster_id": "cluster-2",
+      "engagement": 55,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any apps or subscriptions worth paying for if you hate grocery runs?\nWife and I have been much more busy lately and find less time doing household errands like groceries and cooking in general so we've been getting food delivered a lot more. This hasn't been good for our budget but I also get annoyed when I'm in the mood to cook and realize we're missing some ingredients. Last minute grocery runs feel like so much wasted time to me. Do you guys have delivery subscriptions you'd recommend that saves money in the long run? Any suggestions or tips are welcome Updati\nYep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+          "container": "Adulting",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 10
+          },
+          "engagement_score": 55,
+          "freshness": 61,
+          "item_id": "R4",
+          "local_rank_score": 0.4025,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [
+              "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+              "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees.",
+              "Some stores you get pickup for free. You just park and they bring it to you through the grocery app.",
+              "We are only restocking items used so shopping is pretty quick."
+            ],
+            "top_comments": [
+              {
+                "author": "gpbuilder",
+                "date": "2026-06-10",
+                "excerpt": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+                "score": 3,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqs3tmw/"
+              },
+              {
+                "author": "Bright_iD-BushyTail",
+                "date": "2026-06-10",
+                "excerpt": "Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery.",
+                "score": 2,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsr3go/"
+              },
+              {
+                "author": "RalexanderSingleton",
+                "date": "2026-06-22",
+                "excerpt": "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+                "score": 1,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/ot2phmk/"
+              },
+              {
+                "author": "cwsjr2323",
+                "date": "2026-06-10",
+                "excerpt": "We are only restocking items used so shopping is pretty quick. From our rural village to a supermarket is 25 miles, which uses two gallons of gas. We go once a month and have a lunch in town making it more of a date night event. That makes it tolerable.",
+                "score": 1,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsptiz/"
+              }
+            ]
+          },
+          "published_at": "2026-06-10",
+          "relevance_hint": 0.5,
+          "snippet": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any apps or subscriptions worth paying for if you hate grocery runs?",
+          "url": "https://www.reddit.com/r/Adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any apps or subscriptions worth paying for if you hate grocery runs?",
+      "url": "https://www.reddit.com/r/Adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/thefounders/comments/1tu1zjb/got_my_first",
+      "cluster_id": "cluster-3",
+      "engagement": 54,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R3",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Congratulations my brother \ud83c\udf89 Hitting that milestone on your 4th venture proves that persistence really is everything. Huge congratulations on validation day\u2014here's to many more annual sign-ups! \ud83c\udf89 Cheers!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Got my First $$$ \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\nGUYSSS FINALLYY!!This morning I woke up to something that probably won't sound like much to most people. Someone bought the annual plan for my product. +$99. Not life-changing money. Not even close. But it was the first time a complete stranger decided something I built was worth paying for. I've been building TradePilot for the last couple of months an AI-powered Chrome extension that lives inside TradingView and helps traders create, edit, debug, and optimize Pine Script strategies using plain\nCongratulations my brother \ud83c\udf89 Hitting that milestone on your 4th venture proves that persistence really is everything. Huge congratulations on validation day\u2014here's to many more annual sign-ups! \ud83c\udf89 Cheers!",
+          "container": "TheFounders",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 10,
+            "score": 12
+          },
+          "engagement_score": 54,
+          "freshness": 43,
+          "item_id": "R3",
+          "local_rank_score": 0.3565,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [
+              "Hitting that milestone on your 4th venture proves that persistence really is everything."
+            ],
+            "top_comments": [
+              {
+                "author": "Unusual-Mountain1005",
+                "date": "2026-06-01",
+                "excerpt": "Congratulations my brother \ud83c\udf89",
+                "score": 1,
+                "url": "https://reddit.com/r/TheFounders/comments/1tu1zjb/comment/op72tfw/"
+              },
+              {
+                "author": "Master_sodaa",
+                "date": "2026-06-24",
+                "excerpt": "Hitting that milestone on your 4th venture proves that persistence really is everything. Huge congratulations on validation day\u2014here's to many more annual sign-ups! \ud83c\udf89 Cheers!",
+                "score": 1,
+                "url": "https://reddit.com/r/TheFounders/comments/1tu1zjb/comment/otmkaig/"
+              }
+            ]
+          },
+          "published_at": "2026-06-01",
+          "relevance_hint": 0.22,
+          "snippet": "Congratulations my brother \ud83c\udf89 Hitting that milestone on your 4th venture proves that persistence really is everything. Huge congratulations on validation day\u2014here's to many more annual sign-ups! \ud83c\udf89 Cheers!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Got my First $$$ \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+          "url": "https://www.reddit.com/r/TheFounders/comments/1tu1zjb/got_my_first/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Got my First $$$ \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+      "url": "https://www.reddit.com/r/TheFounders/comments/1tu1zjb/got_my_first/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/saas_tools_worth_paying_for_how_do_you_track",
+      "cluster_id": "cluster-4",
+      "engagement": 47,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.4,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 19.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hubspot free tier; or the lowest $10/mo tier should work for you Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why would you not be willing to pay for a solution? Also just a quick google search will tell you some free ones to use. Twenty for example can be self hos I'd pay for the CRM, what's the opportunity cost of losing one lead? For most of my clients, it's between 50$ to 10k (because you never know that lead). Basically pays for itself?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "SaaS tools worth paying for? How do you track leads without losing your mind?\nIm at that annoying stage where spreadsheets arent cutting it anymore but paying $50+/month for a real CRM feels like overkill. Right now I got: notes app for quick thoughts Google Sheets for contact list email drafts as reminders to follow up and a pile of sticky notes I'm too embarrassed to admit exists Its working at 10 leads a week. But Im adding maybe 30-40 now and somethings gonna slip. Anyone found a middle ground? A tool that does contact tracking + basic email sequencing without needing\nHubspot free tier; or the lowest $10/mo tier should work for you Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why would you not be willing to pay for a solution? Also just a quick google search will tell you some free ones to use. Twenty for example can be self hos I'd pay for the CRM, what's the opportunity cost of losing one lead? For most of my clients, it's between 50$ to 10k (because you never know that lead). Basically pays for itself?",
+          "container": "smallbusinessowner",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 4
+          },
+          "engagement_score": 47,
+          "freshness": 51,
+          "item_id": "R2",
+          "local_rank_score": 0.4345,
+          "local_relevance": 0.4,
+          "metadata": {
+            "comment_insights": [
+              "I'd pay for the CRM, what's the opportunity cost of losing one lead?",
+              "lol the sticky notes thing is relatable, I had a literal wall of them at one point before my cofounder staged an intervention.",
+              "I'm a software developer, I can make you a custom solution for what you do and since I'm trying to get my name out there, I'll do it for super cheap.",
+              "Hubspot free tier; or the lowest $10/mo tier should work for you",
+              "Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why w..."
+            ],
+            "top_comments": [
+              {
+                "author": "Milan_SmoothWorkAI",
+                "date": "2026-06-05",
+                "excerpt": "Hubspot free tier; or the lowest $10/mo tier should work for you",
+                "score": 2,
+                "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/opv8mrn/"
+              },
+              {
+                "author": "Machinium74",
+                "date": "2026-06-05",
+                "excerpt": "Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why would you not be willing to pay for a solution? Also just a quick google search will tell you some free ones to use. Twenty for example can be self hos",
+                "score": 2,
+                "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/opx6gjm/"
+              },
+              {
+                "author": "retreatsRfun",
+                "date": "2026-06-09",
+                "excerpt": "I'd pay for the CRM, what's the opportunity cost of losing one lead? For most of my clients, it's between 50$ to 10k (because you never know that lead). Basically pays for itself?",
+                "score": 1,
+                "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/oqkmz1m/"
+              },
+              {
+                "author": "Excellent_Inside4985",
+                "date": "2026-06-09",
+                "excerpt": "lol the sticky notes thing is relatable, I had a literal wall of them at one point before my cofounder staged an intervention. So at 30-40 leads a week you're definitely past the spreadsheet stage but you dont need HubSpot level complexity either. A few solid options at your price range: Pipedrive i",
+                "score": 1,
+                "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/oql72bq/"
+              },
+              {
+                "author": "CremeFrosty9308",
+                "date": "2026-06-08",
+                "excerpt": "I'm a software developer, I can make you a custom solution for what you do and since I'm trying to get my name out there, I'll do it for super cheap.",
+                "score": 1,
+                "url": "https://reddit.com/r/smallbusinessowner/comments/1tx6f7o/comment/oqhnnsd/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.53,
+          "snippet": "Hubspot free tier; or the lowest $10/mo tier should work for you Why would $50/month feel like overkill? You gotta spend money to make money, and if you've identified this as a problem(aka losing you business) why would you not be willing to pay for a solution? Also just a quick google search will tell you some free ones to use. Twenty for example can be self hos I'd pay for the CRM, what's the opportunity cost of losing one lead? For most of my clients, it's between 50$ to 10k (because you never know that lead). Basically pays for itself?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "SaaS tools worth paying for? How do you track leads without losing your mind?",
+          "url": "https://www.reddit.com/r/smallbusinessowner/comments/1tx6f7o/saas_tools_worth_paying_for_how_do_you_track/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "SaaS tools worth paying for? How do you track leads without losing your mind?",
+      "url": "https://www.reddit.com/r/smallbusinessowner/comments/1tx6f7o/saas_tools_worth_paying_for_how_do_you_track/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
