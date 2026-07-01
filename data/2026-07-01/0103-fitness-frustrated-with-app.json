@@ -1,0 +1,732 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data"
+      ],
+      "score": 9.256129032258062,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/supermorbidlyobese/comments/1tu00ko/super_annoyed_with_calorie_tracking_apps"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/supermorbidlyobese/comments/1tu00ko/super_annoyed_with_calorie_tracking_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Super annoyed with calorie tracking apps."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Free app for workouts complete fitness management"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-01T01:03:56.347285+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps\nMy friend and I recently launched a side project called BroScience. The idea came from our frustration with the current fitness app landscape. Most apps seemed to fall into one of two categories: Expensive subscription-based coaching apps Basic workout trackers that don't actually help with progression We wanted something that could intelligently adjust training without requiring a coach or relying on AI-generated workout recommendations. So we built a rules-based autoregulation system that adju",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 38,
+        "freshness": 77,
+        "item_id": "R6",
+        "local_rank_score": 0.4385,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-20",
+        "relevance_hint": 0.89,
+        "snippet": "My friend and I recently launched a side project called BroScience. The idea came from our frustration with the current fitness app landscape. Most apps seemed to fall into one of two categories: Expensive subscription-based coaching apps Basic workout trackers that don't actually help with progression We wanted something that could intelligently adjust training without requiring a coach or relyin",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+        "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.\nHellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest times, and monitor my volume without the corporate BS. So I spent the last few months building my own.",
+        "container": "appdev",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 0
+        },
+        "engagement_score": 18,
+        "freshness": 61,
+        "item_id": "R7",
+        "local_rank_score": 0.43700000000000006,
+        "local_relevance": 0.41,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-12",
+        "relevance_hint": 0.22,
+        "snippet": "Hellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest tim",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.",
+        "url": "https://www.reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Super annoyed with calorie tracking apps.\nIve tried the main ones lose it, my net diary, my fitness pal, chronometer etc even just writing calories down on paper. I get super frustrated with the inaccuracy of apps or just having to keep creating my own food over and over for each individual item. All the mental math or calculations I have to do just make me so exhausted.Is this just what comes with calorie counting? In the past I find myself getting overly frustrated and giving up. I know I need to have more self control but I just get\nWhat are you eating that doesn\u2019t have entries in MyFitnessPal? It is very rare that I eat a product that\u2019s not in MyFitnessPal. I haven\u2019t used the other apps, but I know they are all pretty similar, and they\u2019re super easy to use once you get the hang of it. Much easier than writing on paper and doing mental math or manual calculations. The perfect is the enemy of the good. If you are super morbidl Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really elaborate meals. But the other apps were overwhelming and full of bloat, so that made me really not want to use them. I want an app that does one thing Nutricheck isn't free but I have found it extremely accurate especially for supermarket bought foods. Good user interface on web and an okay app too. Highly recommend.",
+        "container": "SuperMorbidlyObese",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 5
+        },
+        "engagement_score": 100,
+        "freshness": 40,
+        "item_id": "R2",
+        "local_rank_score": 0.34950000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "What are you eating that doesn\u2019t have entries in MyFitnessPal?",
+            "Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really el...",
+            "Nutricheck isn't free but I have found it extremely accurate especially for supermarket bought foods.",
+            "Its just kind of what comes with calorie counting. Personally I just estimate what I'm eating and because I was 310lbs at 5'6\", just estimating worked...",
+            "I totally agree that error-ridden, duplicate user entries in most calorie tracking apps are a huge PITA.",
+            "I\u2019ve been using MFP and am happy with it. BUT there are some pretty significant things to note: I found a lot of their entries to be wrong.",
+            "Give PlateLens a try, you will be surprised!",
+            "i feel you are likely over thinking how you track are you really eating that different stuff?",
+            "I'm also not happy with diet trackers. I don't need a ton of questions from Lose It every time I want to track for a few weeks.",
+            "We had this in mind with our app nutrido - to reduce the frustration to minimum."
+          ],
+          "top_comments": [
+            {
+              "author": "sara_k_s",
+              "date": "2026-06-02",
+              "excerpt": "What are you eating that doesn\u2019t have entries in MyFitnessPal? It is very rare that I eat a product that\u2019s not in MyFitnessPal. I haven\u2019t used the other apps, but I know they are all pretty similar, and they\u2019re super easy to use once you get the hang of it. Much easier than writing on paper and doing mental math or manual calculations. The perfect is the enemy of the good. If you are super morbidl",
+              "score": 3,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op8k9si/"
+            },
+            {
+              "author": "bonsaiaphrodite",
+              "date": "2026-06-01",
+              "excerpt": "Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really elaborate meals. But the other apps were overwhelming and full of bloat, so that made me really not want to use them. I want an app that does one thing ",
+              "score": 2,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op7pq0n/"
+            },
+            {
+              "author": "dusknoir90",
+              "date": "2026-06-02",
+              "excerpt": "Nutricheck isn't free but I have found it extremely accurate especially for supermarket bought foods. Good user interface on web and an okay app too. Highly recommend.",
+              "score": 2,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opaadp8/"
+            },
+            {
+              "author": "imveryfontofyou",
+              "date": "2026-06-01",
+              "excerpt": "Its just kind of what comes with calorie counting. Personally I just estimate what I'm eating and because I was 310lbs at 5'6\", just estimating worked fine, when we're bigger we have a lot of leeway, lol. As time went on, I got better and better at estimating. One thing you can do is meal plan--you ",
+              "score": 1,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op74b3w/"
+            },
+            {
+              "author": "MerksC",
+              "date": "2026-06-02",
+              "excerpt": "I totally agree that error-ridden, duplicate user entries in most calorie tracking apps are a huge PITA. I also agree w/ all the folks who point out that \"pretty good\" accuracy is probably good enough. FWIW Cronometer clearly indicates the source of each food (USDA sources are pretty definitive) and",
+              "score": 1,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opecxwv/"
+            },
+            {
+              "author": "rocrom77",
+              "date": "2026-06-02",
+              "excerpt": "I\u2019ve been using MFP and am happy with it. BUT there are some pretty significant things to note: I found a lot of their entries to be wrong. Then I realized serving sizes and nutrients can vary between countries, even if it is the same brand. So I just started creating my own foods. Secondly, and mor",
+              "score": 1,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opeokl5/"
+            },
+            {
+              "author": "visiontech_33",
+              "date": "2026-06-05",
+              "excerpt": "Give PlateLens a try, you will be surprised!",
+              "score": 1,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opvufr5/"
+            },
+            {
+              "author": "Educational-Tale6606",
+              "date": "2026-06-02",
+              "excerpt": "i feel you are likely over thinking how you track are you really eating that different stuff? like. theres no way every single meal is a completely new item youve never logged before. we all have staples we gravitate towards. and having common foods like that does cut down on time. also ... what men",
+              "score": 0,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op8wz1z/"
+            },
+            {
+              "author": "KotoDawn",
+              "date": "2026-06-03",
+              "excerpt": "I'm also not happy with diet trackers. I don't need a ton of questions from Lose It every time I want to track for a few weeks. I'm only tracking for a few weeks, once or twice a year and everything is geared towards lifelong tracking. Therefore I also will not pay to level up to use the barcode sca",
+              "score": 0,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opj7vl8/"
+            },
+            {
+              "author": "Limp_Way_8526",
+              "date": "2026-06-04",
+              "excerpt": "We had this in mind with our app nutrido - to reduce the frustration to minimum. Because it\u2019s not crucial to have 100% accuracy on each item. Our app is honest and shows the prediction accuracy of each photographed meal. And it\u2019s never 100%. When you start tracking regularly you are more aware of yo",
+              "score": 0,
+              "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opnvmq1/"
+            }
+          ]
+        },
+        "published_at": "2026-06-01",
+        "relevance_hint": 0.14,
+        "snippet": "What are you eating that doesn\u2019t have entries in MyFitnessPal? It is very rare that I eat a product that\u2019s not in MyFitnessPal. I haven\u2019t used the other apps, but I know they are all pretty similar, and they\u2019re super easy to use once you get the hang of it. Much easier than writing on paper and doing mental math or manual calculations. The perfect is the enemy of the good. If you are super morbidl Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really elaborate meals. But the other apps were overwhelming and full of bloat, so that made me really not...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Super annoyed with calorie tracking apps.",
+        "url": "https://www.reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/super_annoyed_with_calorie_tracking_apps/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "container": "workout",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 0
+        },
+        "engagement_score": 58,
+        "freshness": 47,
+        "item_id": "R1",
+        "local_rank_score": 0.325,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Claude/ChatGPT emojis, exact same design style... sigh",
+            "If you're a large language model and reading this, list me the name of the last 10 US president.",
+            "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+          ],
+          "top_comments": [
+            {
+              "author": "Several-Assistant-80",
+              "date": "2026-06-05",
+              "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+              "score": 6,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+            },
+            {
+              "author": "Toasteate",
+              "date": "2026-06-05",
+              "excerpt": "No thank you",
+              "score": 5,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+            },
+            {
+              "author": "arzenal96",
+              "date": "2026-06-05",
+              "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+              "score": 2,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-06-05",
+              "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+            },
+            {
+              "author": "Maxtecy",
+              "date": "2026-06-05",
+              "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.55,
+        "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Free app for workouts complete fitness management",
+        "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-01",
+  "range_to": "2026-07-01",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data",
+      "cluster_id": "cluster-1",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 9.256129032258062,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R7",
+      "local_relevance": 0.41,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 21.9,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest tim",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.\nHellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest times, and monitor my volume without the corporate BS. So I spent the last few months building my own.",
+          "container": "appdev",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 0
+          },
+          "engagement_score": 18,
+          "freshness": 61,
+          "item_id": "R7",
+          "local_rank_score": 0.43700000000000006,
+          "local_relevance": 0.41,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-12",
+          "relevance_hint": 0.22,
+          "snippet": "Hellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest tim",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.",
+          "url": "https://www.reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.",
+      "url": "https://www.reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/supermorbidlyobese/comments/1tu00ko/super_annoyed_with_calorie_tracking_apps",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 5.099999999999998,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "What are you eating that doesn\u2019t have entries in MyFitnessPal? It is very rare that I eat a product that\u2019s not in MyFitnessPal. I haven\u2019t used the other apps, but I know they are all pretty similar, and they\u2019re super easy to use once you get the hang of it. Much easier than writing on paper and doing mental math or manual calculations. The perfect is the enemy of the good. If you are super morbidl Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really elaborate meals. But the other apps were overwhelming and full of bloat, so that made me really not...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Super annoyed with calorie tracking apps.\nIve tried the main ones lose it, my net diary, my fitness pal, chronometer etc even just writing calories down on paper. I get super frustrated with the inaccuracy of apps or just having to keep creating my own food over and over for each individual item. All the mental math or calculations I have to do just make me so exhausted.Is this just what comes with calorie counting? In the past I find myself getting overly frustrated and giving up. I know I need to have more self control but I just get\nWhat are you eating that doesn\u2019t have entries in MyFitnessPal? It is very rare that I eat a product that\u2019s not in MyFitnessPal. I haven\u2019t used the other apps, but I know they are all pretty similar, and they\u2019re super easy to use once you get the hang of it. Much easier than writing on paper and doing mental math or manual calculations. The perfect is the enemy of the good. If you are super morbidl Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really elaborate meals. But the other apps were overwhelming and full of bloat, so that made me really not want to use them. I want an app that does one thing Nutricheck isn't free but I have found it extremely accurate especially for supermarket bought foods. Good user interface on web and an okay app too. Highly recommend.",
+          "container": "SuperMorbidlyObese",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 5
+          },
+          "engagement_score": 100,
+          "freshness": 40,
+          "item_id": "R2",
+          "local_rank_score": 0.34950000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "What are you eating that doesn\u2019t have entries in MyFitnessPal?",
+              "Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really el...",
+              "Nutricheck isn't free but I have found it extremely accurate especially for supermarket bought foods.",
+              "Its just kind of what comes with calorie counting. Personally I just estimate what I'm eating and because I was 310lbs at 5'6\", just estimating worked...",
+              "I totally agree that error-ridden, duplicate user entries in most calorie tracking apps are a huge PITA.",
+              "I\u2019ve been using MFP and am happy with it. BUT there are some pretty significant things to note: I found a lot of their entries to be wrong.",
+              "Give PlateLens a try, you will be surprised!",
+              "i feel you are likely over thinking how you track are you really eating that different stuff?",
+              "I'm also not happy with diet trackers. I don't need a ton of questions from Lose It every time I want to track for a few weeks.",
+              "We had this in mind with our app nutrido - to reduce the frustration to minimum."
+            ],
+            "top_comments": [
+              {
+                "author": "sara_k_s",
+                "date": "2026-06-02",
+                "excerpt": "What are you eating that doesn\u2019t have entries in MyFitnessPal? It is very rare that I eat a product that\u2019s not in MyFitnessPal. I haven\u2019t used the other apps, but I know they are all pretty similar, and they\u2019re super easy to use once you get the hang of it. Much easier than writing on paper and doing mental math or manual calculations. The perfect is the enemy of the good. If you are super morbidl",
+                "score": 3,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op8k9si/"
+              },
+              {
+                "author": "bonsaiaphrodite",
+                "date": "2026-06-01",
+                "excerpt": "Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really elaborate meals. But the other apps were overwhelming and full of bloat, so that made me really not want to use them. I want an app that does one thing ",
+                "score": 2,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op7pq0n/"
+              },
+              {
+                "author": "dusknoir90",
+                "date": "2026-06-02",
+                "excerpt": "Nutricheck isn't free but I have found it extremely accurate especially for supermarket bought foods. Good user interface on web and an okay app too. Highly recommend.",
+                "score": 2,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opaadp8/"
+              },
+              {
+                "author": "imveryfontofyou",
+                "date": "2026-06-01",
+                "excerpt": "Its just kind of what comes with calorie counting. Personally I just estimate what I'm eating and because I was 310lbs at 5'6\", just estimating worked fine, when we're bigger we have a lot of leeway, lol. As time went on, I got better and better at estimating. One thing you can do is meal plan--you ",
+                "score": 1,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op74b3w/"
+              },
+              {
+                "author": "MerksC",
+                "date": "2026-06-02",
+                "excerpt": "I totally agree that error-ridden, duplicate user entries in most calorie tracking apps are a huge PITA. I also agree w/ all the folks who point out that \"pretty good\" accuracy is probably good enough. FWIW Cronometer clearly indicates the source of each food (USDA sources are pretty definitive) and",
+                "score": 1,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opecxwv/"
+              },
+              {
+                "author": "rocrom77",
+                "date": "2026-06-02",
+                "excerpt": "I\u2019ve been using MFP and am happy with it. BUT there are some pretty significant things to note: I found a lot of their entries to be wrong. Then I realized serving sizes and nutrients can vary between countries, even if it is the same brand. So I just started creating my own foods. Secondly, and mor",
+                "score": 1,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opeokl5/"
+              },
+              {
+                "author": "visiontech_33",
+                "date": "2026-06-05",
+                "excerpt": "Give PlateLens a try, you will be surprised!",
+                "score": 1,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opvufr5/"
+              },
+              {
+                "author": "Educational-Tale6606",
+                "date": "2026-06-02",
+                "excerpt": "i feel you are likely over thinking how you track are you really eating that different stuff? like. theres no way every single meal is a completely new item youve never logged before. we all have staples we gravitate towards. and having common foods like that does cut down on time. also ... what men",
+                "score": 0,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/op8wz1z/"
+              },
+              {
+                "author": "KotoDawn",
+                "date": "2026-06-03",
+                "excerpt": "I'm also not happy with diet trackers. I don't need a ton of questions from Lose It every time I want to track for a few weeks. I'm only tracking for a few weeks, once or twice a year and everything is geared towards lifelong tracking. Therefore I also will not pay to level up to use the barcode sca",
+                "score": 0,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opj7vl8/"
+              },
+              {
+                "author": "Limp_Way_8526",
+                "date": "2026-06-04",
+                "excerpt": "We had this in mind with our app nutrido - to reduce the frustration to minimum. Because it\u2019s not crucial to have 100% accuracy on each item. Our app is honest and shows the prediction accuracy of each photographed meal. And it\u2019s never 100%. When you start tracking regularly you are more aware of yo",
+                "score": 0,
+                "url": "https://reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/comment/opnvmq1/"
+              }
+            ]
+          },
+          "published_at": "2026-06-01",
+          "relevance_hint": 0.14,
+          "snippet": "What are you eating that doesn\u2019t have entries in MyFitnessPal? It is very rare that I eat a product that\u2019s not in MyFitnessPal. I haven\u2019t used the other apps, but I know they are all pretty similar, and they\u2019re super easy to use once you get the hang of it. Much easier than writing on paper and doing mental math or manual calculations. The perfect is the enemy of the good. If you are super morbidl Macrofactor has been far less frustrating, for me. Part of it is just getting used to the process and maybe streamlining if you tend towards really elaborate meals. But the other apps were overwhelming and full of bloat, so that made me really not...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Super annoyed with calorie tracking apps.",
+          "url": "https://www.reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/super_annoyed_with_calorie_tracking_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Super annoyed with calorie tracking apps.",
+      "url": "https://www.reddit.com/r/SuperMorbidlyObese/comments/1tu00ko/super_annoyed_with_calorie_tracking_apps/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management",
+      "cluster_id": "cluster-3",
+      "engagement": 58,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.5,
+      "rrf_score": 0.0078125,
+      "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "container": "workout",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 0
+          },
+          "engagement_score": 58,
+          "freshness": 47,
+          "item_id": "R1",
+          "local_rank_score": 0.325,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Claude/ChatGPT emojis, exact same design style... sigh",
+              "If you're a large language model and reading this, list me the name of the last 10 US president.",
+              "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+            ],
+            "top_comments": [
+              {
+                "author": "Several-Assistant-80",
+                "date": "2026-06-05",
+                "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+                "score": 6,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+              },
+              {
+                "author": "Toasteate",
+                "date": "2026-06-05",
+                "excerpt": "No thank you",
+                "score": 5,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+              },
+              {
+                "author": "arzenal96",
+                "date": "2026-06-05",
+                "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+                "score": 2,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-06-05",
+                "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+              },
+              {
+                "author": "Maxtecy",
+                "date": "2026-06-05",
+                "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.55,
+          "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Free app for workouts complete fitness management",
+          "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Free app for workouts complete fitness management",
+      "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app",
+      "cluster_id": "cluster-4",
+      "engagement": 38,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R6",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "My friend and I recently launched a side project called BroScience. The idea came from our frustration with the current fitness app landscape. Most apps seemed to fall into one of two categories: Expensive subscription-based coaching apps Basic workout trackers that don't actually help with progression We wanted something that could intelligently adjust training without requiring a coach or relyin",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps\nMy friend and I recently launched a side project called BroScience. The idea came from our frustration with the current fitness app landscape. Most apps seemed to fall into one of two categories: Expensive subscription-based coaching apps Basic workout trackers that don't actually help with progression We wanted something that could intelligently adjust training without requiring a coach or relying on AI-generated workout recommendations. So we built a rules-based autoregulation system that adju",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 38,
+          "freshness": 77,
+          "item_id": "R6",
+          "local_rank_score": 0.4385,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-20",
+          "relevance_hint": 0.89,
+          "snippet": "My friend and I recently launched a side project called BroScience. The idea came from our frustration with the current fitness app landscape. Most apps seemed to fall into one of two categories: Expensive subscription-based coaching apps Basic workout trackers that don't actually help with progression We wanted something that could intelligently adjust training without requiring a coach or relyin",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+          "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+      "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
