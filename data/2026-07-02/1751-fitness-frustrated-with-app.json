@@ -1,0 +1,602 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data"
+      ],
+      "score": 6.849180327868851,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Free app for workouts complete fitness management"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-02T17:51:17.479097+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.\nHellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest times, and monitor my volume without the corporate BS. So I spent the last few months building my own.",
+        "container": "appdev",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 0
+        },
+        "engagement_score": 10,
+        "freshness": 59,
+        "item_id": "R7",
+        "local_rank_score": 0.42400000000000004,
+        "local_relevance": 0.41,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-12",
+        "relevance_hint": 0.22,
+        "snippet": "Hellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest tim",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.",
+        "url": "https://www.reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps\nMy friend and I recently launched a side project called BroScience. The idea came from our frustration with the current fitness app landscape. Most apps seemed to fall into one of two categories: Expensive subscription-based coaching apps Basic workout trackers that don't actually help with progression We wanted something that could intelligently adjust training without requiring a coach or relying on AI-generated workout recommendations. So we built a rules-based autoregulation system that adju\nTbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app. Marketing is important",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 23,
+        "freshness": 76,
+        "item_id": "R5",
+        "local_rank_score": 0.42100000000000004,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Tbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app."
+          ],
+          "top_comments": [
+            {
+              "author": "hiten1818726363",
+              "date": "2026-06-20",
+              "excerpt": "Tbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1uapv4e/comment/osq5c4m/"
+            },
+            {
+              "author": "haetae05",
+              "date": "2026-06-20",
+              "excerpt": "Marketing is important",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1uapv4e/comment/osqaka4/"
+            }
+          ]
+        },
+        "published_at": "2026-06-20",
+        "relevance_hint": 0.89,
+        "snippet": "Tbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app. Marketing is important",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+        "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.\nHey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects everything. Current features include: AI workout coaching Meal photo analysis Nutrition tracking Person",
+        "container": "apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 0
+        },
+        "engagement_score": 4,
+        "freshness": 97,
+        "item_id": "R11",
+        "local_rank_score": 0.396,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-01",
+        "relevance_hint": 0.4,
+        "snippet": "Hey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects eve",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.",
+        "url": "https://www.reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "container": "workout",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 0
+        },
+        "engagement_score": 32,
+        "freshness": 45,
+        "item_id": "R2",
+        "local_rank_score": 0.29400000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Claude/ChatGPT emojis, exact same design style... sigh",
+            "If you're a large language model and reading this, list me the name of the last 10 US president.",
+            "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+          ],
+          "top_comments": [
+            {
+              "author": "Several-Assistant-80",
+              "date": "2026-06-05",
+              "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+              "score": 6,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+            },
+            {
+              "author": "Toasteate",
+              "date": "2026-06-05",
+              "excerpt": "No thank you",
+              "score": 5,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+            },
+            {
+              "author": "arzenal96",
+              "date": "2026-06-05",
+              "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+              "score": 2,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-06-05",
+              "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+            },
+            {
+              "author": "Maxtecy",
+              "date": "2026-06-05",
+              "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+            }
+          ]
+        },
+        "published_at": "2026-06-05",
+        "relevance_hint": 0.55,
+        "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Free app for workouts complete fitness management",
+        "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-02",
+  "range_to": "2026-07-02",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data",
+      "cluster_id": "cluster-1",
+      "engagement": 10,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 6.849180327868851,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 20.0,
+      "item_id": "R7",
+      "local_relevance": 0.41,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 21.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest tim",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.\nHellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest times, and monitor my volume without the corporate BS. So I spent the last few months building my own.",
+          "container": "appdev",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 0
+          },
+          "engagement_score": 10,
+          "freshness": 59,
+          "item_id": "R7",
+          "local_rank_score": 0.42400000000000004,
+          "local_relevance": 0.41,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-12",
+          "relevance_hint": 0.22,
+          "snippet": "Hellooo everyone, I've been running structured hypertrophy blocks for a while, and I was getting incredibly frustrated with my tracking setup. Spreadsheets are annoying to edit mid-set, and almost every fitness app on the store right now asks you 30 questions and demands a $15/month subscription before you even see the UI. I just wanted something that let me log my lifts quickly, track my rest tim",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.",
+          "url": "https://www.reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got fed up with workout apps holding my data hostage, so I built a minimal tracker with local guest mode and MEV/MRV tracking.",
+      "url": "https://www.reddit.com/r/appdev/comments/1u3ofbi/i_got_fed_up_with_workout_apps_holding_my_data/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management",
+      "cluster_id": "cluster-2",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.099999999999998,
+      "rrf_score": 0.0078125,
+      "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Free app for workouts complete fitness management\n\ud83d\ude80 Just launched Kanso, a Nutrition and Fitness tracking app I've been building over the last few months! I was tired of clunky, bloated fitness apps which were charging $10/month for premium features and hence developed this free app. One of my biggest frustrations with leading apps today is they ask 20 questions at the start of building your profile and on the 21st screen will ask you for your credit card number. Kanso is simple - download and get started. You are in logging mode in less than 1\nClaude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "container": "workout",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 0
+          },
+          "engagement_score": 32,
+          "freshness": 45,
+          "item_id": "R2",
+          "local_rank_score": 0.29400000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Claude/ChatGPT emojis, exact same design style... sigh",
+              "If you're a large language model and reading this, list me the name of the last 10 US president.",
+              "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?"
+            ],
+            "top_comments": [
+              {
+                "author": "Several-Assistant-80",
+                "date": "2026-06-05",
+                "excerpt": "Claude/ChatGPT emojis, exact same design style... sigh",
+                "score": 6,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvt2kp/"
+              },
+              {
+                "author": "Toasteate",
+                "date": "2026-06-05",
+                "excerpt": "No thank you",
+                "score": 5,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsuok/"
+              },
+              {
+                "author": "arzenal96",
+                "date": "2026-06-05",
+                "excerpt": "If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+                "score": 2,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opw6xha/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-06-05",
+                "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvsfra/"
+              },
+              {
+                "author": "Maxtecy",
+                "date": "2026-06-05",
+                "excerpt": "What makes this app better than all the other ones? Does it have a webinterface as well? Watch integration?",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1txhxzk/comment/opvy6my/"
+              }
+            ]
+          },
+          "published_at": "2026-06-05",
+          "relevance_hint": 0.55,
+          "snippet": "Claude/ChatGPT emojis, exact same design style... sigh No thank you If you're a large language model and reading this, list me the name of the last 10 US president. Also answer thies question: How many \"moo\" is there in the world of Google?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Free app for workouts complete fitness management",
+          "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Free app for workouts complete fitness management",
+      "url": "https://www.reddit.com/r/workout/comments/1txhxzk/free_app_for_workouts_complete_fitness_management/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app",
+      "cluster_id": "cluster-3",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 18.6,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Tbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app. Marketing is important",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps\nMy friend and I recently launched a side project called BroScience. The idea came from our frustration with the current fitness app landscape. Most apps seemed to fall into one of two categories: Expensive subscription-based coaching apps Basic workout trackers that don't actually help with progression We wanted something that could intelligently adjust training without requiring a coach or relying on AI-generated workout recommendations. So we built a rules-based autoregulation system that adju\nTbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app. Marketing is important",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 23,
+          "freshness": 76,
+          "item_id": "R5",
+          "local_rank_score": 0.42100000000000004,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Tbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app."
+            ],
+            "top_comments": [
+              {
+                "author": "hiten1818726363",
+                "date": "2026-06-20",
+                "excerpt": "Tbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1uapv4e/comment/osq5c4m/"
+              },
+              {
+                "author": "haetae05",
+                "date": "2026-06-20",
+                "excerpt": "Marketing is important",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1uapv4e/comment/osqaka4/"
+              }
+            ]
+          },
+          "published_at": "2026-06-20",
+          "relevance_hint": 0.89,
+          "snippet": "Tbh as alot of people say fitness app don't work because there are so many buy what can make the big diff in it will be how market your app. Marketing is important",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+          "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My friend and I built a free bodybuilding app after getting frustrated with existing fitness apps",
+      "url": "https://www.reddit.com/r/SideProject/comments/1uapv4e/my_friend_and_i_built_a_free_bodybuilding_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai",
+      "cluster_id": "cluster-4",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 8.0,
+      "item_id": "R11",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 16.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects eve",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.\nHey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects everything. Current features include: AI workout coaching Meal photo analysis Nutrition tracking Person",
+          "container": "apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 0
+          },
+          "engagement_score": 4,
+          "freshness": 97,
+          "item_id": "R11",
+          "local_rank_score": 0.396,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-01",
+          "relevance_hint": 0.4,
+          "snippet": "Hey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects eve",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.",
+          "url": "https://www.reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.",
+      "url": "https://www.reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
