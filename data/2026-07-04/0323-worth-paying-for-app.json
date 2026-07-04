@@ -1,0 +1,857 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iosapps/comments/1u3s10q/are_there_any_opensource_ios_apps_you_actually"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/iosapps/comments/1u3s10q/are_there_any_opensource_ios_apps_you_actually"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Are there any open-source iOS apps you actually use regularly \u2014 or even ones worth paying for?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any apps or subscriptions worth paying for if you hate grocery runs?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1ubw4u3/my_first_customer_paid_for_my_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1ubw4u3/my_first_customer_paid_for_my_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My first customer paid for my app."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saasbuild/comments/1um8cvg/im_validating_a_saas_research_tool_not_just"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/saasbuild/comments/1um8cvg/im_validating_a_saas_research_tool_not_just"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I\u2019m validating a SaaS research tool \u2014 not just another \u201cfind pain points on Reddit\u201d app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-04T03:23:43.724619+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Any apps or subscriptions worth paying for if you hate grocery runs?\nWife and I have been much more busy lately and find less time doing household errands like groceries and cooking in general so we've been getting food delivered a lot more. This hasn't been good for our budget but I also get annoyed when I'm in the mood to cook and realize we're missing some ingredients. Last minute grocery runs feel like so much wasted time to me. Do you guys have delivery subscriptions you'd recommend that saves money in the long run? Any suggestions or tips are welcome Updati\nYep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+        "container": "Adulting",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 10
+        },
+        "engagement_score": 83,
+        "freshness": 51,
+        "item_id": "R3",
+        "local_rank_score": 0.4055,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [
+            "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+            "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees.",
+            "Some stores you get pickup for free. You just park and they bring it to you through the grocery app.",
+            "We are only restocking items used so shopping is pretty quick."
+          ],
+          "top_comments": [
+            {
+              "author": "gpbuilder",
+              "date": "2026-06-10",
+              "excerpt": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+              "score": 3,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqs3tmw/"
+            },
+            {
+              "author": "Bright_iD-BushyTail",
+              "date": "2026-06-10",
+              "excerpt": "Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery.",
+              "score": 2,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsr3go/"
+            },
+            {
+              "author": "RalexanderSingleton",
+              "date": "2026-06-22",
+              "excerpt": "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+              "score": 1,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/ot2phmk/"
+            },
+            {
+              "author": "cwsjr2323",
+              "date": "2026-06-10",
+              "excerpt": "We are only restocking items used so shopping is pretty quick. From our rural village to a supermarket is 25 miles, which uses two gallons of gas. We go once a month and have a lunch in town making it more of a date night event. That makes it tolerable.",
+              "score": 1,
+              "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsptiz/"
+            }
+          ]
+        },
+        "published_at": "2026-06-10",
+        "relevance_hint": 0.5,
+        "snippet": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any apps or subscriptions worth paying for if you hate grocery runs?",
+        "url": "https://www.reddit.com/r/Adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Are there any open-source iOS apps you actually use regularly \u2014 or even ones worth paying for?\nMy list: BitwardenStandard NotesBrave browserJoplin\nA few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished). Signal is the obvious choice for messaging, and for notes Standard Notes or Joplin if you want end-to-end encryption without a subscription locking you in. Proton's apps, which ar Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too. I discovered this during COVID and it's been a keeper: https://mame4ios.app/ An amazing calculator app: https://apps.apple.com/us/app/free42/id337692629 And then of course VLC: https://itunes.apple.com/app/apple-store/id650377962",
+        "container": "iosapps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 26,
+          "score": 12
+        },
+        "engagement_score": 100,
+        "freshness": 55,
+        "item_id": "R1",
+        "local_rank_score": 0.374,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [
+            "A few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished).",
+            "BookPlayer is a great, OSS app on iOS if you listen to audiobooks.",
+            "Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too.",
+            "NetNewsWire is probably the one I use the most, mostly because it stays boring and doesn't try to turn RSS into a social feed.",
+            "Is Bitwarden worth it? I heard it's the cheapest password manager that is supported on multiple platforms.",
+            "I discovered this during COVID and it's been a keeper: https://mame4ios.",
+            "Obsidian Web Clipper is great.",
+            "NetNewsWire is the one I'd add. Fully open source, no account, no tracking, and it's nicer than most paid RSS readers I've used.",
+            "Blink terminal - running my own compile where I added local voice transcription, window switching and other goodies."
+          ],
+          "top_comments": [
+            {
+              "author": "Mark_Considus",
+              "date": "2026-06-12",
+              "excerpt": "A few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished). Signal is the obvious choice for messaging, and for notes Standard Notes or Joplin if you want end-to-end encryption without a subscription locking you in. Proton's apps, which ar",
+              "score": 5,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or7z83p/"
+            },
+            {
+              "author": "woodencloset",
+              "date": "2026-06-12",
+              "excerpt": "Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too.",
+              "score": 5,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or8353x/"
+            },
+            {
+              "author": "ambanmba",
+              "date": "2026-06-12",
+              "excerpt": "I discovered this during COVID and it's been a keeper: https://mame4ios.app/ An amazing calculator app: https://apps.apple.com/us/app/free42/id337692629 And then of course VLC: https://itunes.apple.com/app/apple-store/id650377962",
+              "score": 3,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or84nr8/"
+            },
+            {
+              "author": "Blzn",
+              "date": "2026-06-12",
+              "excerpt": "BookPlayer is a great, OSS app on iOS if you listen to audiobooks.",
+              "score": 2,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or8ws0u/"
+            },
+            {
+              "author": "Yusuf-Dev",
+              "date": "2026-06-12",
+              "excerpt": "Obsidian Web Clipper is great.",
+              "score": 2,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or8zv4d/"
+            },
+            {
+              "author": "RichProtection94",
+              "date": "2026-06-15",
+              "excerpt": "NetNewsWire is the one I'd add. Fully open source, no account, no tracking, and it's nicer than most paid RSS readers I've used. For passwords I moved from Bitwarden to KeePassium since it just opens a local KeePass file with no server in the loop at all. Both free, but NetNewsWire is one I'd have h",
+              "score": 2,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/orpbesd/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-06-12",
+              "excerpt": "Welcome to r/iOSApps! Please make sure your post follows our rules: Everyone: 10pt LOCAL Karma Required. Comment in r/iOSApps to earn 10 karma first. Check Before posting, search r/iOSApps; check App Comparisons Choose flair App Devs: No main feed promotion unless you qualify (25 community karma) Use ABC Post format (Answer, Better, Cost) Flair hierarchy: Vibe Coded > Lifetime > Subscription > Fre",
+              "score": 1,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or7f1pk/"
+            },
+            {
+              "author": "RelationNo1434",
+              "date": "2026-06-15",
+              "excerpt": "NetNewsWire is probably the one I use the most, mostly because it stays boring and doesn't try to turn RSS into a social feed. VLC is the other boring-but-real answer. a-Shell is also worth having if you ever need terminal-ish stuff locally on the phone, even if it feels a little weird at first.",
+              "score": 1,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/ors4i5u/"
+            },
+            {
+              "author": "Unable-Wait188",
+              "date": "2026-06-15",
+              "excerpt": "Is Bitwarden worth it? I heard it's the cheapest password manager that is supported on multiple platforms.",
+              "score": 1,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/ort2unv/"
+            },
+            {
+              "author": "Terrible-Round1599",
+              "date": "2026-06-12",
+              "excerpt": "Blink terminal - running my own compile where I added local voice transcription, window switching and other goodies.",
+              "score": 1,
+              "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or9jcyi/"
+            }
+          ]
+        },
+        "published_at": "2026-06-12",
+        "relevance_hint": 0.5,
+        "snippet": "A few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished). Signal is the obvious choice for messaging, and for notes Standard Notes or Joplin if you want end-to-end encryption without a subscription locking you in. Proton's apps, which ar Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too. I discovered this during COVID and it's been a keeper: https://mame4ios.app/ An amazing calculator app: https://apps.apple.com/us/app/free42/id337692629 And then of course VLC: https://itunes.apple.com/app/apple-store/id650377962",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Are there any open-source iOS apps you actually use regularly \u2014 or even ones worth paying for?",
+        "url": "https://www.reddit.com/r/iosapps/comments/1u3s10q/are_there_any_opensource_ios_apps_you_actually/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited\nNone\nApp UI Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for. My advice: Contact that customer if possible. Ask why they bought. Ask what nearly stopped them from buying. Ask what feature they'd love to see next",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 3
+        },
+        "engagement_score": 57,
+        "freshness": 45,
+        "item_id": "R4",
+        "local_rank_score": 0.3645,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [
+            "Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for."
+          ],
+          "top_comments": [
+            {
+              "author": "Maximum-Machine-9276",
+              "date": "2026-06-07",
+              "excerpt": "App UI",
+              "score": 2,
+              "url": "https://reddit.com/r/SideProject/comments/1tz3k1r/comment/oq7vfxh/"
+            },
+            {
+              "author": "jzorro",
+              "date": "2026-06-07",
+              "excerpt": "Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for. My advice: Contact that customer if possible. Ask why they bought. Ask what nearly stopped them from buying. Ask what feature they'd love to see next",
+              "score": 2,
+              "url": "https://reddit.com/r/SideProject/comments/1tz3k1r/comment/oq9ybvw/"
+            }
+          ]
+        },
+        "published_at": "2026-06-07",
+        "relevance_hint": 0.63,
+        "snippet": "App UI Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for. My advice: Contact that customer if possible. Ask why they bought. Ask what nearly stopped them from buying. Ask what feature they'd love to see next",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited",
+        "url": "https://www.reddit.com/r/SideProject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after/",
+        "why_relevant": "Reddit r/SideProject search"
+      },
+      {
+        "body": "I\u2019m validating a SaaS research tool \u2014 not just another \u201cfind pain points on Reddit\u201d app\nHey everyone, I\u2019ve been validating an idea around SaaS market research, and I got a lot of useful feedback from previous posts/comments. The main pushback was fair: \u201cThere are already a lot of tools that find Reddit pain points. What makes this different?\u201d After thinking about it, I realized the value should not just be \u201cfinding Reddit complaints.\u201d The real problem is reducing uncertainty before building. A lot of founders still validate ideas manually by opening 30 tabs, reading Reddit threads,",
+        "container": "saasbuild",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 0
+        },
+        "engagement_score": 22,
+        "freshness": 97,
+        "item_id": "R6",
+        "local_rank_score": 0.362,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-03",
+        "relevance_hint": 0.43,
+        "snippet": "Hey everyone, I\u2019ve been validating an idea around SaaS market research, and I got a lot of useful feedback from previous posts/comments. The main pushback was fair: \u201cThere are already a lot of tools that find Reddit pain points. What makes this different?\u201d After thinking about it, I realized the value should not just be \u201cfinding Reddit complaints.\u201d The real problem is reducing uncertainty before b",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I\u2019m validating a SaaS research tool \u2014 not just another \u201cfind pain points on Reddit\u201d app",
+        "url": "https://www.reddit.com/r/saasbuild/comments/1um8cvg/im_validating_a_saas_research_tool_not_just/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My first customer paid for my app.\nToday I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording voice notes and then forgetting about them. I'd have hundreds of notes, screenshots, and random remin",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 3
+        },
+        "engagement_score": 39,
+        "freshness": 73,
+        "item_id": "R7",
+        "local_rank_score": 0.358,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-21",
+        "relevance_hint": 0.45,
+        "snippet": "Today I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording v",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My first customer paid for my app.",
+        "url": "https://www.reddit.com/r/SideProject/comments/1ubw4u3/my_first_customer_paid_for_my_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-04",
+  "range_to": "2026-07-04",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/iosapps/comments/1u3s10q/are_there_any_opensource_ios_apps_you_actually",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 6.699999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "A few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished). Signal is the obvious choice for messaging, and for notes Standard Notes or Joplin if you want end-to-end encryption without a subscription locking you in. Proton's apps, which ar Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too. I discovered this during COVID and it's been a keeper: https://mame4ios.app/ An amazing calculator app: https://apps.apple.com/us/app/free42/id337692629 And then of course VLC: https://itunes.apple.com/app/apple-store/id650377962",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Are there any open-source iOS apps you actually use regularly \u2014 or even ones worth paying for?\nMy list: BitwardenStandard NotesBrave browserJoplin\nA few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished). Signal is the obvious choice for messaging, and for notes Standard Notes or Joplin if you want end-to-end encryption without a subscription locking you in. Proton's apps, which ar Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too. I discovered this during COVID and it's been a keeper: https://mame4ios.app/ An amazing calculator app: https://apps.apple.com/us/app/free42/id337692629 And then of course VLC: https://itunes.apple.com/app/apple-store/id650377962",
+          "container": "iosapps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 26,
+            "score": 12
+          },
+          "engagement_score": 100,
+          "freshness": 55,
+          "item_id": "R1",
+          "local_rank_score": 0.374,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [
+              "A few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished).",
+              "BookPlayer is a great, OSS app on iOS if you listen to audiobooks.",
+              "Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too.",
+              "NetNewsWire is probably the one I use the most, mostly because it stays boring and doesn't try to turn RSS into a social feed.",
+              "Is Bitwarden worth it? I heard it's the cheapest password manager that is supported on multiple platforms.",
+              "I discovered this during COVID and it's been a keeper: https://mame4ios.",
+              "Obsidian Web Clipper is great.",
+              "NetNewsWire is the one I'd add. Fully open source, no account, no tracking, and it's nicer than most paid RSS readers I've used.",
+              "Blink terminal - running my own compile where I added local voice transcription, window switching and other goodies."
+            ],
+            "top_comments": [
+              {
+                "author": "Mark_Considus",
+                "date": "2026-06-12",
+                "excerpt": "A few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished). Signal is the obvious choice for messaging, and for notes Standard Notes or Joplin if you want end-to-end encryption without a subscription locking you in. Proton's apps, which ar",
+                "score": 5,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or7z83p/"
+              },
+              {
+                "author": "woodencloset",
+                "date": "2026-06-12",
+                "excerpt": "Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too.",
+                "score": 5,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or8353x/"
+              },
+              {
+                "author": "ambanmba",
+                "date": "2026-06-12",
+                "excerpt": "I discovered this during COVID and it's been a keeper: https://mame4ios.app/ An amazing calculator app: https://apps.apple.com/us/app/free42/id337692629 And then of course VLC: https://itunes.apple.com/app/apple-store/id650377962",
+                "score": 3,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or84nr8/"
+              },
+              {
+                "author": "Blzn",
+                "date": "2026-06-12",
+                "excerpt": "BookPlayer is a great, OSS app on iOS if you listen to audiobooks.",
+                "score": 2,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or8ws0u/"
+              },
+              {
+                "author": "Yusuf-Dev",
+                "date": "2026-06-12",
+                "excerpt": "Obsidian Web Clipper is great.",
+                "score": 2,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or8zv4d/"
+              },
+              {
+                "author": "RichProtection94",
+                "date": "2026-06-15",
+                "excerpt": "NetNewsWire is the one I'd add. Fully open source, no account, no tracking, and it's nicer than most paid RSS readers I've used. For passwords I moved from Bitwarden to KeePassium since it just opens a local KeePass file with no server in the loop at all. Both free, but NetNewsWire is one I'd have h",
+                "score": 2,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/orpbesd/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-06-12",
+                "excerpt": "Welcome to r/iOSApps! Please make sure your post follows our rules: Everyone: 10pt LOCAL Karma Required. Comment in r/iOSApps to earn 10 karma first. Check Before posting, search r/iOSApps; check App Comparisons Choose flair App Devs: No main feed promotion unless you qualify (25 community karma) Use ABC Post format (Answer, Better, Cost) Flair hierarchy: Vibe Coded > Lifetime > Subscription > Fre",
+                "score": 1,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or7f1pk/"
+              },
+              {
+                "author": "RelationNo1434",
+                "date": "2026-06-15",
+                "excerpt": "NetNewsWire is probably the one I use the most, mostly because it stays boring and doesn't try to turn RSS into a social feed. VLC is the other boring-but-real answer. a-Shell is also worth having if you ever need terminal-ish stuff locally on the phone, even if it feels a little weird at first.",
+                "score": 1,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/ors4i5u/"
+              },
+              {
+                "author": "Unable-Wait188",
+                "date": "2026-06-15",
+                "excerpt": "Is Bitwarden worth it? I heard it's the cheapest password manager that is supported on multiple platforms.",
+                "score": 1,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/ort2unv/"
+              },
+              {
+                "author": "Terrible-Round1599",
+                "date": "2026-06-12",
+                "excerpt": "Blink terminal - running my own compile where I added local voice transcription, window switching and other goodies.",
+                "score": 1,
+                "url": "https://reddit.com/r/iosapps/comments/1u3s10q/comment/or9jcyi/"
+              }
+            ]
+          },
+          "published_at": "2026-06-12",
+          "relevance_hint": 0.5,
+          "snippet": "A few I genuinely reach for or have in the past: Bitwarden (open source, and the apps are actually reasonably polished). Signal is the obvious choice for messaging, and for notes Standard Notes or Joplin if you want end-to-end encryption without a subscription locking you in. Proton's apps, which ar Firefox! Unfortunately on iOS it's just a shell over WebKit. But I use it on other platforms too. I discovered this during COVID and it's been a keeper: https://mame4ios.app/ An amazing calculator app: https://apps.apple.com/us/app/free42/id337692629 And then of course VLC: https://itunes.apple.com/app/apple-store/id650377962",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Are there any open-source iOS apps you actually use regularly \u2014 or even ones worth paying for?",
+          "url": "https://www.reddit.com/r/iosapps/comments/1u3s10q/are_there_any_opensource_ios_apps_you_actually/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Are there any open-source iOS apps you actually use regularly \u2014 or even ones worth paying for?",
+      "url": "https://www.reddit.com/r/iosapps/comments/1u3s10q/are_there_any_opensource_ios_apps_you_actually/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you",
+      "cluster_id": "cluster-2",
+      "engagement": 83,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any apps or subscriptions worth paying for if you hate grocery runs?\nWife and I have been much more busy lately and find less time doing household errands like groceries and cooking in general so we've been getting food delivered a lot more. This hasn't been good for our budget but I also get annoyed when I'm in the mood to cook and realize we're missing some ingredients. Last minute grocery runs feel like so much wasted time to me. Do you guys have delivery subscriptions you'd recommend that saves money in the long run? Any suggestions or tips are welcome Updati\nYep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+          "container": "Adulting",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 10
+          },
+          "engagement_score": 83,
+          "freshness": 51,
+          "item_id": "R3",
+          "local_rank_score": 0.4055,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [
+              "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+              "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees.",
+              "Some stores you get pickup for free. You just park and they bring it to you through the grocery app.",
+              "We are only restocking items used so shopping is pretty quick."
+            ],
+            "top_comments": [
+              {
+                "author": "gpbuilder",
+                "date": "2026-06-10",
+                "excerpt": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy.",
+                "score": 3,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqs3tmw/"
+              },
+              {
+                "author": "Bright_iD-BushyTail",
+                "date": "2026-06-10",
+                "excerpt": "Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery.",
+                "score": 2,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsr3go/"
+              },
+              {
+                "author": "RalexanderSingleton",
+                "date": "2026-06-22",
+                "excerpt": "Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+                "score": 1,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/ot2phmk/"
+              },
+              {
+                "author": "cwsjr2323",
+                "date": "2026-06-10",
+                "excerpt": "We are only restocking items used so shopping is pretty quick. From our rural village to a supermarket is 25 miles, which uses two gallons of gas. We go once a month and have a lunch in town making it more of a date night event. That makes it tolerable.",
+                "score": 1,
+                "url": "https://reddit.com/r/Adulting/comments/1u1scec/comment/oqsptiz/"
+              }
+            ]
+          },
+          "published_at": "2026-06-10",
+          "relevance_hint": 0.5,
+          "snippet": "Yep I do Amazon grocery subscription and order stuff from Whole Foods all the time. It\u2019s super worth especially when you\u2019re busy. Some stores you get pickup for free. You just park and they bring it to you through the grocery app. It was cheaper because I can shop store adds and it doesn\u2019t cost extra to pick up. Instacart up charges for the groceries and the delivery. Updating to say we looked at Doordash grocery delivery and decided to get a Dashpass sub to save on delivery fees. We've ordered twice and it's pretty good so far",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any apps or subscriptions worth paying for if you hate grocery runs?",
+          "url": "https://www.reddit.com/r/Adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any apps or subscriptions worth paying for if you hate grocery runs?",
+      "url": "https://www.reddit.com/r/Adulting/comments/1u1scec/any_apps_or_subscriptions_worth_paying_for_if_you/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after",
+      "cluster_id": "cluster-3",
+      "engagement": 57,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 11.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "App UI Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for. My advice: Contact that customer if possible. Ask why they bought. Ask what nearly stopped them from buying. Ask what feature they'd love to see next",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited\nNone\nApp UI Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for. My advice: Contact that customer if possible. Ask why they bought. Ask what nearly stopped them from buying. Ask what feature they'd love to see next",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 3
+          },
+          "engagement_score": 57,
+          "freshness": 45,
+          "item_id": "R4",
+          "local_rank_score": 0.3645,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [
+              "Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for."
+            ],
+            "top_comments": [
+              {
+                "author": "Maximum-Machine-9276",
+                "date": "2026-06-07",
+                "excerpt": "App UI",
+                "score": 2,
+                "url": "https://reddit.com/r/SideProject/comments/1tz3k1r/comment/oq7vfxh/"
+              },
+              {
+                "author": "jzorro",
+                "date": "2026-06-07",
+                "excerpt": "Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for. My advice: Contact that customer if possible. Ask why they bought. Ask what nearly stopped them from buying. Ask what feature they'd love to see next",
+                "score": 2,
+                "url": "https://reddit.com/r/SideProject/comments/1tz3k1r/comment/oq9ybvw/"
+              }
+            ]
+          },
+          "published_at": "2026-06-07",
+          "relevance_hint": 0.63,
+          "snippet": "App UI Congrats! The money isn't the important part. A stranger looked at your app, compared it to all the alternatives, and decided it was worth paying for. My advice: Contact that customer if possible. Ask why they bought. Ask what nearly stopped them from buying. Ask what feature they'd love to see next",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited",
+          "url": "https://www.reddit.com/r/SideProject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after/",
+          "why_relevant": "Reddit r/SideProject search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Got my first paying customer 2 days after launching my app. It was only a small amount, but I'm genuinely excited",
+      "url": "https://www.reddit.com/r/SideProject/comments/1tz3k1r/got_my_first_paying_customer_2_days_after/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1ubw4u3/my_first_customer_paid_for_my_app",
+      "cluster_id": "cluster-4",
+      "engagement": 39,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 10.299999999999997,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Today I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording v",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My first customer paid for my app.\nToday I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording voice notes and then forgetting about them. I'd have hundreds of notes, screenshots, and random remin",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 3
+          },
+          "engagement_score": 39,
+          "freshness": 73,
+          "item_id": "R7",
+          "local_rank_score": 0.358,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-21",
+          "relevance_hint": 0.45,
+          "snippet": "Today I got my first in-app purchase. It's not life-changing money. But after spending months building, debugging, redesigning screens, fixing App Store review issues, and wondering whether anyone would actually find the app useful, seeing a complete stranger decide it's worth paying for felt pretty incredible. The app is called WhisperAct: Voice Task Planner. I built it because I kept recording v",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My first customer paid for my app.",
+          "url": "https://www.reddit.com/r/SideProject/comments/1ubw4u3/my_first_customer_paid_for_my_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My first customer paid for my app.",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ubw4u3/my_first_customer_paid_for_my_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saasbuild/comments/1um8cvg/im_validating_a_saas_research_tool_not_just",
+      "cluster_id": "cluster-5",
+      "engagement": 22,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 10.900000000000006,
+      "rrf_score": 0.0078125,
+      "snippet": "Hey everyone, I\u2019ve been validating an idea around SaaS market research, and I got a lot of useful feedback from previous posts/comments. The main pushback was fair: \u201cThere are already a lot of tools that find Reddit pain points. What makes this different?\u201d After thinking about it, I realized the value should not just be \u201cfinding Reddit complaints.\u201d The real problem is reducing uncertainty before b",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I\u2019m validating a SaaS research tool \u2014 not just another \u201cfind pain points on Reddit\u201d app\nHey everyone, I\u2019ve been validating an idea around SaaS market research, and I got a lot of useful feedback from previous posts/comments. The main pushback was fair: \u201cThere are already a lot of tools that find Reddit pain points. What makes this different?\u201d After thinking about it, I realized the value should not just be \u201cfinding Reddit complaints.\u201d The real problem is reducing uncertainty before building. A lot of founders still validate ideas manually by opening 30 tabs, reading Reddit threads,",
+          "container": "saasbuild",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 0
+          },
+          "engagement_score": 22,
+          "freshness": 97,
+          "item_id": "R6",
+          "local_rank_score": 0.362,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-03",
+          "relevance_hint": 0.43,
+          "snippet": "Hey everyone, I\u2019ve been validating an idea around SaaS market research, and I got a lot of useful feedback from previous posts/comments. The main pushback was fair: \u201cThere are already a lot of tools that find Reddit pain points. What makes this different?\u201d After thinking about it, I realized the value should not just be \u201cfinding Reddit complaints.\u201d The real problem is reducing uncertainty before b",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I\u2019m validating a SaaS research tool \u2014 not just another \u201cfind pain points on Reddit\u201d app",
+          "url": "https://www.reddit.com/r/saasbuild/comments/1um8cvg/im_validating_a_saas_research_tool_not_just/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I\u2019m validating a SaaS research tool \u2014 not just another \u201cfind pain points on Reddit\u201d app",
+      "url": "https://www.reddit.com/r/saasbuild/comments/1um8cvg/im_validating_a_saas_research_tool_not_just/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
