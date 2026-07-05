@@ -1,0 +1,864 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1ugpsea/i_got_frustrated_with_that_so_i_made_this"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1ugpsea/i_got_frustrated_with_that_so_i_made_this"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got frustrated with that, so I made this!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/vent/comments/1u65xyx/frustrated_with_guys_posting_oldyounger_pics_of"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/vent/comments/1u65xyx/frustrated_with_guys_posting_oldyounger_pics_of"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Frustrated with guys posting old/younger pics of themselves on dating apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/duolingo/comments/1uc02cb/fk_ai_use"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/duolingo/comments/1uc02cb/fk_ai_use"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "F**k AI use"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Men / Women beyond frustrated with dating apps"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-05T17:14:12.093500+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I got frustrated with that, so I made this!\nAren't you all sick of this gemini generated self promoting post titles on this subreddit? And when you criticize them their response starts with \"Fair point...\" which is also standard gemini response. So, they are not only vibe coding their app but using AI to create a reddit post and every single response. How braindead do you have to be to use AI for everything and not have a single organic reply? I don't mind honest and frank self promotion, but absolutely hate AI generated self promotion po\n\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto. I know llm coding tools can generate decent code but if they care so little, I\u2019m sure theirs is trash. You're right to call that out. For real though I agree. Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 72,
+          "score": 50
+        },
+        "engagement_score": 100,
+        "freshness": 83,
+        "item_id": "R2",
+        "local_rank_score": 0.4115,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto.",
+            "You're right to call that out. For real though I agree.",
+            "Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+            "I think it\u2019s funny that they think that the app they made in 25 minutes with a llm is going to make them tons of money.",
+            "I\u2019m reluctant to post my app in progress here cause of that \ud83d\ude02, tbh I don\u2019t even know if any of the replies on the comments of those posts too are real...",
+            "The tell is when the post has no tradeoffs. Real builders usually know exactly where the thing is ugly, brittle, or still embarrassing.",
+            "Completely agree yeah I used AI to make my app, but I made sure my logo was made by mez and I never use AI to generate posts on here.",
+            "Do they get any dopamine hit doing everything using Ai?",
+            "I understand you why you find this issue so frustrating. Would you like me to give you some tips for reducing stress?"
+          ],
+          "top_comments": [
+            {
+              "author": "theLightSlide",
+              "date": "2026-06-27",
+              "excerpt": "\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto. I know llm coding tools can generate decent code but if they care so little, I\u2019m sure theirs is trash.",
+              "score": 24,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou224gn/"
+            },
+            {
+              "author": "PerroneDev",
+              "date": "2026-06-27",
+              "excerpt": "You're right to call that out. For real though I agree.",
+              "score": 19,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou1vw09/"
+            },
+            {
+              "author": "tstandiford",
+              "date": "2026-06-27",
+              "excerpt": "Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+              "score": 8,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou1zyuc/"
+            },
+            {
+              "author": "BBSLIMMERS",
+              "date": "2026-06-27",
+              "excerpt": "I think it\u2019s funny that they think that the app they made in 25 minutes with a llm is going to make them tons of money. Maybe I guess, but even using llms, the apps you use every day have teams of hundreds/thousands of devs with no usage limits. Writing code is only one part of engineering.",
+              "score": 6,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou2dfum/"
+            },
+            {
+              "author": "isdfoa",
+              "date": "2026-06-27",
+              "excerpt": "I\u2019m reluctant to post my app in progress here cause of that \ud83d\ude02, tbh I don\u2019t even know if any of the replies on the comments of those posts too are real or just AI. It\u2019s called Nown (own your now) and I have a waitlist at www.ownyour.now if you\u2019d like to check it out! Putting a lot of work into to mak",
+              "score": 4,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou23h2p/"
+            },
+            {
+              "author": "humanexperimentals",
+              "date": "2026-06-27",
+              "excerpt": "I understand you why you find this issue so frustrating. Would you like me to give you some tips for reducing stress?",
+              "score": 4,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou1z2kx/"
+            },
+            {
+              "author": "jhkoenig",
+              "date": "2026-06-27",
+              "excerpt": "Fair point... /s",
+              "score": 3,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou23ypr/"
+            },
+            {
+              "author": "Puzzled-Hedgehog4984",
+              "date": "2026-06-27",
+              "excerpt": "The tell is when the post has no tradeoffs. Real builders usually know exactly where the thing is ugly, brittle, or still embarrassing. The polished launch voice without any scars is what makes it feel fake.",
+              "score": 3,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou24cjz/"
+            },
+            {
+              "author": "Ukawok92",
+              "date": "2026-06-27",
+              "excerpt": "Completely agree yeah I used AI to make my app, but I made sure my logo was made by mez and I never use AI to generate posts on here.",
+              "score": 3,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou2591p/"
+            },
+            {
+              "author": "vigneshvp",
+              "date": "2026-06-27",
+              "excerpt": "Do they get any dopamine hit doing everything using Ai?",
+              "score": 3,
+              "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou2tw3a/"
+            }
+          ]
+        },
+        "published_at": "2026-06-27",
+        "relevance_hint": 0.41,
+        "snippet": "\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto. I know llm coding tools can generate decent code but if they care so little, I\u2019m sure theirs is trash. You're right to call that out. For real though I agree. Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got frustrated with that, so I made this!",
+        "url": "https://www.reddit.com/r/SideProject/comments/1ugpsea/i_got_frustrated_with_that_so_i_made_this/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Frustrated with guys posting old/younger pics of themselves on dating apps\nI\u2019m 43F and so SICK of seeing male profiles where they have anywhere from 2-6 pics and all but 1 will be of their younger self in college or 5-10 years ago. But the ONE pic, that\u2019s usually the last pic, will be an updated pic that is the most unflattering pic. It\u2019s obvious WHY they do this but what I guess my post is questioning more of the logic of it. Do they think women won\u2019t see all the pics and question the last one? Or that we\u2019d actually swipe and chat with them, and even meet them in pers\nOmg just wait till you see what\u2019s out there when you\u2019re 60. It's sadly not much better for us gals that like gals, because there are so. Many. Filters. Like, christ, girl, I get the pain of the unrealistic beauty standards, but they're gonna find out eventually; tone that shit down. My less flattering pictures are at the top of my profile partly because of c The other side is a issue as well. Makeup and filters.",
+        "container": "Vent",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 115,
+          "score": 16
+        },
+        "engagement_score": 88,
+        "freshness": 59,
+        "item_id": "R1",
+        "local_rank_score": 0.398,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [
+            "Omg just wait till you see what\u2019s out there when you\u2019re 60.",
+            "It's sadly not much better for us gals that like gals, because there are so.",
+            "The other side is a issue as well. Makeup and filters.",
+            "Pfft i have the same, but with women. Nothing worse then going on a date to find out what that person was hiding.",
+            "Guys aren't taking pics all the time and really dgaf",
+            "As a man I think the most recent picture i have that I could use for a dating profile is probably 2 years old.",
+            "I think photos are by default disingenuous. People take hundreds of pictures, but only share a few of them.",
+            "I'm lucky enough to not really have any photos from that far back and even if I did they would be just as unflattering as my current pics.",
+            "If it helps, women's profiles aren't much better. Photos 10+ years old or weighing 40lbs less."
+          ],
+          "top_comments": [
+            {
+              "author": "babypinkroses10",
+              "date": "2026-06-15",
+              "excerpt": "Omg just wait till you see what\u2019s out there when you\u2019re 60.",
+              "score": 33,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq5m9i/"
+            },
+            {
+              "author": "AlteredEinst",
+              "date": "2026-06-15",
+              "excerpt": "It's sadly not much better for us gals that like gals, because there are so. Many. Filters. Like, christ, girl, I get the pain of the unrealistic beauty standards, but they're gonna find out eventually; tone that shit down. My less flattering pictures are at the top of my profile partly because of c",
+              "score": 30,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq77kr/"
+            },
+            {
+              "author": "Face_Content",
+              "date": "2026-06-15",
+              "excerpt": "The other side is a issue as well. Makeup and filters.",
+              "score": 19,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq5olq/"
+            },
+            {
+              "author": "RootlessForest",
+              "date": "2026-06-15",
+              "excerpt": "Pfft i have the same, but with women. Nothing worse then going on a date to find out what that person was hiding.",
+              "score": 13,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orr3jyv/"
+            },
+            {
+              "author": "Normal_Choice9322",
+              "date": "2026-06-15",
+              "excerpt": "Guys aren't taking pics all the time and really dgaf",
+              "score": 12,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orrhpjp/"
+            },
+            {
+              "author": "pinkleftsock",
+              "date": "2026-06-15",
+              "excerpt": "As a man I think the most recent picture i have that I could use for a dating profile is probably 2 years old.. And the next one is probably way older.",
+              "score": 9,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orrbvrw/"
+            },
+            {
+              "author": "CDTPPW",
+              "date": "2026-06-15",
+              "excerpt": "I think photos are by default disingenuous. People take hundreds of pictures, but only share a few of them. Everybody's looking to capture the best version of themselves and discard the rest. The \"best angle\" is by far the most common cheat nobody mentions. IDk, I never was into pictures. Even thoug",
+              "score": 6,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orr3u6l/"
+            },
+            {
+              "author": "dudeguydave",
+              "date": "2026-06-15",
+              "excerpt": "I'm lucky enough to not really have any photos from that far back and even if I did they would be just as unflattering as my current pics. But if I were in the apps I would at least have the one hostage type photo of me holding something with a very recent date on it as proof. Some guys, and by some",
+              "score": 2,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq86vr/"
+            },
+            {
+              "author": "DizzyAstronaut9410",
+              "date": "2026-06-15",
+              "excerpt": "If it helps, women's profiles aren't much better. Photos 10+ years old or weighing 40lbs less. Any current photos are at angles hiding their actual body or heavily filtered. Hell some will go through the effort of making a fake social media account to link to their profile so they can roll their dis",
+              "score": 2,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq9mgs/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-06-15",
+              "excerpt": "If you are seeing this comment, your post is now live and public. Reminder: This is a support space. Negative, invalidating, attacking, or inappropriate comments are not tolerated. If you see a comment that breaks the rules, please report it so the moderators can take action. If someone is being dismissive, rude, offensive or in any other way inappropriate, do not engage. Report them instead. Mode",
+              "score": 1,
+              "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq4txn/"
+            }
+          ]
+        },
+        "published_at": "2026-06-15",
+        "relevance_hint": 0.37,
+        "snippet": "Omg just wait till you see what\u2019s out there when you\u2019re 60. It's sadly not much better for us gals that like gals, because there are so. Many. Filters. Like, christ, girl, I get the pain of the unrealistic beauty standards, but they're gonna find out eventually; tone that shit down. My less flattering pictures are at the top of my profile partly because of c The other side is a issue as well. Makeup and filters.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Frustrated with guys posting old/younger pics of themselves on dating apps",
+        "url": "https://www.reddit.com/r/Vent/comments/1u65xyx/frustrated_with_guys_posting_oldyounger_pics_of/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "F**k AI use\nI can\u2019t make this sh** up. Long time Duolingo user here\u2026 I\u2019ve been increasingly frustrated with the evolution of this app, but have kept using despite the fact that was used to be a learning tool has increasingly become a gamified scheme. The switch to heavy AI really irked me, both because of the layoffs Duolingo implemented and the downhill turn of helpful explanations. However\u2026 this is just negligent. Very funny for me, but embarrassing for them. Please share, this deserves bad PR.\nOh yeah bro I totally made that mistake Completely agree. It feels like they replaced actual quality checking with rushed automated stuff. Half the translations feel incredibly robotic or just flat out miss the cultural context of how a real human would say it. Are there any apps left that actually use real native speakers for their material? I never heard someone confusing 'Semen' with 'semana'",
+        "container": "duolingo",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 17
+        },
+        "engagement_score": 52,
+        "freshness": 71,
+        "item_id": "R4",
+        "local_rank_score": 0.33349999999999996,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "Completely agree. It feels like they replaced actual quality checking with rushed automated stuff.",
+            "Oh yeah bro I totally made that mistake",
+            "I never heard someone confusing 'Semen' with 'semana'"
+          ],
+          "top_comments": [
+            {
+              "author": "Queasy-Primary4788",
+              "date": "2026-06-21",
+              "excerpt": "Oh yeah bro I totally made that mistake",
+              "score": 3,
+              "url": "https://reddit.com/r/duolingo/comments/1uc02cb/comment/ot0eurm/"
+            },
+            {
+              "author": "Winter_Energy_7418",
+              "date": "2026-06-22",
+              "excerpt": "Completely agree. It feels like they replaced actual quality checking with rushed automated stuff. Half the translations feel incredibly robotic or just flat out miss the cultural context of how a real human would say it. Are there any apps left that actually use real native speakers for their material?",
+              "score": 2,
+              "url": "https://reddit.com/r/duolingo/comments/1uc02cb/comment/ot7ae47/"
+            },
+            {
+              "author": "M_was_here2011",
+              "date": "2026-06-23",
+              "excerpt": "I never heard someone confusing 'Semen' with 'semana'",
+              "score": 1,
+              "url": "https://reddit.com/r/duolingo/comments/1uc02cb/comment/otce272/"
+            }
+          ]
+        },
+        "published_at": "2026-06-21",
+        "relevance_hint": 0.22,
+        "snippet": "Oh yeah bro I totally made that mistake Completely agree. It feels like they replaced actual quality checking with rushed automated stuff. Half the translations feel incredibly robotic or just flat out miss the cultural context of how a real human would say it. Are there any apps left that actually use real native speakers for their material? I never heard someone confusing 'Semen' with 'semana'",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "F**k AI use",
+        "url": "https://www.reddit.com/r/duolingo/comments/1uc02cb/fk_ai_use/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Men / Women beyond frustrated with dating apps\nWhat\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+        "container": "dating_apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 3
+        },
+        "engagement_score": 15,
+        "freshness": 70,
+        "item_id": "R6",
+        "local_rank_score": 0.29400000000000004,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-20",
+        "relevance_hint": 0.37,
+        "snippet": "What\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Men / Women beyond frustrated with dating apps",
+        "url": "https://www.reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-05",
+  "range_to": "2026-07-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1ugpsea/i_got_frustrated_with_that_so_i_made_this",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 8.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto. I know llm coding tools can generate decent code but if they care so little, I\u2019m sure theirs is trash. You're right to call that out. For real though I agree. Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got frustrated with that, so I made this!\nAren't you all sick of this gemini generated self promoting post titles on this subreddit? And when you criticize them their response starts with \"Fair point...\" which is also standard gemini response. So, they are not only vibe coding their app but using AI to create a reddit post and every single response. How braindead do you have to be to use AI for everything and not have a single organic reply? I don't mind honest and frank self promotion, but absolutely hate AI generated self promotion po\n\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto. I know llm coding tools can generate decent code but if they care so little, I\u2019m sure theirs is trash. You're right to call that out. For real though I agree. Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 72,
+            "score": 50
+          },
+          "engagement_score": 100,
+          "freshness": 83,
+          "item_id": "R2",
+          "local_rank_score": 0.4115,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto.",
+              "You're right to call that out. For real though I agree.",
+              "Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+              "I think it\u2019s funny that they think that the app they made in 25 minutes with a llm is going to make them tons of money.",
+              "I\u2019m reluctant to post my app in progress here cause of that \ud83d\ude02, tbh I don\u2019t even know if any of the replies on the comments of those posts too are real...",
+              "The tell is when the post has no tradeoffs. Real builders usually know exactly where the thing is ugly, brittle, or still embarrassing.",
+              "Completely agree yeah I used AI to make my app, but I made sure my logo was made by mez and I never use AI to generate posts on here.",
+              "Do they get any dopamine hit doing everything using Ai?",
+              "I understand you why you find this issue so frustrating. Would you like me to give you some tips for reducing stress?"
+            ],
+            "top_comments": [
+              {
+                "author": "theLightSlide",
+                "date": "2026-06-27",
+                "excerpt": "\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto. I know llm coding tools can generate decent code but if they care so little, I\u2019m sure theirs is trash.",
+                "score": 24,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou224gn/"
+              },
+              {
+                "author": "PerroneDev",
+                "date": "2026-06-27",
+                "excerpt": "You're right to call that out. For real though I agree.",
+                "score": 19,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou1vw09/"
+              },
+              {
+                "author": "tstandiford",
+                "date": "2026-06-27",
+                "excerpt": "Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+                "score": 8,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou1zyuc/"
+              },
+              {
+                "author": "BBSLIMMERS",
+                "date": "2026-06-27",
+                "excerpt": "I think it\u2019s funny that they think that the app they made in 25 minutes with a llm is going to make them tons of money. Maybe I guess, but even using llms, the apps you use every day have teams of hundreds/thousands of devs with no usage limits. Writing code is only one part of engineering.",
+                "score": 6,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou2dfum/"
+              },
+              {
+                "author": "isdfoa",
+                "date": "2026-06-27",
+                "excerpt": "I\u2019m reluctant to post my app in progress here cause of that \ud83d\ude02, tbh I don\u2019t even know if any of the replies on the comments of those posts too are real or just AI. It\u2019s called Nown (own your now) and I have a waitlist at www.ownyour.now if you\u2019d like to check it out! Putting a lot of work into to mak",
+                "score": 4,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou23h2p/"
+              },
+              {
+                "author": "humanexperimentals",
+                "date": "2026-06-27",
+                "excerpt": "I understand you why you find this issue so frustrating. Would you like me to give you some tips for reducing stress?",
+                "score": 4,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou1z2kx/"
+              },
+              {
+                "author": "jhkoenig",
+                "date": "2026-06-27",
+                "excerpt": "Fair point... /s",
+                "score": 3,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou23ypr/"
+              },
+              {
+                "author": "Puzzled-Hedgehog4984",
+                "date": "2026-06-27",
+                "excerpt": "The tell is when the post has no tradeoffs. Real builders usually know exactly where the thing is ugly, brittle, or still embarrassing. The polished launch voice without any scars is what makes it feel fake.",
+                "score": 3,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou24cjz/"
+              },
+              {
+                "author": "Ukawok92",
+                "date": "2026-06-27",
+                "excerpt": "Completely agree yeah I used AI to make my app, but I made sure my logo was made by mez and I never use AI to generate posts on here.",
+                "score": 3,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou2591p/"
+              },
+              {
+                "author": "vigneshvp",
+                "date": "2026-06-27",
+                "excerpt": "Do they get any dopamine hit doing everything using Ai?",
+                "score": 3,
+                "url": "https://reddit.com/r/SideProject/comments/1ugpsea/comment/ou2tw3a/"
+              }
+            ]
+          },
+          "published_at": "2026-06-27",
+          "relevance_hint": 0.41,
+          "snippet": "\u201cIf you didn\u2019t bother to write it, I won\u2019t bother to read it\u201d is my motto. I know llm coding tools can generate decent code but if they care so little, I\u2019m sure theirs is trash. You're right to call that out. For real though I agree. Disappointed this didn't end with you pitching a product to fix the problem thereby making the problem worse",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got frustrated with that, so I made this!",
+          "url": "https://www.reddit.com/r/SideProject/comments/1ugpsea/i_got_frustrated_with_that_so_i_made_this/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got frustrated with that, so I made this!",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ugpsea/i_got_frustrated_with_that_so_i_made_this/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/vent/comments/1u65xyx/frustrated_with_guys_posting_oldyounger_pics_of",
+      "cluster_id": "cluster-2",
+      "engagement": 88,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Omg just wait till you see what\u2019s out there when you\u2019re 60. It's sadly not much better for us gals that like gals, because there are so. Many. Filters. Like, christ, girl, I get the pain of the unrealistic beauty standards, but they're gonna find out eventually; tone that shit down. My less flattering pictures are at the top of my profile partly because of c The other side is a issue as well. Makeup and filters.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Frustrated with guys posting old/younger pics of themselves on dating apps\nI\u2019m 43F and so SICK of seeing male profiles where they have anywhere from 2-6 pics and all but 1 will be of their younger self in college or 5-10 years ago. But the ONE pic, that\u2019s usually the last pic, will be an updated pic that is the most unflattering pic. It\u2019s obvious WHY they do this but what I guess my post is questioning more of the logic of it. Do they think women won\u2019t see all the pics and question the last one? Or that we\u2019d actually swipe and chat with them, and even meet them in pers\nOmg just wait till you see what\u2019s out there when you\u2019re 60. It's sadly not much better for us gals that like gals, because there are so. Many. Filters. Like, christ, girl, I get the pain of the unrealistic beauty standards, but they're gonna find out eventually; tone that shit down. My less flattering pictures are at the top of my profile partly because of c The other side is a issue as well. Makeup and filters.",
+          "container": "Vent",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 115,
+            "score": 16
+          },
+          "engagement_score": 88,
+          "freshness": 59,
+          "item_id": "R1",
+          "local_rank_score": 0.398,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [
+              "Omg just wait till you see what\u2019s out there when you\u2019re 60.",
+              "It's sadly not much better for us gals that like gals, because there are so.",
+              "The other side is a issue as well. Makeup and filters.",
+              "Pfft i have the same, but with women. Nothing worse then going on a date to find out what that person was hiding.",
+              "Guys aren't taking pics all the time and really dgaf",
+              "As a man I think the most recent picture i have that I could use for a dating profile is probably 2 years old.",
+              "I think photos are by default disingenuous. People take hundreds of pictures, but only share a few of them.",
+              "I'm lucky enough to not really have any photos from that far back and even if I did they would be just as unflattering as my current pics.",
+              "If it helps, women's profiles aren't much better. Photos 10+ years old or weighing 40lbs less."
+            ],
+            "top_comments": [
+              {
+                "author": "babypinkroses10",
+                "date": "2026-06-15",
+                "excerpt": "Omg just wait till you see what\u2019s out there when you\u2019re 60.",
+                "score": 33,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq5m9i/"
+              },
+              {
+                "author": "AlteredEinst",
+                "date": "2026-06-15",
+                "excerpt": "It's sadly not much better for us gals that like gals, because there are so. Many. Filters. Like, christ, girl, I get the pain of the unrealistic beauty standards, but they're gonna find out eventually; tone that shit down. My less flattering pictures are at the top of my profile partly because of c",
+                "score": 30,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq77kr/"
+              },
+              {
+                "author": "Face_Content",
+                "date": "2026-06-15",
+                "excerpt": "The other side is a issue as well. Makeup and filters.",
+                "score": 19,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq5olq/"
+              },
+              {
+                "author": "RootlessForest",
+                "date": "2026-06-15",
+                "excerpt": "Pfft i have the same, but with women. Nothing worse then going on a date to find out what that person was hiding.",
+                "score": 13,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orr3jyv/"
+              },
+              {
+                "author": "Normal_Choice9322",
+                "date": "2026-06-15",
+                "excerpt": "Guys aren't taking pics all the time and really dgaf",
+                "score": 12,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orrhpjp/"
+              },
+              {
+                "author": "pinkleftsock",
+                "date": "2026-06-15",
+                "excerpt": "As a man I think the most recent picture i have that I could use for a dating profile is probably 2 years old.. And the next one is probably way older.",
+                "score": 9,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orrbvrw/"
+              },
+              {
+                "author": "CDTPPW",
+                "date": "2026-06-15",
+                "excerpt": "I think photos are by default disingenuous. People take hundreds of pictures, but only share a few of them. Everybody's looking to capture the best version of themselves and discard the rest. The \"best angle\" is by far the most common cheat nobody mentions. IDk, I never was into pictures. Even thoug",
+                "score": 6,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orr3u6l/"
+              },
+              {
+                "author": "dudeguydave",
+                "date": "2026-06-15",
+                "excerpt": "I'm lucky enough to not really have any photos from that far back and even if I did they would be just as unflattering as my current pics. But if I were in the apps I would at least have the one hostage type photo of me holding something with a very recent date on it as proof. Some guys, and by some",
+                "score": 2,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq86vr/"
+              },
+              {
+                "author": "DizzyAstronaut9410",
+                "date": "2026-06-15",
+                "excerpt": "If it helps, women's profiles aren't much better. Photos 10+ years old or weighing 40lbs less. Any current photos are at angles hiding their actual body or heavily filtered. Hell some will go through the effort of making a fake social media account to link to their profile so they can roll their dis",
+                "score": 2,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq9mgs/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-06-15",
+                "excerpt": "If you are seeing this comment, your post is now live and public. Reminder: This is a support space. Negative, invalidating, attacking, or inappropriate comments are not tolerated. If you see a comment that breaks the rules, please report it so the moderators can take action. If someone is being dismissive, rude, offensive or in any other way inappropriate, do not engage. Report them instead. Mode",
+                "score": 1,
+                "url": "https://reddit.com/r/Vent/comments/1u65xyx/comment/orq4txn/"
+              }
+            ]
+          },
+          "published_at": "2026-06-15",
+          "relevance_hint": 0.37,
+          "snippet": "Omg just wait till you see what\u2019s out there when you\u2019re 60. It's sadly not much better for us gals that like gals, because there are so. Many. Filters. Like, christ, girl, I get the pain of the unrealistic beauty standards, but they're gonna find out eventually; tone that shit down. My less flattering pictures are at the top of my profile partly because of c The other side is a issue as well. Makeup and filters.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Frustrated with guys posting old/younger pics of themselves on dating apps",
+          "url": "https://www.reddit.com/r/Vent/comments/1u65xyx/frustrated_with_guys_posting_oldyounger_pics_of/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Frustrated with guys posting old/younger pics of themselves on dating apps",
+      "url": "https://www.reddit.com/r/Vent/comments/1u65xyx/frustrated_with_guys_posting_oldyounger_pics_of/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/duolingo/comments/1uc02cb/fk_ai_use",
+      "cluster_id": "cluster-3",
+      "engagement": 52,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R4",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Oh yeah bro I totally made that mistake Completely agree. It feels like they replaced actual quality checking with rushed automated stuff. Half the translations feel incredibly robotic or just flat out miss the cultural context of how a real human would say it. Are there any apps left that actually use real native speakers for their material? I never heard someone confusing 'Semen' with 'semana'",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "F**k AI use\nI can\u2019t make this sh** up. Long time Duolingo user here\u2026 I\u2019ve been increasingly frustrated with the evolution of this app, but have kept using despite the fact that was used to be a learning tool has increasingly become a gamified scheme. The switch to heavy AI really irked me, both because of the layoffs Duolingo implemented and the downhill turn of helpful explanations. However\u2026 this is just negligent. Very funny for me, but embarrassing for them. Please share, this deserves bad PR.\nOh yeah bro I totally made that mistake Completely agree. It feels like they replaced actual quality checking with rushed automated stuff. Half the translations feel incredibly robotic or just flat out miss the cultural context of how a real human would say it. Are there any apps left that actually use real native speakers for their material? I never heard someone confusing 'Semen' with 'semana'",
+          "container": "duolingo",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 17
+          },
+          "engagement_score": 52,
+          "freshness": 71,
+          "item_id": "R4",
+          "local_rank_score": 0.33349999999999996,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "Completely agree. It feels like they replaced actual quality checking with rushed automated stuff.",
+              "Oh yeah bro I totally made that mistake",
+              "I never heard someone confusing 'Semen' with 'semana'"
+            ],
+            "top_comments": [
+              {
+                "author": "Queasy-Primary4788",
+                "date": "2026-06-21",
+                "excerpt": "Oh yeah bro I totally made that mistake",
+                "score": 3,
+                "url": "https://reddit.com/r/duolingo/comments/1uc02cb/comment/ot0eurm/"
+              },
+              {
+                "author": "Winter_Energy_7418",
+                "date": "2026-06-22",
+                "excerpt": "Completely agree. It feels like they replaced actual quality checking with rushed automated stuff. Half the translations feel incredibly robotic or just flat out miss the cultural context of how a real human would say it. Are there any apps left that actually use real native speakers for their material?",
+                "score": 2,
+                "url": "https://reddit.com/r/duolingo/comments/1uc02cb/comment/ot7ae47/"
+              },
+              {
+                "author": "M_was_here2011",
+                "date": "2026-06-23",
+                "excerpt": "I never heard someone confusing 'Semen' with 'semana'",
+                "score": 1,
+                "url": "https://reddit.com/r/duolingo/comments/1uc02cb/comment/otce272/"
+              }
+            ]
+          },
+          "published_at": "2026-06-21",
+          "relevance_hint": 0.22,
+          "snippet": "Oh yeah bro I totally made that mistake Completely agree. It feels like they replaced actual quality checking with rushed automated stuff. Half the translations feel incredibly robotic or just flat out miss the cultural context of how a real human would say it. Are there any apps left that actually use real native speakers for their material? I never heard someone confusing 'Semen' with 'semana'",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "F**k AI use",
+          "url": "https://www.reddit.com/r/duolingo/comments/1uc02cb/fk_ai_use/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "F**k AI use",
+      "url": "https://www.reddit.com/r/duolingo/comments/1uc02cb/fk_ai_use/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps",
+      "cluster_id": "cluster-4",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 37.35,
+      "item_id": "R6",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.199999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "What\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Men / Women beyond frustrated with dating apps\nWhat\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+          "container": "dating_apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 3
+          },
+          "engagement_score": 15,
+          "freshness": 70,
+          "item_id": "R6",
+          "local_rank_score": 0.29400000000000004,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-20",
+          "relevance_hint": 0.37,
+          "snippet": "What\u2019s the top 3 most frustrating things about dating apps for you right now? Let\u2019s get both sides here.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Men / Women beyond frustrated with dating apps",
+          "url": "https://www.reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Men / Women beyond frustrated with dating apps",
+      "url": "https://www.reddit.com/r/dating_apps/comments/1ub4zg6/men_women_beyond_frustrated_with_dating_apps/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

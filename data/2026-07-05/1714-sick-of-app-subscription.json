@@ -1,0 +1,742 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/foss/comments/1ub9tf1/you_shouldnt_have_to_upload_your_photos_to_a"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/foss/comments/1ub9tf1/you_shouldnt_have_to_upload_your_photos_to_a"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "You shouldn't have to upload your photos to a corporate server just to remove a background. I built a local, privacy-first FOSS photo editor and background remover."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ibo/comments/1u6acus/i_built_an_app_to_run_my_whole_life_would_anyone"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/ibo/comments/1u6acus/i_built_an_app_to_run_my_whole_life_would_anyone"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built an app to run my whole life, would anyone actually use this?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/instagram/comments/1u7bla6/i_hate_this_fuckass_app_but_feel_like_i_cant_live"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/instagram/comments/1u7bla6/i_hate_this_fuckass_app_but_feel_like_i_cant_live"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I hate this fuckass app but feel like i can\u2019t live without it"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1umobaz/i_was_sick_of_monthly_subscriptions_for_image"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1umobaz/i_was_sick_of_monthly_subscriptions_for_image"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I was sick of monthly subscriptions for image generation, so I built an app where you buy tokens, once, no subscription required"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-05T17:14:25.658049+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "You shouldn't have to upload your photos to a corporate server just to remove a background. I built a local, privacy-first FOSS photo editor and background remover.\nWe\u2019ve all watched creative software turn into a nightmare over the last few years. Every basic tool now demands a monthly subscription, forces you to create an account, and worst of all features like \"AI background removal\" secretly upload your personal images to a cloud server just to process a mask. I got sick of it. I wanted a tool built on a simple philosophy: Less complexity. More creativity. Total privacy. So, I built Refloow Photo Studio. What is it? It\u2019s a lightweight, privacy-first desk\nWas AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded. The app has been released and available today on snapcraft & Microsoft store! lol the commit history",
+        "container": "foss",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 32,
+          "score": 124
+        },
+        "engagement_score": 100,
+        "freshness": 70,
+        "item_id": "R1",
+        "local_rank_score": 0.483,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Was AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded.",
+            "The app has been released and available today on snapcraft & Microsoft store!",
+            "I tried BG removal on a few (easy) photos and it did not seem to achieve anything",
+            "Here are links in the comments: Download (Windows/Mac/Linux): https://github."
+          ],
+          "top_comments": [
+            {
+              "author": "Automatic-Visit8513",
+              "date": "2026-06-21",
+              "excerpt": "Was AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded.",
+              "score": 11,
+              "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osvajyg/"
+            },
+            {
+              "author": "Refloow",
+              "date": "2026-06-23",
+              "excerpt": "The app has been released and available today on snapcraft & Microsoft store!",
+              "score": 1,
+              "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/ot8j6b0/"
+            },
+            {
+              "author": "vulnicurautopia",
+              "date": "2026-06-21",
+              "excerpt": "lol the commit history",
+              "score": 1,
+              "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osw142f/"
+            },
+            {
+              "author": "Bats586",
+              "date": "2026-06-21",
+              "excerpt": "I tried BG removal on a few (easy) photos and it did not seem to achieve anything",
+              "score": 1,
+              "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osymrfu/"
+            },
+            {
+              "author": "Refloow",
+              "date": "2026-06-20",
+              "excerpt": "Here are links in the comments: Download (Windows/Mac/Linux): https://github.com/Refloow/Refloow-Photo-Studio/releases Source Code: https://github.com/Refloow/Refloow-Photo-Studio",
+              "score": 1,
+              "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osuhibx/"
+            }
+          ]
+        },
+        "published_at": "2026-06-20",
+        "relevance_hint": 0.22,
+        "snippet": "Was AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded. The app has been released and available today on snapcraft & Microsoft store! lol the commit history",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "You shouldn't have to upload your photos to a corporate server just to remove a background. I built a local, privacy-first FOSS photo editor and background remover.",
+        "url": "https://www.reddit.com/r/foss/comments/1ub9tf1/you_shouldnt_have_to_upload_your_photos_to_a/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I was sick of monthly subscriptions for image generation, so I built an app where you buy tokens, once, no subscription required\nHey everyone, I got incredibly frustrated with the \"subscription-everything\" model of modern AI tools. Sometimes you just need to generate a few images for a weekend project, presentation, or a blog post without locking yourself into a $20/month contract. So I built AI For A Day, for you, your friend or your aunt and uncle that don\u2019t like subscriptions. It\u2019s powered by the latest Gemini models, and the rules are dead simple: \u20ac3 gets you 100,000 tokens (around 100 images, dependent on prompt leng",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 95,
+        "item_id": "R6",
+        "local_rank_score": 0.387,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-03",
+        "relevance_hint": 0.89,
+        "snippet": "Hey everyone, I got incredibly frustrated with the \"subscription-everything\" model of modern AI tools. Sometimes you just need to generate a few images for a weekend project, presentation, or a blog post without locking yourself into a $20/month contract. So I built AI For A Day, for you, your friend or your aunt and uncle that don\u2019t like subscriptions. It\u2019s powered by the latest Gemini models, an",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I was sick of monthly subscriptions for image generation, so I built an app where you buy tokens, once, no subscription required",
+        "url": "https://www.reddit.com/r/SideProject/comments/1umobaz/i_was_sick_of_monthly_subscriptions_for_image/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built an app to run my whole life, would anyone actually use this?\nHi! I'm a student and I got sick of having everything split across like five different apps. Notion for notes, Todoist for tasks, some screen time thing I always ignored, a spreadsheet for money. None of them talked to each other so I never really kept up with any of it. So over the last couple months I built my own desktop app that puts it all in one place. It tracks my school work and counts down to my exams, keeps me honest about how much time I actually focus compared to time wasted, holds m\nVibe coded bs embarassing looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everything with zero information hookups. We have to basically populate everything ourselves by hand right? Yes I would love to have that app actually",
+        "container": "IBO",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 17,
+          "score": 12
+        },
+        "engagement_score": 62,
+        "freshness": 59,
+        "item_id": "R3",
+        "local_rank_score": 0.35900000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everythi...",
+            "Yes I would love to have that app actually",
+            "Oh yeah! I\u2019d love to try it! Sounds effective. I\u2019m also fed up with information being at 100 different places\u2026",
+            "This is such an amazing idea for busy IB students!"
+          ],
+          "top_comments": [
+            {
+              "author": "simplydiffered",
+              "date": "2026-06-15",
+              "excerpt": "Vibe coded bs embarassing",
+              "score": 35,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr6w22/"
+            },
+            {
+              "author": "LuckerCat",
+              "date": "2026-06-15",
+              "excerpt": "looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everything with zero information hookups. We have to basically populate everything ourselves by hand right?",
+              "score": 2,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orsh8ex/"
+            },
+            {
+              "author": "MoonGoddess-69",
+              "date": "2026-06-15",
+              "excerpt": "Yes I would love to have that app actually",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr1gtw/"
+            },
+            {
+              "author": "soozie_woozie",
+              "date": "2026-06-15",
+              "excerpt": "ooh yes please!!",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr1thi/"
+            },
+            {
+              "author": "Afraid-Initiative-34",
+              "date": "2026-06-15",
+              "excerpt": "Seems pretty good man",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr68qo/"
+            },
+            {
+              "author": "anonymous7527",
+              "date": "2026-06-15",
+              "excerpt": "I would use it",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/ors5t72/"
+            },
+            {
+              "author": "Full-Cow-5731",
+              "date": "2026-06-15",
+              "excerpt": "Yes please!!",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/ors9m33/"
+            },
+            {
+              "author": "Slow_Parking6503",
+              "date": "2026-06-16",
+              "excerpt": "Yes pls send",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/oryyvi3/"
+            },
+            {
+              "author": "Automatic_Jacket1869",
+              "date": "2026-06-16",
+              "excerpt": "Oh yeah! I\u2019d love to try it! Sounds effective. I\u2019m also fed up with information being at 100 different places\u2026",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/os0n78y/"
+            },
+            {
+              "author": "Jasmine16124",
+              "date": "2026-06-15",
+              "excerpt": "This is such an amazing idea for busy IB students!",
+              "score": 1,
+              "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr10hm/"
+            }
+          ]
+        },
+        "published_at": "2026-06-15",
+        "relevance_hint": 0.4,
+        "snippet": "Vibe coded bs embarassing looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everything with zero information hookups. We have to basically populate everything ourselves by hand right? Yes I would love to have that app actually",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built an app to run my whole life, would anyone actually use this?",
+        "url": "https://www.reddit.com/r/IBO/comments/1u6acus/i_built_an_app_to_run_my_whole_life_would_anyone/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I hate this fuckass app but feel like i can\u2019t live without it\nI just want to vent honestly about this new Instagram plus shit bc it makes me so angry and i\u2019m sick of capitalism controlling my entire life. I\u2019ve considered deleting instagram completely many times bc it causes quite a bit of anxiety and resentment that i really don\u2019t like feeling. And this would be the last straw for me if this app didn\u2019t essentially keep my social life afloat. I\u2019m an amateur comic in nyc and find about 95% of my social activities through instagram and tiktok. Yes I have othe\nIt\u2019s all bullshit meant to sell you shit you don\u2019t need. I felt great once I walked away!! No more packages arriving and my credit card is not burning up either. And, I\u2019m reading quite a lot, and walking! Do a trial separation \ud83d\udcaa\ud83d\udcaa",
+        "container": "Instagram",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 9
+        },
+        "engagement_score": 28,
+        "freshness": 61,
+        "item_id": "R5",
+        "local_rank_score": 0.33000000000000007,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "It\u2019s all bullshit meant to sell you shit you don\u2019t need."
+          ],
+          "top_comments": [
+            {
+              "author": "Physical-Speech4885",
+              "date": "2026-06-16",
+              "excerpt": "It\u2019s all bullshit meant to sell you shit you don\u2019t need. I felt great once I walked away!! No more packages arriving and my credit card is not burning up either. And, I\u2019m reading quite a lot, and walking! Do a trial separation \ud83d\udcaa\ud83d\udcaa",
+              "score": 2,
+              "url": "https://reddit.com/r/Instagram/comments/1u7bla6/comment/os0lm0g/"
+            }
+          ]
+        },
+        "published_at": "2026-06-16",
+        "relevance_hint": 0.4,
+        "snippet": "It\u2019s all bullshit meant to sell you shit you don\u2019t need. I felt great once I walked away!! No more packages arriving and my credit card is not burning up either. And, I\u2019m reading quite a lot, and walking! Do a trial separation \ud83d\udcaa\ud83d\udcaa",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I hate this fuckass app but feel like i can\u2019t live without it",
+        "url": "https://www.reddit.com/r/Instagram/comments/1u7bla6/i_hate_this_fuckass_app_but_feel_like_i_cant_live/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-05",
+  "range_to": "2026-07-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/foss/comments/1ub9tf1/you_shouldnt_have_to_upload_your_photos_to_a",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R1",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 17.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Was AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded. The app has been released and available today on snapcraft & Microsoft store! lol the commit history",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "You shouldn't have to upload your photos to a corporate server just to remove a background. I built a local, privacy-first FOSS photo editor and background remover.\nWe\u2019ve all watched creative software turn into a nightmare over the last few years. Every basic tool now demands a monthly subscription, forces you to create an account, and worst of all features like \"AI background removal\" secretly upload your personal images to a cloud server just to process a mask. I got sick of it. I wanted a tool built on a simple philosophy: Less complexity. More creativity. Total privacy. So, I built Refloow Photo Studio. What is it? It\u2019s a lightweight, privacy-first desk\nWas AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded. The app has been released and available today on snapcraft & Microsoft store! lol the commit history",
+          "container": "foss",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 32,
+            "score": 124
+          },
+          "engagement_score": 100,
+          "freshness": 70,
+          "item_id": "R1",
+          "local_rank_score": 0.483,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Was AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded.",
+              "The app has been released and available today on snapcraft & Microsoft store!",
+              "I tried BG removal on a few (easy) photos and it did not seem to achieve anything",
+              "Here are links in the comments: Download (Windows/Mac/Linux): https://github."
+            ],
+            "top_comments": [
+              {
+                "author": "Automatic-Visit8513",
+                "date": "2026-06-21",
+                "excerpt": "Was AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded.",
+                "score": 11,
+                "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osvajyg/"
+              },
+              {
+                "author": "Refloow",
+                "date": "2026-06-23",
+                "excerpt": "The app has been released and available today on snapcraft & Microsoft store!",
+                "score": 1,
+                "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/ot8j6b0/"
+              },
+              {
+                "author": "vulnicurautopia",
+                "date": "2026-06-21",
+                "excerpt": "lol the commit history",
+                "score": 1,
+                "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osw142f/"
+              },
+              {
+                "author": "Bats586",
+                "date": "2026-06-21",
+                "excerpt": "I tried BG removal on a few (easy) photos and it did not seem to achieve anything",
+                "score": 1,
+                "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osymrfu/"
+              },
+              {
+                "author": "Refloow",
+                "date": "2026-06-20",
+                "excerpt": "Here are links in the comments: Download (Windows/Mac/Linux): https://github.com/Refloow/Refloow-Photo-Studio/releases Source Code: https://github.com/Refloow/Refloow-Photo-Studio",
+                "score": 1,
+                "url": "https://reddit.com/r/foss/comments/1ub9tf1/comment/osuhibx/"
+              }
+            ]
+          },
+          "published_at": "2026-06-20",
+          "relevance_hint": 0.22,
+          "snippet": "Was AI involved in writing this app? This entire post reads like AI generated marketing. I prefer to use software that isn't vibecoded. The app has been released and available today on snapcraft & Microsoft store! lol the commit history",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "You shouldn't have to upload your photos to a corporate server just to remove a background. I built a local, privacy-first FOSS photo editor and background remover.",
+          "url": "https://www.reddit.com/r/foss/comments/1ub9tf1/you_shouldnt_have_to_upload_your_photos_to_a/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "You shouldn't have to upload your photos to a corporate server just to remove a background. I built a local, privacy-first FOSS photo editor and background remover.",
+      "url": "https://www.reddit.com/r/foss/comments/1ub9tf1/you_shouldnt_have_to_upload_your_photos_to_a/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ibo/comments/1u6acus/i_built_an_app_to_run_my_whole_life_would_anyone",
+      "cluster_id": "cluster-2",
+      "engagement": 62,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Vibe coded bs embarassing looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everything with zero information hookups. We have to basically populate everything ourselves by hand right? Yes I would love to have that app actually",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built an app to run my whole life, would anyone actually use this?\nHi! I'm a student and I got sick of having everything split across like five different apps. Notion for notes, Todoist for tasks, some screen time thing I always ignored, a spreadsheet for money. None of them talked to each other so I never really kept up with any of it. So over the last couple months I built my own desktop app that puts it all in one place. It tracks my school work and counts down to my exams, keeps me honest about how much time I actually focus compared to time wasted, holds m\nVibe coded bs embarassing looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everything with zero information hookups. We have to basically populate everything ourselves by hand right? Yes I would love to have that app actually",
+          "container": "IBO",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 17,
+            "score": 12
+          },
+          "engagement_score": 62,
+          "freshness": 59,
+          "item_id": "R3",
+          "local_rank_score": 0.35900000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everythi...",
+              "Yes I would love to have that app actually",
+              "Oh yeah! I\u2019d love to try it! Sounds effective. I\u2019m also fed up with information being at 100 different places\u2026",
+              "This is such an amazing idea for busy IB students!"
+            ],
+            "top_comments": [
+              {
+                "author": "simplydiffered",
+                "date": "2026-06-15",
+                "excerpt": "Vibe coded bs embarassing",
+                "score": 35,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr6w22/"
+              },
+              {
+                "author": "LuckerCat",
+                "date": "2026-06-15",
+                "excerpt": "looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everything with zero information hookups. We have to basically populate everything ourselves by hand right?",
+                "score": 2,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orsh8ex/"
+              },
+              {
+                "author": "MoonGoddess-69",
+                "date": "2026-06-15",
+                "excerpt": "Yes I would love to have that app actually",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr1gtw/"
+              },
+              {
+                "author": "soozie_woozie",
+                "date": "2026-06-15",
+                "excerpt": "ooh yes please!!",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr1thi/"
+              },
+              {
+                "author": "Afraid-Initiative-34",
+                "date": "2026-06-15",
+                "excerpt": "Seems pretty good man",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr68qo/"
+              },
+              {
+                "author": "anonymous7527",
+                "date": "2026-06-15",
+                "excerpt": "I would use it",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/ors5t72/"
+              },
+              {
+                "author": "Full-Cow-5731",
+                "date": "2026-06-15",
+                "excerpt": "Yes please!!",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/ors9m33/"
+              },
+              {
+                "author": "Slow_Parking6503",
+                "date": "2026-06-16",
+                "excerpt": "Yes pls send",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/oryyvi3/"
+              },
+              {
+                "author": "Automatic_Jacket1869",
+                "date": "2026-06-16",
+                "excerpt": "Oh yeah! I\u2019d love to try it! Sounds effective. I\u2019m also fed up with information being at 100 different places\u2026",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/os0n78y/"
+              },
+              {
+                "author": "Jasmine16124",
+                "date": "2026-06-15",
+                "excerpt": "This is such an amazing idea for busy IB students!",
+                "score": 1,
+                "url": "https://reddit.com/r/IBO/comments/1u6acus/comment/orr10hm/"
+              }
+            ]
+          },
+          "published_at": "2026-06-15",
+          "relevance_hint": 0.4,
+          "snippet": "Vibe coded bs embarassing looks great in screenshots but I'm guessing practically speaking it's useless, just too hard to build an app that would actually neatly track everything with zero information hookups. We have to basically populate everything ourselves by hand right? Yes I would love to have that app actually",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built an app to run my whole life, would anyone actually use this?",
+          "url": "https://www.reddit.com/r/IBO/comments/1u6acus/i_built_an_app_to_run_my_whole_life_would_anyone/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built an app to run my whole life, would anyone actually use this?",
+      "url": "https://www.reddit.com/r/IBO/comments/1u6acus/i_built_an_app_to_run_my_whole_life_would_anyone/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/instagram/comments/1u7bla6/i_hate_this_fuckass_app_but_feel_like_i_cant_live",
+      "cluster_id": "cluster-3",
+      "engagement": 28,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "It\u2019s all bullshit meant to sell you shit you don\u2019t need. I felt great once I walked away!! No more packages arriving and my credit card is not burning up either. And, I\u2019m reading quite a lot, and walking! Do a trial separation \ud83d\udcaa\ud83d\udcaa",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I hate this fuckass app but feel like i can\u2019t live without it\nI just want to vent honestly about this new Instagram plus shit bc it makes me so angry and i\u2019m sick of capitalism controlling my entire life. I\u2019ve considered deleting instagram completely many times bc it causes quite a bit of anxiety and resentment that i really don\u2019t like feeling. And this would be the last straw for me if this app didn\u2019t essentially keep my social life afloat. I\u2019m an amateur comic in nyc and find about 95% of my social activities through instagram and tiktok. Yes I have othe\nIt\u2019s all bullshit meant to sell you shit you don\u2019t need. I felt great once I walked away!! No more packages arriving and my credit card is not burning up either. And, I\u2019m reading quite a lot, and walking! Do a trial separation \ud83d\udcaa\ud83d\udcaa",
+          "container": "Instagram",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 9
+          },
+          "engagement_score": 28,
+          "freshness": 61,
+          "item_id": "R5",
+          "local_rank_score": 0.33000000000000007,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "It\u2019s all bullshit meant to sell you shit you don\u2019t need."
+            ],
+            "top_comments": [
+              {
+                "author": "Physical-Speech4885",
+                "date": "2026-06-16",
+                "excerpt": "It\u2019s all bullshit meant to sell you shit you don\u2019t need. I felt great once I walked away!! No more packages arriving and my credit card is not burning up either. And, I\u2019m reading quite a lot, and walking! Do a trial separation \ud83d\udcaa\ud83d\udcaa",
+                "score": 2,
+                "url": "https://reddit.com/r/Instagram/comments/1u7bla6/comment/os0lm0g/"
+              }
+            ]
+          },
+          "published_at": "2026-06-16",
+          "relevance_hint": 0.4,
+          "snippet": "It\u2019s all bullshit meant to sell you shit you don\u2019t need. I felt great once I walked away!! No more packages arriving and my credit card is not burning up either. And, I\u2019m reading quite a lot, and walking! Do a trial separation \ud83d\udcaa\ud83d\udcaa",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I hate this fuckass app but feel like i can\u2019t live without it",
+          "url": "https://www.reddit.com/r/Instagram/comments/1u7bla6/i_hate_this_fuckass_app_but_feel_like_i_cant_live/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I hate this fuckass app but feel like i can\u2019t live without it",
+      "url": "https://www.reddit.com/r/Instagram/comments/1u7bla6/i_hate_this_fuckass_app_but_feel_like_i_cant_live/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1umobaz/i_was_sick_of_monthly_subscriptions_for_image",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 16.099999999999994,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hey everyone, I got incredibly frustrated with the \"subscription-everything\" model of modern AI tools. Sometimes you just need to generate a few images for a weekend project, presentation, or a blog post without locking yourself into a $20/month contract. So I built AI For A Day, for you, your friend or your aunt and uncle that don\u2019t like subscriptions. It\u2019s powered by the latest Gemini models, an",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I was sick of monthly subscriptions for image generation, so I built an app where you buy tokens, once, no subscription required\nHey everyone, I got incredibly frustrated with the \"subscription-everything\" model of modern AI tools. Sometimes you just need to generate a few images for a weekend project, presentation, or a blog post without locking yourself into a $20/month contract. So I built AI For A Day, for you, your friend or your aunt and uncle that don\u2019t like subscriptions. It\u2019s powered by the latest Gemini models, and the rules are dead simple: \u20ac3 gets you 100,000 tokens (around 100 images, dependent on prompt leng",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 95,
+          "item_id": "R6",
+          "local_rank_score": 0.387,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-03",
+          "relevance_hint": 0.89,
+          "snippet": "Hey everyone, I got incredibly frustrated with the \"subscription-everything\" model of modern AI tools. Sometimes you just need to generate a few images for a weekend project, presentation, or a blog post without locking yourself into a $20/month contract. So I built AI For A Day, for you, your friend or your aunt and uncle that don\u2019t like subscriptions. It\u2019s powered by the latest Gemini models, an",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I was sick of monthly subscriptions for image generation, so I built an app where you buy tokens, once, no subscription required",
+          "url": "https://www.reddit.com/r/SideProject/comments/1umobaz/i_was_sick_of_monthly_subscriptions_for_image/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I was sick of monthly subscriptions for image generation, so I built an app where you buy tokens, once, no subscription required",
+      "url": "https://www.reddit.com/r/SideProject/comments/1umobaz/i_was_sick_of_monthly_subscriptions_for_image/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
