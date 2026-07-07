@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/modmailfail/comments/1u65fyp/in_which_i_grow_weary_of_npcs_refusing_to_read"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/modmailfail/comments/1u65fyp/in_which_i_grow_weary_of_npcs_refusing_to_read"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "In which I grow weary of NPCs refusing to read"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-07T21:27:12.303567+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "In which I grow weary of NPCs refusing to read\nContext: threads that hit r/popular and/or contain subject matter that we know damn well will attract trolls get restricted to established members of the community. There's a pinned mod comment in each one detailing this. Bonus irony: the most recent comment in \"B's\" post history was railing about kids these days being functionally illiterate and lacking critical thinking skills. Sir, please accept this mirror.",
+        "container": "modmailfail",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 22
+        },
+        "engagement_score": 27,
+        "freshness": 55,
+        "item_id": "R19",
+        "local_rank_score": 0.31400000000000006,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-15",
+        "relevance_hint": 0.0,
+        "snippet": "Context: threads that hit r/popular and/or contain subject matter that we know damn well will attract trolls get restricted to established members of the community. There's a pinned mod comment in each one detailing this. Bonus irony: the most recent comment in \"B's\" post history was railing about kids these days being functionally illiterate and lacking critical thinking skills. Sir, please accep",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "In which I grow weary of NPCs refusing to read",
+        "url": "https://www.reddit.com/r/modmailfail/comments/1u65fyp/in_which_i_grow_weary_of_npcs_refusing_to_read/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-07",
+  "range_to": "2026-07-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/modmailfail/comments/1u65fyp/in_which_i_grow_weary_of_npcs_refusing_to_read",
+      "cluster_id": "cluster-1",
+      "engagement": 27,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R19",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 8.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Context: threads that hit r/popular and/or contain subject matter that we know damn well will attract trolls get restricted to established members of the community. There's a pinned mod comment in each one detailing this. Bonus irony: the most recent comment in \"B's\" post history was railing about kids these days being functionally illiterate and lacking critical thinking skills. Sir, please accep",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "In which I grow weary of NPCs refusing to read\nContext: threads that hit r/popular and/or contain subject matter that we know damn well will attract trolls get restricted to established members of the community. There's a pinned mod comment in each one detailing this. Bonus irony: the most recent comment in \"B's\" post history was railing about kids these days being functionally illiterate and lacking critical thinking skills. Sir, please accept this mirror.",
+          "container": "modmailfail",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 22
+          },
+          "engagement_score": 27,
+          "freshness": 55,
+          "item_id": "R19",
+          "local_rank_score": 0.31400000000000006,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-15",
+          "relevance_hint": 0.0,
+          "snippet": "Context: threads that hit r/popular and/or contain subject matter that we know damn well will attract trolls get restricted to established members of the community. There's a pinned mod comment in each one detailing this. Bonus irony: the most recent comment in \"B's\" post history was railing about kids these days being functionally illiterate and lacking critical thinking skills. Sir, please accep",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "In which I grow weary of NPCs refusing to read",
+          "url": "https://www.reddit.com/r/modmailfail/comments/1u65fyp/in_which_i_grow_weary_of_npcs_refusing_to_read/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "In which I grow weary of NPCs refusing to read",
+      "url": "https://www.reddit.com/r/modmailfail/comments/1u65fyp/in_which_i_grow_weary_of_npcs_refusing_to_read/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
