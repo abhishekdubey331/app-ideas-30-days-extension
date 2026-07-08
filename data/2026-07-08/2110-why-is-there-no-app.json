@@ -1,0 +1,345 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Without an app, it\u2019s awful to use"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no app?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-08T21:10:03.472188+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Without an app, it\u2019s awful to use\nUsing it from a mobile browser is a terrible experience. Why is there no app?\nI mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+        "container": "isle31",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 5
+        },
+        "engagement_score": 100,
+        "freshness": 59,
+        "item_id": "R1",
+        "local_rank_score": 0.37749999999999995,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+            "I am using an app on my iPad - would love the app on my Samsung phone, too"
+          ],
+          "top_comments": [
+            {
+              "author": "Early_Cockroach2518",
+              "date": "2026-06-18",
+              "excerpt": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+              "score": 4,
+              "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osczxei/"
+            },
+            {
+              "author": "drumorgan",
+              "date": "2026-06-18",
+              "excerpt": "I am using an app on my iPad - would love the app on my Samsung phone, too",
+              "score": 0,
+              "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osfin5b/"
+            }
+          ]
+        },
+        "published_at": "2026-06-18",
+        "relevance_hint": 0.42,
+        "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Without an app, it\u2019s awful to use",
+        "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why is there no app?\nTwo things I like using Favikon for: Ego boost (checking my ratings) Partnership screening But I always need to log in through browser.I wish there was just an app and it would also notify about rating changes, new campaigns that match your profile. Another one would be nice to have a function to look for collabs with other creators on your platform e.g. live streams, articles together, podcasts. But not in the web interface\nComing in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+        "container": "favikon",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 4
+        },
+        "engagement_score": 82,
+        "freshness": 40,
+        "item_id": "R2",
+        "local_rank_score": 0.312,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why"
+          ],
+          "top_comments": [
+            {
+              "author": "jeremydeparis",
+              "date": "2026-06-09",
+              "excerpt": "Coming in September \ud83d\ude04",
+              "score": 3,
+              "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/oqla7xk/"
+            },
+            {
+              "author": "Dry_Commission6476",
+              "date": "2026-06-12",
+              "excerpt": "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+              "score": 2,
+              "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/or6c656/"
+            }
+          ]
+        },
+        "published_at": "2026-06-08",
+        "relevance_hint": 1.0,
+        "snippet": "Coming in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no app?",
+        "url": "https://www.reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-08",
+  "range_to": "2026-07-08",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Without an app, it\u2019s awful to use\nUsing it from a mobile browser is a terrible experience. Why is there no app?\nI mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+          "container": "isle31",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 5
+          },
+          "engagement_score": 100,
+          "freshness": 59,
+          "item_id": "R1",
+          "local_rank_score": 0.37749999999999995,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+              "I am using an app on my iPad - would love the app on my Samsung phone, too"
+            ],
+            "top_comments": [
+              {
+                "author": "Early_Cockroach2518",
+                "date": "2026-06-18",
+                "excerpt": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+                "score": 4,
+                "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osczxei/"
+              },
+              {
+                "author": "drumorgan",
+                "date": "2026-06-18",
+                "excerpt": "I am using an app on my iPad - would love the app on my Samsung phone, too",
+                "score": 0,
+                "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osfin5b/"
+              }
+            ]
+          },
+          "published_at": "2026-06-18",
+          "relevance_hint": 0.42,
+          "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Without an app, it\u2019s awful to use",
+          "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Without an app, it\u2019s awful to use",
+      "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app",
+      "cluster_id": "cluster-2",
+      "engagement": 82,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 3.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Coming in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no app?\nTwo things I like using Favikon for: Ego boost (checking my ratings) Partnership screening But I always need to log in through browser.I wish there was just an app and it would also notify about rating changes, new campaigns that match your profile. Another one would be nice to have a function to look for collabs with other creators on your platform e.g. live streams, articles together, podcasts. But not in the web interface\nComing in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+          "container": "favikon",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 4
+          },
+          "engagement_score": 82,
+          "freshness": 40,
+          "item_id": "R2",
+          "local_rank_score": 0.312,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why"
+            ],
+            "top_comments": [
+              {
+                "author": "jeremydeparis",
+                "date": "2026-06-09",
+                "excerpt": "Coming in September \ud83d\ude04",
+                "score": 3,
+                "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/oqla7xk/"
+              },
+              {
+                "author": "Dry_Commission6476",
+                "date": "2026-06-12",
+                "excerpt": "Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+                "score": 2,
+                "url": "https://reddit.com/r/favikon/comments/1u0kkue/comment/or6c656/"
+              }
+            ]
+          },
+          "published_at": "2026-06-08",
+          "relevance_hint": 1.0,
+          "snippet": "Coming in September \ud83d\ude04 Was able to secure partnerships though applications on PassionFoot but not Favikon. Not sure why",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no app?",
+          "url": "https://www.reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no app?",
+      "url": "https://www.reddit.com/r/favikon/comments/1u0kkue/why_is_there_no_app/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
