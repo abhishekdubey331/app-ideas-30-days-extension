@@ -1,0 +1,331 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "travelers \"I wish there was an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iphoneapps/comments/1uoqa7v/whats_one_app_you_wish_existed"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/iphoneapps/comments/1uoqa7v/whats_one_app_you_wish_existed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Whats one app you wish existed"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appideas/comments/1up3jkl/whats_one_app_you_wish_existed"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/appideas/comments/1up3jkl/whats_one_app_you_wish_existed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Whats one app you wish existed"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-09T07:38:51.796299+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Whats one app you wish existed\nPost: We've all had that moment where we think, \"I wish there was an app for that.\" What's yours? It can be anything\u2014work, travel, hobbies, parenting, shopping, or everyday life. I'm genuinely curious to see what problems people still want solved. Thanks! \ud83d\ude0a\nAn app that will transfer \u00a31000 to me everyday",
+        "container": "IPhoneApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 4
+        },
+        "engagement_score": 100,
+        "freshness": 94,
+        "item_id": "R1",
+        "local_rank_score": 0.45199999999999996,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "An app that will transfer \u00a31000 to me everyday"
+          ],
+          "top_comments": [
+            {
+              "author": "spikelyourm",
+              "date": "2026-07-06",
+              "excerpt": "An app that will transfer \u00a31000 to me everyday",
+              "score": 2,
+              "url": "https://reddit.com/r/IPhoneApps/comments/1uoqa7v/comment/ovy9nm3/"
+            }
+          ]
+        },
+        "published_at": "2026-07-06",
+        "relevance_hint": 0.47,
+        "snippet": "An app that will transfer \u00a31000 to me everyday",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Whats one app you wish existed",
+        "url": "https://www.reddit.com/r/IPhoneApps/comments/1uoqa7v/whats_one_app_you_wish_existed/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Whats one app you wish existed\nPost: We've all had that moment where we think, \"I wish there was an app for that.\" What's yours? It can be anything\u2014work, travel, hobbies, parenting, shopping, or everyday life. I'm genuinely curious to see what problems people still want solved. Thanks! \ud83d\ude0a\nApp that would hide all posts and threads with ai generated captions Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already? You don't need to ask. Just read the posts. In fact, asking is a waste of time. Do you really think someone has been sitting on a golden app idea, just waiting f",
+        "container": "AppIdeas",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 94,
+        "item_id": "R2",
+        "local_rank_score": 0.287,
+        "local_relevance": 0.08,
+        "metadata": {
+          "comment_insights": [
+            "App that would hide all posts and threads with ai generated captions",
+            "Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already?"
+          ],
+          "top_comments": [
+            {
+              "author": "KaleidoscopeShoddy10",
+              "date": "2026-07-06",
+              "excerpt": "App that would hide all posts and threads with ai generated captions",
+              "score": 4,
+              "url": "https://reddit.com/r/AppIdeas/comments/1up3jkl/comment/ovx0c32/"
+            },
+            {
+              "author": "Silent-Indication496",
+              "date": "2026-07-06",
+              "excerpt": "Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already? You don't need to ask. Just read the posts. In fact, asking is a waste of time. Do you really think someone has been sitting on a golden app idea, just waiting f",
+              "score": 2,
+              "url": "https://reddit.com/r/AppIdeas/comments/1up3jkl/comment/ovx2k7h/"
+            }
+          ]
+        },
+        "published_at": "2026-07-06",
+        "relevance_hint": 0.47,
+        "snippet": "App that would hide all posts and threads with ai generated captions Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already? You don't need to ask. Just read the posts. In fact, asking is a waste of time. Do you really think someone has been sitting on a golden app idea, just waiting f",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Whats one app you wish existed",
+        "url": "https://www.reddit.com/r/AppIdeas/comments/1up3jkl/whats_one_app_you_wish_existed/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "travelers \"I wish there was an app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to travelers \"I wish there was an app\", especially about travelers \"i wish there app\"?",
+        "search_query": "travelers \"i wish there app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-09",
+  "range_to": "2026-07-09",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/iphoneapps/comments/1uoqa7v/whats_one_app_you_wish_existed",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 51.4,
+      "item_id": "R1",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.399999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "An app that will transfer \u00a31000 to me everyday",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Whats one app you wish existed\nPost: We've all had that moment where we think, \"I wish there was an app for that.\" What's yours? It can be anything\u2014work, travel, hobbies, parenting, shopping, or everyday life. I'm genuinely curious to see what problems people still want solved. Thanks! \ud83d\ude0a\nAn app that will transfer \u00a31000 to me everyday",
+          "container": "IPhoneApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 4
+          },
+          "engagement_score": 100,
+          "freshness": 94,
+          "item_id": "R1",
+          "local_rank_score": 0.45199999999999996,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "An app that will transfer \u00a31000 to me everyday"
+            ],
+            "top_comments": [
+              {
+                "author": "spikelyourm",
+                "date": "2026-07-06",
+                "excerpt": "An app that will transfer \u00a31000 to me everyday",
+                "score": 2,
+                "url": "https://reddit.com/r/IPhoneApps/comments/1uoqa7v/comment/ovy9nm3/"
+              }
+            ]
+          },
+          "published_at": "2026-07-06",
+          "relevance_hint": 0.47,
+          "snippet": "An app that will transfer \u00a31000 to me everyday",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Whats one app you wish existed",
+          "url": "https://www.reddit.com/r/IPhoneApps/comments/1uoqa7v/whats_one_app_you_wish_existed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Whats one app you wish existed",
+      "url": "https://www.reddit.com/r/IPhoneApps/comments/1uoqa7v/whats_one_app_you_wish_existed/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appideas/comments/1up3jkl/whats_one_app_you_wish_existed",
+      "cluster_id": "cluster-2",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R2",
+      "local_relevance": 0.08,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 5.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "App that would hide all posts and threads with ai generated captions Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already? You don't need to ask. Just read the posts. In fact, asking is a waste of time. Do you really think someone has been sitting on a golden app idea, just waiting f",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Whats one app you wish existed\nPost: We've all had that moment where we think, \"I wish there was an app for that.\" What's yours? It can be anything\u2014work, travel, hobbies, parenting, shopping, or everyday life. I'm genuinely curious to see what problems people still want solved. Thanks! \ud83d\ude0a\nApp that would hide all posts and threads with ai generated captions Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already? You don't need to ask. Just read the posts. In fact, asking is a waste of time. Do you really think someone has been sitting on a golden app idea, just waiting f",
+          "container": "AppIdeas",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 94,
+          "item_id": "R2",
+          "local_rank_score": 0.287,
+          "local_relevance": 0.08,
+          "metadata": {
+            "comment_insights": [
+              "App that would hide all posts and threads with ai generated captions",
+              "Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already?"
+            ],
+            "top_comments": [
+              {
+                "author": "KaleidoscopeShoddy10",
+                "date": "2026-07-06",
+                "excerpt": "App that would hide all posts and threads with ai generated captions",
+                "score": 4,
+                "url": "https://reddit.com/r/AppIdeas/comments/1up3jkl/comment/ovx0c32/"
+              },
+              {
+                "author": "Silent-Indication496",
+                "date": "2026-07-06",
+                "excerpt": "Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already? You don't need to ask. Just read the posts. In fact, asking is a waste of time. Do you really think someone has been sitting on a golden app idea, just waiting f",
+                "score": 2,
+                "url": "https://reddit.com/r/AppIdeas/comments/1up3jkl/comment/ovx2k7h/"
+              }
+            ]
+          },
+          "published_at": "2026-07-06",
+          "relevance_hint": 0.47,
+          "snippet": "App that would hide all posts and threads with ai generated captions Why do people post this same bullshit EVERY DAY? Don't you realize this is a subreddit where people submit their shitty app ideas already? You don't need to ask. Just read the posts. In fact, asking is a waste of time. Do you really think someone has been sitting on a golden app idea, just waiting f",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Whats one app you wish existed",
+          "url": "https://www.reddit.com/r/AppIdeas/comments/1up3jkl/whats_one_app_you_wish_existed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Whats one app you wish existed",
+      "url": "https://www.reddit.com/r/AppIdeas/comments/1up3jkl/whats_one_app_you_wish_existed/"
+    }
+  ],
+  "topic": "travelers \"I wish there was an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
