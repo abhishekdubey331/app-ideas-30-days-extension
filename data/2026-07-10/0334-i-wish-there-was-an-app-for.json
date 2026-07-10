@@ -1,0 +1,189 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iphoneapps/comments/1uoqa7v/whats_one_app_you_wish_existed"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/iphoneapps/comments/1uoqa7v/whats_one_app_you_wish_existed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Whats one app you wish existed"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-10T03:34:39.582488+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Whats one app you wish existed\nPost: We've all had that moment where we think, \"I wish there was an app for that.\" What's yours? It can be anything\u2014work, travel, hobbies, parenting, shopping, or everyday life. I'm genuinely curious to see what problems people still want solved. Thanks! \ud83d\ude0a\nAn app that will transfer \u00a31000 to me everyday",
+        "container": "IPhoneApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 4
+        },
+        "engagement_score": 100,
+        "freshness": 91,
+        "item_id": "R1",
+        "local_rank_score": 0.4575,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "An app that will transfer \u00a31000 to me everyday"
+          ],
+          "top_comments": [
+            {
+              "author": "spikelyourm",
+              "date": "2026-07-06",
+              "excerpt": "An app that will transfer \u00a31000 to me everyday",
+              "score": 2,
+              "url": "https://reddit.com/r/IPhoneApps/comments/1uoqa7v/comment/ovy9nm3/"
+            }
+          ]
+        },
+        "published_at": "2026-07-06",
+        "relevance_hint": 0.64,
+        "snippet": "An app that will transfer \u00a31000 to me everyday",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Whats one app you wish existed",
+        "url": "https://www.reddit.com/r/IPhoneApps/comments/1uoqa7v/whats_one_app_you_wish_existed/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app for\", especially about \"i wish there app for\"?",
+        "search_query": "\"i wish there app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-10",
+  "range_to": "2026-07-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/iphoneapps/comments/1uoqa7v/whats_one_app_you_wish_existed",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 51.4,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "An app that will transfer \u00a31000 to me everyday",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Whats one app you wish existed\nPost: We've all had that moment where we think, \"I wish there was an app for that.\" What's yours? It can be anything\u2014work, travel, hobbies, parenting, shopping, or everyday life. I'm genuinely curious to see what problems people still want solved. Thanks! \ud83d\ude0a\nAn app that will transfer \u00a31000 to me everyday",
+          "container": "IPhoneApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 4
+          },
+          "engagement_score": 100,
+          "freshness": 91,
+          "item_id": "R1",
+          "local_rank_score": 0.4575,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "An app that will transfer \u00a31000 to me everyday"
+            ],
+            "top_comments": [
+              {
+                "author": "spikelyourm",
+                "date": "2026-07-06",
+                "excerpt": "An app that will transfer \u00a31000 to me everyday",
+                "score": 2,
+                "url": "https://reddit.com/r/IPhoneApps/comments/1uoqa7v/comment/ovy9nm3/"
+              }
+            ]
+          },
+          "published_at": "2026-07-06",
+          "relevance_hint": 0.64,
+          "snippet": "An app that will transfer \u00a31000 to me everyday",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Whats one app you wish existed",
+          "url": "https://www.reddit.com/r/IPhoneApps/comments/1uoqa7v/whats_one_app_you_wish_existed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Whats one app you wish existed",
+      "url": "https://www.reddit.com/r/IPhoneApps/comments/1uoqa7v/whats_one_app_you_wish_existed/"
+    }
+  ],
+  "topic": "\"I wish there was an app for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
