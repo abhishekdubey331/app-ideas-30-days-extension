@@ -1,0 +1,205 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Without an app, it\u2019s awful to use"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-12T02:58:29.203942+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Without an app, it\u2019s awful to use\nUsing it from a mobile browser is a terrible experience. Why is there no app?\nI mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+        "container": "isle31",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 5
+        },
+        "engagement_score": 50,
+        "freshness": 51,
+        "item_id": "R1",
+        "local_rank_score": 0.3075,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+            "I am using an app on my iPad - would love the app on my Samsung phone, too"
+          ],
+          "top_comments": [
+            {
+              "author": "Early_Cockroach2518",
+              "date": "2026-06-18",
+              "excerpt": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+              "score": 4,
+              "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osczxei/"
+            },
+            {
+              "author": "drumorgan",
+              "date": "2026-06-18",
+              "excerpt": "I am using an app on my iPad - would love the app on my Samsung phone, too",
+              "score": 0,
+              "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osfin5b/"
+            }
+          ]
+        },
+        "published_at": "2026-06-18",
+        "relevance_hint": 0.42,
+        "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Without an app, it\u2019s awful to use",
+        "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-12",
+  "range_to": "2026-07-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 5.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Without an app, it\u2019s awful to use\nUsing it from a mobile browser is a terrible experience. Why is there no app?\nI mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+          "container": "isle31",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 5
+          },
+          "engagement_score": 50,
+          "freshness": 51,
+          "item_id": "R1",
+          "local_rank_score": 0.3075,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+              "I am using an app on my iPad - would love the app on my Samsung phone, too"
+            ],
+            "top_comments": [
+              {
+                "author": "Early_Cockroach2518",
+                "date": "2026-06-18",
+                "excerpt": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store",
+                "score": 4,
+                "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osczxei/"
+              },
+              {
+                "author": "drumorgan",
+                "date": "2026-06-18",
+                "excerpt": "I am using an app on my iPad - would love the app on my Samsung phone, too",
+                "score": 0,
+                "url": "https://reddit.com/r/isle31/comments/1u8w396/comment/osfin5b/"
+              }
+            ]
+          },
+          "published_at": "2026-06-18",
+          "relevance_hint": 0.42,
+          "snippet": "I mentioned this on the site and he said he\u2019s working on getting it on the App Store I am using an app on my iPad - would love the app on my Samsung phone, too",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Without an app, it\u2019s awful to use",
+          "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Without an app, it\u2019s awful to use",
+      "url": "https://www.reddit.com/r/isle31/comments/1u8w396/without_an_app_its_awful_to_use/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
