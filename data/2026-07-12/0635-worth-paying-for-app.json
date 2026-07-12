@@ -1,0 +1,718 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/opensourcealternative/comments/1upl8ny/what_paid_app_did_you_go_back_to_after_trying"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/opensourcealternative/comments/1upl8ny/what_paid_app_did_you_go_back_to_after_trying"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What paid app did you go back to after trying open source?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/developertoolshub/comments/1um5gsv/what_dev_tool_do_you_pay_for_personally"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/developertoolshub/comments/1um5gsv/what_dev_tool_do_you_pay_for_personally"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What dev tool do you pay for personally?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/artificial/comments/1u6eyfp/which_ai_personal_finance_app_is_worth_paying_for"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/artificial/comments/1u6eyfp/which_ai_personal_finance_app_is_worth_paying_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Which AI personal finance app is worth paying for in 2026?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appstoreoptimization/comments/1uof5vs/first_paying_customer_someone_bought_an_annual"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/appstoreoptimization/comments/1uof5vs/first_paying_customer_someone_bought_an_annual"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "First paying customer! Someone bought an annual sub to the app I built alone in ~20 evenings. Here\u2019s the whole story."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-12T06:35:39.196344+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "What dev tool do you pay for personally?\nmost dev tools i use are either free, open source, or paid by work. but there are a few things where paying personally might actually be worth it if it saves enough time or makes the setup better. curious what other devs pay for out of their own pocket. could be an editor/plugin, terminal app, API client, database GUI, AI coding tool, hosting, monitoring, notes app, anything. what dev tool is actually worth paying for yourself?\ni pay for lens, makes managing kubernetes clusters way less painful than kubectl alone. Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it",
+        "container": "DeveloperToolsHub",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 4
+        },
+        "engagement_score": 76,
+        "freshness": 82,
+        "item_id": "R3",
+        "local_rank_score": 0.47600000000000003,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [
+            "i pay for lens, makes managing kubernetes clusters way less painful than kubectl alone.",
+            "Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it"
+          ],
+          "top_comments": [
+            {
+              "author": "Tasty_World8991",
+              "date": "2026-07-04",
+              "excerpt": "i pay for lens, makes managing kubernetes clusters way less painful than kubectl alone.",
+              "score": 2,
+              "url": "https://reddit.com/r/DeveloperToolsHub/comments/1um5gsv/comment/ovk663a/"
+            },
+            {
+              "author": "Kitchen_Chain_7908",
+              "date": "2026-07-04",
+              "excerpt": "Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it",
+              "score": 1,
+              "url": "https://reddit.com/r/DeveloperToolsHub/comments/1um5gsv/comment/ovhy63k/"
+            }
+          ]
+        },
+        "published_at": "2026-07-03",
+        "relevance_hint": 0.22,
+        "snippet": "i pay for lens, makes managing kubernetes clusters way less painful than kubectl alone. Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What dev tool do you pay for personally?",
+        "url": "https://www.reddit.com/r/DeveloperToolsHub/comments/1um5gsv/what_dev_tool_do_you_pay_for_personally/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What paid app did you go back to after trying open source?\nTried replacing a few paid apps with open source alternatives, but not all of them stuck. I tested a few open source email clients and thought about self-hosting email, but eventually stayed with Proton because I wanted better reliability, search, mobile apps, and fewer small issues. I still use open source apps where they make sense, but some tools are worth paying for if they save enough time. What paid app did you go back to after trying the open source alternative?\nI tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involved to try to fix it I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fighting it. None.",
+        "container": "opensourcealternative",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 11
+        },
+        "engagement_score": 100,
+        "freshness": 89,
+        "item_id": "R1",
+        "local_rank_score": 0.45899999999999996,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [
+            "I tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involve...",
+            "I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fi..."
+          ],
+          "top_comments": [
+            {
+              "author": "benjaloo",
+              "date": "2026-07-07",
+              "excerpt": "I tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involved to try to fix it",
+              "score": 1,
+              "url": "https://reddit.com/r/opensourcealternative/comments/1upl8ny/comment/ow68exg/"
+            },
+            {
+              "author": "Dramatic-Flamingo-27",
+              "date": "2026-07-09",
+              "excerpt": "I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fighting it.",
+              "score": 1,
+              "url": "https://reddit.com/r/opensourcealternative/comments/1upl8ny/comment/owg2ylv/"
+            },
+            {
+              "author": "HayStacky_337",
+              "date": "2026-07-09",
+              "excerpt": "None.",
+              "score": 1,
+              "url": "https://reddit.com/r/opensourcealternative/comments/1upl8ny/comment/owg8i96/"
+            }
+          ]
+        },
+        "published_at": "2026-07-07",
+        "relevance_hint": 0.43,
+        "snippet": "I tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involved to try to fix it I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fighting it. None.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What paid app did you go back to after trying open source?",
+        "url": "https://www.reddit.com/r/opensourcealternative/comments/1upl8ny/what_paid_app_did_you_go_back_to_after_trying/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "First paying customer! Someone bought an annual sub to the app I built alone in ~20 evenings. Here\u2019s the whole story.\n[iOS]For the last couple of weeks it\u2019s been the usual grind: downloads trickling in, trials starting and cancelling, me refreshing the dashboard way too often. Then today I opened RevenueCat and saw it, someone in Indonesia bought an annual subscription. First paying customer, and honestly the first money I\u2019ve ever made online. It\u2019s not much, just one sub, but something clicked. Someone I\u2019ve never met found the app and decided it was worth paying for. That\u2019s the whole thing I was chasing. Stack:",
+        "container": "AppStoreOptimization",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 0
+        },
+        "engagement_score": 18,
+        "freshness": 85,
+        "item_id": "R6",
+        "local_rank_score": 0.4255,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-05",
+        "relevance_hint": 0.7,
+        "snippet": "[iOS]For the last couple of weeks it\u2019s been the usual grind: downloads trickling in, trials starting and cancelling, me refreshing the dashboard way too often. Then today I opened RevenueCat and saw it, someone in Indonesia bought an annual subscription. First paying customer, and honestly the first money I\u2019ve ever made online. It\u2019s not much, just one sub, but something clicked. Someone I\u2019ve never",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "First paying customer! Someone bought an annual sub to the app I built alone in ~20 evenings. Here\u2019s the whole story.",
+        "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1uof5vs/first_paying_customer_someone_bought_an_annual/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Which AI personal finance app is worth paying for in 2026?\nI admittedly have too much time on my hands and have been testing several AI native personal finance apps to see which actually fits the bill (no pun intended). Notes below Albert: Closest thing to a real personal CFO. AI handles categorization, autosaving and cash advances and the unlock is the human \"Geniuses\" you can text 7 days a week with actual financial questions. Smart Savings has stashed more than I'd have managed on my own. Genius runs around $15/mo though, the most expensive in this l\nDepending on what you are looking for.... you can just build your own. Expense tracking anyway. Yeah just build your own. I use origin, though admittedly not for its AI capabilities. I\u2019m an ex mint user that took a long time to find a new platform. I like the transparency and willingness to engage with users in their subreddit. That\u2019s what ultimately won me over. I\u2019m honestly not sure how they stack up price wise vs th",
+        "container": "artificial",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 0
+        },
+        "engagement_score": 51,
+        "freshness": 45,
+        "item_id": "R2",
+        "local_rank_score": 0.4235,
+        "local_relevance": 0.4,
+        "metadata": {
+          "comment_insights": [
+            "Depending on what you are looking for.... you can just build your own. Expense tracking anyway.",
+            "I use origin, though admittedly not for its AI capabilities.",
+            "The auto categorization worked better than I expected. Not perfect but good enough that I was not constantly fixing transactions.",
+            "the hard part with these apps is figuring out if the AI is actually helping or just making the interface feel smarter",
+            "You should take that money and instead make your own my dude.",
+            "the 'just build your own' replies are half right. the expense-tracker UI you can vibe-code in an afternoon now, that part's genuinely real.",
+            "ChatGPT or Claude? I feel like both have so much of my history that any answer is much richer than if I used a standalone app."
+          ],
+          "top_comments": [
+            {
+              "author": "krack1925",
+              "date": "2026-06-15",
+              "excerpt": "Depending on what you are looking for.... you can just build your own. Expense tracking anyway.",
+              "score": 4,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors27jp/"
+            },
+            {
+              "author": "RaspberryOk1888",
+              "date": "2026-06-15",
+              "excerpt": "Yeah just build your own.",
+              "score": 4,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors5skj/"
+            },
+            {
+              "author": "scramblin_pan",
+              "date": "2026-06-15",
+              "excerpt": "I use origin, though admittedly not for its AI capabilities. I\u2019m an ex mint user that took a long time to find a new platform. I like the transparency and willingness to engage with users in their subreddit. That\u2019s what ultimately won me over. I\u2019m honestly not sure how they stack up price wise vs th",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors4q0g/"
+            },
+            {
+              "author": "Hopeful-Opposite7811",
+              "date": "2026-06-15",
+              "excerpt": "The auto categorization worked better than I expected. Not perfect but good enough that I was not constantly fixing transactions.",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ortv737/"
+            },
+            {
+              "author": "dataflow_mapper",
+              "date": "2026-06-16",
+              "excerpt": "the hard part with these apps is figuring out if the AI is actually helping or just making the interface feel smarter",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/orzcleq/"
+            },
+            {
+              "author": "TheFuzzyRacoon",
+              "date": "2026-06-16",
+              "excerpt": "You should take that money and instead make your own my dude.",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/orzd6oq/"
+            },
+            {
+              "author": "Deep_Ad1959",
+              "date": "2026-06-16",
+              "excerpt": "the 'just build your own' replies are half right. the expense-tracker UI you can vibe-code in an afternoon now, that part's genuinely real. the wall isn't the interface, it's bank sync, plaid is basically free to start but the second you want clean categorization across accounts you're rebuilding th",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/orzjyf8/"
+            },
+            {
+              "author": "ahambrahmasmiii",
+              "date": "2026-06-15",
+              "excerpt": "ChatGPT or Claude? I feel like both have so much of my history that any answer is much richer than if I used a standalone app. I use both, and have both hooked up to the same set of bank account data, budgets, rules, my custom categories (so any change one makes is visible to the other) and they eve",
+              "score": -1,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors5his/"
+            },
+            {
+              "author": "Roodut",
+              "date": "2026-06-15",
+              "excerpt": "none. AI cannot count yet",
+              "score": -1,
+              "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors8qxl/"
+            }
+          ]
+        },
+        "published_at": "2026-06-15",
+        "relevance_hint": 0.89,
+        "snippet": "Depending on what you are looking for.... you can just build your own. Expense tracking anyway. Yeah just build your own. I use origin, though admittedly not for its AI capabilities. I\u2019m an ex mint user that took a long time to find a new platform. I like the transparency and willingness to engage with users in their subreddit. That\u2019s what ultimately won me over. I\u2019m honestly not sure how they stack up price wise vs th",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Which AI personal finance app is worth paying for in 2026?",
+        "url": "https://www.reddit.com/r/artificial/comments/1u6eyfp/which_ai_personal_finance_app_is_worth_paying_for/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-12",
+  "range_to": "2026-07-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/opensourcealternative/comments/1upl8ny/what_paid_app_did_you_go_back_to_after_trying",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involved to try to fix it I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fighting it. None.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What paid app did you go back to after trying open source?\nTried replacing a few paid apps with open source alternatives, but not all of them stuck. I tested a few open source email clients and thought about self-hosting email, but eventually stayed with Proton because I wanted better reliability, search, mobile apps, and fewer small issues. I still use open source apps where they make sense, but some tools are worth paying for if they save enough time. What paid app did you go back to after trying the open source alternative?\nI tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involved to try to fix it I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fighting it. None.",
+          "container": "opensourcealternative",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 11
+          },
+          "engagement_score": 100,
+          "freshness": 89,
+          "item_id": "R1",
+          "local_rank_score": 0.45899999999999996,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [
+              "I tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involve...",
+              "I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fi..."
+            ],
+            "top_comments": [
+              {
+                "author": "benjaloo",
+                "date": "2026-07-07",
+                "excerpt": "I tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involved to try to fix it",
+                "score": 1,
+                "url": "https://reddit.com/r/opensourcealternative/comments/1upl8ny/comment/ow68exg/"
+              },
+              {
+                "author": "Dramatic-Flamingo-27",
+                "date": "2026-07-09",
+                "excerpt": "I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fighting it.",
+                "score": 1,
+                "url": "https://reddit.com/r/opensourcealternative/comments/1upl8ny/comment/owg2ylv/"
+              },
+              {
+                "author": "HayStacky_337",
+                "date": "2026-07-09",
+                "excerpt": "None.",
+                "score": 1,
+                "url": "https://reddit.com/r/opensourcealternative/comments/1upl8ny/comment/owg8i96/"
+              }
+            ]
+          },
+          "published_at": "2026-07-07",
+          "relevance_hint": 0.43,
+          "snippet": "I tried switching from Evernote to Joplin but moving my data was anything but smooth and I couldn\u2019t tolerate the possible data loss and effort involved to try to fix it I went back to Google Photos. I wanted open source to work, but search, sharing, backup, and family access were just smoother enough that I stopped fighting it. None.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What paid app did you go back to after trying open source?",
+          "url": "https://www.reddit.com/r/opensourcealternative/comments/1upl8ny/what_paid_app_did_you_go_back_to_after_trying/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What paid app did you go back to after trying open source?",
+      "url": "https://www.reddit.com/r/opensourcealternative/comments/1upl8ny/what_paid_app_did_you_go_back_to_after_trying/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/developertoolshub/comments/1um5gsv/what_dev_tool_do_you_pay_for_personally",
+      "cluster_id": "cluster-2",
+      "engagement": 76,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "i pay for lens, makes managing kubernetes clusters way less painful than kubectl alone. Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What dev tool do you pay for personally?\nmost dev tools i use are either free, open source, or paid by work. but there are a few things where paying personally might actually be worth it if it saves enough time or makes the setup better. curious what other devs pay for out of their own pocket. could be an editor/plugin, terminal app, API client, database GUI, AI coding tool, hosting, monitoring, notes app, anything. what dev tool is actually worth paying for yourself?\ni pay for lens, makes managing kubernetes clusters way less painful than kubectl alone. Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it",
+          "container": "DeveloperToolsHub",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 4
+          },
+          "engagement_score": 76,
+          "freshness": 82,
+          "item_id": "R3",
+          "local_rank_score": 0.47600000000000003,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [
+              "i pay for lens, makes managing kubernetes clusters way less painful than kubectl alone.",
+              "Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it"
+            ],
+            "top_comments": [
+              {
+                "author": "Tasty_World8991",
+                "date": "2026-07-04",
+                "excerpt": "i pay for lens, makes managing kubernetes clusters way less painful than kubectl alone.",
+                "score": 2,
+                "url": "https://reddit.com/r/DeveloperToolsHub/comments/1um5gsv/comment/ovk663a/"
+              },
+              {
+                "author": "Kitchen_Chain_7908",
+                "date": "2026-07-04",
+                "excerpt": "Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it",
+                "score": 1,
+                "url": "https://reddit.com/r/DeveloperToolsHub/comments/1um5gsv/comment/ovhy63k/"
+              }
+            ]
+          },
+          "published_at": "2026-07-03",
+          "relevance_hint": 0.22,
+          "snippet": "i pay for lens, makes managing kubernetes clusters way less painful than kubectl alone. Cursor is the one I would pay for personally. It saves enough time while writing and fixing code to feel worth it",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What dev tool do you pay for personally?",
+          "url": "https://www.reddit.com/r/DeveloperToolsHub/comments/1um5gsv/what_dev_tool_do_you_pay_for_personally/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What dev tool do you pay for personally?",
+      "url": "https://www.reddit.com/r/DeveloperToolsHub/comments/1um5gsv/what_dev_tool_do_you_pay_for_personally/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/artificial/comments/1u6eyfp/which_ai_personal_finance_app_is_worth_paying_for",
+      "cluster_id": "cluster-3",
+      "engagement": 51,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.4,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 18.0,
+      "rrf_score": 0.0078125,
+      "snippet": "Depending on what you are looking for.... you can just build your own. Expense tracking anyway. Yeah just build your own. I use origin, though admittedly not for its AI capabilities. I\u2019m an ex mint user that took a long time to find a new platform. I like the transparency and willingness to engage with users in their subreddit. That\u2019s what ultimately won me over. I\u2019m honestly not sure how they stack up price wise vs th",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Which AI personal finance app is worth paying for in 2026?\nI admittedly have too much time on my hands and have been testing several AI native personal finance apps to see which actually fits the bill (no pun intended). Notes below Albert: Closest thing to a real personal CFO. AI handles categorization, autosaving and cash advances and the unlock is the human \"Geniuses\" you can text 7 days a week with actual financial questions. Smart Savings has stashed more than I'd have managed on my own. Genius runs around $15/mo though, the most expensive in this l\nDepending on what you are looking for.... you can just build your own. Expense tracking anyway. Yeah just build your own. I use origin, though admittedly not for its AI capabilities. I\u2019m an ex mint user that took a long time to find a new platform. I like the transparency and willingness to engage with users in their subreddit. That\u2019s what ultimately won me over. I\u2019m honestly not sure how they stack up price wise vs th",
+          "container": "artificial",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 0
+          },
+          "engagement_score": 51,
+          "freshness": 45,
+          "item_id": "R2",
+          "local_rank_score": 0.4235,
+          "local_relevance": 0.4,
+          "metadata": {
+            "comment_insights": [
+              "Depending on what you are looking for.... you can just build your own. Expense tracking anyway.",
+              "I use origin, though admittedly not for its AI capabilities.",
+              "The auto categorization worked better than I expected. Not perfect but good enough that I was not constantly fixing transactions.",
+              "the hard part with these apps is figuring out if the AI is actually helping or just making the interface feel smarter",
+              "You should take that money and instead make your own my dude.",
+              "the 'just build your own' replies are half right. the expense-tracker UI you can vibe-code in an afternoon now, that part's genuinely real.",
+              "ChatGPT or Claude? I feel like both have so much of my history that any answer is much richer than if I used a standalone app."
+            ],
+            "top_comments": [
+              {
+                "author": "krack1925",
+                "date": "2026-06-15",
+                "excerpt": "Depending on what you are looking for.... you can just build your own. Expense tracking anyway.",
+                "score": 4,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors27jp/"
+              },
+              {
+                "author": "RaspberryOk1888",
+                "date": "2026-06-15",
+                "excerpt": "Yeah just build your own.",
+                "score": 4,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors5skj/"
+              },
+              {
+                "author": "scramblin_pan",
+                "date": "2026-06-15",
+                "excerpt": "I use origin, though admittedly not for its AI capabilities. I\u2019m an ex mint user that took a long time to find a new platform. I like the transparency and willingness to engage with users in their subreddit. That\u2019s what ultimately won me over. I\u2019m honestly not sure how they stack up price wise vs th",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors4q0g/"
+              },
+              {
+                "author": "Hopeful-Opposite7811",
+                "date": "2026-06-15",
+                "excerpt": "The auto categorization worked better than I expected. Not perfect but good enough that I was not constantly fixing transactions.",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ortv737/"
+              },
+              {
+                "author": "dataflow_mapper",
+                "date": "2026-06-16",
+                "excerpt": "the hard part with these apps is figuring out if the AI is actually helping or just making the interface feel smarter",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/orzcleq/"
+              },
+              {
+                "author": "TheFuzzyRacoon",
+                "date": "2026-06-16",
+                "excerpt": "You should take that money and instead make your own my dude.",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/orzd6oq/"
+              },
+              {
+                "author": "Deep_Ad1959",
+                "date": "2026-06-16",
+                "excerpt": "the 'just build your own' replies are half right. the expense-tracker UI you can vibe-code in an afternoon now, that part's genuinely real. the wall isn't the interface, it's bank sync, plaid is basically free to start but the second you want clean categorization across accounts you're rebuilding th",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/orzjyf8/"
+              },
+              {
+                "author": "ahambrahmasmiii",
+                "date": "2026-06-15",
+                "excerpt": "ChatGPT or Claude? I feel like both have so much of my history that any answer is much richer than if I used a standalone app. I use both, and have both hooked up to the same set of bank account data, budgets, rules, my custom categories (so any change one makes is visible to the other) and they eve",
+                "score": -1,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors5his/"
+              },
+              {
+                "author": "Roodut",
+                "date": "2026-06-15",
+                "excerpt": "none. AI cannot count yet",
+                "score": -1,
+                "url": "https://reddit.com/r/artificial/comments/1u6eyfp/comment/ors8qxl/"
+              }
+            ]
+          },
+          "published_at": "2026-06-15",
+          "relevance_hint": 0.89,
+          "snippet": "Depending on what you are looking for.... you can just build your own. Expense tracking anyway. Yeah just build your own. I use origin, though admittedly not for its AI capabilities. I\u2019m an ex mint user that took a long time to find a new platform. I like the transparency and willingness to engage with users in their subreddit. That\u2019s what ultimately won me over. I\u2019m honestly not sure how they stack up price wise vs th",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Which AI personal finance app is worth paying for in 2026?",
+          "url": "https://www.reddit.com/r/artificial/comments/1u6eyfp/which_ai_personal_finance_app_is_worth_paying_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Which AI personal finance app is worth paying for in 2026?",
+      "url": "https://www.reddit.com/r/artificial/comments/1u6eyfp/which_ai_personal_finance_app_is_worth_paying_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appstoreoptimization/comments/1uof5vs/first_paying_customer_someone_bought_an_annual",
+      "cluster_id": "cluster-4",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R6",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 19.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "[iOS]For the last couple of weeks it\u2019s been the usual grind: downloads trickling in, trials starting and cancelling, me refreshing the dashboard way too often. Then today I opened RevenueCat and saw it, someone in Indonesia bought an annual subscription. First paying customer, and honestly the first money I\u2019ve ever made online. It\u2019s not much, just one sub, but something clicked. Someone I\u2019ve never",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "First paying customer! Someone bought an annual sub to the app I built alone in ~20 evenings. Here\u2019s the whole story.\n[iOS]For the last couple of weeks it\u2019s been the usual grind: downloads trickling in, trials starting and cancelling, me refreshing the dashboard way too often. Then today I opened RevenueCat and saw it, someone in Indonesia bought an annual subscription. First paying customer, and honestly the first money I\u2019ve ever made online. It\u2019s not much, just one sub, but something clicked. Someone I\u2019ve never met found the app and decided it was worth paying for. That\u2019s the whole thing I was chasing. Stack:",
+          "container": "AppStoreOptimization",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 0
+          },
+          "engagement_score": 18,
+          "freshness": 85,
+          "item_id": "R6",
+          "local_rank_score": 0.4255,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-05",
+          "relevance_hint": 0.7,
+          "snippet": "[iOS]For the last couple of weeks it\u2019s been the usual grind: downloads trickling in, trials starting and cancelling, me refreshing the dashboard way too often. Then today I opened RevenueCat and saw it, someone in Indonesia bought an annual subscription. First paying customer, and honestly the first money I\u2019ve ever made online. It\u2019s not much, just one sub, but something clicked. Someone I\u2019ve never",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "First paying customer! Someone bought an annual sub to the app I built alone in ~20 evenings. Here\u2019s the whole story.",
+          "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1uof5vs/first_paying_customer_someone_bought_an_annual/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "First paying customer! Someone bought an annual sub to the app I built alone in ~20 evenings. Here\u2019s the whole story.",
+      "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1uof5vs/first_paying_customer_someone_bought_an_annual/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
