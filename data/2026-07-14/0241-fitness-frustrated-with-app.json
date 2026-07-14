@@ -1,0 +1,588 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iosappsmarketing/comments/1uo06pa/i_built_my_first_fitness_app_looking_for_honest"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/iosappsmarketing/comments/1uo06pa/i_built_my_first_fitness_app_looking_for_honest"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built my first fitness app. Looking for honest marketing feedback"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-14T02:41:18.947737+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I built my first fitness app. Looking for honest marketing feedback\nHi everyone, Over the last year I've been building Agile Athletes, my first iOS app: https://apps.apple.com/gb/app/agile-athletes/id6758623960. The original idea came from being frustrated with switching between multiple apps just to track my workouts, monitor my daily steps, and stay accountable. So far the app includes: * \ud83d\udcaa Workout tracking * \ud83d\udc5f Apple Health / Health Connect step syncing * \ud83e\udd16 AI Coach * \ud83c\udfa5 AI Form Coach (video analysis) * \ud83e\udd1d Fitness Network to connect with other gym-goers * \ud83e\udde0 Mind\nbased on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in Why are you showing screenshots of a login page? Too many of these already Get 25 proven tactics to grow your app. Grab the 55 Page doc free here \u2192 https://growth-hacking-lab.kit.com/22053926d2 This report is based on our months of research at Growth Hacking Lab. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+        "container": "iOSAppsMarketing",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 42,
+          "score": 0
+        },
+        "engagement_score": 35,
+        "freshness": 82,
+        "item_id": "R3",
+        "local_rank_score": 0.448,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "based on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in...",
+            "This section is so saturated that better UI and marketing wins.",
+            "first of all congrats on the new launch! If budget is limited, the first things I would do are: - improve your screenshots (use some modern battle tes..."
+          ],
+          "top_comments": [
+            {
+              "author": "Kritnc",
+              "date": "2026-07-05",
+              "excerpt": "based on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in Why are you showing screenshots of a login page?",
+              "score": 6,
+              "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovo5f9s/"
+            },
+            {
+              "author": "yoeyz",
+              "date": "2026-07-05",
+              "excerpt": "Too many of these already",
+              "score": 3,
+              "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovolb1d/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-07-05",
+              "excerpt": "Get 25 proven tactics to grow your app. Grab the 55 Page doc free here \u2192 https://growth-hacking-lab.kit.com/22053926d2 This report is based on our months of research at Growth Hacking Lab. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovo4e5u/"
+            },
+            {
+              "author": "Dailybite_App",
+              "date": "2026-07-07",
+              "excerpt": "This section is so saturated that better UI and marketing wins. It's almost a meme at this point, I see one of these post atleast 1 or twice a week regarding a workout app with the exact same reasoning \"tired of the other app not offering the features i want\" and adding in ai. It's gonna be hard to ",
+              "score": 1,
+              "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ow3dmml/"
+            },
+            {
+              "author": "antocapp",
+              "date": "2026-07-05",
+              "excerpt": "first of all congrats on the new launch! If budget is limited, the first things I would do are: - improve your screenshots (use some modern battle tested template as in AppScreens) - improve your ASO positioning (I love Astro MCP connected to claude) - localize the listing and the app in as many cou",
+              "score": -1,
+              "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovo6h6y/"
+            }
+          ]
+        },
+        "published_at": "2026-07-05",
+        "relevance_hint": 0.63,
+        "snippet": "based on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in Why are you showing screenshots of a login page? Too many of these already Get 25 proven tactics to grow your app. Grab the 55 Page doc free here \u2192 https://growth-hacking-lab.kit.com/22053926d2 This report is based on our months of research at Growth Hacking Lab. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built my first fitness app. Looking for honest marketing feedback",
+        "url": "https://www.reddit.com/r/iOSAppsMarketing/comments/1uo06pa/i_built_my_first_fitness_app_looking_for_honest/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.\nWe started building MyFitOrbit after running into a problem ourselves. Workout tracking was always scattered between notes, spreadsheets, and different apps. It was hard to look back and understand if we were actually progressing. So we built a simple fitness tracker focused on: logging workouts tracking sets, reps, and weights seeing progress over time keeping training history organized After months of building and finally launching, we realized the hardest part is not just building the product\ni\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 20,
+        "freshness": 85,
+        "item_id": "R4",
+        "local_rank_score": 0.382,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "i\u2019d be careful asking \u201cwhat features should we build?"
+          ],
+          "top_comments": [
+            {
+              "author": "mcbootysauce1",
+              "date": "2026-07-08",
+              "excerpt": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+              "score": 1,
+              "url": "https://reddit.com/r/SaaS/comments/1uq2otp/comment/ow7yl56/"
+            }
+          ]
+        },
+        "published_at": "2026-07-07",
+        "relevance_hint": 0.89,
+        "snippet": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.",
+        "url": "https://www.reddit.com/r/SaaS/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps\nHey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The really good apps get crazy expensive real quick, and the cheaper or free ones just didn't have the fea",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 0
+        },
+        "engagement_score": 6,
+        "freshness": 83,
+        "item_id": "R8",
+        "local_rank_score": 0.363,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-06",
+        "relevance_hint": 0.4,
+        "snippet": "Hey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The re",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.\nHey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects everything. Current features include: AI workout coaching Meal photo analysis Nutrition tracking Person",
+        "container": "apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 0
+        },
+        "engagement_score": 3,
+        "freshness": 73,
+        "item_id": "R9",
+        "local_rank_score": 0.335,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-01",
+        "relevance_hint": 0.4,
+        "snippet": "Hey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects eve",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.",
+        "url": "https://www.reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-14",
+  "range_to": "2026-07-14",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/iosappsmarketing/comments/1uo06pa/i_built_my_first_fitness_app_looking_for_honest",
+      "cluster_id": "cluster-1",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 19.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "based on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in Why are you showing screenshots of a login page? Too many of these already Get 25 proven tactics to grow your app. Grab the 55 Page doc free here \u2192 https://growth-hacking-lab.kit.com/22053926d2 This report is based on our months of research at Growth Hacking Lab. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built my first fitness app. Looking for honest marketing feedback\nHi everyone, Over the last year I've been building Agile Athletes, my first iOS app: https://apps.apple.com/gb/app/agile-athletes/id6758623960. The original idea came from being frustrated with switching between multiple apps just to track my workouts, monitor my daily steps, and stay accountable. So far the app includes: * \ud83d\udcaa Workout tracking * \ud83d\udc5f Apple Health / Health Connect step syncing * \ud83e\udd16 AI Coach * \ud83c\udfa5 AI Form Coach (video analysis) * \ud83e\udd1d Fitness Network to connect with other gym-goers * \ud83e\udde0 Mind\nbased on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in Why are you showing screenshots of a login page? Too many of these already Get 25 proven tactics to grow your app. Grab the 55 Page doc free here \u2192 https://growth-hacking-lab.kit.com/22053926d2 This report is based on our months of research at Growth Hacking Lab. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "container": "iOSAppsMarketing",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 42,
+            "score": 0
+          },
+          "engagement_score": 35,
+          "freshness": 82,
+          "item_id": "R3",
+          "local_rank_score": 0.448,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "based on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in...",
+              "This section is so saturated that better UI and marketing wins.",
+              "first of all congrats on the new launch! If budget is limited, the first things I would do are: - improve your screenshots (use some modern battle tes..."
+            ],
+            "top_comments": [
+              {
+                "author": "Kritnc",
+                "date": "2026-07-05",
+                "excerpt": "based on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in Why are you showing screenshots of a login page?",
+                "score": 6,
+                "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovo5f9s/"
+              },
+              {
+                "author": "yoeyz",
+                "date": "2026-07-05",
+                "excerpt": "Too many of these already",
+                "score": 3,
+                "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovolb1d/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-07-05",
+                "excerpt": "Get 25 proven tactics to grow your app. Grab the 55 Page doc free here \u2192 https://growth-hacking-lab.kit.com/22053926d2 This report is based on our months of research at Growth Hacking Lab. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovo4e5u/"
+              },
+              {
+                "author": "Dailybite_App",
+                "date": "2026-07-07",
+                "excerpt": "This section is so saturated that better UI and marketing wins. It's almost a meme at this point, I see one of these post atleast 1 or twice a week regarding a workout app with the exact same reasoning \"tired of the other app not offering the features i want\" and adding in ai. It's gonna be hard to ",
+                "score": 1,
+                "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ow3dmml/"
+              },
+              {
+                "author": "antocapp",
+                "date": "2026-07-05",
+                "excerpt": "first of all congrats on the new launch! If budget is limited, the first things I would do are: - improve your screenshots (use some modern battle tested template as in AppScreens) - improve your ASO positioning (I love Astro MCP connected to claude) - localize the listing and the app in as many cou",
+                "score": -1,
+                "url": "https://reddit.com/r/iOSAppsMarketing/comments/1uo06pa/comment/ovo6h6y/"
+              }
+            ]
+          },
+          "published_at": "2026-07-05",
+          "relevance_hint": 0.63,
+          "snippet": "based on the fact you left all this chatGPT response in your post I am going to assume your app was built just as sloppy - at least put some effort in Why are you showing screenshots of a login page? Too many of these already Get 25 proven tactics to grow your app. Grab the 55 Page doc free here \u2192 https://growth-hacking-lab.kit.com/22053926d2 This report is based on our months of research at Growth Hacking Lab. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built my first fitness app. Looking for honest marketing feedback",
+          "url": "https://www.reddit.com/r/iOSAppsMarketing/comments/1uo06pa/i_built_my_first_fitness_app_looking_for_honest/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built my first fitness app. Looking for honest marketing feedback",
+      "url": "https://www.reddit.com/r/iOSAppsMarketing/comments/1uo06pa/i_built_my_first_fitness_app_looking_for_honest/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated",
+      "cluster_id": "cluster-2",
+      "engagement": 20,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.0,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.099999999999994,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.\nWe started building MyFitOrbit after running into a problem ourselves. Workout tracking was always scattered between notes, spreadsheets, and different apps. It was hard to look back and understand if we were actually progressing. So we built a simple fitness tracker focused on: logging workouts tracking sets, reps, and weights seeing progress over time keeping training history organized After months of building and finally launching, we realized the hardest part is not just building the product\ni\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 20,
+          "freshness": 85,
+          "item_id": "R4",
+          "local_rank_score": 0.382,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "i\u2019d be careful asking \u201cwhat features should we build?"
+            ],
+            "top_comments": [
+              {
+                "author": "mcbootysauce1",
+                "date": "2026-07-08",
+                "excerpt": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+                "score": 1,
+                "url": "https://reddit.com/r/SaaS/comments/1uq2otp/comment/ow7yl56/"
+              }
+            ]
+          },
+          "published_at": "2026-07-07",
+          "relevance_hint": 0.89,
+          "snippet": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.",
+          "url": "https://www.reddit.com/r/SaaS/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.",
+      "url": "https://www.reddit.com/r/SaaS/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness",
+      "cluster_id": "cluster-3",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 12.0,
+      "item_id": "R8",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 13.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The re",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps\nHey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The really good apps get crazy expensive real quick, and the cheaper or free ones just didn't have the fea",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 0
+          },
+          "engagement_score": 6,
+          "freshness": 83,
+          "item_id": "R8",
+          "local_rank_score": 0.363,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-06",
+          "relevance_hint": 0.4,
+          "snippet": "Hey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The re",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai",
+      "cluster_id": "cluster-4",
+      "engagement": 3,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 6.0,
+      "item_id": "R9",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 11.700000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "Hey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects eve",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.\nHey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects everything. Current features include: AI workout coaching Meal photo analysis Nutrition tracking Person",
+          "container": "apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 0
+          },
+          "engagement_score": 3,
+          "freshness": 73,
+          "item_id": "R9",
+          "local_rank_score": 0.335,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-01",
+          "relevance_hint": 0.4,
+          "snippet": "Hey everyone, After months of late nights (and several rounds of App Store review ), I finally launched my first mobile app called Veya. The idea came from being frustrated with juggling multiple apps\u2014one for workouts, one for calories, one for meal logging, another for hiking, another for progress. Instead of trying to make another workout tracker, I wanted to build one AI coach that connects eve",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.",
+          "url": "https://www.reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "After months of work, I finally launched my AI fitness coach. Looking for brutally honest feedback.",
+      "url": "https://www.reddit.com/r/apps/comments/1ukvg00/after_months_of_work_i_finally_launched_my_ai/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
