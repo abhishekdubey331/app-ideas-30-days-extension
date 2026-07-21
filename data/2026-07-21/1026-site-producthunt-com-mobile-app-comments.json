@@ -1,0 +1,522 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1ue82bc/launched_stickyboard_after_reddit_success"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1ue82bc/launched_stickyboard_after_reddit_success"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Launched Stickyboard after reddit success"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/micro_saas/comments/1upoa60/i_got_tired_of_manually_switching_the_keyboard"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/micro_saas/comments/1upoa60/i_got_tired_of_manually_switching_the_keyboard"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of manually switching the keyboard language, so I built a Mac app that does it for me - Launching it today on Product Hunt!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/getstartups/comments/1upxliy/my_app_finds_the_2600year_premium_cardholders_pay"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/getstartups/comments/1upxliy/my_app_finds_the_2600year_premium_cardholders_pay"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My app finds the ~$2,600/year premium cardholders pay for and never collect. Second launch on PH today."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1uf2xvw/tired_of_drawing_apps_charging_10month_just_to"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1uf2xvw/tired_of_drawing_apps_charging_10month_just_to"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Tired of drawing apps charging $10/month just to trace lines. As a solo dev, I built an AR alternative with ZERO subscriptions. Just launched on PH"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-21T10:26:58.429531+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Launched Stickyboard after reddit success\nToday I'm launching Stickyboard on Product Hunt after my post on: https://www.reddit.com/r/ProductivityApps/comments/1twkt99/i_got_tired_of_every_todo_app_feeling_like_jira/ got a pretty good feedback! I invite you to check the Product Hunt post and any help is super appreciated! Thank you.\nlooks great, thanks for sharing, any plans to make mobile apps? Love this!!!!",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 4
+        },
+        "engagement_score": 100,
+        "freshness": 45,
+        "item_id": "R1",
+        "local_rank_score": 0.32300000000000006,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "looks great, thanks for sharing, any plans to make mobile apps?"
+          ],
+          "top_comments": [
+            {
+              "author": "u4usama",
+              "date": "2026-06-24",
+              "excerpt": "looks great, thanks for sharing, any plans to make mobile apps?",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1ue82bc/comment/othuohw/"
+            },
+            {
+              "author": "HereForTheTeaD",
+              "date": "2026-06-25",
+              "excerpt": "Love this!!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1ue82bc/comment/ott343t/"
+            }
+          ]
+        },
+        "published_at": "2026-06-24",
+        "relevance_hint": 0.06,
+        "snippet": "looks great, thanks for sharing, any plans to make mobile apps? Love this!!!!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Launched Stickyboard after reddit success",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1ue82bc/launched_stickyboard_after_reddit_success/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of manually switching the keyboard language, so I built a Mac app that does it for me - Launching it today on Product Hunt!\nIf you are bilingual or multilingual, you probably know how this breaks your flow. You're fully in the zone typing out a fast thought in Slack, an email, or your code editor, but because your keyboard layout was wrong, you look up and realize you just typed a block of unreadable gibberish. Your train of thought is interrupted just because you forgot to toggle a language input. So, I decided to build a real solution for myself. And after a very successful private beta phase - I'm opening it up to",
+        "container": "micro_saas",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 71,
+        "item_id": "R3",
+        "local_rank_score": 0.2165,
+        "local_relevance": 0.06,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-07",
+        "relevance_hint": 0.11,
+        "snippet": "If you are bilingual or multilingual, you probably know how this breaks your flow. You're fully in the zone typing out a fast thought in Slack, an email, or your code editor, but because your keyboard layout was wrong, you look up and realize you just typed a block of unreadable gibberish. Your train of thought is interrupted just because you forgot to toggle a language input. So, I decided to bui",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of manually switching the keyboard language, so I built a Mac app that does it for me - Launching it today on Product Hunt!",
+        "url": "https://www.reddit.com/r/micro_saas/comments/1upoa60/i_got_tired_of_manually_switching_the_keyboard/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My app finds the ~$2,600/year premium cardholders pay for and never collect. Second launch on PH today.\nPremium credit cards quietly became subscriptions. $400+ a year in fees, paid back through monthly credits, benefits, and coverage that most holders never collect. The average premium wallet leaves around $2,600 a year on the table, according to user data from my app. That monthly dining credit that resets each month? Someone already paid for that dinner. It just never happens. I launched a rough version of Norte six months ago. 500 users later, their feedback rebuilt it: new onboarding, now on",
+        "container": "GetStartups",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 71,
+        "item_id": "R5",
+        "local_rank_score": 0.2165,
+        "local_relevance": 0.06,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-07",
+        "relevance_hint": 0.15,
+        "snippet": "Premium credit cards quietly became subscriptions. $400+ a year in fees, paid back through monthly credits, benefits, and coverage that most holders never collect. The average premium wallet leaves around $2,600 a year on the table, according to user data from my app. That monthly dining credit that resets each month? Someone already paid for that dinner. It just never happens. I launched a rough",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My app finds the ~$2,600/year premium cardholders pay for and never collect. Second launch on PH today.",
+        "url": "https://www.reddit.com/r/GetStartups/comments/1upxliy/my_app_finds_the_2600year_premium_cardholders_pay/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Tired of drawing apps charging $10/month just to trace lines. As a solo dev, I built an AR alternative with ZERO subscriptions. Just launched on PH\nHey everyone, If you\u2019ve ever tried to learn to draw using an AR app, you\u2019ve probably hit the same wall I did: they almost all lock their basic camera tools behind expensive weekly or monthly subscriptions. It\u2019s incredibly frustrating. I wanted to break that model, so I spent the last few months building SketchLensAR. Instead of just projecting a static photo for you to blindly trace, I built a \"Learn to Draw\" engine that projects progressive, step-by-step images onto your paper. You actually lea",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 47,
+        "item_id": "R4",
+        "local_rank_score": 0.202,
+        "local_relevance": 0.13,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-06-25",
+        "relevance_hint": 0.06,
+        "snippet": "Hey everyone, If you\u2019ve ever tried to learn to draw using an AR app, you\u2019ve probably hit the same wall I did: they almost all lock their basic camera tools behind expensive weekly or monthly subscriptions. It\u2019s incredibly frustrating. I wanted to break that model, so I spent the last few months building SketchLensAR. Instead of just projecting a static photo for you to blindly trace, I built a \"Le",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Tired of drawing apps charging $10/month just to trace lines. As a solo dev, I built an AR alternative with ZERO subscriptions. Just launched on PH",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1uf2xvw/tired_of_drawing_apps_charging_10month_just_to/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-21",
+  "range_to": "2026-07-21",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1ue82bc/launched_stickyboard_after_reddit_success",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 42.55,
+      "item_id": "R1",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 1.8999999999999986,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "looks great, thanks for sharing, any plans to make mobile apps? Love this!!!!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Launched Stickyboard after reddit success\nToday I'm launching Stickyboard on Product Hunt after my post on: https://www.reddit.com/r/ProductivityApps/comments/1twkt99/i_got_tired_of_every_todo_app_feeling_like_jira/ got a pretty good feedback! I invite you to check the Product Hunt post and any help is super appreciated! Thank you.\nlooks great, thanks for sharing, any plans to make mobile apps? Love this!!!!",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 4
+          },
+          "engagement_score": 100,
+          "freshness": 45,
+          "item_id": "R1",
+          "local_rank_score": 0.32300000000000006,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "looks great, thanks for sharing, any plans to make mobile apps?"
+            ],
+            "top_comments": [
+              {
+                "author": "u4usama",
+                "date": "2026-06-24",
+                "excerpt": "looks great, thanks for sharing, any plans to make mobile apps?",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1ue82bc/comment/othuohw/"
+              },
+              {
+                "author": "HereForTheTeaD",
+                "date": "2026-06-25",
+                "excerpt": "Love this!!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1ue82bc/comment/ott343t/"
+              }
+            ]
+          },
+          "published_at": "2026-06-24",
+          "relevance_hint": 0.06,
+          "snippet": "looks great, thanks for sharing, any plans to make mobile apps? Love this!!!!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Launched Stickyboard after reddit success",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1ue82bc/launched_stickyboard_after_reddit_success/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Launched Stickyboard after reddit success",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1ue82bc/launched_stickyboard_after_reddit_success/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/micro_saas/comments/1upoa60/i_got_tired_of_manually_switching_the_keyboard",
+      "cluster_id": "cluster-2",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R3",
+      "local_relevance": 0.06,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "If you are bilingual or multilingual, you probably know how this breaks your flow. You're fully in the zone typing out a fast thought in Slack, an email, or your code editor, but because your keyboard layout was wrong, you look up and realize you just typed a block of unreadable gibberish. Your train of thought is interrupted just because you forgot to toggle a language input. So, I decided to bui",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of manually switching the keyboard language, so I built a Mac app that does it for me - Launching it today on Product Hunt!\nIf you are bilingual or multilingual, you probably know how this breaks your flow. You're fully in the zone typing out a fast thought in Slack, an email, or your code editor, but because your keyboard layout was wrong, you look up and realize you just typed a block of unreadable gibberish. Your train of thought is interrupted just because you forgot to toggle a language input. So, I decided to build a real solution for myself. And after a very successful private beta phase - I'm opening it up to",
+          "container": "micro_saas",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 71,
+          "item_id": "R3",
+          "local_rank_score": 0.2165,
+          "local_relevance": 0.06,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-07",
+          "relevance_hint": 0.11,
+          "snippet": "If you are bilingual or multilingual, you probably know how this breaks your flow. You're fully in the zone typing out a fast thought in Slack, an email, or your code editor, but because your keyboard layout was wrong, you look up and realize you just typed a block of unreadable gibberish. Your train of thought is interrupted just because you forgot to toggle a language input. So, I decided to bui",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of manually switching the keyboard language, so I built a Mac app that does it for me - Launching it today on Product Hunt!",
+          "url": "https://www.reddit.com/r/micro_saas/comments/1upoa60/i_got_tired_of_manually_switching_the_keyboard/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of manually switching the keyboard language, so I built a Mac app that does it for me - Launching it today on Product Hunt!",
+      "url": "https://www.reddit.com/r/micro_saas/comments/1upoa60/i_got_tired_of_manually_switching_the_keyboard/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/getstartups/comments/1upxliy/my_app_finds_the_2600year_premium_cardholders_pay",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R5",
+      "local_relevance": 0.06,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Premium credit cards quietly became subscriptions. $400+ a year in fees, paid back through monthly credits, benefits, and coverage that most holders never collect. The average premium wallet leaves around $2,600 a year on the table, according to user data from my app. That monthly dining credit that resets each month? Someone already paid for that dinner. It just never happens. I launched a rough",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My app finds the ~$2,600/year premium cardholders pay for and never collect. Second launch on PH today.\nPremium credit cards quietly became subscriptions. $400+ a year in fees, paid back through monthly credits, benefits, and coverage that most holders never collect. The average premium wallet leaves around $2,600 a year on the table, according to user data from my app. That monthly dining credit that resets each month? Someone already paid for that dinner. It just never happens. I launched a rough version of Norte six months ago. 500 users later, their feedback rebuilt it: new onboarding, now on",
+          "container": "GetStartups",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 71,
+          "item_id": "R5",
+          "local_rank_score": 0.2165,
+          "local_relevance": 0.06,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-07",
+          "relevance_hint": 0.15,
+          "snippet": "Premium credit cards quietly became subscriptions. $400+ a year in fees, paid back through monthly credits, benefits, and coverage that most holders never collect. The average premium wallet leaves around $2,600 a year on the table, according to user data from my app. That monthly dining credit that resets each month? Someone already paid for that dinner. It just never happens. I launched a rough",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My app finds the ~$2,600/year premium cardholders pay for and never collect. Second launch on PH today.",
+          "url": "https://www.reddit.com/r/GetStartups/comments/1upxliy/my_app_finds_the_2600year_premium_cardholders_pay/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My app finds the ~$2,600/year premium cardholders pay for and never collect. Second launch on PH today.",
+      "url": "https://www.reddit.com/r/GetStartups/comments/1upxliy/my_app_finds_the_2600year_premium_cardholders_pay/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1uf2xvw/tired_of_drawing_apps_charging_10month_just_to",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R4",
+      "local_relevance": 0.13,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.0078125,
+      "snippet": "Hey everyone, If you\u2019ve ever tried to learn to draw using an AR app, you\u2019ve probably hit the same wall I did: they almost all lock their basic camera tools behind expensive weekly or monthly subscriptions. It\u2019s incredibly frustrating. I wanted to break that model, so I spent the last few months building SketchLensAR. Instead of just projecting a static photo for you to blindly trace, I built a \"Le",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Tired of drawing apps charging $10/month just to trace lines. As a solo dev, I built an AR alternative with ZERO subscriptions. Just launched on PH\nHey everyone, If you\u2019ve ever tried to learn to draw using an AR app, you\u2019ve probably hit the same wall I did: they almost all lock their basic camera tools behind expensive weekly or monthly subscriptions. It\u2019s incredibly frustrating. I wanted to break that model, so I spent the last few months building SketchLensAR. Instead of just projecting a static photo for you to blindly trace, I built a \"Learn to Draw\" engine that projects progressive, step-by-step images onto your paper. You actually lea",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 47,
+          "item_id": "R4",
+          "local_rank_score": 0.202,
+          "local_relevance": 0.13,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-06-25",
+          "relevance_hint": 0.06,
+          "snippet": "Hey everyone, If you\u2019ve ever tried to learn to draw using an AR app, you\u2019ve probably hit the same wall I did: they almost all lock their basic camera tools behind expensive weekly or monthly subscriptions. It\u2019s incredibly frustrating. I wanted to break that model, so I spent the last few months building SketchLensAR. Instead of just projecting a static photo for you to blindly trace, I built a \"Le",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Tired of drawing apps charging $10/month just to trace lines. As a solo dev, I built an AR alternative with ZERO subscriptions. Just launched on PH",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1uf2xvw/tired_of_drawing_apps_charging_10month_just_to/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Tired of drawing apps charging $10/month just to trace lines. As a solo dev, I built an AR alternative with ZERO subscriptions. Just launched on PH",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1uf2xvw/tired_of_drawing_apps_charging_10month_just_to/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
