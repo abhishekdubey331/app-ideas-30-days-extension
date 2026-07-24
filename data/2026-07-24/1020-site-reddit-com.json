@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/patahaiaajkyahua/comments/1uuah51/a_year_ago_today_i_met_my_reddit_bestie"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/patahaiaajkyahua/comments/1uuah51/a_year_ago_today_i_met_my_reddit_bestie"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "A year ago today, I Met My Reddit Bestie"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-07-24T10:20:44.863623+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "A year ago today, I Met My Reddit Bestie\nPata hai aaj kya hua...A year ago I met this guy in the comment section of my own post. We had a fun meme banter and he was hilarious...we kept crossing paths in the comment section of various posts....most of them being mine. Then he dmed me and we started talking...he had an ocean of tea to spill and I became the shore that caught every wave. His stories were hilarious and our tea spilling session became my favourite. But as luck would have it, fifteen days later he told me that he was going t",
+        "container": "PataHaiAajKyaHua",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 13,
+          "score": 20
+        },
+        "engagement_score": 19,
+        "freshness": 76,
+        "item_id": "R21",
+        "local_rank_score": 0.35850000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-12",
+        "relevance_hint": 0.24,
+        "snippet": "Pata hai aaj kya hua...A year ago I met this guy in the comment section of my own post. We had a fun meme banter and he was hilarious...we kept crossing paths in the comment section of various posts....most of them being mine. Then he dmed me and we started talking...he had an ocean of tea to spill and I became the shore that caught every wave. His stories were hilarious and our tea spilling sessi",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "A year ago today, I Met My Reddit Bestie",
+        "url": "https://www.reddit.com/r/PataHaiAajKyaHua/comments/1uuah51/a_year_ago_today_i_met_my_reddit_bestie/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-06-24",
+  "range_to": "2026-07-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/patahaiaajkyahua/comments/1uuah51/a_year_ago_today_i_met_my_reddit_bestie",
+      "cluster_id": "cluster-1",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 48.0,
+      "item_id": "R21",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R21",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Pata hai aaj kya hua...A year ago I met this guy in the comment section of my own post. We had a fun meme banter and he was hilarious...we kept crossing paths in the comment section of various posts....most of them being mine. Then he dmed me and we started talking...he had an ocean of tea to spill and I became the shore that caught every wave. His stories were hilarious and our tea spilling sessi",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "A year ago today, I Met My Reddit Bestie\nPata hai aaj kya hua...A year ago I met this guy in the comment section of my own post. We had a fun meme banter and he was hilarious...we kept crossing paths in the comment section of various posts....most of them being mine. Then he dmed me and we started talking...he had an ocean of tea to spill and I became the shore that caught every wave. His stories were hilarious and our tea spilling session became my favourite. But as luck would have it, fifteen days later he told me that he was going t",
+          "container": "PataHaiAajKyaHua",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 13,
+            "score": 20
+          },
+          "engagement_score": 19,
+          "freshness": 76,
+          "item_id": "R21",
+          "local_rank_score": 0.35850000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-12",
+          "relevance_hint": 0.24,
+          "snippet": "Pata hai aaj kya hua...A year ago I met this guy in the comment section of my own post. We had a fun meme banter and he was hilarious...we kept crossing paths in the comment section of various posts....most of them being mine. Then he dmed me and we started talking...he had an ocean of tea to spill and I became the shore that caught every wave. His stories were hilarious and our tea spilling sessi",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "A year ago today, I Met My Reddit Bestie",
+          "url": "https://www.reddit.com/r/PataHaiAajKyaHua/comments/1uuah51/a_year_ago_today_i_met_my_reddit_bestie/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "A year ago today, I Met My Reddit Bestie",
+      "url": "https://www.reddit.com/r/PataHaiAajKyaHua/comments/1uuah51/a_year_ago_today_i_met_my_reddit_bestie/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
