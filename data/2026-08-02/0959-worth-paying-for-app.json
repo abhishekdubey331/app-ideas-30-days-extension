@@ -1,0 +1,780 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Apps I am not uninstalling"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideprojects/comments/1v98raf/17_days_after_launch_60_downloads_4_paying"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/sideprojects/comments/1v98raf/17_days_after_launch_60_downloads_4_paying"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "17 days after launch: 60+ downloads, 4 paying customers, and I finally believe I can build something people want."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/showmeyourapps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/showmeyourapps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "[App] Got my first 2 paying users this week"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/microsaas/comments/1v1y0vt/got_my_first_ever_paying_customer_one_day_after"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/microsaas/comments/1v1y0vt/got_my_first_ever_paying_customer_one_day_after"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Got my first ever paying customer one day after launch!"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-02T09:59:46.441964+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Apps I am not uninstalling\nIt\u2019s been some time since my last post. Not because I haven\u2019t continued testing nearly every app on the planet. I\u2019ve simply been a little busy when it comes to checking in. Quite a few apps have found their way onto my Mac recently. Some are new discoveries, while others have convinced me to change direction and replace apps I\u2019d been using for years. Most importantly, these are apps I\u2019ve actually kept installed, which, if you know me, is already quite an endorsement. Mole ($19,00) and Burrow (fr\nMole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and whether it still feels good after a week. That makes Mac app recommendations much easier to judge.",
+        "container": "macapps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 120,
+          "score": 161
+        },
+        "engagement_score": 97,
+        "freshness": 94,
+        "item_id": "R2",
+        "local_rank_score": 0.48150000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and...",
+            "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+            "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon.",
+            "Mole cli tool is free and open source https://github.com/tw93/Mole",
+            "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches.",
+            "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+            "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-...",
+            "Stellar post! EasyDMG and Burrow are now installed on my daily driver.",
+            "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+            "This is a great list. Thank you for sharing it."
+          ],
+          "top_comments": [
+            {
+              "author": "RexLeonumOnReddit",
+              "date": "2026-07-30",
+              "excerpt": "Mole cli tool is free and open source https://github.com/tw93/Mole",
+              "score": 30,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0n94rx/"
+            },
+            {
+              "author": "eupatridius",
+              "date": "2026-07-30",
+              "excerpt": "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+              "score": 23,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nkza2/"
+            },
+            {
+              "author": "Severe-Upstairs-64",
+              "date": "2026-07-30",
+              "excerpt": "Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and whether it still feels good after a week. That makes Mac app recommendations much easier to judge.",
+              "score": 21,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nbpxe/"
+            },
+            {
+              "author": "dorothea_cassandra",
+              "date": "2026-07-30",
+              "excerpt": "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+              "score": 8,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nn8ui/"
+            },
+            {
+              "author": "ww_promo",
+              "date": "2026-07-30",
+              "excerpt": "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon. I love word play, so I couldn't help myself.",
+              "score": 7,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o9cna/"
+            },
+            {
+              "author": "iordv",
+              "date": "2026-07-30",
+              "excerpt": "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+              "score": 4,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oisbu/"
+            },
+            {
+              "author": "repomonkey",
+              "date": "2026-07-30",
+              "excerpt": "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-known app nobody's heard of. Question regarding the face unlock apps - do they work for the passwords app? Frustrates the fuck out of me that my Mac w",
+              "score": 4,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0ra36m/"
+            },
+            {
+              "author": "amerpie",
+              "date": "2026-07-31",
+              "excerpt": "Stellar post! EasyDMG and Burrow are now installed on my daily driver. Great to see a plug for Notcho Libre. I love all the WidgetWorx apps. I look forward to more of your posts.",
+              "score": 4,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0tosvy/"
+            },
+            {
+              "author": "ww_promo",
+              "date": "2026-07-30",
+              "excerpt": "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+              "score": 3,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o8y5h/"
+            },
+            {
+              "author": "Pirasee",
+              "date": "2026-07-30",
+              "excerpt": "This is a great list. Thank you for sharing it.",
+              "score": 2,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oigl8/"
+            }
+          ]
+        },
+        "published_at": "2026-07-30",
+        "relevance_hint": 0.22,
+        "snippet": "Mole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and whether it still feels good after a week. That makes Mac app recommendations much easier to judge.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Apps I am not uninstalling",
+        "url": "https://www.reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "17 days after launch: 60+ downloads, 4 paying customers, and I finally believe I can build something people want.\nA month ago I graduated with a Computer Science degree.Most of my friends got placed.I didn\u2019t.What hurt the most wasn\u2019t being unemployed\u2014it was knowing I had wasted almost two years during college. In my first and second year I loved coding, but somewhere along the way I stopped building. By final year, watching everyone around me get jobs made me realize how much time I had lost.So I made a decision.Instead of building another portfolio project, I wanted to build something that solved a real pr\nthat\u2019s big! any advice on how to get customers? Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in any sort of normal paragraph structure Haven't used the product but loved the landing page.",
+        "container": "sideprojects",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 26,
+          "score": 43
+        },
+        "engagement_score": 62,
+        "freshness": 89,
+        "item_id": "R3",
+        "local_rank_score": 0.434,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "that\u2019s big! any advice on how to get customers?",
+            "Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in a...",
+            "Haven't used the product but loved the landing page.",
+            "I can't see what u show on screenshots, they feel too small. Same with hotkey",
+            "Congratulations! I'm so happy for the people who are doing projects like that, and they grow fast.",
+            "Congrats..!\ud83e\udd73It's good to see your work getting appreciated."
+          ],
+          "top_comments": [
+            {
+              "author": "br-hm",
+              "date": "2026-07-28",
+              "excerpt": "that\u2019s big! any advice on how to get customers?",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0cx5zm/"
+            },
+            {
+              "author": "PrecursorLabs",
+              "date": "2026-07-29",
+              "excerpt": "Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in any sort of normal paragraph structure",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0f32h4/"
+            },
+            {
+              "author": "AdorableMap5606",
+              "date": "2026-07-29",
+              "excerpt": "Haven't used the product but loved the landing page.",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0glmro/"
+            },
+            {
+              "author": "aTeikun",
+              "date": "2026-07-29",
+              "excerpt": "I can't see what u show on screenshots, they feel too small. Same with hotkey",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0jhjx3/"
+            },
+            {
+              "author": "Specialist-Care1066",
+              "date": "2026-07-29",
+              "excerpt": "congratulations!",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0k14vx/"
+            },
+            {
+              "author": "Kevin_Neamt",
+              "date": "2026-07-30",
+              "excerpt": "Congratulations! I'm so happy for the people who are doing projects like that, and they grow fast. I genuinely like your project.t, I hope you can invest a little more in the user experience interface, because it feels like the website was built e with Claude. I have a project too, and I did the sam",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0ngo07/"
+            },
+            {
+              "author": "Walter_White_02",
+              "date": "2026-07-31",
+              "excerpt": "Congrats..!\ud83e\udd73It's good to see your work getting appreciated..!happy for you..! I also want to know like how you find your first user's, what is the experience..!",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0tdgn1/"
+            },
+            {
+              "author": "AirAdventurous2045",
+              "date": "2026-08-01",
+              "excerpt": "Congratulations bro\ud83c\udf89",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p10g7wq/"
+            }
+          ]
+        },
+        "published_at": "2026-07-28",
+        "relevance_hint": 0.34,
+        "snippet": "that\u2019s big! any advice on how to get customers? Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in any sort of normal paragraph structure Haven't used the product but loved the landing page.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "17 days after launch: 60+ downloads, 4 paying customers, and I finally believe I can build something people want.",
+        "url": "https://www.reddit.com/r/sideprojects/comments/1v98raf/17_days_after_launch_60_downloads_4_paying/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "[App] Got my first 2 paying users this week\nBeen building an OCD and anxiety recovery app alone for a while. Free version has been out for months. Last week I shipped a paid tier for the first time, one time purchase, no subscription. Two people bought it. Not a huge number by any normal startup math, but I've never made money from something I built before, so it did not feel small to me at all. These aren't just numbers on a dashboard, they're two specific people who looked at what I made and decided it was worth paying for. That still f",
+        "container": "ShowMeYourApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 14
+        },
+        "engagement_score": 39,
+        "freshness": 61,
+        "item_id": "R6",
+        "local_rank_score": 0.38650000000000007,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-14",
+        "relevance_hint": 0.7,
+        "snippet": "Been building an OCD and anxiety recovery app alone for a while. Free version has been out for months. Last week I shipped a paid tier for the first time, one time purchase, no subscription. Two people bought it. Not a huge number by any normal startup math, but I've never made money from something I built before, so it did not feel small to me at all. These aren't just numbers on a dashboard, the",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "[App] Got my first 2 paying users this week",
+        "url": "https://www.reddit.com/r/ShowMeYourApps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Got my first ever paying customer one day after launch!\nI'm a little too excited right now. I've been building small SaaS tools for years, mostly just for myself, and never really thought anyone else would want to pay for them. One of my good buddies kept nudging me to turn one into a web app and just put it out there, so I finally did. One day after launch, someone signed up for a yearly subscription. My first ever paying customer! That said, I'm trying to keep my head on straight. One customer is one datapoint, and it doesn't really tell me much ye",
+        "container": "microsaas",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 3
+        },
+        "engagement_score": 23,
+        "freshness": 73,
+        "item_id": "R8",
+        "local_rank_score": 0.30300000000000005,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-20",
+        "relevance_hint": 0.43,
+        "snippet": "I'm a little too excited right now. I've been building small SaaS tools for years, mostly just for myself, and never really thought anyone else would want to pay for them. One of my good buddies kept nudging me to turn one into a web app and just put it out there, so I finally did. One day after launch, someone signed up for a yearly subscription. My first ever paying customer! That said, I'm tryi",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Got my first ever paying customer one day after launch!",
+        "url": "https://www.reddit.com/r/microsaas/comments/1v1y0vt/got_my_first_ever_paying_customer_one_day_after/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-03",
+  "range_to": "2026-08-02",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling",
+      "cluster_id": "cluster-1",
+      "engagement": 97,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Mole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and whether it still feels good after a week. That makes Mac app recommendations much easier to judge.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Apps I am not uninstalling\nIt\u2019s been some time since my last post. Not because I haven\u2019t continued testing nearly every app on the planet. I\u2019ve simply been a little busy when it comes to checking in. Quite a few apps have found their way onto my Mac recently. Some are new discoveries, while others have convinced me to change direction and replace apps I\u2019d been using for years. Most importantly, these are apps I\u2019ve actually kept installed, which, if you know me, is already quite an endorsement. Mole ($19,00) and Burrow (fr\nMole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and whether it still feels good after a week. That makes Mac app recommendations much easier to judge.",
+          "container": "macapps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 120,
+            "score": 161
+          },
+          "engagement_score": 97,
+          "freshness": 94,
+          "item_id": "R2",
+          "local_rank_score": 0.48150000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and...",
+              "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+              "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon.",
+              "Mole cli tool is free and open source https://github.com/tw93/Mole",
+              "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches.",
+              "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+              "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-...",
+              "Stellar post! EasyDMG and Burrow are now installed on my daily driver.",
+              "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+              "This is a great list. Thank you for sharing it."
+            ],
+            "top_comments": [
+              {
+                "author": "RexLeonumOnReddit",
+                "date": "2026-07-30",
+                "excerpt": "Mole cli tool is free and open source https://github.com/tw93/Mole",
+                "score": 30,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0n94rx/"
+              },
+              {
+                "author": "eupatridius",
+                "date": "2026-07-30",
+                "excerpt": "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+                "score": 23,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nkza2/"
+              },
+              {
+                "author": "Severe-Upstairs-64",
+                "date": "2026-07-30",
+                "excerpt": "Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and whether it still feels good after a week. That makes Mac app recommendations much easier to judge.",
+                "score": 21,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nbpxe/"
+              },
+              {
+                "author": "dorothea_cassandra",
+                "date": "2026-07-30",
+                "excerpt": "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+                "score": 8,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nn8ui/"
+              },
+              {
+                "author": "ww_promo",
+                "date": "2026-07-30",
+                "excerpt": "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon. I love word play, so I couldn't help myself.",
+                "score": 7,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o9cna/"
+              },
+              {
+                "author": "iordv",
+                "date": "2026-07-30",
+                "excerpt": "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+                "score": 4,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oisbu/"
+              },
+              {
+                "author": "repomonkey",
+                "date": "2026-07-30",
+                "excerpt": "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-known app nobody's heard of. Question regarding the face unlock apps - do they work for the passwords app? Frustrates the fuck out of me that my Mac w",
+                "score": 4,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0ra36m/"
+              },
+              {
+                "author": "amerpie",
+                "date": "2026-07-31",
+                "excerpt": "Stellar post! EasyDMG and Burrow are now installed on my daily driver. Great to see a plug for Notcho Libre. I love all the WidgetWorx apps. I look forward to more of your posts.",
+                "score": 4,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0tosvy/"
+              },
+              {
+                "author": "ww_promo",
+                "date": "2026-07-30",
+                "excerpt": "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+                "score": 3,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o8y5h/"
+              },
+              {
+                "author": "Pirasee",
+                "date": "2026-07-30",
+                "excerpt": "This is a great list. Thank you for sharing it.",
+                "score": 2,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oigl8/"
+              }
+            ]
+          },
+          "published_at": "2026-07-30",
+          "relevance_hint": 0.22,
+          "snippet": "Mole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice list. One thing I\u2019d love to see in posts like this is a small \u201cwhy it stayed\u201d line for each app: native/electron, RAM use, privacy/telemetry, and whether it still feels good after a week. That makes Mac app recommendations much easier to judge.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Apps I am not uninstalling",
+          "url": "https://www.reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Apps I am not uninstalling",
+      "url": "https://www.reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideprojects/comments/1v98raf/17_days_after_launch_60_downloads_4_paying",
+      "cluster_id": "cluster-2",
+      "engagement": 62,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.899999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "that\u2019s big! any advice on how to get customers? Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in any sort of normal paragraph structure Haven't used the product but loved the landing page.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "17 days after launch: 60+ downloads, 4 paying customers, and I finally believe I can build something people want.\nA month ago I graduated with a Computer Science degree.Most of my friends got placed.I didn\u2019t.What hurt the most wasn\u2019t being unemployed\u2014it was knowing I had wasted almost two years during college. In my first and second year I loved coding, but somewhere along the way I stopped building. By final year, watching everyone around me get jobs made me realize how much time I had lost.So I made a decision.Instead of building another portfolio project, I wanted to build something that solved a real pr\nthat\u2019s big! any advice on how to get customers? Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in any sort of normal paragraph structure Haven't used the product but loved the landing page.",
+          "container": "sideprojects",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 26,
+            "score": 43
+          },
+          "engagement_score": 62,
+          "freshness": 89,
+          "item_id": "R3",
+          "local_rank_score": 0.434,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "that\u2019s big! any advice on how to get customers?",
+              "Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in a...",
+              "Haven't used the product but loved the landing page.",
+              "I can't see what u show on screenshots, they feel too small. Same with hotkey",
+              "Congratulations! I'm so happy for the people who are doing projects like that, and they grow fast.",
+              "Congrats..!\ud83e\udd73It's good to see your work getting appreciated."
+            ],
+            "top_comments": [
+              {
+                "author": "br-hm",
+                "date": "2026-07-28",
+                "excerpt": "that\u2019s big! any advice on how to get customers?",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0cx5zm/"
+              },
+              {
+                "author": "PrecursorLabs",
+                "date": "2026-07-29",
+                "excerpt": "Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in any sort of normal paragraph structure",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0f32h4/"
+              },
+              {
+                "author": "AdorableMap5606",
+                "date": "2026-07-29",
+                "excerpt": "Haven't used the product but loved the landing page.",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0glmro/"
+              },
+              {
+                "author": "aTeikun",
+                "date": "2026-07-29",
+                "excerpt": "I can't see what u show on screenshots, they feel too small. Same with hotkey",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0jhjx3/"
+              },
+              {
+                "author": "Specialist-Care1066",
+                "date": "2026-07-29",
+                "excerpt": "congratulations!",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0k14vx/"
+              },
+              {
+                "author": "Kevin_Neamt",
+                "date": "2026-07-30",
+                "excerpt": "Congratulations! I'm so happy for the people who are doing projects like that, and they grow fast. I genuinely like your project.t, I hope you can invest a little more in the user experience interface, because it feels like the website was built e with Claude. I have a project too, and I did the sam",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0ngo07/"
+              },
+              {
+                "author": "Walter_White_02",
+                "date": "2026-07-31",
+                "excerpt": "Congrats..!\ud83e\udd73It's good to see your work getting appreciated..!happy for you..! I also want to know like how you find your first user's, what is the experience..!",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p0tdgn1/"
+              },
+              {
+                "author": "AirAdventurous2045",
+                "date": "2026-08-01",
+                "excerpt": "Congratulations bro\ud83c\udf89",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1v98raf/comment/p10g7wq/"
+              }
+            ]
+          },
+          "published_at": "2026-07-28",
+          "relevance_hint": 0.34,
+          "snippet": "that\u2019s big! any advice on how to get customers? Congratulations OP! One suggestion if you want it, your post is formatted very strangely the text is hard to read because it\u2019s not formatted like in any sort of normal paragraph structure Haven't used the product but loved the landing page.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "17 days after launch: 60+ downloads, 4 paying customers, and I finally believe I can build something people want.",
+          "url": "https://www.reddit.com/r/sideprojects/comments/1v98raf/17_days_after_launch_60_downloads_4_paying/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "17 days after launch: 60+ downloads, 4 paying customers, and I finally believe I can build something people want.",
+      "url": "https://www.reddit.com/r/sideprojects/comments/1v98raf/17_days_after_launch_60_downloads_4_paying/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/showmeyourapps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week",
+      "cluster_id": "cluster-3",
+      "engagement": 39,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 14.200000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Been building an OCD and anxiety recovery app alone for a while. Free version has been out for months. Last week I shipped a paid tier for the first time, one time purchase, no subscription. Two people bought it. Not a huge number by any normal startup math, but I've never made money from something I built before, so it did not feel small to me at all. These aren't just numbers on a dashboard, the",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "[App] Got my first 2 paying users this week\nBeen building an OCD and anxiety recovery app alone for a while. Free version has been out for months. Last week I shipped a paid tier for the first time, one time purchase, no subscription. Two people bought it. Not a huge number by any normal startup math, but I've never made money from something I built before, so it did not feel small to me at all. These aren't just numbers on a dashboard, they're two specific people who looked at what I made and decided it was worth paying for. That still f",
+          "container": "ShowMeYourApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 14
+          },
+          "engagement_score": 39,
+          "freshness": 61,
+          "item_id": "R6",
+          "local_rank_score": 0.38650000000000007,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-14",
+          "relevance_hint": 0.7,
+          "snippet": "Been building an OCD and anxiety recovery app alone for a while. Free version has been out for months. Last week I shipped a paid tier for the first time, one time purchase, no subscription. Two people bought it. Not a huge number by any normal startup math, but I've never made money from something I built before, so it did not feel small to me at all. These aren't just numbers on a dashboard, the",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "[App] Got my first 2 paying users this week",
+          "url": "https://www.reddit.com/r/ShowMeYourApps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "[App] Got my first 2 paying users this week",
+      "url": "https://www.reddit.com/r/ShowMeYourApps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/microsaas/comments/1v1y0vt/got_my_first_ever_paying_customer_one_day_after",
+      "cluster_id": "cluster-4",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.100000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "I'm a little too excited right now. I've been building small SaaS tools for years, mostly just for myself, and never really thought anyone else would want to pay for them. One of my good buddies kept nudging me to turn one into a web app and just put it out there, so I finally did. One day after launch, someone signed up for a yearly subscription. My first ever paying customer! That said, I'm tryi",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Got my first ever paying customer one day after launch!\nI'm a little too excited right now. I've been building small SaaS tools for years, mostly just for myself, and never really thought anyone else would want to pay for them. One of my good buddies kept nudging me to turn one into a web app and just put it out there, so I finally did. One day after launch, someone signed up for a yearly subscription. My first ever paying customer! That said, I'm trying to keep my head on straight. One customer is one datapoint, and it doesn't really tell me much ye",
+          "container": "microsaas",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 3
+          },
+          "engagement_score": 23,
+          "freshness": 73,
+          "item_id": "R8",
+          "local_rank_score": 0.30300000000000005,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-20",
+          "relevance_hint": 0.43,
+          "snippet": "I'm a little too excited right now. I've been building small SaaS tools for years, mostly just for myself, and never really thought anyone else would want to pay for them. One of my good buddies kept nudging me to turn one into a web app and just put it out there, so I finally did. One day after launch, someone signed up for a yearly subscription. My first ever paying customer! That said, I'm tryi",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Got my first ever paying customer one day after launch!",
+          "url": "https://www.reddit.com/r/microsaas/comments/1v1y0vt/got_my_first_ever_paying_customer_one_day_after/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Got my first ever paying customer one day after launch!",
+      "url": "https://www.reddit.com/r/microsaas/comments/1v1y0vt/got_my_first_ever_paying_customer_one_day_after/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
