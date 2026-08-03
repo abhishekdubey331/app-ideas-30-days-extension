@@ -1,0 +1,630 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/quantifiedself/comments/1v65bo7/sick_of_10month_biohacking_apps_i_built_a_free"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/quantifiedself/comments/1v65bo7/sick_of_10month_biohacking_apps_i_built_a_free"
+      ],
+      "score": 13.909180327868853,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/doomer/comments/1uqpzg0/what_the_actual_fuck_is_with_the_new_reddit_app"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/doomer/comments/1uqpzg0/what_the_actual_fuck_is_with_the_new_reddit_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "what the actual fuck is with the new reddit app update?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/apps/comments/1v65he3/sick_of_10month_biohacking_apps_i_built_a_free"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/apps/comments/1v65he3/sick_of_10month_biohacking_apps_i_built_a_free"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-03T21:05:57.858247+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)\nEvery energy/sleep tracking app worth using is locked behind a subscription these days \u2014 Whoop, Oura companion apps, various \"chronotype\" coaches. Pay monthly to see a graph of data you already own. So I built Ryze: free, open-source, no subscription, ever. It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": Real energy prediction, not a black-box score. Based on the Borb\u00e9ly two-process model (the actual math researchers use\nCan I just connect it with Garmin or Withings? I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc. There's a companion mobile app with food related stuff, needs a lot of work before it all fits together smoothly. Very curious to see what you're doing here ... starred & forked. sri is the part that actually sells me, duration-only scores miss half the story. if you're on phillips' concordance definition (same clock-time sleep/wake overlap across days), watch nap days and DST shifts, those wreck the numbers. fwiw most caffeine models default to ~5h half-life but it swings h",
+        "container": "QuantifiedSelf",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 10
+        },
+        "engagement_score": 33,
+        "freshness": 82,
+        "item_id": "R3",
+        "local_rank_score": 0.5045000000000001,
+        "local_relevance": 0.41,
+        "metadata": {
+          "comment_insights": [
+            "Can I just connect it with Garmin or Withings?",
+            "Interested in what you\u2019re doing and where it\u2019s at - I have a hosted solution called Wellness Project - free to use, built on similar data principles -...",
+            "How would someone with no technical understanding of how these things work just install the app on my android?",
+            "Are you collecting the data of people?!",
+            "Too aggressive in the beginning of the Readme. It doesn\u2019t explain where does it p\u00f3s data from",
+            "I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc.",
+            "sri is the part that actually sells me, duration-only scores miss half the story.",
+            "It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": This sounds like you think..."
+          ],
+          "top_comments": [
+            {
+              "author": "jangwao",
+              "date": "2026-07-25",
+              "excerpt": "Can I just connect it with Garmin or Withings?",
+              "score": 2,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozok6zv/"
+            },
+            {
+              "author": "nrauhauser",
+              "date": "2026-07-25",
+              "excerpt": "I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc. There's a companion mobile app with food related stuff, needs a lot of work before it all fits together smoothly. Very curious to see what you're doing here ... starred & forked.",
+              "score": 2,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozopet2/"
+            },
+            {
+              "author": "neet_dev",
+              "date": "2026-07-26",
+              "excerpt": "sri is the part that actually sells me, duration-only scores miss half the story. if you're on phillips' concordance definition (same clock-time sleep/wake overlap across days), watch nap days and DST shifts, those wreck the numbers. fwiw most caffeine models default to ~5h half-life but it swings h",
+              "score": 2,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozyj5f3/"
+            },
+            {
+              "author": "bryanbarash",
+              "date": "2026-07-25",
+              "excerpt": "Interested in what you\u2019re doing and where it\u2019s at - I have a hosted solution called Wellness Project - free to use, built on similar data principles - but also includes subjective tracking, and calorie + workout logging.",
+              "score": 1,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozpmazz/"
+            },
+            {
+              "author": "tristessa999",
+              "date": "2026-07-25",
+              "excerpt": "How would someone with no technical understanding of how these things work just install the app on my android?",
+              "score": 1,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozq4dqu/"
+            },
+            {
+              "author": "CountyTime4933",
+              "date": "2026-07-25",
+              "excerpt": "Are you collecting the data of people?!",
+              "score": 1,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozqn2o5/"
+            },
+            {
+              "author": "thedatawhiz",
+              "date": "2026-07-26",
+              "excerpt": "Too aggressive in the beginning of the Readme. It doesn\u2019t explain where does it p\u00f3s data from",
+              "score": 1,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozu1ggz/"
+            },
+            {
+              "author": "ChristianKl",
+              "date": "2026-07-30",
+              "excerpt": "It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": This sounds like you think that \"sleep science\" somehow produces metrics that are more useful for making decisions than readiness scores. I don't think there's a good reason to ",
+              "score": 1,
+              "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/p0of5sd/"
+            }
+          ]
+        },
+        "published_at": "2026-07-25",
+        "relevance_hint": 0.54,
+        "snippet": "Can I just connect it with Garmin or Withings? I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc. There's a companion mobile app with food related stuff, needs a lot of work before it all fits together smoothly. Very curious to see what you're doing here ... starred & forked. sri is the part that actually sells me, duration-only scores miss half the story. if you're on phillips' concordance definition (same clock-time sleep/wake overlap across days), watch nap days and DST shifts, those wreck the numbers. fwiw most caffeine models default to ~5h half-life but it swings h",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)",
+        "url": "https://www.reddit.com/r/QuantifiedSelf/comments/1v65bo7/sick_of_10month_biohacking_apps_i_built_a_free/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)\nEvery energy/sleep tracking app worth using is locked behind a subscription these days \u2014 Whoop, Oura companion apps, various \"chronotype\" coaches. Pay monthly to see a graph of data you already own. So I built Ryze: free, open-source, no subscription, ever. It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": Real energy prediction, not a black-box score. Based on the Borb\u00e9ly two-process model (the actual math researchers use",
+        "container": "apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 6,
+        "freshness": 82,
+        "item_id": "R7",
+        "local_rank_score": 0.41900000000000004,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-25",
+        "relevance_hint": 0.54,
+        "snippet": "Every energy/sleep tracking app worth using is locked behind a subscription these days \u2014 Whoop, Oura companion apps, various \"chronotype\" coaches. Pay monthly to see a graph of data you already own. So I built Ryze: free, open-source, no subscription, ever. It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": Real energy predict",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)",
+        "url": "https://www.reddit.com/r/apps/comments/1v65he3/sick_of_10month_biohacking_apps_i_built_a_free/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "what the actual fuck is with the new reddit app update?\nanyone else noticing this shit? some of the shit on here now looks all fucked up, and peoples names in their bio, including my own, don't show up anymore, and there's some other shit that's now more annoying to navigate through because it looks all fucked up and shit. idk. it's probably not a big deal to most people, but fuck, i am just so sick of every single fucking thing needing to constantly be \"updated\" all the fucking time, and said \"updates\" always making everything fucking worse and more\nAnd not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments. Now it\u2019s an infinite scroll of other posts. They are definitely trying to drum up engagement. As much as I use reddit, I hope it folds I use reddit on brave browser. no ads etc. I just use reddit from google so I havent had to deal with this. But Ive had to deal with all the age restriction shit. I cant see anything reddit considers to be nsfw without giving them a picture of myself or a government ID. It fucking sucks. Im not giving them shit and even if I did It wouldnt make a difference since im not 18 yet. Fuck I hate this shit",
+        "container": "doomer",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 32,
+          "score": 74
+        },
+        "engagement_score": 53,
+        "freshness": 47,
+        "item_id": "R2",
+        "local_rank_score": 0.32,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I just use reddit from google so I havent had to deal with this.",
+            "And not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments.",
+            "I use reddit on brave browser. no ads etc.",
+            "Not seeing anything broken right now.",
+            "I swear every single update adds something that makes me hate the app more and more.",
+            "And they also added doomscrolling",
+            "Reddit app is unusable on my ipad now, weird ui, glitches, app freezes every time I play video\u2026.what is going on. Update doesn\u2019t help either."
+          ],
+          "top_comments": [
+            {
+              "author": "m0n3ym4n",
+              "date": "2026-07-08",
+              "excerpt": "And not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments. Now it\u2019s an infinite scroll of other posts. They are definitely trying to drum up engagement. As much as I use reddit, I hope it folds",
+              "score": 4,
+              "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/owdqjfk/"
+            },
+            {
+              "author": "Starstyx",
+              "date": "2026-07-08",
+              "excerpt": "I use reddit on brave browser. no ads etc.",
+              "score": 3,
+              "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/ow9rccf/"
+            },
+            {
+              "author": "TraianMakris",
+              "date": "2026-07-08",
+              "excerpt": "I just use reddit from google so I havent had to deal with this. But Ive had to deal with all the age restriction shit. I cant see anything reddit considers to be nsfw without giving them a picture of myself or a government ID. It fucking sucks. Im not giving them shit and even if I did It wouldnt make a difference since im not 18 yet. Fuck I hate this shit",
+              "score": 2,
+              "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/owcrzy3/"
+            },
+            {
+              "author": "Master_Flash",
+              "date": "2026-07-08",
+              "excerpt": "Not seeing anything broken right now.",
+              "score": 2,
+              "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/ow9rjbc/"
+            },
+            {
+              "author": "Tangible_Pineapple",
+              "date": "2026-07-12",
+              "excerpt": "I swear every single update adds something that makes me hate the app more and more.",
+              "score": 2,
+              "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/ox2hobt/"
+            },
+            {
+              "author": "CookieOnYoutube",
+              "date": "2026-07-10",
+              "excerpt": "And they also added doomscrolling",
+              "score": 1,
+              "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/own47k1/"
+            },
+            {
+              "author": "Ragular_Guy",
+              "date": "2026-07-28",
+              "excerpt": "Reddit app is unusable on my ipad now, weird ui, glitches, app freezes every time I play video\u2026.what is going on. Update doesn\u2019t help either.",
+              "score": 1,
+              "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/p078wsa/"
+            }
+          ]
+        },
+        "published_at": "2026-07-08",
+        "relevance_hint": 0.24,
+        "snippet": "And not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments. Now it\u2019s an infinite scroll of other posts. They are definitely trying to drum up engagement. As much as I use reddit, I hope it folds I use reddit on brave browser. no ads etc. I just use reddit from google so I havent had to deal with this. But Ive had to deal with all the age restriction shit. I cant see anything reddit considers to be nsfw without giving them a picture of myself or a government ID. It fucking sucks. Im not giving them shit and even if I did It wouldnt make a...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "what the actual fuck is with the new reddit app update?",
+        "url": "https://www.reddit.com/r/doomer/comments/1uqpzg0/what_the_actual_fuck_is_with_the_new_reddit_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-04",
+  "range_to": "2026-08-03",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/quantifiedself/comments/1v65bo7/sick_of_10month_biohacking_apps_i_built_a_free",
+      "cluster_id": "cluster-1",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 13.909180327868853,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R3",
+      "local_relevance": 0.41,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 26.1,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Can I just connect it with Garmin or Withings? I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc. There's a companion mobile app with food related stuff, needs a lot of work before it all fits together smoothly. Very curious to see what you're doing here ... starred & forked. sri is the part that actually sells me, duration-only scores miss half the story. if you're on phillips' concordance definition (same clock-time sleep/wake overlap across days), watch nap days and DST shifts, those wreck the numbers. fwiw most caffeine models default to ~5h half-life but it swings h",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)\nEvery energy/sleep tracking app worth using is locked behind a subscription these days \u2014 Whoop, Oura companion apps, various \"chronotype\" coaches. Pay monthly to see a graph of data you already own. So I built Ryze: free, open-source, no subscription, ever. It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": Real energy prediction, not a black-box score. Based on the Borb\u00e9ly two-process model (the actual math researchers use\nCan I just connect it with Garmin or Withings? I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc. There's a companion mobile app with food related stuff, needs a lot of work before it all fits together smoothly. Very curious to see what you're doing here ... starred & forked. sri is the part that actually sells me, duration-only scores miss half the story. if you're on phillips' concordance definition (same clock-time sleep/wake overlap across days), watch nap days and DST shifts, those wreck the numbers. fwiw most caffeine models default to ~5h half-life but it swings h",
+          "container": "QuantifiedSelf",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 10
+          },
+          "engagement_score": 33,
+          "freshness": 82,
+          "item_id": "R3",
+          "local_rank_score": 0.5045000000000001,
+          "local_relevance": 0.41,
+          "metadata": {
+            "comment_insights": [
+              "Can I just connect it with Garmin or Withings?",
+              "Interested in what you\u2019re doing and where it\u2019s at - I have a hosted solution called Wellness Project - free to use, built on similar data principles -...",
+              "How would someone with no technical understanding of how these things work just install the app on my android?",
+              "Are you collecting the data of people?!",
+              "Too aggressive in the beginning of the Readme. It doesn\u2019t explain where does it p\u00f3s data from",
+              "I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc.",
+              "sri is the part that actually sells me, duration-only scores miss half the story.",
+              "It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": This sounds like you think..."
+            ],
+            "top_comments": [
+              {
+                "author": "jangwao",
+                "date": "2026-07-25",
+                "excerpt": "Can I just connect it with Garmin or Withings?",
+                "score": 2,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozok6zv/"
+              },
+              {
+                "author": "nrauhauser",
+                "date": "2026-07-25",
+                "excerpt": "I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc. There's a companion mobile app with food related stuff, needs a lot of work before it all fits together smoothly. Very curious to see what you're doing here ... starred & forked.",
+                "score": 2,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozopet2/"
+              },
+              {
+                "author": "neet_dev",
+                "date": "2026-07-26",
+                "excerpt": "sri is the part that actually sells me, duration-only scores miss half the story. if you're on phillips' concordance definition (same clock-time sleep/wake overlap across days), watch nap days and DST shifts, those wreck the numbers. fwiw most caffeine models default to ~5h half-life but it swings h",
+                "score": 2,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozyj5f3/"
+              },
+              {
+                "author": "bryanbarash",
+                "date": "2026-07-25",
+                "excerpt": "Interested in what you\u2019re doing and where it\u2019s at - I have a hosted solution called Wellness Project - free to use, built on similar data principles - but also includes subjective tracking, and calorie + workout logging.",
+                "score": 1,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozpmazz/"
+              },
+              {
+                "author": "tristessa999",
+                "date": "2026-07-25",
+                "excerpt": "How would someone with no technical understanding of how these things work just install the app on my android?",
+                "score": 1,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozq4dqu/"
+              },
+              {
+                "author": "CountyTime4933",
+                "date": "2026-07-25",
+                "excerpt": "Are you collecting the data of people?!",
+                "score": 1,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozqn2o5/"
+              },
+              {
+                "author": "thedatawhiz",
+                "date": "2026-07-26",
+                "excerpt": "Too aggressive in the beginning of the Readme. It doesn\u2019t explain where does it p\u00f3s data from",
+                "score": 1,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/ozu1ggz/"
+              },
+              {
+                "author": "ChristianKl",
+                "date": "2026-07-30",
+                "excerpt": "It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": This sounds like you think that \"sleep science\" somehow produces metrics that are more useful for making decisions than readiness scores. I don't think there's a good reason to ",
+                "score": 1,
+                "url": "https://reddit.com/r/QuantifiedSelf/comments/1v65bo7/comment/p0of5sd/"
+              }
+            ]
+          },
+          "published_at": "2026-07-25",
+          "relevance_hint": 0.54,
+          "snippet": "Can I just connect it with Garmin or Withings? I have an analytical backend that does some of this stuff in combination with logging meds, suppelements, notes, etc. There's a companion mobile app with food related stuff, needs a lot of work before it all fits together smoothly. Very curious to see what you're doing here ... starred & forked. sri is the part that actually sells me, duration-only scores miss half the story. if you're on phillips' concordance definition (same clock-time sleep/wake overlap across days), watch nap days and DST shifts, those wreck the numbers. fwiw most caffeine models default to ~5h half-life but it swings h",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)",
+          "url": "https://www.reddit.com/r/QuantifiedSelf/comments/1v65bo7/sick_of_10month_biohacking_apps_i_built_a_free/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)",
+      "url": "https://www.reddit.com/r/QuantifiedSelf/comments/1v65bo7/sick_of_10month_biohacking_apps_i_built_a_free/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/doomer/comments/1uqpzg0/what_the_actual_fuck_is_with_the_new_reddit_app",
+      "cluster_id": "cluster-2",
+      "engagement": 53,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "And not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments. Now it\u2019s an infinite scroll of other posts. They are definitely trying to drum up engagement. As much as I use reddit, I hope it folds I use reddit on brave browser. no ads etc. I just use reddit from google so I havent had to deal with this. But Ive had to deal with all the age restriction shit. I cant see anything reddit considers to be nsfw without giving them a picture of myself or a government ID. It fucking sucks. Im not giving them shit and even if I did It wouldnt make a...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "what the actual fuck is with the new reddit app update?\nanyone else noticing this shit? some of the shit on here now looks all fucked up, and peoples names in their bio, including my own, don't show up anymore, and there's some other shit that's now more annoying to navigate through because it looks all fucked up and shit. idk. it's probably not a big deal to most people, but fuck, i am just so sick of every single fucking thing needing to constantly be \"updated\" all the fucking time, and said \"updates\" always making everything fucking worse and more\nAnd not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments. Now it\u2019s an infinite scroll of other posts. They are definitely trying to drum up engagement. As much as I use reddit, I hope it folds I use reddit on brave browser. no ads etc. I just use reddit from google so I havent had to deal with this. But Ive had to deal with all the age restriction shit. I cant see anything reddit considers to be nsfw without giving them a picture of myself or a government ID. It fucking sucks. Im not giving them shit and even if I did It wouldnt make a difference since im not 18 yet. Fuck I hate this shit",
+          "container": "doomer",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 32,
+            "score": 74
+          },
+          "engagement_score": 53,
+          "freshness": 47,
+          "item_id": "R2",
+          "local_rank_score": 0.32,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I just use reddit from google so I havent had to deal with this.",
+              "And not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments.",
+              "I use reddit on brave browser. no ads etc.",
+              "Not seeing anything broken right now.",
+              "I swear every single update adds something that makes me hate the app more and more.",
+              "And they also added doomscrolling",
+              "Reddit app is unusable on my ipad now, weird ui, glitches, app freezes every time I play video\u2026.what is going on. Update doesn\u2019t help either."
+            ],
+            "top_comments": [
+              {
+                "author": "m0n3ym4n",
+                "date": "2026-07-08",
+                "excerpt": "And not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments. Now it\u2019s an infinite scroll of other posts. They are definitely trying to drum up engagement. As much as I use reddit, I hope it folds",
+                "score": 4,
+                "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/owdqjfk/"
+              },
+              {
+                "author": "Starstyx",
+                "date": "2026-07-08",
+                "excerpt": "I use reddit on brave browser. no ads etc.",
+                "score": 3,
+                "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/ow9rccf/"
+              },
+              {
+                "author": "TraianMakris",
+                "date": "2026-07-08",
+                "excerpt": "I just use reddit from google so I havent had to deal with this. But Ive had to deal with all the age restriction shit. I cant see anything reddit considers to be nsfw without giving them a picture of myself or a government ID. It fucking sucks. Im not giving them shit and even if I did It wouldnt make a difference since im not 18 yet. Fuck I hate this shit",
+                "score": 2,
+                "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/owcrzy3/"
+              },
+              {
+                "author": "Master_Flash",
+                "date": "2026-07-08",
+                "excerpt": "Not seeing anything broken right now.",
+                "score": 2,
+                "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/ow9rjbc/"
+              },
+              {
+                "author": "Tangible_Pineapple",
+                "date": "2026-07-12",
+                "excerpt": "I swear every single update adds something that makes me hate the app more and more.",
+                "score": 2,
+                "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/ox2hobt/"
+              },
+              {
+                "author": "CookieOnYoutube",
+                "date": "2026-07-10",
+                "excerpt": "And they also added doomscrolling",
+                "score": 1,
+                "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/own47k1/"
+              },
+              {
+                "author": "Ragular_Guy",
+                "date": "2026-07-28",
+                "excerpt": "Reddit app is unusable on my ipad now, weird ui, glitches, app freezes every time I play video\u2026.what is going on. Update doesn\u2019t help either.",
+                "score": 1,
+                "url": "https://reddit.com/r/doomer/comments/1uqpzg0/comment/p078wsa/"
+              }
+            ]
+          },
+          "published_at": "2026-07-08",
+          "relevance_hint": 0.24,
+          "snippet": "And not only that, they keep changing the gestures. Prior to this update, swiping up on a media post would load then comments. Now it\u2019s an infinite scroll of other posts. They are definitely trying to drum up engagement. As much as I use reddit, I hope it folds I use reddit on brave browser. no ads etc. I just use reddit from google so I havent had to deal with this. But Ive had to deal with all the age restriction shit. I cant see anything reddit considers to be nsfw without giving them a picture of myself or a government ID. It fucking sucks. Im not giving them shit and even if I did It wouldnt make a...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "what the actual fuck is with the new reddit app update?",
+          "url": "https://www.reddit.com/r/doomer/comments/1uqpzg0/what_the_actual_fuck_is_with_the_new_reddit_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "what the actual fuck is with the new reddit app update?",
+      "url": "https://www.reddit.com/r/doomer/comments/1uqpzg0/what_the_actual_fuck_is_with_the_new_reddit_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/apps/comments/1v65he3/sick_of_10month_biohacking_apps_i_built_a_free",
+      "cluster_id": "cluster-3",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 12.0,
+      "item_id": "R7",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 19.799999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Every energy/sleep tracking app worth using is locked behind a subscription these days \u2014 Whoop, Oura companion apps, various \"chronotype\" coaches. Pay monthly to see a graph of data you already own. So I built Ryze: free, open-source, no subscription, ever. It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": Real energy predict",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)\nEvery energy/sleep tracking app worth using is locked behind a subscription these days \u2014 Whoop, Oura companion apps, various \"chronotype\" coaches. Pay monthly to see a graph of data you already own. So I built Ryze: free, open-source, no subscription, ever. It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": Real energy prediction, not a black-box score. Based on the Borb\u00e9ly two-process model (the actual math researchers use",
+          "container": "apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 6,
+          "freshness": 82,
+          "item_id": "R7",
+          "local_rank_score": 0.41900000000000004,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-25",
+          "relevance_hint": 0.54,
+          "snippet": "Every energy/sleep tracking app worth using is locked behind a subscription these days \u2014 Whoop, Oura companion apps, various \"chronotype\" coaches. Pay monthly to see a graph of data you already own. So I built Ryze: free, open-source, no subscription, ever. It does what those paid apps do \u2014 and in some cases more \u2014 using actual sleep science instead of vague \"readiness scores\": Real energy predict",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)",
+          "url": "https://www.reddit.com/r/apps/comments/1v65he3/sick_of_10month_biohacking_apps_i_built_a_free/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Sick of $10/month \"biohacking\" apps? I built a free open-source Android app that does the same thing (and better)",
+      "url": "https://www.reddit.com/r/apps/comments/1v65he3/sick_of_10month_biohacking_apps_i_built_a_free/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
