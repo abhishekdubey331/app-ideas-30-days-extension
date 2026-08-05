@@ -1,0 +1,484 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/invisalign/comments/1v51nqi/im_so_close_to_just_giving_up"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/invisalign/comments/1v51nqi/im_so_close_to_just_giving_up"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Im so close to just giving up."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-05T21:12:17.443624+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Im so close to just giving up.\nIm getting more and more frustrated with my aligners everyday. It was going good until I got the bite corrector blocks for my overbite, now since then almost every tray takes 2 weeks to change rather than the 1 week its meant to. I dont mind getting no goes every now and then but doubling my wear time on everyday is absolutely ridiculous. My ortho keeps telling me \"make sure you wear them for 22 hours a day\" so I use the invisalign app and if im at 2 hours without them in ill skip a meal, im tha\nThey say 22, because they know most people won\u2019t do that. You\u2019re good if you do 20-21 hours honestly.But days dipping below 20 should be few and far between. You may just need a revision scan. Hang in there. Did you say that you\u2019ve been wearing this tray for 21 days?!? My ortho said never more than 14 days. I would make an appt for the ortho like yesterday and show them what\u2019s up. If he says to continue wearing the tray for X amount of time then I would start the paper trail to file a formal complaint with the state. You need pictures of how they\u2019re messing things up, if you\u2019ve sent any emails (you sh",
+        "container": "Invisalign",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 8
+        },
+        "engagement_score": 75,
+        "freshness": 76,
+        "item_id": "R2",
+        "local_rank_score": 0.47300000000000003,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Did you say that you\u2019ve been wearing this tray for 21 days?",
+            "They say 22, because they know most people won\u2019t do that.",
+            "You may just need a revision scan. Hang in there.",
+            "If a front tooth isnt fitting, isnt it the fault of your orthodontist?"
+          ],
+          "top_comments": [
+            {
+              "author": "JunkDrawer84",
+              "date": "2026-07-24",
+              "excerpt": "They say 22, because they know most people won\u2019t do that. You\u2019re good if you do 20-21 hours honestly.But days dipping below 20 should be few and far between.",
+              "score": 8,
+              "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozfjvm8/"
+            },
+            {
+              "author": "Sensitive_Ruin_5334",
+              "date": "2026-07-24",
+              "excerpt": "You may just need a revision scan. Hang in there.",
+              "score": 3,
+              "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozgi6hw/"
+            },
+            {
+              "author": "Kop_e2",
+              "date": "2026-07-25",
+              "excerpt": "Did you say that you\u2019ve been wearing this tray for 21 days?!? My ortho said never more than 14 days. I would make an appt for the ortho like yesterday and show them what\u2019s up. If he says to continue wearing the tray for X amount of time then I would start the paper trail to file a formal complaint with the state. You need pictures of how they\u2019re messing things up, if you\u2019ve sent any emails (you sh",
+              "score": 2,
+              "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozluh87/"
+            },
+            {
+              "author": "Economy_Invite_8085",
+              "date": "2026-07-24",
+              "excerpt": "If a front tooth isnt fitting, isnt it the fault of your orthodontist? Meaning they either took a bad scan or Invisalign messed up your tray and owe you a do over? How are you forcing a tooth? Isn\u2019t that dangerous for you? The ortho forgetting any detail about you is reasonably upsetting. I am not s",
+              "score": 1,
+              "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozffxib/"
+            },
+            {
+              "author": "Chance-History-8035",
+              "date": "2026-07-24",
+              "excerpt": "It ain\u2019t that deep man",
+              "score": -1,
+              "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozigbv4/"
+            }
+          ]
+        },
+        "published_at": "2026-07-24",
+        "relevance_hint": 0.14,
+        "snippet": "They say 22, because they know most people won\u2019t do that. You\u2019re good if you do 20-21 hours honestly.But days dipping below 20 should be few and far between. You may just need a revision scan. Hang in there. Did you say that you\u2019ve been wearing this tray for 21 days?!? My ortho said never more than 14 days. I would make an appt for the ortho like yesterday and show them what\u2019s up. If he says to continue wearing the tray for X amount of time then I would start the paper trail to file a formal complaint with the state. You need pictures of how they\u2019re messing things up, if you\u2019ve sent any emails (you sh",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Im so close to just giving up.",
+        "url": "https://www.reddit.com/r/Invisalign/comments/1v51nqi/im_so_close_to_just_giving_up/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.\nWe started building MyFitOrbit after running into a problem ourselves. Workout tracking was always scattered between notes, spreadsheets, and different apps. It was hard to look back and understand if we were actually progressing. So we built a simple fitness tracker focused on: logging workouts tracking sets, reps, and weights seeing progress over time keeping training history organized After months of building and finally launching, we realized the hardest part is not just building the product\ni\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 23,
+        "freshness": 41,
+        "item_id": "R5",
+        "local_rank_score": 0.275,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "i\u2019d be careful asking \u201cwhat features should we build?"
+          ],
+          "top_comments": [
+            {
+              "author": "mcbootysauce1",
+              "date": "2026-07-08",
+              "excerpt": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+              "score": 1,
+              "url": "https://reddit.com/r/SaaS/comments/1uq2otp/comment/ow7yl56/"
+            }
+          ]
+        },
+        "published_at": "2026-07-07",
+        "relevance_hint": 0.89,
+        "snippet": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.",
+        "url": "https://www.reddit.com/r/SaaS/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps\nHey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The really good apps get crazy expensive real quick, and the cheaper or free ones just didn't have the fea",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 40,
+        "item_id": "R6",
+        "local_rank_score": 0.24950000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-06",
+        "relevance_hint": 0.4,
+        "snippet": "Hey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The re",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-06",
+  "range_to": "2026-08-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/invisalign/comments/1v51nqi/im_so_close_to_just_giving_up",
+      "cluster_id": "cluster-1",
+      "engagement": 75,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.6,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "They say 22, because they know most people won\u2019t do that. You\u2019re good if you do 20-21 hours honestly.But days dipping below 20 should be few and far between. You may just need a revision scan. Hang in there. Did you say that you\u2019ve been wearing this tray for 21 days?!? My ortho said never more than 14 days. I would make an appt for the ortho like yesterday and show them what\u2019s up. If he says to continue wearing the tray for X amount of time then I would start the paper trail to file a formal complaint with the state. You need pictures of how they\u2019re messing things up, if you\u2019ve sent any emails (you sh",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Im so close to just giving up.\nIm getting more and more frustrated with my aligners everyday. It was going good until I got the bite corrector blocks for my overbite, now since then almost every tray takes 2 weeks to change rather than the 1 week its meant to. I dont mind getting no goes every now and then but doubling my wear time on everyday is absolutely ridiculous. My ortho keeps telling me \"make sure you wear them for 22 hours a day\" so I use the invisalign app and if im at 2 hours without them in ill skip a meal, im tha\nThey say 22, because they know most people won\u2019t do that. You\u2019re good if you do 20-21 hours honestly.But days dipping below 20 should be few and far between. You may just need a revision scan. Hang in there. Did you say that you\u2019ve been wearing this tray for 21 days?!? My ortho said never more than 14 days. I would make an appt for the ortho like yesterday and show them what\u2019s up. If he says to continue wearing the tray for X amount of time then I would start the paper trail to file a formal complaint with the state. You need pictures of how they\u2019re messing things up, if you\u2019ve sent any emails (you sh",
+          "container": "Invisalign",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 8
+          },
+          "engagement_score": 75,
+          "freshness": 76,
+          "item_id": "R2",
+          "local_rank_score": 0.47300000000000003,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Did you say that you\u2019ve been wearing this tray for 21 days?",
+              "They say 22, because they know most people won\u2019t do that.",
+              "You may just need a revision scan. Hang in there.",
+              "If a front tooth isnt fitting, isnt it the fault of your orthodontist?"
+            ],
+            "top_comments": [
+              {
+                "author": "JunkDrawer84",
+                "date": "2026-07-24",
+                "excerpt": "They say 22, because they know most people won\u2019t do that. You\u2019re good if you do 20-21 hours honestly.But days dipping below 20 should be few and far between.",
+                "score": 8,
+                "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozfjvm8/"
+              },
+              {
+                "author": "Sensitive_Ruin_5334",
+                "date": "2026-07-24",
+                "excerpt": "You may just need a revision scan. Hang in there.",
+                "score": 3,
+                "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozgi6hw/"
+              },
+              {
+                "author": "Kop_e2",
+                "date": "2026-07-25",
+                "excerpt": "Did you say that you\u2019ve been wearing this tray for 21 days?!? My ortho said never more than 14 days. I would make an appt for the ortho like yesterday and show them what\u2019s up. If he says to continue wearing the tray for X amount of time then I would start the paper trail to file a formal complaint with the state. You need pictures of how they\u2019re messing things up, if you\u2019ve sent any emails (you sh",
+                "score": 2,
+                "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozluh87/"
+              },
+              {
+                "author": "Economy_Invite_8085",
+                "date": "2026-07-24",
+                "excerpt": "If a front tooth isnt fitting, isnt it the fault of your orthodontist? Meaning they either took a bad scan or Invisalign messed up your tray and owe you a do over? How are you forcing a tooth? Isn\u2019t that dangerous for you? The ortho forgetting any detail about you is reasonably upsetting. I am not s",
+                "score": 1,
+                "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozffxib/"
+              },
+              {
+                "author": "Chance-History-8035",
+                "date": "2026-07-24",
+                "excerpt": "It ain\u2019t that deep man",
+                "score": -1,
+                "url": "https://reddit.com/r/Invisalign/comments/1v51nqi/comment/ozigbv4/"
+              }
+            ]
+          },
+          "published_at": "2026-07-24",
+          "relevance_hint": 0.14,
+          "snippet": "They say 22, because they know most people won\u2019t do that. You\u2019re good if you do 20-21 hours honestly.But days dipping below 20 should be few and far between. You may just need a revision scan. Hang in there. Did you say that you\u2019ve been wearing this tray for 21 days?!? My ortho said never more than 14 days. I would make an appt for the ortho like yesterday and show them what\u2019s up. If he says to continue wearing the tray for X amount of time then I would start the paper trail to file a formal complaint with the state. You need pictures of how they\u2019re messing things up, if you\u2019ve sent any emails (you sh",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Im so close to just giving up.",
+          "url": "https://www.reddit.com/r/Invisalign/comments/1v51nqi/im_so_close_to_just_giving_up/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Im so close to just giving up.",
+      "url": "https://www.reddit.com/r/Invisalign/comments/1v51nqi/im_so_close_to_just_giving_up/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated",
+      "cluster_id": "cluster-2",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 5.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.\nWe started building MyFitOrbit after running into a problem ourselves. Workout tracking was always scattered between notes, spreadsheets, and different apps. It was hard to look back and understand if we were actually progressing. So we built a simple fitness tracker focused on: logging workouts tracking sets, reps, and weights seeing progress over time keeping training history organized After months of building and finally launching, we realized the hardest part is not just building the product\ni\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 23,
+          "freshness": 41,
+          "item_id": "R5",
+          "local_rank_score": 0.275,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "i\u2019d be careful asking \u201cwhat features should we build?"
+            ],
+            "top_comments": [
+              {
+                "author": "mcbootysauce1",
+                "date": "2026-07-08",
+                "excerpt": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+                "score": 1,
+                "url": "https://reddit.com/r/SaaS/comments/1uq2otp/comment/ow7yl56/"
+              }
+            ]
+          },
+          "published_at": "2026-07-07",
+          "relevance_hint": 0.89,
+          "snippet": "i\u2019d be careful asking \u201cwhat features should we build?\u201d too broadly, because fitness apps can turn into infinite feature lists fast. from the site, the strongest angle isn\u2019t \u201ctrack workouts.\u201d it\u2019s more like \u201cknow what\u2019s actually working in your training without maintaining a spreadsheet.\u201d the 1rm/pr progress, plateau detection, muscle-balance stuff, and watch logging all support that. i\u2019d lean into",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.",
+          "url": "https://www.reddit.com/r/SaaS/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We built a fitness app because we were frustrated with existing workout trackers. Would love feedback from other builders.",
+      "url": "https://www.reddit.com/r/SaaS/comments/1uq2otp/we_built_a_fitness_app_because_we_were_frustrated/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 5.099999999999998,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The re",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps\nHey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The really good apps get crazy expensive real quick, and the cheaper or free ones just didn't have the fea",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 40,
+          "item_id": "R6",
+          "local_rank_score": 0.24950000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-06",
+          "relevance_hint": 0.4,
+          "snippet": "Hey guys, I really need a reality check here. I\u2019m a solo Flutter dev who recently went all-in on my own projects. I've been on a bit of a fitness arc for a longer while and digging deep into the rabbit hole (as usual with my ADHD^^), but I got incredibly frustrated with the app ecosystem. I absolutely hated having to juggle 3 or 4 different apps just to track my food, workouts, and fasting. The re",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Completely delusional? Built an all-in-one fitness & nutrition coach because I was sick of using 3 expensive apps",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1up5fkt/completely_delusional_built_an_allinone_fitness/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
