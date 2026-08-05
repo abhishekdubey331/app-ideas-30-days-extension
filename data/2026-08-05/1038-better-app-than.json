@@ -1,0 +1,470 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"better app than\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/vocaloidbutgood/comments/1uzh8b2/sorry_for_the_image_quality_im_using_picsart_but"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/vocaloidbutgood/comments/1uzh8b2/sorry_for_the_image_quality_im_using_picsart_but"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Sorry for the image quality, I'm using Picsart:( But I still wanted to participate!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Need help with a new manga app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/medicoretards/comments/1v0olgi/any_other_better_app_than_marks"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/medicoretards/comments/1v0olgi/any_other_better_app_than_marks"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any other better app than marks?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-05T10:38:13.293106+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Need help with a new manga app\nAny recommendations I have komikku but dont know how to use it need better app than manga rise\nI highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+        "container": "mangapiracy",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 1
+        },
+        "engagement_score": 13,
+        "freshness": 95,
+        "item_id": "R5",
+        "local_rank_score": 0.4,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I highly recommend reading the guide from the Mihon documentation (since that is based on)."
+          ],
+          "top_comments": [
+            {
+              "author": "CedDotPaltep12X",
+              "date": "2026-08-03",
+              "excerpt": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+              "score": 5,
+              "url": "https://reddit.com/r/mangapiracy/comments/1vdxso2/comment/p1csk4d/"
+            }
+          ]
+        },
+        "published_at": "2026-08-03",
+        "relevance_hint": 0.44,
+        "snippet": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Need help with a new manga app",
+        "url": "https://www.reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Sorry for the image quality, I'm using Picsart:( But I still wanted to participate!\nBy the way can you recommended a better app than Picsart please\ud83e\udd7a?\nyowamushi montblanc mentioned! Absolutely love that song!! Starting to think people really like utsu-p's album covers... Hallo Cel\u2019s other songs are better imo",
+        "container": "VocaloidButGood",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 24
+        },
+        "engagement_score": 43,
+        "freshness": 64,
+        "item_id": "R2",
+        "local_rank_score": 0.3525,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "yowamushi montblanc mentioned! Absolutely love that song!!",
+            "Starting to think people really like utsu-p's album covers...",
+            "Hallo Cel\u2019s other songs are better imo",
+            "That's okay, but I agree on least favorite one because that's controversial."
+          ],
+          "top_comments": [
+            {
+              "author": "NeighborhoodParty955",
+              "date": "2026-07-18",
+              "excerpt": "yowamushi montblanc mentioned! Absolutely love that song!!",
+              "score": 3,
+              "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oy9n155/"
+            },
+            {
+              "author": "Dromo_chan",
+              "date": "2026-07-21",
+              "excerpt": "Starting to think people really like utsu-p's album covers...",
+              "score": 2,
+              "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oyvvb1a/"
+            },
+            {
+              "author": "PuzzlePiecesOfLove",
+              "date": "2026-07-18",
+              "excerpt": "Hallo Cel\u2019s other songs are better imo",
+              "score": 2,
+              "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oy7i6lb/"
+            },
+            {
+              "author": "TigerGlass6844",
+              "date": "2026-07-18",
+              "excerpt": "That's okay, but I agree on least favorite one because that's controversial.",
+              "score": 0,
+              "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oy7iytv/"
+            }
+          ]
+        },
+        "published_at": "2026-07-18",
+        "relevance_hint": 0.25,
+        "snippet": "yowamushi montblanc mentioned! Absolutely love that song!! Starting to think people really like utsu-p's album covers... Hallo Cel\u2019s other songs are better imo",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Sorry for the image quality, I'm using Picsart:( But I still wanted to participate!",
+        "url": "https://www.reddit.com/r/VocaloidButGood/comments/1uzh8b2/sorry_for_the_image_quality_im_using_picsart_but/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any other better app than marks?\nI want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+        "container": "MEDICOreTARDS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 65,
+        "item_id": "R6",
+        "local_rank_score": 0.31200000000000006,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-19",
+        "relevance_hint": 1.0,
+        "snippet": "I want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any other better app than marks?",
+        "url": "https://www.reddit.com/r/MEDICOreTARDS/comments/1v0olgi/any_other_better_app_than_marks/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"better app than\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"better app than\"?",
+        "search_query": "\"better app than\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-06",
+  "range_to": "2026-08-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/vocaloidbutgood/comments/1uzh8b2/sorry_for_the_image_quality_im_using_picsart_but",
+      "cluster_id": "cluster-1",
+      "engagement": 43,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 9.899999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "yowamushi montblanc mentioned! Absolutely love that song!! Starting to think people really like utsu-p's album covers... Hallo Cel\u2019s other songs are better imo",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Sorry for the image quality, I'm using Picsart:( But I still wanted to participate!\nBy the way can you recommended a better app than Picsart please\ud83e\udd7a?\nyowamushi montblanc mentioned! Absolutely love that song!! Starting to think people really like utsu-p's album covers... Hallo Cel\u2019s other songs are better imo",
+          "container": "VocaloidButGood",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 24
+          },
+          "engagement_score": 43,
+          "freshness": 64,
+          "item_id": "R2",
+          "local_rank_score": 0.3525,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "yowamushi montblanc mentioned! Absolutely love that song!!",
+              "Starting to think people really like utsu-p's album covers...",
+              "Hallo Cel\u2019s other songs are better imo",
+              "That's okay, but I agree on least favorite one because that's controversial."
+            ],
+            "top_comments": [
+              {
+                "author": "NeighborhoodParty955",
+                "date": "2026-07-18",
+                "excerpt": "yowamushi montblanc mentioned! Absolutely love that song!!",
+                "score": 3,
+                "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oy9n155/"
+              },
+              {
+                "author": "Dromo_chan",
+                "date": "2026-07-21",
+                "excerpt": "Starting to think people really like utsu-p's album covers...",
+                "score": 2,
+                "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oyvvb1a/"
+              },
+              {
+                "author": "PuzzlePiecesOfLove",
+                "date": "2026-07-18",
+                "excerpt": "Hallo Cel\u2019s other songs are better imo",
+                "score": 2,
+                "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oy7i6lb/"
+              },
+              {
+                "author": "TigerGlass6844",
+                "date": "2026-07-18",
+                "excerpt": "That's okay, but I agree on least favorite one because that's controversial.",
+                "score": 0,
+                "url": "https://reddit.com/r/VocaloidButGood/comments/1uzh8b2/comment/oy7iytv/"
+              }
+            ]
+          },
+          "published_at": "2026-07-18",
+          "relevance_hint": 0.25,
+          "snippet": "yowamushi montblanc mentioned! Absolutely love that song!! Starting to think people really like utsu-p's album covers... Hallo Cel\u2019s other songs are better imo",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Sorry for the image quality, I'm using Picsart:( But I still wanted to participate!",
+          "url": "https://www.reddit.com/r/VocaloidButGood/comments/1uzh8b2/sorry_for_the_image_quality_im_using_picsart_but/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Sorry for the image quality, I'm using Picsart:( But I still wanted to participate!",
+      "url": "https://www.reddit.com/r/VocaloidButGood/comments/1uzh8b2/sorry_for_the_image_quality_im_using_picsart_but/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app",
+      "cluster_id": "cluster-2",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 26.0,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Need help with a new manga app\nAny recommendations I have komikku but dont know how to use it need better app than manga rise\nI highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+          "container": "mangapiracy",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 1
+          },
+          "engagement_score": 13,
+          "freshness": 95,
+          "item_id": "R5",
+          "local_rank_score": 0.4,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I highly recommend reading the guide from the Mihon documentation (since that is based on)."
+            ],
+            "top_comments": [
+              {
+                "author": "CedDotPaltep12X",
+                "date": "2026-08-03",
+                "excerpt": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+                "score": 5,
+                "url": "https://reddit.com/r/mangapiracy/comments/1vdxso2/comment/p1csk4d/"
+              }
+            ]
+          },
+          "published_at": "2026-08-03",
+          "relevance_hint": 0.44,
+          "snippet": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Need help with a new manga app",
+          "url": "https://www.reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Need help with a new manga app",
+      "url": "https://www.reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/medicoretards/comments/1v0olgi/any_other_better_app_than_marks",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.099999999999994,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any other better app than marks?\nI want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+          "container": "MEDICOreTARDS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 65,
+          "item_id": "R6",
+          "local_rank_score": 0.31200000000000006,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-19",
+          "relevance_hint": 1.0,
+          "snippet": "I want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any other better app than marks?",
+          "url": "https://www.reddit.com/r/MEDICOreTARDS/comments/1v0olgi/any_other_better_app_than_marks/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any other better app than marks?",
+      "url": "https://www.reddit.com/r/MEDICOreTARDS/comments/1v0olgi/any_other_better_app_than_marks/"
+    }
+  ],
+  "topic": "\"better app than\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

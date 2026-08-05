@@ -1,0 +1,482 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/aitoolbench/comments/1v0nmwr/is_there_an_app_that_combines_all_the_ais_into"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/aitoolbench/comments/1v0nmwr/is_there_an_app_that_combines_all_the_ais_into"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there an app that combines all the AIs into one and picks the best one for the task?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/user/milehighharry/comments/1v0eigx/is_there_an_app_that_combines_all_the_ais_into"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/user/milehighharry/comments/1v0eigx/is_there_an_app_that_combines_all_the_ais_into"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there an app that combines all the AIs into one and picks the best one for the task?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Parent communication app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-05T10:37:42.656046+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Parent communication app\nLocation: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019m at my wits end with him and I really need some advice on this. I couldn\u2019t find anything on this on",
+        "container": "legaladvice",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 91,
+        "item_id": "R6",
+        "local_rank_score": 0.40950000000000003,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-01",
+        "relevance_hint": 0.43,
+        "snippet": "Location: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Parent communication app",
+        "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there an app that combines all the AIs into one and picks the best one for the task?\nRandom question \u2014 is there an app out there that combines multiple AIs (like Claude, ChatGPT, Gemini, etc) into one, and automatically picks whichever one is best suited for the task you give it? \ud83e\udd14 Currently paying for Claude and honestly rate it, feels smarter and remembers stuff better than ChatGPT did when I used it before (that one started feeling kinda dumb after a while). Still use Gemini free version here and there depending on what I need though. Just wondering if there's something that\nPerplexity. Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.They are pay as you go, so you will use more money than subscription. You can use API clients like Kelivo ChatBox Rikka Hub OpenCode Pifor them. If you only need integrated application, you can use multiple mode Weio",
+        "container": "AIToolBench",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 2
+        },
+        "engagement_score": 76,
+        "freshness": 65,
+        "item_id": "R3",
+        "local_rank_score": 0.3685,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.",
+            "Claude started forgetting things even after I asking it to pull information from past chats to answer questions.",
+            "I asked my AI because now I\u2019m curious too \ud83e\udd14 She wrote a poem about that\ud83e\udd23 Apparently there are platforms that put several models in one place, but I\u2019m..."
+          ],
+          "top_comments": [
+            {
+              "author": "ricardusrex",
+              "date": "2026-07-19",
+              "excerpt": "Perplexity.",
+              "score": 2,
+              "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oygqo79/"
+            },
+            {
+              "author": "daizu007",
+              "date": "2026-07-19",
+              "excerpt": "Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.They are pay as you go, so you will use more money than subscription. You can use API clients like Kelivo ChatBox Rikka Hub OpenCode Pifor them. If you only need integrated application, you can use multiple mode",
+              "score": 1,
+              "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oygp2o2/"
+            },
+            {
+              "author": "CommandProtocol",
+              "date": "2026-07-19",
+              "excerpt": "Weio",
+              "score": 1,
+              "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oyh7pns/"
+            },
+            {
+              "author": "melanated2020",
+              "date": "2026-07-19",
+              "excerpt": "Claude started forgetting things even after I asking it to pull information from past chats to answer questions. Last night I exported everything in Claude over into ChatGPT. I\u2019ll see how that works out.",
+              "score": 1,
+              "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oyhwkwd/"
+            },
+            {
+              "author": "Entangled_Minds",
+              "date": "2026-07-20",
+              "excerpt": "I asked my AI because now I\u2019m curious too \ud83e\udd14 She wrote a poem about that\ud83e\udd23 Apparently there are platforms that put several models in one place, but I\u2019m not sure there\u2019s one I\u2019d completely trust to always choose the best AI for the job. I basically do this manually. I use ChatGPT for continuity and bec",
+              "score": 1,
+              "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oyrefpe/"
+            }
+          ]
+        },
+        "published_at": "2026-07-19",
+        "relevance_hint": 0.54,
+        "snippet": "Perplexity. Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.They are pay as you go, so you will use more money than subscription. You can use API clients like Kelivo ChatBox Rikka Hub OpenCode Pifor them. If you only need integrated application, you can use multiple mode Weio",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there an app that combines all the AIs into one and picks the best one for the task?",
+        "url": "https://www.reddit.com/r/AIToolBench/comments/1v0nmwr/is_there_an_app_that_combines_all_the_ais_into/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there an app that combines all the AIs into one and picks the best one for the task?\nRandom question \u2014 is there an app out there that combines multiple AIs (like Claude, ChatGPT, Gemini, etc) into one, and automatically picks whichever one is best suited for the task you give it? \ud83e\udd14 Currently paying for Claude and honestly rate it, feels smarter and remembers stuff better than ChatGPT did when I used it before (that one started feeling kinda dumb after a while). Still use Gemini free version here and there depending on what I need though. Just wondering if there's something that\nYes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per task automatically Conversations and notes become draggable apps on a visual canvas instead of separate sidebars for each tool Folders build up shared memory automatically, so context doesn\u2019t stay siloed inside whichever app you happened to use Nest a m",
+        "container": "u_MileHighHarry",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 2
+        },
+        "engagement_score": 33,
+        "freshness": 65,
+        "item_id": "R5",
+        "local_rank_score": 0.3125,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "Yes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per tas..."
+          ],
+          "top_comments": [
+            {
+              "author": "emiliookap",
+              "date": "2026-07-19",
+              "excerpt": "Yes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per task automatically Conversations and notes become draggable apps on a visual canvas instead of separate sidebars for each tool Folders build up shared memory automatically, so context doesn\u2019t stay siloed inside whichever app you happened to use Nest a m",
+              "score": 1,
+              "url": "https://reddit.com/user/MileHighHarry/comments/1v0eigx/comment/oyg6oaz/"
+            }
+          ]
+        },
+        "published_at": "2026-07-19",
+        "relevance_hint": 0.54,
+        "snippet": "Yes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per task automatically Conversations and notes become draggable apps on a visual canvas instead of separate sidebars for each tool Folders build up shared memory automatically, so context doesn\u2019t stay siloed inside whichever app you happened to use Nest a m",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there an app that combines all the AIs into one and picks the best one for the task?",
+        "url": "https://www.reddit.com/user/MileHighHarry/comments/1v0eigx/is_there_an_app_that_combines_all_the_ais_into/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-06",
+  "range_to": "2026-08-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/aitoolbench/comments/1v0nmwr/is_there_an_app_that_combines_all_the_ais_into",
+      "cluster_id": "cluster-1",
+      "engagement": 76,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 8.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Perplexity. Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.They are pay as you go, so you will use more money than subscription. You can use API clients like Kelivo ChatBox Rikka Hub OpenCode Pifor them. If you only need integrated application, you can use multiple mode Weio",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there an app that combines all the AIs into one and picks the best one for the task?\nRandom question \u2014 is there an app out there that combines multiple AIs (like Claude, ChatGPT, Gemini, etc) into one, and automatically picks whichever one is best suited for the task you give it? \ud83e\udd14 Currently paying for Claude and honestly rate it, feels smarter and remembers stuff better than ChatGPT did when I used it before (that one started feeling kinda dumb after a while). Still use Gemini free version here and there depending on what I need though. Just wondering if there's something that\nPerplexity. Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.They are pay as you go, so you will use more money than subscription. You can use API clients like Kelivo ChatBox Rikka Hub OpenCode Pifor them. If you only need integrated application, you can use multiple mode Weio",
+          "container": "AIToolBench",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 2
+          },
+          "engagement_score": 76,
+          "freshness": 65,
+          "item_id": "R3",
+          "local_rank_score": 0.3685,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.",
+              "Claude started forgetting things even after I asking it to pull information from past chats to answer questions.",
+              "I asked my AI because now I\u2019m curious too \ud83e\udd14 She wrote a poem about that\ud83e\udd23 Apparently there are platforms that put several models in one place, but I\u2019m..."
+            ],
+            "top_comments": [
+              {
+                "author": "ricardusrex",
+                "date": "2026-07-19",
+                "excerpt": "Perplexity.",
+                "score": 2,
+                "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oygqo79/"
+              },
+              {
+                "author": "daizu007",
+                "date": "2026-07-19",
+                "excerpt": "Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.They are pay as you go, so you will use more money than subscription. You can use API clients like Kelivo ChatBox Rikka Hub OpenCode Pifor them. If you only need integrated application, you can use multiple mode",
+                "score": 1,
+                "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oygp2o2/"
+              },
+              {
+                "author": "CommandProtocol",
+                "date": "2026-07-19",
+                "excerpt": "Weio",
+                "score": 1,
+                "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oyh7pns/"
+              },
+              {
+                "author": "melanated2020",
+                "date": "2026-07-19",
+                "excerpt": "Claude started forgetting things even after I asking it to pull information from past chats to answer questions. Last night I exported everything in Claude over into ChatGPT. I\u2019ll see how that works out.",
+                "score": 1,
+                "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oyhwkwd/"
+              },
+              {
+                "author": "Entangled_Minds",
+                "date": "2026-07-20",
+                "excerpt": "I asked my AI because now I\u2019m curious too \ud83e\udd14 She wrote a poem about that\ud83e\udd23 Apparently there are platforms that put several models in one place, but I\u2019m not sure there\u2019s one I\u2019d completely trust to always choose the best AI for the job. I basically do this manually. I use ChatGPT for continuity and bec",
+                "score": 1,
+                "url": "https://reddit.com/r/AIToolBench/comments/1v0nmwr/comment/oyrefpe/"
+              }
+            ]
+          },
+          "published_at": "2026-07-19",
+          "relevance_hint": 0.54,
+          "snippet": "Perplexity. Sakana AI and OpenRouter provide API endpoints that route best models depends on prompts.They are pay as you go, so you will use more money than subscription. You can use API clients like Kelivo ChatBox Rikka Hub OpenCode Pifor them. If you only need integrated application, you can use multiple mode Weio",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there an app that combines all the AIs into one and picks the best one for the task?",
+          "url": "https://www.reddit.com/r/AIToolBench/comments/1v0nmwr/is_there_an_app_that_combines_all_the_ais_into/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there an app that combines all the AIs into one and picks the best one for the task?",
+      "url": "https://www.reddit.com/r/AIToolBench/comments/1v0nmwr/is_there_an_app_that_combines_all_the_ais_into/"
+    },
+    {
+      "candidate_id": "https://reddit.com/user/milehighharry/comments/1v0eigx/is_there_an_app_that_combines_all_the_ais_into",
+      "cluster_id": "cluster-2",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Yes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per task automatically Conversations and notes become draggable apps on a visual canvas instead of separate sidebars for each tool Folders build up shared memory automatically, so context doesn\u2019t stay siloed inside whichever app you happened to use Nest a m",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there an app that combines all the AIs into one and picks the best one for the task?\nRandom question \u2014 is there an app out there that combines multiple AIs (like Claude, ChatGPT, Gemini, etc) into one, and automatically picks whichever one is best suited for the task you give it? \ud83e\udd14 Currently paying for Claude and honestly rate it, feels smarter and remembers stuff better than ChatGPT did when I used it before (that one started feeling kinda dumb after a while). Still use Gemini free version here and there depending on what I need though. Just wondering if there's something that\nYes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per task automatically Conversations and notes become draggable apps on a visual canvas instead of separate sidebars for each tool Folders build up shared memory automatically, so context doesn\u2019t stay siloed inside whichever app you happened to use Nest a m",
+          "container": "u_MileHighHarry",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 2
+          },
+          "engagement_score": 33,
+          "freshness": 65,
+          "item_id": "R5",
+          "local_rank_score": 0.3125,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "Yes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per tas..."
+            ],
+            "top_comments": [
+              {
+                "author": "emiliookap",
+                "date": "2026-07-19",
+                "excerpt": "Yes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per task automatically Conversations and notes become draggable apps on a visual canvas instead of separate sidebars for each tool Folders build up shared memory automatically, so context doesn\u2019t stay siloed inside whichever app you happened to use Nest a m",
+                "score": 1,
+                "url": "https://reddit.com/user/MileHighHarry/comments/1v0eigx/comment/oyg6oaz/"
+              }
+            ]
+          },
+          "published_at": "2026-07-19",
+          "relevance_hint": 0.54,
+          "snippet": "Yes, that\u2019s exactly what ChatOS does.Claude, GPT-4o, Gemini and DeepSeek all in one place, or turn on auto routing and it picks the best model per task automatically Conversations and notes become draggable apps on a visual canvas instead of separate sidebars for each tool Folders build up shared memory automatically, so context doesn\u2019t stay siloed inside whichever app you happened to use Nest a m",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there an app that combines all the AIs into one and picks the best one for the task?",
+          "url": "https://www.reddit.com/user/MileHighHarry/comments/1v0eigx/is_there_an_app_that_combines_all_the_ais_into/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there an app that combines all the AIs into one and picks the best one for the task?",
+      "url": "https://www.reddit.com/user/MileHighHarry/comments/1v0eigx/is_there_an_app_that_combines_all_the_ais_into/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R6",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Location: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Parent communication app\nLocation: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019m at my wits end with him and I really need some advice on this. I couldn\u2019t find anything on this on",
+          "container": "legaladvice",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 91,
+          "item_id": "R6",
+          "local_rank_score": 0.40950000000000003,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-01",
+          "relevance_hint": 0.43,
+          "snippet": "Location: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Parent communication app",
+          "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Parent communication app",
+      "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
