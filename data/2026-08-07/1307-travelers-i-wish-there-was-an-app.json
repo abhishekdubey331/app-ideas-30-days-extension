@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "travelers \"I wish there was an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/user/hot_anywhere8413/comments/1uzt0go/what_app_do_you_wish_existed_but_doesnt"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/user/hot_anywhere8413/comments/1uzt0go/what_app_do_you_wish_existed_but_doesnt"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What app do you wish existed but doesn't?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-07T13:07:54.773079+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "What app do you wish existed but doesn't?\nHey everyone! I'm looking to build an app that solves a real problem instead of creating another copy of an existing app. I'd love to hear from you: What's something you do regularly that feels annoying or takes too much time? Is there an app you use that frustrates you because it's missing important features? Have you ever thought, \"I wish there was an app for this\"? If you could improve one existing app, what would you add or change? I'm especially interested in: Productivity Daily utilities T",
+        "container": "u_Hot_Anywhere8413",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 59,
+        "item_id": "R1",
+        "local_rank_score": 0.3665,
+        "local_relevance": 0.26,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-18",
+        "relevance_hint": 0.49,
+        "snippet": "Hey everyone! I'm looking to build an app that solves a real problem instead of creating another copy of an existing app. I'd love to hear from you: What's something you do regularly that feels annoying or takes too much time? Is there an app you use that frustrates you because it's missing important features? Have you ever thought, \"I wish there was an app for this\"? If you could improve one exis",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What app do you wish existed but doesn't?",
+        "url": "https://www.reddit.com/user/Hot_Anywhere8413/comments/1uzt0go/what_app_do_you_wish_existed_but_doesnt/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "travelers \"I wish there was an app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to travelers \"I wish there was an app\", especially about travelers \"i wish there app\"?",
+        "search_query": "travelers \"i wish there app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-08",
+  "range_to": "2026-08-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/user/hot_anywhere8413/comments/1uzt0go/what_app_do_you_wish_existed_but_doesnt",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hey everyone! I'm looking to build an app that solves a real problem instead of creating another copy of an existing app. I'd love to hear from you: What's something you do regularly that feels annoying or takes too much time? Is there an app you use that frustrates you because it's missing important features? Have you ever thought, \"I wish there was an app for this\"? If you could improve one exis",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What app do you wish existed but doesn't?\nHey everyone! I'm looking to build an app that solves a real problem instead of creating another copy of an existing app. I'd love to hear from you: What's something you do regularly that feels annoying or takes too much time? Is there an app you use that frustrates you because it's missing important features? Have you ever thought, \"I wish there was an app for this\"? If you could improve one existing app, what would you add or change? I'm especially interested in: Productivity Daily utilities T",
+          "container": "u_Hot_Anywhere8413",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 59,
+          "item_id": "R1",
+          "local_rank_score": 0.3665,
+          "local_relevance": 0.26,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-18",
+          "relevance_hint": 0.49,
+          "snippet": "Hey everyone! I'm looking to build an app that solves a real problem instead of creating another copy of an existing app. I'd love to hear from you: What's something you do regularly that feels annoying or takes too much time? Is there an app you use that frustrates you because it's missing important features? Have you ever thought, \"I wish there was an app for this\"? If you could improve one exis",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What app do you wish existed but doesn't?",
+          "url": "https://www.reddit.com/user/Hot_Anywhere8413/comments/1uzt0go/what_app_do_you_wish_existed_but_doesnt/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What app do you wish existed but doesn't?",
+      "url": "https://www.reddit.com/user/Hot_Anywhere8413/comments/1uzt0go/what_app_do_you_wish_existed_but_doesnt/"
+    }
+  ],
+  "topic": "travelers \"I wish there was an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
