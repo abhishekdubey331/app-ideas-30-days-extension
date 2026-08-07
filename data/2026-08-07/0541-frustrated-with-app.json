@@ -1,0 +1,978 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/dating/comments/1ut5hsf/why_do_so_many_women_on_dating_apps_make_no"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/dating/comments/1ut5hsf/why_do_so_many_women_on_dating_apps_make_no"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why do so many women on dating apps make no effort to get to know you?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/scotland/comments/1vgwxtm/passenger_frustration_with_ongoing_glitches_in"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/scotland/comments/1vgwxtm/passenger_frustration_with_ongoing_glitches_in"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Passenger frustration with ongoing 'glitches' in new ScotRail app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/bitwarden/comments/1uw0f22/more_frustrated_with_every_update_now_unusable"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/bitwarden/comments/1uw0f22/more_frustrated_with_every_update_now_unusable"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "More frustrated with every update, now unusable for me"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/feeld/comments/1v49z5u/84_matches_after_3_days_off_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/feeld/comments/1v49z5u/84_matches_after_3_days_off_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "84 Matches After 3 Days Off App"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-07T05:41:51.548261+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Passenger frustration with ongoing 'glitches' in new ScotRail app\nNone\nI think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and understanding through all this, and complaints should be entirely directed to the people at the top who organised this shambles. Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success... This was very clearly rushed to release and not tested enough. And while replatforming an app is always a PITA and I feel for the devs, it's a mess. On the This week it wouldn\u2019t let me activate a new flexi ticket for the journey home. But the old one worked on the barrier! On the train, the conductor looked at the app, realised there was no way to use another ticket and just let it slide. They are losing money on flexi tickets if that\u2019s a common bug. W",
+        "container": "Scotland",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 55,
+          "score": 87
+        },
+        "engagement_score": 82,
+        "freshness": 97,
+        "item_id": "R3",
+        "local_rank_score": 0.42850000000000005,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "Write to your MSP about this complete farce. Also, other train ticket apps are available.",
+            "Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success.",
+            "I think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and under...",
+            "I genuinely worry for Scotrail management when they pick 2 days before the busiest season begins to roll out their new, apparently untested, app.",
+            "Entering all the details for a return then the ticket choice on the next screen defaulting to a single is remarkable bad design.",
+            "I've just been going to the machine/kiosk and buying my ticket, can't even get logged in on the app it just crashes as soon as it tries to take me to...",
+            "This week it wouldn\u2019t let me activate a new flexi ticket for the journey home.",
+            "The big big issue with the rollout of the new app is that ScotRail haven't really given people a good reason to use the new app.",
+            "Used it yesterday for the first time to browse tickets.",
+            "High key it feels vibe-coded. I uninstalled."
+          ],
+          "top_comments": [
+            {
+              "author": "sheddraby",
+              "date": "2026-08-06",
+              "excerpt": "I think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and understanding through all this, and complaints should be entirely directed to the people at the top who organised this shambles.",
+              "score": 67,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20og9a/"
+            },
+            {
+              "author": "Working_on_Writing",
+              "date": "2026-08-06",
+              "excerpt": "Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success... This was very clearly rushed to release and not tested enough. And while replatforming an app is always a PITA and I feel for the devs, it's a mess. On the ",
+              "score": 54,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20rb7w/"
+            },
+            {
+              "author": "rosco88",
+              "date": "2026-08-06",
+              "excerpt": "This week it wouldn\u2019t let me activate a new flexi ticket for the journey home. But the old one worked on the barrier! On the train, the conductor looked at the app, realised there was no way to use another ticket and just let it slide. They are losing money on flexi tickets if that\u2019s a common bug. W",
+              "score": 27,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20m09u/"
+            },
+            {
+              "author": "Pfdswfsdcsdqwww",
+              "date": "2026-08-06",
+              "excerpt": "I genuinely worry for Scotrail management when they pick 2 days before the busiest season begins to roll out their new, apparently untested, app.",
+              "score": 22,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p211bxe/"
+            },
+            {
+              "author": "zellisgoatbond",
+              "date": "2026-08-06",
+              "excerpt": "The big big issue with the rollout of the new app is that ScotRail haven't really given people a good reason to use the new app. There's no major new features, big new things you couldn't do with the old app, anything like that. There are certainly good reason why ScotRail wants a new app (namely th",
+              "score": 22,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20kb2e/"
+            },
+            {
+              "author": "twistedLucidity",
+              "date": "2026-08-06",
+              "excerpt": "Write to your MSP about this complete farce. Also, other train ticket apps are available. Just keep an eye on any additional booking fees and the like.",
+              "score": 19,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20ht36/"
+            },
+            {
+              "author": "No-Dance1377",
+              "date": "2026-08-06",
+              "excerpt": "Entering all the details for a return then the ticket choice on the next screen defaulting to a single is remarkable bad design.",
+              "score": 16,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20u4qf/"
+            },
+            {
+              "author": "cameruso",
+              "date": "2026-08-06",
+              "excerpt": "Used it yesterday for the first time to browse tickets. So shockingly bad it had me rethinking the merits of independence. Beyond basic gaps in design and experience. Infuriating gaps. Lads, you have a template to work from ffs. Did not buy tickets so yet to experience the joys of the described bugs",
+              "score": 12,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20s4yr/"
+            },
+            {
+              "author": "StandWild4256",
+              "date": "2026-08-06",
+              "excerpt": "I've just been going to the machine/kiosk and buying my ticket, can't even get logged in on the app it just crashes as soon as it tries to take me to the login screen. Massive farce!",
+              "score": 10,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20pood/"
+            },
+            {
+              "author": "sometimes_point",
+              "date": "2026-08-06",
+              "excerpt": "High key it feels vibe-coded. I uninstalled.",
+              "score": 6,
+              "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p215xu3/"
+            }
+          ]
+        },
+        "published_at": "2026-08-06",
+        "relevance_hint": 0.37,
+        "snippet": "I think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and understanding through all this, and complaints should be entirely directed to the people at the top who organised this shambles. Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success... This was very clearly rushed to release and not tested enough. And while replatforming an app is always a PITA and I feel for the devs, it's a mess. On the This week it wouldn\u2019t let me activate a new flexi ticket for the journey home. But the old one worked on the barrier!...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Passenger frustration with ongoing 'glitches' in new ScotRail app",
+        "url": "https://www.reddit.com/r/Scotland/comments/1vgwxtm/passenger_frustration_with_ongoing_glitches_in/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why do so many women on dating apps make no effort to get to know you?\nHello, I am a 27 year old Male. I've recently started using daying apps again after taking a break. Obviously my experience as a heterosexual man is with woman, but im sure women here can tell me if men are the same or not. But basically I am so frustrated with the lack of effort of women I match to even try and get to know me. Now i know most people will say my measages must be boring or something. But i always try and pick out something from there profile. Ask about it. Show intrigue etc. But\nMen do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format. And partly, it\u2019s just difficult for many people to work up a lot of genuine curiosity in a stranger over text. You lack all of the normal social and interpersonal cues that generate real Because they get unlimited attention and don\u2019t give a shit. That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+        "container": "dating",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 200,
+          "score": 141
+        },
+        "engagement_score": 100,
+        "freshness": 45,
+        "item_id": "R1",
+        "local_rank_score": 0.375,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [
+            "That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+            "Asking basic questions won't work, because they have a few dozen other guys already asking the exact same thing.",
+            "Woman here. I don\u2019t invest emotionally in those conversations because I don\u2019t know how interested the man is.",
+            "Men do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format.",
+            "Because they get unlimited attention and don\u2019t give a shit.",
+            "Are you remembering to follow rule 1 and rule 2 ?",
+            "Have encountered the very same thing, and I feel the exact same way when it happens.",
+            "I honestly think people put way too much thought into texting these days.",
+            "I\u2019m a woman (28), located in Europe and always ask questions but I will admit that I only reply to a handful of men."
+          ],
+          "top_comments": [
+            {
+              "author": "cherrycocktail20",
+              "date": "2026-07-11",
+              "excerpt": "Men do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format. And partly, it\u2019s just difficult for many people to work up a lot of genuine curiosity in a stranger over text. You lack all of the normal social and interpersonal cues that generate real",
+              "score": 59,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt7r1e/"
+            },
+            {
+              "author": "TrailingAMillion",
+              "date": "2026-07-11",
+              "excerpt": "Because they get unlimited attention and don\u2019t give a shit.",
+              "score": 23,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owtcxtn/"
+            },
+            {
+              "author": "CozyCozyCozyCat",
+              "date": "2026-07-11",
+              "excerpt": "That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+              "score": 20,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt9aaj/"
+            },
+            {
+              "author": "kaprixiouz",
+              "date": "2026-07-11",
+              "excerpt": "Have encountered the very same thing, and I feel the exact same way when it happens. If you're not on here to get to know people and potentially meet up... wtf are you doing? Just being a serial time waster, looking for validation, and have zero social skills? Then I remind myself: that's why a lot ",
+              "score": 20,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owtbllr/"
+            },
+            {
+              "author": "Stunning_Yogurt7383",
+              "date": "2026-07-11",
+              "excerpt": "Are you remembering to follow rule 1 and rule 2 ?",
+              "score": 11,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt6adi/"
+            },
+            {
+              "author": "ethosorange",
+              "date": "2026-07-11",
+              "excerpt": "Asking basic questions won't work, because they have a few dozen other guys already asking the exact same thing. I read a long reddit thread asking women what they look for on dating apps. To summarise the general consensus of the answers: firstly be attractive, and secondly don't be boring. They we",
+              "score": 7,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owta4gc/"
+            },
+            {
+              "author": "Sensitive_Tea5720",
+              "date": "2026-07-11",
+              "excerpt": "I\u2019m a woman (28), located in Europe and always ask questions but I will admit that I only reply to a handful of men. A \u201dHi\u201d is not a great first text and not something I reply to unless there\u2019s something special about his photos/profile. Then I will give it a shot and ask an interesting question or ",
+              "score": 5,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt9fnr/"
+            },
+            {
+              "author": "turquoisepeacock",
+              "date": "2026-07-11",
+              "excerpt": "Woman here. I don\u2019t invest emotionally in those conversations because I don\u2019t know how interested the man is. I know he\u2019s interested in me when he asks to see me. In person, I\u2019ll get to know him and invest a lot more. It\u2019s not worth investing my emotional energy in a man who may be talking to me for",
+              "score": 2,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owtl6e4/"
+            },
+            {
+              "author": "sweetcanadiangirlie",
+              "date": "2026-07-11",
+              "excerpt": "I honestly think people put way too much thought into texting these days. This isn\u2019t just a woman thing\u2026 it\u2019s with both genders. As a woman, I\u2019ve had plenty of conversations with men where I\u2019m the one carrying everything too. Mutual interest matters. Women should show interest in men just as much as",
+              "score": 2,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt95ez/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-07-11",
+              "excerpt": "Welcome to r/dating. Please make sure you read our rules here and remember to: Be polite and respect each other. Do not call people names or engage in slapfights. All advice given must be good, ethical advice. Do not post hateful or harmful rhetoric - you will be banned Follow reddit rules. Do not post content that promotes hate based on identity or vulnerability. Do not bully or harass other user",
+              "score": 1,
+              "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt4a66/"
+            }
+          ]
+        },
+        "published_at": "2026-07-11",
+        "relevance_hint": 0.09,
+        "snippet": "Men do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format. And partly, it\u2019s just difficult for many people to work up a lot of genuine curiosity in a stranger over text. You lack all of the normal social and interpersonal cues that generate real Because they get unlimited attention and don\u2019t give a shit. That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why do so many women on dating apps make no effort to get to know you?",
+        "url": "https://www.reddit.com/r/dating/comments/1ut5hsf/why_do_so_many_women_on_dating_apps_make_no/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "More frustrated with every update, now unusable for me\nNormally, I've been pretty inactive on Reddit, but I wanted to share this because I know there are other people who feel the same way. Since the latest Bitwarden update, the regular desktop app has become literally unusable for me. The account switcher rapidly glitches between two accounts. I can't select one, I can't remove them, and I can't log in to any account. Yes, I can uninstall this version and downgrade, but that's annoying as hell. Yes, it's normal for software to have bugs from time t\nI simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board. I wouldn't mind constantly changing UI if they're actually improvements, but for Bitwarden most of the time it's just moving things around for no apparent reason They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability. I totally agree with OP. When two of the key elements are ignored I start to get twitchy about the Security being treated in the same cavalier manner. For the fir I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go back to the plain UI from like a year or two ago lol. However as a package BW works totally fine for me in the couple years I've used it. I open it copy logins and log out. What you're expe",
+        "container": "Bitwarden",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 24,
+          "score": 76
+        },
+        "engagement_score": 72,
+        "freshness": 51,
+        "item_id": "R4",
+        "local_rank_score": 0.36200000000000004,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [
+            "Hi there, if this sounds like the issue you're describing, let me know if the steps there resolve it for you.",
+            "I have the Bitwarden app on my phone, but I've never used the desktop Bitwarden app.",
+            "I simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board.",
+            "They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability.",
+            "Someone posted a few days ago that Bitwarden also doesn't seem to consider older users.",
+            "I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go back to the plain UI from like a year o...",
+            "In regards to the account switcher, the issue must be isolated to you/your device because I do not experience that switching between my personal accou...",
+            "I agree that it's not user friendly, they assume that every user is techy to understand the UI",
+            "They keep farting around with the UI (now everything be one big block makes it difficult to see things\u2026 time to fire their UI people), yet somehow we...",
+            "It makes no sense why it keeps getting worse! First they took away shortcuts so I can't just control+p a password to copy it."
+          ],
+          "top_comments": [
+            {
+              "author": "saltyrookieplayer",
+              "date": "2026-07-14",
+              "excerpt": "I simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board. I wouldn't mind constantly changing UI if they're actually improvements, but for Bitwarden most of the time it's just moving things around for no apparent reason",
+              "score": 41,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxfc2x7/"
+            },
+            {
+              "author": "Odin-Is-Listening",
+              "date": "2026-07-14",
+              "excerpt": "They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability. I totally agree with OP. When two of the key elements are ignored I start to get twitchy about the Security being treated in the same cavalier manner. For the fir",
+              "score": 17,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxgawrc/"
+            },
+            {
+              "author": "Imaginary-Fish1176",
+              "date": "2026-07-14",
+              "excerpt": "I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go back to the plain UI from like a year or two ago lol. However as a package BW works totally fine for me in the couple years I've used it. I open it copy logins and log out. What you're expe",
+              "score": 5,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxfhrdk/"
+            },
+            {
+              "author": "Jaded-Asparagus-2260",
+              "date": "2026-07-14",
+              "excerpt": "Someone posted a few days ago that Bitwarden also doesn't seem to consider older users. I introduced it to my parents, but it's become more frustrating for them to use because everything changes with every update. Guess that was me. I'm really having a hard time convincing my parents why they should",
+              "score": 4,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxfmb7p/"
+            },
+            {
+              "author": "DoAndroidsDrmOfSheep",
+              "date": "2026-07-14",
+              "excerpt": "I have the Bitwarden app on my phone, but I've never used the desktop Bitwarden app. Actually - I've never used the desktop app for any other password manager I've ever used either, that I can recall. I'm curious - what does one do that requires the desktop app? On a desktop I've always been able to",
+              "score": 3,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxh06j9/"
+            },
+            {
+              "author": "MFKDGAF",
+              "date": "2026-07-14",
+              "excerpt": "In regards to the account switcher, the issue must be isolated to you/your device because I do not experience that switching between my personal account and my account for work on both iOS and PC via Firefox. I will say, I wish we could set a avatar/profile picture because the switcher having the sa",
+              "score": 2,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxgaqac/"
+            },
+            {
+              "author": "dwbitw",
+              "date": "2026-07-14",
+              "excerpt": "Hi there, if this sounds like the issue you're describing, let me know if the steps there resolve it for you. For the UI/UIX comments below, please share your feedback on the early preview for the fall beta here.",
+              "score": 1,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxgphw2/"
+            },
+            {
+              "author": "adrian6478",
+              "date": "2026-07-14",
+              "excerpt": "I agree that it's not user friendly, they assume that every user is techy to understand the UI",
+              "score": 1,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxk5wig/"
+            },
+            {
+              "author": "SawkeeReemo",
+              "date": "2026-07-15",
+              "excerpt": "They keep farting around with the UI (now everything be one big block makes it difficult to see things\u2026 time to fire their UI people), yet somehow we still don\u2019t have the ability to add our own icon for sites it can grab one from. Not a functionality issue, but just a QoL addition that exists on oth",
+              "score": 1,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxn0bws/"
+            },
+            {
+              "author": "balling",
+              "date": "2026-07-17",
+              "excerpt": "It makes no sense why it keeps getting worse! First they took away shortcuts so I can't just control+p a password to copy it.. then they took away my ability to right click and select 'copy password' a month after that lol! They added like 5 extra clicks along with unnecessary mouse movements for me",
+              "score": 1,
+              "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oy72z0c/"
+            }
+          ]
+        },
+        "published_at": "2026-07-14",
+        "relevance_hint": 0.37,
+        "snippet": "I simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board. I wouldn't mind constantly changing UI if they're actually improvements, but for Bitwarden most of the time it's just moving things around for no apparent reason They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability. I totally agree with OP. When two of the key elements are ignored I start to get twitchy about the Security being treated in the same cavalier manner. For the fir I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "More frustrated with every update, now unusable for me",
+        "url": "https://www.reddit.com/r/Bitwarden/comments/1uw0f22/more_frustrated_with_every_update_now_unusable/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "84 Matches After 3 Days Off App\nI just wanted to share this, so some of you will cool your jets when people delay to respond to being liked with you. I'm a CIS woman, 50, gorgeous, fat, pansexual and married. I've been on the app since February. For the last month, I would say, I get about 4-8 likes a day. My husband decided to disconnect his profile from mine. So I got this up tick. This uptick is pretty normal when he adds or disconnects me or after I return from a pause. I pause my account a lot because I'm a busy gal, get",
+        "container": "feeld",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 70,
+        "item_id": "R6",
+        "local_rank_score": 0.3375,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-23",
+        "relevance_hint": 0.49,
+        "snippet": "I just wanted to share this, so some of you will cool your jets when people delay to respond to being liked with you. I'm a CIS woman, 50, gorgeous, fat, pansexual and married. I've been on the app since February. For the last month, I would say, I get about 4-8 likes a day. My husband decided to disconnect his profile from mine. So I got this up tick. This uptick is pretty normal when he adds or",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "84 Matches After 3 Days Off App",
+        "url": "https://www.reddit.com/r/feeld/comments/1v49z5u/84_matches_after_3_days_off_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-08",
+  "range_to": "2026-08-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/dating/comments/1ut5hsf/why_do_so_many_women_on_dating_apps_make_no",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 7.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Men do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format. And partly, it\u2019s just difficult for many people to work up a lot of genuine curiosity in a stranger over text. You lack all of the normal social and interpersonal cues that generate real Because they get unlimited attention and don\u2019t give a shit. That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why do so many women on dating apps make no effort to get to know you?\nHello, I am a 27 year old Male. I've recently started using daying apps again after taking a break. Obviously my experience as a heterosexual man is with woman, but im sure women here can tell me if men are the same or not. But basically I am so frustrated with the lack of effort of women I match to even try and get to know me. Now i know most people will say my measages must be boring or something. But i always try and pick out something from there profile. Ask about it. Show intrigue etc. But\nMen do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format. And partly, it\u2019s just difficult for many people to work up a lot of genuine curiosity in a stranger over text. You lack all of the normal social and interpersonal cues that generate real Because they get unlimited attention and don\u2019t give a shit. That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+          "container": "dating",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 200,
+            "score": 141
+          },
+          "engagement_score": 100,
+          "freshness": 45,
+          "item_id": "R1",
+          "local_rank_score": 0.375,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [
+              "That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+              "Asking basic questions won't work, because they have a few dozen other guys already asking the exact same thing.",
+              "Woman here. I don\u2019t invest emotionally in those conversations because I don\u2019t know how interested the man is.",
+              "Men do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format.",
+              "Because they get unlimited attention and don\u2019t give a shit.",
+              "Are you remembering to follow rule 1 and rule 2 ?",
+              "Have encountered the very same thing, and I feel the exact same way when it happens.",
+              "I honestly think people put way too much thought into texting these days.",
+              "I\u2019m a woman (28), located in Europe and always ask questions but I will admit that I only reply to a handful of men."
+            ],
+            "top_comments": [
+              {
+                "author": "cherrycocktail20",
+                "date": "2026-07-11",
+                "excerpt": "Men do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format. And partly, it\u2019s just difficult for many people to work up a lot of genuine curiosity in a stranger over text. You lack all of the normal social and interpersonal cues that generate real",
+                "score": 59,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt7r1e/"
+              },
+              {
+                "author": "TrailingAMillion",
+                "date": "2026-07-11",
+                "excerpt": "Because they get unlimited attention and don\u2019t give a shit.",
+                "score": 23,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owtcxtn/"
+              },
+              {
+                "author": "CozyCozyCozyCat",
+                "date": "2026-07-11",
+                "excerpt": "That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+                "score": 20,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt9aaj/"
+              },
+              {
+                "author": "kaprixiouz",
+                "date": "2026-07-11",
+                "excerpt": "Have encountered the very same thing, and I feel the exact same way when it happens. If you're not on here to get to know people and potentially meet up... wtf are you doing? Just being a serial time waster, looking for validation, and have zero social skills? Then I remind myself: that's why a lot ",
+                "score": 20,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owtbllr/"
+              },
+              {
+                "author": "Stunning_Yogurt7383",
+                "date": "2026-07-11",
+                "excerpt": "Are you remembering to follow rule 1 and rule 2 ?",
+                "score": 11,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt6adi/"
+              },
+              {
+                "author": "ethosorange",
+                "date": "2026-07-11",
+                "excerpt": "Asking basic questions won't work, because they have a few dozen other guys already asking the exact same thing. I read a long reddit thread asking women what they look for on dating apps. To summarise the general consensus of the answers: firstly be attractive, and secondly don't be boring. They we",
+                "score": 7,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owta4gc/"
+              },
+              {
+                "author": "Sensitive_Tea5720",
+                "date": "2026-07-11",
+                "excerpt": "I\u2019m a woman (28), located in Europe and always ask questions but I will admit that I only reply to a handful of men. A \u201dHi\u201d is not a great first text and not something I reply to unless there\u2019s something special about his photos/profile. Then I will give it a shot and ask an interesting question or ",
+                "score": 5,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt9fnr/"
+              },
+              {
+                "author": "turquoisepeacock",
+                "date": "2026-07-11",
+                "excerpt": "Woman here. I don\u2019t invest emotionally in those conversations because I don\u2019t know how interested the man is. I know he\u2019s interested in me when he asks to see me. In person, I\u2019ll get to know him and invest a lot more. It\u2019s not worth investing my emotional energy in a man who may be talking to me for",
+                "score": 2,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owtl6e4/"
+              },
+              {
+                "author": "sweetcanadiangirlie",
+                "date": "2026-07-11",
+                "excerpt": "I honestly think people put way too much thought into texting these days. This isn\u2019t just a woman thing\u2026 it\u2019s with both genders. As a woman, I\u2019ve had plenty of conversations with men where I\u2019m the one carrying everything too. Mutual interest matters. Women should show interest in men just as much as",
+                "score": 2,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt95ez/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-07-11",
+                "excerpt": "Welcome to r/dating. Please make sure you read our rules here and remember to: Be polite and respect each other. Do not call people names or engage in slapfights. All advice given must be good, ethical advice. Do not post hateful or harmful rhetoric - you will be banned Follow reddit rules. Do not post content that promotes hate based on identity or vulnerability. Do not bully or harass other user",
+                "score": 1,
+                "url": "https://reddit.com/r/dating/comments/1ut5hsf/comment/owt4a66/"
+              }
+            ]
+          },
+          "published_at": "2026-07-11",
+          "relevance_hint": 0.09,
+          "snippet": "Men do it too, yeah. Partly, I think it\u2019s just a lot of people just aren\u2019t good conversationalists in any format. And partly, it\u2019s just difficult for many people to work up a lot of genuine curiosity in a stranger over text. You lack all of the normal social and interpersonal cues that generate real Because they get unlimited attention and don\u2019t give a shit. That's been my experience with 99% of men too. It's just hard to get to know someone on an app",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why do so many women on dating apps make no effort to get to know you?",
+          "url": "https://www.reddit.com/r/dating/comments/1ut5hsf/why_do_so_many_women_on_dating_apps_make_no/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why do so many women on dating apps make no effort to get to know you?",
+      "url": "https://www.reddit.com/r/dating/comments/1ut5hsf/why_do_so_many_women_on_dating_apps_make_no/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/scotland/comments/1vgwxtm/passenger_frustration_with_ongoing_glitches_in",
+      "cluster_id": "cluster-2",
+      "engagement": 82,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R3",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and understanding through all this, and complaints should be entirely directed to the people at the top who organised this shambles. Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success... This was very clearly rushed to release and not tested enough. And while replatforming an app is always a PITA and I feel for the devs, it's a mess. On the This week it wouldn\u2019t let me activate a new flexi ticket for the journey home. But the old one worked on the barrier!...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Passenger frustration with ongoing 'glitches' in new ScotRail app\nNone\nI think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and understanding through all this, and complaints should be entirely directed to the people at the top who organised this shambles. Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success... This was very clearly rushed to release and not tested enough. And while replatforming an app is always a PITA and I feel for the devs, it's a mess. On the This week it wouldn\u2019t let me activate a new flexi ticket for the journey home. But the old one worked on the barrier! On the train, the conductor looked at the app, realised there was no way to use another ticket and just let it slide. They are losing money on flexi tickets if that\u2019s a common bug. W",
+          "container": "Scotland",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 55,
+            "score": 87
+          },
+          "engagement_score": 82,
+          "freshness": 97,
+          "item_id": "R3",
+          "local_rank_score": 0.42850000000000005,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "Write to your MSP about this complete farce. Also, other train ticket apps are available.",
+              "Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success.",
+              "I think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and under...",
+              "I genuinely worry for Scotrail management when they pick 2 days before the busiest season begins to roll out their new, apparently untested, app.",
+              "Entering all the details for a return then the ticket choice on the next screen defaulting to a single is remarkable bad design.",
+              "I've just been going to the machine/kiosk and buying my ticket, can't even get logged in on the app it just crashes as soon as it tries to take me to...",
+              "This week it wouldn\u2019t let me activate a new flexi ticket for the journey home.",
+              "The big big issue with the rollout of the new app is that ScotRail haven't really given people a good reason to use the new app.",
+              "Used it yesterday for the first time to browse tickets.",
+              "High key it feels vibe-coded. I uninstalled."
+            ],
+            "top_comments": [
+              {
+                "author": "sheddraby",
+                "date": "2026-08-06",
+                "excerpt": "I think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and understanding through all this, and complaints should be entirely directed to the people at the top who organised this shambles.",
+                "score": 67,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20og9a/"
+              },
+              {
+                "author": "Working_on_Writing",
+                "date": "2026-08-06",
+                "excerpt": "Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success... This was very clearly rushed to release and not tested enough. And while replatforming an app is always a PITA and I feel for the devs, it's a mess. On the ",
+                "score": 54,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20rb7w/"
+              },
+              {
+                "author": "rosco88",
+                "date": "2026-08-06",
+                "excerpt": "This week it wouldn\u2019t let me activate a new flexi ticket for the journey home. But the old one worked on the barrier! On the train, the conductor looked at the app, realised there was no way to use another ticket and just let it slide. They are losing money on flexi tickets if that\u2019s a common bug. W",
+                "score": 27,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20m09u/"
+              },
+              {
+                "author": "Pfdswfsdcsdqwww",
+                "date": "2026-08-06",
+                "excerpt": "I genuinely worry for Scotrail management when they pick 2 days before the busiest season begins to roll out their new, apparently untested, app.",
+                "score": 22,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p211bxe/"
+              },
+              {
+                "author": "zellisgoatbond",
+                "date": "2026-08-06",
+                "excerpt": "The big big issue with the rollout of the new app is that ScotRail haven't really given people a good reason to use the new app. There's no major new features, big new things you couldn't do with the old app, anything like that. There are certainly good reason why ScotRail wants a new app (namely th",
+                "score": 22,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20kb2e/"
+              },
+              {
+                "author": "twistedLucidity",
+                "date": "2026-08-06",
+                "excerpt": "Write to your MSP about this complete farce. Also, other train ticket apps are available. Just keep an eye on any additional booking fees and the like.",
+                "score": 19,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20ht36/"
+              },
+              {
+                "author": "No-Dance1377",
+                "date": "2026-08-06",
+                "excerpt": "Entering all the details for a return then the ticket choice on the next screen defaulting to a single is remarkable bad design.",
+                "score": 16,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20u4qf/"
+              },
+              {
+                "author": "cameruso",
+                "date": "2026-08-06",
+                "excerpt": "Used it yesterday for the first time to browse tickets. So shockingly bad it had me rethinking the merits of independence. Beyond basic gaps in design and experience. Infuriating gaps. Lads, you have a template to work from ffs. Did not buy tickets so yet to experience the joys of the described bugs",
+                "score": 12,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20s4yr/"
+              },
+              {
+                "author": "StandWild4256",
+                "date": "2026-08-06",
+                "excerpt": "I've just been going to the machine/kiosk and buying my ticket, can't even get logged in on the app it just crashes as soon as it tries to take me to the login screen. Massive farce!",
+                "score": 10,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p20pood/"
+              },
+              {
+                "author": "sometimes_point",
+                "date": "2026-08-06",
+                "excerpt": "High key it feels vibe-coded. I uninstalled.",
+                "score": 6,
+                "url": "https://reddit.com/r/Scotland/comments/1vgwxtm/comment/p215xu3/"
+              }
+            ]
+          },
+          "published_at": "2026-08-06",
+          "relevance_hint": 0.37,
+          "snippet": "I think it's worth highlighting that from what I have experienced, the scotrail staff on board and at stations have been super accommodating and understanding through all this, and complaints should be entirely directed to the people at the top who organised this shambles. Installed it last night, knew it was going to be entertainingly bad when the authorization screen redirected me to localhost:3000 on success... This was very clearly rushed to release and not tested enough. And while replatforming an app is always a PITA and I feel for the devs, it's a mess. On the This week it wouldn\u2019t let me activate a new flexi ticket for the journey home. But the old one worked on the barrier!...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Passenger frustration with ongoing 'glitches' in new ScotRail app",
+          "url": "https://www.reddit.com/r/Scotland/comments/1vgwxtm/passenger_frustration_with_ongoing_glitches_in/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Passenger frustration with ongoing 'glitches' in new ScotRail app",
+      "url": "https://www.reddit.com/r/Scotland/comments/1vgwxtm/passenger_frustration_with_ongoing_glitches_in/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/bitwarden/comments/1uw0f22/more_frustrated_with_every_update_now_unusable",
+      "cluster_id": "cluster-3",
+      "engagement": 72,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board. I wouldn't mind constantly changing UI if they're actually improvements, but for Bitwarden most of the time it's just moving things around for no apparent reason They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability. I totally agree with OP. When two of the key elements are ignored I start to get twitchy about the Security being treated in the same cavalier manner. For the fir I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "More frustrated with every update, now unusable for me\nNormally, I've been pretty inactive on Reddit, but I wanted to share this because I know there are other people who feel the same way. Since the latest Bitwarden update, the regular desktop app has become literally unusable for me. The account switcher rapidly glitches between two accounts. I can't select one, I can't remove them, and I can't log in to any account. Yes, I can uninstall this version and downgrade, but that's annoying as hell. Yes, it's normal for software to have bugs from time t\nI simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board. I wouldn't mind constantly changing UI if they're actually improvements, but for Bitwarden most of the time it's just moving things around for no apparent reason They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability. I totally agree with OP. When two of the key elements are ignored I start to get twitchy about the Security being treated in the same cavalier manner. For the fir I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go back to the plain UI from like a year or two ago lol. However as a package BW works totally fine for me in the couple years I've used it. I open it copy logins and log out. What you're expe",
+          "container": "Bitwarden",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 24,
+            "score": 76
+          },
+          "engagement_score": 72,
+          "freshness": 51,
+          "item_id": "R4",
+          "local_rank_score": 0.36200000000000004,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [
+              "Hi there, if this sounds like the issue you're describing, let me know if the steps there resolve it for you.",
+              "I have the Bitwarden app on my phone, but I've never used the desktop Bitwarden app.",
+              "I simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board.",
+              "They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability.",
+              "Someone posted a few days ago that Bitwarden also doesn't seem to consider older users.",
+              "I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go back to the plain UI from like a year o...",
+              "In regards to the account switcher, the issue must be isolated to you/your device because I do not experience that switching between my personal accou...",
+              "I agree that it's not user friendly, they assume that every user is techy to understand the UI",
+              "They keep farting around with the UI (now everything be one big block makes it difficult to see things\u2026 time to fire their UI people), yet somehow we...",
+              "It makes no sense why it keeps getting worse! First they took away shortcuts so I can't just control+p a password to copy it."
+            ],
+            "top_comments": [
+              {
+                "author": "saltyrookieplayer",
+                "date": "2026-07-14",
+                "excerpt": "I simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board. I wouldn't mind constantly changing UI if they're actually improvements, but for Bitwarden most of the time it's just moving things around for no apparent reason",
+                "score": 41,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxfc2x7/"
+              },
+              {
+                "author": "Odin-Is-Listening",
+                "date": "2026-07-14",
+                "excerpt": "They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability. I totally agree with OP. When two of the key elements are ignored I start to get twitchy about the Security being treated in the same cavalier manner. For the fir",
+                "score": 17,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxgawrc/"
+              },
+              {
+                "author": "Imaginary-Fish1176",
+                "date": "2026-07-14",
+                "excerpt": "I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go back to the plain UI from like a year or two ago lol. However as a package BW works totally fine for me in the couple years I've used it. I open it copy logins and log out. What you're expe",
+                "score": 5,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxfhrdk/"
+              },
+              {
+                "author": "Jaded-Asparagus-2260",
+                "date": "2026-07-14",
+                "excerpt": "Someone posted a few days ago that Bitwarden also doesn't seem to consider older users. I introduced it to my parents, but it's become more frustrating for them to use because everything changes with every update. Guess that was me. I'm really having a hard time convincing my parents why they should",
+                "score": 4,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxfmb7p/"
+              },
+              {
+                "author": "DoAndroidsDrmOfSheep",
+                "date": "2026-07-14",
+                "excerpt": "I have the Bitwarden app on my phone, but I've never used the desktop Bitwarden app. Actually - I've never used the desktop app for any other password manager I've ever used either, that I can recall. I'm curious - what does one do that requires the desktop app? On a desktop I've always been able to",
+                "score": 3,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxh06j9/"
+              },
+              {
+                "author": "MFKDGAF",
+                "date": "2026-07-14",
+                "excerpt": "In regards to the account switcher, the issue must be isolated to you/your device because I do not experience that switching between my personal account and my account for work on both iOS and PC via Firefox. I will say, I wish we could set a avatar/profile picture because the switcher having the sa",
+                "score": 2,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxgaqac/"
+              },
+              {
+                "author": "dwbitw",
+                "date": "2026-07-14",
+                "excerpt": "Hi there, if this sounds like the issue you're describing, let me know if the steps there resolve it for you. For the UI/UIX comments below, please share your feedback on the early preview for the fall beta here.",
+                "score": 1,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxgphw2/"
+              },
+              {
+                "author": "adrian6478",
+                "date": "2026-07-14",
+                "excerpt": "I agree that it's not user friendly, they assume that every user is techy to understand the UI",
+                "score": 1,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxk5wig/"
+              },
+              {
+                "author": "SawkeeReemo",
+                "date": "2026-07-15",
+                "excerpt": "They keep farting around with the UI (now everything be one big block makes it difficult to see things\u2026 time to fire their UI people), yet somehow we still don\u2019t have the ability to add our own icon for sites it can grab one from. Not a functionality issue, but just a QoL addition that exists on oth",
+                "score": 1,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oxn0bws/"
+              },
+              {
+                "author": "balling",
+                "date": "2026-07-17",
+                "excerpt": "It makes no sense why it keeps getting worse! First they took away shortcuts so I can't just control+p a password to copy it.. then they took away my ability to right click and select 'copy password' a month after that lol! They added like 5 extra clicks along with unnecessary mouse movements for me",
+                "score": 1,
+                "url": "https://reddit.com/r/Bitwarden/comments/1uw0f22/comment/oy72z0c/"
+              }
+            ]
+          },
+          "published_at": "2026-07-14",
+          "relevance_hint": 0.37,
+          "snippet": "I simply hate that the entire thing feels like it's designed by developers and there's 0 experienced designers on board. I wouldn't mind constantly changing UI if they're actually improvements, but for Bitwarden most of the time it's just moving things around for no apparent reason They need to listen to their users. If there are three essential pre-requisites for Password Manager: Security - Reliability - Usability. I totally agree with OP. When two of the key elements are ignored I start to get twitchy about the Security being treated in the same cavalier manner. For the fir I will second the complaint that the UI changing frequently is quite annoying and I wish I had an option to go...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "More frustrated with every update, now unusable for me",
+          "url": "https://www.reddit.com/r/Bitwarden/comments/1uw0f22/more_frustrated_with_every_update_now_unusable/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "More frustrated with every update, now unusable for me",
+      "url": "https://www.reddit.com/r/Bitwarden/comments/1uw0f22/more_frustrated_with_every_update_now_unusable/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/feeld/comments/1v49z5u/84_matches_after_3_days_off_app",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R6",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 12.5,
+      "rrf_score": 0.0078125,
+      "snippet": "I just wanted to share this, so some of you will cool your jets when people delay to respond to being liked with you. I'm a CIS woman, 50, gorgeous, fat, pansexual and married. I've been on the app since February. For the last month, I would say, I get about 4-8 likes a day. My husband decided to disconnect his profile from mine. So I got this up tick. This uptick is pretty normal when he adds or",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "84 Matches After 3 Days Off App\nI just wanted to share this, so some of you will cool your jets when people delay to respond to being liked with you. I'm a CIS woman, 50, gorgeous, fat, pansexual and married. I've been on the app since February. For the last month, I would say, I get about 4-8 likes a day. My husband decided to disconnect his profile from mine. So I got this up tick. This uptick is pretty normal when he adds or disconnects me or after I return from a pause. I pause my account a lot because I'm a busy gal, get",
+          "container": "feeld",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 70,
+          "item_id": "R6",
+          "local_rank_score": 0.3375,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-23",
+          "relevance_hint": 0.49,
+          "snippet": "I just wanted to share this, so some of you will cool your jets when people delay to respond to being liked with you. I'm a CIS woman, 50, gorgeous, fat, pansexual and married. I've been on the app since February. For the last month, I would say, I get about 4-8 likes a day. My husband decided to disconnect his profile from mine. So I got this up tick. This uptick is pretty normal when he adds or",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "84 Matches After 3 Days Off App",
+          "url": "https://www.reddit.com/r/feeld/comments/1v49z5u/84_matches_after_3_days_off_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "84 Matches After 3 Days Off App",
+      "url": "https://www.reddit.com/r/feeld/comments/1v49z5u/84_matches_after_3_days_off_app/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
