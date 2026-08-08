@@ -1,0 +1,179 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I would pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@thewellroundedhuman/video/7670716753147645198"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@thewellroundedhuman/video/7670716753147645198"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "This had to be the craziest turn of events... If you want to find the healthiest orders at any restaurant, download @MenuFit.app and use cod"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-08T12:52:38.328064+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "thewellroundedhuman",
+        "body": "This had to be the craziest turn of events... If you want to find the healthiest orders at any restaurant, download @MenuFit.app and use code \"thewellroundedhuman\" link in bio #nyc #healthyfood\nI'll pay for your food if we go somewhere healthier hello remind me my friend what up though I know you're doing your thing and I know you're recording too doing that in front of my school and you're scaring my customers I need you to like move it out I'm just standing here though yeah but you can't do that ha ha ha ha ha alright can I show you a handshake can I show you a handshake I'm about to supervise you with my ass my fault my fault what's up my man how's your day going I'm still breathing amen to that what's your name Mark Mark nice to meet you I'm John so you collecting bottles how long you've been doing this for a while cause I sleep in the park with myself you sleep in the park yeah when I was in the shelter last year they jumped me and they hit me in the eye with a metal pipe oh man yeah so I don't like being in the shelter yeah I can imagine I'm sorry about that what's the most amount of bottles you've gotten like in a day probably like 200 200 yeah how much is that $10 $10 yeah that's the most you made in a day here's a 20 thank you absolutely you take your lunch break yet no how long you been picking up bottles I've been picking up bottles since 6:00 this morning and you didn't take your lunch break yet come on let's get you lunch here's another 20 come on let's go my man can I get my friend cause he he me and him sleep on the same bench get your friend let's get them lunch too they collect bottles too what up though you ain't gonna tell me you got McDonald's right now we dig in the garbage we get any kind of food you just got that from the garbage i'mma buy you lunch man let's get rid of that sanitary shit you gave me money I'm from the oh man wow you guys you guys look out for each other shit man one more for you shit man you shit one more for you I'm buying that food now you guys been to just salad it's one of my favourite spots if you wanna know the healthiest order at every restaurant download menu fit link in bio amen amen amen you said what you didn't take half to your friend you can get another one for your friend that's what we do I always eat half and pass one to your friend where's your friend like whoever sits in the park with us if they're hungry you take this take half that's how we all feed each other whoa you sure you don't want another one you can take another one for your friend hmm I feel like a rabbit what you mean ha ha oh cause of the vegetables I'm not...",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 2587,
+          "likes": 117386,
+          "shares": 7769,
+          "views": 850885
+        },
+        "engagement_score": 100,
+        "freshness": 95,
+        "item_id": "TK1",
+        "local_rank_score": 0.5195,
+        "local_relevance": 0.28,
+        "metadata": {
+          "hashtags": [
+            "nyc",
+            "healthyfood"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-06",
+        "relevance_hint": 0.24,
+        "snippet": "I'll pay for your food if we go somewhere healthier hello remind me my friend what up though I know you're doing your thing and I know you're recording too doing that in front of my school and you're scaring my customers I need you to like move it out I'm just standing here though yeah but you can't do that ha ha ha ha ha alright can I show you a handshake can I show you a handshake I'm about to supervise you with my ass my fault my fault what's up my man how's your day going I'm still breathing amen to that what's your name Mark Mark nice to meet you I'm John so you collecting bottles...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "This had to be the craziest turn of events... If you want to find the healthiest orders at any restaurant, download @MenuFit.app and use cod",
+        "url": "https://www.tiktok.com/@thewellroundedhuman/video/7670716753147645198",
+        "why_relevant": "TikTok: This had to be the craziest turn of events... If you want to"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I would pay for an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I would pay for an app\", especially about \"i pay app\"?",
+        "search_query": "\"i pay app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-09",
+  "range_to": "2026-08-08",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@thewellroundedhuman/video/7670716753147645198",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK1",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 19.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I'll pay for your food if we go somewhere healthier hello remind me my friend what up though I know you're doing your thing and I know you're recording too doing that in front of my school and you're scaring my customers I need you to like move it out I'm just standing here though yeah but you can't do that ha ha ha ha ha alright can I show you a handshake can I show you a handshake I'm about to supervise you with my ass my fault my fault what's up my man how's your day going I'm still breathing amen to that what's your name Mark Mark nice to meet you I'm John so you collecting bottles...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "thewellroundedhuman",
+          "body": "This had to be the craziest turn of events... If you want to find the healthiest orders at any restaurant, download @MenuFit.app and use code \"thewellroundedhuman\" link in bio #nyc #healthyfood\nI'll pay for your food if we go somewhere healthier hello remind me my friend what up though I know you're doing your thing and I know you're recording too doing that in front of my school and you're scaring my customers I need you to like move it out I'm just standing here though yeah but you can't do that ha ha ha ha ha alright can I show you a handshake can I show you a handshake I'm about to supervise you with my ass my fault my fault what's up my man how's your day going I'm still breathing amen to that what's your name Mark Mark nice to meet you I'm John so you collecting bottles how long you've been doing this for a while cause I sleep in the park with myself you sleep in the park yeah when I was in the shelter last year they jumped me and they hit me in the eye with a metal pipe oh man yeah so I don't like being in the shelter yeah I can imagine I'm sorry about that what's the most amount of bottles you've gotten like in a day probably like 200 200 yeah how much is that $10 $10 yeah that's the most you made in a day here's a 20 thank you absolutely you take your lunch break yet no how long you been picking up bottles I've been picking up bottles since 6:00 this morning and you didn't take your lunch break yet come on let's get you lunch here's another 20 come on let's go my man can I get my friend cause he he me and him sleep on the same bench get your friend let's get them lunch too they collect bottles too what up though you ain't gonna tell me you got McDonald's right now we dig in the garbage we get any kind of food you just got that from the garbage i'mma buy you lunch man let's get rid of that sanitary shit you gave me money I'm from the oh man wow you guys you guys look out for each other shit man one more for you shit man you shit one more for you I'm buying that food now you guys been to just salad it's one of my favourite spots if you wanna know the healthiest order at every restaurant download menu fit link in bio amen amen amen you said what you didn't take half to your friend you can get another one for your friend that's what we do I always eat half and pass one to your friend where's your friend like whoever sits in the park with us if they're hungry you take this take half that's how we all feed each other whoa you sure you don't want another one you can take another one for your friend hmm I feel like a rabbit what you mean ha ha oh cause of the vegetables I'm not...",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 2587,
+            "likes": 117386,
+            "shares": 7769,
+            "views": 850885
+          },
+          "engagement_score": 100,
+          "freshness": 95,
+          "item_id": "TK1",
+          "local_rank_score": 0.5195,
+          "local_relevance": 0.28,
+          "metadata": {
+            "hashtags": [
+              "nyc",
+              "healthyfood"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-06",
+          "relevance_hint": 0.24,
+          "snippet": "I'll pay for your food if we go somewhere healthier hello remind me my friend what up though I know you're doing your thing and I know you're recording too doing that in front of my school and you're scaring my customers I need you to like move it out I'm just standing here though yeah but you can't do that ha ha ha ha ha alright can I show you a handshake can I show you a handshake I'm about to supervise you with my ass my fault my fault what's up my man how's your day going I'm still breathing amen to that what's your name Mark Mark nice to meet you I'm John so you collecting bottles...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "This had to be the craziest turn of events... If you want to find the healthiest orders at any restaurant, download @MenuFit.app and use cod",
+          "url": "https://www.tiktok.com/@thewellroundedhuman/video/7670716753147645198",
+          "why_relevant": "TikTok: This had to be the craziest turn of events... If you want to"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "This had to be the craziest turn of events... If you want to find the healthiest orders at any restaurant, download @MenuFit.app and use cod",
+      "url": "https://www.tiktok.com/@thewellroundedhuman/video/7670716753147645198"
+    }
+  ],
+  "topic": "\"I would pay for an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

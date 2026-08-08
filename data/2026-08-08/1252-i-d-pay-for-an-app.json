@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I.d pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@chrisssykalo.mp4/video/7669530520660774158"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@chrisssykalo.mp4/video/7669530520660774158"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully.  #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chriss"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-08T12:52:49.881712+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "chrisssykalo.mp4",
+        "body": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully.  #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chrissy @TikTok",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 5,
+          "likes": 65,
+          "shares": 3,
+          "views": 467
+        },
+        "engagement_score": 47,
+        "freshness": 88,
+        "item_id": "TK8",
+        "local_rank_score": 0.3645,
+        "local_relevance": 0.15,
+        "metadata": {
+          "hashtags": [
+            "tiktok",
+            "fyp\u30b7",
+            "demitrakalogerasedit",
+            "kalogerassisters",
+            "Chrissy"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-02",
+        "relevance_hint": 0.49,
+        "snippet": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully. #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chrissy @TikTok",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully.  #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chriss",
+        "url": "https://www.tiktok.com/@chrisssykalo.mp4/video/7669530520660774158",
+        "why_relevant": "TikTok: It\u2019s not cool that we have to PAY for views fix your app Tik"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I.d pay for an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I.d pay for an app\", especially about \"i.d pay app\"?",
+        "search_query": "\"i.d pay app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-09",
+  "range_to": "2026-08-08",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@chrisssykalo.mp4/video/7669530520660774158",
+      "cluster_id": "cluster-1",
+      "engagement": 47,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK8",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK8",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 8.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully. #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chrissy @TikTok",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "chrisssykalo.mp4",
+          "body": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully.  #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chrissy @TikTok",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 5,
+            "likes": 65,
+            "shares": 3,
+            "views": 467
+          },
+          "engagement_score": 47,
+          "freshness": 88,
+          "item_id": "TK8",
+          "local_rank_score": 0.3645,
+          "local_relevance": 0.15,
+          "metadata": {
+            "hashtags": [
+              "tiktok",
+              "fyp\u30b7",
+              "demitrakalogerasedit",
+              "kalogerassisters",
+              "Chrissy"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-02",
+          "relevance_hint": 0.49,
+          "snippet": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully. #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chrissy @TikTok",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully.  #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chriss",
+          "url": "https://www.tiktok.com/@chrisssykalo.mp4/video/7669530520660774158",
+          "why_relevant": "TikTok: It\u2019s not cool that we have to PAY for views fix your app Tik"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "It\u2019s not cool that we have to PAY for views fix your app TikTok respectfully.  #tiktok #fyp\u30b7 #demitrakalogerasedit #kalogerassisters #Chriss",
+      "url": "https://www.tiktok.com/@chrisssykalo.mp4/video/7669530520660774158"
+    }
+  ],
+  "topic": "\"I.d pay for an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
