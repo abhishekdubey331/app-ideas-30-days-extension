@@ -1,0 +1,560 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"better app than\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/intermittentfasting/comments/1vglpu4/better_app_than_zero"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/intermittentfasting/comments/1vglpu4/better_app_than_zero"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Better app than zero?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Need help with a new manga app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nycjobs/comments/1vjdne8/need_something"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/nycjobs/comments/1vjdne8/need_something"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Need something"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/medicoretards/comments/1v0olgi/any_other_better_app_than_marks"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/medicoretards/comments/1v0olgi/any_other_better_app_than_marks"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any other better app than marks?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-10T09:24:49.352330+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Better app than zero?\nHi! I\u2019ve been using the zero app for awhile now and liked that I could go back and look at my progress with fasts, weight, etc. However, when I got a new phone and switched everything over, I\u2019m now expected to pay for \u201czero plus\u201d in order to see ANY HISTORY AT ALL! They don\u2019t even offer a free trial either. I\u2019m simply not doing that. Does anyone have any better recommendations that let you track both fasts and weight? Thanks!\nI used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app. It's a simple interface, but tracks weight, time, measurements, everything. I used it on an android phone and it keeps me accountable enough! You're welcome to try my app, Fasting Center. Feedback is always welcome! By the way, I used Zero years ago and ran into the exact same issue you're describing. Switched to Easy Fast, same thing happened again. That's how I ended up building my own app \ud83d\ude0a Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers.",
+        "container": "intermittentfasting",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 5
+        },
+        "engagement_score": 21,
+        "freshness": 89,
+        "item_id": "R4",
+        "local_rank_score": 0.393,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app.",
+            "You're welcome to try my app, Fasting Center. Feedback is always welcome!",
+            "Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers."
+          ],
+          "top_comments": [
+            {
+              "author": "unexpectedreddit",
+              "date": "2026-08-05",
+              "excerpt": "I used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app. It's a simple interface, but tracks weight, time, measurements, everything. I used it on an android phone and it keeps me accountable enough!",
+              "score": 2,
+              "url": "https://reddit.com/r/intermittentfasting/comments/1vglpu4/comment/p1y6e1t/"
+            },
+            {
+              "author": "andtitov",
+              "date": "2026-08-06",
+              "excerpt": "You're welcome to try my app, Fasting Center. Feedback is always welcome! By the way, I used Zero years ago and ran into the exact same issue you're describing. Switched to Easy Fast, same thing happened again. That's how I ended up building my own app \ud83d\ude0a",
+              "score": 1,
+              "url": "https://reddit.com/r/intermittentfasting/comments/1vglpu4/comment/p25htc4/"
+            },
+            {
+              "author": "Flashy-Bandicoot889",
+              "date": "2026-08-06",
+              "excerpt": "Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers.",
+              "score": 1,
+              "url": "https://reddit.com/r/intermittentfasting/comments/1vglpu4/comment/p25itab/"
+            }
+          ]
+        },
+        "published_at": "2026-08-05",
+        "relevance_hint": 1.0,
+        "snippet": "I used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app. It's a simple interface, but tracks weight, time, measurements, everything. I used it on an android phone and it keeps me accountable enough! You're welcome to try my app, Fasting Center. Feedback is always welcome! By the way, I used Zero years ago and ran into the exact same issue you're describing. Switched to Easy Fast, same thing happened again. That's how I ended up building my own app \ud83d\ude0a Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Better app than zero?",
+        "url": "https://www.reddit.com/r/intermittentfasting/comments/1vglpu4/better_app_than_zero/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Need something\nNeed to find a better app than indeed or craiglist. Any hot newer websites that I can get some luck on? Or even a job hall, if there is still such a thing.",
+        "container": "NYCjobs",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 2
+        },
+        "engagement_score": 1,
+        "freshness": 97,
+        "item_id": "R6",
+        "local_rank_score": 0.393,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-09",
+        "relevance_hint": 0.25,
+        "snippet": "Need to find a better app than indeed or craiglist. Any hot newer websites that I can get some luck on? Or even a job hall, if there is still such a thing.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Need something",
+        "url": "https://www.reddit.com/r/NYCjobs/comments/1vjdne8/need_something/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Need help with a new manga app\nAny recommendations I have komikku but dont know how to use it need better app than manga rise\nI highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+        "container": "mangapiracy",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 1
+        },
+        "engagement_score": 11,
+        "freshness": 85,
+        "item_id": "R5",
+        "local_rank_score": 0.373,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I highly recommend reading the guide from the Mihon documentation (since that is based on)."
+          ],
+          "top_comments": [
+            {
+              "author": "CedDotPaltep12X",
+              "date": "2026-08-03",
+              "excerpt": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+              "score": 5,
+              "url": "https://reddit.com/r/mangapiracy/comments/1vdxso2/comment/p1csk4d/"
+            }
+          ]
+        },
+        "published_at": "2026-08-03",
+        "relevance_hint": 0.44,
+        "snippet": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Need help with a new manga app",
+        "url": "https://www.reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any other better app than marks?\nI want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+        "container": "MEDICOreTARDS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 55,
+        "item_id": "R7",
+        "local_rank_score": 0.28700000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-19",
+        "relevance_hint": 1.0,
+        "snippet": "I want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any other better app than marks?",
+        "url": "https://www.reddit.com/r/MEDICOreTARDS/comments/1v0olgi/any_other_better_app_than_marks/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"better app than\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"better app than\"?",
+        "search_query": "\"better app than\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-11",
+  "range_to": "2026-08-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/intermittentfasting/comments/1vglpu4/better_app_than_zero",
+      "cluster_id": "cluster-1",
+      "engagement": 21,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app. It's a simple interface, but tracks weight, time, measurements, everything. I used it on an android phone and it keeps me accountable enough! You're welcome to try my app, Fasting Center. Feedback is always welcome! By the way, I used Zero years ago and ran into the exact same issue you're describing. Switched to Easy Fast, same thing happened again. That's how I ended up building my own app \ud83d\ude0a Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Better app than zero?\nHi! I\u2019ve been using the zero app for awhile now and liked that I could go back and look at my progress with fasts, weight, etc. However, when I got a new phone and switched everything over, I\u2019m now expected to pay for \u201czero plus\u201d in order to see ANY HISTORY AT ALL! They don\u2019t even offer a free trial either. I\u2019m simply not doing that. Does anyone have any better recommendations that let you track both fasts and weight? Thanks!\nI used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app. It's a simple interface, but tracks weight, time, measurements, everything. I used it on an android phone and it keeps me accountable enough! You're welcome to try my app, Fasting Center. Feedback is always welcome! By the way, I used Zero years ago and ran into the exact same issue you're describing. Switched to Easy Fast, same thing happened again. That's how I ended up building my own app \ud83d\ude0a Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers.",
+          "container": "intermittentfasting",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 5
+          },
+          "engagement_score": 21,
+          "freshness": 89,
+          "item_id": "R4",
+          "local_rank_score": 0.393,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app.",
+              "You're welcome to try my app, Fasting Center. Feedback is always welcome!",
+              "Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers."
+            ],
+            "top_comments": [
+              {
+                "author": "unexpectedreddit",
+                "date": "2026-08-05",
+                "excerpt": "I used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app. It's a simple interface, but tracks weight, time, measurements, everything. I used it on an android phone and it keeps me accountable enough!",
+                "score": 2,
+                "url": "https://reddit.com/r/intermittentfasting/comments/1vglpu4/comment/p1y6e1t/"
+              },
+              {
+                "author": "andtitov",
+                "date": "2026-08-06",
+                "excerpt": "You're welcome to try my app, Fasting Center. Feedback is always welcome! By the way, I used Zero years ago and ran into the exact same issue you're describing. Switched to Easy Fast, same thing happened again. That's how I ended up building my own app \ud83d\ude0a",
+                "score": 1,
+                "url": "https://reddit.com/r/intermittentfasting/comments/1vglpu4/comment/p25htc4/"
+              },
+              {
+                "author": "Flashy-Bandicoot889",
+                "date": "2026-08-06",
+                "excerpt": "Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers.",
+                "score": 1,
+                "url": "https://reddit.com/r/intermittentfasting/comments/1vglpu4/comment/p25itab/"
+              }
+            ]
+          },
+          "published_at": "2026-08-05",
+          "relevance_hint": 1.0,
+          "snippet": "I used easy fast. It's free and every so often the creator asks for a donation, but there is no stress and no forcing to pay for the app. It's a simple interface, but tracks weight, time, measurements, everything. I used it on an android phone and it keeps me accountable enough! You're welcome to try my app, Fasting Center. Feedback is always welcome! By the way, I used Zero years ago and ran into the exact same issue you're describing. Switched to Easy Fast, same thing happened again. That's how I ended up building my own app \ud83d\ude0a Zero is a privacy nightmare. Be prepared for them to sell all your info to data brokers.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Better app than zero?",
+          "url": "https://www.reddit.com/r/intermittentfasting/comments/1vglpu4/better_app_than_zero/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Better app than zero?",
+      "url": "https://www.reddit.com/r/intermittentfasting/comments/1vglpu4/better_app_than_zero/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app",
+      "cluster_id": "cluster-2",
+      "engagement": 11,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 22.0,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 14.099999999999994,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Need help with a new manga app\nAny recommendations I have komikku but dont know how to use it need better app than manga rise\nI highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+          "container": "mangapiracy",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 1
+          },
+          "engagement_score": 11,
+          "freshness": 85,
+          "item_id": "R5",
+          "local_rank_score": 0.373,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I highly recommend reading the guide from the Mihon documentation (since that is based on)."
+            ],
+            "top_comments": [
+              {
+                "author": "CedDotPaltep12X",
+                "date": "2026-08-03",
+                "excerpt": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+                "score": 5,
+                "url": "https://reddit.com/r/mangapiracy/comments/1vdxso2/comment/p1csk4d/"
+              }
+            ]
+          },
+          "published_at": "2026-08-03",
+          "relevance_hint": 0.44,
+          "snippet": "I highly recommend reading the guide from the Mihon documentation (since that is based on). For extension repos/stores, check out the wotaku wiki documentation as well as checking out everythingmoe for source suggestions.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Need help with a new manga app",
+          "url": "https://www.reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Need help with a new manga app",
+      "url": "https://www.reddit.com/r/mangapiracy/comments/1vdxso2/need_help_with_a_new_manga_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/nycjobs/comments/1vjdne8/need_something",
+      "cluster_id": "cluster-3",
+      "engagement": 1,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 6.5,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 16.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Need to find a better app than indeed or craiglist. Any hot newer websites that I can get some luck on? Or even a job hall, if there is still such a thing.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Need something\nNeed to find a better app than indeed or craiglist. Any hot newer websites that I can get some luck on? Or even a job hall, if there is still such a thing.",
+          "container": "NYCjobs",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 2
+          },
+          "engagement_score": 1,
+          "freshness": 97,
+          "item_id": "R6",
+          "local_rank_score": 0.393,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-09",
+          "relevance_hint": 0.25,
+          "snippet": "Need to find a better app than indeed or craiglist. Any hot newer websites that I can get some luck on? Or even a job hall, if there is still such a thing.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Need something",
+          "url": "https://www.reddit.com/r/NYCjobs/comments/1vjdne8/need_something/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Need something",
+      "url": "https://www.reddit.com/r/NYCjobs/comments/1vjdne8/need_something/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/medicoretards/comments/1v0olgi/any_other_better_app_than_marks",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 8.099999999999994,
+      "rrf_score": 0.0078125,
+      "snippet": "I want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any other better app than marks?\nI want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+          "container": "MEDICOreTARDS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 55,
+          "item_id": "R7",
+          "local_rank_score": 0.28700000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-19",
+          "relevance_hint": 1.0,
+          "snippet": "I want an app that will give access to both neet and jee pyqs latest. With correct solutions. And maybe notebook feature like marks. Free/paid both fine Marks premium only allows either neet or jee content",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any other better app than marks?",
+          "url": "https://www.reddit.com/r/MEDICOreTARDS/comments/1v0olgi/any_other_better_app_than_marks/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any other better app than marks?",
+      "url": "https://www.reddit.com/r/MEDICOreTARDS/comments/1v0olgi/any_other_better_app_than_marks/"
+    }
+  ],
+  "topic": "\"better app than\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

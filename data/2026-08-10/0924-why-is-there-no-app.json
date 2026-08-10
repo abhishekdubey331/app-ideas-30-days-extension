@@ -1,0 +1,644 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no \u201cApp Store\u201d for independent AI agents yet?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no app for ?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/drums/comments/1uy8b0k/im_developing_an_app_that_shows_you_the_drum_beat"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/drums/comments/1uy8b0k/im_developing_an_app_that_shows_you_the_drum_beat"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I'm developing an app that shows you the drum beat of any song"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-10T09:24:57.811971+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Why is there no \u201cApp Store\u201d for independent AI agents yet?\nOne thing that surprised me is that the barrier to entry is dropping much faster than I expected. There are now plenty of \"vibe coding\" or low-code platforms that let you connect models, tools, memory, and workflows without writing a huge amount of code. Almost anyone can build a useful agent. But then another question came up. if I build a killer agent that automates a complex workflow? Now what? How do people discover it? How do I deploy it without maintaining a bunch of infrastructure? I have\nYou are building a workflow. It may not be transferable between one user to another. App are plug and play There are like 100 of these. Some of them you can submit your tool to with GitHub. hugging face???",
+        "container": "artificial",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 6
+        },
+        "engagement_score": 100,
+        "freshness": 97,
+        "item_id": "R1",
+        "local_rank_score": 0.47250000000000003,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "You are building a workflow. It may not be transferable between one user to another. App are plug and play",
+            "There are like 100 of these. Some of them you can submit your tool to with GitHub.",
+            "Why cant you distribute it in the same app store as everything else? what makes you think the play store, appstore or steam dont work for agents?",
+            "The app-store framing hides the real constraint: agents do not consume apps, they consume capabilities.",
+            "The missing piece feels like discovery and more like trust.. giving random agents an access to real accounts and API keys is a huge ask.",
+            "The line in your post that matters most is the one you dropped in passing: \"I have to ask users to hand over their personal api keys."
+          ],
+          "top_comments": [
+            {
+              "author": "edimaudo",
+              "date": "2026-08-09",
+              "excerpt": "You are building a workflow. It may not be transferable between one user to another. App are plug and play",
+              "score": 2,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2ob0hb/"
+            },
+            {
+              "author": "turnnoblindeye",
+              "date": "2026-08-09",
+              "excerpt": "There are like 100 of these. Some of them you can submit your tool to with GitHub.",
+              "score": 2,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2p8ebt/"
+            },
+            {
+              "author": "Bulky-Status3592",
+              "date": "2026-08-10",
+              "excerpt": "hugging face???",
+              "score": 2,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2qzqfe/"
+            },
+            {
+              "author": "cakemates",
+              "date": "2026-08-09",
+              "excerpt": "Why cant you distribute it in the same app store as everything else? what makes you think the play store, appstore or steam dont work for agents?",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2nm7pp/"
+            },
+            {
+              "author": "failingscaling",
+              "date": "2026-08-09",
+              "excerpt": "Check out google agent garden",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2nnp2n/"
+            },
+            {
+              "author": "jordaneap",
+              "date": "2026-08-09",
+              "excerpt": "Cool idea!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2olpjl/"
+            },
+            {
+              "author": "Easy-Purple-1659",
+              "date": "2026-08-10",
+              "excerpt": "The app-store framing hides the real constraint: agents do not consume apps, they consume capabilities. An app store sells a binary a human double-clicks. An agent needs a discoverable, structured interface it can call, which is why MCP servers and registries are the closest thing we have. The store",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2s0b6d/"
+            },
+            {
+              "author": "Equal_Guess7232",
+              "date": "2026-08-10",
+              "excerpt": "The missing piece feels like discovery and more like trust.. giving random agents an access to real accounts and API keys is a huge ask.",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2skqyn/"
+            },
+            {
+              "author": "Sentient_Dawn",
+              "date": "2026-08-10",
+              "excerpt": "The line in your post that matters most is the one you dropped in passing: \"I have to ask users to hand over their personal api keys.\" That's the whole distribution problem. There's no equivalent yet of \"sign in with Google, this app gets calendar read-only, revoke anytime\" for agents. Until an agen",
+              "score": 1,
+              "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2splmy/"
+            }
+          ]
+        },
+        "published_at": "2026-08-09",
+        "relevance_hint": 0.89,
+        "snippet": "You are building a workflow. It may not be transferable between one user to another. App are plug and play There are like 100 of these. Some of them you can submit your tool to with GitHub. hugging face???",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no \u201cApp Store\u201d for independent AI agents yet?",
+        "url": "https://www.reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why is there no app for ?\nDid you ever have this question? If yes, what was it for?Ideas are welcomed too. It is for a small project i am working on :)\nFree songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+        "container": "hyderabad",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 3,
+        "freshness": 76,
+        "item_id": "R3",
+        "local_rank_score": 0.323,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80"
+          ],
+          "top_comments": [
+            {
+              "author": "Head_Eye_4921",
+              "date": "2026-07-29",
+              "excerpt": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+              "score": 1,
+              "url": "https://reddit.com/r/hyderabad/comments/1v9ykm5/comment/p0hbn1s/"
+            }
+          ]
+        },
+        "published_at": "2026-07-29",
+        "relevance_hint": 1.0,
+        "snippet": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no app for ?",
+        "url": "https://www.reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I'm developing an app that shows you the drum beat of any song\nI play drums as a hobby, and every time I heard a cool song I wanted to play along but I can't read sheet music, and figuring out the beat by ear took me forever. At some point I thought: why is there no app for this? So now I'm developing one. It's pretty simple: you drop in an mp3, the app listens to the song and shows you the beat as falling notes like Guitar Hero, but for drums. The note hits the line, you hit the drum. And if the original beat is too hard for you, the app can simplify it to\nEducator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song. Of all standard music notation, drum set notation is the most straightforward and easiest to learn. I get all my beginner students reading drum notation within the first 2 lessons. On top of that, drum to midi transcription is pretty unreliable and often over complicates I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards... Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc? Asking for an old out of touch boomer friend of mine\u2026",
+        "container": "drums",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 49,
+        "item_id": "R2",
+        "local_rank_score": 0.3045,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "Educator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song.",
+            "I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards...",
+            "Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc?",
+            "Legal, eu fiz um App, apesar de ter bastante ritmos Brasileiros estou criando aos poucos ritmos mais gen\u00e9ricos e traduzindo para outros idiomas, caso...",
+            "As an educator, I think it is a great idea! I have some really old gospel songs that I would love to be able to play the beat to.",
+            "I\u2019d love to use and app like this for more complex songs! Let me know if it\u2019s ever up for testers/on the store"
+          ],
+          "top_comments": [
+            {
+              "author": "lucasdenison",
+              "date": "2026-07-16",
+              "excerpt": "Educator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song. Of all standard music notation, drum set notation is the most straightforward and easiest to learn. I get all my beginner students reading drum notation within the first 2 lessons. On top of that, drum to midi transcription is pretty unreliable and often over complicates",
+              "score": 3,
+              "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxxcib4/"
+            },
+            {
+              "author": "ratamatter",
+              "date": "2026-07-16",
+              "excerpt": "I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards...",
+              "score": 2,
+              "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxx6lqm/"
+            },
+            {
+              "author": "Icy-Cockroach-655",
+              "date": "2026-07-16",
+              "excerpt": "Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc? Asking for an old out of touch boomer friend of mine\u2026",
+              "score": 1,
+              "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxxi4c0/"
+            },
+            {
+              "author": "BeatPock",
+              "date": "2026-07-18",
+              "excerpt": "Legal, eu fiz um App, apesar de ter bastante ritmos Brasileiros estou criando aos poucos ritmos mais gen\u00e9ricos e traduzindo para outros idiomas, caso deseje testar acessa aqui > https://app.beatpock.com/",
+              "score": 1,
+              "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oy779ux/"
+            },
+            {
+              "author": "Setting-Own",
+              "date": "2026-07-30",
+              "excerpt": "As an educator, I think it is a great idea! I have some really old gospel songs that I would love to be able to play the beat to. I am a computer science teacher and you are definitely going to need some AI here. You may have to train your own model, and if you do you need to make sure that you have",
+              "score": 1,
+              "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/p0q7xoo/"
+            },
+            {
+              "author": "jsi_yahtzee",
+              "date": "2026-07-16",
+              "excerpt": "I\u2019d love to use and app like this for more complex songs! Let me know if it\u2019s ever up for testers/on the store",
+              "score": 0,
+              "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxx9itx/"
+            }
+          ]
+        },
+        "published_at": "2026-07-16",
+        "relevance_hint": 0.4,
+        "snippet": "Educator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song. Of all standard music notation, drum set notation is the most straightforward and easiest to learn. I get all my beginner students reading drum notation within the first 2 lessons. On top of that, drum to midi transcription is pretty unreliable and often over complicates I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards... Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc? Asking for an old out of...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I'm developing an app that shows you the drum beat of any song",
+        "url": "https://www.reddit.com/r/drums/comments/1uy8b0k/im_developing_an_app_that_shows_you_the_drum_beat/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-11",
+  "range_to": "2026-08-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "You are building a workflow. It may not be transferable between one user to another. App are plug and play There are like 100 of these. Some of them you can submit your tool to with GitHub. hugging face???",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no \u201cApp Store\u201d for independent AI agents yet?\nOne thing that surprised me is that the barrier to entry is dropping much faster than I expected. There are now plenty of \"vibe coding\" or low-code platforms that let you connect models, tools, memory, and workflows without writing a huge amount of code. Almost anyone can build a useful agent. But then another question came up. if I build a killer agent that automates a complex workflow? Now what? How do people discover it? How do I deploy it without maintaining a bunch of infrastructure? I have\nYou are building a workflow. It may not be transferable between one user to another. App are plug and play There are like 100 of these. Some of them you can submit your tool to with GitHub. hugging face???",
+          "container": "artificial",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 6
+          },
+          "engagement_score": 100,
+          "freshness": 97,
+          "item_id": "R1",
+          "local_rank_score": 0.47250000000000003,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "You are building a workflow. It may not be transferable between one user to another. App are plug and play",
+              "There are like 100 of these. Some of them you can submit your tool to with GitHub.",
+              "Why cant you distribute it in the same app store as everything else? what makes you think the play store, appstore or steam dont work for agents?",
+              "The app-store framing hides the real constraint: agents do not consume apps, they consume capabilities.",
+              "The missing piece feels like discovery and more like trust.. giving random agents an access to real accounts and API keys is a huge ask.",
+              "The line in your post that matters most is the one you dropped in passing: \"I have to ask users to hand over their personal api keys."
+            ],
+            "top_comments": [
+              {
+                "author": "edimaudo",
+                "date": "2026-08-09",
+                "excerpt": "You are building a workflow. It may not be transferable between one user to another. App are plug and play",
+                "score": 2,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2ob0hb/"
+              },
+              {
+                "author": "turnnoblindeye",
+                "date": "2026-08-09",
+                "excerpt": "There are like 100 of these. Some of them you can submit your tool to with GitHub.",
+                "score": 2,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2p8ebt/"
+              },
+              {
+                "author": "Bulky-Status3592",
+                "date": "2026-08-10",
+                "excerpt": "hugging face???",
+                "score": 2,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2qzqfe/"
+              },
+              {
+                "author": "cakemates",
+                "date": "2026-08-09",
+                "excerpt": "Why cant you distribute it in the same app store as everything else? what makes you think the play store, appstore or steam dont work for agents?",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2nm7pp/"
+              },
+              {
+                "author": "failingscaling",
+                "date": "2026-08-09",
+                "excerpt": "Check out google agent garden",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2nnp2n/"
+              },
+              {
+                "author": "jordaneap",
+                "date": "2026-08-09",
+                "excerpt": "Cool idea!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2olpjl/"
+              },
+              {
+                "author": "Easy-Purple-1659",
+                "date": "2026-08-10",
+                "excerpt": "The app-store framing hides the real constraint: agents do not consume apps, they consume capabilities. An app store sells a binary a human double-clicks. An agent needs a discoverable, structured interface it can call, which is why MCP servers and registries are the closest thing we have. The store",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2s0b6d/"
+              },
+              {
+                "author": "Equal_Guess7232",
+                "date": "2026-08-10",
+                "excerpt": "The missing piece feels like discovery and more like trust.. giving random agents an access to real accounts and API keys is a huge ask.",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2skqyn/"
+              },
+              {
+                "author": "Sentient_Dawn",
+                "date": "2026-08-10",
+                "excerpt": "The line in your post that matters most is the one you dropped in passing: \"I have to ask users to hand over their personal api keys.\" That's the whole distribution problem. There's no equivalent yet of \"sign in with Google, this app gets calendar read-only, revoke anytime\" for agents. Until an agen",
+                "score": 1,
+                "url": "https://reddit.com/r/artificial/comments/1vjr1kf/comment/p2splmy/"
+              }
+            ]
+          },
+          "published_at": "2026-08-09",
+          "relevance_hint": 0.89,
+          "snippet": "You are building a workflow. It may not be transferable between one user to another. App are plug and play There are like 100 of these. Some of them you can submit your tool to with GitHub. hugging face???",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no \u201cApp Store\u201d for independent AI agents yet?",
+          "url": "https://www.reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no \u201cApp Store\u201d for independent AI agents yet?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for",
+      "cluster_id": "cluster-2",
+      "engagement": 3,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 6.15,
+      "item_id": "R3",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no app for ?\nDid you ever have this question? If yes, what was it for?Ideas are welcomed too. It is for a small project i am working on :)\nFree songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+          "container": "hyderabad",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 3,
+          "freshness": 76,
+          "item_id": "R3",
+          "local_rank_score": 0.323,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80"
+            ],
+            "top_comments": [
+              {
+                "author": "Head_Eye_4921",
+                "date": "2026-07-29",
+                "excerpt": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+                "score": 1,
+                "url": "https://reddit.com/r/hyderabad/comments/1v9ykm5/comment/p0hbn1s/"
+              }
+            ]
+          },
+          "published_at": "2026-07-29",
+          "relevance_hint": 1.0,
+          "snippet": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no app for ?",
+          "url": "https://www.reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no app for ?",
+      "url": "https://www.reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/drums/comments/1uy8b0k/im_developing_an_app_that_shows_you_the_drum_beat",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R2",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.400000000000006,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Educator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song. Of all standard music notation, drum set notation is the most straightforward and easiest to learn. I get all my beginner students reading drum notation within the first 2 lessons. On top of that, drum to midi transcription is pretty unreliable and often over complicates I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards... Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc? Asking for an old out of...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I'm developing an app that shows you the drum beat of any song\nI play drums as a hobby, and every time I heard a cool song I wanted to play along but I can't read sheet music, and figuring out the beat by ear took me forever. At some point I thought: why is there no app for this? So now I'm developing one. It's pretty simple: you drop in an mp3, the app listens to the song and shows you the beat as falling notes like Guitar Hero, but for drums. The note hits the line, you hit the drum. And if the original beat is too hard for you, the app can simplify it to\nEducator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song. Of all standard music notation, drum set notation is the most straightforward and easiest to learn. I get all my beginner students reading drum notation within the first 2 lessons. On top of that, drum to midi transcription is pretty unreliable and often over complicates I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards... Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc? Asking for an old out of touch boomer friend of mine\u2026",
+          "container": "drums",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 49,
+          "item_id": "R2",
+          "local_rank_score": 0.3045,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "Educator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song.",
+              "I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards...",
+              "Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc?",
+              "Legal, eu fiz um App, apesar de ter bastante ritmos Brasileiros estou criando aos poucos ritmos mais gen\u00e9ricos e traduzindo para outros idiomas, caso...",
+              "As an educator, I think it is a great idea! I have some really old gospel songs that I would love to be able to play the beat to.",
+              "I\u2019d love to use and app like this for more complex songs! Let me know if it\u2019s ever up for testers/on the store"
+            ],
+            "top_comments": [
+              {
+                "author": "lucasdenison",
+                "date": "2026-07-16",
+                "excerpt": "Educator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song. Of all standard music notation, drum set notation is the most straightforward and easiest to learn. I get all my beginner students reading drum notation within the first 2 lessons. On top of that, drum to midi transcription is pretty unreliable and often over complicates",
+                "score": 3,
+                "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxxcib4/"
+              },
+              {
+                "author": "ratamatter",
+                "date": "2026-07-16",
+                "excerpt": "I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards...",
+                "score": 2,
+                "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxx6lqm/"
+              },
+              {
+                "author": "Icy-Cockroach-655",
+                "date": "2026-07-16",
+                "excerpt": "Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc? Asking for an old out of touch boomer friend of mine\u2026",
+                "score": 1,
+                "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxxi4c0/"
+              },
+              {
+                "author": "BeatPock",
+                "date": "2026-07-18",
+                "excerpt": "Legal, eu fiz um App, apesar de ter bastante ritmos Brasileiros estou criando aos poucos ritmos mais gen\u00e9ricos e traduzindo para outros idiomas, caso deseje testar acessa aqui > https://app.beatpock.com/",
+                "score": 1,
+                "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oy779ux/"
+              },
+              {
+                "author": "Setting-Own",
+                "date": "2026-07-30",
+                "excerpt": "As an educator, I think it is a great idea! I have some really old gospel songs that I would love to be able to play the beat to. I am a computer science teacher and you are definitely going to need some AI here. You may have to train your own model, and if you do you need to make sure that you have",
+                "score": 1,
+                "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/p0q7xoo/"
+              },
+              {
+                "author": "jsi_yahtzee",
+                "date": "2026-07-16",
+                "excerpt": "I\u2019d love to use and app like this for more complex songs! Let me know if it\u2019s ever up for testers/on the store",
+                "score": 0,
+                "url": "https://reddit.com/r/drums/comments/1uy8b0k/comment/oxx9itx/"
+              }
+            ]
+          },
+          "published_at": "2026-07-16",
+          "relevance_hint": 0.4,
+          "snippet": "Educator here. This would be okay for simple songs or having fun, but this really wouldn\u2019t be the best way to learn a full song. Of all standard music notation, drum set notation is the most straightforward and easiest to learn. I get all my beginner students reading drum notation within the first 2 lessons. On top of that, drum to midi transcription is pretty unreliable and often over complicates I will use anything that helps me learn but everyone learns differently.... this already exists for keyboards... Sounds fun. Now, assuming I don\u2019t know how to just \u2018drop in an mp3\u2019, how would this work when I get my music through Spotify, Apple, etc? Asking for an old out of...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I'm developing an app that shows you the drum beat of any song",
+          "url": "https://www.reddit.com/r/drums/comments/1uy8b0k/im_developing_an_app_that_shows_you_the_drum_beat/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I'm developing an app that shows you the drum beat of any song",
+      "url": "https://www.reddit.com/r/drums/comments/1uy8b0k/im_developing_an_app_that_shows_you_the_drum_beat/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
