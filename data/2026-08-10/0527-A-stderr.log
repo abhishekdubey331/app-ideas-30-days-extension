@@ -1,0 +1,186 @@
+Batch A sources=reddit,hackernews
+Started at 2026-08-10T05:27:28Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/31358645310
+----
+
+===== Seed: "I.d pay for an app" =====
+/last30days · researching: "I.d pay for an app"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""i.d pay app"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22I.d+pay+for+an+app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"I.d pay for an app"' into 2 queries: ['"i.d pay app"', '"I.d pay for an app"']
+[Reddit] Global search 1/2: '"i.d pay app"' (sort=relevance)
+[Reddit] Global search 2/2: '"I.d pay for an app"' (sort=top)
+[Reddit]   -> 0 results for '"i.d pay app"'
+[Reddit]   -> 0 results for '"I.d pay for an app"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22I.d+pay+for+an+app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"I.d pay for an app"' into 2 queries: ['"i.d pay app"', '"I.d pay for an app"']
+[Reddit] Global search 1/2: '"i.d pay app"' (sort=relevance)
+[Reddit] Global search 2/2: '"I.d pay for an app"' (sort=top)
+[Reddit]   -> 0 results for '"I.d pay for an app"'
+[Reddit]   -> 0 results for '"i.d pay app"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (1.6s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-10/0527-i-d-pay-for-an-app.json
+[OK] seed succeeded
+
+===== Seed: "is there a paid app" =====
+/last30days · researching: "is there a paid app"
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""is there paid app"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22is+there+a+paid+app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"is there a paid app"' into 2 queries: ['"is there paid app"', '"is there a paid app"']
+[Reddit] Global search 1/2: '"is there paid app"' (sort=relevance)
+[Reddit] Global search 2/2: '"is there a paid app"' (sort=top)
+[Reddit]   -> 0 results for '"is there a paid app"'
+[Reddit]   -> 0 results for '"is there paid app"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22is+there+a+paid+app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"is there a paid app"' into 2 queries: ['"is there paid app"', '"is there a paid app"']
+[Reddit] Global search 1/2: '"is there paid app"' (sort=relevance)
+[Reddit] Global search 2/2: '"is there a paid app"' (sort=top)
+[Reddit]   -> 0 results for '"is there paid app"'
+[Reddit]   -> 0 results for '"is there a paid app"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (4.3s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-10/0527-is-there-a-paid-app.json
+[OK] seed succeeded
+
+===== Seed: "is there an app that" "pay" =====
+/last30days · researching: "is there an app that" "pay"
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""is there app that" "pay"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22is+there+an+app+that%22+%22pay%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"is there an app that" "pay"' into 2 queries: ['"is there app that" "pay"', '"is there an app that" "pay"']
+[Reddit] Global search 1/2: '"is there app that" "pay"' (sort=relevance)
+[Reddit] Global search 2/2: '"is there an app that" "pay"' (sort=top)
+[Reddit]   -> 0 results for '"is there app that" "pay"'
+[Reddit]   -> 7 results for '"is there an app that" "pay"'
+[Reddit] Discovered subreddits: ['ShopifyApps', 'S24Ultra', 'u_MileHighHarry']
+[Reddit] Subreddit search: r/ShopifyApps for '"is there app that" "pay"'
+[Reddit] Subreddit search: r/S24Ultra for '"is there app that" "pay"'
+[Reddit] Subreddit search: r/u_MileHighHarry for '"is there app that" "pay"'
+[Reddit]   -> 0 results from r/ShopifyApps
+[Reddit]   -> 0 results from r/S24Ultra
+[Reddit]   -> 0 results from r/u_MileHighHarry
+[Reddit] After dedup: 7 unique posts
+[Reddit] Final: 7 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 4/5 posts in 4.0s
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22is+there+an+app+that%22+%22pay%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"is there an app that" "pay"' into 2 queries: ['"is there app that" "pay"', '"is there an app that" "pay"']
+[Reddit] Global search 1/2: '"is there app that" "pay"' (sort=relevance)
+[Reddit] Global search 2/2: '"is there an app that" "pay"' (sort=top)
+[Reddit]   -> 0 results for '"is there app that" "pay"'
+[Reddit]   -> 7 results for '"is there an app that" "pay"'
+[Reddit] Discovered subreddits: ['ShopifyApps', 'S24Ultra', 'u_MileHighHarry']
+[Reddit] Subreddit search: r/ShopifyApps for '"is there app that" "pay"'
+[Reddit] Subreddit search: r/S24Ultra for '"is there app that" "pay"'
+[Reddit] Subreddit search: r/u_MileHighHarry for '"is there app that" "pay"'
+[Reddit]   -> 0 results from r/u_MileHighHarry
+[Reddit]   -> 0 results from r/ShopifyApps
+[Reddit]   -> 0 results from r/S24Ultra
+[Reddit] After dedup: 7 unique posts
+[Reddit] Final: 7 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 4/5 posts in 0.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (12.6s) - Reddit: 3 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-10/0527-is-there-an-app-that-pay.json
+[OK] seed succeeded
+
+===== Seed: "any good app for" =====
+/last30days · researching: "any good app for"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search=""any app for"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=%22any+good+app+for%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded '"any good app for"' into 2 queries: ['"any app for"', '"any good app for"']
+[Reddit] Global search 1/2: '"any app for"' (sort=relevance)
+[Reddit] Global search 2/2: '"any good app for"' (sort=top)
+[Reddit]   -> 7 results for '"any app for"'
+[Reddit]   -> 7 results for '"any good app for"'
+[Reddit] Discovered subreddits: ['appledevelopers', 'androidapps', 'FreeAppReviews']
+[Reddit] Subreddit search: r/appledevelopers for '"any app for"'
+[Reddit] Subreddit search: r/androidapps for '"any app for"'
+[Reddit] Subreddit search: r/FreeAppReviews for '"any app for"'
+[Reddit]   -> 1 results from r/appledevelopers
+[Reddit]   -> 2 results from r/FreeAppReviews
+[Reddit]   -> 3 results from r/androidapps
+[Reddit] After dedup: 17 unique posts
+[Reddit] Final: 17 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.8s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (15.7s) - Reddit: 11 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-10/0528-any-good-app-for.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
