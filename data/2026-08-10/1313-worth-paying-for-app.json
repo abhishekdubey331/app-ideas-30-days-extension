@@ -1,0 +1,955 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/entrepreneurridealong/comments/1vj16s1/i_launched_my_app_months_ago_a_few_days_back"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/entrepreneurridealong/comments/1vj16s1/i_launched_my_app_months_ago_a_few_days_back"
+      ],
+      "score": 12.149180327868848,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I launched my app months ago. A few days back, someone finally paid $5 for it."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/googleplayconsole/comments/1vkchty/my_first_month_of_google_play_premium_10k_earned"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/googleplayconsole/comments/1vkchty/my_first_month_of_google_play_premium_10k_earned"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My first month of Google Play Premium: \u20b910k+ earned"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saasbuild/comments/1v9aod5/i_just_got_my_first_paying_customer_today"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/saasbuild/comments/1v9aod5/i_just_got_my_first_paying_customer_today"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I just got my first paying customer today \ud83c\udf89"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1v1y13l/got_my_first_ever_paying_customer_one_day_after"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1v1y13l/got_my_first_ever_paying_customer_one_day_after"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Got my first ever paying customer one day after launch!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appideas/comments/1uw5rk8/would_you_pay_for_an_app_that_gives_private"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/appideas/comments/1uw5rk8/would_you_pay_for_an_app_that_gives_private"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Would you pay for an app that gives private outfit feedback from real people?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-10T13:13:15.223734+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I launched my app months ago. A few days back, someone finally paid $5 for it.\nI launched ClipShip a few months ago, and for a long time almost nothing happened. There were a few downloads and some helpful feedback, but no paying customers. A few days ago, that finally changed. The screenshot shows $4.25 after fees. It is obviously not a huge revenue milestone, but seeing it felt very different from seeing another signup. A complete stranger tried something I built and decided it was worth paying for. That does not prove I have a business yet. But it does make the weeks I",
+        "container": "EntrepreneurRideAlong",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 1
+        },
+        "engagement_score": 35,
+        "freshness": 95,
+        "item_id": "R6",
+        "local_rank_score": 0.46749999999999997,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-08",
+        "relevance_hint": 0.43,
+        "snippet": "I launched ClipShip a few months ago, and for a long time almost nothing happened. There were a few downloads and some helpful feedback, but no paying customers. A few days ago, that finally changed. The screenshot shows $4.25 after fees. It is obviously not a huge revenue milestone, but seeing it felt very different from seeing another signup. A complete stranger tried something I built and decid",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I launched my app months ago. A few days back, someone finally paid $5 for it.",
+        "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1vj16s1/i_launched_my_app_months_ago_a_few_days_back/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My first month of Google Play Premium: \u20b910k+ earned\nA month ago I launched Premium for my Android app, Lockify. Today I finally crossed \u20b910,000 in Play Console earnings. For context, Lockify is a privacy-focused Android vault that I've been building solo after work. It started as a simple calculator-disguised vault and has gradually grown into a proper product with encrypted backups, cloud sync, biometric security, decoy vaults and other privacy features. Premium launched on July 3rd. From July 3 \u2192 August 10: \u2022 \u20b910,017 in Play Console earnings \u2022\nWhat type of app it is ? Paid downloads or organic downloads ? Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this) 9k+ downloads before launching Premium is pretty interesting. What drove most of those users for you \u2014 Reddit, Play Store discovery, or word of mouth? Was there anything specific that really moved the needle?",
+        "container": "googleplayconsole",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 31,
+          "score": 26
+        },
+        "engagement_score": 100,
+        "freshness": 100,
+        "item_id": "R2",
+        "local_rank_score": 0.4475,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [
+            "What type of app it is ? Paid downloads or organic downloads ?",
+            "Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this)",
+            "9k+ downloads before launching Premium is pretty interesting.",
+            "Complete billdesk verification first bro.",
+            "Did ur account got verified by there incompetent billdesk it been almost a month and it is still showing in process from billdesk side",
+            "That is my lifetime earning in 3 months (sad emoji) i monetized since the beginning.",
+            "After app publishing only did you raised the bill desk request?"
+          ],
+          "top_comments": [
+            {
+              "author": "Foxbat_8401",
+              "date": "2026-08-10",
+              "excerpt": "What type of app it is ? Paid downloads or organic downloads ?",
+              "score": 2,
+              "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sb0oy/"
+            },
+            {
+              "author": "divyan5h",
+              "date": "2026-08-10",
+              "excerpt": "Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this)",
+              "score": 2,
+              "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sdqm7/"
+            },
+            {
+              "author": "Conscious-Base9526",
+              "date": "2026-08-10",
+              "excerpt": "9k+ downloads before launching Premium is pretty interesting. What drove most of those users for you \u2014 Reddit, Play Store discovery, or word of mouth? Was there anything specific that really moved the needle?",
+              "score": 2,
+              "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sdvfv/"
+            },
+            {
+              "author": "XthesungodX",
+              "date": "2026-08-10",
+              "excerpt": "Complete billdesk verification first bro.",
+              "score": 2,
+              "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sl67v/"
+            },
+            {
+              "author": "New-Worry6487",
+              "date": "2026-08-10",
+              "excerpt": "Did ur account got verified by there incompetent billdesk it been almost a month and it is still showing in process from billdesk side",
+              "score": 2,
+              "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2slkfw/"
+            },
+            {
+              "author": "ServeAmbitious220",
+              "date": "2026-08-10",
+              "excerpt": "That is my lifetime earning in 3 months (sad emoji) i monetized since the beginning.",
+              "score": 2,
+              "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2ss7ij/"
+            },
+            {
+              "author": "latvork",
+              "date": "2026-08-10",
+              "excerpt": "After app publishing only did you raised the bill desk request? .My app is in closed testing I raised bill desk verification request but now they came back and asking for the app link iam unable to provide.?",
+              "score": 2,
+              "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sx1jz/"
+            }
+          ]
+        },
+        "published_at": "2026-08-10",
+        "relevance_hint": 0.22,
+        "snippet": "What type of app it is ? Paid downloads or organic downloads ? Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this) 9k+ downloads before launching Premium is pretty interesting. What drove most of those users for you \u2014 Reddit, Play Store discovery, or word of mouth? Was there anything specific that really moved the needle?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My first month of Google Play Premium: \u20b910k+ earned",
+        "url": "https://www.reddit.com/r/googleplayconsole/comments/1vkchty/my_first_month_of_google_play_premium_10k_earned/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I just got my first paying customer today \ud83c\udf89\nI posted about NERVE a little while ago, the AI cold calling practice app that actually listens to how you speak, not just what you say. Small milestone today, I just got my first paying customer. It\u2019s only one user, but seeing someone I\u2019ve never met actually put their card in because they think it\u2019s worth paying for is a pretty cool feeling. NERVE lets you call an AI prospect to practise cold calls before the real thing. If you start sounding nervous, ramble, or lose your pace, the prospect rea\nAre you you're own first customer? Congratulations! How did the client find you? Congratulations Bro!!!",
+        "container": "saasbuild",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 32,
+          "score": 26
+        },
+        "engagement_score": 98,
+        "freshness": 73,
+        "item_id": "R1",
+        "local_rank_score": 0.41700000000000004,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [
+            "Are you you're own first customer?",
+            "Congratulations! How did the client find you?",
+            "omg congrats Op for getting your first paying customer! keep talking to your early users and use their feed back to improve your product",
+            "Congrats! First stranger paying is really exciting. BTW, after that, I\u2019d spend more time now figuring out why that person bought than trying to make t...",
+            "Hey OP gratz!! If you are not your own customer and not trolling us with your posts.",
+            "congratulations! the first paying customer always feels different because it's validation from someone with no obligation to support you.",
+            "Congrats! The first step is always the hardest.",
+            "Congrats on the first paying customer that's a big step!"
+          ],
+          "top_comments": [
+            {
+              "author": "Blinkinlincoln",
+              "date": "2026-07-28",
+              "excerpt": "Are you you're own first customer?",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0cp7p8/"
+            },
+            {
+              "author": "LeBugArtisan",
+              "date": "2026-07-28",
+              "excerpt": "Congratulations! How did the client find you?",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0d14gm/"
+            },
+            {
+              "author": "BPositiveX",
+              "date": "2026-07-28",
+              "excerpt": "Congratulations Bro!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0d1ofw/"
+            },
+            {
+              "author": "loveskindiamond",
+              "date": "2026-07-29",
+              "excerpt": "omg congrats Op for getting your first paying customer! keep talking to your early users and use their feed back to improve your product",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0efkde/"
+            },
+            {
+              "author": "Thunderbit_HQ",
+              "date": "2026-07-29",
+              "excerpt": "Congrats! First stranger paying is really exciting. BTW, after that, I\u2019d spend more time now figuring out why that person bought than trying to make the product broader.",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0f0wge/"
+            },
+            {
+              "author": "Adventurous_Aside_77",
+              "date": "2026-07-29",
+              "excerpt": "Hey OP gratz!! If you are not your own customer and not trolling us with your posts. can i ask how long you market your app? and how many visitors or registers did you have before hitting 1 real customer?",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0jgt66/"
+            },
+            {
+              "author": "Commercial_Bench7928",
+              "date": "2026-07-29",
+              "excerpt": "congratulations! the first paying customer always feels different because it's validation from someone with no obligation to support you. Wishing you many more. I'd be interested to hear what surprised you most between building the product and watching someone actually use it.",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0eutyc/"
+            },
+            {
+              "author": "BSahey_SJae",
+              "date": "2026-07-30",
+              "excerpt": "Congrats! The first step is always the hardest.",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0mumi2/"
+            },
+            {
+              "author": "devhisaria",
+              "date": "2026-07-30",
+              "excerpt": "Congrats on the first paying customer that's a big step! Definitely keep talking to them and dig into their feedback because early users can give you insights that will really help you shape the product.",
+              "score": 1,
+              "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0mzj2w/"
+            }
+          ]
+        },
+        "published_at": "2026-07-28",
+        "relevance_hint": 0.44,
+        "snippet": "Are you you're own first customer? Congratulations! How did the client find you? Congratulations Bro!!!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I just got my first paying customer today \ud83c\udf89",
+        "url": "https://www.reddit.com/r/saasbuild/comments/1v9aod5/i_just_got_my_first_paying_customer_today/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Got my first ever paying customer one day after launch!\nI'm a little too excited right now. I've been building small SaaS tools for years, mostly just for myself, and never really thought anyone else would want to pay for them. One of my good buddies kept nudging me to turn one into a web app and just put it out there, so I finally did. One day after launch, someone signed up for a yearly subscription. My first ever paying customer! That said, I'm trying to keep my head on straight. One customer is one datapoint, and it doesn't really tell me much ye\nHey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing. Your post resonated; the 'one datapoint' honesty is exactly the right mindset. We're a young startup working on getting our own SaaS off the ground, so I'd love to learn from someone a step ahead. If you're up for sharing: how did you get it out there, and where did that fi That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind. Keep talking to that first customer obsessively; nothing else will tell you faster what actually matters. Enjoy the win though, you've earned it. first off, congrats. that first payment hits different. the biggest thing i'd focus on now is talking to that customer. ask why they bought, what almost stopped them, and what they expected. one conversation can be worth more than 100 analytics events.",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 17
+        },
+        "engagement_score": 82,
+        "freshness": 58,
+        "item_id": "R3",
+        "local_rank_score": 0.3635,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [
+            "Hey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing.",
+            "That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind.",
+            "first off, congrats. that first payment hits different.",
+            "You must have a good friend then. My friends have free access and never offered to be a customer \ud83d\ude02I would buy my friends app though to support him\u2026",
+            "Awesome! Enjoy hearing small wins. Yeah I built several apps but abandon half way through.",
+            "Haha this happened to me too! Turns out it was my mom haha (love you mom!)"
+          ],
+          "top_comments": [
+            {
+              "author": "Specific-Sky-9924",
+              "date": "2026-07-20",
+              "excerpt": "Hey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing. Your post resonated; the 'one datapoint' honesty is exactly the right mindset. We're a young startup working on getting our own SaaS off the ground, so I'd love to learn from someone a step ahead. If you're up for sharing: how did you get it out there, and where did that fi",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oyrthd0/"
+            },
+            {
+              "author": "BP041",
+              "date": "2026-07-20",
+              "excerpt": "That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind. Keep talking to that first customer obsessively; nothing else will tell you faster what actually matters. Enjoy the win though, you've earned it.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oyru009/"
+            },
+            {
+              "author": "Jash-6898",
+              "date": "2026-07-21",
+              "excerpt": "first off, congrats. that first payment hits different. the biggest thing i'd focus on now is talking to that customer. ask why they bought, what almost stopped them, and what they expected. one conversation can be worth more than 100 analytics events.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oys9wmv/"
+            },
+            {
+              "author": "WonderfolioApp",
+              "date": "2026-07-21",
+              "excerpt": "You must have a good friend then. My friends have free access and never offered to be a customer \ud83d\ude02I would buy my friends app though to support him\u2026",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oysvw80/"
+            },
+            {
+              "author": "Wildcard_917",
+              "date": "2026-07-21",
+              "excerpt": "Awesome! Enjoy hearing small wins. Yeah I built several apps but abandon half way through. Finally was able to push through I ship a product. No users yet but finally had the courage to showcase my side project.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oyt79dg/"
+            },
+            {
+              "author": "tenhittender",
+              "date": "2026-07-21",
+              "excerpt": "Haha this happened to me too! Turns out it was my mom haha (love you mom!)",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oytiggq/"
+            }
+          ]
+        },
+        "published_at": "2026-07-20",
+        "relevance_hint": 0.43,
+        "snippet": "Hey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing. Your post resonated; the 'one datapoint' honesty is exactly the right mindset. We're a young startup working on getting our own SaaS off the ground, so I'd love to learn from someone a step ahead. If you're up for sharing: how did you get it out there, and where did that fi That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind. Keep talking to that first customer obsessively; nothing else will tell you faster what actually matters. Enjoy the win though, you've earned...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Got my first ever paying customer one day after launch!",
+        "url": "https://www.reddit.com/r/SideProject/comments/1v1y13l/got_my_first_ever_paying_customer_one_day_after/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Would you pay for an app that gives private outfit feedback from real people?\nHi everyone, I have an app idea and I'd love your honest feedback. The idea is simple: You upload a photo of your outfit (or clothes you're planning to buy), and instead of getting public comments, you receive private feedback from real people directly in your inbox. Users could choose reviewers based on country (for example, people from the USA), age group, gender, or fashion style to get more relevant opinions. I'm thinking of making it subscription-based. My questions are: Would you use an ap",
+        "container": "AppIdeas",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 0
+        },
+        "engagement_score": 5,
+        "freshness": 45,
+        "item_id": "R9",
+        "local_rank_score": 0.21500000000000002,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-14",
+        "relevance_hint": 0.43,
+        "snippet": "Hi everyone, I have an app idea and I'd love your honest feedback. The idea is simple: You upload a photo of your outfit (or clothes you're planning to buy), and instead of getting public comments, you receive private feedback from real people directly in your inbox. Users could choose reviewers based on country (for example, people from the USA), age group, gender, or fashion style to get more re",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Would you pay for an app that gives private outfit feedback from real people?",
+        "url": "https://www.reddit.com/r/AppIdeas/comments/1uw5rk8/would_you_pay_for_an_app_that_gives_private/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-11",
+  "range_to": "2026-08-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/entrepreneurridealong/comments/1vj16s1/i_launched_my_app_months_ago_a_few_days_back",
+      "cluster_id": "cluster-1",
+      "engagement": 35,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 12.149180327868848,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 21.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I launched ClipShip a few months ago, and for a long time almost nothing happened. There were a few downloads and some helpful feedback, but no paying customers. A few days ago, that finally changed. The screenshot shows $4.25 after fees. It is obviously not a huge revenue milestone, but seeing it felt very different from seeing another signup. A complete stranger tried something I built and decid",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I launched my app months ago. A few days back, someone finally paid $5 for it.\nI launched ClipShip a few months ago, and for a long time almost nothing happened. There were a few downloads and some helpful feedback, but no paying customers. A few days ago, that finally changed. The screenshot shows $4.25 after fees. It is obviously not a huge revenue milestone, but seeing it felt very different from seeing another signup. A complete stranger tried something I built and decided it was worth paying for. That does not prove I have a business yet. But it does make the weeks I",
+          "container": "EntrepreneurRideAlong",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 1
+          },
+          "engagement_score": 35,
+          "freshness": 95,
+          "item_id": "R6",
+          "local_rank_score": 0.46749999999999997,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-08",
+          "relevance_hint": 0.43,
+          "snippet": "I launched ClipShip a few months ago, and for a long time almost nothing happened. There were a few downloads and some helpful feedback, but no paying customers. A few days ago, that finally changed. The screenshot shows $4.25 after fees. It is obviously not a huge revenue milestone, but seeing it felt very different from seeing another signup. A complete stranger tried something I built and decid",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I launched my app months ago. A few days back, someone finally paid $5 for it.",
+          "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1vj16s1/i_launched_my_app_months_ago_a_few_days_back/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I launched my app months ago. A few days back, someone finally paid $5 for it.",
+      "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1vj16s1/i_launched_my_app_months_ago_a_few_days_back/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/googleplayconsole/comments/1vkchty/my_first_month_of_google_play_premium_10k_earned",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "What type of app it is ? Paid downloads or organic downloads ? Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this) 9k+ downloads before launching Premium is pretty interesting. What drove most of those users for you \u2014 Reddit, Play Store discovery, or word of mouth? Was there anything specific that really moved the needle?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My first month of Google Play Premium: \u20b910k+ earned\nA month ago I launched Premium for my Android app, Lockify. Today I finally crossed \u20b910,000 in Play Console earnings. For context, Lockify is a privacy-focused Android vault that I've been building solo after work. It started as a simple calculator-disguised vault and has gradually grown into a proper product with encrypted backups, cloud sync, biometric security, decoy vaults and other privacy features. Premium launched on July 3rd. From July 3 \u2192 August 10: \u2022 \u20b910,017 in Play Console earnings \u2022\nWhat type of app it is ? Paid downloads or organic downloads ? Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this) 9k+ downloads before launching Premium is pretty interesting. What drove most of those users for you \u2014 Reddit, Play Store discovery, or word of mouth? Was there anything specific that really moved the needle?",
+          "container": "googleplayconsole",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 31,
+            "score": 26
+          },
+          "engagement_score": 100,
+          "freshness": 100,
+          "item_id": "R2",
+          "local_rank_score": 0.4475,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [
+              "What type of app it is ? Paid downloads or organic downloads ?",
+              "Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this)",
+              "9k+ downloads before launching Premium is pretty interesting.",
+              "Complete billdesk verification first bro.",
+              "Did ur account got verified by there incompetent billdesk it been almost a month and it is still showing in process from billdesk side",
+              "That is my lifetime earning in 3 months (sad emoji) i monetized since the beginning.",
+              "After app publishing only did you raised the bill desk request?"
+            ],
+            "top_comments": [
+              {
+                "author": "Foxbat_8401",
+                "date": "2026-08-10",
+                "excerpt": "What type of app it is ? Paid downloads or organic downloads ?",
+                "score": 2,
+                "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sb0oy/"
+              },
+              {
+                "author": "divyan5h",
+                "date": "2026-08-10",
+                "excerpt": "Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this)",
+                "score": 2,
+                "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sdqm7/"
+              },
+              {
+                "author": "Conscious-Base9526",
+                "date": "2026-08-10",
+                "excerpt": "9k+ downloads before launching Premium is pretty interesting. What drove most of those users for you \u2014 Reddit, Play Store discovery, or word of mouth? Was there anything specific that really moved the needle?",
+                "score": 2,
+                "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sdvfv/"
+              },
+              {
+                "author": "XthesungodX",
+                "date": "2026-08-10",
+                "excerpt": "Complete billdesk verification first bro.",
+                "score": 2,
+                "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sl67v/"
+              },
+              {
+                "author": "New-Worry6487",
+                "date": "2026-08-10",
+                "excerpt": "Did ur account got verified by there incompetent billdesk it been almost a month and it is still showing in process from billdesk side",
+                "score": 2,
+                "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2slkfw/"
+              },
+              {
+                "author": "ServeAmbitious220",
+                "date": "2026-08-10",
+                "excerpt": "That is my lifetime earning in 3 months (sad emoji) i monetized since the beginning.",
+                "score": 2,
+                "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2ss7ij/"
+              },
+              {
+                "author": "latvork",
+                "date": "2026-08-10",
+                "excerpt": "After app publishing only did you raised the bill desk request? .My app is in closed testing I raised bill desk verification request but now they came back and asking for the app link iam unable to provide.?",
+                "score": 2,
+                "url": "https://reddit.com/r/googleplayconsole/comments/1vkchty/comment/p2sx1jz/"
+              }
+            ]
+          },
+          "published_at": "2026-08-10",
+          "relevance_hint": 0.22,
+          "snippet": "What type of app it is ? Paid downloads or organic downloads ? Whats the price of the premium sub? Also, how much time did Billdesk verification take for you (I am also a dev in India struggling with this) 9k+ downloads before launching Premium is pretty interesting. What drove most of those users for you \u2014 Reddit, Play Store discovery, or word of mouth? Was there anything specific that really moved the needle?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My first month of Google Play Premium: \u20b910k+ earned",
+          "url": "https://www.reddit.com/r/googleplayconsole/comments/1vkchty/my_first_month_of_google_play_premium_10k_earned/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My first month of Google Play Premium: \u20b910k+ earned",
+      "url": "https://www.reddit.com/r/googleplayconsole/comments/1vkchty/my_first_month_of_google_play_premium_10k_earned/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saasbuild/comments/1v9aod5/i_just_got_my_first_paying_customer_today",
+      "cluster_id": "cluster-3",
+      "engagement": 98,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R1",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Are you you're own first customer? Congratulations! How did the client find you? Congratulations Bro!!!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I just got my first paying customer today \ud83c\udf89\nI posted about NERVE a little while ago, the AI cold calling practice app that actually listens to how you speak, not just what you say. Small milestone today, I just got my first paying customer. It\u2019s only one user, but seeing someone I\u2019ve never met actually put their card in because they think it\u2019s worth paying for is a pretty cool feeling. NERVE lets you call an AI prospect to practise cold calls before the real thing. If you start sounding nervous, ramble, or lose your pace, the prospect rea\nAre you you're own first customer? Congratulations! How did the client find you? Congratulations Bro!!!",
+          "container": "saasbuild",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 32,
+            "score": 26
+          },
+          "engagement_score": 98,
+          "freshness": 73,
+          "item_id": "R1",
+          "local_rank_score": 0.41700000000000004,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [
+              "Are you you're own first customer?",
+              "Congratulations! How did the client find you?",
+              "omg congrats Op for getting your first paying customer! keep talking to your early users and use their feed back to improve your product",
+              "Congrats! First stranger paying is really exciting. BTW, after that, I\u2019d spend more time now figuring out why that person bought than trying to make t...",
+              "Hey OP gratz!! If you are not your own customer and not trolling us with your posts.",
+              "congratulations! the first paying customer always feels different because it's validation from someone with no obligation to support you.",
+              "Congrats! The first step is always the hardest.",
+              "Congrats on the first paying customer that's a big step!"
+            ],
+            "top_comments": [
+              {
+                "author": "Blinkinlincoln",
+                "date": "2026-07-28",
+                "excerpt": "Are you you're own first customer?",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0cp7p8/"
+              },
+              {
+                "author": "LeBugArtisan",
+                "date": "2026-07-28",
+                "excerpt": "Congratulations! How did the client find you?",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0d14gm/"
+              },
+              {
+                "author": "BPositiveX",
+                "date": "2026-07-28",
+                "excerpt": "Congratulations Bro!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0d1ofw/"
+              },
+              {
+                "author": "loveskindiamond",
+                "date": "2026-07-29",
+                "excerpt": "omg congrats Op for getting your first paying customer! keep talking to your early users and use their feed back to improve your product",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0efkde/"
+              },
+              {
+                "author": "Thunderbit_HQ",
+                "date": "2026-07-29",
+                "excerpt": "Congrats! First stranger paying is really exciting. BTW, after that, I\u2019d spend more time now figuring out why that person bought than trying to make the product broader.",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0f0wge/"
+              },
+              {
+                "author": "Adventurous_Aside_77",
+                "date": "2026-07-29",
+                "excerpt": "Hey OP gratz!! If you are not your own customer and not trolling us with your posts. can i ask how long you market your app? and how many visitors or registers did you have before hitting 1 real customer?",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0jgt66/"
+              },
+              {
+                "author": "Commercial_Bench7928",
+                "date": "2026-07-29",
+                "excerpt": "congratulations! the first paying customer always feels different because it's validation from someone with no obligation to support you. Wishing you many more. I'd be interested to hear what surprised you most between building the product and watching someone actually use it.",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0eutyc/"
+              },
+              {
+                "author": "BSahey_SJae",
+                "date": "2026-07-30",
+                "excerpt": "Congrats! The first step is always the hardest.",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0mumi2/"
+              },
+              {
+                "author": "devhisaria",
+                "date": "2026-07-30",
+                "excerpt": "Congrats on the first paying customer that's a big step! Definitely keep talking to them and dig into their feedback because early users can give you insights that will really help you shape the product.",
+                "score": 1,
+                "url": "https://reddit.com/r/saasbuild/comments/1v9aod5/comment/p0mzj2w/"
+              }
+            ]
+          },
+          "published_at": "2026-07-28",
+          "relevance_hint": 0.44,
+          "snippet": "Are you you're own first customer? Congratulations! How did the client find you? Congratulations Bro!!!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I just got my first paying customer today \ud83c\udf89",
+          "url": "https://www.reddit.com/r/saasbuild/comments/1v9aod5/i_just_got_my_first_paying_customer_today/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I just got my first paying customer today \ud83c\udf89",
+      "url": "https://www.reddit.com/r/saasbuild/comments/1v9aod5/i_just_got_my_first_paying_customer_today/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1v1y13l/got_my_first_ever_paying_customer_one_day_after",
+      "cluster_id": "cluster-4",
+      "engagement": 82,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 7.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "Hey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing. Your post resonated; the 'one datapoint' honesty is exactly the right mindset. We're a young startup working on getting our own SaaS off the ground, so I'd love to learn from someone a step ahead. If you're up for sharing: how did you get it out there, and where did that fi That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind. Keep talking to that first customer obsessively; nothing else will tell you faster what actually matters. Enjoy the win though, you've earned...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Got my first ever paying customer one day after launch!\nI'm a little too excited right now. I've been building small SaaS tools for years, mostly just for myself, and never really thought anyone else would want to pay for them. One of my good buddies kept nudging me to turn one into a web app and just put it out there, so I finally did. One day after launch, someone signed up for a yearly subscription. My first ever paying customer! That said, I'm trying to keep my head on straight. One customer is one datapoint, and it doesn't really tell me much ye\nHey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing. Your post resonated; the 'one datapoint' honesty is exactly the right mindset. We're a young startup working on getting our own SaaS off the ground, so I'd love to learn from someone a step ahead. If you're up for sharing: how did you get it out there, and where did that fi That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind. Keep talking to that first customer obsessively; nothing else will tell you faster what actually matters. Enjoy the win though, you've earned it. first off, congrats. that first payment hits different. the biggest thing i'd focus on now is talking to that customer. ask why they bought, what almost stopped them, and what they expected. one conversation can be worth more than 100 analytics events.",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 17
+          },
+          "engagement_score": 82,
+          "freshness": 58,
+          "item_id": "R3",
+          "local_rank_score": 0.3635,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [
+              "Hey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing.",
+              "That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind.",
+              "first off, congrats. that first payment hits different.",
+              "You must have a good friend then. My friends have free access and never offered to be a customer \ud83d\ude02I would buy my friends app though to support him\u2026",
+              "Awesome! Enjoy hearing small wins. Yeah I built several apps but abandon half way through.",
+              "Haha this happened to me too! Turns out it was my mom haha (love you mom!)"
+            ],
+            "top_comments": [
+              {
+                "author": "Specific-Sky-9924",
+                "date": "2026-07-20",
+                "excerpt": "Hey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing. Your post resonated; the 'one datapoint' honesty is exactly the right mindset. We're a young startup working on getting our own SaaS off the ground, so I'd love to learn from someone a step ahead. If you're up for sharing: how did you get it out there, and where did that fi",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oyrthd0/"
+              },
+              {
+                "author": "BP041",
+                "date": "2026-07-20",
+                "excerpt": "That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind. Keep talking to that first customer obsessively; nothing else will tell you faster what actually matters. Enjoy the win though, you've earned it.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oyru009/"
+              },
+              {
+                "author": "Jash-6898",
+                "date": "2026-07-21",
+                "excerpt": "first off, congrats. that first payment hits different. the biggest thing i'd focus on now is talking to that customer. ask why they bought, what almost stopped them, and what they expected. one conversation can be worth more than 100 analytics events.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oys9wmv/"
+              },
+              {
+                "author": "WonderfolioApp",
+                "date": "2026-07-21",
+                "excerpt": "You must have a good friend then. My friends have free access and never offered to be a customer \ud83d\ude02I would buy my friends app though to support him\u2026",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oysvw80/"
+              },
+              {
+                "author": "Wildcard_917",
+                "date": "2026-07-21",
+                "excerpt": "Awesome! Enjoy hearing small wins. Yeah I built several apps but abandon half way through. Finally was able to push through I ship a product. No users yet but finally had the courage to showcase my side project.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oyt79dg/"
+              },
+              {
+                "author": "tenhittender",
+                "date": "2026-07-21",
+                "excerpt": "Haha this happened to me too! Turns out it was my mom haha (love you mom!)",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1v1y13l/comment/oytiggq/"
+              }
+            ]
+          },
+          "published_at": "2026-07-20",
+          "relevance_hint": 0.43,
+          "snippet": "Hey, congrats on your first paying customer! That's a real milestone, and landing a yearly plan on day one is no small thing. Your post resonated; the 'one datapoint' honesty is exactly the right mindset. We're a young startup working on getting our own SaaS off the ground, so I'd love to learn from someone a step ahead. If you're up for sharing: how did you get it out there, and where did that fi That's awesome \u2014 congrats! The jump from zero to one is the hardest, but the next ten are a different kind of grind. Keep talking to that first customer obsessively; nothing else will tell you faster what actually matters. Enjoy the win though, you've earned...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Got my first ever paying customer one day after launch!",
+          "url": "https://www.reddit.com/r/SideProject/comments/1v1y13l/got_my_first_ever_paying_customer_one_day_after/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Got my first ever paying customer one day after launch!",
+      "url": "https://www.reddit.com/r/SideProject/comments/1v1y13l/got_my_first_ever_paying_customer_one_day_after/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appideas/comments/1uw5rk8/would_you_pay_for_an_app_that_gives_private",
+      "cluster_id": "cluster-5",
+      "engagement": 5,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "R9",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 0.5,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Hi everyone, I have an app idea and I'd love your honest feedback. The idea is simple: You upload a photo of your outfit (or clothes you're planning to buy), and instead of getting public comments, you receive private feedback from real people directly in your inbox. Users could choose reviewers based on country (for example, people from the USA), age group, gender, or fashion style to get more re",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Would you pay for an app that gives private outfit feedback from real people?\nHi everyone, I have an app idea and I'd love your honest feedback. The idea is simple: You upload a photo of your outfit (or clothes you're planning to buy), and instead of getting public comments, you receive private feedback from real people directly in your inbox. Users could choose reviewers based on country (for example, people from the USA), age group, gender, or fashion style to get more relevant opinions. I'm thinking of making it subscription-based. My questions are: Would you use an ap",
+          "container": "AppIdeas",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 0
+          },
+          "engagement_score": 5,
+          "freshness": 45,
+          "item_id": "R9",
+          "local_rank_score": 0.21500000000000002,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-14",
+          "relevance_hint": 0.43,
+          "snippet": "Hi everyone, I have an app idea and I'd love your honest feedback. The idea is simple: You upload a photo of your outfit (or clothes you're planning to buy), and instead of getting public comments, you receive private feedback from real people directly in your inbox. Users could choose reviewers based on country (for example, people from the USA), age group, gender, or fashion style to get more re",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Would you pay for an app that gives private outfit feedback from real people?",
+          "url": "https://www.reddit.com/r/AppIdeas/comments/1uw5rk8/would_you_pay_for_an_app_that_gives_private/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Would you pay for an app that gives private outfit feedback from real people?",
+      "url": "https://www.reddit.com/r/AppIdeas/comments/1uw5rk8/would_you_pay_for_an_app_that_gives_private/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
