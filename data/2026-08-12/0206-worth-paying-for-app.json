@@ -1,0 +1,628 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/showmeyourapps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/showmeyourapps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "[App] Got my first 2 paying users this week"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1ux9k0b/my_app_finally_got_its_first_subscriber_after"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1ux9k0b/my_app_finally_got_its_first_subscriber_after"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My app finally got its first subscriber after months of building."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Are paid dating app features actually worth it?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1vkffwg/someone_actually_paid_for_the_app_i_built"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1vkffwg/someone_actually_paid_for_the_app_i_built"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Someone actually paid for the app I built"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-12T02:06:50.853125+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Are paid dating app features actually worth it?\nI have been wondering about this lately because it feels like a lot of dating apps keep adding more paid features. I do not mind paying for something if it genuinely improves the experience, but it's hard to know if it is actually worth it before spending money. For those who have paid for premium features, did you notice a real difference or did it mostly feel like small upgrades? Would like to hear which apps were worth paying for and which ones you wouldn't spend money on again.\nI pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+        "container": "dating_apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 2
+        },
+        "engagement_score": 25,
+        "freshness": 91,
+        "item_id": "R5",
+        "local_rank_score": 0.389,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [
+            "I pay for tinder and hinge X and yes I get more matches :)",
+            "A one month subscription is well worth it.",
+            "Don't pay those fucking apps a single dime",
+            "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them."
+          ],
+          "top_comments": [
+            {
+              "author": "Cerenia",
+              "date": "2026-08-08",
+              "excerpt": "I pay for tinder and hinge X and yes I get more matches :)",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2frdhc/"
+            },
+            {
+              "author": "Heliguy-1975",
+              "date": "2026-08-08",
+              "excerpt": "A one month subscription is well worth it.",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2jwlgv/"
+            },
+            {
+              "author": "Big_Bar_9832",
+              "date": "2026-08-08",
+              "excerpt": "Don't pay those fucking apps a single dime",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2gelht/"
+            },
+            {
+              "author": "psj3809",
+              "date": "2026-08-10",
+              "excerpt": "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them. So i did the minimum, think it was a month. And boy oh boy ! NOOOO. Not good ! Paid for Hinge and Tinder and happy with those, met someone early on before the mo",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2u5jgs/"
+            }
+          ]
+        },
+        "published_at": "2026-08-08",
+        "relevance_hint": 0.51,
+        "snippet": "I pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Are paid dating app features actually worth it?",
+        "url": "https://www.reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "[App] Got my first 2 paying users this week\nBeen building an OCD and anxiety recovery app alone for a while. Free version has been out for months. Last week I shipped a paid tier for the first time, one time purchase, no subscription. Two people bought it. Not a huge number by any normal startup math, but I've never made money from something I built before, so it did not feel small to me at all. These aren't just numbers on a dashboard, they're two specific people who looked at what I made and decided it was worth paying for. That still f\nKeep going! As long as we don't give up, we'll eventually be able to do this full-time. Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers buy. I had one that Google so kindly refunded without giving me the chance to find out anything",
+        "container": "ShowMeYourApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 15
+        },
+        "engagement_score": 41,
+        "freshness": 41,
+        "item_id": "R2",
+        "local_rank_score": 0.33849999999999997,
+        "local_relevance": 0.3,
+        "metadata": {
+          "comment_insights": [
+            "Keep going! As long as we don't give up, we'll eventually be able to do this full-time.",
+            "Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers bu..."
+          ],
+          "top_comments": [
+            {
+              "author": "UserPulse",
+              "date": "2026-07-16",
+              "excerpt": "Keep going! As long as we don't give up, we'll eventually be able to do this full-time.",
+              "score": 2,
+              "url": "https://reddit.com/r/ShowMeYourApps/comments/1uw47ro/comment/oxua788/"
+            },
+            {
+              "author": "Lucky-Wave-2092",
+              "date": "2026-07-17",
+              "excerpt": "Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers buy. I had one that Google so kindly refunded without giving me the chance to find out anything",
+              "score": 1,
+              "url": "https://reddit.com/r/ShowMeYourApps/comments/1uw47ro/comment/oy6cqug/"
+            }
+          ]
+        },
+        "published_at": "2026-07-14",
+        "relevance_hint": 0.7,
+        "snippet": "Keep going! As long as we don't give up, we'll eventually be able to do this full-time. Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers buy. I had one that Google so kindly refunded without giving me the chance to find out anything",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "[App] Got my first 2 paying users this week",
+        "url": "https://www.reddit.com/r/ShowMeYourApps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Someone actually paid for the app I built\nFor the last 6 months I\u2019ve been building Kickback, a football predictions and stats app, including the prediction models behind it. I started building it because I was frustrated with what I was finding out there. A lot of betting tip apps make huge accuracy claims, but it\u2019s hard to see the real history behind those numbers. You see the wins, but not always the losses. Stats apps have the opposite problem. They give you tons of data, but you still have to figure everything out yourself. So I dec",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 0
+        },
+        "engagement_score": 2,
+        "freshness": 95,
+        "item_id": "R6",
+        "local_rank_score": 0.33699999999999997,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-10",
+        "relevance_hint": 0.44,
+        "snippet": "For the last 6 months I\u2019ve been building Kickback, a football predictions and stats app, including the prediction models behind it. I started building it because I was frustrated with what I was finding out there. A lot of betting tip apps make huge accuracy claims, but it\u2019s hard to see the real history behind those numbers. You see the wins, but not always the losses. Stats apps have the opposite",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Someone actually paid for the app I built",
+        "url": "https://www.reddit.com/r/SaaS/comments/1vkffwg/someone_actually_paid_for_the_app_i_built/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My app finally got its first subscriber after months of building.\nI\u2019ve been working on it for months. It\u2019s designed to help people cut down on impulse spending by interrupting the habit before they open shopping apps.Seeing someone I\u2019ve never met decide it\u2019s worth paying for honestly made my day.\nHuge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73 That first subscriber is proof you're solving a real problem.",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 6
+        },
+        "engagement_score": 33,
+        "freshness": 43,
+        "item_id": "R4",
+        "local_rank_score": 0.277,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [
+            "Huge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73",
+            "That first subscriber is proof you're solving a real problem."
+          ],
+          "top_comments": [
+            {
+              "author": "AdditionalCover4358",
+              "date": "2026-07-15",
+              "excerpt": "Huge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73",
+              "score": 2,
+              "url": "https://reddit.com/r/AppBusiness/comments/1ux9k0b/comment/oxr073f/"
+            },
+            {
+              "author": "Least-Low4230",
+              "date": "2026-07-16",
+              "excerpt": "That first subscriber is proof you're solving a real problem.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1ux9k0b/comment/oxv938i/"
+            }
+          ]
+        },
+        "published_at": "2026-07-15",
+        "relevance_hint": 0.34,
+        "snippet": "Huge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73 That first subscriber is proof you're solving a real problem.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My app finally got its first subscriber after months of building.",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1ux9k0b/my_app_finally_got_its_first_subscriber_after/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-13",
+  "range_to": "2026-08-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/showmeyourapps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week",
+      "cluster_id": "cluster-1",
+      "engagement": 41,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Keep going! As long as we don't give up, we'll eventually be able to do this full-time. Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers buy. I had one that Google so kindly refunded without giving me the chance to find out anything",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "[App] Got my first 2 paying users this week\nBeen building an OCD and anxiety recovery app alone for a while. Free version has been out for months. Last week I shipped a paid tier for the first time, one time purchase, no subscription. Two people bought it. Not a huge number by any normal startup math, but I've never made money from something I built before, so it did not feel small to me at all. These aren't just numbers on a dashboard, they're two specific people who looked at what I made and decided it was worth paying for. That still f\nKeep going! As long as we don't give up, we'll eventually be able to do this full-time. Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers buy. I had one that Google so kindly refunded without giving me the chance to find out anything",
+          "container": "ShowMeYourApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 15
+          },
+          "engagement_score": 41,
+          "freshness": 41,
+          "item_id": "R2",
+          "local_rank_score": 0.33849999999999997,
+          "local_relevance": 0.3,
+          "metadata": {
+            "comment_insights": [
+              "Keep going! As long as we don't give up, we'll eventually be able to do this full-time.",
+              "Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers bu..."
+            ],
+            "top_comments": [
+              {
+                "author": "UserPulse",
+                "date": "2026-07-16",
+                "excerpt": "Keep going! As long as we don't give up, we'll eventually be able to do this full-time.",
+                "score": 2,
+                "url": "https://reddit.com/r/ShowMeYourApps/comments/1uw47ro/comment/oxua788/"
+              },
+              {
+                "author": "Lucky-Wave-2092",
+                "date": "2026-07-17",
+                "excerpt": "Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers buy. I had one that Google so kindly refunded without giving me the chance to find out anything",
+                "score": 1,
+                "url": "https://reddit.com/r/ShowMeYourApps/comments/1uw47ro/comment/oy6cqug/"
+              }
+            ]
+          },
+          "published_at": "2026-07-14",
+          "relevance_hint": 0.7,
+          "snippet": "Keep going! As long as we don't give up, we'll eventually be able to do this full-time. Congrats. Do you mind if I ask how? I have a new game that is fairly priced and I thought pretty well made but I\u2019ve only had a few paying customers buy. I had one that Google so kindly refunded without giving me the chance to find out anything",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "[App] Got my first 2 paying users this week",
+          "url": "https://www.reddit.com/r/ShowMeYourApps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "[App] Got my first 2 paying users this week",
+      "url": "https://www.reddit.com/r/ShowMeYourApps/comments/1uw47ro/app_got_my_first_2_paying_users_this_week/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1ux9k0b/my_app_finally_got_its_first_subscriber_after",
+      "cluster_id": "cluster-2",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 4.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "Huge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73 That first subscriber is proof you're solving a real problem.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My app finally got its first subscriber after months of building.\nI\u2019ve been working on it for months. It\u2019s designed to help people cut down on impulse spending by interrupting the habit before they open shopping apps.Seeing someone I\u2019ve never met decide it\u2019s worth paying for honestly made my day.\nHuge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73 That first subscriber is proof you're solving a real problem.",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 6
+          },
+          "engagement_score": 33,
+          "freshness": 43,
+          "item_id": "R4",
+          "local_rank_score": 0.277,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [
+              "Huge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73",
+              "That first subscriber is proof you're solving a real problem."
+            ],
+            "top_comments": [
+              {
+                "author": "AdditionalCover4358",
+                "date": "2026-07-15",
+                "excerpt": "Huge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73",
+                "score": 2,
+                "url": "https://reddit.com/r/AppBusiness/comments/1ux9k0b/comment/oxr073f/"
+              },
+              {
+                "author": "Least-Low4230",
+                "date": "2026-07-16",
+                "excerpt": "That first subscriber is proof you're solving a real problem.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1ux9k0b/comment/oxv938i/"
+              }
+            ]
+          },
+          "published_at": "2026-07-15",
+          "relevance_hint": 0.34,
+          "snippet": "Huge congrats! Nothing beats that rush and joy of the first customer \ud83e\udd73\ud83e\udd73 That first subscriber is proof you're solving a real problem.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My app finally got its first subscriber after months of building.",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1ux9k0b/my_app_finally_got_its_first_subscriber_after/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My app finally got its first subscriber after months of building.",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1ux9k0b/my_app_finally_got_its_first_subscriber_after/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it",
+      "cluster_id": "cluster-3",
+      "engagement": 25,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Are paid dating app features actually worth it?\nI have been wondering about this lately because it feels like a lot of dating apps keep adding more paid features. I do not mind paying for something if it genuinely improves the experience, but it's hard to know if it is actually worth it before spending money. For those who have paid for premium features, did you notice a real difference or did it mostly feel like small upgrades? Would like to hear which apps were worth paying for and which ones you wouldn't spend money on again.\nI pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+          "container": "dating_apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 2
+          },
+          "engagement_score": 25,
+          "freshness": 91,
+          "item_id": "R5",
+          "local_rank_score": 0.389,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [
+              "I pay for tinder and hinge X and yes I get more matches :)",
+              "A one month subscription is well worth it.",
+              "Don't pay those fucking apps a single dime",
+              "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them."
+            ],
+            "top_comments": [
+              {
+                "author": "Cerenia",
+                "date": "2026-08-08",
+                "excerpt": "I pay for tinder and hinge X and yes I get more matches :)",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2frdhc/"
+              },
+              {
+                "author": "Heliguy-1975",
+                "date": "2026-08-08",
+                "excerpt": "A one month subscription is well worth it.",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2jwlgv/"
+              },
+              {
+                "author": "Big_Bar_9832",
+                "date": "2026-08-08",
+                "excerpt": "Don't pay those fucking apps a single dime",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2gelht/"
+              },
+              {
+                "author": "psj3809",
+                "date": "2026-08-10",
+                "excerpt": "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them. So i did the minimum, think it was a month. And boy oh boy ! NOOOO. Not good ! Paid for Hinge and Tinder and happy with those, met someone early on before the mo",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2u5jgs/"
+              }
+            ]
+          },
+          "published_at": "2026-08-08",
+          "relevance_hint": 0.51,
+          "snippet": "I pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Are paid dating app features actually worth it?",
+          "url": "https://www.reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Are paid dating app features actually worth it?",
+      "url": "https://www.reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1vkffwg/someone_actually_paid_for_the_app_i_built",
+      "cluster_id": "cluster-4",
+      "engagement": 2,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 4.0,
+      "item_id": "R6",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "For the last 6 months I\u2019ve been building Kickback, a football predictions and stats app, including the prediction models behind it. I started building it because I was frustrated with what I was finding out there. A lot of betting tip apps make huge accuracy claims, but it\u2019s hard to see the real history behind those numbers. You see the wins, but not always the losses. Stats apps have the opposite",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Someone actually paid for the app I built\nFor the last 6 months I\u2019ve been building Kickback, a football predictions and stats app, including the prediction models behind it. I started building it because I was frustrated with what I was finding out there. A lot of betting tip apps make huge accuracy claims, but it\u2019s hard to see the real history behind those numbers. You see the wins, but not always the losses. Stats apps have the opposite problem. They give you tons of data, but you still have to figure everything out yourself. So I dec",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 0
+          },
+          "engagement_score": 2,
+          "freshness": 95,
+          "item_id": "R6",
+          "local_rank_score": 0.33699999999999997,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-10",
+          "relevance_hint": 0.44,
+          "snippet": "For the last 6 months I\u2019ve been building Kickback, a football predictions and stats app, including the prediction models behind it. I started building it because I was frustrated with what I was finding out there. A lot of betting tip apps make huge accuracy claims, but it\u2019s hard to see the real history behind those numbers. You see the wins, but not always the losses. Stats apps have the opposite",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Someone actually paid for the app I built",
+          "url": "https://www.reddit.com/r/SaaS/comments/1vkffwg/someone_actually_paid_for_the_app_i_built/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Someone actually paid for the app I built",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vkffwg/someone_actually_paid_for_the_app_i_built/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
