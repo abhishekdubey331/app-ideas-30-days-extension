@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "travelers \"I wish there was an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [],
+  "errors_by_source": {},
+  "generated_at": "2026-08-15T16:26:31.851040+00:00",
+  "items_by_source": {
+    "github": []
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "travelers \"I wish there was an app\"",
+    "source_weights": {
+      "github": 0.5,
+      "polymarket": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to travelers \"I wish there was an app\", especially about travelers \"i wish there app\"?",
+        "search_query": "travelers \"i wish there app\"",
+        "sources": [
+          "github"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-16",
+  "range_to": "2026-08-15",
+  "ranked_candidates": [],
+  "topic": "travelers \"I wish there was an app\"",
+  "warnings": [
+    "No candidates survived retrieval and ranking.",
+    "Evidence is thin for this topic."
+  ]
+}
