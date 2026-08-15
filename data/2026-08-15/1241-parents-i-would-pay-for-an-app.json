@@ -1,0 +1,173 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "parents \"I would pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@aibyage/video/7673105610438626581"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@aibyage/video/7673105610438626581"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for p"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-15T12:41:18.801955+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "aibyage",
+        "body": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for premium AI chatbot subscriptions to help their kids with homework. Here's the twist: researchers found this is driven less by any proven improvement in learning, and more by fear -- fear that their child will fall behind classmates who already use one. Subscription AI tools are being marketed hard to families right now, often bundling faster responses, more advanced models, or homework-specific modes. When the buying decision comes from social comparison instead of evidence, families can end up paying for tools that don't actually move the needle. Before you subscribe, ask: what specific problem does this solve? Is there evidence it improves understanding, not just speed? And is this decision about what your child needs, or what other families are doing? Who should know this: parents evaluating whether to pay for an AI homework-help subscription. Source: https://phys.org/news/2026-08-ai-homework-parents-pay-subscriptions.html #AIbyAge #AIhomework #ParentingTech #AIandKids #DigitalLiteracy #AIresearch #EdTech #TechNews #AInews #StudyTips More: https://www.aibyage.com/?modal=signup&utm_source=tiktok&utm_medium=social\nParents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for premium AI chatbot subscriptions to help their kids with homework. Here's the twist: researchers found this is driven less by any proven improvement in learning, and more by fear -- fear that their child will fall behind classmates who already use one. Subscription AI tools are being marketed hard to families right now, often bundling faster responses, more advanced models, or homework-specific modes. When the buying decision comes from social comparison instead of evidence, families can end up paying for tools that don't actually move the needle. Before you subscribe, ask: what specific problem does this solve? Is there evidence it improves understanding, not just speed? And is this decision about what your child needs, or what other families are doing? Who should know this: parents evaluating whether to pay for an AI homework-help subscription. Source: https://phys.org/news/2026-08-ai-homework-parents-pay-subscriptions.html #AIbyAge #AIhomework #ParentingTech #AIandKids #DigitalLiteracy #AIresearch #EdTech #TechNews #AInews #StudyTips More: https://www.aibyage.com/?modal=signup&utm_source=tiktok&utm_medium=social",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 5,
+          "shares": 0,
+          "views": 259
+        },
+        "engagement_score": 26,
+        "freshness": 94,
+        "item_id": "TK3",
+        "local_rank_score": 0.378,
+        "local_relevance": 0.18,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-12",
+        "relevance_hint": 0.39,
+        "snippet": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for premium AI chatbot subscriptions to help their kids with homework. Here's the twist: researchers found this is driven less by any proven improvement in learning, and more by fear -- fear that their child will fall behind classmates who already use one. Subscription AI tools are being marketed hard to families right now, often bundling faster responses, more advanced models, or homework-specific modes. When the buying decision comes from social comparison instead of evidence, families can end up paying for tools that don't actually move the needle. Before you subscribe, ask: what specific problem does...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for p",
+        "url": "https://www.tiktok.com/@aibyage/video/7673105610438626581",
+        "why_relevant": "TikTok: Parents are paying more for AI homework help. But it's not a"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "parents \"I would pay for an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to parents \"I would pay for an app\", especially about parents \"i pay app\"?",
+        "search_query": "parents \"i pay app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-16",
+  "range_to": "2026-08-15",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@aibyage/video/7673105610438626581",
+      "cluster_id": "cluster-1",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK3",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK3",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 12.199999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for premium AI chatbot subscriptions to help their kids with homework. Here's the twist: researchers found this is driven less by any proven improvement in learning, and more by fear -- fear that their child will fall behind classmates who already use one. Subscription AI tools are being marketed hard to families right now, often bundling faster responses, more advanced models, or homework-specific modes. When the buying decision comes from social comparison instead of evidence, families can end up paying for tools that don't actually move the needle. Before you subscribe, ask: what specific problem does...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "aibyage",
+          "body": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for premium AI chatbot subscriptions to help their kids with homework. Here's the twist: researchers found this is driven less by any proven improvement in learning, and more by fear -- fear that their child will fall behind classmates who already use one. Subscription AI tools are being marketed hard to families right now, often bundling faster responses, more advanced models, or homework-specific modes. When the buying decision comes from social comparison instead of evidence, families can end up paying for tools that don't actually move the needle. Before you subscribe, ask: what specific problem does this solve? Is there evidence it improves understanding, not just speed? And is this decision about what your child needs, or what other families are doing? Who should know this: parents evaluating whether to pay for an AI homework-help subscription. Source: https://phys.org/news/2026-08-ai-homework-parents-pay-subscriptions.html #AIbyAge #AIhomework #ParentingTech #AIandKids #DigitalLiteracy #AIresearch #EdTech #TechNews #AInews #StudyTips More: https://www.aibyage.com/?modal=signup&utm_source=tiktok&utm_medium=social\nParents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for premium AI chatbot subscriptions to help their kids with homework. Here's the twist: researchers found this is driven less by any proven improvement in learning, and more by fear -- fear that their child will fall behind classmates who already use one. Subscription AI tools are being marketed hard to families right now, often bundling faster responses, more advanced models, or homework-specific modes. When the buying decision comes from social comparison instead of evidence, families can end up paying for tools that don't actually move the needle. Before you subscribe, ask: what specific problem does this solve? Is there evidence it improves understanding, not just speed? And is this decision about what your child needs, or what other families are doing? Who should know this: parents evaluating whether to pay for an AI homework-help subscription. Source: https://phys.org/news/2026-08-ai-homework-parents-pay-subscriptions.html #AIbyAge #AIhomework #ParentingTech #AIandKids #DigitalLiteracy #AIresearch #EdTech #TechNews #AInews #StudyTips More: https://www.aibyage.com/?modal=signup&utm_source=tiktok&utm_medium=social",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 5,
+            "shares": 0,
+            "views": 259
+          },
+          "engagement_score": 26,
+          "freshness": 94,
+          "item_id": "TK3",
+          "local_rank_score": 0.378,
+          "local_relevance": 0.18,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-12",
+          "relevance_hint": 0.39,
+          "snippet": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for premium AI chatbot subscriptions to help their kids with homework. Here's the twist: researchers found this is driven less by any proven improvement in learning, and more by fear -- fear that their child will fall behind classmates who already use one. Subscription AI tools are being marketed hard to families right now, often bundling faster responses, more advanced models, or homework-specific modes. When the buying decision comes from social comparison instead of evidence, families can end up paying for tools that don't actually move the needle. Before you subscribe, ask: what specific problem does...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for p",
+          "url": "https://www.tiktok.com/@aibyage/video/7673105610438626581",
+          "why_relevant": "TikTok: Parents are paying more for AI homework help. But it's not a"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Parents are paying more for AI homework help. But it's not about what works. A new study finds parents are increasingly willing to pay for p",
+      "url": "https://www.tiktok.com/@aibyage/video/7673105610438626581"
+    }
+  ],
+  "topic": "parents \"I would pay for an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
