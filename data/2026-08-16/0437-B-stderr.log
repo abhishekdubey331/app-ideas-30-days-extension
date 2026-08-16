@@ -1,0 +1,175 @@
+Batch B sources=x,bluesky
+Started at 2026-08-16T04:37:27Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/31927061380
+----
+
+===== Seed: site:reddit.com/r/apple =====
+/last30days · researching: site:reddit.com/r/apple
+⏳ [95mProcessing[0m Crunching the data...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs apple
+[Competitors] Comparing: site:reddit.com vs r vs apple
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] apple: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="apple" sources=[x,bluesky]
+[Bird] Searching: apple since:2026-07-17
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[x,bluesky]
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[x,bluesky]
+[Bird] Searching: r since:2026-07-17
+[Bird] Searching: site:reddit.com since:2026-07-17
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (4.8s) - X: 6 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-16/0437-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/GooglePixel =====
+/last30days · researching: site:reddit.com/r/GooglePixel
+⏳ [95mProcessing[0m Organizing findings...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs GooglePixel
+[Competitors] Comparing: site:reddit.com vs r vs GooglePixel
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] GooglePixel: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="googlepixel" sources=[x,bluesky]
+[Bird] Searching: googlepixel since:2026-07-17
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[x,bluesky]
+[Bird] Searching: r since:2026-07-17
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[x,bluesky]
+[Bird] Searching: site:reddit.com since:2026-07-17
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (2.4s) - X: 6 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-16/0437-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/AppHookup =====
+/last30days · researching: site:reddit.com/r/AppHookup
+⏳ [95mProcessing[0m Crunching the data...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs AppHookup
+[Competitors] Comparing: site:reddit.com vs r vs AppHookup
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] AppHookup: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="apphookup" sources=[x,bluesky]
+[Bird] Searching: apphookup since:2026-07-17
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[x,bluesky]
+[Bird] Searching: r since:2026-07-17
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[x,bluesky]
+[Bird] Searching: site:reddit.com since:2026-07-17
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[Bird] Searching: apphookup since:2026-07-17
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (1.9s) - X: 6 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-16/0437-site-reddit-com.json
+[OK] seed succeeded
+
+===== Seed: site:reddit.com/r/SideProject "mobile app" =====
+/last30days · researching: site:reddit.com/r/SideProject "mobile app"
+⏳ [95mProcessing[0m Scoring and ranking...
+[Competitors] vs-mode: routing to N-pass fanout: site:reddit.com vs r vs SideProject "mobile app
+[Competitors] Comparing: site:reddit.com vs r vs SideProject "mobile app
+[Competitors] r: x=@- subs=0 gh=- (auto)
+[Competitors] SideProject "mobile app: x=@- subs=0 gh=- (auto)
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:reddit.com" sources=[x,bluesky]
+[Bird] Searching: site:reddit.com since:2026-07-17
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="sideproject "mobile app" sources=[x,bluesky]
+[Bird] Searching: sideproject "mobile app since:2026-07-17
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="r" sources=[x,bluesky]
+[Bird] Searching: r since:2026-07-17
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'sideproject "mobile app', retrying with 'sideproject "mobile'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'sideproject "mobile app', retrying with strongest token 'sideproject'
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+[Bird] Handle search failed for @trix_mrkt: 
+[Bird] Handle search failed for @altcoin_q: 
+[Bird] Handle search failed for @bjork: 
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (2.5s) - X: 6 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-16/0437-site-reddit-com.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
