@@ -1,0 +1,614 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"worth paying for\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Apps I am not uninstalling"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Are paid dating app features actually worth it?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/beforeyoupurchase/comments/1vmmd4e/which_money_apps_are_worth_paying_for_versus"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/beforeyoupurchase/comments/1vmmd4e/which_money_apps_are_worth_paying_for_versus"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Which money apps are worth paying for versus staying on the free tier"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-17T01:22:49.536249+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Apps I am not uninstalling\nIt\u2019s been some time since my last post. Not because I haven\u2019t continued testing nearly every app on the planet. I\u2019ve simply been a little busy when it comes to checking in. Quite a few apps have found their way onto my Mac recently. Some are new discoveries, while others have convinced me to change direction and replace apps I\u2019d been using for years. Most importantly, these are apps I\u2019ve actually kept installed, which, if you know me, is already quite an endorsement. Mole ($19,00) and Burrow (fr\nMole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+        "container": "macapps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 133,
+          "score": 174
+        },
+        "engagement_score": 91,
+        "freshness": 64,
+        "item_id": "R2",
+        "local_rank_score": 0.4005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+            "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon.",
+            "Mole cli tool is free and open source https://github.com/tw93/Mole",
+            "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches.",
+            "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+            "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-...",
+            "Stellar post! EasyDMG and Burrow are now installed on my daily driver.",
+            "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+            "This is a great list. Thank you for sharing it.",
+            "Not because I haven\u2019t continued testing nearly every app on the planet."
+          ],
+          "top_comments": [
+            {
+              "author": "RexLeonumOnReddit",
+              "date": "2026-07-30",
+              "excerpt": "Mole cli tool is free and open source https://github.com/tw93/Mole",
+              "score": 32,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0n94rx/"
+            },
+            {
+              "author": "eupatridius",
+              "date": "2026-07-30",
+              "excerpt": "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+              "score": 24,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nkza2/"
+            },
+            {
+              "author": "dorothea_cassandra",
+              "date": "2026-07-30",
+              "excerpt": "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+              "score": 9,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nn8ui/"
+            },
+            {
+              "author": "ww_promo",
+              "date": "2026-07-30",
+              "excerpt": "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon. I love word play, so I couldn't help myself.",
+              "score": 7,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o9cna/"
+            },
+            {
+              "author": "iordv",
+              "date": "2026-07-30",
+              "excerpt": "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+              "score": 4,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oisbu/"
+            },
+            {
+              "author": "repomonkey",
+              "date": "2026-07-30",
+              "excerpt": "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-known app nobody's heard of. Question regarding the face unlock apps - do they work for the passwords app? Frustrates the fuck out of me that my Mac w",
+              "score": 4,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0ra36m/"
+            },
+            {
+              "author": "amerpie",
+              "date": "2026-07-31",
+              "excerpt": "Stellar post! EasyDMG and Burrow are now installed on my daily driver. Great to see a plug for Notcho Libre. I love all the WidgetWorx apps. I look forward to more of your posts.",
+              "score": 4,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0tosvy/"
+            },
+            {
+              "author": "ww_promo",
+              "date": "2026-07-30",
+              "excerpt": "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+              "score": 3,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o8y5h/"
+            },
+            {
+              "author": "UnluckyDuckyDuck",
+              "date": "2026-07-30",
+              "excerpt": "Not because I haven\u2019t continued testing nearly every app on the planet. If anyone else wrote that, I wouldn't believe them. But you... you I definitely believe. Thanks for the mentions of both ExtraDock and DockFlow!",
+              "score": 3,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0n8e1u/"
+            },
+            {
+              "author": "Pirasee",
+              "date": "2026-07-30",
+              "excerpt": "This is a great list. Thank you for sharing it.",
+              "score": 2,
+              "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oigl8/"
+            }
+          ]
+        },
+        "published_at": "2026-07-30",
+        "relevance_hint": 0.22,
+        "snippet": "Mole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Apps I am not uninstalling",
+        "url": "https://www.reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Which money apps are worth paying for versus staying on the free tier\nHalf the apps that used to be free now want a monthly fee, so I've been trying to figure out which ones are actually worth paying for versus which I should just keep on the free tier or drop. My rough rule so far is that a paid app only makes sense if it either saves real time or surfaces money I'd otherwise miss entirely, not if it's just a nicer version of something free. Cashback and receipt apps I keep free, the paid upgrades never paid for themselves. Curious where other people draw the lin",
+        "container": "BeforeyouPurchase",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 3
+        },
+        "engagement_score": 15,
+        "freshness": 89,
+        "item_id": "R6",
+        "local_rank_score": 0.374,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-12",
+        "relevance_hint": 0.6,
+        "snippet": "Half the apps that used to be free now want a monthly fee, so I've been trying to figure out which ones are actually worth paying for versus which I should just keep on the free tier or drop. My rough rule so far is that a paid app only makes sense if it either saves real time or surfaces money I'd otherwise miss entirely, not if it's just a nicer version of something free. Cashback and receipt ap",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Which money apps are worth paying for versus staying on the free tier",
+        "url": "https://www.reddit.com/r/BeforeyouPurchase/comments/1vmmd4e/which_money_apps_are_worth_paying_for_versus/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Are paid dating app features actually worth it?\nI have been wondering about this lately because it feels like a lot of dating apps keep adding more paid features. I do not mind paying for something if it genuinely improves the experience, but it's hard to know if it is actually worth it before spending money. For those who have paid for premium features, did you notice a real difference or did it mostly feel like small upgrades? Would like to hear which apps were worth paying for and which ones you wouldn't spend money on again.\nI pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+        "container": "dating_apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 2
+        },
+        "engagement_score": 16,
+        "freshness": 82,
+        "item_id": "R5",
+        "local_rank_score": 0.35750000000000004,
+        "local_relevance": 0.21,
+        "metadata": {
+          "comment_insights": [
+            "I pay for tinder and hinge X and yes I get more matches :)",
+            "A one month subscription is well worth it.",
+            "Don't pay those fucking apps a single dime",
+            "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them."
+          ],
+          "top_comments": [
+            {
+              "author": "Cerenia",
+              "date": "2026-08-08",
+              "excerpt": "I pay for tinder and hinge X and yes I get more matches :)",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2frdhc/"
+            },
+            {
+              "author": "Heliguy-1975",
+              "date": "2026-08-08",
+              "excerpt": "A one month subscription is well worth it.",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2jwlgv/"
+            },
+            {
+              "author": "Big_Bar_9832",
+              "date": "2026-08-08",
+              "excerpt": "Don't pay those fucking apps a single dime",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2gelht/"
+            },
+            {
+              "author": "psj3809",
+              "date": "2026-08-10",
+              "excerpt": "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them. So i did the minimum, think it was a month. And boy oh boy ! NOOOO. Not good ! Paid for Hinge and Tinder and happy with those, met someone early on before the mo",
+              "score": 1,
+              "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2u5jgs/"
+            }
+          ]
+        },
+        "published_at": "2026-08-08",
+        "relevance_hint": 0.51,
+        "snippet": "I pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Are paid dating app features actually worth it?",
+        "url": "https://www.reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"worth paying for\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"worth paying for\" app?",
+        "search_query": "\"worth paying for\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-18",
+  "range_to": "2026-08-17",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling",
+      "cluster_id": "cluster-1",
+      "engagement": 91,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 9.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Mole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Apps I am not uninstalling\nIt\u2019s been some time since my last post. Not because I haven\u2019t continued testing nearly every app on the planet. I\u2019ve simply been a little busy when it comes to checking in. Quite a few apps have found their way onto my Mac recently. Some are new discoveries, while others have convinced me to change direction and replace apps I\u2019d been using for years. Most importantly, these are apps I\u2019ve actually kept installed, which, if you know me, is already quite an endorsement. Mole ($19,00) and Burrow (fr\nMole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+          "container": "macapps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 133,
+            "score": 174
+          },
+          "engagement_score": 91,
+          "freshness": 64,
+          "item_id": "R2",
+          "local_rank_score": 0.4005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+              "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon.",
+              "Mole cli tool is free and open source https://github.com/tw93/Mole",
+              "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches.",
+              "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+              "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-...",
+              "Stellar post! EasyDMG and Burrow are now installed on my daily driver.",
+              "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+              "This is a great list. Thank you for sharing it.",
+              "Not because I haven\u2019t continued testing nearly every app on the planet."
+            ],
+            "top_comments": [
+              {
+                "author": "RexLeonumOnReddit",
+                "date": "2026-07-30",
+                "excerpt": "Mole cli tool is free and open source https://github.com/tw93/Mole",
+                "score": 32,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0n94rx/"
+              },
+              {
+                "author": "eupatridius",
+                "date": "2026-07-30",
+                "excerpt": "Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky.",
+                "score": 24,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nkza2/"
+              },
+              {
+                "author": "dorothea_cassandra",
+                "date": "2026-07-30",
+                "excerpt": "Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+                "score": 9,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0nn8ui/"
+              },
+              {
+                "author": "ww_promo",
+                "date": "2026-07-30",
+                "excerpt": "The Notcho Libre name is a play on the 2006 movie \"Nacho Libre\", that's why it has the Luchador mask icon. I love word play, so I couldn't help myself.",
+                "score": 7,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o9cna/"
+              },
+              {
+                "author": "iordv",
+                "date": "2026-07-30",
+                "excerpt": "FaceGate is a super interesting idea, and actually it\u2019s quite strange that they haven\u2019t implemented Face ID yet \ud83e\udd23",
+                "score": 4,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oisbu/"
+              },
+              {
+                "author": "repomonkey",
+                "date": "2026-07-30",
+                "excerpt": "This has to be a world first - an app post that includes apps that are actually new to me and doesn't suggest that something like RayCast is a little-known app nobody's heard of. Question regarding the face unlock apps - do they work for the passwords app? Frustrates the fuck out of me that my Mac w",
+                "score": 4,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0ra36m/"
+              },
+              {
+                "author": "amerpie",
+                "date": "2026-07-31",
+                "excerpt": "Stellar post! EasyDMG and Burrow are now installed on my daily driver. Great to see a plug for Notcho Libre. I love all the WidgetWorx apps. I look forward to more of your posts.",
+                "score": 4,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0tosvy/"
+              },
+              {
+                "author": "ww_promo",
+                "date": "2026-07-30",
+                "excerpt": "Oh wow, it's the first time one of my apps appeared in one of your lists!",
+                "score": 3,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0o8y5h/"
+              },
+              {
+                "author": "UnluckyDuckyDuck",
+                "date": "2026-07-30",
+                "excerpt": "Not because I haven\u2019t continued testing nearly every app on the planet. If anyone else wrote that, I wouldn't believe them. But you... you I definitely believe. Thanks for the mentions of both ExtraDock and DockFlow!",
+                "score": 3,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0n8e1u/"
+              },
+              {
+                "author": "Pirasee",
+                "date": "2026-07-30",
+                "excerpt": "This is a great list. Thank you for sharing it.",
+                "score": 2,
+                "url": "https://reddit.com/r/macapps/comments/1vapsmm/comment/p0oigl8/"
+              }
+            ]
+          },
+          "published_at": "2026-07-30",
+          "relevance_hint": 0.22,
+          "snippet": "Mole cli tool is free and open source https://github.com/tw93/Mole Ikuna is an interesting idea but not for 9 euro a month\u2026 that\u2019s a crazy ask. Notcho Libre looks very clanky. Nice collection of apps! I've been trying Cleanmymac CLI (free beta at the moment) for terminal-based cleanup, especially around dev caches. Anyone else comparing it with Mole/Burrow? I like seeing more Mac tools moving toward power-user workflows.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Apps I am not uninstalling",
+          "url": "https://www.reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Apps I am not uninstalling",
+      "url": "https://www.reddit.com/r/macapps/comments/1vapsmm/apps_i_am_not_uninstalling/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it",
+      "cluster_id": "cluster-2",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "R5",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 12.100000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Are paid dating app features actually worth it?\nI have been wondering about this lately because it feels like a lot of dating apps keep adding more paid features. I do not mind paying for something if it genuinely improves the experience, but it's hard to know if it is actually worth it before spending money. For those who have paid for premium features, did you notice a real difference or did it mostly feel like small upgrades? Would like to hear which apps were worth paying for and which ones you wouldn't spend money on again.\nI pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+          "container": "dating_apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 2
+          },
+          "engagement_score": 16,
+          "freshness": 82,
+          "item_id": "R5",
+          "local_rank_score": 0.35750000000000004,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [
+              "I pay for tinder and hinge X and yes I get more matches :)",
+              "A one month subscription is well worth it.",
+              "Don't pay those fucking apps a single dime",
+              "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them."
+            ],
+            "top_comments": [
+              {
+                "author": "Cerenia",
+                "date": "2026-08-08",
+                "excerpt": "I pay for tinder and hinge X and yes I get more matches :)",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2frdhc/"
+              },
+              {
+                "author": "Heliguy-1975",
+                "date": "2026-08-08",
+                "excerpt": "A one month subscription is well worth it.",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2jwlgv/"
+              },
+              {
+                "author": "Big_Bar_9832",
+                "date": "2026-08-08",
+                "excerpt": "Don't pay those fucking apps a single dime",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2gelht/"
+              },
+              {
+                "author": "psj3809",
+                "date": "2026-08-10",
+                "excerpt": "Plenty of Fish - no ! Joined it, seemed to get a lot of matches but they're all blurred and surprise surprise you have to pay to see them. So i did the minimum, think it was a month. And boy oh boy ! NOOOO. Not good ! Paid for Hinge and Tinder and happy with those, met someone early on before the mo",
+                "score": 1,
+                "url": "https://reddit.com/r/dating_apps/comments/1visb6i/comment/p2u5jgs/"
+              }
+            ]
+          },
+          "published_at": "2026-08-08",
+          "relevance_hint": 0.51,
+          "snippet": "I pay for tinder and hinge X and yes I get more matches :) A one month subscription is well worth it. Don't pay those fucking apps a single dime",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Are paid dating app features actually worth it?",
+          "url": "https://www.reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Are paid dating app features actually worth it?",
+      "url": "https://www.reddit.com/r/dating_apps/comments/1visb6i/are_paid_dating_app_features_actually_worth_it/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/beforeyoupurchase/comments/1vmmd4e/which_money_apps_are_worth_paying_for_versus",
+      "cluster_id": "cluster-3",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 30.0,
+      "item_id": "R6",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Half the apps that used to be free now want a monthly fee, so I've been trying to figure out which ones are actually worth paying for versus which I should just keep on the free tier or drop. My rough rule so far is that a paid app only makes sense if it either saves real time or surfaces money I'd otherwise miss entirely, not if it's just a nicer version of something free. Cashback and receipt ap",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Which money apps are worth paying for versus staying on the free tier\nHalf the apps that used to be free now want a monthly fee, so I've been trying to figure out which ones are actually worth paying for versus which I should just keep on the free tier or drop. My rough rule so far is that a paid app only makes sense if it either saves real time or surfaces money I'd otherwise miss entirely, not if it's just a nicer version of something free. Cashback and receipt apps I keep free, the paid upgrades never paid for themselves. Curious where other people draw the lin",
+          "container": "BeforeyouPurchase",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 3
+          },
+          "engagement_score": 15,
+          "freshness": 89,
+          "item_id": "R6",
+          "local_rank_score": 0.374,
+          "local_relevance": 0.21,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-12",
+          "relevance_hint": 0.6,
+          "snippet": "Half the apps that used to be free now want a monthly fee, so I've been trying to figure out which ones are actually worth paying for versus which I should just keep on the free tier or drop. My rough rule so far is that a paid app only makes sense if it either saves real time or surfaces money I'd otherwise miss entirely, not if it's just a nicer version of something free. Cashback and receipt ap",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Which money apps are worth paying for versus staying on the free tier",
+          "url": "https://www.reddit.com/r/BeforeyouPurchase/comments/1vmmd4e/which_money_apps_are_worth_paying_for_versus/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Which money apps are worth paying for versus staying on the free tier",
+      "url": "https://www.reddit.com/r/BeforeyouPurchase/comments/1vmmd4e/which_money_apps_are_worth_paying_for_versus/"
+    }
+  ],
+  "topic": "\"worth paying for\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
