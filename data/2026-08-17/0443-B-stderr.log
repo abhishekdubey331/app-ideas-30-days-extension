@@ -1,0 +1,117 @@
+Batch B sources=x,bluesky
+Started at 2026-08-17T04:43:44Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/31995458821
+----
+
+===== Seed: parents "I would pay for an app" =====
+/last30days · researching: parents "I would pay for an app"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="parents "i pay app"" sources=[x,bluesky]
+[Bird] Searching: parents "i pay app" since:2026-07-18
+[Bird] 0 results for 'parents "i pay app"', retrying with 'parents "i'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'parents "i pay app"', retrying with strongest token 'parents'
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (2.8s) - X: 12 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-17/0443-parents-i-would-pay-for-an-app.json
+[OK] seed succeeded
+
+===== Seed: small business "is there a paid app" =====
+/last30days · researching: small business "is there a paid app"
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="small business "is there paid app"" sources=[x,bluesky]
+[Bird] Searching: small business "is there paid since:2026-07-18
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'small business "is there paid', retrying with 'small business'
+[Bird] Handle search failed for @tdtonyd32: 
+[Bird] Handle search failed for @mchachu_: 
+[Bird] Handle search failed for @wordi25: 
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (2.3s) - X: 3 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-17/0443-small-business-is-there-a-paid-app.json
+[OK] seed succeeded
+
+===== Seed: fitness "frustrated with" app =====
+/last30days · researching: fitness "frustrated with" app
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="fitness "frustrated with" app" sources=[x,bluesky]
+[Bird] Searching: fitness "frustrated with" app since:2026-07-18
+[Bird] Searching: fitness "frustrated with" since:2026-07-18
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (1.6s) - X: 5 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-17/0443-fitness-frustrated-with-app.json
+[OK] seed succeeded
+
+===== Seed: students "better app than" =====
+/last30days · researching: students "better app than"
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="students "better app than"" sources=[x,bluesky]
+[Bird] Searching: students "better app than" since:2026-07-18
+[Bird] Searching: students "better app since:2026-07-18
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'students "better app', retrying with 'students "better'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'students "better app', retrying with strongest token 'students'
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (3.4s) - X: 13 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-17/0443-students-better-app-than.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
