@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@freegamejohn/video/7669988277046299917"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@freegamejohn/video/7669988277046299917"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Telegram just got removed from the Apple App Store worldwide. Existing users aren\u2019t affected, but new downloads are now blocked. Major impli"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-18T12:50:37.188203+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "freegamejohn",
+        "body": "Telegram just got removed from the Apple App Store worldwide. Existing users aren\u2019t affected, but new downloads are now blocked. Major implications for the crypto and tech communities. #Telegram #Apple #AppStore #TechNews #BreakingNews\nGuys, apple has officially packed up Telegram. That's right. The app is no longer able to be downloaded and it does not function whatsoever. Now, so many of you, including myself, use Telegram for so many different things, and this just really sucks. This is why people preach about decentralized apps. When they have a app, they just can't take away from us. All the power belongs to the people. But at the end of the day, there's so many apps for us to use. But this really hurts. I mean, the tin foil hat community is in absolute shambles. Let's. Let's keep it real. Telegram, a lot of people use it for so many great things. It got shut down due to the. The fact that, it was linked to terrorist group organisations creating chats and organising within the app. And this hurts a lot of people because, like I said before, Telegram was being used for far more greater good than it was actually bad things. So this really sucks. Tell me what you guys think about this in the comments.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 125,
+          "likes": 1645,
+          "shares": 334,
+          "views": 85085
+        },
+        "engagement_score": 95,
+        "freshness": 71,
+        "item_id": "TK1",
+        "local_rank_score": 0.40249999999999997,
+        "local_relevance": 0.2,
+        "metadata": {
+          "hashtags": [
+            "telegram",
+            "apple",
+            "appstore",
+            "technews",
+            "breakingnews"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-04",
+        "relevance_hint": 0.24,
+        "snippet": "Guys, apple has officially packed up Telegram. That's right. The app is no longer able to be downloaded and it does not function whatsoever. Now, so many of you, including myself, use Telegram for so many different things, and this just really sucks. This is why people preach about decentralized apps. When they have a app, they just can't take away from us. All the power belongs to the people. But at the end of the day, there's so many apps for us to use. But this really hurts. I mean, the tin foil hat community is in absolute shambles. Let's. Let's keep it real. Telegram, a lot of people use it for so many great things. It got shut...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Telegram just got removed from the Apple App Store worldwide. Existing users aren\u2019t affected, but new downloads are now blocked. Major impli",
+        "url": "https://www.tiktok.com/@freegamejohn/video/7669988277046299917",
+        "why_relevant": "TikTok: Telegram just got removed from the Apple App Store worldwide"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-19",
+  "range_to": "2026-08-18",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@freegamejohn/video/7669988277046299917",
+      "cluster_id": "cluster-1",
+      "engagement": 95,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK1",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 9.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Guys, apple has officially packed up Telegram. That's right. The app is no longer able to be downloaded and it does not function whatsoever. Now, so many of you, including myself, use Telegram for so many different things, and this just really sucks. This is why people preach about decentralized apps. When they have a app, they just can't take away from us. All the power belongs to the people. But at the end of the day, there's so many apps for us to use. But this really hurts. I mean, the tin foil hat community is in absolute shambles. Let's. Let's keep it real. Telegram, a lot of people use it for so many great things. It got shut...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "freegamejohn",
+          "body": "Telegram just got removed from the Apple App Store worldwide. Existing users aren\u2019t affected, but new downloads are now blocked. Major implications for the crypto and tech communities. #Telegram #Apple #AppStore #TechNews #BreakingNews\nGuys, apple has officially packed up Telegram. That's right. The app is no longer able to be downloaded and it does not function whatsoever. Now, so many of you, including myself, use Telegram for so many different things, and this just really sucks. This is why people preach about decentralized apps. When they have a app, they just can't take away from us. All the power belongs to the people. But at the end of the day, there's so many apps for us to use. But this really hurts. I mean, the tin foil hat community is in absolute shambles. Let's. Let's keep it real. Telegram, a lot of people use it for so many great things. It got shut down due to the. The fact that, it was linked to terrorist group organisations creating chats and organising within the app. And this hurts a lot of people because, like I said before, Telegram was being used for far more greater good than it was actually bad things. So this really sucks. Tell me what you guys think about this in the comments.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 125,
+            "likes": 1645,
+            "shares": 334,
+            "views": 85085
+          },
+          "engagement_score": 95,
+          "freshness": 71,
+          "item_id": "TK1",
+          "local_rank_score": 0.40249999999999997,
+          "local_relevance": 0.2,
+          "metadata": {
+            "hashtags": [
+              "telegram",
+              "apple",
+              "appstore",
+              "technews",
+              "breakingnews"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-04",
+          "relevance_hint": 0.24,
+          "snippet": "Guys, apple has officially packed up Telegram. That's right. The app is no longer able to be downloaded and it does not function whatsoever. Now, so many of you, including myself, use Telegram for so many different things, and this just really sucks. This is why people preach about decentralized apps. When they have a app, they just can't take away from us. All the power belongs to the people. But at the end of the day, there's so many apps for us to use. But this really hurts. I mean, the tin foil hat community is in absolute shambles. Let's. Let's keep it real. Telegram, a lot of people use it for so many great things. It got shut...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Telegram just got removed from the Apple App Store worldwide. Existing users aren\u2019t affected, but new downloads are now blocked. Major impli",
+          "url": "https://www.tiktok.com/@freegamejohn/video/7669988277046299917",
+          "why_relevant": "TikTok: Telegram just got removed from the Apple App Store worldwide"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Telegram just got removed from the Apple App Store worldwide. Existing users aren\u2019t affected, but new downloads are now blocked. Major impli",
+      "url": "https://www.tiktok.com/@freegamejohn/video/7669988277046299917"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"better app than\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@accountwhoburns/video/7670679210691759373"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@accountwhoburns/video/7670679210691759373"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@cozyflash123/video/7671307374849756446"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@cozyflash123/video/7671307374849756446"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-18T12:50:21.565835+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "accountwhoburns",
+        "body": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 38,
+          "likes": 83,
+          "shares": 4,
+          "views": 6232
+        },
+        "engagement_score": 100,
+        "freshness": 73,
+        "item_id": "TK20",
+        "local_rank_score": 0.43200000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "hashtags": [
+            "walmart",
+            "fyp",
+            "helpful",
+            "sparkdriver",
+            "viral"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-05",
+        "relevance_hint": 0.89,
+        "snippet": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+        "url": "https://www.tiktok.com/@accountwhoburns/video/7670679210691759373",
+        "why_relevant": "TikTok: Walmart Spark Driver App Delivery, is it better than Uber Do"
+      },
+      {
+        "author": "cozyflash123",
+        "body": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 4,
+          "shares": 2,
+          "views": 185
+        },
+        "engagement_score": 16,
+        "freshness": 77,
+        "item_id": "TK25",
+        "local_rank_score": 0.35800000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "hashtags": [
+            "freeapps",
+            "bestfreesoftware",
+            "savemoney",
+            "techhacks",
+            "cooldudeexplains"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-07",
+        "relevance_hint": 0.89,
+        "snippet": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+        "url": "https://www.tiktok.com/@cozyflash123/video/7671307374849756446",
+        "why_relevant": "TikTok: 10 Free Apps That Are Better Than Paid Versions #freeapps #b"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"better app than\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"better app than\"?",
+        "search_query": "\"better app than\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-19",
+  "range_to": "2026-08-18",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@accountwhoburns/video/7670679210691759373",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK20",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK20",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 11.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "accountwhoburns",
+          "body": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 38,
+            "likes": 83,
+            "shares": 4,
+            "views": 6232
+          },
+          "engagement_score": 100,
+          "freshness": 73,
+          "item_id": "TK20",
+          "local_rank_score": 0.43200000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "hashtags": [
+              "walmart",
+              "fyp",
+              "helpful",
+              "sparkdriver",
+              "viral"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-05",
+          "relevance_hint": 0.89,
+          "snippet": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+          "url": "https://www.tiktok.com/@accountwhoburns/video/7670679210691759373",
+          "why_relevant": "TikTok: Walmart Spark Driver App Delivery, is it better than Uber Do"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Walmart Spark Driver App Delivery, is it better than Uber DoorDash Lyft? Best app to get paid. #walmart #fyp #helpful #sparkdriver #viral",
+      "url": "https://www.tiktok.com/@accountwhoburns/video/7670679210691759373"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@cozyflash123/video/7671307374849756446",
+      "cluster_id": "cluster-2",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "TK25",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK25",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 2
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "cozyflash123",
+          "body": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 4,
+            "shares": 2,
+            "views": 185
+          },
+          "engagement_score": 16,
+          "freshness": 77,
+          "item_id": "TK25",
+          "local_rank_score": 0.35800000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "hashtags": [
+              "freeapps",
+              "bestfreesoftware",
+              "savemoney",
+              "techhacks",
+              "cooldudeexplains"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-07",
+          "relevance_hint": 0.89,
+          "snippet": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+          "url": "https://www.tiktok.com/@cozyflash123/video/7671307374849756446",
+          "why_relevant": "TikTok: 10 Free Apps That Are Better Than Paid Versions #freeapps #b"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "10 Free Apps That Are Better Than Paid Versions #freeapps #bestfreesoftware #savemoney #techhacks #cooldudeexplains",
+      "url": "https://www.tiktok.com/@cozyflash123/video/7671307374849756446"
+    }
+  ],
+  "topic": "\"better app than\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@ashleychelle7/video/7674449457462758669"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@ashleychelle7/video/7674449457462758669"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@thealasildorian/video/7674866569624734989"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@thealasildorian/video/7674866569624734989"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my iss"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-18T12:50:57.050068+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "ashleychelle7",
+        "body": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 7,
+          "likes": 33,
+          "shares": 1,
+          "views": 262
+        },
+        "engagement_score": 32,
+        "freshness": 95,
+        "item_id": "TK9",
+        "local_rank_score": 0.38,
+        "local_relevance": 0.17,
+        "metadata": {
+          "hashtags": [
+            "fyp",
+            "momtok",
+            "contentcreator",
+            "support",
+            "workingmom"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-16",
+        "relevance_hint": 0.87,
+        "snippet": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+        "url": "https://www.tiktok.com/@ashleychelle7/video/7674449457462758669",
+        "why_relevant": "TikTok: I swear this app has me so frustrated as sometimes!! #fyp #m"
+      },
+      {
+        "author": "thealasildorian",
+        "body": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my issue is not with paid DMing. My issue is with individual paid DM\u2019s on this app rage baiting the TTRPG community and an effort to drive, clicks and views for the purpose of recruiting players for their games, and or selling product. ##ttrpg##dnd",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 17,
+          "likes": 20,
+          "shares": 0,
+          "views": 157
+        },
+        "engagement_score": 26,
+        "freshness": 97,
+        "item_id": "TK11",
+        "local_rank_score": 0.37250000000000005,
+        "local_relevance": 0.16,
+        "metadata": {
+          "hashtags": [
+            "stitch",
+            "ttrpg",
+            "dnd"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-17",
+        "relevance_hint": 0.87,
+        "snippet": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my issue is not with paid DMing. My issue is with individual paid DM\u2019s on this app rage baiting the TTRPG community and an effort to drive, clicks and views for the purpose of recruiting players for their games, and or selling product. ##ttrpg##dnd",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my iss",
+        "url": "https://www.tiktok.com/@thealasildorian/video/7674866569624734989",
+        "why_relevant": "TikTok: #stitch with @A Sundered World I appreciate that you respect"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-19",
+  "range_to": "2026-08-18",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@ashleychelle7/video/7674449457462758669",
+      "cluster_id": "cluster-1",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK9",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK9",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 11.699999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "ashleychelle7",
+          "body": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 7,
+            "likes": 33,
+            "shares": 1,
+            "views": 262
+          },
+          "engagement_score": 32,
+          "freshness": 95,
+          "item_id": "TK9",
+          "local_rank_score": 0.38,
+          "local_relevance": 0.17,
+          "metadata": {
+            "hashtags": [
+              "fyp",
+              "momtok",
+              "contentcreator",
+              "support",
+              "workingmom"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-16",
+          "relevance_hint": 0.87,
+          "snippet": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+          "url": "https://www.tiktok.com/@ashleychelle7/video/7674449457462758669",
+          "why_relevant": "TikTok: I swear this app has me so frustrated as sometimes!! #fyp #m"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I swear this app has me so frustrated as sometimes!! #fyp #momtok #contentcreator #support #workingmom",
+      "url": "https://www.tiktok.com/@ashleychelle7/video/7674449457462758669"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@thealasildorian/video/7674866569624734989",
+      "cluster_id": "cluster-2",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK11",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK11",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 2
+      },
+      "rerank_score": 11.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my issue is not with paid DMing. My issue is with individual paid DM\u2019s on this app rage baiting the TTRPG community and an effort to drive, clicks and views for the purpose of recruiting players for their games, and or selling product. ##ttrpg##dnd",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "thealasildorian",
+          "body": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my issue is not with paid DMing. My issue is with individual paid DM\u2019s on this app rage baiting the TTRPG community and an effort to drive, clicks and views for the purpose of recruiting players for their games, and or selling product. ##ttrpg##dnd",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 17,
+            "likes": 20,
+            "shares": 0,
+            "views": 157
+          },
+          "engagement_score": 26,
+          "freshness": 97,
+          "item_id": "TK11",
+          "local_rank_score": 0.37250000000000005,
+          "local_relevance": 0.16,
+          "metadata": {
+            "hashtags": [
+              "stitch",
+              "ttrpg",
+              "dnd"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-17",
+          "relevance_hint": 0.87,
+          "snippet": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my issue is not with paid DMing. My issue is with individual paid DM\u2019s on this app rage baiting the TTRPG community and an effort to drive, clicks and views for the purpose of recruiting players for their games, and or selling product. ##ttrpg##dnd",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my iss",
+          "url": "https://www.tiktok.com/@thealasildorian/video/7674866569624734989",
+          "why_relevant": "TikTok: #stitch with @A Sundered World I appreciate that you respect"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "#stitch with @A Sundered World I appreciate that you respect me. I am very frustrated that people are not hearing me when I tell them my iss",
+      "url": "https://www.tiktok.com/@thealasildorian/video/7674866569624734989"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

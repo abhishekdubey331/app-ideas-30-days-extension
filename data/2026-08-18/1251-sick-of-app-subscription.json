@@ -1,0 +1,424 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@gabbytheebaddie/video/7669490406710578445"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@gabbytheebaddie/video/7669490406710578445"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "I\u2019m sick of it all!!  #fyp #subscriptions #app #storage"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@humorymemes4/video/7670053808512175382"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@humorymemes4/video/7670053808512175382"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "#rant #daddypig #app #subscription"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@lynsey_with_ys/video/7665100383223549214"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://tiktok.com/@lynsey_with_ys/video/7665100383223549214"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Make it stooooooppppppp! I'm sick of all the subscriptions!  #millenialproblems craving a #simplerlife without all the #subscriptions #why"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-18T12:51:15.552607+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "gabbytheebaddie",
+        "body": "I\u2019m sick of it all!!  #fyp #subscriptions #app #storage",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 28,
+          "shares": 0,
+          "views": 327
+        },
+        "engagement_score": 12,
+        "freshness": 71,
+        "item_id": "TK7",
+        "local_rank_score": 0.37150000000000005,
+        "local_relevance": 0.28,
+        "metadata": {
+          "hashtags": [
+            "fyp",
+            "subscriptions",
+            "app",
+            "storage"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-04",
+        "relevance_hint": 0.9,
+        "snippet": "I\u2019m sick of it all!! #fyp #subscriptions #app #storage",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "I\u2019m sick of it all!!  #fyp #subscriptions #app #storage",
+        "url": "https://www.tiktok.com/@gabbytheebaddie/video/7669490406710578445",
+        "why_relevant": "TikTok: I\u2019m sick of it all!!  #fyp #subscriptions #app #storage"
+      },
+      {
+        "author": "humorymemes4",
+        "body": "#rant #daddypig #app #subscription",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 36,
+          "shares": 1,
+          "views": 310
+        },
+        "engagement_score": 12,
+        "freshness": 71,
+        "item_id": "TK8",
+        "local_rank_score": 0.326,
+        "local_relevance": 0.21,
+        "metadata": {
+          "hashtags": [
+            "rant",
+            "daddypig",
+            "app",
+            "subscription"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-04",
+        "relevance_hint": 0.31,
+        "snippet": "#rant #daddypig #app #subscription",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "#rant #daddypig #app #subscription",
+        "url": "https://www.tiktok.com/@humorymemes4/video/7670053808512175382",
+        "why_relevant": "TikTok: #rant #daddypig #app #subscription"
+      },
+      {
+        "author": "lynsey_with_ys",
+        "body": "Make it stooooooppppppp! I'm sick of all the subscriptions!  #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 4,
+          "likes": 16,
+          "shares": 1,
+          "views": 270
+        },
+        "engagement_score": 12,
+        "freshness": 43,
+        "item_id": "TK10",
+        "local_rank_score": 0.21700000000000003,
+        "local_relevance": 0.15,
+        "metadata": {
+          "hashtags": [
+            "millenialproblems",
+            "simplerlife",
+            "subscriptions",
+            "why"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-07-21",
+        "relevance_hint": 0.54,
+        "snippet": "Make it stooooooppppppp! I'm sick of all the subscriptions! #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Make it stooooooppppppp! I'm sick of all the subscriptions!  #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+        "url": "https://www.tiktok.com/@lynsey_with_ys/video/7665100383223549214",
+        "why_relevant": "TikTok: Make it stooooooppppppp! I'm sick of all the subscriptions!"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-19",
+  "range_to": "2026-08-18",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@gabbytheebaddie/video/7669490406710578445",
+      "cluster_id": "cluster-1",
+      "engagement": 12,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 37.5,
+      "item_id": "TK7",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK7",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 14.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I\u2019m sick of it all!! #fyp #subscriptions #app #storage",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "gabbytheebaddie",
+          "body": "I\u2019m sick of it all!!  #fyp #subscriptions #app #storage",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 28,
+            "shares": 0,
+            "views": 327
+          },
+          "engagement_score": 12,
+          "freshness": 71,
+          "item_id": "TK7",
+          "local_rank_score": 0.37150000000000005,
+          "local_relevance": 0.28,
+          "metadata": {
+            "hashtags": [
+              "fyp",
+              "subscriptions",
+              "app",
+              "storage"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-04",
+          "relevance_hint": 0.9,
+          "snippet": "I\u2019m sick of it all!! #fyp #subscriptions #app #storage",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "I\u2019m sick of it all!!  #fyp #subscriptions #app #storage",
+          "url": "https://www.tiktok.com/@gabbytheebaddie/video/7669490406710578445",
+          "why_relevant": "TikTok: I\u2019m sick of it all!!  #fyp #subscriptions #app #storage"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I\u2019m sick of it all!!  #fyp #subscriptions #app #storage",
+      "url": "https://www.tiktok.com/@gabbytheebaddie/video/7669490406710578445"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@humorymemes4/video/7670053808512175382",
+      "cluster_id": "cluster-2",
+      "engagement": 12,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 43.650000000000006,
+      "item_id": "TK8",
+      "local_relevance": 0.21,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK8",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 2
+      },
+      "rerank_score": 9.699999999999996,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "#rant #daddypig #app #subscription",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "humorymemes4",
+          "body": "#rant #daddypig #app #subscription",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 36,
+            "shares": 1,
+            "views": 310
+          },
+          "engagement_score": 12,
+          "freshness": 71,
+          "item_id": "TK8",
+          "local_rank_score": 0.326,
+          "local_relevance": 0.21,
+          "metadata": {
+            "hashtags": [
+              "rant",
+              "daddypig",
+              "app",
+              "subscription"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-04",
+          "relevance_hint": 0.31,
+          "snippet": "#rant #daddypig #app #subscription",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "#rant #daddypig #app #subscription",
+          "url": "https://www.tiktok.com/@humorymemes4/video/7670053808512175382",
+          "why_relevant": "TikTok: #rant #daddypig #app #subscription"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "#rant #daddypig #app #subscription",
+      "url": "https://www.tiktok.com/@humorymemes4/video/7670053808512175382"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@lynsey_with_ys/video/7665100383223549214",
+      "cluster_id": "cluster-3",
+      "engagement": 12,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 24.0,
+      "item_id": "TK10",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK10",
+            "native_rank": 3,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 3
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Make it stooooooppppppp! I'm sick of all the subscriptions! #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "lynsey_with_ys",
+          "body": "Make it stooooooppppppp! I'm sick of all the subscriptions!  #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 4,
+            "likes": 16,
+            "shares": 1,
+            "views": 270
+          },
+          "engagement_score": 12,
+          "freshness": 43,
+          "item_id": "TK10",
+          "local_rank_score": 0.21700000000000003,
+          "local_relevance": 0.15,
+          "metadata": {
+            "hashtags": [
+              "millenialproblems",
+              "simplerlife",
+              "subscriptions",
+              "why"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-07-21",
+          "relevance_hint": 0.54,
+          "snippet": "Make it stooooooppppppp! I'm sick of all the subscriptions! #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Make it stooooooppppppp! I'm sick of all the subscriptions!  #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+          "url": "https://www.tiktok.com/@lynsey_with_ys/video/7665100383223549214",
+          "why_relevant": "TikTok: Make it stooooooppppppp! I'm sick of all the subscriptions!"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Make it stooooooppppppp! I'm sick of all the subscriptions!  #millenialproblems craving a #simplerlife without all the #subscriptions #why",
+      "url": "https://www.tiktok.com/@lynsey_with_ys/video/7665100383223549214"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
