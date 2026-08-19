@@ -1,0 +1,181 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@teamrecipies25/video/7671252279261039874"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@teamrecipies25/video/7671252279261039874"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "FULL STORY  and Part2 link in bio. #redditstories #askreddit #reddit_tiktok"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-19T12:51:04.819035+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "teamrecipies25",
+        "body": "FULL STORY  and Part2 link in bio. #redditstories #askreddit #reddit_tiktok\nIn our family, at any pool, lake, or beach, we count heads out loud every 20 minutes, no matter how excessive it feels to everyone standing around rolling their eyes. My mother started this rule the summer she was 12, the year her younger brother Desmond, drowned at a Lakehouse reunion. While nearly 30 relatives stood within 100 feet of the water, nobody noticed he was missing for almost 20 minutes, each adult assuming he was with someone else. Amid the chaos of a crowded dock, cousins in and out of the water, coolers passed around, radios playing too loud to hear anything unusual. By the time anyone realized no one had actually seen him in a while, it was already too late. So my mother built the head count into every gathering near water for the rest of her life. Out loud, by name, every 20 minutes, whether anyone complained or not. She taught me the rule before I could swim, standing at the edge of our neighborhood pool calling out names like a drill sergeant, while other parents smiled politely and thought she was being overly cautious. I did the same with my own kids, calling out Eleanor, Poppy, and Callum's names every 20 minutes at every pool party, every lake trip, every time. Even when it embarrassed them in front of their friends. Eleanor, my oldest, hated it most. By the time she turned 13, she'd roll her eyes so hard I thought they'd get stuck muttering That nobody else's mom did this weird cult roll call at pool parties. A birthday party two summers ago. She flat out refused to answer when I called her name, standing right in front of me just to prove a point about how unnecessary the ritual was. I made her answer anyway, in front of everyone, and she didn't speak to me for the rest of that day, furious and humiliated in equal measure. By 15, she'd started slipping away during the count on purpose, hiding behind pool houses or ducking underwater right as I called her name, thinking it was funny to watch me panic for a few seconds before popping back up, laughing with her friends. I stopped finding it funny after the third time. I sat her down and told her, as calmly as I could manage, exactly why this mattered so much. The whole story about Desmond. The 20 minutes nobody noticed. The version of my mother's life permanently rewritten by one ordinary afternoon at a lake. Today, at my niece's graduation pool party, surrounded by nearly 40 relatives and half the neighborhood packed onto the patio, I called out the names at the 20 minute Mark, exactly like I always do, the way I have done it 1 thousand times before without incident. Poppy answered immediately from the shallow end, waving a pool noodle over her head. Callum shouted back from the diving board mid cannonball, I called Eleanor's name once, then again louder. Scanning....",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 68,
+          "likes": 15274,
+          "shares": 133,
+          "views": 412682
+        },
+        "engagement_score": 87,
+        "freshness": 76,
+        "item_id": "TK3",
+        "local_rank_score": 0.42650000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "hashtags": [
+            "redditstories",
+            "askreddit",
+            "reddit_tiktok"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-07",
+        "relevance_hint": 0.24,
+        "snippet": "In our family, at any pool, lake, or beach, we count heads out loud every 20 minutes, no matter how excessive it feels to everyone standing around rolling their eyes. My mother started this rule the summer she was 12, the year her younger brother Desmond, drowned at a Lakehouse reunion. While nearly 30 relatives stood within 100 feet of the water, nobody noticed he was missing for almost 20 minutes, each adult assuming he was with someone else. Amid the chaos of a crowded dock, cousins in and out of the water, coolers passed around, radios playing too loud to hear anything unusual. By the time anyone realized no one had actually seen him in a while, it was...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "FULL STORY  and Part2 link in bio. #redditstories #askreddit #reddit_tiktok",
+        "url": "https://www.tiktok.com/@teamrecipies25/video/7671252279261039874",
+        "why_relevant": "TikTok: FULL STORY  and Part2 link in bio. #redditstories #askreddit"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-20",
+  "range_to": "2026-08-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@teamrecipies25/video/7671252279261039874",
+      "cluster_id": "cluster-1",
+      "engagement": 87,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "TK3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK3",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 12.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "In our family, at any pool, lake, or beach, we count heads out loud every 20 minutes, no matter how excessive it feels to everyone standing around rolling their eyes. My mother started this rule the summer she was 12, the year her younger brother Desmond, drowned at a Lakehouse reunion. While nearly 30 relatives stood within 100 feet of the water, nobody noticed he was missing for almost 20 minutes, each adult assuming he was with someone else. Amid the chaos of a crowded dock, cousins in and out of the water, coolers passed around, radios playing too loud to hear anything unusual. By the time anyone realized no one had actually seen him in a while, it was...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "teamrecipies25",
+          "body": "FULL STORY  and Part2 link in bio. #redditstories #askreddit #reddit_tiktok\nIn our family, at any pool, lake, or beach, we count heads out loud every 20 minutes, no matter how excessive it feels to everyone standing around rolling their eyes. My mother started this rule the summer she was 12, the year her younger brother Desmond, drowned at a Lakehouse reunion. While nearly 30 relatives stood within 100 feet of the water, nobody noticed he was missing for almost 20 minutes, each adult assuming he was with someone else. Amid the chaos of a crowded dock, cousins in and out of the water, coolers passed around, radios playing too loud to hear anything unusual. By the time anyone realized no one had actually seen him in a while, it was already too late. So my mother built the head count into every gathering near water for the rest of her life. Out loud, by name, every 20 minutes, whether anyone complained or not. She taught me the rule before I could swim, standing at the edge of our neighborhood pool calling out names like a drill sergeant, while other parents smiled politely and thought she was being overly cautious. I did the same with my own kids, calling out Eleanor, Poppy, and Callum's names every 20 minutes at every pool party, every lake trip, every time. Even when it embarrassed them in front of their friends. Eleanor, my oldest, hated it most. By the time she turned 13, she'd roll her eyes so hard I thought they'd get stuck muttering That nobody else's mom did this weird cult roll call at pool parties. A birthday party two summers ago. She flat out refused to answer when I called her name, standing right in front of me just to prove a point about how unnecessary the ritual was. I made her answer anyway, in front of everyone, and she didn't speak to me for the rest of that day, furious and humiliated in equal measure. By 15, she'd started slipping away during the count on purpose, hiding behind pool houses or ducking underwater right as I called her name, thinking it was funny to watch me panic for a few seconds before popping back up, laughing with her friends. I stopped finding it funny after the third time. I sat her down and told her, as calmly as I could manage, exactly why this mattered so much. The whole story about Desmond. The 20 minutes nobody noticed. The version of my mother's life permanently rewritten by one ordinary afternoon at a lake. Today, at my niece's graduation pool party, surrounded by nearly 40 relatives and half the neighborhood packed onto the patio, I called out the names at the 20 minute Mark, exactly like I always do, the way I have done it 1 thousand times before without incident. Poppy answered immediately from the shallow end, waving a pool noodle over her head. Callum shouted back from the diving board mid cannonball, I called Eleanor's name once, then again louder. Scanning....",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 68,
+            "likes": 15274,
+            "shares": 133,
+            "views": 412682
+          },
+          "engagement_score": 87,
+          "freshness": 76,
+          "item_id": "TK3",
+          "local_rank_score": 0.42650000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "hashtags": [
+              "redditstories",
+              "askreddit",
+              "reddit_tiktok"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-07",
+          "relevance_hint": 0.24,
+          "snippet": "In our family, at any pool, lake, or beach, we count heads out loud every 20 minutes, no matter how excessive it feels to everyone standing around rolling their eyes. My mother started this rule the summer she was 12, the year her younger brother Desmond, drowned at a Lakehouse reunion. While nearly 30 relatives stood within 100 feet of the water, nobody noticed he was missing for almost 20 minutes, each adult assuming he was with someone else. Amid the chaos of a crowded dock, cousins in and out of the water, coolers passed around, radios playing too loud to hear anything unusual. By the time anyone realized no one had actually seen him in a while, it was...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "FULL STORY  and Part2 link in bio. #redditstories #askreddit #reddit_tiktok",
+          "url": "https://www.tiktok.com/@teamrecipies25/video/7671252279261039874",
+          "why_relevant": "TikTok: FULL STORY  and Part2 link in bio. #redditstories #askreddit"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "FULL STORY  and Part2 link in bio. #redditstories #askreddit #reddit_tiktok",
+      "url": "https://www.tiktok.com/@teamrecipies25/video/7671252279261039874"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

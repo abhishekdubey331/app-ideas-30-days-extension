@@ -1,0 +1,463 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\" iOS",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@charlieweaverswright/video/7665835777141525782"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@charlieweaverswright/video/7665835777141525782"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "YC fall 2026 request for startups! #venturecapital #startup #yc #ycombinator #startupidea https://www.ycombinator.com/rfs",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@newsflic_com/video/7669051401800092959"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@newsflic_com/video/7669051401800092959"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@darikpqvt4o/video/7675691241035681037"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://tiktok.com/@darikpqvt4o/video/7675691241035681037"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-19T12:54:09.708488+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "darikpqvt4o",
+        "body": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid glass\" design. Public beta drops in July, full release in September. What update are you most excited for? #iOS26 #AppleUpdate #iPhoneTips #TechNews #MobileOS #iPhoneUpdate #AppleBeta #SmartphoneFeatures #TechTrends",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 4,
+          "shares": 0,
+          "views": 240
+        },
+        "engagement_score": 6,
+        "freshness": 100,
+        "item_id": "TK11",
+        "local_rank_score": 0.386,
+        "local_relevance": 0.2,
+        "metadata": {
+          "hashtags": [
+            "ios26",
+            "appleupdate",
+            "iphonetips",
+            "technews",
+            "mobileos",
+            "iphoneupdate",
+            "applebeta",
+            "smartphonefeatures",
+            "techtrends"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-19",
+        "relevance_hint": 0.31,
+        "snippet": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid glass\" design. Public beta drops in July, full release in September. What update are you most excited for? #iOS26 #AppleUpdate #iPhoneTips #TechNews #MobileOS #iPhoneUpdate #AppleBeta #SmartphoneFeatures #TechTrends",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid",
+        "url": "https://www.tiktok.com/@darikpqvt4o/video/7675691241035681037",
+        "why_relevant": "TikTok: iOS 26 brings the biggest redesign since 2013 with features"
+      },
+      {
+        "author": "newsflic_com",
+        "body": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "likes": 7,
+          "shares": 9,
+          "views": 186
+        },
+        "engagement_score": 9,
+        "freshness": 40,
+        "item_id": "TK13",
+        "local_rank_score": 0.21950000000000003,
+        "local_relevance": 0.17,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-01",
+        "relevance_hint": 0.33,
+        "snippet": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+        "url": "https://www.tiktok.com/@newsflic_com/video/7669051401800092959",
+        "why_relevant": "TikTok: Flic Rate the News, available on iOS and Android. Or visit N"
+      },
+      {
+        "author": "charlieweaverswright",
+        "body": "YC fall 2026 request for startups! #venturecapital #startup #yc #ycombinator #startupidea https://www.ycombinator.com/rfs\nWhy combinators fall of 2026 requests for startups are officially out. There's 13 in total, but here are my top five. Number one is actually offshore compute. Right now, AI is obviously compute constrained and there's several reasons for that, including land fighting, local councils getting power to those data centres in the first place. So there's a few underlying reasons. However, 70% of the earth is covered by ocean, where there is literally abundant solar power, no permitting and a natural heat sink. So why Combinator want to invest in companies actively trying to build data centres, modular data centres, offshore in the sea. Secondly is defence. Now, defence is an extremely hot sector at the moment for obvious reasons. The world is troubled, there's multiple conflicts and defence spending is rocketing. Additionally, a lot of governments are actually scrapping their old sort of legacy procurement processes and they're buying off startups more often. U S. Is definitely a leader in this, but Europe has started doing it. So they're basically wanting to see lower cost defence infrastructure and technology. Things that allow them to blow stuff up for cheaper, essentially. The third one which I wanna call out is A I. Operating systems, but for the physical world. 80% of the human workforce doesn't actually sit at a desk today. Yet field work software hasn't changed in the last 20 years. And now work is done by three different types of workers. You have humans who are using Wearables to track their own data. You have A I. Agents and now you have robots. These industries are spending 10 to 100 x more on labour than they are software. So whoever runs that work actually captures the unique end to end data that no frontier labs actually have access to. Building on that last one, the other request which gets me excited is data for the real world. AI has been brilliant at developing code, images, video, but it's not been great at bringing that intelligence into the physical world. Yet whether foundational models and plummeting sensor costs are actually making physical data collection feasible. Now, the biggest industries like logistics, construction, energy, right now they run on intuition. But if you can model that data, which previously we wouldn't have been able to capture, and run it through a frontier model, then the insights and the efficiencies that you can gain in these legacy industries is going to be mega. And then finally, is one that I really like is proving you're human. But in all seriousness, this is quite a serious topic, because deep fakes are becoming so, so accurate and much, much cheaper to produce. Whoever rebuilds the internet's verification and trust layer becomes the new verification layer for almost every application, from banking all the way through to dating apps. Now, as I mentioned, these are my top 5, but there's 13 in total. So in the comments there will be a link to...",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 6,
+          "likes": 174,
+          "shares": 19,
+          "views": 4217
+        },
+        "engagement_score": 39,
+        "freshness": 9,
+        "item_id": "TK4",
+        "local_rank_score": 0.1655,
+        "local_relevance": 0.16,
+        "metadata": {
+          "hashtags": [
+            "venturecapital",
+            "startup",
+            "yc",
+            "ycombinator",
+            "startupidea"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-07-23",
+        "relevance_hint": 0.15,
+        "snippet": "Why combinators fall of 2026 requests for startups are officially out. There's 13 in total, but here are my top five. Number one is actually offshore compute. Right now, AI is obviously compute constrained and there's several reasons for that, including land fighting, local councils getting power to those data centres in the first place. So there's a few underlying reasons. However, 70% of the earth is covered by ocean, where there is literally abundant solar power, no permitting and a natural heat sink. So why Combinator want to invest in companies actively trying to build data centres, modular data centres, offshore in the sea. Secondly is defence. Now, defence is an extremely hot sector at the moment for obvious...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "YC fall 2026 request for startups! #venturecapital #startup #yc #ycombinator #startupidea https://www.ycombinator.com/rfs",
+        "url": "https://www.tiktok.com/@charlieweaverswright/video/7665835777141525782",
+        "why_relevant": "TikTok: YC fall 2026 request for startups! #venturecapital #startup"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\" iOS",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\" iOS?",
+        "search_query": "site:news.ycombinator.com \"show hn\" ios",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\" iOS?",
+        "search_query": "site:news.ycombinator.com \"show hn\" ios reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-07-20",
+  "range_to": "2026-08-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@charlieweaverswright/video/7665835777141525782",
+      "cluster_id": "cluster-1",
+      "engagement": 39,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 9,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK4",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK4",
+            "native_rank": 3,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK4",
+            "native_rank": 3,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 3,
+        "reaction:tiktok": 3
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Why combinators fall of 2026 requests for startups are officially out. There's 13 in total, but here are my top five. Number one is actually offshore compute. Right now, AI is obviously compute constrained and there's several reasons for that, including land fighting, local councils getting power to those data centres in the first place. So there's a few underlying reasons. However, 70% of the earth is covered by ocean, where there is literally abundant solar power, no permitting and a natural heat sink. So why Combinator want to invest in companies actively trying to build data centres, modular data centres, offshore in the sea. Secondly is defence. Now, defence is an extremely hot sector at the moment for obvious...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "charlieweaverswright",
+          "body": "YC fall 2026 request for startups! #venturecapital #startup #yc #ycombinator #startupidea https://www.ycombinator.com/rfs\nWhy combinators fall of 2026 requests for startups are officially out. There's 13 in total, but here are my top five. Number one is actually offshore compute. Right now, AI is obviously compute constrained and there's several reasons for that, including land fighting, local councils getting power to those data centres in the first place. So there's a few underlying reasons. However, 70% of the earth is covered by ocean, where there is literally abundant solar power, no permitting and a natural heat sink. So why Combinator want to invest in companies actively trying to build data centres, modular data centres, offshore in the sea. Secondly is defence. Now, defence is an extremely hot sector at the moment for obvious reasons. The world is troubled, there's multiple conflicts and defence spending is rocketing. Additionally, a lot of governments are actually scrapping their old sort of legacy procurement processes and they're buying off startups more often. U S. Is definitely a leader in this, but Europe has started doing it. So they're basically wanting to see lower cost defence infrastructure and technology. Things that allow them to blow stuff up for cheaper, essentially. The third one which I wanna call out is A I. Operating systems, but for the physical world. 80% of the human workforce doesn't actually sit at a desk today. Yet field work software hasn't changed in the last 20 years. And now work is done by three different types of workers. You have humans who are using Wearables to track their own data. You have A I. Agents and now you have robots. These industries are spending 10 to 100 x more on labour than they are software. So whoever runs that work actually captures the unique end to end data that no frontier labs actually have access to. Building on that last one, the other request which gets me excited is data for the real world. AI has been brilliant at developing code, images, video, but it's not been great at bringing that intelligence into the physical world. Yet whether foundational models and plummeting sensor costs are actually making physical data collection feasible. Now, the biggest industries like logistics, construction, energy, right now they run on intuition. But if you can model that data, which previously we wouldn't have been able to capture, and run it through a frontier model, then the insights and the efficiencies that you can gain in these legacy industries is going to be mega. And then finally, is one that I really like is proving you're human. But in all seriousness, this is quite a serious topic, because deep fakes are becoming so, so accurate and much, much cheaper to produce. Whoever rebuilds the internet's verification and trust layer becomes the new verification layer for almost every application, from banking all the way through to dating apps. Now, as I mentioned, these are my top 5, but there's 13 in total. So in the comments there will be a link to...",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 6,
+            "likes": 174,
+            "shares": 19,
+            "views": 4217
+          },
+          "engagement_score": 39,
+          "freshness": 9,
+          "item_id": "TK4",
+          "local_rank_score": 0.1655,
+          "local_relevance": 0.16,
+          "metadata": {
+            "hashtags": [
+              "venturecapital",
+              "startup",
+              "yc",
+              "ycombinator",
+              "startupidea"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-07-23",
+          "relevance_hint": 0.15,
+          "snippet": "Why combinators fall of 2026 requests for startups are officially out. There's 13 in total, but here are my top five. Number one is actually offshore compute. Right now, AI is obviously compute constrained and there's several reasons for that, including land fighting, local councils getting power to those data centres in the first place. So there's a few underlying reasons. However, 70% of the earth is covered by ocean, where there is literally abundant solar power, no permitting and a natural heat sink. So why Combinator want to invest in companies actively trying to build data centres, modular data centres, offshore in the sea. Secondly is defence. Now, defence is an extremely hot sector at the moment for obvious...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "YC fall 2026 request for startups! #venturecapital #startup #yc #ycombinator #startupidea https://www.ycombinator.com/rfs",
+          "url": "https://www.tiktok.com/@charlieweaverswright/video/7665835777141525782",
+          "why_relevant": "TikTok: YC fall 2026 request for startups! #venturecapital #startup"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "YC fall 2026 request for startups! #venturecapital #startup #yc #ycombinator #startupidea https://www.ycombinator.com/rfs",
+      "url": "https://www.tiktok.com/@charlieweaverswright/video/7665835777141525782"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@newsflic_com/video/7669051401800092959",
+      "cluster_id": "cluster-2",
+      "engagement": 9,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 24.75,
+      "item_id": "TK13",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK13",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK13",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 2,
+        "reaction:tiktok": 2
+      },
+      "rerank_score": 0.6999999999999993,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "newsflic_com",
+          "body": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "likes": 7,
+            "shares": 9,
+            "views": 186
+          },
+          "engagement_score": 9,
+          "freshness": 40,
+          "item_id": "TK13",
+          "local_rank_score": 0.21950000000000003,
+          "local_relevance": 0.17,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-01",
+          "relevance_hint": 0.33,
+          "snippet": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+          "url": "https://www.tiktok.com/@newsflic_com/video/7669051401800092959",
+          "why_relevant": "TikTok: Flic Rate the News, available on iOS and Android. Or visit N"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Flic Rate the News, available on iOS and Android. Or visit NewsFlic.com/about",
+      "url": "https://www.tiktok.com/@newsflic_com/video/7669051401800092959"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@darikpqvt4o/video/7675691241035681037",
+      "cluster_id": "cluster-3",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 12.0,
+      "item_id": "TK11",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK11",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK11",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 14.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid glass\" design. Public beta drops in July, full release in September. What update are you most excited for? #iOS26 #AppleUpdate #iPhoneTips #TechNews #MobileOS #iPhoneUpdate #AppleBeta #SmartphoneFeatures #TechTrends",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "darikpqvt4o",
+          "body": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid glass\" design. Public beta drops in July, full release in September. What update are you most excited for? #iOS26 #AppleUpdate #iPhoneTips #TechNews #MobileOS #iPhoneUpdate #AppleBeta #SmartphoneFeatures #TechTrends",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 4,
+            "shares": 0,
+            "views": 240
+          },
+          "engagement_score": 6,
+          "freshness": 100,
+          "item_id": "TK11",
+          "local_rank_score": 0.386,
+          "local_relevance": 0.2,
+          "metadata": {
+            "hashtags": [
+              "ios26",
+              "appleupdate",
+              "iphonetips",
+              "technews",
+              "mobileos",
+              "iphoneupdate",
+              "applebeta",
+              "smartphonefeatures",
+              "techtrends"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-19",
+          "relevance_hint": 0.31,
+          "snippet": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid glass\" design. Public beta drops in July, full release in September. What update are you most excited for? #iOS26 #AppleUpdate #iPhoneTips #TechNews #MobileOS #iPhoneUpdate #AppleBeta #SmartphoneFeatures #TechTrends",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid",
+          "url": "https://www.tiktok.com/@darikpqvt4o/video/7675691241035681037",
+          "why_relevant": "TikTok: iOS 26 brings the biggest redesign since 2013 with features"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "iOS 26 brings the biggest redesign since 2013 with features like password-protected visited places, simpler photo albums, and a new \"liquid",
+      "url": "https://www.tiktok.com/@darikpqvt4o/video/7675691241035681037"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\" iOS",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
