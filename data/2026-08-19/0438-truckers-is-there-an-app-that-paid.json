@@ -1,0 +1,264 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "truckers \"is there an app that\" paid",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://x.com/bronxbuffalo/status/2089912988073660888"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://x.com/bronxbuffalo/status/2089912988073660888"
+      ],
+      "score": 10.809180327868852,
+      "sources": [
+        "x"
+      ],
+      "title": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90  year"
+    },
+    {
+      "candidate_ids": [
+        "https://x.com/greg39589914890/status/2089903389890974202"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://x.com/greg39589914890/status/2089903389890974202"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-19T04:38:54.130308+00:00",
+  "items_by_source": {
+    "bluesky": [],
+    "x": [
+      {
+        "author": "bronxbuffalo",
+        "body": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90  years.  Tic toc mutha truckers tic toc\n\ud83d\ude02\ud83d\ude02\ud83d\ude02 https://t.co/JUUerx63Nb",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0
+        },
+        "freshness": 100,
+        "item_id": "X19",
+        "local_rank_score": 0.47100000000000003,
+        "local_relevance": 0.34,
+        "metadata": {},
+        "published_at": "2026-08-19",
+        "relevance_hint": 0.39,
+        "snippet": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90 years. Tic toc mutha truckers tic toc \ud83d\ude02\ud83d\ude02\ud83d\ude02 https://t.co/JUUerx63Nb",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90  year",
+        "url": "https://x.com/bronxbuffalo/status/2089912988073660888",
+        "why_relevant": ""
+      },
+      {
+        "author": "Greg39589914890",
+        "body": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 1,
+          "replies": 0,
+          "reposts": 0
+        },
+        "engagement_score": 61,
+        "freshness": 100,
+        "item_id": "X27",
+        "local_rank_score": 0.428,
+        "local_relevance": 0.18,
+        "metadata": {},
+        "published_at": "2026-08-19",
+        "relevance_hint": 0.87,
+        "snippet": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+        "url": "https://x.com/Greg39589914890/status/2089903389890974202",
+        "why_relevant": ""
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "truckers \"is there an app that\" paid",
+    "source_weights": {
+      "bluesky": 0.5,
+      "x": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to truckers \"is there an app that\" paid, especially about truckers \"is there app that\" paid?",
+        "search_query": "truckers \"is there app that\" paid",
+        "sources": [
+          "x",
+          "bluesky"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-20",
+  "range_to": "2026-08-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://x.com/bronxbuffalo/status/2089912988073660888",
+      "cluster_id": "cluster-1",
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 10.809180327868852,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "X19",
+      "local_relevance": 0.34,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X19",
+            "native_rank": 1,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 1
+      },
+      "rerank_score": 25.599999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90 years. Tic toc mutha truckers tic toc \ud83d\ude02\ud83d\ude02\ud83d\ude02 https://t.co/JUUerx63Nb",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "bronxbuffalo",
+          "body": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90  years.  Tic toc mutha truckers tic toc\n\ud83d\ude02\ud83d\ude02\ud83d\ude02 https://t.co/JUUerx63Nb",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 0,
+            "replies": 0,
+            "reposts": 0
+          },
+          "freshness": 100,
+          "item_id": "X19",
+          "local_rank_score": 0.47100000000000003,
+          "local_relevance": 0.34,
+          "metadata": {},
+          "published_at": "2026-08-19",
+          "relevance_hint": 0.39,
+          "snippet": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90 years. Tic toc mutha truckers tic toc \ud83d\ude02\ud83d\ude02\ud83d\ude02 https://t.co/JUUerx63Nb",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90  year",
+          "url": "https://x.com/bronxbuffalo/status/2089912988073660888",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "@thenewmexican JE is dead, the ranch sold there's no evidence anyone died at the ranch especially when dems run this state the last 90  year",
+      "url": "https://x.com/bronxbuffalo/status/2089912988073660888"
+    },
+    {
+      "candidate_id": "https://x.com/greg39589914890/status/2089903389890974202",
+      "cluster_id": "cluster-2",
+      "engagement": 61,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 45.85,
+      "item_id": "X27",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X27",
+            "native_rank": 2,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 2
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "Greg39589914890",
+          "body": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 1,
+            "replies": 0,
+            "reposts": 0
+          },
+          "engagement_score": 61,
+          "freshness": 100,
+          "item_id": "X27",
+          "local_rank_score": 0.428,
+          "local_relevance": 0.18,
+          "metadata": {},
+          "published_at": "2026-08-19",
+          "relevance_hint": 0.87,
+          "snippet": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+          "url": "https://x.com/Greg39589914890/status/2089903389890974202",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "@SarahHuckabee @bucees Buc ees is dumb. they don't allow truckers to shop there.",
+      "url": "https://x.com/Greg39589914890/status/2089903389890974202"
+    }
+  ],
+  "topic": "truckers \"is there an app that\" paid",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
