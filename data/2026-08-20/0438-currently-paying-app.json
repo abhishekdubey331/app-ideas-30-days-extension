@@ -1,0 +1,367 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"currently paying\" \"app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://x.com/ariawestcott/status/2082761097312919823"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://x.com/ariawestcott/status/2082761097312919823"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "Excel can do things you are currently paying other apps to do. \n\n7 tricks hiding in the app right now. \n\nNumber 4 will shock you: https://t."
+    },
+    {
+      "candidate_ids": [
+        "https://x.com/adriamatz/status/2084973953144009117"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://x.com/adriamatz/status/2084973953144009117"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads"
+    },
+    {
+      "candidate_ids": [
+        "https://x.com/hyper888hb/status/2090030068454346984"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://x.com/hyper888hb/status/2090030068454346984"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF token"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-20T04:38:33.377548+00:00",
+  "items_by_source": {
+    "bluesky": [],
+    "x": [
+      {
+        "author": "AriaWestcott",
+        "body": "Excel can do things you are currently paying other apps to do. \n\n7 tricks hiding in the app right now. \n\nNumber 4 will shock you: https://t.co/MsoN8L0Pcv",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 115,
+          "replies": 9,
+          "reposts": 38
+        },
+        "engagement_score": 100,
+        "freshness": 58,
+        "item_id": "X9",
+        "local_rank_score": 0.39449999999999996,
+        "local_relevance": 0.23,
+        "metadata": {},
+        "published_at": "2026-07-30",
+        "relevance_hint": 0.89,
+        "snippet": "Excel can do things you are currently paying other apps to do. 7 tricks hiding in the app right now. Number 4 will shock you: https://t.co/MsoN8L0Pcv",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "Excel can do things you are currently paying other apps to do. \n\n7 tricks hiding in the app right now. \n\nNumber 4 will shock you: https://t.",
+        "url": "https://x.com/AriaWestcott/status/2082761097312919823",
+        "why_relevant": ""
+      },
+      {
+        "author": "hyper888hb",
+        "body": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF tokens you hold, the faster your mining rate will be.\n\nhere's the link of the bot...\n\nhttps://t.co/kbvbpF2nxK https://t.co/xd3p5QZCn7",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0
+        },
+        "freshness": 97,
+        "item_id": "X3",
+        "local_rank_score": 0.392,
+        "local_relevance": 0.23,
+        "metadata": {},
+        "published_at": "2026-08-19",
+        "relevance_hint": 0.89,
+        "snippet": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF tokens you hold, the faster your mining rate will be. here's the link of the bot... https://t.co/kbvbpF2nxK https://t.co/xd3p5QZCn7",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF token",
+        "url": "https://x.com/hyper888hb/status/2090030068454346984",
+        "why_relevant": ""
+      },
+      {
+        "author": "adriamatz",
+        "body": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 82,
+          "replies": 11,
+          "reposts": 3
+        },
+        "engagement_score": 77,
+        "freshness": 70,
+        "item_id": "X6",
+        "local_rank_score": 0.35600000000000004,
+        "local_relevance": 0.16,
+        "metadata": {},
+        "published_at": "2026-08-05",
+        "relevance_hint": 0.24,
+        "snippet": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+        "url": "https://x.com/adriamatz/status/2084973953144009117",
+        "why_relevant": ""
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"currently paying\" \"app\"",
+    "source_weights": {
+      "bluesky": 0.5,
+      "x": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"currently paying\" \"app\"?",
+        "search_query": "\"currently paying\" \"app\"",
+        "sources": [
+          "x",
+          "bluesky"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-21",
+  "range_to": "2026-08-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://x.com/ariawestcott/status/2082761097312919823",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "X9",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X9",
+            "native_rank": 1,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 1
+      },
+      "rerank_score": 9.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Excel can do things you are currently paying other apps to do. 7 tricks hiding in the app right now. Number 4 will shock you: https://t.co/MsoN8L0Pcv",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "AriaWestcott",
+          "body": "Excel can do things you are currently paying other apps to do. \n\n7 tricks hiding in the app right now. \n\nNumber 4 will shock you: https://t.co/MsoN8L0Pcv",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 115,
+            "replies": 9,
+            "reposts": 38
+          },
+          "engagement_score": 100,
+          "freshness": 58,
+          "item_id": "X9",
+          "local_rank_score": 0.39449999999999996,
+          "local_relevance": 0.23,
+          "metadata": {},
+          "published_at": "2026-07-30",
+          "relevance_hint": 0.89,
+          "snippet": "Excel can do things you are currently paying other apps to do. 7 tricks hiding in the app right now. Number 4 will shock you: https://t.co/MsoN8L0Pcv",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "Excel can do things you are currently paying other apps to do. \n\n7 tricks hiding in the app right now. \n\nNumber 4 will shock you: https://t.",
+          "url": "https://x.com/AriaWestcott/status/2082761097312919823",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Excel can do things you are currently paying other apps to do. \n\n7 tricks hiding in the app right now. \n\nNumber 4 will shock you: https://t.",
+      "url": "https://x.com/AriaWestcott/status/2082761097312919823"
+    },
+    {
+      "candidate_id": "https://x.com/adriamatz/status/2084973953144009117",
+      "cluster_id": "cluster-2",
+      "engagement": 77,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "X6",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X6",
+            "native_rank": 3,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 3
+      },
+      "rerank_score": 7.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "adriamatz",
+          "body": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 82,
+            "replies": 11,
+            "reposts": 3
+          },
+          "engagement_score": 77,
+          "freshness": 70,
+          "item_id": "X6",
+          "local_rank_score": 0.35600000000000004,
+          "local_relevance": 0.16,
+          "metadata": {},
+          "published_at": "2026-08-05",
+          "relevance_hint": 0.24,
+          "snippet": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+          "url": "https://x.com/adriamatz/status/2084973953144009117",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My Newest App Made $2,000 in 28 Days by Copying My Competitors, and Now I Am Going to Copy Their Ads",
+      "url": "https://x.com/adriamatz/status/2084973953144009117"
+    },
+    {
+      "candidate_id": "https://x.com/hyper888hb/status/2090030068454346984",
+      "cluster_id": "cluster-3",
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "X3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X3",
+            "native_rank": 2,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 2
+      },
+      "rerank_score": 17.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF tokens you hold, the faster your mining rate will be. here's the link of the bot... https://t.co/kbvbpF2nxK https://t.co/xd3p5QZCn7",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "hyper888hb",
+          "body": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF tokens you hold, the faster your mining rate will be.\n\nhere's the link of the bot...\n\nhttps://t.co/kbvbpF2nxK https://t.co/xd3p5QZCn7",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 0,
+            "replies": 0,
+            "reposts": 0
+          },
+          "freshness": 97,
+          "item_id": "X3",
+          "local_rank_score": 0.392,
+          "local_relevance": 0.23,
+          "metadata": {},
+          "published_at": "2026-08-19",
+          "relevance_hint": 0.89,
+          "snippet": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF tokens you hold, the faster your mining rate will be. here's the link of the bot... https://t.co/kbvbpF2nxK https://t.co/xd3p5QZCn7",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF token",
+          "url": "https://x.com/hyper888hb/status/2090030068454346984",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "There\u2019s a Telegram mining app called ATF that is currently paying users. I\u2019ve already received multiple payouts as proof. The more ATF token",
+      "url": "https://x.com/hyper888hb/status/2090030068454346984"
+    }
+  ],
+  "topic": "\"currently paying\" \"app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
