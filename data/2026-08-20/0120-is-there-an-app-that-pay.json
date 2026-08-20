@@ -1,0 +1,712 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "USA road trip, how to find visitor centres easily?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/personalfinance/comments/1vnxvt6/is_there_a_budget_app_that_tells_you_whats_safe"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/personalfinance/comments/1vnxvt6/is_there_a_budget_app_that_tells_you_whats_safe"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there a budget app that tells you what's safe to spend based on your account balance, and expected income and bills?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Parent communication app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-20T01:20:21.006882+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Is there a budget app that tells you what's safe to spend based on your account balance, and expected income and bills?\nI know my checking account balance isn't what I can spend because I need to keep some money in there to pay bills and my credit cards. But there's no easy way to know exactly how much I can actually spend from the balance in my checking account. What makes it even harder is that some months I get paid only twice and other months I get paid three times, so I need to keep a certain amount in my checking account for the two-paycheck months, so I have enough for the monthly bills. Is there an app th\nPNC virtual wallet. Though I eventually switched to YNAB and it changed my life. I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need. Check out https://actualbudget.org r/actualbudgeting/ No - how could an app know that? Also, you're thinking about it the wrong way. Spend as little as possible, just buy what you need. If you have a little money left over in your account, that doesn't mean you spend it, you should save it for later. Open a brokerage account and buy VT instead. You're operating from a default spender mindset. You need to switch to a default saver mindset. If you come",
+        "container": "personalfinance",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 26,
+          "score": 0
+        },
+        "engagement_score": 76,
+        "freshness": 88,
+        "item_id": "R1",
+        "local_rank_score": 0.426,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "No - how could an app know that? Also, you're thinking about it the wrong way.",
+            "I'm kinda just wanting an app that tells me one number: what is safe to spend over the next week?",
+            "I bank with Envelope at r/envelope and this is the main conceit behind their banking app.",
+            "PNC virtual wallet. Though I eventually switched to YNAB and it changed my life.",
+            "I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need.",
+            "Your goal should be to always have an extra month or a few months worth of money in the bank.",
+            "I'd use YNAB. You assign every dollar to a bill or category, and whatever's sitting in the spending category is the number you're asking for.",
+            "Try Beacon Budget, formerly DAS Budget. It\u2019s like envelope budgeting where you can aside money for anything you want in custom categories and it even...",
+            "The \"safe to spend\" number you want is really three inputs combined into one: (1) current account balance, minus (2) everything already committed but..."
+          ],
+          "top_comments": [
+            {
+              "author": "michigoose8168",
+              "date": "2026-08-14",
+              "excerpt": "PNC virtual wallet. Though I eventually switched to YNAB and it changed my life.",
+              "score": 9,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l94i9/"
+            },
+            {
+              "author": "flippinforthefunofit",
+              "date": "2026-08-14",
+              "excerpt": "I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need. Check out https://actualbudget.org r/actualbudgeting/",
+              "score": 6,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l8ktu/"
+            },
+            {
+              "author": "mrandr01d",
+              "date": "2026-08-14",
+              "excerpt": "No - how could an app know that? Also, you're thinking about it the wrong way. Spend as little as possible, just buy what you need. If you have a little money left over in your account, that doesn't mean you spend it, you should save it for later. Open a brokerage account and buy VT instead. You're operating from a default spender mindset. You need to switch to a default saver mindset. If you come",
+              "score": 5,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l9twc/"
+            },
+            {
+              "author": "Global-Thought-1049",
+              "date": "2026-08-14",
+              "excerpt": "I'm kinda just wanting an app that tells me one number: what is safe to spend over the next week? Based on all my future expenses and paychecks coming in and my current balance. And I'd like to just be able to plug in a somewhat big future expense down the road and have it automatically adjust my sa",
+              "score": 3,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3ldwe1/"
+            },
+            {
+              "author": "Ryutso",
+              "date": "2026-08-14",
+              "excerpt": "I bank with Envelope at r/envelope and this is the main conceit behind their banking app. You set up your bills and then select a deposit as a paycheck and the app will automatically move your paycheck to your bills and leave you with an \"Available\" balance.",
+              "score": 2,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3lctpm/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-08-14",
+              "excerpt": "You may find these links helpful: Budgeting Tools and spreadsheets r/ynab I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l77wk/"
+            },
+            {
+              "author": "Qazerowl",
+              "date": "2026-08-14",
+              "excerpt": "Your goal should be to always have an extra month or a few months worth of money in the bank. That way you are prepared for emergencies, and also theres money in the account whether you want to buy something the day before or the day after payday.",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3lai2g/"
+            },
+            {
+              "author": "Electrical_Top8265",
+              "date": "2026-08-14",
+              "excerpt": "I'd use YNAB. You assign every dollar to a bill or category, and whatever's sitting in the spending category is the number you're asking for. The uneven paycheck months sort themselves out because you're only budgeting money you already have. I've also heard good things about Monarch if YNAB feels l",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3m47yl/"
+            },
+            {
+              "author": "Lexi_Loo2",
+              "date": "2026-08-14",
+              "excerpt": "Try Beacon Budget, formerly DAS Budget. It\u2019s like envelope budgeting where you can aside money for anything you want in custom categories and it even automatically pulls money into buckets for your credit cards. All the money not assigned is left in \u201cFree to Spend\u201d. Once you set it up, it works auto",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3mbd1g/"
+            },
+            {
+              "author": "popotitos22",
+              "date": "2026-08-14",
+              "excerpt": "The \"safe to spend\" number you want is really three inputs combined into one: (1) current account balance, minus (2) everything already committed but not yet paid \u2014 upcoming bills before your next paycheck, and any credit card balance you're carrying \u2014 plus (3) a buffer sized for your worst-case pay",
+              "score": 1,
+              "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3myug3/"
+            }
+          ]
+        },
+        "published_at": "2026-08-14",
+        "relevance_hint": 0.63,
+        "snippet": "PNC virtual wallet. Though I eventually switched to YNAB and it changed my life. I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need. Check out https://actualbudget.org r/actualbudgeting/ No - how could an app know that? Also, you're thinking about it the wrong way. Spend as little as possible, just buy what you need. If you have a little money left over in your account, that doesn't mean you spend it, you should save it for later. Open a brokerage account and buy VT instead. You're operating from a default spender mindset. You need to switch to a default saver mindset. If you come",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there a budget app that tells you what's safe to spend based on your account balance, and expected income and bills?",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1vnxvt6/is_there_a_budget_app_that_tells_you_whats_safe/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "USA road trip, how to find visitor centres easily?\nGoing on a USA road trip and we always pass visitor centres but can\u2019t be bothered turning around for them. Is there an app that will show us all the different visitor centres or welcome centres on our route? Or does anyone have any tips? Also this one is purely me being lazy and not paying attention, but something to let me know when we are crossing state lines? Oh and also an app that tracks all the routes you\u2019ve done? Like it would be cute to look at the end of the road trip all the routes we\nType 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+        "container": "roadtrip",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 2
+        },
+        "engagement_score": 100,
+        "freshness": 77,
+        "item_id": "R3",
+        "local_rank_score": 0.4225,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Type 'visitor center' in Google Maps. And there you are.",
+            "Most visitors centers are at or near state lines. That or just a mapping program",
+            "This is what I do prior to a Roadtrip, but it does take time.",
+            "visitor centers are right near border crossings. you can usually find them on maps.",
+            "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+            "Have you ever used Google maps?",
+            "Google maps Timeline will remember where you've been if you let it",
+            "Any map app will tell you where visitor centers are.",
+            "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indi..."
+          ],
+          "top_comments": [
+            {
+              "author": "AnybodySeeMyKeys",
+              "date": "2026-08-09",
+              "excerpt": "Type 'visitor center' in Google Maps. And there you are.",
+              "score": 13,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nfty6/"
+            },
+            {
+              "author": "hatred-shapped",
+              "date": "2026-08-09",
+              "excerpt": "Most visitors centers are at or near state lines. That or just a mapping program",
+              "score": 3,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2lzrvd/"
+            },
+            {
+              "author": "starcowboysmetalKISS",
+              "date": "2026-08-09",
+              "excerpt": "This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2mjupg/"
+            },
+            {
+              "author": "SabresBills69",
+              "date": "2026-08-09",
+              "excerpt": "visitor centers are right near border crossings. you can usually find them on maps. these aren\u2019t going to be at every crossing but at main road cross points that are not in metro areas off interstates and other heavy volume routes. off interstates these coukd be off the first e it or in a rest area ",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nj9g3/"
+            },
+            {
+              "author": "SeaBlueDrizzle",
+              "date": "2026-08-09",
+              "excerpt": "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nowog/"
+            },
+            {
+              "author": "Correct-Condition-99",
+              "date": "2026-08-09",
+              "excerpt": "Have you ever used Google maps?",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2plxvo/"
+            },
+            {
+              "author": "tatobuckets",
+              "date": "2026-08-09",
+              "excerpt": "Google maps Timeline will remember where you've been if you let it",
+              "score": 1,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nvs6v/"
+            },
+            {
+              "author": "CuriosTiger",
+              "date": "2026-08-09",
+              "excerpt": "Any map app will tell you where visitor centers are. Typically, so will big signs that say \"visitor center\", and many are signposted well in advance, not just at the actual visitor center. With state lines: When you're traveling west or south on interstates, exit numbers and mile markers will decrea",
+              "score": 1,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2o6hsw/"
+            },
+            {
+              "author": "jetloflin",
+              "date": "2026-08-09",
+              "excerpt": "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indicated by large \u201cwelcome to wherever\u201d signs.",
+              "score": 1,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2ox8cl/"
+            }
+          ]
+        },
+        "published_at": "2026-08-09",
+        "relevance_hint": 0.14,
+        "snippet": "Type 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "USA road trip, how to find visitor centres easily?",
+        "url": "https://www.reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Parent communication app\nLocation: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019m at my wits end with him and I really need some advice on this. I couldn\u2019t find anything on this on\nYou can try Our Family Wizard.",
+        "container": "legaladvice",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 61,
+        "item_id": "R5",
+        "local_rank_score": 0.3345,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "You can try Our Family Wizard."
+          ],
+          "top_comments": [
+            {
+              "author": "Backpack78",
+              "date": "2026-08-01",
+              "excerpt": "You can try Our Family Wizard.",
+              "score": 0,
+              "url": "https://reddit.com/r/legaladvice/comments/1vcv8l5/comment/p148vu5/"
+            }
+          ]
+        },
+        "published_at": "2026-08-01",
+        "relevance_hint": 0.43,
+        "snippet": "You can try Our Family Wizard.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Parent communication app",
+        "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-21",
+  "range_to": "2026-08-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Type 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "USA road trip, how to find visitor centres easily?\nGoing on a USA road trip and we always pass visitor centres but can\u2019t be bothered turning around for them. Is there an app that will show us all the different visitor centres or welcome centres on our route? Or does anyone have any tips? Also this one is purely me being lazy and not paying attention, but something to let me know when we are crossing state lines? Oh and also an app that tracks all the routes you\u2019ve done? Like it would be cute to look at the end of the road trip all the routes we\nType 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+          "container": "roadtrip",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 2
+          },
+          "engagement_score": 100,
+          "freshness": 77,
+          "item_id": "R3",
+          "local_rank_score": 0.4225,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Type 'visitor center' in Google Maps. And there you are.",
+              "Most visitors centers are at or near state lines. That or just a mapping program",
+              "This is what I do prior to a Roadtrip, but it does take time.",
+              "visitor centers are right near border crossings. you can usually find them on maps.",
+              "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+              "Have you ever used Google maps?",
+              "Google maps Timeline will remember where you've been if you let it",
+              "Any map app will tell you where visitor centers are.",
+              "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indi..."
+            ],
+            "top_comments": [
+              {
+                "author": "AnybodySeeMyKeys",
+                "date": "2026-08-09",
+                "excerpt": "Type 'visitor center' in Google Maps. And there you are.",
+                "score": 13,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nfty6/"
+              },
+              {
+                "author": "hatred-shapped",
+                "date": "2026-08-09",
+                "excerpt": "Most visitors centers are at or near state lines. That or just a mapping program",
+                "score": 3,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2lzrvd/"
+              },
+              {
+                "author": "starcowboysmetalKISS",
+                "date": "2026-08-09",
+                "excerpt": "This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2mjupg/"
+              },
+              {
+                "author": "SabresBills69",
+                "date": "2026-08-09",
+                "excerpt": "visitor centers are right near border crossings. you can usually find them on maps. these aren\u2019t going to be at every crossing but at main road cross points that are not in metro areas off interstates and other heavy volume routes. off interstates these coukd be off the first e it or in a rest area ",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nj9g3/"
+              },
+              {
+                "author": "SeaBlueDrizzle",
+                "date": "2026-08-09",
+                "excerpt": "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nowog/"
+              },
+              {
+                "author": "Correct-Condition-99",
+                "date": "2026-08-09",
+                "excerpt": "Have you ever used Google maps?",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2plxvo/"
+              },
+              {
+                "author": "tatobuckets",
+                "date": "2026-08-09",
+                "excerpt": "Google maps Timeline will remember where you've been if you let it",
+                "score": 1,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nvs6v/"
+              },
+              {
+                "author": "CuriosTiger",
+                "date": "2026-08-09",
+                "excerpt": "Any map app will tell you where visitor centers are. Typically, so will big signs that say \"visitor center\", and many are signposted well in advance, not just at the actual visitor center. With state lines: When you're traveling west or south on interstates, exit numbers and mile markers will decrea",
+                "score": 1,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2o6hsw/"
+              },
+              {
+                "author": "jetloflin",
+                "date": "2026-08-09",
+                "excerpt": "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indicated by large \u201cwelcome to wherever\u201d signs.",
+                "score": 1,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2ox8cl/"
+              }
+            ]
+          },
+          "published_at": "2026-08-09",
+          "relevance_hint": 0.14,
+          "snippet": "Type 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "USA road trip, how to find visitor centres easily?",
+          "url": "https://www.reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "USA road trip, how to find visitor centres easily?",
+      "url": "https://www.reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/personalfinance/comments/1vnxvt6/is_there_a_budget_app_that_tells_you_whats_safe",
+      "cluster_id": "cluster-2",
+      "engagement": 76,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "PNC virtual wallet. Though I eventually switched to YNAB and it changed my life. I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need. Check out https://actualbudget.org r/actualbudgeting/ No - how could an app know that? Also, you're thinking about it the wrong way. Spend as little as possible, just buy what you need. If you have a little money left over in your account, that doesn't mean you spend it, you should save it for later. Open a brokerage account and buy VT instead. You're operating from a default spender mindset. You need to switch to a default saver mindset. If you come",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there a budget app that tells you what's safe to spend based on your account balance, and expected income and bills?\nI know my checking account balance isn't what I can spend because I need to keep some money in there to pay bills and my credit cards. But there's no easy way to know exactly how much I can actually spend from the balance in my checking account. What makes it even harder is that some months I get paid only twice and other months I get paid three times, so I need to keep a certain amount in my checking account for the two-paycheck months, so I have enough for the monthly bills. Is there an app th\nPNC virtual wallet. Though I eventually switched to YNAB and it changed my life. I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need. Check out https://actualbudget.org r/actualbudgeting/ No - how could an app know that? Also, you're thinking about it the wrong way. Spend as little as possible, just buy what you need. If you have a little money left over in your account, that doesn't mean you spend it, you should save it for later. Open a brokerage account and buy VT instead. You're operating from a default spender mindset. You need to switch to a default saver mindset. If you come",
+          "container": "personalfinance",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 26,
+            "score": 0
+          },
+          "engagement_score": 76,
+          "freshness": 88,
+          "item_id": "R1",
+          "local_rank_score": 0.426,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "No - how could an app know that? Also, you're thinking about it the wrong way.",
+              "I'm kinda just wanting an app that tells me one number: what is safe to spend over the next week?",
+              "I bank with Envelope at r/envelope and this is the main conceit behind their banking app.",
+              "PNC virtual wallet. Though I eventually switched to YNAB and it changed my life.",
+              "I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need.",
+              "Your goal should be to always have an extra month or a few months worth of money in the bank.",
+              "I'd use YNAB. You assign every dollar to a bill or category, and whatever's sitting in the spending category is the number you're asking for.",
+              "Try Beacon Budget, formerly DAS Budget. It\u2019s like envelope budgeting where you can aside money for anything you want in custom categories and it even...",
+              "The \"safe to spend\" number you want is really three inputs combined into one: (1) current account balance, minus (2) everything already committed but..."
+            ],
+            "top_comments": [
+              {
+                "author": "michigoose8168",
+                "date": "2026-08-14",
+                "excerpt": "PNC virtual wallet. Though I eventually switched to YNAB and it changed my life.",
+                "score": 9,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l94i9/"
+              },
+              {
+                "author": "flippinforthefunofit",
+                "date": "2026-08-14",
+                "excerpt": "I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need. Check out https://actualbudget.org r/actualbudgeting/",
+                "score": 6,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l8ktu/"
+              },
+              {
+                "author": "mrandr01d",
+                "date": "2026-08-14",
+                "excerpt": "No - how could an app know that? Also, you're thinking about it the wrong way. Spend as little as possible, just buy what you need. If you have a little money left over in your account, that doesn't mean you spend it, you should save it for later. Open a brokerage account and buy VT instead. You're operating from a default spender mindset. You need to switch to a default saver mindset. If you come",
+                "score": 5,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l9twc/"
+              },
+              {
+                "author": "Global-Thought-1049",
+                "date": "2026-08-14",
+                "excerpt": "I'm kinda just wanting an app that tells me one number: what is safe to spend over the next week? Based on all my future expenses and paychecks coming in and my current balance. And I'd like to just be able to plug in a somewhat big future expense down the road and have it automatically adjust my sa",
+                "score": 3,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3ldwe1/"
+              },
+              {
+                "author": "Ryutso",
+                "date": "2026-08-14",
+                "excerpt": "I bank with Envelope at r/envelope and this is the main conceit behind their banking app. You set up your bills and then select a deposit as a paycheck and the app will automatically move your paycheck to your bills and leave you with an \"Available\" balance.",
+                "score": 2,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3lctpm/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-08-14",
+                "excerpt": "You may find these links helpful: Budgeting Tools and spreadsheets r/ynab I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3l77wk/"
+              },
+              {
+                "author": "Qazerowl",
+                "date": "2026-08-14",
+                "excerpt": "Your goal should be to always have an extra month or a few months worth of money in the bank. That way you are prepared for emergencies, and also theres money in the account whether you want to buy something the day before or the day after payday.",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3lai2g/"
+              },
+              {
+                "author": "Electrical_Top8265",
+                "date": "2026-08-14",
+                "excerpt": "I'd use YNAB. You assign every dollar to a bill or category, and whatever's sitting in the spending category is the number you're asking for. The uneven paycheck months sort themselves out because you're only budgeting money you already have. I've also heard good things about Monarch if YNAB feels l",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3m47yl/"
+              },
+              {
+                "author": "Lexi_Loo2",
+                "date": "2026-08-14",
+                "excerpt": "Try Beacon Budget, formerly DAS Budget. It\u2019s like envelope budgeting where you can aside money for anything you want in custom categories and it even automatically pulls money into buckets for your credit cards. All the money not assigned is left in \u201cFree to Spend\u201d. Once you set it up, it works auto",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3mbd1g/"
+              },
+              {
+                "author": "popotitos22",
+                "date": "2026-08-14",
+                "excerpt": "The \"safe to spend\" number you want is really three inputs combined into one: (1) current account balance, minus (2) everything already committed but not yet paid \u2014 upcoming bills before your next paycheck, and any credit card balance you're carrying \u2014 plus (3) a buffer sized for your worst-case pay",
+                "score": 1,
+                "url": "https://reddit.com/r/personalfinance/comments/1vnxvt6/comment/p3myug3/"
+              }
+            ]
+          },
+          "published_at": "2026-08-14",
+          "relevance_hint": 0.63,
+          "snippet": "PNC virtual wallet. Though I eventually switched to YNAB and it changed my life. I'd recommend \"envelope\" budgeting. You can have your categories as detailed or broad as you want them to be but it's essentially what you need. Check out https://actualbudget.org r/actualbudgeting/ No - how could an app know that? Also, you're thinking about it the wrong way. Spend as little as possible, just buy what you need. If you have a little money left over in your account, that doesn't mean you spend it, you should save it for later. Open a brokerage account and buy VT instead. You're operating from a default spender mindset. You need to switch to a default saver mindset. If you come",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there a budget app that tells you what's safe to spend based on your account balance, and expected income and bills?",
+          "url": "https://www.reddit.com/r/personalfinance/comments/1vnxvt6/is_there_a_budget_app_that_tells_you_whats_safe/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there a budget app that tells you what's safe to spend based on your account balance, and expected income and bills?",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vnxvt6/is_there_a_budget_app_that_tells_you_whats_safe/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 17.099999999999998,
+      "item_id": "R5",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 12.800000000000004,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "You can try Our Family Wizard.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Parent communication app\nLocation: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019m at my wits end with him and I really need some advice on this. I couldn\u2019t find anything on this on\nYou can try Our Family Wizard.",
+          "container": "legaladvice",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 61,
+          "item_id": "R5",
+          "local_rank_score": 0.3345,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "You can try Our Family Wizard."
+            ],
+            "top_comments": [
+              {
+                "author": "Backpack78",
+                "date": "2026-08-01",
+                "excerpt": "You can try Our Family Wizard.",
+                "score": 0,
+                "url": "https://reddit.com/r/legaladvice/comments/1vcv8l5/comment/p148vu5/"
+              }
+            ]
+          },
+          "published_at": "2026-08-01",
+          "relevance_hint": 0.43,
+          "snippet": "You can try Our Family Wizard.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Parent communication app",
+          "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Parent communication app",
+      "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

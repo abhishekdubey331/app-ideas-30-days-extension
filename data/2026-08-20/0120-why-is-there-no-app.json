@@ -1,0 +1,189 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no app for ?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-20T01:20:56.065682+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Why is there no app for ?\nDid you ever have this question? If yes, what was it for?Ideas are welcomed too. It is for a small project i am working on :)\nFree songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+        "container": "hyderabad",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 55,
+        "item_id": "R1",
+        "local_rank_score": 0.3175,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80"
+          ],
+          "top_comments": [
+            {
+              "author": "Head_Eye_4921",
+              "date": "2026-07-29",
+              "excerpt": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+              "score": 1,
+              "url": "https://reddit.com/r/hyderabad/comments/1v9ykm5/comment/p0hbn1s/"
+            }
+          ]
+        },
+        "published_at": "2026-07-29",
+        "relevance_hint": 1.0,
+        "snippet": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no app for ?",
+        "url": "https://www.reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-21",
+  "range_to": "2026-08-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.15,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 6.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no app for ?\nDid you ever have this question? If yes, what was it for?Ideas are welcomed too. It is for a small project i am working on :)\nFree songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+          "container": "hyderabad",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 55,
+          "item_id": "R1",
+          "local_rank_score": 0.3175,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80"
+            ],
+            "top_comments": [
+              {
+                "author": "Head_Eye_4921",
+                "date": "2026-07-29",
+                "excerpt": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+                "score": 1,
+                "url": "https://reddit.com/r/hyderabad/comments/1v9ykm5/comment/p0hbn1s/"
+              }
+            ]
+          },
+          "published_at": "2026-07-29",
+          "relevance_hint": 1.0,
+          "snippet": "Free songs(unlike Spotify) and all free movies (unlike paid netflix etc) in one app. \ud83d\udc80",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no app for ?",
+          "url": "https://www.reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no app for ?",
+      "url": "https://www.reddit.com/r/hyderabad/comments/1v9ykm5/why_is_there_no_app_for/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
