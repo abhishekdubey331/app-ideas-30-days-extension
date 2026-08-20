@@ -1,0 +1,294 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "travelers \"I wish there was an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://instagram.com/reel/db1i3jfmu6q"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://instagram.com/reel/db1i3jfmu6q"
+      ],
+      "score": 0.0,
+      "sources": [
+        "instagram"
+      ],
+      "title": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@jaytravelsworld/video/7664980443762101517"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@jaytravelsworld/video/7664980443762101517"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, sc"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-20T12:56:16.961438+00:00",
+  "items_by_source": {
+    "instagram": [
+      {
+        "author": "goingsoloapp",
+        "body": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!\nNothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 198,
+          "views": 0
+        },
+        "engagement_score": 50,
+        "freshness": 77,
+        "item_id": "IG1",
+        "local_rank_score": 0.2425,
+        "local_relevance": 0.0,
+        "metadata": {
+          "hashtags": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-09",
+        "relevance_hint": 0.0,
+        "snippet": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+        "source": "instagram",
+        "source_quality": 0.58,
+        "title": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+        "url": "https://www.instagram.com/reel/Db1I3JFMU6q/",
+        "why_relevant": "Instagram: Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to fi"
+      }
+    ],
+    "tiktok": [
+      {
+        "author": "jaytravelsworld",
+        "body": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, scanning receipts, converting currencies, and keeping your entire trip organized, @Trav-ai.app helps you spend less time planning and more time exploring. Planning a trip soon? Comment \u201cTravel\u201d below and I\u2019ll send it to you automatically. You can also find it in my bio. #travel #travelapp #travelplanning #aitravel #italy\n\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, scanning receipts, converting currencies, and keeping your entire trip organized, @Trav-ai.app helps you spend less time planning and more time exploring. Planning a trip soon? Comment \u201cTravel\u201d below and I\u2019ll send it to you automatically. You can also find it in my bio. #travel #travelapp #travelplanning #aitravel #italy",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "likes": 15,
+          "shares": 0,
+          "views": 335
+        },
+        "engagement_score": 3,
+        "freshness": 40,
+        "item_id": "TK2",
+        "local_rank_score": 0.22,
+        "local_relevance": 0.18,
+        "metadata": {
+          "hashtags": [
+            "travel",
+            "travelapp",
+            "travelplanning",
+            "aitravel",
+            "italy"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-07-21",
+        "relevance_hint": 0.39,
+        "snippet": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, scanning receipts, converting currencies, and keeping your entire trip organized, @Trav-ai.app helps you spend less time planning and more time exploring. Planning a trip soon? Comment \u201cTravel\u201d below and I\u2019ll send it to you automatically. You can also find it in my bio. #travel #travelapp #travelplanning #aitravel #italy",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, sc",
+        "url": "https://www.tiktok.com/@jaytravelsworld/video/7664980443762101517",
+        "why_relevant": "TikTok: \u2708\ufe0f I wish I had this AI travel companion on my last Italy tr"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "travelers \"I wish there was an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to travelers \"I wish there was an app\", especially about travelers \"i wish there app\"?",
+        "search_query": "travelers \"i wish there app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-21",
+  "range_to": "2026-08-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://instagram.com/reel/db1i3jfmu6q",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 44.05,
+      "item_id": "IG1",
+      "local_relevance": 0.0,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "IG1",
+            "native_rank": 1,
+            "source": "instagram",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:instagram": 1
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+      "source": "instagram",
+      "source_items": [
+        {
+          "author": "goingsoloapp",
+          "body": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!\nNothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 198,
+            "views": 0
+          },
+          "engagement_score": 50,
+          "freshness": 77,
+          "item_id": "IG1",
+          "local_rank_score": 0.2425,
+          "local_relevance": 0.0,
+          "metadata": {
+            "hashtags": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-09",
+          "relevance_hint": 0.0,
+          "snippet": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+          "source": "instagram",
+          "source_quality": 0.58,
+          "title": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+          "url": "https://www.instagram.com/reel/Db1I3JFMU6q/",
+          "why_relevant": "Instagram: Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to fi"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "instagram"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Nothing tops those friendships \ud83e\udd79\ud83e\ude75 \nAnd what better way to find them than on GoingSolo!",
+      "url": "https://www.instagram.com/reel/Db1I3JFMU6q/"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@jaytravelsworld/video/7664980443762101517",
+      "cluster_id": "cluster-2",
+      "engagement": 3,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 6.0,
+      "item_id": "TK2",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK2",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 1.4000000000000021,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, scanning receipts, converting currencies, and keeping your entire trip organized, @Trav-ai.app helps you spend less time planning and more time exploring. Planning a trip soon? Comment \u201cTravel\u201d below and I\u2019ll send it to you automatically. You can also find it in my bio. #travel #travelapp #travelplanning #aitravel #italy",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "jaytravelsworld",
+          "body": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, scanning receipts, converting currencies, and keeping your entire trip organized, @Trav-ai.app helps you spend less time planning and more time exploring. Planning a trip soon? Comment \u201cTravel\u201d below and I\u2019ll send it to you automatically. You can also find it in my bio. #travel #travelapp #travelplanning #aitravel #italy\n\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, scanning receipts, converting currencies, and keeping your entire trip organized, @Trav-ai.app helps you spend less time planning and more time exploring. Planning a trip soon? Comment \u201cTravel\u201d below and I\u2019ll send it to you automatically. You can also find it in my bio. #travel #travelapp #travelplanning #aitravel #italy",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "likes": 15,
+            "shares": 0,
+            "views": 335
+          },
+          "engagement_score": 3,
+          "freshness": 40,
+          "item_id": "TK2",
+          "local_rank_score": 0.22,
+          "local_relevance": 0.18,
+          "metadata": {
+            "hashtags": [
+              "travel",
+              "travelapp",
+              "travelplanning",
+              "aitravel",
+              "italy"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-07-21",
+          "relevance_hint": 0.39,
+          "snippet": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, scanning receipts, converting currencies, and keeping your entire trip organized, @Trav-ai.app helps you spend less time planning and more time exploring. Planning a trip soon? Comment \u201cTravel\u201d below and I\u2019ll send it to you automatically. You can also find it in my bio. #travel #travelapp #travelplanning #aitravel #italy",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, sc",
+          "url": "https://www.tiktok.com/@jaytravelsworld/video/7664980443762101517",
+          "why_relevant": "TikTok: \u2708\ufe0f I wish I had this AI travel companion on my last Italy tr"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "\u2708\ufe0f I wish I had this AI travel companion on my last Italy trip. \ud83c\uddee\ud83c\uddf9 From planning personalized itineraries to tracking your travel budget, sc",
+      "url": "https://www.tiktok.com/@jaytravelsworld/video/7664980443762101517"
+    }
+  ],
+  "topic": "travelers \"I wish there was an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
