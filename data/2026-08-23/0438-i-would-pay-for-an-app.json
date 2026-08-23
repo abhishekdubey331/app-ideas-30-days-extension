@@ -1,0 +1,165 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I would pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://x.com/tactitools/status/2088954033625035250"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://x.com/tactitools/status/2088954033625035250"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-23T04:38:49.645296+00:00",
+  "items_by_source": {
+    "bluesky": [],
+    "x": [
+      {
+        "author": "tactitools",
+        "body": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5k\u20ac per year by myself + there is no opt out for being health insured (paying 12k\u20ac/y for nothing)",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 0,
+          "replies": 2,
+          "reposts": 0
+        },
+        "engagement_score": 50,
+        "freshness": 85,
+        "item_id": "X1",
+        "local_rank_score": 0.347,
+        "local_relevance": 0.13,
+        "metadata": {},
+        "published_at": "2026-08-16",
+        "relevance_hint": 0.99,
+        "snippet": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5k\u20ac per year by myself + there is no opt out for being health insured (paying 12k\u20ac/y for nothing)",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5",
+        "url": "https://x.com/tactitools/status/2088954033625035250",
+        "why_relevant": ""
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I would pay for an app\"",
+    "source_weights": {
+      "bluesky": 0.5,
+      "x": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I would pay for an app\", especially about \"i pay app\"?",
+        "search_query": "\"i pay app\"",
+        "sources": [
+          "x",
+          "bluesky"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-24",
+  "range_to": "2026-08-23",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://x.com/tactitools/status/2088954033625035250",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "X1",
+      "local_relevance": 0.13,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X1",
+            "native_rank": 1,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 1
+      },
+      "rerank_score": 7.900000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5k\u20ac per year by myself + there is no opt out for being health insured (paying 12k\u20ac/y for nothing)",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "tactitools",
+          "body": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5k\u20ac per year by myself + there is no opt out for being health insured (paying 12k\u20ac/y for nothing)",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 0,
+            "replies": 2,
+            "reposts": 0
+          },
+          "engagement_score": 50,
+          "freshness": 85,
+          "item_id": "X1",
+          "local_rank_score": 0.347,
+          "local_relevance": 0.13,
+          "metadata": {},
+          "published_at": "2026-08-16",
+          "relevance_hint": 0.99,
+          "snippet": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5k\u20ac per year by myself + there is no opt out for being health insured (paying 12k\u20ac/y for nothing)",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5",
+          "url": "https://x.com/tactitools/status/2088954033625035250",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "@Slavic_Pravda @ginald87 I pay app. 1000\u20ac per month, only that \"cheap\" because private health insurance &amp; I've to pay everything below 5",
+      "url": "https://x.com/tactitools/status/2088954033625035250"
+    }
+  ],
+  "topic": "\"I would pay for an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
