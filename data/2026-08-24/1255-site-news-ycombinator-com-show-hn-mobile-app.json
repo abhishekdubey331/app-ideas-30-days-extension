@@ -1,0 +1,206 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@bli4uoaw/video/7677207472221785357"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@bli4uoaw/video/7677207472221785357"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Discover the craziest websites you never knew you needed! \ud83c\udf10 From finding live radio stations to tracking how many people are in space, these",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-24T12:55:26.175639+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "bli4uoaw",
+        "body": "Discover the craziest websites you never knew you needed! \ud83c\udf10 From finding live radio stations to tracking how many people are in space, these sites are a must-see! Which one are you trying first? Comment below! #websites #coolwebsites #internetfinds #Tech #greenscreenvideo #niickjackson\nThese are the craziest websites that exist on the internet that I bet you didn't know you needed until now. The first one is Radio Garden. This lets you tune into any radio across the whole entire world by just choosing it on the map. If you wanna check out these websites, just look at the headline in blue and then add.com at the end. This website pulls any information from any website without the ads. Oil the frog. Com lets you add two different songs from two different artists and it'll make you a playlist and merge them both. Just watch. Com lets you put in any movie you want and it'll tell you exactly where you can stream it. 10 Minute Mail. Com will make you a personal email that you can use, but it'll self destruct itself after 10 minutes. You can go to how many people are in space right now.com to see the live view of how many people are in space. Pointer. Pointer.com will show you a picture of someone pointing at your mouse wherever the cursor is on the screen. It doesn't matter where. This tip of my tongue website will tell you a word. If you can't think of it, like if you have a word on the tip of your tongue and you know a little bit about it, but not what it is, you just enter in what you know and it'll give you it. If you ever wanna buy Something that you saw somebody wear on TV. Just go to warn on TV dot com and it'll tell you everything. I do these round UPS every day. So add me and come back to me tomorrow.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 21,
+          "likes": 2802,
+          "shares": 970,
+          "views": 40218
+        },
+        "engagement_score": 84,
+        "freshness": 96,
+        "item_id": "TK4",
+        "local_rank_score": 0.42150000000000004,
+        "local_relevance": 0.15,
+        "metadata": {
+          "hashtags": [
+            "websites",
+            "coolwebsites",
+            "internetfinds",
+            "tech",
+            "greenscreenvideo",
+            "niickjackson"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-23",
+        "relevance_hint": 0.09,
+        "snippet": "These are the craziest websites that exist on the internet that I bet you didn't know you needed until now. The first one is Radio Garden. This lets you tune into any radio across the whole entire world by just choosing it on the map. If you wanna check out these websites, just look at the headline in blue and then add.com at the end. This website pulls any information from any website without the ads. Oil the frog. Com lets you add two different songs from two different artists and it'll make you a playlist and merge them both. Just watch. Com lets you put in any movie you want and it'll tell you exactly where you can stream...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Discover the craziest websites you never knew you needed! \ud83c\udf10 From finding live radio stations to tracking how many people are in space, these",
+        "url": "https://www.tiktok.com/@bli4uoaw/video/7677207472221785357",
+        "why_relevant": "TikTok: Discover the craziest websites you never knew you needed! \ud83c\udf10"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-07-25",
+  "range_to": "2026-08-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@bli4uoaw/video/7677207472221785357",
+      "cluster_id": "cluster-1",
+      "engagement": 84,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 96,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK4",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 10.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "These are the craziest websites that exist on the internet that I bet you didn't know you needed until now. The first one is Radio Garden. This lets you tune into any radio across the whole entire world by just choosing it on the map. If you wanna check out these websites, just look at the headline in blue and then add.com at the end. This website pulls any information from any website without the ads. Oil the frog. Com lets you add two different songs from two different artists and it'll make you a playlist and merge them both. Just watch. Com lets you put in any movie you want and it'll tell you exactly where you can stream...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "bli4uoaw",
+          "body": "Discover the craziest websites you never knew you needed! \ud83c\udf10 From finding live radio stations to tracking how many people are in space, these sites are a must-see! Which one are you trying first? Comment below! #websites #coolwebsites #internetfinds #Tech #greenscreenvideo #niickjackson\nThese are the craziest websites that exist on the internet that I bet you didn't know you needed until now. The first one is Radio Garden. This lets you tune into any radio across the whole entire world by just choosing it on the map. If you wanna check out these websites, just look at the headline in blue and then add.com at the end. This website pulls any information from any website without the ads. Oil the frog. Com lets you add two different songs from two different artists and it'll make you a playlist and merge them both. Just watch. Com lets you put in any movie you want and it'll tell you exactly where you can stream it. 10 Minute Mail. Com will make you a personal email that you can use, but it'll self destruct itself after 10 minutes. You can go to how many people are in space right now.com to see the live view of how many people are in space. Pointer. Pointer.com will show you a picture of someone pointing at your mouse wherever the cursor is on the screen. It doesn't matter where. This tip of my tongue website will tell you a word. If you can't think of it, like if you have a word on the tip of your tongue and you know a little bit about it, but not what it is, you just enter in what you know and it'll give you it. If you ever wanna buy Something that you saw somebody wear on TV. Just go to warn on TV dot com and it'll tell you everything. I do these round UPS every day. So add me and come back to me tomorrow.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 21,
+            "likes": 2802,
+            "shares": 970,
+            "views": 40218
+          },
+          "engagement_score": 84,
+          "freshness": 96,
+          "item_id": "TK4",
+          "local_rank_score": 0.42150000000000004,
+          "local_relevance": 0.15,
+          "metadata": {
+            "hashtags": [
+              "websites",
+              "coolwebsites",
+              "internetfinds",
+              "tech",
+              "greenscreenvideo",
+              "niickjackson"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-23",
+          "relevance_hint": 0.09,
+          "snippet": "These are the craziest websites that exist on the internet that I bet you didn't know you needed until now. The first one is Radio Garden. This lets you tune into any radio across the whole entire world by just choosing it on the map. If you wanna check out these websites, just look at the headline in blue and then add.com at the end. This website pulls any information from any website without the ads. Oil the frog. Com lets you add two different songs from two different artists and it'll make you a playlist and merge them both. Just watch. Com lets you put in any movie you want and it'll tell you exactly where you can stream...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Discover the craziest websites you never knew you needed! \ud83c\udf10 From finding live radio stations to tracking how many people are in space, these",
+          "url": "https://www.tiktok.com/@bli4uoaw/video/7677207472221785357",
+          "why_relevant": "TikTok: Discover the craziest websites you never knew you needed! \ud83c\udf10"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Discover the craziest websites you never knew you needed! \ud83c\udf10 From finding live radio stations to tracking how many people are in space, these",
+      "url": "https://www.tiktok.com/@bli4uoaw/video/7677207472221785357"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

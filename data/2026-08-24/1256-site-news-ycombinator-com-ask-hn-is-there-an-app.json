@@ -1,0 +1,202 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@aistartupfren/video/7668505754592185631"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@aistartupfren/video/7668505754592185631"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Cool billion dollar startup ideas from YC #aistartup #aiagents #startupfounder #ycombinator",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-24T12:56:10.552532+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "aistartupfren",
+        "body": "Cool billion dollar startup ideas from YC #aistartup #aiagents #startupfounder #ycombinator\nHere are 13 billion dollar startup ideas that Y C. Just published. Some of them are pretty good. Number one is a personalised A. I. Tutor. So all of the best scientist philosopher in history all had mentors at one point. So this could be your A. I. Mentor that democratized mentorship to people. No. 3 a cloud for small software. So basically one click to deploy your vibe coded app. Just like how Super Base is a dumb down version of Mongodb and this is like a dumb down version of Super Base. No.4 is multiplayer A. I. This is a super interesting idea. Just like Google Docs is a multiplayer version of a word document. Figma is a multiplayer version of Photoshop. There might be other multiplayer version of Chat, G. B. T. Or other A. I. Power tools. Number five is computer at sea. This is a great idea for the environment that has been happening in China and somewhere in Europe. So basically building data centres on the ocean. Number six is a A. I. Power consumer product for one billion people. So when dot com happened, we had Google and we had Airbnb and when the mobile shift happened, we we had Instagram, we have Uber. When this A. I. Shift is happening, there's gotta be more A. I. Power consumer product, not just chat, G. P. T. And clock. No. 7 is A. I. For the aging population. This is great idea. Every country Has a aging problem. Now A. I. And robots are potentially better caregivers with way more patience. No. 9 is new operating system for the physical world. So 80% of the global workforce does not sit at a desk. So this could be a A I. Goggle that electricians that construction workers can wear to help them at their job and help to train new people. No. 11 is data for the real world. This is a very hot and necessary niche because unlike chat G. P. T, they have plenty of data on the internet to scrape to train. Like text, image, video data for the real world. We don't have that much data of how people move, how people perceive. So we have plenty of companies that are recording people working, basically helping robots to collect data. No. 12 is proving you're a human. I love this idea because this is such a philosophical question that software probably can't solve. There are more A. I. Agents using the web browsers than humans now. So how do you know you're a human? The last one is self maintaining A. P. I's, which I love. Whenever you have a A. P. I. Update, you should just generate code and push it to your client's repo and ask them to merge it.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 26,
+          "likes": 1024,
+          "shares": 131,
+          "views": 16883
+        },
+        "engagement_score": 43,
+        "freshness": 19,
+        "item_id": "TK4",
+        "local_rank_score": 0.292,
+        "local_relevance": 0.31,
+        "metadata": {
+          "hashtags": [
+            "aistartup",
+            "aiagents",
+            "startupfounder",
+            "ycombinator"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-07-31",
+        "relevance_hint": 0.14,
+        "snippet": "Here are 13 billion dollar startup ideas that Y C. Just published. Some of them are pretty good. Number one is a personalised A. I. Tutor. So all of the best scientist philosopher in history all had mentors at one point. So this could be your A. I. Mentor that democratized mentorship to people. No. 3 a cloud for small software. So basically one click to deploy your vibe coded app. Just like how Super Base is a dumb down version of Mongodb and this is like a dumb down version of Super Base. No.4 is multiplayer A. I. This is a super interesting idea. Just like Google Docs is a multiplayer version of a word document. Figma is a...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Cool billion dollar startup ideas from YC #aistartup #aiagents #startupfounder #ycombinator",
+        "url": "https://www.tiktok.com/@aistartupfren/video/7668505754592185631",
+        "why_relevant": "TikTok: Cool billion dollar startup ideas from YC #aistartup #aiagen"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Ask HN\" \"is there an app\", especially about site:news.ycombinator.com \"ask hn\" \"is there app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Ask HN\" \"is there an app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-07-25",
+  "range_to": "2026-08-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@aistartupfren/video/7668505754592185631",
+      "cluster_id": "cluster-1",
+      "engagement": 43,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 19,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK4",
+      "local_relevance": 0.31,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 6.300000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Here are 13 billion dollar startup ideas that Y C. Just published. Some of them are pretty good. Number one is a personalised A. I. Tutor. So all of the best scientist philosopher in history all had mentors at one point. So this could be your A. I. Mentor that democratized mentorship to people. No. 3 a cloud for small software. So basically one click to deploy your vibe coded app. Just like how Super Base is a dumb down version of Mongodb and this is like a dumb down version of Super Base. No.4 is multiplayer A. I. This is a super interesting idea. Just like Google Docs is a multiplayer version of a word document. Figma is a...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "aistartupfren",
+          "body": "Cool billion dollar startup ideas from YC #aistartup #aiagents #startupfounder #ycombinator\nHere are 13 billion dollar startup ideas that Y C. Just published. Some of them are pretty good. Number one is a personalised A. I. Tutor. So all of the best scientist philosopher in history all had mentors at one point. So this could be your A. I. Mentor that democratized mentorship to people. No. 3 a cloud for small software. So basically one click to deploy your vibe coded app. Just like how Super Base is a dumb down version of Mongodb and this is like a dumb down version of Super Base. No.4 is multiplayer A. I. This is a super interesting idea. Just like Google Docs is a multiplayer version of a word document. Figma is a multiplayer version of Photoshop. There might be other multiplayer version of Chat, G. B. T. Or other A. I. Power tools. Number five is computer at sea. This is a great idea for the environment that has been happening in China and somewhere in Europe. So basically building data centres on the ocean. Number six is a A. I. Power consumer product for one billion people. So when dot com happened, we had Google and we had Airbnb and when the mobile shift happened, we we had Instagram, we have Uber. When this A. I. Shift is happening, there's gotta be more A. I. Power consumer product, not just chat, G. P. T. And clock. No. 7 is A. I. For the aging population. This is great idea. Every country Has a aging problem. Now A. I. And robots are potentially better caregivers with way more patience. No. 9 is new operating system for the physical world. So 80% of the global workforce does not sit at a desk. So this could be a A I. Goggle that electricians that construction workers can wear to help them at their job and help to train new people. No. 11 is data for the real world. This is a very hot and necessary niche because unlike chat G. P. T, they have plenty of data on the internet to scrape to train. Like text, image, video data for the real world. We don't have that much data of how people move, how people perceive. So we have plenty of companies that are recording people working, basically helping robots to collect data. No. 12 is proving you're a human. I love this idea because this is such a philosophical question that software probably can't solve. There are more A. I. Agents using the web browsers than humans now. So how do you know you're a human? The last one is self maintaining A. P. I's, which I love. Whenever you have a A. P. I. Update, you should just generate code and push it to your client's repo and ask them to merge it.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 26,
+            "likes": 1024,
+            "shares": 131,
+            "views": 16883
+          },
+          "engagement_score": 43,
+          "freshness": 19,
+          "item_id": "TK4",
+          "local_rank_score": 0.292,
+          "local_relevance": 0.31,
+          "metadata": {
+            "hashtags": [
+              "aistartup",
+              "aiagents",
+              "startupfounder",
+              "ycombinator"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-07-31",
+          "relevance_hint": 0.14,
+          "snippet": "Here are 13 billion dollar startup ideas that Y C. Just published. Some of them are pretty good. Number one is a personalised A. I. Tutor. So all of the best scientist philosopher in history all had mentors at one point. So this could be your A. I. Mentor that democratized mentorship to people. No. 3 a cloud for small software. So basically one click to deploy your vibe coded app. Just like how Super Base is a dumb down version of Mongodb and this is like a dumb down version of Super Base. No.4 is multiplayer A. I. This is a super interesting idea. Just like Google Docs is a multiplayer version of a word document. Figma is a...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Cool billion dollar startup ideas from YC #aistartup #aiagents #startupfounder #ycombinator",
+          "url": "https://www.tiktok.com/@aistartupfren/video/7668505754592185631",
+          "why_relevant": "TikTok: Cool billion dollar startup ideas from YC #aistartup #aiagen"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Cool billion dollar startup ideas from YC #aistartup #aiagents #startupfounder #ycombinator",
+      "url": "https://www.tiktok.com/@aistartupfren/video/7668505754592185631"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
