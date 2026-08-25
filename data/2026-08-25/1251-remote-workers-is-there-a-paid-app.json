@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "remote workers \"is there a paid app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@bossfromhome1/video/7667366973952527647"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@bossfromhome1/video/7667366973952527647"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work from Anywhere) Worldwide Job Hiring Now \ud83d\udcbb Base Pay + UNCAPPED Commission Jobtable i"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-25T12:51:11.291789+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "bossfromhome1",
+        "body": "Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work from Anywhere) Worldwide Job Hiring Now \ud83d\udcbb Base Pay + UNCAPPED Commission Jobtable is hiring a Remote Sales Development Representative (SDR) to call contractors, qualify leads, and book software demos. This is a work from home sales job with base salary + uncapped commission and room to grow into a closing role.  Perfect for people with experience in:  \u2705 SDR  \u2705 BDR  \u2705 Inside Sales  \u2705 Appointment Setting  \u2705 SaaS Sales  \u2705 Customer Service with sales experience  \ud83c\udfe0 Fully Remote \ud83c\udf81 PTO + Growth Opportunities  #remotejobs #workfromanywhere #remotework #workfromhome #jobsearch\nOkay, I found a work from anywhere remote, 100% remote work from anywhere, working from home, working from any country job. I never really share these jobs because I never really know they are legitimate, but I did find a few and I'm going to share one right now. So if you're interested in more work from anywhere jobs, make sure that you do follow because I will be sharing these as often as I find them. I've already found one and I'm going to share this with you guys. It's paying you all the way up to an estimated $22 per hour U. S. Dollars. And so this is working from anywhere, fully remote with a company and you have to apply by August 22nd. So if you're interested in learning more about the company, the job, what is all required, and how you can find this job opportunity, stay tuned! So the job I want to share with you all is the job of the sales development representative, and this is with a company called Jobtable. So Jobtable is a software company that builds business management software specifically for contractors, including plumbing, HVAC, electrical, roofing, and general contracting businesses. So they are a small, fully remote, bootstrapped startup company, but they have a mission to become the go to software platform for over 100,000 contractors all across North America. So they are currently looking for remote work from home, work from anywhere sales development representatives, but the schedule is Full time, according to Eastern Standard Time hours. So wherever you are located across the the world, just be sure that you can handle the Eastern Time zone within the U S, um, to be sure that it's a good fit for you. So because the job hours are according to Eastern Standard Time zone, just be sure that wherever you are located across the entire world, wherever you're applying from, that your schedule aligns with the eastern time zone and that you are able to show up as your very best. So the pay is, um, base salary, and we're gonna get into the pay as well. Uncapped commission. So you can make the s. The base pay and extra income as well. And there's paid time off as well. So let's talk about the job opportunity, what all is entailed, and then we'll get into the pay. So this job here is all about calling contractors and convincing them to schedule a software demo. So you're not closing the sale yourself, at least, you know, initially. But instead, you are the person who's finding businesses that could benefit from using jobtibles software and booking appointments with interested decision makers. So you can think of this as, you know, you're calling plumbing, HVAC, roofing, and electrical companies to see if they would like a demonstration of the software that would better help their businesses. So your typical day would be you reviewing assigned leads, you're preparing for calls,...",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 615,
+          "likes": 12166,
+          "shares": 3854,
+          "views": 253244
+        },
+        "engagement_score": 75,
+        "freshness": 43,
+        "item_id": "TK2",
+        "local_rank_score": 0.29300000000000004,
+        "local_relevance": 0.17,
+        "metadata": {
+          "hashtags": [
+            "remotejobs",
+            "workfromanywhere",
+            "remotework",
+            "workfromhome",
+            "jobsearch"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-07-28",
+        "relevance_hint": 0.08,
+        "snippet": "Okay, I found a work from anywhere remote, 100% remote work from anywhere, working from home, working from any country job. I never really share these jobs because I never really know they are legitimate, but I did find a few and I'm going to share one right now. So if you're interested in more work from anywhere jobs, make sure that you do follow because I will be sharing these as often as I find them. I've already found one and I'm going to share this with you guys. It's paying you all the way up to an estimated $22 per hour U. S. Dollars. And so this is working from anywhere, fully remote with a company and you...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work from Anywhere) Worldwide Job Hiring Now \ud83d\udcbb Base Pay + UNCAPPED Commission Jobtable i",
+        "url": "https://www.tiktok.com/@bossfromhome1/video/7667366973952527647",
+        "why_relevant": "TikTok: Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work fro"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "remote workers \"is there a paid app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to remote workers \"is there a paid app\", especially about remote workers \"is there paid app\"?",
+        "search_query": "remote workers \"is there paid app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-26",
+  "range_to": "2026-08-25",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@bossfromhome1/video/7667366973952527647",
+      "cluster_id": "cluster-1",
+      "engagement": 75,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK2",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK2",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 1.3000000000000007,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Okay, I found a work from anywhere remote, 100% remote work from anywhere, working from home, working from any country job. I never really share these jobs because I never really know they are legitimate, but I did find a few and I'm going to share one right now. So if you're interested in more work from anywhere jobs, make sure that you do follow because I will be sharing these as often as I find them. I've already found one and I'm going to share this with you guys. It's paying you all the way up to an estimated $22 per hour U. S. Dollars. And so this is working from anywhere, fully remote with a company and you...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "bossfromhome1",
+          "body": "Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work from Anywhere) Worldwide Job Hiring Now \ud83d\udcbb Base Pay + UNCAPPED Commission Jobtable is hiring a Remote Sales Development Representative (SDR) to call contractors, qualify leads, and book software demos. This is a work from home sales job with base salary + uncapped commission and room to grow into a closing role.  Perfect for people with experience in:  \u2705 SDR  \u2705 BDR  \u2705 Inside Sales  \u2705 Appointment Setting  \u2705 SaaS Sales  \u2705 Customer Service with sales experience  \ud83c\udfe0 Fully Remote \ud83c\udf81 PTO + Growth Opportunities  #remotejobs #workfromanywhere #remotework #workfromhome #jobsearch\nOkay, I found a work from anywhere remote, 100% remote work from anywhere, working from home, working from any country job. I never really share these jobs because I never really know they are legitimate, but I did find a few and I'm going to share one right now. So if you're interested in more work from anywhere jobs, make sure that you do follow because I will be sharing these as often as I find them. I've already found one and I'm going to share this with you guys. It's paying you all the way up to an estimated $22 per hour U. S. Dollars. And so this is working from anywhere, fully remote with a company and you have to apply by August 22nd. So if you're interested in learning more about the company, the job, what is all required, and how you can find this job opportunity, stay tuned! So the job I want to share with you all is the job of the sales development representative, and this is with a company called Jobtable. So Jobtable is a software company that builds business management software specifically for contractors, including plumbing, HVAC, electrical, roofing, and general contracting businesses. So they are a small, fully remote, bootstrapped startup company, but they have a mission to become the go to software platform for over 100,000 contractors all across North America. So they are currently looking for remote work from home, work from anywhere sales development representatives, but the schedule is Full time, according to Eastern Standard Time hours. So wherever you are located across the the world, just be sure that you can handle the Eastern Time zone within the U S, um, to be sure that it's a good fit for you. So because the job hours are according to Eastern Standard Time zone, just be sure that wherever you are located across the entire world, wherever you're applying from, that your schedule aligns with the eastern time zone and that you are able to show up as your very best. So the pay is, um, base salary, and we're gonna get into the pay as well. Uncapped commission. So you can make the s. The base pay and extra income as well. And there's paid time off as well. So let's talk about the job opportunity, what all is entailed, and then we'll get into the pay. So this job here is all about calling contractors and convincing them to schedule a software demo. So you're not closing the sale yourself, at least, you know, initially. But instead, you are the person who's finding businesses that could benefit from using jobtibles software and booking appointments with interested decision makers. So you can think of this as, you know, you're calling plumbing, HVAC, roofing, and electrical companies to see if they would like a demonstration of the software that would better help their businesses. So your typical day would be you reviewing assigned leads, you're preparing for calls,...",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 615,
+            "likes": 12166,
+            "shares": 3854,
+            "views": 253244
+          },
+          "engagement_score": 75,
+          "freshness": 43,
+          "item_id": "TK2",
+          "local_rank_score": 0.29300000000000004,
+          "local_relevance": 0.17,
+          "metadata": {
+            "hashtags": [
+              "remotejobs",
+              "workfromanywhere",
+              "remotework",
+              "workfromhome",
+              "jobsearch"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-07-28",
+          "relevance_hint": 0.08,
+          "snippet": "Okay, I found a work from anywhere remote, 100% remote work from anywhere, working from home, working from any country job. I never really share these jobs because I never really know they are legitimate, but I did find a few and I'm going to share one right now. So if you're interested in more work from anywhere jobs, make sure that you do follow because I will be sharing these as often as I find them. I've already found one and I'm going to share this with you guys. It's paying you all the way up to an estimated $22 per hour U. S. Dollars. And so this is working from anywhere, fully remote with a company and you...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work from Anywhere) Worldwide Job Hiring Now \ud83d\udcbb Base Pay + UNCAPPED Commission Jobtable i",
+          "url": "https://www.tiktok.com/@bossfromhome1/video/7667366973952527647",
+          "why_relevant": "TikTok: Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work fro"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Replying to @Adnan Haider \ud83d\udea8 Finally a Fully Remote (work from Anywhere) Worldwide Job Hiring Now \ud83d\udcbb Base Pay + UNCAPPED Commission Jobtable i",
+      "url": "https://www.tiktok.com/@bossfromhome1/video/7667366973952527647"
+    }
+  ],
+  "topic": "remote workers \"is there a paid app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
