@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"any good app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@rjmclok/video/7676293312499813662"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@rjmclok/video/7676293312499813662"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative #movies"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-26T12:58:44.582593+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "rjmclok",
+        "body": "Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative #movies\nHere are some free apps you should download right now run! Pee! This app tells you when to leave the movie to use the bathroom so you won't miss anything crucial. Too good to go! This allows you to buy packs of food that restaurants were going to throw out at a discount. The catch is that you don't know what's in them though. Flush. This app tells you where all public restrooms are. Especially if you're in a city. This is just a must have. Flighty this one allows you to track planes. Not only can you use it for when you need to go on a plane, but you can see what planes are overhead, which is kind of sick. Merlin bird ID. I know I'm gonna sound like a 73 year old woman, but bird identification is kind of fun. Libby. This app allows you to library match. You upload your library card and it gives you access to all of the free stuff that comes with the library card. I exit. If you're on a road trip, download this. It'll show you where restaurants are, where bathrooms are, where to get off the highway.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 23,
+          "likes": 2797,
+          "shares": 134,
+          "views": 20376
+        },
+        "engagement_score": 73,
+        "freshness": 89,
+        "item_id": "TK3",
+        "local_rank_score": 0.47750000000000004,
+        "local_relevance": 0.28,
+        "metadata": {
+          "hashtags": [
+            "apps",
+            "selfhelp",
+            "useful",
+            "informative",
+            "movies"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-08-21",
+        "relevance_hint": 0.87,
+        "snippet": "Here are some free apps you should download right now run! Pee! This app tells you when to leave the movie to use the bathroom so you won't miss anything crucial. Too good to go! This allows you to buy packs of food that restaurants were going to throw out at a discount. The catch is that you don't know what's in them though. Flush. This app tells you where all public restrooms are. Especially if you're in a city. This is just a must have. Flighty this one allows you to track planes. Not only can you use it for when you need to go on a plane, but you can see what planes are overhead, which is kind...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative #movies",
+        "url": "https://www.tiktok.com/@rjmclok/video/7676293312499813662",
+        "why_relevant": "TikTok: Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"any good app for\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"any good app for\", especially about \"any app for\"?",
+        "search_query": "\"any app for\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-27",
+  "range_to": "2026-08-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@rjmclok/video/7676293312499813662",
+      "cluster_id": "cluster-1",
+      "engagement": 73,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK3",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK3",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 18.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Here are some free apps you should download right now run! Pee! This app tells you when to leave the movie to use the bathroom so you won't miss anything crucial. Too good to go! This allows you to buy packs of food that restaurants were going to throw out at a discount. The catch is that you don't know what's in them though. Flush. This app tells you where all public restrooms are. Especially if you're in a city. This is just a must have. Flighty this one allows you to track planes. Not only can you use it for when you need to go on a plane, but you can see what planes are overhead, which is kind...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "rjmclok",
+          "body": "Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative #movies\nHere are some free apps you should download right now run! Pee! This app tells you when to leave the movie to use the bathroom so you won't miss anything crucial. Too good to go! This allows you to buy packs of food that restaurants were going to throw out at a discount. The catch is that you don't know what's in them though. Flush. This app tells you where all public restrooms are. Especially if you're in a city. This is just a must have. Flighty this one allows you to track planes. Not only can you use it for when you need to go on a plane, but you can see what planes are overhead, which is kind of sick. Merlin bird ID. I know I'm gonna sound like a 73 year old woman, but bird identification is kind of fun. Libby. This app allows you to library match. You upload your library card and it gives you access to all of the free stuff that comes with the library card. I exit. If you're on a road trip, download this. It'll show you where restaurants are, where bathrooms are, where to get off the highway.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 23,
+            "likes": 2797,
+            "shares": 134,
+            "views": 20376
+          },
+          "engagement_score": 73,
+          "freshness": 89,
+          "item_id": "TK3",
+          "local_rank_score": 0.47750000000000004,
+          "local_relevance": 0.28,
+          "metadata": {
+            "hashtags": [
+              "apps",
+              "selfhelp",
+              "useful",
+              "informative",
+              "movies"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-08-21",
+          "relevance_hint": 0.87,
+          "snippet": "Here are some free apps you should download right now run! Pee! This app tells you when to leave the movie to use the bathroom so you won't miss anything crucial. Too good to go! This allows you to buy packs of food that restaurants were going to throw out at a discount. The catch is that you don't know what's in them though. Flush. This app tells you where all public restrooms are. Especially if you're in a city. This is just a must have. Flighty this one allows you to track planes. Not only can you use it for when you need to go on a plane, but you can see what planes are overhead, which is kind...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative #movies",
+          "url": "https://www.tiktok.com/@rjmclok/video/7676293312499813662",
+          "why_relevant": "TikTok: Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any other good apps? \ud83e\udd14 #apps #selfhelp #useful #informative #movies",
+      "url": "https://www.tiktok.com/@rjmclok/video/7676293312499813662"
+    }
+  ],
+  "topic": "\"any good app for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
