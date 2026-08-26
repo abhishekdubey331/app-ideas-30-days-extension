@@ -1,0 +1,58 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I would pay for an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [],
+  "errors_by_source": {},
+  "generated_at": "2026-08-26T08:46:07.399225+00:00",
+  "items_by_source": {
+    "youtube": []
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I would pay for an app\"",
+    "source_weights": {
+      "youtube": 1.0
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I would pay for an app\", especially about \"i pay app\"?",
+        "search_query": "\"i pay app\"",
+        "sources": [
+          "youtube"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-27",
+  "range_to": "2026-08-26",
+  "ranked_candidates": [],
+  "topic": "\"I would pay for an app\"",
+  "warnings": [
+    "No candidates survived retrieval and ranking.",
+    "Evidence is thin for this topic."
+  ]
+}
