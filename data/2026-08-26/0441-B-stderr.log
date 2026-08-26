@@ -1,0 +1,133 @@
+Batch B sources=x,bluesky
+Started at 2026-08-26T04:41:23Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/32931147004
+----
+
+===== Seed: site:news.ycombinator.com "Show HN" "mobile app" =====
+/last30days · researching: site:news.ycombinator.com "Show HN" "mobile app"
+⏳ [95mProcessing[0m Finding patterns...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=breaking_news, freshness=strict_recent, cluster_mode=story, subqueries=2, source=deterministic
+[Planner]   sq1 label=primary search="site:news.ycombinator.com "show hn" "mobile app"" sources=[x,bluesky]
+[Planner]   sq2 label=reaction search="site:news.ycombinator.com "show hn" "mobile app" reaction update" sources=[x,bluesky]
+[Bird] Searching: site:news.ycombinator.com "show hn" "mobile app" since:2026-07-27
+[Bird] Searching: site:news.ycombinator.com "show hn" "mobile app" since:2026-07-27
+[Bird] 0 results for 'site:news.ycombinator.com "show hn" "mobile app"', retrying with 'site:news.ycombinator.com "show'
+[Bird] 0 results for 'site:news.ycombinator.com "show hn" "mobile app"', retrying with 'site:news.ycombinator.com "show'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "show hn" "mobile app"', retrying with strongest token 'site:news.ycombinator.com'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "show hn" "mobile app"', retrying with strongest token 'site:news.ycombinator.com'
+[Bird] Searching: site:news.ycombinator.com "show hn" since:2026-07-27
+[Bird] 0 results for 'site:news.ycombinator.com "show hn"', retrying with 'site:news.ycombinator.com "show'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "show hn"', retrying with strongest token 'site:news.ycombinator.com'
+✓ Research complete (2.5s) - X: 0 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-26/0441-site-news-ycombinator-com-show-hn-mobile-app.json
+[OK] seed succeeded
+
+===== Seed: site:news.ycombinator.com "Ask HN" "is there an app" =====
+/last30days · researching: site:news.ycombinator.com "Ask HN" "is there an app"
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=breaking_news, freshness=strict_recent, cluster_mode=story, subqueries=2, source=deterministic
+[Planner]   sq1 label=primary search="site:news.ycombinator.com "ask hn" "is there app"" sources=[x,bluesky]
+[Planner]   sq2 label=reaction search="site:news.ycombinator.com "ask hn" "is there app" reaction update" sources=[x,bluesky]
+[Bird] Searching: site:news.ycombinator.com "ask hn" "is there since:2026-07-27
+[Bird] Searching: site:news.ycombinator.com "ask hn" "is there since:2026-07-27
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "ask hn" "is there', retrying with 'site:news.ycombinator.com "ask'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "ask hn" "is there', retrying with 'site:news.ycombinator.com "ask'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "ask hn" "is there', retrying with strongest token 'site:news.ycombinator.com'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "ask hn" "is there', retrying with strongest token 'site:news.ycombinator.com'
+[Bird] Searching: site:news.ycombinator.com "ask hn" since:2026-07-27
+[Bird] 0 results for 'site:news.ycombinator.com "ask hn"', retrying with 'site:news.ycombinator.com "ask'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'site:news.ycombinator.com "ask hn"', retrying with strongest token 'site:news.ycombinator.com'
+✓ Research complete (2.2s) - X: 0 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-26/0441-site-news-ycombinator-com-ask-hn-is-there-an-app.json
+[OK] seed succeeded
+
+===== Seed: site:producthunt.com mobile app comments =====
+/last30days · researching: site:producthunt.com mobile app comments
+⏳ [95mProcessing[0m Crunching the data...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="site:producthunt.com mobile app comments" sources=[x,bluesky]
+[Bird] Searching: site:producthunt.com mobile app comments since:2026-07-27
+[Bird] 0 results for 'site:producthunt.com mobile app comments', retrying with 'site:producthunt.com mobile'
+[Bird] 0 results for 'site:producthunt.com mobile app comments', retrying with strongest token 'site:producthunt.com'
+[Bird] Searching: site:producthunt.com mobile app since:2026-07-27
+[Bird] 0 results for 'site:producthunt.com mobile app', retrying with 'site:producthunt.com mobile'
+[Bird] 0 results for 'site:producthunt.com mobile app', retrying with strongest token 'site:producthunt.com'
+✓ Research complete (2.0s) - X: 0 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-26/0441-site-producthunt-com-mobile-app-comments.json
+[OK] seed succeeded
+
+===== Seed: AI mobile app gaps "would pay" =====
+/last30days · researching: AI mobile app gaps "would pay"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="ai mobile app gaps "would pay"" sources=[x,bluesky]
+[Bird] Searching: ai mobile app gaps "would since:2026-07-27
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'ai mobile app gaps "would', retrying with 'ai mobile'
+[Bird] Handle search failed for @touchofoblivion: 
+[Bird] Handle search failed for @roundtablespace: 
+[Bird] Handle search failed for @bryttnitv: 
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (2.1s) - X: 7 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-08-26/0441-ai-mobile-app-gaps-would-pay.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed
