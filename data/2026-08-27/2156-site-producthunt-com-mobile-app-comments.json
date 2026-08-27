@@ -1,0 +1,275 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1vasvav/support_us_on_producthunt_and_we_will_support_you"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1vasvav/support_us_on_producthunt_and_we_will_support_you"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Support us on ProductHunt and we will support you on your launch day."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1v93k3e/the_best_compliment_my_website_has_ever_received"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1v93k3e/the_best_compliment_my_website_has_ever_received"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "The best compliment my website has ever received wasn't \"Great app.\""
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-27T21:56:58.717044+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Support us on ProductHunt and we will support you on your launch day.\nWe are founderkarma.Our goal is to give founders back what they give. Founders typically prioritize their products, and this leaves them promoting to a lot of people who only care about their own problems, this is human, and natural. However, this leads to discouragement and most founders digging deeper into their own thoughts, thinking nobody cares. They do, but you haven't helped them solve what keeps them up at night. We have changed this approach by incentivizing founders to be more open tow",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 43,
+        "item_id": "R1",
+        "local_rank_score": 0.22899999999999998,
+        "local_relevance": 0.11,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-30",
+        "relevance_hint": 0.13,
+        "snippet": "We are founderkarma.Our goal is to give founders back what they give. Founders typically prioritize their products, and this leaves them promoting to a lot of people who only care about their own problems, this is human, and natural. However, this leads to discouragement and most founders digging deeper into their own thoughts, thinking nobody cares. They do, but you haven't helped them solve what",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Support us on ProductHunt and we will support you on your launch day.",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1vasvav/support_us_on_producthunt_and_we_will_support_you/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "The best compliment my website has ever received wasn't \"Great app.\"\nIt was this: \"I finished what I needed in under 20 seconds.\" That comment completely changed how I build software. Nobody wakes up excited to use an online QR generator. Nobody dreams about compressing an image. Nobody wants to crop passport photos. People simply have a problem. They want it solved. Then they want to leave. That's when I realised my competition wasn't another website. It was time. Every extra click steals a few more seconds. Every popup steals attention. Every login steals patie",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 40,
+        "item_id": "R2",
+        "local_rank_score": 0.1825,
+        "local_relevance": 0.05,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-07-28",
+        "relevance_hint": 0.15,
+        "snippet": "It was this: \"I finished what I needed in under 20 seconds.\" That comment completely changed how I build software. Nobody wakes up excited to use an online QR generator. Nobody dreams about compressing an image. Nobody wants to crop passport photos. People simply have a problem. They want it solved. Then they want to leave. That's when I realised my competition wasn't another website. It was time.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "The best compliment my website has ever received wasn't \"Great app.\"",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1v93k3e/the_best_compliment_my_website_has_ever_received/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-28",
+  "range_to": "2026-08-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1vasvav/support_us_on_producthunt_and_we_will_support_you",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.11,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "We are founderkarma.Our goal is to give founders back what they give. Founders typically prioritize their products, and this leaves them promoting to a lot of people who only care about their own problems, this is human, and natural. However, this leads to discouragement and most founders digging deeper into their own thoughts, thinking nobody cares. They do, but you haven't helped them solve what",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Support us on ProductHunt and we will support you on your launch day.\nWe are founderkarma.Our goal is to give founders back what they give. Founders typically prioritize their products, and this leaves them promoting to a lot of people who only care about their own problems, this is human, and natural. However, this leads to discouragement and most founders digging deeper into their own thoughts, thinking nobody cares. They do, but you haven't helped them solve what keeps them up at night. We have changed this approach by incentivizing founders to be more open tow",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 43,
+          "item_id": "R1",
+          "local_rank_score": 0.22899999999999998,
+          "local_relevance": 0.11,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-30",
+          "relevance_hint": 0.13,
+          "snippet": "We are founderkarma.Our goal is to give founders back what they give. Founders typically prioritize their products, and this leaves them promoting to a lot of people who only care about their own problems, this is human, and natural. However, this leads to discouragement and most founders digging deeper into their own thoughts, thinking nobody cares. They do, but you haven't helped them solve what",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Support us on ProductHunt and we will support you on your launch day.",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1vasvav/support_us_on_producthunt_and_we_will_support_you/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Support us on ProductHunt and we will support you on your launch day.",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1vasvav/support_us_on_producthunt_and_we_will_support_you/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1v93k3e/the_best_compliment_my_website_has_ever_received",
+      "cluster_id": "cluster-2",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.05,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "It was this: \"I finished what I needed in under 20 seconds.\" That comment completely changed how I build software. Nobody wakes up excited to use an online QR generator. Nobody dreams about compressing an image. Nobody wants to crop passport photos. People simply have a problem. They want it solved. Then they want to leave. That's when I realised my competition wasn't another website. It was time.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "The best compliment my website has ever received wasn't \"Great app.\"\nIt was this: \"I finished what I needed in under 20 seconds.\" That comment completely changed how I build software. Nobody wakes up excited to use an online QR generator. Nobody dreams about compressing an image. Nobody wants to crop passport photos. People simply have a problem. They want it solved. Then they want to leave. That's when I realised my competition wasn't another website. It was time. Every extra click steals a few more seconds. Every popup steals attention. Every login steals patie",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 40,
+          "item_id": "R2",
+          "local_rank_score": 0.1825,
+          "local_relevance": 0.05,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-07-28",
+          "relevance_hint": 0.15,
+          "snippet": "It was this: \"I finished what I needed in under 20 seconds.\" That comment completely changed how I build software. Nobody wakes up excited to use an online QR generator. Nobody dreams about compressing an image. Nobody wants to crop passport photos. People simply have a problem. They want it solved. Then they want to leave. That's when I realised my competition wasn't another website. It was time.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "The best compliment my website has ever received wasn't \"Great app.\"",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1v93k3e/the_best_compliment_my_website_has_ever_received/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "The best compliment my website has ever received wasn't \"Great app.\"",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1v93k3e/the_best_compliment_my_website_has_ever_received/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
