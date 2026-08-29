@@ -1,0 +1,237 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/wyzecam/comments/1vwcxbg/why_is_there_no_app"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/wyzecam/comments/1vwcxbg/why_is_there_no_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why is there no app?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-29T22:28:21.982386+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Why is there no app?\nI searched through Google play and I see no official apps. Just dozens of fake looking apps with weird developers and lots of wyze cam v3 wyze cam v2 etc apps. What gives? Edit no shot... The official app is called never wonder?? How are we supposed to know that Also it doesn't explain why there's so frigging many fake ones\nThe \u201cWyze - Never Wonder\u201d is the official app\u2026 its right in front of you, what do you want a parade? it has 10m downloads and 177k reviews, and has the publisher right there, it couldn't be more clear. also your search \"wyze cam\" is unnecessarily specific Why is there no critical thinking?",
+        "container": "wyzecam",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 0
+        },
+        "engagement_score": 50,
+        "freshness": 88,
+        "item_id": "R1",
+        "local_rank_score": 0.39999999999999997,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "The \u201cWyze - Never Wonder\u201d is the official app\u2026",
+            "Why is there no critical thinking?",
+            "its right in front of you, what do you want a parade?",
+            "Wyze labs inc. Are you actually like this?"
+          ],
+          "top_comments": [
+            {
+              "author": "chadder_b",
+              "date": "2026-08-23",
+              "excerpt": "The \u201cWyze - Never Wonder\u201d is the official app\u2026",
+              "score": 22,
+              "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5fxpso/"
+            },
+            {
+              "author": "kJer",
+              "date": "2026-08-23",
+              "excerpt": "its right in front of you, what do you want a parade? it has 10m downloads and 177k reviews, and has the publisher right there, it couldn't be more clear. also your search \"wyze cam\" is unnecessarily specific",
+              "score": 13,
+              "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5fya59/"
+            },
+            {
+              "author": "itsmrmarlboroman2u",
+              "date": "2026-08-23",
+              "excerpt": "Why is there no critical thinking?",
+              "score": 8,
+              "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5fzax2/"
+            },
+            {
+              "author": "eatdeath4",
+              "date": "2026-08-23",
+              "excerpt": "Wyze labs inc. Are you actually like this?",
+              "score": 3,
+              "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5g0e2e/"
+            }
+          ]
+        },
+        "published_at": "2026-08-23",
+        "relevance_hint": 1.0,
+        "snippet": "The \u201cWyze - Never Wonder\u201d is the official app\u2026 its right in front of you, what do you want a parade? it has 10m downloads and 177k reviews, and has the publisher right there, it couldn't be more clear. also your search \"wyze cam\" is unnecessarily specific Why is there no critical thinking?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why is there no app?",
+        "url": "https://www.reddit.com/r/wyzecam/comments/1vwcxbg/why_is_there_no_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-30",
+  "range_to": "2026-08-29",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/wyzecam/comments/1vwcxbg/why_is_there_no_app",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "The \u201cWyze - Never Wonder\u201d is the official app\u2026 its right in front of you, what do you want a parade? it has 10m downloads and 177k reviews, and has the publisher right there, it couldn't be more clear. also your search \"wyze cam\" is unnecessarily specific Why is there no critical thinking?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why is there no app?\nI searched through Google play and I see no official apps. Just dozens of fake looking apps with weird developers and lots of wyze cam v3 wyze cam v2 etc apps. What gives? Edit no shot... The official app is called never wonder?? How are we supposed to know that Also it doesn't explain why there's so frigging many fake ones\nThe \u201cWyze - Never Wonder\u201d is the official app\u2026 its right in front of you, what do you want a parade? it has 10m downloads and 177k reviews, and has the publisher right there, it couldn't be more clear. also your search \"wyze cam\" is unnecessarily specific Why is there no critical thinking?",
+          "container": "wyzecam",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 0
+          },
+          "engagement_score": 50,
+          "freshness": 88,
+          "item_id": "R1",
+          "local_rank_score": 0.39999999999999997,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "The \u201cWyze - Never Wonder\u201d is the official app\u2026",
+              "Why is there no critical thinking?",
+              "its right in front of you, what do you want a parade?",
+              "Wyze labs inc. Are you actually like this?"
+            ],
+            "top_comments": [
+              {
+                "author": "chadder_b",
+                "date": "2026-08-23",
+                "excerpt": "The \u201cWyze - Never Wonder\u201d is the official app\u2026",
+                "score": 22,
+                "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5fxpso/"
+              },
+              {
+                "author": "kJer",
+                "date": "2026-08-23",
+                "excerpt": "its right in front of you, what do you want a parade? it has 10m downloads and 177k reviews, and has the publisher right there, it couldn't be more clear. also your search \"wyze cam\" is unnecessarily specific",
+                "score": 13,
+                "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5fya59/"
+              },
+              {
+                "author": "itsmrmarlboroman2u",
+                "date": "2026-08-23",
+                "excerpt": "Why is there no critical thinking?",
+                "score": 8,
+                "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5fzax2/"
+              },
+              {
+                "author": "eatdeath4",
+                "date": "2026-08-23",
+                "excerpt": "Wyze labs inc. Are you actually like this?",
+                "score": 3,
+                "url": "https://reddit.com/r/wyzecam/comments/1vwcxbg/comment/p5g0e2e/"
+              }
+            ]
+          },
+          "published_at": "2026-08-23",
+          "relevance_hint": 1.0,
+          "snippet": "The \u201cWyze - Never Wonder\u201d is the official app\u2026 its right in front of you, what do you want a parade? it has 10m downloads and 177k reviews, and has the publisher right there, it couldn't be more clear. also your search \"wyze cam\" is unnecessarily specific Why is there no critical thinking?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why is there no app?",
+          "url": "https://www.reddit.com/r/wyzecam/comments/1vwcxbg/why_is_there_no_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why is there no app?",
+      "url": "https://www.reddit.com/r/wyzecam/comments/1vwcxbg/why_is_there_no_app/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
