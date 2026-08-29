@@ -1,0 +1,786 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ukpersonalfinance/comments/1vzpevc/filing_self_assessment_for_savings_income"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/ukpersonalfinance/comments/1vzpevc/filing_self_assessment_for_savings_income"
+      ],
+      "score": 15.089180327868853,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Filing self assessment for savings income"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "USA road trip, how to find visitor centres easily?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/supplements/comments/1w1mmgl/app_for_supplements_timing"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/supplements/comments/1w1mmgl/app_for_supplements_timing"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "App for Supplements timing"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Parent communication app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-29T19:16:20.867427+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Filing self assessment for savings income\nFor the 25/26 year I earned over the personal allowance of savings interest which I now need to pay tax for. This savings income will also put me in the 40% tax bracket. How easy is it to fill this out myself and is there an app that I can use to help me. Had the same thing last year and used an accountant but I\u2019ve now bought my first home and am trying to save some money.\nIn most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you just include the savings interest on that form, or you receive over \u00a310k in interest. Are you sure you need to submit a self assessment? For the 25/26 year I earned over the personal allowance of savings interest How much over? Generally you are only required to do self assessment for savings interest if that interest is \u00a310k or more. For amounts below \u00a310k HMRC should write to you with a calculation which you can pay directly or hav It\u2019s the most annoying bit of self assessment for me because I have a lot of accounts that pay interest. Some of them give me an interest certificate but it\u2019s hit and miss. I just use a spreadsheet though to do all the adding up. Ultimately it all goes in one box on the self assessment. Doubt there",
+        "container": "UKPersonalFinance",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 0
+        },
+        "engagement_score": 58,
+        "freshness": 95,
+        "item_id": "R3",
+        "local_rank_score": 0.536,
+        "local_relevance": 0.37,
+        "metadata": {
+          "comment_insights": [
+            "In most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you...",
+            "For the 25/26 year I earned over the personal allowance of savings interest How much over?",
+            "It\u2019s the most annoying bit of self assessment for me because I have a lot of accounts that pay interest.",
+            "Double check whether or not you actually need to do this.",
+            "Check HMRC's site when you log in to prepare your SA return.",
+            "hmrc stock answer is to do self assessment. for savings interest , you can let the bank provide it or use your online tax account or submit other inco..."
+          ],
+          "top_comments": [
+            {
+              "author": "UKActuary1",
+              "date": "2026-08-27",
+              "excerpt": "In most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you just include the savings interest on that form, or you receive over \u00a310k in interest. Are you sure you need to submit a self assessment?",
+              "score": 6,
+              "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66k1t9/"
+            },
+            {
+              "author": "IxionS3",
+              "date": "2026-08-27",
+              "excerpt": "For the 25/26 year I earned over the personal allowance of savings interest How much over? Generally you are only required to do self assessment for savings interest if that interest is \u00a310k or more. For amounts below \u00a310k HMRC should write to you with a calculation which you can pay directly or hav",
+              "score": 3,
+              "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66ol25/"
+            },
+            {
+              "author": "QueefInMyKisser",
+              "date": "2026-08-27",
+              "excerpt": "It\u2019s the most annoying bit of self assessment for me because I have a lot of accounts that pay interest. Some of them give me an interest certificate but it\u2019s hit and miss. I just use a spreadsheet though to do all the adding up. Ultimately it all goes in one box on the self assessment. Doubt there ",
+              "score": 1,
+              "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66jp6h/"
+            },
+            {
+              "author": "samtheman268",
+              "date": "2026-08-27",
+              "excerpt": "Double check whether or not you actually need to do this. If you are PAYE then you probably don't, your tax code will be adjusted automatically to compensate with your bank information HMRC of your earning. If you're making a considerable amount from savings then you might still have to do this. See",
+              "score": 1,
+              "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66k90c/"
+            },
+            {
+              "author": "berkorich",
+              "date": "2026-08-27",
+              "excerpt": "Check HMRC's site when you log in to prepare your SA return. There always used to be an online interest worksheet, where you can list the accounts and interest received, to drop the total into your return.",
+              "score": 1,
+              "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66lcwb/"
+            },
+            {
+              "author": "Frequent_Field_6894",
+              "date": "2026-08-27",
+              "excerpt": "hmrc stock answer is to do self assessment. for savings interest , you can let the bank provide it or use your online tax account or submit other income source. avoid self assessment if you can.",
+              "score": 1,
+              "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p6aichb/"
+            }
+          ]
+        },
+        "published_at": "2026-08-27",
+        "relevance_hint": 0.22,
+        "snippet": "In most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you just include the savings interest on that form, or you receive over \u00a310k in interest. Are you sure you need to submit a self assessment? For the 25/26 year I earned over the personal allowance of savings interest How much over? Generally you are only required to do self assessment for savings interest if that interest is \u00a310k or more. For amounts below \u00a310k HMRC should write to you with a calculation which you can pay directly or hav It\u2019s the most annoying bit of self assessment for me because I have a lot...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Filing self assessment for savings income",
+        "url": "https://www.reddit.com/r/UKPersonalFinance/comments/1vzpevc/filing_self_assessment_for_savings_income/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "App for Supplements timing\nIs there an app that can tell me which supplements I should take at what time? Morning, afternoon, night. And which ones I shouldn\u2019t take at the same time? Etc I don\u2019t mind paying for it if the app is great\nRules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can not a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+        "container": "Supplements",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 79,
+        "freshness": 100,
+        "item_id": "R4",
+        "local_rank_score": 0.459,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+            ".buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video."
+          ],
+          "top_comments": [
+            {
+              "author": "AutoModerator",
+              "date": "2026-08-29",
+              "excerpt": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can not ",
+              "score": 1,
+              "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lue6j/"
+            },
+            {
+              "author": "Unlikely_Net_4488",
+              "date": "2026-08-29",
+              "excerpt": "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+              "score": 1,
+              "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lz25o/"
+            },
+            {
+              "author": "dataoops",
+              "date": "2026-08-29",
+              "excerpt": ".buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+              "score": 1,
+              "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6mx7tc/"
+            }
+          ]
+        },
+        "published_at": "2026-08-29",
+        "relevance_hint": 0.34,
+        "snippet": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can not a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "App for Supplements timing",
+        "url": "https://www.reddit.com/r/Supplements/comments/1w1mmgl/app_for_supplements_timing/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "USA road trip, how to find visitor centres easily?\nGoing on a USA road trip and we always pass visitor centres but can\u2019t be bothered turning around for them. Is there an app that will show us all the different visitor centres or welcome centres on our route? Or does anyone have any tips? Also this one is purely me being lazy and not paying attention, but something to let me know when we are crossing state lines? Oh and also an app that tracks all the routes you\u2019ve done? Like it would be cute to look at the end of the road trip all the routes we\nType 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+        "container": "roadtrip",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 2
+        },
+        "engagement_score": 100,
+        "freshness": 59,
+        "item_id": "R2",
+        "local_rank_score": 0.37749999999999995,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Type 'visitor center' in Google Maps. And there you are.",
+            "Most visitors centers are at or near state lines. That or just a mapping program",
+            "This is what I do prior to a Roadtrip, but it does take time.",
+            "visitor centers are right near border crossings. you can usually find them on maps.",
+            "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+            "Have you ever used Google maps?",
+            "Google maps Timeline will remember where you've been if you let it",
+            "Any map app will tell you where visitor centers are.",
+            "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indi..."
+          ],
+          "top_comments": [
+            {
+              "author": "AnybodySeeMyKeys",
+              "date": "2026-08-09",
+              "excerpt": "Type 'visitor center' in Google Maps. And there you are.",
+              "score": 13,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nfty6/"
+            },
+            {
+              "author": "hatred-shapped",
+              "date": "2026-08-09",
+              "excerpt": "Most visitors centers are at or near state lines. That or just a mapping program",
+              "score": 3,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2lzrvd/"
+            },
+            {
+              "author": "starcowboysmetalKISS",
+              "date": "2026-08-09",
+              "excerpt": "This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2mjupg/"
+            },
+            {
+              "author": "SabresBills69",
+              "date": "2026-08-09",
+              "excerpt": "visitor centers are right near border crossings. you can usually find them on maps. these aren\u2019t going to be at every crossing but at main road cross points that are not in metro areas off interstates and other heavy volume routes. off interstates these coukd be off the first e it or in a rest area ",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nj9g3/"
+            },
+            {
+              "author": "SeaBlueDrizzle",
+              "date": "2026-08-09",
+              "excerpt": "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nowog/"
+            },
+            {
+              "author": "Correct-Condition-99",
+              "date": "2026-08-09",
+              "excerpt": "Have you ever used Google maps?",
+              "score": 2,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2plxvo/"
+            },
+            {
+              "author": "tatobuckets",
+              "date": "2026-08-09",
+              "excerpt": "Google maps Timeline will remember where you've been if you let it",
+              "score": 1,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nvs6v/"
+            },
+            {
+              "author": "CuriosTiger",
+              "date": "2026-08-09",
+              "excerpt": "Any map app will tell you where visitor centers are. Typically, so will big signs that say \"visitor center\", and many are signposted well in advance, not just at the actual visitor center. With state lines: When you're traveling west or south on interstates, exit numbers and mile markers will decrea",
+              "score": 1,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2o6hsw/"
+            },
+            {
+              "author": "jetloflin",
+              "date": "2026-08-09",
+              "excerpt": "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indicated by large \u201cwelcome to wherever\u201d signs.",
+              "score": 1,
+              "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2ox8cl/"
+            }
+          ]
+        },
+        "published_at": "2026-08-09",
+        "relevance_hint": 0.14,
+        "snippet": "Type 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "USA road trip, how to find visitor centres easily?",
+        "url": "https://www.reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Parent communication app\nLocation: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019m at my wits end with him and I really need some advice on this. I couldn\u2019t find anything on this on",
+        "container": "legaladvice",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 0
+        },
+        "engagement_score": 9,
+        "freshness": 43,
+        "item_id": "R6",
+        "local_rank_score": 0.29850000000000004,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-01",
+        "relevance_hint": 0.43,
+        "snippet": "Location: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Parent communication app",
+        "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-30",
+  "range_to": "2026-08-29",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/ukpersonalfinance/comments/1vzpevc/filing_self_assessment_for_savings_income",
+      "cluster_id": "cluster-1",
+      "engagement": 58,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 15.089180327868853,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.37,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 25.9,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "In most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you just include the savings interest on that form, or you receive over \u00a310k in interest. Are you sure you need to submit a self assessment? For the 25/26 year I earned over the personal allowance of savings interest How much over? Generally you are only required to do self assessment for savings interest if that interest is \u00a310k or more. For amounts below \u00a310k HMRC should write to you with a calculation which you can pay directly or hav It\u2019s the most annoying bit of self assessment for me because I have a lot...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Filing self assessment for savings income\nFor the 25/26 year I earned over the personal allowance of savings interest which I now need to pay tax for. This savings income will also put me in the 40% tax bracket. How easy is it to fill this out myself and is there an app that I can use to help me. Had the same thing last year and used an accountant but I\u2019ve now bought my first home and am trying to save some money.\nIn most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you just include the savings interest on that form, or you receive over \u00a310k in interest. Are you sure you need to submit a self assessment? For the 25/26 year I earned over the personal allowance of savings interest How much over? Generally you are only required to do self assessment for savings interest if that interest is \u00a310k or more. For amounts below \u00a310k HMRC should write to you with a calculation which you can pay directly or hav It\u2019s the most annoying bit of self assessment for me because I have a lot of accounts that pay interest. Some of them give me an interest certificate but it\u2019s hit and miss. I just use a spreadsheet though to do all the adding up. Ultimately it all goes in one box on the self assessment. Doubt there",
+          "container": "UKPersonalFinance",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 0
+          },
+          "engagement_score": 58,
+          "freshness": 95,
+          "item_id": "R3",
+          "local_rank_score": 0.536,
+          "local_relevance": 0.37,
+          "metadata": {
+            "comment_insights": [
+              "In most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you...",
+              "For the 25/26 year I earned over the personal allowance of savings interest How much over?",
+              "It\u2019s the most annoying bit of self assessment for me because I have a lot of accounts that pay interest.",
+              "Double check whether or not you actually need to do this.",
+              "Check HMRC's site when you log in to prepare your SA return.",
+              "hmrc stock answer is to do self assessment. for savings interest , you can let the bank provide it or use your online tax account or submit other inco..."
+            ],
+            "top_comments": [
+              {
+                "author": "UKActuary1",
+                "date": "2026-08-27",
+                "excerpt": "In most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you just include the savings interest on that form, or you receive over \u00a310k in interest. Are you sure you need to submit a self assessment?",
+                "score": 6,
+                "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66k1t9/"
+              },
+              {
+                "author": "IxionS3",
+                "date": "2026-08-27",
+                "excerpt": "For the 25/26 year I earned over the personal allowance of savings interest How much over? Generally you are only required to do self assessment for savings interest if that interest is \u00a310k or more. For amounts below \u00a310k HMRC should write to you with a calculation which you can pay directly or hav",
+                "score": 3,
+                "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66ol25/"
+              },
+              {
+                "author": "QueefInMyKisser",
+                "date": "2026-08-27",
+                "excerpt": "It\u2019s the most annoying bit of self assessment for me because I have a lot of accounts that pay interest. Some of them give me an interest certificate but it\u2019s hit and miss. I just use a spreadsheet though to do all the adding up. Ultimately it all goes in one box on the self assessment. Doubt there ",
+                "score": 1,
+                "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66jp6h/"
+              },
+              {
+                "author": "samtheman268",
+                "date": "2026-08-27",
+                "excerpt": "Double check whether or not you actually need to do this. If you are PAYE then you probably don't, your tax code will be adjusted automatically to compensate with your bank information HMRC of your earning. If you're making a considerable amount from savings then you might still have to do this. See",
+                "score": 1,
+                "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66k90c/"
+              },
+              {
+                "author": "berkorich",
+                "date": "2026-08-27",
+                "excerpt": "Check HMRC's site when you log in to prepare your SA return. There always used to be an online interest worksheet, where you can list the accounts and interest received, to drop the total into your return.",
+                "score": 1,
+                "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p66lcwb/"
+              },
+              {
+                "author": "Frequent_Field_6894",
+                "date": "2026-08-27",
+                "excerpt": "hmrc stock answer is to do self assessment. for savings interest , you can let the bank provide it or use your online tax account or submit other income source. avoid self assessment if you can.",
+                "score": 1,
+                "url": "https://reddit.com/r/UKPersonalFinance/comments/1vzpevc/comment/p6aichb/"
+              }
+            ]
+          },
+          "published_at": "2026-08-27",
+          "relevance_hint": 0.22,
+          "snippet": "In most cases you don't need to submit a self assessment for savings income, unless you already submit a self assessment for another reason, then you just include the savings interest on that form, or you receive over \u00a310k in interest. Are you sure you need to submit a self assessment? For the 25/26 year I earned over the personal allowance of savings interest How much over? Generally you are only required to do self assessment for savings interest if that interest is \u00a310k or more. For amounts below \u00a310k HMRC should write to you with a calculation which you can pay directly or hav It\u2019s the most annoying bit of self assessment for me because I have a lot...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Filing self assessment for savings income",
+          "url": "https://www.reddit.com/r/UKPersonalFinance/comments/1vzpevc/filing_self_assessment_for_savings_income/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Filing self assessment for savings income",
+      "url": "https://www.reddit.com/r/UKPersonalFinance/comments/1vzpevc/filing_self_assessment_for_savings_income/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Type 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "USA road trip, how to find visitor centres easily?\nGoing on a USA road trip and we always pass visitor centres but can\u2019t be bothered turning around for them. Is there an app that will show us all the different visitor centres or welcome centres on our route? Or does anyone have any tips? Also this one is purely me being lazy and not paying attention, but something to let me know when we are crossing state lines? Oh and also an app that tracks all the routes you\u2019ve done? Like it would be cute to look at the end of the road trip all the routes we\nType 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+          "container": "roadtrip",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 2
+          },
+          "engagement_score": 100,
+          "freshness": 59,
+          "item_id": "R2",
+          "local_rank_score": 0.37749999999999995,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Type 'visitor center' in Google Maps. And there you are.",
+              "Most visitors centers are at or near state lines. That or just a mapping program",
+              "This is what I do prior to a Roadtrip, but it does take time.",
+              "visitor centers are right near border crossings. you can usually find them on maps.",
+              "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+              "Have you ever used Google maps?",
+              "Google maps Timeline will remember where you've been if you let it",
+              "Any map app will tell you where visitor centers are.",
+              "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indi..."
+            ],
+            "top_comments": [
+              {
+                "author": "AnybodySeeMyKeys",
+                "date": "2026-08-09",
+                "excerpt": "Type 'visitor center' in Google Maps. And there you are.",
+                "score": 13,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nfty6/"
+              },
+              {
+                "author": "hatred-shapped",
+                "date": "2026-08-09",
+                "excerpt": "Most visitors centers are at or near state lines. That or just a mapping program",
+                "score": 3,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2lzrvd/"
+              },
+              {
+                "author": "starcowboysmetalKISS",
+                "date": "2026-08-09",
+                "excerpt": "This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2mjupg/"
+              },
+              {
+                "author": "SabresBills69",
+                "date": "2026-08-09",
+                "excerpt": "visitor centers are right near border crossings. you can usually find them on maps. these aren\u2019t going to be at every crossing but at main road cross points that are not in metro areas off interstates and other heavy volume routes. off interstates these coukd be off the first e it or in a rest area ",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nj9g3/"
+              },
+              {
+                "author": "SeaBlueDrizzle",
+                "date": "2026-08-09",
+                "excerpt": "USA Rest Stops is a phone app, and most visitors centers are at rest areas. Download the app, and it will help you find those centers.",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nowog/"
+              },
+              {
+                "author": "Correct-Condition-99",
+                "date": "2026-08-09",
+                "excerpt": "Have you ever used Google maps?",
+                "score": 2,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2plxvo/"
+              },
+              {
+                "author": "tatobuckets",
+                "date": "2026-08-09",
+                "excerpt": "Google maps Timeline will remember where you've been if you let it",
+                "score": 1,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2nvs6v/"
+              },
+              {
+                "author": "CuriosTiger",
+                "date": "2026-08-09",
+                "excerpt": "Any map app will tell you where visitor centers are. Typically, so will big signs that say \"visitor center\", and many are signposted well in advance, not just at the actual visitor center. With state lines: When you're traveling west or south on interstates, exit numbers and mile markers will decrea",
+                "score": 1,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2o6hsw/"
+              },
+              {
+                "author": "jetloflin",
+                "date": "2026-08-09",
+                "excerpt": "Pay attention to road signs. Visitor centers and rest areas are announced on big signs several miles in advance usually, and state lines are also indicated by large \u201cwelcome to wherever\u201d signs.",
+                "score": 1,
+                "url": "https://reddit.com/r/roadtrip/comments/1vjkaa7/comment/p2ox8cl/"
+              }
+            ]
+          },
+          "published_at": "2026-08-09",
+          "relevance_hint": 0.14,
+          "snippet": "Type 'visitor center' in Google Maps. And there you are. Most visitors centers are at or near state lines. That or just a mapping program This is what I do prior to a Roadtrip, but it does take time. I go on Google Maps on my computer and put in my destinations, then I zoom in on the route which brings up scenic points, things to do, etc. Then I follow the route and discover things I would like to see and add them to the route. If you",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "USA road trip, how to find visitor centres easily?",
+          "url": "https://www.reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "USA road trip, how to find visitor centres easily?",
+      "url": "https://www.reddit.com/r/roadtrip/comments/1vjkaa7/usa_road_trip_how_to_find_visitor_centres_easily/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/supplements/comments/1w1mmgl/app_for_supplements_timing",
+      "cluster_id": "cluster-3",
+      "engagement": 79,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 15.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can not a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "App for Supplements timing\nIs there an app that can tell me which supplements I should take at what time? Morning, afternoon, night. And which ones I shouldn\u2019t take at the same time? Etc I don\u2019t mind paying for it if the app is great\nRules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can not a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+          "container": "Supplements",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 79,
+          "freshness": 100,
+          "item_id": "R4",
+          "local_rank_score": 0.459,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+              ".buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video."
+            ],
+            "top_comments": [
+              {
+                "author": "AutoModerator",
+                "date": "2026-08-29",
+                "excerpt": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can not ",
+                "score": 1,
+                "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lue6j/"
+              },
+              {
+                "author": "Unlikely_Net_4488",
+                "date": "2026-08-29",
+                "excerpt": "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+                "score": 1,
+                "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lz25o/"
+              },
+              {
+                "author": "dataoops",
+                "date": "2026-08-29",
+                "excerpt": ".buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+                "score": 1,
+                "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6mx7tc/"
+              }
+            ]
+          },
+          "published_at": "2026-08-29",
+          "relevance_hint": 0.34,
+          "snippet": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can not a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "App for Supplements timing",
+          "url": "https://www.reddit.com/r/Supplements/comments/1w1mmgl/app_for_supplements_timing/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "App for Supplements timing",
+      "url": "https://www.reddit.com/r/Supplements/comments/1w1mmgl/app_for_supplements_timing/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app",
+      "cluster_id": "cluster-4",
+      "engagement": 9,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 18.0,
+      "item_id": "R6",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.200000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "Location: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Parent communication app\nLocation: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019m at my wits end with him and I really need some advice on this. I couldn\u2019t find anything on this on",
+          "container": "legaladvice",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 0
+          },
+          "engagement_score": 9,
+          "freshness": 43,
+          "item_id": "R6",
+          "local_rank_score": 0.29850000000000004,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-01",
+          "relevance_hint": 0.43,
+          "snippet": "Location: Virginia My child\u2019s father says a lot of things to get a rise out of me, is childish and petty, and instigates arguments. While I\u2019d rather not deal with him at all, he is court ordered to pay child support that he has not started to pay over the last 3 years. He does get to see her on his weekends and we switch off holidays. Is there an app that the court recognizes for communication? I\u2019",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Parent communication app",
+          "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Parent communication app",
+      "url": "https://www.reddit.com/r/legaladvice/comments/1vcv8l5/parent_communication_app/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
