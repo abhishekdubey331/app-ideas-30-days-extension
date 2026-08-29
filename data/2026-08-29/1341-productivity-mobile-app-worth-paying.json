@@ -1,0 +1,382 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "productivity mobile app \"worth paying\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vwtz30/productivity_apps_are_doomed"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vwtz30/productivity_apps_are_doomed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Productivity apps are doomed"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ve2kvu/how_do_you_judge_if_a_productivity_app_works_for"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1ve2kvu/how_do_you_judge_if_a_productivity_app_works_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "How do you judge if a productivity app works for you?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/techimpact/comments/1vyj32k/whats_your_favorite_productivity_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/techimpact/comments/1vyj32k/whats_your_favorite_productivity_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What's your favorite productivity app?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-29T13:41:27.428477+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "What's your favorite productivity app?\nThere are hundreds of productivity apps, but most people end up sticking with just a few. Which app genuinely helps you get things done or stay organized? What do you use it for?",
+        "container": "TechImpact",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 7
+        },
+        "engagement_score": 36,
+        "freshness": 94,
+        "item_id": "R15",
+        "local_rank_score": 0.39449999999999996,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-26",
+        "relevance_hint": 0.42,
+        "snippet": "There are hundreds of productivity apps, but most people end up sticking with just a few. Which app genuinely helps you get things done or stay organized? What do you use it for?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What's your favorite productivity app?",
+        "url": "https://www.reddit.com/r/TechImpact/comments/1vyj32k/whats_your_favorite_productivity_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Productivity apps are doomed\nThink about it... I know that not every1 feels this but allot of ppl including me feel like that these apps are just not enough.Suppose you open ur phone to work with a productivity app but 5 mins later u find urself scrolling instagram or tiktok happens allot to allot of us. The thing is these apps are living inside the same device thats distracting us.I feel like thats the reason we really get ez distracted despite paying like 10$ a month of productivity subscriptions.Do u guys feel like itI d",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 49,
+          "score": 9
+        },
+        "engagement_score": 48,
+        "freshness": 89,
+        "item_id": "R8",
+        "local_rank_score": 0.394,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-24",
+        "relevance_hint": 0.28,
+        "snippet": "Think about it... I know that not every1 feels this but allot of ppl including me feel like that these apps are just not enough.Suppose you open ur phone to work with a productivity app but 5 mins later u find urself scrolling instagram or tiktok happens allot to allot of us. The thing is these apps are living inside the same device thats distracting us.I feel like thats the reason we really get e",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Productivity apps are doomed",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1vwtz30/productivity_apps_are_doomed/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "How do you judge if a productivity app works for you?\nNone",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 30,
+          "score": 7
+        },
+        "engagement_score": 42,
+        "freshness": 47,
+        "item_id": "R13",
+        "local_rank_score": 0.27,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-03",
+        "relevance_hint": 0.38,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "How do you judge if a productivity app works for you?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1ve2kvu/how_do_you_judge_if_a_productivity_app_works_for/",
+        "why_relevant": "Reddit r/ProductivityApps search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "productivity mobile app \"worth paying\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to productivity mobile app \"worth paying\"?",
+        "search_query": "productivity mobile app \"worth paying\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-07-30",
+  "range_to": "2026-08-29",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1vwtz30/productivity_apps_are_doomed",
+      "cluster_id": "cluster-1",
+      "engagement": 48,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.100000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Think about it... I know that not every1 feels this but allot of ppl including me feel like that these apps are just not enough.Suppose you open ur phone to work with a productivity app but 5 mins later u find urself scrolling instagram or tiktok happens allot to allot of us. The thing is these apps are living inside the same device thats distracting us.I feel like thats the reason we really get e",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Productivity apps are doomed\nThink about it... I know that not every1 feels this but allot of ppl including me feel like that these apps are just not enough.Suppose you open ur phone to work with a productivity app but 5 mins later u find urself scrolling instagram or tiktok happens allot to allot of us. The thing is these apps are living inside the same device thats distracting us.I feel like thats the reason we really get ez distracted despite paying like 10$ a month of productivity subscriptions.Do u guys feel like itI d",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 49,
+            "score": 9
+          },
+          "engagement_score": 48,
+          "freshness": 89,
+          "item_id": "R8",
+          "local_rank_score": 0.394,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-24",
+          "relevance_hint": 0.28,
+          "snippet": "Think about it... I know that not every1 feels this but allot of ppl including me feel like that these apps are just not enough.Suppose you open ur phone to work with a productivity app but 5 mins later u find urself scrolling instagram or tiktok happens allot to allot of us. The thing is these apps are living inside the same device thats distracting us.I feel like thats the reason we really get e",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Productivity apps are doomed",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1vwtz30/productivity_apps_are_doomed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Productivity apps are doomed",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1vwtz30/productivity_apps_are_doomed/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1ve2kvu/how_do_you_judge_if_a_productivity_app_works_for",
+      "cluster_id": "cluster-2",
+      "engagement": 42,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 61.3,
+      "item_id": "R13",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R13",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 2.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "How do you judge if a productivity app works for you?\nNone",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 30,
+            "score": 7
+          },
+          "engagement_score": 42,
+          "freshness": 47,
+          "item_id": "R13",
+          "local_rank_score": 0.27,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-03",
+          "relevance_hint": 0.38,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "How do you judge if a productivity app works for you?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1ve2kvu/how_do_you_judge_if_a_productivity_app_works_for/",
+          "why_relevant": "Reddit r/ProductivityApps search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "How do you judge if a productivity app works for you?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1ve2kvu/how_do_you_judge_if_a_productivity_app_works_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/techimpact/comments/1vyj32k/whats_your_favorite_productivity_app",
+      "cluster_id": "cluster-3",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R15",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R15",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.100000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "There are hundreds of productivity apps, but most people end up sticking with just a few. Which app genuinely helps you get things done or stay organized? What do you use it for?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What's your favorite productivity app?\nThere are hundreds of productivity apps, but most people end up sticking with just a few. Which app genuinely helps you get things done or stay organized? What do you use it for?",
+          "container": "TechImpact",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 7
+          },
+          "engagement_score": 36,
+          "freshness": 94,
+          "item_id": "R15",
+          "local_rank_score": 0.39449999999999996,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-26",
+          "relevance_hint": 0.42,
+          "snippet": "There are hundreds of productivity apps, but most people end up sticking with just a few. Which app genuinely helps you get things done or stay organized? What do you use it for?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What's your favorite productivity app?",
+          "url": "https://www.reddit.com/r/TechImpact/comments/1vyj32k/whats_your_favorite_productivity_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What's your favorite productivity app?",
+      "url": "https://www.reddit.com/r/TechImpact/comments/1vyj32k/whats_your_favorite_productivity_app/"
+    }
+  ],
+  "topic": "productivity mobile app \"worth paying\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
