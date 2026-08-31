@@ -1,0 +1,203 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-08-31T21:23:43.865143+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise\nI\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery trends, with a 10-day battery and a minimalist band design for people who train, walk, or just want\nVous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+        "container": "FitnessTrackers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 2
+        },
+        "engagement_score": 26,
+        "freshness": 95,
+        "item_id": "R3",
+        "local_rank_score": 0.41300000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it."
+          ],
+          "top_comments": [
+            {
+              "author": "EducationalWolf4429",
+              "date": "2026-08-29",
+              "excerpt": "Vous avez une photo ?",
+              "score": 1,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mbamx/"
+            },
+            {
+              "author": "PurpleDrink3926",
+              "date": "2026-08-29",
+              "excerpt": "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+              "score": 1,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mhpps/"
+            }
+          ]
+        },
+        "published_at": "2026-08-29",
+        "relevance_hint": 0.22,
+        "snippet": "Vous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+        "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-01",
+  "range_to": "2026-08-31",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just",
+      "cluster_id": "cluster-1",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Vous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise\nI\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery trends, with a 10-day battery and a minimalist band design for people who train, walk, or just want\nVous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+          "container": "FitnessTrackers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 2
+          },
+          "engagement_score": 26,
+          "freshness": 95,
+          "item_id": "R3",
+          "local_rank_score": 0.41300000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it."
+            ],
+            "top_comments": [
+              {
+                "author": "EducationalWolf4429",
+                "date": "2026-08-29",
+                "excerpt": "Vous avez une photo ?",
+                "score": 1,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mbamx/"
+              },
+              {
+                "author": "PurpleDrink3926",
+                "date": "2026-08-29",
+                "excerpt": "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+                "score": 1,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mhpps/"
+              }
+            ]
+          },
+          "published_at": "2026-08-29",
+          "relevance_hint": 0.22,
+          "snippet": "Vous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+          "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+      "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
