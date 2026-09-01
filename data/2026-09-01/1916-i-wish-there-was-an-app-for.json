@@ -1,0 +1,528 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/thane/comments/1w30kod/share_auto_details_nearby_office_thane_wagle"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/thane/comments/1w30kod/share_auto_details_nearby_office_thane_wagle"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Share auto details nearby office \ud83d\udefa (Thane wagle estate)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/passive_income/comments/1vpo640/whats_your_i_wish_there_was_an_app_for_that"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/passive_income/comments/1vpo640/whats_your_i_wish_there_was_an_app_for_that"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What's your 'I wish there was an app for that' moment? I'll build the best idea!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/user/fanmammoth1933/comments/1vzn3uk/best_ideas_for_an_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/user/fanmammoth1933/comments/1vzn3uk/best_ideas_for_an_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Best ideas for an app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-01T19:16:20.266566+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Share auto details nearby office \ud83d\udefa (Thane wagle estate)\nHello all, i will be travelling from bhandup to thane wagle estate daily. So i wanted to know the best possible mode of transport. Google suggested to take two buses or one bus and change to rickshaw near R mall. Any suggestions on this? I wish there was an app for share auto, man :)\nWagle is a hell hole man\ud83d\ude14 Get down in teen haath naka and take a rick. When coming from bhandup side, there is a small road on left near rmall going towards wagle estate. But I doubt if there is any share auto on that route.instead you can get down at rmall and walk towards autmatic company after crossing check naka, will take about 10 mins walk. Share autos usually go through automatic company route",
+        "container": "thane",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 3
+        },
+        "engagement_score": 100,
+        "freshness": 97,
+        "item_id": "R2",
+        "local_rank_score": 0.47250000000000003,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "When coming from bhandup side, there is a small road on left near rmall going towards wagle estate.",
+            "Get down in teen haath naka and take a rick."
+          ],
+          "top_comments": [
+            {
+              "author": "nachosandwhiskey",
+              "date": "2026-08-31",
+              "excerpt": "Wagle is a hell hole man\ud83d\ude14",
+              "score": 3,
+              "url": "https://reddit.com/r/thane/comments/1w30kod/comment/p6xh96l/"
+            },
+            {
+              "author": "wthAbhishek",
+              "date": "2026-08-31",
+              "excerpt": "Get down in teen haath naka and take a rick.",
+              "score": 2,
+              "url": "https://reddit.com/r/thane/comments/1w30kod/comment/p6wwsd6/"
+            },
+            {
+              "author": "unliked_anp",
+              "date": "2026-08-31",
+              "excerpt": "When coming from bhandup side, there is a small road on left near rmall going towards wagle estate. But I doubt if there is any share auto on that route.instead you can get down at rmall and walk towards autmatic company after crossing check naka, will take about 10 mins walk. Share autos usually go through automatic company route",
+              "score": 1,
+              "url": "https://reddit.com/r/thane/comments/1w30kod/comment/p6x1v2w/"
+            }
+          ]
+        },
+        "published_at": "2026-08-31",
+        "relevance_hint": 0.22,
+        "snippet": "Wagle is a hell hole man\ud83d\ude14 Get down in teen haath naka and take a rick. When coming from bhandup side, there is a small road on left near rmall going towards wagle estate. But I doubt if there is any share auto on that route.instead you can get down at rmall and walk towards autmatic company after crossing check naka, will take about 10 mins walk. Share autos usually go through automatic company route",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Share auto details nearby office \ud83d\udefa (Thane wagle estate)",
+        "url": "https://www.reddit.com/r/thane/comments/1w30kod/share_auto_details_nearby_office_thane_wagle/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Best ideas for an app\nI want to make an app for an android and iPhone. Something that is screaming that it needs to be made. I know how to do it, but I need a really grand idea. Take a second and think to yourself fuck I wish there was an app for filling that blank. If you could make an app tomorrow what would it be? I\u2019m curious at all the answers and I\u2019m curious at which answer gets the most. And I am very well considering going with the number one pic of the community here.",
+        "container": "u_FanMammoth1933",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 89,
+        "item_id": "R3",
+        "local_rank_score": 0.4045,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-27",
+        "relevance_hint": 0.43,
+        "snippet": "I want to make an app for an android and iPhone. Something that is screaming that it needs to be made. I know how to do it, but I need a really grand idea. Take a second and think to yourself fuck I wish there was an app for filling that blank. If you could make an app tomorrow what would it be? I\u2019m curious at all the answers and I\u2019m curious at which answer gets the most. And I am very well consid",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Best ideas for an app",
+        "url": "https://www.reddit.com/user/FanMammoth1933/comments/1vzn3uk/best_ideas_for_an_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What's your 'I wish there was an app for that' moment? I'll build the best idea!\nHey Folks! \ud83d\udc4bI'm a developer looking to build something genuinely useful. Instead of guessing what people need, I thought I'd ask directly: what's that recurring problem or annoying situation in your life where you've thought \"why isn't there an app for this yet?\" Could be anything - a daily inconvenience, a process you wish was automated, or something you're currently solving with a messy workaround. No problem is too small or too niche! Please share: Your problem/situation How you currently han\nAre you going to use AI? An app that scans whats in my fridge and tells me what i can cook with it. Right now i just open the door stare for 5 minutes then order takeout again. There is a few apps like this but they want me to manually input everything which kills the whole point. Just let me take a photo and figure it out. For women to hire only women contractors and service providers when we need fixes done in our homes",
+        "container": "passive_income",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 26,
+          "score": 0
+        },
+        "engagement_score": 95,
+        "freshness": 67,
+        "item_id": "R1",
+        "local_rank_score": 0.39249999999999996,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "An app that scans whats in my fridge and tells me what i can cook with it.",
+            "For women to hire only women contractors and service providers when we need fixes done in our homes",
+            "What's your education background? How do you make your apps?",
+            "Lack of good photo blogging software. Badly. Current options are SaaS (barf), Social Media where you put your photos on someone else's server (barf!"
+          ],
+          "top_comments": [
+            {
+              "author": "HorizonHuntxr",
+              "date": "2026-08-16",
+              "excerpt": "Are you going to use AI?",
+              "score": 6,
+              "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z2rw6/"
+            },
+            {
+              "author": "Miserable_Idea2357",
+              "date": "2026-08-16",
+              "excerpt": "An app that scans whats in my fridge and tells me what i can cook with it. Right now i just open the door stare for 5 minutes then order takeout again. There is a few apps like this but they want me to manually input everything which kills the whole point. Just let me take a photo and figure it out.",
+              "score": 2,
+              "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z39el/"
+            },
+            {
+              "author": "Beautiful-Yoghurt-11",
+              "date": "2026-08-16",
+              "excerpt": "For women to hire only women contractors and service providers when we need fixes done in our homes",
+              "score": 2,
+              "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z5fjw/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-08-16",
+              "excerpt": "Visit Passive Piggie to run a personalized quiz on what passive income suits your situation. Check out the Community Highlights for Mod Vetted opportunities and Newsletter Episodes. Please do due diligence on any crypto opportunity. A simple google search could save you a fortune. And make sure to read the Scam & Pitfall Guide. I am a bot, and this action was performed automatically. Please contac",
+              "score": 1,
+              "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z20m8/"
+            },
+            {
+              "author": "Over_Revolution_1444",
+              "date": "2026-08-16",
+              "excerpt": "What's your education background? How do you make your apps? How do you handle security? What languages do you know how to code with, without the use of ai? ETA: obviously if a \"dev\" can't answer these questions, the answer is likely they don't know how to do things by hand and are giving an ai prom",
+              "score": 1,
+              "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3zby52/"
+            },
+            {
+              "author": "baddaywithacamera",
+              "date": "2026-08-16",
+              "excerpt": "Lack of good photo blogging software. Badly. Current options are SaaS (barf), Social Media where you put your photos on someone else's server (barf!), Wordpress (BARRRFFF!!!), photo galleries like Zenphoto (uuurrrp), and writer first CMSes Ghost/Kirby/etc (spit/patooey). The only good photo blogging",
+              "score": 0,
+              "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z62cx/"
+            }
+          ]
+        },
+        "published_at": "2026-08-16",
+        "relevance_hint": 0.89,
+        "snippet": "Are you going to use AI? An app that scans whats in my fridge and tells me what i can cook with it. Right now i just open the door stare for 5 minutes then order takeout again. There is a few apps like this but they want me to manually input everything which kills the whole point. Just let me take a photo and figure it out. For women to hire only women contractors and service providers when we need fixes done in our homes",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What's your 'I wish there was an app for that' moment? I'll build the best idea!",
+        "url": "https://www.reddit.com/r/passive_income/comments/1vpo640/whats_your_i_wish_there_was_an_app_for_that/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app for\", especially about \"i wish there app for\"?",
+        "search_query": "\"i wish there app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-02",
+  "range_to": "2026-09-01",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/thane/comments/1w30kod/share_auto_details_nearby_office_thane_wagle",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Wagle is a hell hole man\ud83d\ude14 Get down in teen haath naka and take a rick. When coming from bhandup side, there is a small road on left near rmall going towards wagle estate. But I doubt if there is any share auto on that route.instead you can get down at rmall and walk towards autmatic company after crossing check naka, will take about 10 mins walk. Share autos usually go through automatic company route",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Share auto details nearby office \ud83d\udefa (Thane wagle estate)\nHello all, i will be travelling from bhandup to thane wagle estate daily. So i wanted to know the best possible mode of transport. Google suggested to take two buses or one bus and change to rickshaw near R mall. Any suggestions on this? I wish there was an app for share auto, man :)\nWagle is a hell hole man\ud83d\ude14 Get down in teen haath naka and take a rick. When coming from bhandup side, there is a small road on left near rmall going towards wagle estate. But I doubt if there is any share auto on that route.instead you can get down at rmall and walk towards autmatic company after crossing check naka, will take about 10 mins walk. Share autos usually go through automatic company route",
+          "container": "thane",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 3
+          },
+          "engagement_score": 100,
+          "freshness": 97,
+          "item_id": "R2",
+          "local_rank_score": 0.47250000000000003,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "When coming from bhandup side, there is a small road on left near rmall going towards wagle estate.",
+              "Get down in teen haath naka and take a rick."
+            ],
+            "top_comments": [
+              {
+                "author": "nachosandwhiskey",
+                "date": "2026-08-31",
+                "excerpt": "Wagle is a hell hole man\ud83d\ude14",
+                "score": 3,
+                "url": "https://reddit.com/r/thane/comments/1w30kod/comment/p6xh96l/"
+              },
+              {
+                "author": "wthAbhishek",
+                "date": "2026-08-31",
+                "excerpt": "Get down in teen haath naka and take a rick.",
+                "score": 2,
+                "url": "https://reddit.com/r/thane/comments/1w30kod/comment/p6wwsd6/"
+              },
+              {
+                "author": "unliked_anp",
+                "date": "2026-08-31",
+                "excerpt": "When coming from bhandup side, there is a small road on left near rmall going towards wagle estate. But I doubt if there is any share auto on that route.instead you can get down at rmall and walk towards autmatic company after crossing check naka, will take about 10 mins walk. Share autos usually go through automatic company route",
+                "score": 1,
+                "url": "https://reddit.com/r/thane/comments/1w30kod/comment/p6x1v2w/"
+              }
+            ]
+          },
+          "published_at": "2026-08-31",
+          "relevance_hint": 0.22,
+          "snippet": "Wagle is a hell hole man\ud83d\ude14 Get down in teen haath naka and take a rick. When coming from bhandup side, there is a small road on left near rmall going towards wagle estate. But I doubt if there is any share auto on that route.instead you can get down at rmall and walk towards autmatic company after crossing check naka, will take about 10 mins walk. Share autos usually go through automatic company route",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Share auto details nearby office \ud83d\udefa (Thane wagle estate)",
+          "url": "https://www.reddit.com/r/thane/comments/1w30kod/share_auto_details_nearby_office_thane_wagle/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Share auto details nearby office \ud83d\udefa (Thane wagle estate)",
+      "url": "https://www.reddit.com/r/thane/comments/1w30kod/share_auto_details_nearby_office_thane_wagle/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/passive_income/comments/1vpo640/whats_your_i_wish_there_was_an_app_for_that",
+      "cluster_id": "cluster-2",
+      "engagement": 95,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Are you going to use AI? An app that scans whats in my fridge and tells me what i can cook with it. Right now i just open the door stare for 5 minutes then order takeout again. There is a few apps like this but they want me to manually input everything which kills the whole point. Just let me take a photo and figure it out. For women to hire only women contractors and service providers when we need fixes done in our homes",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What's your 'I wish there was an app for that' moment? I'll build the best idea!\nHey Folks! \ud83d\udc4bI'm a developer looking to build something genuinely useful. Instead of guessing what people need, I thought I'd ask directly: what's that recurring problem or annoying situation in your life where you've thought \"why isn't there an app for this yet?\" Could be anything - a daily inconvenience, a process you wish was automated, or something you're currently solving with a messy workaround. No problem is too small or too niche! Please share: Your problem/situation How you currently han\nAre you going to use AI? An app that scans whats in my fridge and tells me what i can cook with it. Right now i just open the door stare for 5 minutes then order takeout again. There is a few apps like this but they want me to manually input everything which kills the whole point. Just let me take a photo and figure it out. For women to hire only women contractors and service providers when we need fixes done in our homes",
+          "container": "passive_income",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 26,
+            "score": 0
+          },
+          "engagement_score": 95,
+          "freshness": 67,
+          "item_id": "R1",
+          "local_rank_score": 0.39249999999999996,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "An app that scans whats in my fridge and tells me what i can cook with it.",
+              "For women to hire only women contractors and service providers when we need fixes done in our homes",
+              "What's your education background? How do you make your apps?",
+              "Lack of good photo blogging software. Badly. Current options are SaaS (barf), Social Media where you put your photos on someone else's server (barf!"
+            ],
+            "top_comments": [
+              {
+                "author": "HorizonHuntxr",
+                "date": "2026-08-16",
+                "excerpt": "Are you going to use AI?",
+                "score": 6,
+                "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z2rw6/"
+              },
+              {
+                "author": "Miserable_Idea2357",
+                "date": "2026-08-16",
+                "excerpt": "An app that scans whats in my fridge and tells me what i can cook with it. Right now i just open the door stare for 5 minutes then order takeout again. There is a few apps like this but they want me to manually input everything which kills the whole point. Just let me take a photo and figure it out.",
+                "score": 2,
+                "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z39el/"
+              },
+              {
+                "author": "Beautiful-Yoghurt-11",
+                "date": "2026-08-16",
+                "excerpt": "For women to hire only women contractors and service providers when we need fixes done in our homes",
+                "score": 2,
+                "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z5fjw/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-08-16",
+                "excerpt": "Visit Passive Piggie to run a personalized quiz on what passive income suits your situation. Check out the Community Highlights for Mod Vetted opportunities and Newsletter Episodes. Please do due diligence on any crypto opportunity. A simple google search could save you a fortune. And make sure to read the Scam & Pitfall Guide. I am a bot, and this action was performed automatically. Please contac",
+                "score": 1,
+                "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z20m8/"
+              },
+              {
+                "author": "Over_Revolution_1444",
+                "date": "2026-08-16",
+                "excerpt": "What's your education background? How do you make your apps? How do you handle security? What languages do you know how to code with, without the use of ai? ETA: obviously if a \"dev\" can't answer these questions, the answer is likely they don't know how to do things by hand and are giving an ai prom",
+                "score": 1,
+                "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3zby52/"
+              },
+              {
+                "author": "baddaywithacamera",
+                "date": "2026-08-16",
+                "excerpt": "Lack of good photo blogging software. Badly. Current options are SaaS (barf), Social Media where you put your photos on someone else's server (barf!), Wordpress (BARRRFFF!!!), photo galleries like Zenphoto (uuurrrp), and writer first CMSes Ghost/Kirby/etc (spit/patooey). The only good photo blogging",
+                "score": 0,
+                "url": "https://reddit.com/r/passive_income/comments/1vpo640/comment/p3z62cx/"
+              }
+            ]
+          },
+          "published_at": "2026-08-16",
+          "relevance_hint": 0.89,
+          "snippet": "Are you going to use AI? An app that scans whats in my fridge and tells me what i can cook with it. Right now i just open the door stare for 5 minutes then order takeout again. There is a few apps like this but they want me to manually input everything which kills the whole point. Just let me take a photo and figure it out. For women to hire only women contractors and service providers when we need fixes done in our homes",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What's your 'I wish there was an app for that' moment? I'll build the best idea!",
+          "url": "https://www.reddit.com/r/passive_income/comments/1vpo640/whats_your_i_wish_there_was_an_app_for_that/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What's your 'I wish there was an app for that' moment? I'll build the best idea!",
+      "url": "https://www.reddit.com/r/passive_income/comments/1vpo640/whats_your_i_wish_there_was_an_app_for_that/"
+    },
+    {
+      "candidate_id": "https://reddit.com/user/fanmammoth1933/comments/1vzn3uk/best_ideas_for_an_app",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R3",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 18.400000000000006,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I want to make an app for an android and iPhone. Something that is screaming that it needs to be made. I know how to do it, but I need a really grand idea. Take a second and think to yourself fuck I wish there was an app for filling that blank. If you could make an app tomorrow what would it be? I\u2019m curious at all the answers and I\u2019m curious at which answer gets the most. And I am very well consid",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Best ideas for an app\nI want to make an app for an android and iPhone. Something that is screaming that it needs to be made. I know how to do it, but I need a really grand idea. Take a second and think to yourself fuck I wish there was an app for filling that blank. If you could make an app tomorrow what would it be? I\u2019m curious at all the answers and I\u2019m curious at which answer gets the most. And I am very well considering going with the number one pic of the community here.",
+          "container": "u_FanMammoth1933",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 89,
+          "item_id": "R3",
+          "local_rank_score": 0.4045,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-27",
+          "relevance_hint": 0.43,
+          "snippet": "I want to make an app for an android and iPhone. Something that is screaming that it needs to be made. I know how to do it, but I need a really grand idea. Take a second and think to yourself fuck I wish there was an app for filling that blank. If you could make an app tomorrow what would it be? I\u2019m curious at all the answers and I\u2019m curious at which answer gets the most. And I am very well consid",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Best ideas for an app",
+          "url": "https://www.reddit.com/user/FanMammoth1933/comments/1vzn3uk/best_ideas_for_an_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Best ideas for an app",
+      "url": "https://www.reddit.com/user/FanMammoth1933/comments/1vzn3uk/best_ideas_for_an_app/"
+    }
+  ],
+  "topic": "\"I wish there was an app for\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
