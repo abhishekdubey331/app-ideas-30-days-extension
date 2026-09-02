@@ -1,0 +1,285 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ps5_jailbreak/comments/1w2ng24/why_are_all_payloads_just_web_apps"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/ps5_jailbreak/comments/1w2ng24/why_are_all_payloads_just_web_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why are all payloads just web apps?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-02T03:31:41.836263+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Why are all payloads just web apps?\nAfter jailbreaking my PS5 I installed some payloads to manage the filesystem and so far every file manager and similar (even the payload manager) I've noticed they are just web apps. Cool, because that means it's a web server and I can just access it from my PC but I'm curious to know as to WHY there no apps that just run natively on the OS and everything needs a web server?\nAs others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have much documentation. Having the scaffolding already in place to port your webapp easily to the PS5 has been great for the software ecosystem and given us a lot more choices for payloads. It turns PS5 development from a mystic unknown art into a close c It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app. This is much easier than writing a native PS5 app. Added bonus: the app is now accessible over the network. There\u2019s others, like ps5 xplorer, but it\u2019s just easier to organize files from a pc or smartphone and that\u2019s why are web server based",
+        "container": "PS5_Jailbreak",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 10
+        },
+        "engagement_score": 100,
+        "freshness": 94,
+        "item_id": "R1",
+        "local_rank_score": 0.46499999999999997,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "As others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have m...",
+            "It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app.",
+            "Could be wrong but it could have more to do with how the PS5 security architecture is and how the current exploit chains work with payloads.",
+            "There\u2019s others, like ps5 xplorer, but it\u2019s just easier to organize files from a pc or smartphone and that\u2019s why are web server based",
+            "I'm probably wrong but since PS3, playstation web browser had always entry points, it's kinda like a environment easy to be broken.",
+            "If the vulneraibility of the house is the fireplace(webkit), You'll likely have to enter the chimney (browser and a website) to exploit it.",
+            "I use payload manager and cheats without being connected to any network, dont use internet connection at all on my ps5"
+          ],
+          "top_comments": [
+            {
+              "author": "TellMyWifiLover",
+              "date": "2026-08-31",
+              "excerpt": "As others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have much documentation. Having the scaffolding already in place to port your webapp easily to the PS5 has been great for the software ecosystem and given us a lot more choices for payloads. It turns PS5 development from a mystic unknown art into a close c",
+              "score": 7,
+              "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6wo1o8/"
+            },
+            {
+              "author": "Psyinide",
+              "date": "2026-08-30",
+              "excerpt": "It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app. This is much easier than writing a native PS5 app. Added bonus: the app is now accessible over the network.",
+              "score": 5,
+              "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6ueu22/"
+            },
+            {
+              "author": "jolissipo",
+              "date": "2026-08-30",
+              "excerpt": "There\u2019s others, like ps5 xplorer, but it\u2019s just easier to organize files from a pc or smartphone and that\u2019s why are web server based",
+              "score": 5,
+              "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6u0fvj/"
+            },
+            {
+              "author": "OneExact8851",
+              "date": "2026-08-30",
+              "excerpt": "Could be wrong but it could have more to do with how the PS5 security architecture is and how the current exploit chains work with payloads. Also, Native PS5 packages still need the A53 ARM security coprocessor to validate signatures to be fully compromised and reverse engineered. If that happened, ",
+              "score": 3,
+              "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6uarl5/"
+            },
+            {
+              "author": "mitsuixx",
+              "date": "2026-08-30",
+              "excerpt": "I'm probably wrong but since PS3, playstation web browser had always entry points, it's kinda like a environment easy to be broken. That's why since PS4 (I think) they tried to hide the web browser.",
+              "score": 0,
+              "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6u8tcv/"
+            },
+            {
+              "author": "arvimatthew",
+              "date": "2026-08-31",
+              "excerpt": "If the vulneraibility of the house is the fireplace(webkit), You'll likely have to enter the chimney (browser and a website) to exploit it.",
+              "score": 0,
+              "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6wnbii/"
+            },
+            {
+              "author": "sudeki300",
+              "date": "2026-08-30",
+              "excerpt": "I use payload manager and cheats without being connected to any network, dont use internet connection at all on my ps5",
+              "score": -6,
+              "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6ttisq/"
+            }
+          ]
+        },
+        "published_at": "2026-08-30",
+        "relevance_hint": 0.36,
+        "snippet": "As others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have much documentation. Having the scaffolding already in place to port your webapp easily to the PS5 has been great for the software ecosystem and given us a lot more choices for payloads. It turns PS5 development from a mystic unknown art into a close c It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app. This is much easier than writing a native PS5 app. Added bonus: the app is now accessible...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why are all payloads just web apps?",
+        "url": "https://www.reddit.com/r/PS5_Jailbreak/comments/1w2ng24/why_are_all_payloads_just_web_apps/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-03",
+  "range_to": "2026-09-02",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/ps5_jailbreak/comments/1w2ng24/why_are_all_payloads_just_web_apps",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "As others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have much documentation. Having the scaffolding already in place to port your webapp easily to the PS5 has been great for the software ecosystem and given us a lot more choices for payloads. It turns PS5 development from a mystic unknown art into a close c It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app. This is much easier than writing a native PS5 app. Added bonus: the app is now accessible...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why are all payloads just web apps?\nAfter jailbreaking my PS5 I installed some payloads to manage the filesystem and so far every file manager and similar (even the payload manager) I've noticed they are just web apps. Cool, because that means it's a web server and I can just access it from my PC but I'm curious to know as to WHY there no apps that just run natively on the OS and everything needs a web server?\nAs others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have much documentation. Having the scaffolding already in place to port your webapp easily to the PS5 has been great for the software ecosystem and given us a lot more choices for payloads. It turns PS5 development from a mystic unknown art into a close c It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app. This is much easier than writing a native PS5 app. Added bonus: the app is now accessible over the network. There\u2019s others, like ps5 xplorer, but it\u2019s just easier to organize files from a pc or smartphone and that\u2019s why are web server based",
+          "container": "PS5_Jailbreak",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 10
+          },
+          "engagement_score": 100,
+          "freshness": 94,
+          "item_id": "R1",
+          "local_rank_score": 0.46499999999999997,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "As others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have m...",
+              "It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app.",
+              "Could be wrong but it could have more to do with how the PS5 security architecture is and how the current exploit chains work with payloads.",
+              "There\u2019s others, like ps5 xplorer, but it\u2019s just easier to organize files from a pc or smartphone and that\u2019s why are web server based",
+              "I'm probably wrong but since PS3, playstation web browser had always entry points, it's kinda like a environment easy to be broken.",
+              "If the vulneraibility of the house is the fireplace(webkit), You'll likely have to enter the chimney (browser and a website) to exploit it.",
+              "I use payload manager and cheats without being connected to any network, dont use internet connection at all on my ps5"
+            ],
+            "top_comments": [
+              {
+                "author": "TellMyWifiLover",
+                "date": "2026-08-31",
+                "excerpt": "As others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have much documentation. Having the scaffolding already in place to port your webapp easily to the PS5 has been great for the software ecosystem and given us a lot more choices for payloads. It turns PS5 development from a mystic unknown art into a close c",
+                "score": 7,
+                "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6wo1o8/"
+              },
+              {
+                "author": "Psyinide",
+                "date": "2026-08-30",
+                "excerpt": "It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app. This is much easier than writing a native PS5 app. Added bonus: the app is now accessible over the network.",
+                "score": 5,
+                "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6ueu22/"
+              },
+              {
+                "author": "jolissipo",
+                "date": "2026-08-30",
+                "excerpt": "There\u2019s others, like ps5 xplorer, but it\u2019s just easier to organize files from a pc or smartphone and that\u2019s why are web server based",
+                "score": 5,
+                "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6u0fvj/"
+              },
+              {
+                "author": "OneExact8851",
+                "date": "2026-08-30",
+                "excerpt": "Could be wrong but it could have more to do with how the PS5 security architecture is and how the current exploit chains work with payloads. Also, Native PS5 packages still need the A53 ARM security coprocessor to validate signatures to be fully compromised and reverse engineered. If that happened, ",
+                "score": 3,
+                "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6uarl5/"
+              },
+              {
+                "author": "mitsuixx",
+                "date": "2026-08-30",
+                "excerpt": "I'm probably wrong but since PS3, playstation web browser had always entry points, it's kinda like a environment easy to be broken. That's why since PS4 (I think) they tried to hide the web browser.",
+                "score": 0,
+                "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6u8tcv/"
+              },
+              {
+                "author": "arvimatthew",
+                "date": "2026-08-31",
+                "excerpt": "If the vulneraibility of the house is the fireplace(webkit), You'll likely have to enter the chimney (browser and a website) to exploit it.",
+                "score": 0,
+                "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6wnbii/"
+              },
+              {
+                "author": "sudeki300",
+                "date": "2026-08-30",
+                "excerpt": "I use payload manager and cheats without being connected to any network, dont use internet connection at all on my ps5",
+                "score": -6,
+                "url": "https://reddit.com/r/PS5_Jailbreak/comments/1w2ng24/comment/p6ttisq/"
+              }
+            ]
+          },
+          "published_at": "2026-08-30",
+          "relevance_hint": 0.36,
+          "snippet": "As others have said, writing native PS5 apps is hard and requires learning lots about either the free sdk or the sony sdk - both of which don't have much documentation. Having the scaffolding already in place to port your webapp easily to the PS5 has been great for the software ecosystem and given us a lot more choices for payloads. It turns PS5 development from a mystic unknown art into a close c It\u2019s just way easier to develop. There\u2019s already code available to run a web server in a payload so all the devs have to do write a web app. This is much easier than writing a native PS5 app. Added bonus: the app is now accessible...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why are all payloads just web apps?",
+          "url": "https://www.reddit.com/r/PS5_Jailbreak/comments/1w2ng24/why_are_all_payloads_just_web_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why are all payloads just web apps?",
+      "url": "https://www.reddit.com/r/PS5_Jailbreak/comments/1w2ng24/why_are_all_payloads_just_web_apps/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

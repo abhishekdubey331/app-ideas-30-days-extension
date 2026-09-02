@@ -1,0 +1,832 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/healthtech/comments/1vxta9o/whoop_alternative_right_now_sick_of_the"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/healthtech/comments/1vxta9o/whoop_alternative_right_now_sick_of_the"
+      ],
+      "score": 9.129180327868852,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Whoop alternative right now? Sick of the subscription fee"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Make the purple stop"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What made u actually pull the trigger on a paid tool?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-02T03:32:07.923999+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Whoop alternative right now? Sick of the subscription fee\nI had my whoop for over a year now and while I love it, I love the recovery and strain data, I cannot keep paying 30$ a month forever. I want to find a solid whoop alternative that I could buy. This is what I have found as the main options: Option Pros Cons Subscription Garmin Great raw data, Body Battery, built to last App UI can be dense, watch screen isn't for everyone None Apple Watch + Uses existing tech, high HR accuracy Needs daily charging, mid-day battery gap Optional ~$3.99/mo Amazfit",
+        "container": "HealthTech",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 3
+        },
+        "engagement_score": 0,
+        "freshness": 83,
+        "item_id": "R6",
+        "local_rank_score": 0.474,
+        "local_relevance": 0.41,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-25",
+        "relevance_hint": 0.54,
+        "snippet": "I had my whoop for over a year now and while I love it, I love the recovery and strain data, I cannot keep paying 30$ a month forever. I want to find a solid whoop alternative that I could buy. This is what I have found as the main options: Option Pros Cons Subscription Garmin Great raw data, Body Battery, built to last App UI can be dense, watch screen isn't for everyone None Apple Watch + Uses e",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Whoop alternative right now? Sick of the subscription fee",
+        "url": "https://www.reddit.com/r/HealthTech/comments/1vxta9o/whoop_alternative_right_now_sick_of_the/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of paying for music apps so I built my own, free and open source (Veluna)\nSpotify Free has ads every few songs. YouTube Music wants a subscription just to play in the background. I got sick of both, so over the last few months I built Veluna, a free desktop music player that streams from YouTube through yt-dlp and mpv, wrapped in a Tauri (Rust + React) shell. No account, no ads, no telemetry, no subscription. Everything runs locally on your machine. What it actually does: - Streams and searches YouTube directly, split into YT Music and Video results - Download tracks\nAndroid? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+        "container": "SpotifyLatestModAPK",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 31,
+          "score": 43
+        },
+        "engagement_score": 65,
+        "freshness": 82,
+        "item_id": "R2",
+        "local_rank_score": 0.41950000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "What sets it apart from apps like MetroList and Meld?",
+            "Can it sync with my google account?",
+            "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down.",
+            "como activar Letras sincronizadas ? es automatico ?",
+            "What does flax seeds have to do with it"
+          ],
+          "top_comments": [
+            {
+              "author": "black_phantom_750",
+              "date": "2026-08-24",
+              "excerpt": "Android?",
+              "score": 3,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5mo9nz/"
+            },
+            {
+              "author": "SusejLegend",
+              "date": "2026-08-24",
+              "excerpt": "What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5nvru8/"
+            },
+            {
+              "author": "Erpt_77",
+              "date": "2026-08-25",
+              "excerpt": "Can it sync with my google account?",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sgud7/"
+            },
+            {
+              "author": "ToxicVenom09",
+              "date": "2026-08-24",
+              "excerpt": "Works on android?",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5moonq/"
+            },
+            {
+              "author": "Erpt_77",
+              "date": "2026-08-25",
+              "excerpt": "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down. Great work youve done here!",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sfkx8/"
+            },
+            {
+              "author": "Murky-Relation-7337",
+              "date": "2026-08-24",
+              "excerpt": "como activar Letras sincronizadas ? es automatico ?",
+              "score": 1,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5o8m22/"
+            },
+            {
+              "author": "WerewolfGullible15",
+              "date": "2026-08-25",
+              "excerpt": "What does flax seeds have to do with it",
+              "score": 1,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5wdfnq/"
+            }
+          ]
+        },
+        "published_at": "2026-08-24",
+        "relevance_hint": 0.22,
+        "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+        "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Make the purple stop\nI pay $80 a year (for multiple years at this point) and I am so sick of staring at this 2016 nightmare color scheme. The devs are smart enough to know the difference between mpeg-ts and hls but modern design vs a california raisin war crime is apparently a bridge too far. My subscription renewed today so I just had to vent about the ugliest app I pay for, and it\u2019s not even close. My kingdom for a dark mode.\nObviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+        "container": "getchannels",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 17
+        },
+        "engagement_score": 49,
+        "freshness": 83,
+        "item_id": "R3",
+        "local_rank_score": 0.40599999999999997,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+            "An option to change the theme would be a reasonable expectation , IMO.",
+            "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+            "I moved to emby, mainly so I could more easily consolidate my local media with streaming services.",
+            "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+            "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+            "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+            "I would prefer an option to change it too, but its a pretty minor concern for me.",
+            "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't s...",
+            "I have to agree, the Channels UI looks like something out of the early 90\u2019s and enough purple already\u2026"
+          ],
+          "top_comments": [
+            {
+              "author": "stevemac00",
+              "date": "2026-08-25",
+              "excerpt": "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+              "score": 11,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5uvcm1/"
+            },
+            {
+              "author": "thankyourob",
+              "date": "2026-08-25",
+              "excerpt": "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+              "score": 10,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sb5l9/"
+            },
+            {
+              "author": "snatchymcgrabberson",
+              "date": "2026-08-25",
+              "excerpt": "An option to change the theme would be a reasonable expectation , IMO.",
+              "score": 9,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sreje/"
+            },
+            {
+              "author": "ZoomZoomZoomss",
+              "date": "2026-08-25",
+              "excerpt": "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+              "score": 6,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5ry939/"
+            },
+            {
+              "author": "knobbysideup",
+              "date": "2026-08-25",
+              "excerpt": "I moved to emby, mainly so I could more easily consolidate my local media with streaming services. Channels sucks for the former. I'm pretty happy with it. It certainly handles tags/categories far better than channels does. But on topic, I can theme it. Emby sucks at handling any stream inconsistenc",
+              "score": 4,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u0h8x/"
+            },
+            {
+              "author": "EV_Dad",
+              "date": "2026-08-25",
+              "excerpt": "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+              "score": 3,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u6oq3/"
+            },
+            {
+              "author": "coolgui",
+              "date": "2026-08-25",
+              "excerpt": "I would prefer an option to change it too, but its a pretty minor concern for me. Feature parity between Android and iOS/tvOS is a much bigger issue for me. So much so that I have to reevaluate my other options before my next renewal.",
+              "score": 2,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5vtl4o/"
+            },
+            {
+              "author": "TheDaveAb1des",
+              "date": "2026-08-25",
+              "excerpt": "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't see them putting any resources towards it.",
+              "score": 2,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5we89h/"
+            },
+            {
+              "author": "SmartHomeNerd",
+              "date": "2026-08-25",
+              "excerpt": "I have to agree, the Channels UI looks like something out of the early 90\u2019s and enough purple already\u2026",
+              "score": 2,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sswv2/"
+            },
+            {
+              "author": "SleepyD7",
+              "date": "2026-08-26",
+              "excerpt": "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+              "score": 1,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5xk07o/"
+            }
+          ]
+        },
+        "published_at": "2026-08-25",
+        "relevance_hint": 0.22,
+        "snippet": "Obviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Make the purple stop",
+        "url": "https://www.reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What made u actually pull the trigger on a paid tool?\nI've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine. Selfish reasons at first, just wanted to stop babysitting scripts. Now I'm at the point where I'm w\nI have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy. right now that's just ticktick for me. I usually go ahead and buy the thing if I feel that it will save me time from my workflow. Building something custom makes sense only if you can't find anything out there where someone else has already solved the problem for you (or close enough). What I care about is an exit strategy. For example, All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 4,
+        "freshness": 59,
+        "item_id": "R5",
+        "local_rank_score": 0.30100000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy.",
+            "I usually go ahead and buy the thing if I feel that it will save me time from my workflow.",
+            "All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+            "no subscription, update frequently, the time it saves for me exceeds the price I paid."
+          ],
+          "top_comments": [
+            {
+              "author": "mahimeghan",
+              "date": "2026-08-13",
+              "excerpt": "I have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy. right now that's just ticktick for me.",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p3jd6cj/"
+            },
+            {
+              "author": "sth_wicked1",
+              "date": "2026-08-14",
+              "excerpt": "I usually go ahead and buy the thing if I feel that it will save me time from my workflow. Building something custom makes sense only if you can't find anything out there where someone else has already solved the problem for you (or close enough). What I care about is an exit strategy. For example, ",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p3m0nlc/"
+            },
+            {
+              "author": "HouseOfDjango",
+              "date": "2026-08-16",
+              "excerpt": "All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p40s0cb/"
+            },
+            {
+              "author": "Inevitable_Wall_5193",
+              "date": "2026-08-21",
+              "excerpt": "no subscription, update frequently, the time it saves for me exceeds the price I paid.",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p54azef/"
+            }
+          ]
+        },
+        "published_at": "2026-08-13",
+        "relevance_hint": 0.14,
+        "snippet": "I have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy. right now that's just ticktick for me. I usually go ahead and buy the thing if I feel that it will save me time from my workflow. Building something custom makes sense only if you can't find anything out there where someone else has already solved the problem for you (or close enough). What I care about is an exit strategy. For example, All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What made u actually pull the trigger on a paid tool?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-03",
+  "range_to": "2026-09-02",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/healthtech/comments/1vxta9o/whoop_alternative_right_now_sick_of_the",
+      "cluster_id": "cluster-1",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 9.129180327868852,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R6",
+      "local_relevance": 0.41,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 26.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I had my whoop for over a year now and while I love it, I love the recovery and strain data, I cannot keep paying 30$ a month forever. I want to find a solid whoop alternative that I could buy. This is what I have found as the main options: Option Pros Cons Subscription Garmin Great raw data, Body Battery, built to last App UI can be dense, watch screen isn't for everyone None Apple Watch + Uses e",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Whoop alternative right now? Sick of the subscription fee\nI had my whoop for over a year now and while I love it, I love the recovery and strain data, I cannot keep paying 30$ a month forever. I want to find a solid whoop alternative that I could buy. This is what I have found as the main options: Option Pros Cons Subscription Garmin Great raw data, Body Battery, built to last App UI can be dense, watch screen isn't for everyone None Apple Watch + Uses existing tech, high HR accuracy Needs daily charging, mid-day battery gap Optional ~$3.99/mo Amazfit",
+          "container": "HealthTech",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 3
+          },
+          "engagement_score": 0,
+          "freshness": 83,
+          "item_id": "R6",
+          "local_rank_score": 0.474,
+          "local_relevance": 0.41,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-25",
+          "relevance_hint": 0.54,
+          "snippet": "I had my whoop for over a year now and while I love it, I love the recovery and strain data, I cannot keep paying 30$ a month forever. I want to find a solid whoop alternative that I could buy. This is what I have found as the main options: Option Pros Cons Subscription Garmin Great raw data, Body Battery, built to last App UI can be dense, watch screen isn't for everyone None Apple Watch + Uses e",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Whoop alternative right now? Sick of the subscription fee",
+          "url": "https://www.reddit.com/r/HealthTech/comments/1vxta9o/whoop_alternative_right_now_sick_of_the/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Whoop alternative right now? Sick of the subscription fee",
+      "url": "https://www.reddit.com/r/HealthTech/comments/1vxta9o/whoop_alternative_right_now_sick_of_the/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built",
+      "cluster_id": "cluster-2",
+      "engagement": 65,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of paying for music apps so I built my own, free and open source (Veluna)\nSpotify Free has ads every few songs. YouTube Music wants a subscription just to play in the background. I got sick of both, so over the last few months I built Veluna, a free desktop music player that streams from YouTube through yt-dlp and mpv, wrapped in a Tauri (Rust + React) shell. No account, no ads, no telemetry, no subscription. Everything runs locally on your machine. What it actually does: - Streams and searches YouTube directly, split into YT Music and Video results - Download tracks\nAndroid? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+          "container": "SpotifyLatestModAPK",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 31,
+            "score": 43
+          },
+          "engagement_score": 65,
+          "freshness": 82,
+          "item_id": "R2",
+          "local_rank_score": 0.41950000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "What sets it apart from apps like MetroList and Meld?",
+              "Can it sync with my google account?",
+              "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down.",
+              "como activar Letras sincronizadas ? es automatico ?",
+              "What does flax seeds have to do with it"
+            ],
+            "top_comments": [
+              {
+                "author": "black_phantom_750",
+                "date": "2026-08-24",
+                "excerpt": "Android?",
+                "score": 3,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5mo9nz/"
+              },
+              {
+                "author": "SusejLegend",
+                "date": "2026-08-24",
+                "excerpt": "What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5nvru8/"
+              },
+              {
+                "author": "Erpt_77",
+                "date": "2026-08-25",
+                "excerpt": "Can it sync with my google account?",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sgud7/"
+              },
+              {
+                "author": "ToxicVenom09",
+                "date": "2026-08-24",
+                "excerpt": "Works on android?",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5moonq/"
+              },
+              {
+                "author": "Erpt_77",
+                "date": "2026-08-25",
+                "excerpt": "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down. Great work youve done here!",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sfkx8/"
+              },
+              {
+                "author": "Murky-Relation-7337",
+                "date": "2026-08-24",
+                "excerpt": "como activar Letras sincronizadas ? es automatico ?",
+                "score": 1,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5o8m22/"
+              },
+              {
+                "author": "WerewolfGullible15",
+                "date": "2026-08-25",
+                "excerpt": "What does flax seeds have to do with it",
+                "score": 1,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5wdfnq/"
+              }
+            ]
+          },
+          "published_at": "2026-08-24",
+          "relevance_hint": 0.22,
+          "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+          "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+      "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop",
+      "cluster_id": "cluster-3",
+      "engagement": 49,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 13.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Obviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Make the purple stop\nI pay $80 a year (for multiple years at this point) and I am so sick of staring at this 2016 nightmare color scheme. The devs are smart enough to know the difference between mpeg-ts and hls but modern design vs a california raisin war crime is apparently a bridge too far. My subscription renewed today so I just had to vent about the ugliest app I pay for, and it\u2019s not even close. My kingdom for a dark mode.\nObviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+          "container": "getchannels",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 17
+          },
+          "engagement_score": 49,
+          "freshness": 83,
+          "item_id": "R3",
+          "local_rank_score": 0.40599999999999997,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+              "An option to change the theme would be a reasonable expectation , IMO.",
+              "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+              "I moved to emby, mainly so I could more easily consolidate my local media with streaming services.",
+              "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+              "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+              "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+              "I would prefer an option to change it too, but its a pretty minor concern for me.",
+              "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't s...",
+              "I have to agree, the Channels UI looks like something out of the early 90\u2019s and enough purple already\u2026"
+            ],
+            "top_comments": [
+              {
+                "author": "stevemac00",
+                "date": "2026-08-25",
+                "excerpt": "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+                "score": 11,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5uvcm1/"
+              },
+              {
+                "author": "thankyourob",
+                "date": "2026-08-25",
+                "excerpt": "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+                "score": 10,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sb5l9/"
+              },
+              {
+                "author": "snatchymcgrabberson",
+                "date": "2026-08-25",
+                "excerpt": "An option to change the theme would be a reasonable expectation , IMO.",
+                "score": 9,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sreje/"
+              },
+              {
+                "author": "ZoomZoomZoomss",
+                "date": "2026-08-25",
+                "excerpt": "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+                "score": 6,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5ry939/"
+              },
+              {
+                "author": "knobbysideup",
+                "date": "2026-08-25",
+                "excerpt": "I moved to emby, mainly so I could more easily consolidate my local media with streaming services. Channels sucks for the former. I'm pretty happy with it. It certainly handles tags/categories far better than channels does. But on topic, I can theme it. Emby sucks at handling any stream inconsistenc",
+                "score": 4,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u0h8x/"
+              },
+              {
+                "author": "EV_Dad",
+                "date": "2026-08-25",
+                "excerpt": "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+                "score": 3,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u6oq3/"
+              },
+              {
+                "author": "coolgui",
+                "date": "2026-08-25",
+                "excerpt": "I would prefer an option to change it too, but its a pretty minor concern for me. Feature parity between Android and iOS/tvOS is a much bigger issue for me. So much so that I have to reevaluate my other options before my next renewal.",
+                "score": 2,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5vtl4o/"
+              },
+              {
+                "author": "TheDaveAb1des",
+                "date": "2026-08-25",
+                "excerpt": "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't see them putting any resources towards it.",
+                "score": 2,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5we89h/"
+              },
+              {
+                "author": "SmartHomeNerd",
+                "date": "2026-08-25",
+                "excerpt": "I have to agree, the Channels UI looks like something out of the early 90\u2019s and enough purple already\u2026",
+                "score": 2,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sswv2/"
+              },
+              {
+                "author": "SleepyD7",
+                "date": "2026-08-26",
+                "excerpt": "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+                "score": 1,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5xk07o/"
+              }
+            ]
+          },
+          "published_at": "2026-08-25",
+          "relevance_hint": 0.22,
+          "snippet": "Obviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Make the purple stop",
+          "url": "https://www.reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Make the purple stop",
+      "url": "https://www.reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid",
+      "cluster_id": "cluster-4",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 8.0,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 8.899999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "I have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy. right now that's just ticktick for me. I usually go ahead and buy the thing if I feel that it will save me time from my workflow. Building something custom makes sense only if you can't find anything out there where someone else has already solved the problem for you (or close enough). What I care about is an exit strategy. For example, All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What made u actually pull the trigger on a paid tool?\nI've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine. Selfish reasons at first, just wanted to stop babysitting scripts. Now I'm at the point where I'm w\nI have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy. right now that's just ticktick for me. I usually go ahead and buy the thing if I feel that it will save me time from my workflow. Building something custom makes sense only if you can't find anything out there where someone else has already solved the problem for you (or close enough). What I care about is an exit strategy. For example, All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 4,
+          "freshness": 59,
+          "item_id": "R5",
+          "local_rank_score": 0.30100000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy.",
+              "I usually go ahead and buy the thing if I feel that it will save me time from my workflow.",
+              "All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+              "no subscription, update frequently, the time it saves for me exceeds the price I paid."
+            ],
+            "top_comments": [
+              {
+                "author": "mahimeghan",
+                "date": "2026-08-13",
+                "excerpt": "I have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy. right now that's just ticktick for me.",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p3jd6cj/"
+              },
+              {
+                "author": "sth_wicked1",
+                "date": "2026-08-14",
+                "excerpt": "I usually go ahead and buy the thing if I feel that it will save me time from my workflow. Building something custom makes sense only if you can't find anything out there where someone else has already solved the problem for you (or close enough). What I care about is an exit strategy. For example, ",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p3m0nlc/"
+              },
+              {
+                "author": "HouseOfDjango",
+                "date": "2026-08-16",
+                "excerpt": "All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p40s0cb/"
+              },
+              {
+                "author": "Inevitable_Wall_5193",
+                "date": "2026-08-21",
+                "excerpt": "no subscription, update frequently, the time it saves for me exceeds the price I paid.",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1vnf7yh/comment/p54azef/"
+              }
+            ]
+          },
+          "published_at": "2026-08-13",
+          "relevance_hint": 0.14,
+          "snippet": "I have a windows laptop, pc, and iphone. if it works and it has an app that works well on both os systems, i will buy. right now that's just ticktick for me. I usually go ahead and buy the thing if I feel that it will save me time from my workflow. Building something custom makes sense only if you can't find anything out there where someone else has already solved the problem for you (or close enough). What I care about is an exit strategy. For example, All the features were free to start, nothing was behind a paywall to make the app only work partially.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What made u actually pull the trigger on a paid tool?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What made u actually pull the trigger on a paid tool?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

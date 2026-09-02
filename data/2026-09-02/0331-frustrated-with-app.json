@@ -1,0 +1,576 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iosprogramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/iosprogramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/publicapp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/publicapp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ynabalternatives/comments/1vw75eo/i_built_buoyai_because_every_app_i_tried_made_me"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/ynabalternatives/comments/1vw75eo/i_built_buoyai_because_every_app_i_tried_made_me"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built BuoyAI because every app I tried made me frustrated with lack of features or created too much of a chore."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-02T03:31:54.493442+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app\nHave a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind - that has happened 2x in the past 3 weeks. Question: have others had to go through this security ch",
+        "container": "PublicApp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2
+        },
+        "engagement_score": 24,
+        "freshness": 73,
+        "item_id": "R7",
+        "local_rank_score": 0.369,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-20",
+        "relevance_hint": 0.87,
+        "snippet": "Have a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app",
+        "url": "https://www.reddit.com/r/PublicApp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program\nI need some help.I am extremly frustrated with the apple support, I can not even comprehend how can this level of incompetence be possible for someone like Apple. Even a scamming company would offer better support than this. I am really sorry and I am not trying to be mean towards anyone, but it is so flabbergasting. How can someone not be able to actually understand and help you properly over tha span of one month after you explicitly tell them what is wrong and still they act like they are lob\nI\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the application p My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising) At least part of the annoyance is they try to say very little when communicating about account & v",
+        "container": "iOSProgramming",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 1
+        },
+        "engagement_score": 36,
+        "freshness": 76,
+        "item_id": "R3",
+        "local_rank_score": 0.33,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight.",
+            "Are you trying to enroll as a business? Or as an individual.",
+            "My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are alwa...",
+            "So in the end did you get to enroll to the developer program? How many days until they fully solved it?"
+          ],
+          "top_comments": [
+            {
+              "author": "Mother-Umpire-2639",
+              "date": "2026-08-21",
+              "excerpt": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen",
+              "score": 6,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4zcm19/"
+            },
+            {
+              "author": "garywiz",
+              "date": "2026-08-21",
+              "excerpt": "Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the application p",
+              "score": 3,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4z88xz/"
+            },
+            {
+              "author": "aerial-ibis",
+              "date": "2026-08-21",
+              "excerpt": "My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising) At least part of the annoyance is they try to say very little when communicating about account & v",
+              "score": 1,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p501i30/"
+            },
+            {
+              "author": "XmintMusic",
+              "date": "2026-09-01",
+              "excerpt": "So in the end did you get to enroll to the developer program? How many days until they fully solved it?",
+              "score": 1,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p75rwu0/"
+            }
+          ]
+        },
+        "published_at": "2026-08-21",
+        "relevance_hint": 0.22,
+        "snippet": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the application p My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program",
+        "url": "https://www.reddit.com/r/iOSProgramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built BuoyAI because every app I tried made me frustrated with lack of features or created too much of a chore.\nQuick background, since this sub likes to know who's posting. I was a molecular biologist. During COVID I worked in a state public-health lab, and our analysts were drowning in manual reporting, so I taught myself to code on a locked-down lab computer and built the pipeline that helped put Kansas in the top three states for sequencing turnaround. That job also meant long hours and not much time with my family. When I looked at what I could do with what I'd taught myself, the job openings went fr",
+        "container": "YNABAlternatives",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 0
+        },
+        "engagement_score": 4,
+        "freshness": 79,
+        "item_id": "R9",
+        "local_rank_score": 0.3055,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-23",
+        "relevance_hint": 0.87,
+        "snippet": "Quick background, since this sub likes to know who's posting. I was a molecular biologist. During COVID I worked in a state public-health lab, and our analysts were drowning in manual reporting, so I taught myself to code on a locked-down lab computer and built the pipeline that helped put Kansas in the top three states for sequencing turnaround. That job also meant long hours and not much time wi",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built BuoyAI because every app I tried made me frustrated with lack of features or created too much of a chore.",
+        "url": "https://www.reddit.com/r/YNABAlternatives/comments/1vw75eo/i_built_buoyai_because_every_app_i_tried_made_me/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)\nI am searching for 5 people who take notes daily and are willing to participate in the development of a new note-taking app via feedback, feature suggestions, and product discussions. In case you are unsatisfied with your current note-taking application, this could be your opportunity to help create an application that suits your needs. Instead of using an application created by some corporation, you will have a chance to participate in the creation process of a product at its earliest stages. T\nObsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+        "container": "sideprojects",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 3
+        },
+        "engagement_score": 40,
+        "freshness": 64,
+        "item_id": "R4",
+        "local_rank_score": 0.30400000000000005,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested."
+          ],
+          "top_comments": [
+            {
+              "author": "chrisenussbaum",
+              "date": "2026-08-15",
+              "excerpt": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1vox5w9/comment/p3t0o9l/"
+            }
+          ]
+        },
+        "published_at": "2026-08-15",
+        "relevance_hint": 0.87,
+        "snippet": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)",
+        "url": "https://www.reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-03",
+  "range_to": "2026-09-02",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with",
+      "cluster_id": "cluster-1",
+      "engagement": 40,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.0,
+      "rrf_score": 0.0078125,
+      "snippet": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)\nI am searching for 5 people who take notes daily and are willing to participate in the development of a new note-taking app via feedback, feature suggestions, and product discussions. In case you are unsatisfied with your current note-taking application, this could be your opportunity to help create an application that suits your needs. Instead of using an application created by some corporation, you will have a chance to participate in the creation process of a product at its earliest stages. T\nObsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+          "container": "sideprojects",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 3
+          },
+          "engagement_score": 40,
+          "freshness": 64,
+          "item_id": "R4",
+          "local_rank_score": 0.30400000000000005,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested."
+            ],
+            "top_comments": [
+              {
+                "author": "chrisenussbaum",
+                "date": "2026-08-15",
+                "excerpt": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1vox5w9/comment/p3t0o9l/"
+              }
+            ]
+          },
+          "published_at": "2026-08-15",
+          "relevance_hint": 0.87,
+          "snippet": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)",
+          "url": "https://www.reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)",
+      "url": "https://www.reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/iosprogramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and",
+      "cluster_id": "cluster-2",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 7.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the application p My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program\nI need some help.I am extremly frustrated with the apple support, I can not even comprehend how can this level of incompetence be possible for someone like Apple. Even a scamming company would offer better support than this. I am really sorry and I am not trying to be mean towards anyone, but it is so flabbergasting. How can someone not be able to actually understand and help you properly over tha span of one month after you explicitly tell them what is wrong and still they act like they are lob\nI\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the application p My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising) At least part of the annoyance is they try to say very little when communicating about account & v",
+          "container": "iOSProgramming",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 1
+          },
+          "engagement_score": 36,
+          "freshness": 76,
+          "item_id": "R3",
+          "local_rank_score": 0.33,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight.",
+              "Are you trying to enroll as a business? Or as an individual.",
+              "My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are alwa...",
+              "So in the end did you get to enroll to the developer program? How many days until they fully solved it?"
+            ],
+            "top_comments": [
+              {
+                "author": "Mother-Umpire-2639",
+                "date": "2026-08-21",
+                "excerpt": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen",
+                "score": 6,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4zcm19/"
+              },
+              {
+                "author": "garywiz",
+                "date": "2026-08-21",
+                "excerpt": "Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the application p",
+                "score": 3,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4z88xz/"
+              },
+              {
+                "author": "aerial-ibis",
+                "date": "2026-08-21",
+                "excerpt": "My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising) At least part of the annoyance is they try to say very little when communicating about account & v",
+                "score": 1,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p501i30/"
+              },
+              {
+                "author": "XmintMusic",
+                "date": "2026-09-01",
+                "excerpt": "So in the end did you get to enroll to the developer program? How many days until they fully solved it?",
+                "score": 1,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p75rwu0/"
+              }
+            ]
+          },
+          "published_at": "2026-08-21",
+          "relevance_hint": 0.22,
+          "snippet": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the application p My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program",
+          "url": "https://www.reddit.com/r/iOSProgramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program",
+      "url": "https://www.reddit.com/r/iOSProgramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/publicapp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of",
+      "cluster_id": "cluster-3",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.100000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Have a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app\nHave a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind - that has happened 2x in the past 3 weeks. Question: have others had to go through this security ch",
+          "container": "PublicApp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2
+          },
+          "engagement_score": 24,
+          "freshness": 73,
+          "item_id": "R7",
+          "local_rank_score": 0.369,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-20",
+          "relevance_hint": 0.87,
+          "snippet": "Have a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app",
+          "url": "https://www.reddit.com/r/PublicApp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app",
+      "url": "https://www.reddit.com/r/PublicApp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ynabalternatives/comments/1vw75eo/i_built_buoyai_because_every_app_i_tried_made_me",
+      "cluster_id": "cluster-4",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 8.0,
+      "item_id": "R9",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Quick background, since this sub likes to know who's posting. I was a molecular biologist. During COVID I worked in a state public-health lab, and our analysts were drowning in manual reporting, so I taught myself to code on a locked-down lab computer and built the pipeline that helped put Kansas in the top three states for sequencing turnaround. That job also meant long hours and not much time wi",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built BuoyAI because every app I tried made me frustrated with lack of features or created too much of a chore.\nQuick background, since this sub likes to know who's posting. I was a molecular biologist. During COVID I worked in a state public-health lab, and our analysts were drowning in manual reporting, so I taught myself to code on a locked-down lab computer and built the pipeline that helped put Kansas in the top three states for sequencing turnaround. That job also meant long hours and not much time with my family. When I looked at what I could do with what I'd taught myself, the job openings went fr",
+          "container": "YNABAlternatives",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 0
+          },
+          "engagement_score": 4,
+          "freshness": 79,
+          "item_id": "R9",
+          "local_rank_score": 0.3055,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-23",
+          "relevance_hint": 0.87,
+          "snippet": "Quick background, since this sub likes to know who's posting. I was a molecular biologist. During COVID I worked in a state public-health lab, and our analysts were drowning in manual reporting, so I taught myself to code on a locked-down lab computer and built the pipeline that helped put Kansas in the top three states for sequencing turnaround. That job also meant long hours and not much time wi",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built BuoyAI because every app I tried made me frustrated with lack of features or created too much of a chore.",
+          "url": "https://www.reddit.com/r/YNABAlternatives/comments/1vw75eo/i_built_buoyai_because_every_app_i_tried_made_me/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built BuoyAI because every app I tried made me frustrated with lack of features or created too much of a chore.",
+      "url": "https://www.reddit.com/r/YNABAlternatives/comments/1vw75eo/i_built_buoyai_because_every_app_i_tried_made_me/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
