@@ -1,0 +1,951 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Timeline of app review time for my new apps vs updates to existing apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/iosprogramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/iosprogramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ubereatsdrivers/comments/1w08ru7/anyone_else_frustrated_with_the_app_layout"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/ubereatsdrivers/comments/1w08ru7/anyone_else_frustrated_with_the_app_layout"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Anyone else frustrated with the app layout?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/wmata/comments/1w0q2kp/im_really_frustrated_with_the_smarttrip_app"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/wmata/comments/1w0q2kp/im_really_frustrated_with_the_smarttrip_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I'm really frustrated with the SmartTrip app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/publicapp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/publicapp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-03T19:15:46.214053+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Timeline of app review time for my new apps vs updates to existing apps\nNone\nMy macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 20,
+          "score": 14
+        },
+        "engagement_score": 65,
+        "freshness": 95,
+        "item_id": "R2",
+        "local_rank_score": 0.40650000000000003,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+            "My app was submitted by Aug 13 too, but it still shows status Waiting for Review. It's so pity!",
+            "Does this status mean I just need to wait...?",
+            "Going on 1 month for my new app with 2 rejections so far.",
+            "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of a...",
+            "Meanwhile updates to existing apps are still very fast.",
+            "My macOS app usually gets passed the review in four to six hours.",
+            "Thank you so much for the info!",
+            "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app versio...",
+            "Can I have two or more completely different apps waiting for review at the same time?"
+          ],
+          "top_comments": [
+            {
+              "author": "bluedoggee",
+              "date": "2026-09-01",
+              "excerpt": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\"",
+              "score": 3,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p784q8a/"
+            },
+            {
+              "author": "damn_bruh_ruok",
+              "date": "2026-09-01",
+              "excerpt": "Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review?",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p76ulcu/"
+            },
+            {
+              "author": "Owmince",
+              "date": "2026-09-02",
+              "excerpt": "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p7eloqo/"
+            },
+            {
+              "author": "MasqTap",
+              "date": "2026-09-02",
+              "excerpt": "My app was submitted by Aug 13 too, but it still shows status Waiting for Review. It's so pity!",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p7ab04e/"
+            },
+            {
+              "author": "doobean",
+              "date": "2026-09-01",
+              "excerpt": "Does this status mean I just need to wait...?",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p79hip7/"
+            },
+            {
+              "author": "RaptorF22",
+              "date": "2026-09-01",
+              "excerpt": "Going on 1 month for my new app with 2 rejections so far.",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78j879/"
+            },
+            {
+              "author": "Curryative",
+              "date": "2026-09-01",
+              "excerpt": "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of account setup aa the way to deletion workflow, so I recorded that and sent it in and now I\u2019m waiting again. I\u2019ve found the process very straight forwar",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78h04w/"
+            },
+            {
+              "author": "ZanzibarMcFate",
+              "date": "2026-09-01",
+              "excerpt": "Meanwhile updates to existing apps are still very fast. Sometimes they get approved in 2-4 hours. Other times in 1-2 days.\n\n That used to be the case for me. I've got three apps I manage at my day job, and we publish updates every two weeks. For the last few years, app updates have taken at most 1-2",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78dgba/"
+            },
+            {
+              "author": "Rude_Importance7165",
+              "date": "2026-09-01",
+              "excerpt": "Thank you so much for the info!",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p77pq1a/"
+            },
+            {
+              "author": "stymiecrew",
+              "date": "2026-09-01",
+              "excerpt": "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app version. Took me a few review rounds to realize that marking a subscription \"Ready for Review\" on its own page doesn't actually submit it \u2014 you also need to",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p779ndv/"
+            }
+          ]
+        },
+        "published_at": "2026-09-01",
+        "relevance_hint": 0.37,
+        "snippet": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Timeline of app review time for my new apps vs updates to existing apps",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs/",
+        "why_relevant": "Reddit r/appledevelopers search"
+      },
+      {
+        "body": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app\nHave a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind - that has happened 2x in the past 3 weeks. Question: have others had to go through this security ch",
+        "container": "PublicApp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2
+        },
+        "engagement_score": 24,
+        "freshness": 71,
+        "item_id": "R8",
+        "local_rank_score": 0.364,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-20",
+        "relevance_hint": 0.87,
+        "snippet": "Have a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app",
+        "url": "https://www.reddit.com/r/PublicApp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I'm really frustrated with the SmartTrip app\nSo throughout the month I've tried to cancel my autopay for my monthly pass since I don't need that tier anymore, and every time I try the app freezes and then crashes, and this is well before the threshold to cancel. I thought I finally cancelled it but checked again and I still have my pass. It's kinda frustrating because I really don't want a $216 charge on my card for something I'm not going to use and I don't know what else to do besides reach out and hope for a refund? Has anyone else had",
+        "container": "WMATA",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 3
+        },
+        "engagement_score": 26,
+        "freshness": 88,
+        "item_id": "R9",
+        "local_rank_score": 0.35000000000000003,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-28",
+        "relevance_hint": 0.9,
+        "snippet": "So throughout the month I've tried to cancel my autopay for my monthly pass since I don't need that tier anymore, and every time I try the app freezes and then crashes, and this is well before the threshold to cancel. I thought I finally cancelled it but checked again and I still have my pass. It's kinda frustrating because I really don't want a $216 charge on my card for something I'm not going t",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I'm really frustrated with the SmartTrip app",
+        "url": "https://www.reddit.com/r/WMATA/comments/1w0q2kp/im_really_frustrated_with_the_smarttrip_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Anyone else frustrated with the app layout?\nSo today was very annoying for me. The offers were coming in but they were literally just dog shit offers 2 pickups for 7 dollars constantly. So I\u2019m cherry picking this and they keep bait and switching you with match offers into a real offer. Oh a solid looking match offer once your thumb moves a millimeter to hit match they switch it to a trash offer that I was talking about. You can\u2019t even go offline without risking accepting a garbage offer because the accept button is right where the fucking",
+        "container": "UberEatsDrivers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 4
+        },
+        "engagement_score": 32,
+        "freshness": 85,
+        "item_id": "R7",
+        "local_rank_score": 0.34850000000000003,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-27",
+        "relevance_hint": 0.88,
+        "snippet": "So today was very annoying for me. The offers were coming in but they were literally just dog shit offers 2 pickups for 7 dollars constantly. So I\u2019m cherry picking this and they keep bait and switching you with match offers into a real offer. Oh a solid looking match offer once your thumb moves a millimeter to hit match they switch it to a trash offer that I was talking about. You can\u2019t even go of",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Anyone else frustrated with the app layout?",
+        "url": "https://www.reddit.com/r/UberEatsDrivers/comments/1w08ru7/anyone_else_frustrated_with_the_app_layout/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program\nI need some help.I am extremly frustrated with the apple support, I can not even comprehend how can this level of incompetence be possible for someone like Apple. Even a scamming company would offer better support than this. I am really sorry and I am not trying to be mean towards anyone, but it is so flabbergasting. How can someone not be able to actually understand and help you properly over tha span of one month after you explicitly tell them what is wrong and still they act like they are lob\nI\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual.\n\n We just went through hell to get our account set up properly and my guess at what's happening is this...\n\n Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline.\n\n MOST of the applica My quick reading of your situation is that using passport might be easier for you than the national ID\n\n I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising)\n\n At least part of the annoyance is they try to say very little when communicating about account",
+        "container": "iOSProgramming",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 1
+        },
+        "engagement_score": 36,
+        "freshness": 73,
+        "item_id": "R3",
+        "local_rank_score": 0.32249999999999995,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight.",
+            "Are you trying to enroll as a business? Or as an individual.",
+            "My quick reading of your situation is that using passport might be easier for you than the national ID\n\n I see you've set up a call next - they are al...",
+            "So in the end did you get to enroll to the developer program? How many days until they fully solved it?"
+          ],
+          "top_comments": [
+            {
+              "author": "Mother-Umpire-2639",
+              "date": "2026-08-21",
+              "excerpt": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen",
+              "score": 6,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4zcm19/"
+            },
+            {
+              "author": "garywiz",
+              "date": "2026-08-21",
+              "excerpt": "Are you trying to enroll as a business? Or as an individual.\n\n We just went through hell to get our account set up properly and my guess at what's happening is this...\n\n Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline.\n\n MOST of the applica",
+              "score": 3,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4z88xz/"
+            },
+            {
+              "author": "aerial-ibis",
+              "date": "2026-08-21",
+              "excerpt": "My quick reading of your situation is that using passport might be easier for you than the national ID\n\n I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising)\n\n At least part of the annoyance is they try to say very little when communicating about account",
+              "score": 1,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p501i30/"
+            },
+            {
+              "author": "XmintMusic",
+              "date": "2026-09-01",
+              "excerpt": "So in the end did you get to enroll to the developer program? How many days until they fully solved it?",
+              "score": 1,
+              "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p75rwu0/"
+            }
+          ]
+        },
+        "published_at": "2026-08-21",
+        "relevance_hint": 0.22,
+        "snippet": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the applica My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the phone...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program",
+        "url": "https://www.reddit.com/r/iOSProgramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)\nI am searching for 5 people who take notes daily and are willing to participate in the development of a new note-taking app via feedback, feature suggestions, and product discussions. In case you are unsatisfied with your current note-taking application, this could be your opportunity to help create an application that suits your needs. Instead of using an application created by some corporation, you will have a chance to participate in the creation process of a product at its earliest stages. T\nObsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+        "container": "sideprojects",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 3
+        },
+        "engagement_score": 40,
+        "freshness": 61,
+        "item_id": "R4",
+        "local_rank_score": 0.2965,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested."
+          ],
+          "top_comments": [
+            {
+              "author": "chrisenussbaum",
+              "date": "2026-08-15",
+              "excerpt": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+              "score": 1,
+              "url": "https://reddit.com/r/sideprojects/comments/1vox5w9/comment/p3t0o9l/"
+            }
+          ]
+        },
+        "published_at": "2026-08-15",
+        "relevance_hint": 0.87,
+        "snippet": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)",
+        "url": "https://www.reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-04",
+  "range_to": "2026-09-03",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs",
+      "cluster_id": "cluster-1",
+      "engagement": 65,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Timeline of app review time for my new apps vs updates to existing apps\nNone\nMy macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 20,
+            "score": 14
+          },
+          "engagement_score": 65,
+          "freshness": 95,
+          "item_id": "R2",
+          "local_rank_score": 0.40650000000000003,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+              "My app was submitted by Aug 13 too, but it still shows status Waiting for Review. It's so pity!",
+              "Does this status mean I just need to wait...?",
+              "Going on 1 month for my new app with 2 rejections so far.",
+              "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of a...",
+              "Meanwhile updates to existing apps are still very fast.",
+              "My macOS app usually gets passed the review in four to six hours.",
+              "Thank you so much for the info!",
+              "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app versio...",
+              "Can I have two or more completely different apps waiting for review at the same time?"
+            ],
+            "top_comments": [
+              {
+                "author": "bluedoggee",
+                "date": "2026-09-01",
+                "excerpt": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\"",
+                "score": 3,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p784q8a/"
+              },
+              {
+                "author": "damn_bruh_ruok",
+                "date": "2026-09-01",
+                "excerpt": "Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review?",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p76ulcu/"
+              },
+              {
+                "author": "Owmince",
+                "date": "2026-09-02",
+                "excerpt": "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p7eloqo/"
+              },
+              {
+                "author": "MasqTap",
+                "date": "2026-09-02",
+                "excerpt": "My app was submitted by Aug 13 too, but it still shows status Waiting for Review. It's so pity!",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p7ab04e/"
+              },
+              {
+                "author": "doobean",
+                "date": "2026-09-01",
+                "excerpt": "Does this status mean I just need to wait...?",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p79hip7/"
+              },
+              {
+                "author": "RaptorF22",
+                "date": "2026-09-01",
+                "excerpt": "Going on 1 month for my new app with 2 rejections so far.",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78j879/"
+              },
+              {
+                "author": "Curryative",
+                "date": "2026-09-01",
+                "excerpt": "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of account setup aa the way to deletion workflow, so I recorded that and sent it in and now I\u2019m waiting again. I\u2019ve found the process very straight forwar",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78h04w/"
+              },
+              {
+                "author": "ZanzibarMcFate",
+                "date": "2026-09-01",
+                "excerpt": "Meanwhile updates to existing apps are still very fast. Sometimes they get approved in 2-4 hours. Other times in 1-2 days.\n\n That used to be the case for me. I've got three apps I manage at my day job, and we publish updates every two weeks. For the last few years, app updates have taken at most 1-2",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78dgba/"
+              },
+              {
+                "author": "Rude_Importance7165",
+                "date": "2026-09-01",
+                "excerpt": "Thank you so much for the info!",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p77pq1a/"
+              },
+              {
+                "author": "stymiecrew",
+                "date": "2026-09-01",
+                "excerpt": "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app version. Took me a few review rounds to realize that marking a subscription \"Ready for Review\" on its own page doesn't actually submit it \u2014 you also need to",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p779ndv/"
+              }
+            ]
+          },
+          "published_at": "2026-09-01",
+          "relevance_hint": 0.37,
+          "snippet": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Timeline of app review time for my new apps vs updates to existing apps",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs/",
+          "why_relevant": "Reddit r/appledevelopers search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Timeline of app review time for my new apps vs updates to existing apps",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with",
+      "cluster_id": "cluster-2",
+      "engagement": 40,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)\nI am searching for 5 people who take notes daily and are willing to participate in the development of a new note-taking app via feedback, feature suggestions, and product discussions. In case you are unsatisfied with your current note-taking application, this could be your opportunity to help create an application that suits your needs. Instead of using an application created by some corporation, you will have a chance to participate in the creation process of a product at its earliest stages. T\nObsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+          "container": "sideprojects",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 3
+          },
+          "engagement_score": 40,
+          "freshness": 61,
+          "item_id": "R4",
+          "local_rank_score": 0.2965,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested."
+            ],
+            "top_comments": [
+              {
+                "author": "chrisenussbaum",
+                "date": "2026-08-15",
+                "excerpt": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+                "score": 1,
+                "url": "https://reddit.com/r/sideprojects/comments/1vox5w9/comment/p3t0o9l/"
+              }
+            ]
+          },
+          "published_at": "2026-08-15",
+          "relevance_hint": 0.87,
+          "snippet": "Obsidian is a pretty cool note-taking app honestly but I\u2019m interested. Would you like to collaborate on this project on Collab Unity? It\u2019s a platform I built to help people work on projects together in a unified space. Check it out and I look forward to collaborating on thud project with you: https://collabunity.io",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)",
+          "url": "https://www.reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Looking for 5 people who are frustrated with their note taking app (Notion, OneNote, Obsidian, etc.)",
+      "url": "https://www.reddit.com/r/sideprojects/comments/1vox5w9/looking_for_5_people_who_are_frustrated_with/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/iosprogramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and",
+      "cluster_id": "cluster-3",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the applica My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the phone...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program\nI need some help.I am extremly frustrated with the apple support, I can not even comprehend how can this level of incompetence be possible for someone like Apple. Even a scamming company would offer better support than this. I am really sorry and I am not trying to be mean towards anyone, but it is so flabbergasting. How can someone not be able to actually understand and help you properly over tha span of one month after you explicitly tell them what is wrong and still they act like they are lob\nI\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual.\n\n We just went through hell to get our account set up properly and my guess at what's happening is this...\n\n Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline.\n\n MOST of the applica My quick reading of your situation is that using passport might be easier for you than the national ID\n\n I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising)\n\n At least part of the annoyance is they try to say very little when communicating about account",
+          "container": "iOSProgramming",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 1
+          },
+          "engagement_score": 36,
+          "freshness": 73,
+          "item_id": "R3",
+          "local_rank_score": 0.32249999999999995,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight.",
+              "Are you trying to enroll as a business? Or as an individual.",
+              "My quick reading of your situation is that using passport might be easier for you than the national ID\n\n I see you've set up a call next - they are al...",
+              "So in the end did you get to enroll to the developer program? How many days until they fully solved it?"
+            ],
+            "top_comments": [
+              {
+                "author": "Mother-Umpire-2639",
+                "date": "2026-08-21",
+                "excerpt": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen",
+                "score": 6,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4zcm19/"
+              },
+              {
+                "author": "garywiz",
+                "date": "2026-08-21",
+                "excerpt": "Are you trying to enroll as a business? Or as an individual.\n\n We just went through hell to get our account set up properly and my guess at what's happening is this...\n\n Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline.\n\n MOST of the applica",
+                "score": 3,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p4z88xz/"
+              },
+              {
+                "author": "aerial-ibis",
+                "date": "2026-08-21",
+                "excerpt": "My quick reading of your situation is that using passport might be easier for you than the national ID\n\n I see you've set up a call next - they are always 10x more helpful on the phone (it is surprising)\n\n At least part of the annoyance is they try to say very little when communicating about account",
+                "score": 1,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p501i30/"
+              },
+              {
+                "author": "XmintMusic",
+                "date": "2026-09-01",
+                "excerpt": "So in the end did you get to enroll to the developer program? How many days until they fully solved it?",
+                "score": 1,
+                "url": "https://reddit.com/r/iOSProgramming/comments/1vu8pvl/comment/p75rwu0/"
+              }
+            ]
+          },
+          "published_at": "2026-08-21",
+          "relevance_hint": 0.22,
+          "snippet": "I\u2019ve had some crazy issues with Apple Developer support you have to call these guys to set things straight. Once on a call they\u2019ll magically make anything happen Are you trying to enroll as a business? Or as an individual. We just went through hell to get our account set up properly and my guess at what's happening is this... Apple is being overwhelmed by requests. There are stats to back this up. AI coding has clogged the pipeline. MOST of the applica My quick reading of your situation is that using passport might be easier for you than the national ID I see you've set up a call next - they are always 10x more helpful on the phone...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program",
+          "url": "https://www.reddit.com/r/iOSProgramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Over one month of talking with the support and they still don't understand that I can't sign up for the developer program",
+      "url": "https://www.reddit.com/r/iOSProgramming/comments/1vu8pvl/over_one_month_of_talking_with_the_support_and/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ubereatsdrivers/comments/1w08ru7/anyone_else_frustrated_with_the_app_layout",
+      "cluster_id": "cluster-4",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.200000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "So today was very annoying for me. The offers were coming in but they were literally just dog shit offers 2 pickups for 7 dollars constantly. So I\u2019m cherry picking this and they keep bait and switching you with match offers into a real offer. Oh a solid looking match offer once your thumb moves a millimeter to hit match they switch it to a trash offer that I was talking about. You can\u2019t even go of",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Anyone else frustrated with the app layout?\nSo today was very annoying for me. The offers were coming in but they were literally just dog shit offers 2 pickups for 7 dollars constantly. So I\u2019m cherry picking this and they keep bait and switching you with match offers into a real offer. Oh a solid looking match offer once your thumb moves a millimeter to hit match they switch it to a trash offer that I was talking about. You can\u2019t even go offline without risking accepting a garbage offer because the accept button is right where the fucking",
+          "container": "UberEatsDrivers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 4
+          },
+          "engagement_score": 32,
+          "freshness": 85,
+          "item_id": "R7",
+          "local_rank_score": 0.34850000000000003,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-27",
+          "relevance_hint": 0.88,
+          "snippet": "So today was very annoying for me. The offers were coming in but they were literally just dog shit offers 2 pickups for 7 dollars constantly. So I\u2019m cherry picking this and they keep bait and switching you with match offers into a real offer. Oh a solid looking match offer once your thumb moves a millimeter to hit match they switch it to a trash offer that I was talking about. You can\u2019t even go of",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Anyone else frustrated with the app layout?",
+          "url": "https://www.reddit.com/r/UberEatsDrivers/comments/1w08ru7/anyone_else_frustrated_with_the_app_layout/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Anyone else frustrated with the app layout?",
+      "url": "https://www.reddit.com/r/UberEatsDrivers/comments/1w08ru7/anyone_else_frustrated_with_the_app_layout/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/wmata/comments/1w0q2kp/im_really_frustrated_with_the_smarttrip_app",
+      "cluster_id": "cluster-5",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R9",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.799999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "So throughout the month I've tried to cancel my autopay for my monthly pass since I don't need that tier anymore, and every time I try the app freezes and then crashes, and this is well before the threshold to cancel. I thought I finally cancelled it but checked again and I still have my pass. It's kinda frustrating because I really don't want a $216 charge on my card for something I'm not going t",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I'm really frustrated with the SmartTrip app\nSo throughout the month I've tried to cancel my autopay for my monthly pass since I don't need that tier anymore, and every time I try the app freezes and then crashes, and this is well before the threshold to cancel. I thought I finally cancelled it but checked again and I still have my pass. It's kinda frustrating because I really don't want a $216 charge on my card for something I'm not going to use and I don't know what else to do besides reach out and hope for a refund? Has anyone else had",
+          "container": "WMATA",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 3
+          },
+          "engagement_score": 26,
+          "freshness": 88,
+          "item_id": "R9",
+          "local_rank_score": 0.35000000000000003,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-28",
+          "relevance_hint": 0.9,
+          "snippet": "So throughout the month I've tried to cancel my autopay for my monthly pass since I don't need that tier anymore, and every time I try the app freezes and then crashes, and this is well before the threshold to cancel. I thought I finally cancelled it but checked again and I still have my pass. It's kinda frustrating because I really don't want a $216 charge on my card for something I'm not going t",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I'm really frustrated with the SmartTrip app",
+          "url": "https://www.reddit.com/r/WMATA/comments/1w0q2kp/im_really_frustrated_with_the_smarttrip_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I'm really frustrated with the SmartTrip app",
+      "url": "https://www.reddit.com/r/WMATA/comments/1w0q2kp/im_really_frustrated_with_the_smarttrip_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/publicapp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of",
+      "cluster_id": "cluster-6",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Have a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app\nHave a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind - that has happened 2x in the past 3 weeks. Question: have others had to go through this security ch",
+          "container": "PublicApp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2
+          },
+          "engagement_score": 24,
+          "freshness": 71,
+          "item_id": "R8",
+          "local_rank_score": 0.364,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-20",
+          "relevance_hint": 0.87,
+          "snippet": "Have a pretty basic set of accounts on public: bonds, high yield cash and some dollar cost averaging of basic ETFs and stocks.... In the past ~3 weeks, I've received multiple vague messages that my monthly contributions/payments could not be completed. It's always vague and no one can tell me why. Then a few days later I get a message noting that I have to go through a security check of some kind",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app",
+          "url": "https://www.reddit.com/r/PublicApp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "pretty frustrated with Public right now.... lots of \"security precautions\" preventing my use of the app",
+      "url": "https://www.reddit.com/r/PublicApp/comments/1vtxpou/pretty_frustrated_with_public_right_now_lots_of/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
