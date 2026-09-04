@@ -1,0 +1,1107 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "AI mobile app gaps \"would pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/aeo/comments/1vrt5ct/whats_everyone_doing_these_days_to_improve_ai"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/aeo/comments/1vrt5ct/whats_everyone_doing_these_days_to_improve_ai"
+      ],
+      "score": 9.296129032258062,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What's everyone doing these days to improve AI visibility for mobile apps?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/claudeai/comments/1vw73va/how_to_create_mobile_app_ui_prototypes_and_avoid"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/claudeai/comments/1vw73va/how_to_create_mobile_app_ui_prototypes_and_avoid"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "How to create mobile app UI prototypes and avoid an AI slop?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/capacitiesapp/comments/1vtktw4/introducing_mobile_app_20_explore_ai_and_weblink"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/capacitiesapp/comments/1vtktw4/introducing_mobile_app_20_explore_ai_and_weblink"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Introducing Mobile App 2.0, Explore AI, and weblink analysis for Pro. \ud83d\udcab"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appstoreoptimization/comments/1vikhup/who_has_built_a_complete_mobile_app_entirely"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/appstoreoptimization/comments/1vikhup/who_has_built_a_complete_mobile_app_entirely"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Who has built a complete mobile app entirely using AI?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/vibecoding/comments/1vw74e9/how_to_create_mobile_app_ui_prototypes_and_avoid"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/vibecoding/comments/1vw74e9/how_to_create_mobile_app_ui_prototypes_and_avoid"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "How to create mobile app UI prototypes and avoid an AI slop?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appstoreoptimization/comments/1vgr0h4/my_opensource_aso_tool_just_hit_120_stars_on"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/appstoreoptimization/comments/1vgr0h4/my_opensource_aso_tool_just_hit_120_stars_on"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My open-source ASO tool just hit 120+ stars on GitHub. Now added an AI Agent"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-04T22:12:30.014856+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "How to create mobile app UI prototypes and avoid an AI slop?\nHi all, I am new to vibe coding. I have 10 years of backend development experience but absolutely 0 years in the frontend side. I have been planning to create a cross platform mobile app using RN (Expo). For the AI slop part, an LLM answer was creating the following MD in project root: https://www.markdownpaste.com/document/avoiding-ai-slop-ui Would you agree with this? More important question is that, what would be the best way to have some UI prototypes created based on my app idea? What is yo\nSo you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created every single window every single tab for every single user role in your software. Then you create a text file list of every single interface component you want, where it's supposed to live, what it does and what problem it solves.\n\n Then you start by c Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in accordance to design principles you could find in books?\n\n Models have vision capabilities now, and it can help you refine what you want, but it can\u2019t h Yes, but sometimes people don't know what they want even though they have examples and they don't understand what they're asking for because they have this mental picture but they can't put it in words or tell people what it's supposed to be until they click through it and understand it themselves.",
+        "container": "ClaudeAI",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 24,
+          "score": 14
+        },
+        "engagement_score": 50,
+        "freshness": 76,
+        "item_id": "R3",
+        "local_rank_score": 0.448,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "So you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created ev...",
+            "Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in ac...",
+            "I give it visual examples, screenshots of what I like.",
+            "have you tried using claude.ai/design ? It's been good to me as a hobby programmer that lets claude do the trickier things.",
+            "AI slop is slop just for people but that\u2019s too end for AI. If you want something different you must show it references.",
+            "prototype one complete expo flow with real copy, loading, empty, error, and keyboard states before asking for visual polish.",
+            "Yes, but sometimes people don't know what they want even though they have examples and they don't understand what they're asking for because they have...",
+            "Hey Product Designer here\nTake a look at the skills from Impeccable\nUsually what I do is: recherche some UI on Dribble, past them in ChatGpt, ask to g..."
+          ],
+          "top_comments": [
+            {
+              "author": "phocuser",
+              "date": "2026-08-23",
+              "excerpt": "So you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created every single window every single tab for every single user role in your software. Then you create a text file list of every single interface component you want, where it's supposed to live, what it does and what problem it solves.\n\n Then you start by c",
+              "score": 13,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5ekn2k/"
+            },
+            {
+              "author": "CursedSloth",
+              "date": "2026-08-23",
+              "excerpt": "Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in accordance to design principles you could find in books?\n\n Models have vision capabilities now, and it can help you refine what you want, but it can\u2019t h",
+              "score": 2,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5epbdu/"
+            },
+            {
+              "author": "phocuser",
+              "date": "2026-08-23",
+              "excerpt": "Yes, but sometimes people don't know what they want even though they have examples and they don't understand what they're asking for because they have this mental picture but they can't put it in words or tell people what it's supposed to be until they click through it and understand it themselves. ",
+              "score": 2,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5esb1f/"
+            },
+            {
+              "author": "bourgeoisbetch",
+              "date": "2026-08-23",
+              "excerpt": "I give it visual examples, screenshots of what I like.",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5epvj6/"
+            },
+            {
+              "author": "TooManyGamesNoTime",
+              "date": "2026-08-23",
+              "excerpt": "have you tried using claude.ai/design ? It's been good to me as a hobby programmer that lets claude do the trickier things.",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5fh7oh/"
+            },
+            {
+              "author": "Photon_Predator",
+              "date": "2026-08-23",
+              "excerpt": "AI slop is slop just for people but that\u2019s too end for AI. If you want something different you must show it references.",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5fifwu/"
+            },
+            {
+              "author": "RocketSeven",
+              "date": "2026-08-23",
+              "excerpt": "prototype one complete expo flow with real copy, loading, empty, error, and keyboard states before asking for visual polish. generic ui survives on happy path screens because the constraints that create hierarchy are still missing",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5fqwxd/"
+            },
+            {
+              "author": "Legitimate_Buddy1922",
+              "date": "2026-08-23",
+              "excerpt": "Hey Product Designer here\nTake a look at the skills from Impeccable\nUsually what I do is: recherche some UI on Dribble, past them in ChatGpt, ask to generate 6 variants, refine, ask prompt to GPT, copy the image and the prompt into Claude and I refine the design system with some skills of /impeccabl",
+              "score": 1,
+              "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5h93s9/"
+            }
+          ]
+        },
+        "published_at": "2026-08-23",
+        "relevance_hint": 0.58,
+        "snippet": "So you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created every single window every single tab for every single user role in your software. Then you create a text file list of every single interface component you want, where it's supposed to live, what it does and what problem it solves. Then you start by c Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in accordance to design principles you could find in books? Models have vision capabilities now, and it can help you refine what you want,...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "How to create mobile app UI prototypes and avoid an AI slop?",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vw73va/how_to_create_mobile_app_ui_prototypes_and_avoid/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What's everyone doing these days to improve AI visibility for mobile apps?\nAnyone here actively working on getting their app more visible in AI search/recommendations? Would love to hear real experiences. open to any tips:)",
+        "container": "aeo",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 4
+        },
+        "engagement_score": 19,
+        "freshness": 65,
+        "item_id": "R7",
+        "local_rank_score": 0.43500000000000005,
+        "local_relevance": 0.39,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-18",
+        "relevance_hint": 0.44,
+        "snippet": "Anyone here actively working on getting their app more visible in AI search/recommendations? Would love to hear real experiences. open to any tips:)",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What's everyone doing these days to improve AI visibility for mobile apps?",
+        "url": "https://www.reddit.com/r/aeo/comments/1vrt5ct/whats_everyone_doing_these_days_to_improve_ai/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "How to create mobile app UI prototypes and avoid an AI slop?\nHi all, I am new to vibe coding. I have 10 years of backend development experience but absolutely 0 years in the frontend side. I have been planning to create a cross platform mobile app using RN (Expo). For the AI slop part, an LLM answer was creating the following MD in project root: https://www.markdownpaste.com/document/avoiding-ai-slop-ui Would you agree with this? More important question is that, what would be the best way to have some UI prototypes created based on my app idea? What is yo",
+        "container": "vibecoding",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 0
+        },
+        "engagement_score": 10,
+        "freshness": 76,
+        "item_id": "R6",
+        "local_rank_score": 0.40800000000000003,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-23",
+        "relevance_hint": 0.58,
+        "snippet": "Hi all, I am new to vibe coding. I have 10 years of backend development experience but absolutely 0 years in the frontend side. I have been planning to create a cross platform mobile app using RN (Expo). For the AI slop part, an LLM answer was creating the following MD in project root: https://www.markdownpaste.com/document/avoiding-ai-slop-ui Would you agree with this? More important question is",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "How to create mobile app UI prototypes and avoid an AI slop?",
+        "url": "https://www.reddit.com/r/vibecoding/comments/1vw74e9/how_to_create_mobile_app_ui_prototypes_and_avoid/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Introducing Mobile App 2.0, Explore AI, and weblink analysis for Pro. \ud83d\udcab\nWe're super excited about this release! \ud83d\udcf1 Mobile App 2.0 We've rebuilt Capacities on mobile so it feels faster and more joyful to use. \ud83d\udd25 The share sheet is quicker too: send links, text, and photos from other apps and keep working while capture finishes. \ud83c\udfe0 Home Screen Widgets (Experimental) Add widgets for Daily Note, Pinned, Recents, Tasks, Quick Capture, Quick Open, Quick Create, and AI Assistant on iOS and Android. On iOS you also get App Shortcuts for quick capture, new tasks, and more. \ud83d\udcf1 \ud83e\udd16\nThe new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to search notes, when to answer, when to search the net.\n\n The new aesthetics are fresh too, even if Android users are complaining it\u2019s too pretty for Android phones. Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object? Why do I need to add it to an existing Object or create a different type of Object first?\n\n Unless I'm missing something, it seems like a very odd choice. The updated iOS app is a very welcome update. It's great!",
+        "container": "capacitiesapp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 38
+        },
+        "engagement_score": 50,
+        "freshness": 70,
+        "item_id": "R2",
+        "local_rank_score": 0.39399999999999996,
+        "local_relevance": 0.26,
+        "metadata": {
+          "comment_insights": [
+            "The new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to sear...",
+            "Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object?",
+            "The updated iOS app is a very welcome update. It's great!",
+            "This has all been buttery smooth so far. I'm incredibly happy",
+            "That ui redesign was totally unnecessary",
+            "What is the usage limit for AI in Pro accounts?",
+            "It would be awesome if the app would use native navigation UI (with liquid glass on iOS)."
+          ],
+          "top_comments": [
+            {
+              "author": "Willnotwilling",
+              "date": "2026-08-20",
+              "excerpt": "The new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to search notes, when to answer, when to search the net.\n\n The new aesthetics are fresh too, even if Android users are complaining it\u2019s too pretty for Android phones.",
+              "score": 5,
+              "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4u2v1i/"
+            },
+            {
+              "author": "Jedi-Grand-Master",
+              "date": "2026-08-20",
+              "excerpt": "Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object? Why do I need to add it to an existing Object or create a different type of Object first?\n\n Unless I'm missing something, it seems like a very odd choice.",
+              "score": 5,
+              "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4vk1it/"
+            },
+            {
+              "author": "Ceres1",
+              "date": "2026-08-20",
+              "excerpt": "The updated iOS app is a very welcome update. It's great!",
+              "score": 4,
+              "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4u0hh0/"
+            },
+            {
+              "author": "Responsible_Gate_532",
+              "date": "2026-08-21",
+              "excerpt": "This has all been buttery smooth so far. I'm incredibly happy",
+              "score": 2,
+              "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4yph9m/"
+            },
+            {
+              "author": "fafros",
+              "date": "2026-08-20",
+              "excerpt": "That ui redesign was totally unnecessary",
+              "score": 2,
+              "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4u9un0/"
+            },
+            {
+              "author": "cazuza80",
+              "date": "2026-08-20",
+              "excerpt": "What is the usage limit for AI in Pro accounts?",
+              "score": 1,
+              "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4vidl7/"
+            },
+            {
+              "author": "lennartuecker",
+              "date": "2026-08-29",
+              "excerpt": "It would be awesome if the app would use native navigation UI (with liquid glass on iOS). Especially the menu baar looks a bit weird with the not matching corner radii.",
+              "score": 1,
+              "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p6lp9jc/"
+            }
+          ]
+        },
+        "published_at": "2026-08-20",
+        "relevance_hint": 0.55,
+        "snippet": "The new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to search notes, when to answer, when to search the net.\n\n The new aesthetics are fresh too, even if Android users are complaining it\u2019s too pretty for Android phones. Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object? Why do I need to add it to an existing Object or create a different type of Object first?\n\n Unless I'm missing something, it seems like a very odd choice. The updated iOS app is a very welcome update. It's great!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Introducing Mobile App 2.0, Explore AI, and weblink analysis for Pro. \ud83d\udcab",
+        "url": "https://www.reddit.com/r/capacitiesapp/comments/1vtktw4/introducing_mobile_app_20_explore_ai_and_weblink/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Who has built a complete mobile app entirely using AI?\nNone\nMe, but coding was not the hardest part \ud83d\ude05 Better question is who did not. Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+        "container": "AppStoreOptimization",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 23,
+          "score": 4
+        },
+        "engagement_score": 36,
+        "freshness": 45,
+        "item_id": "R4",
+        "local_rank_score": 0.3175,
+        "local_relevance": 0.26,
+        "metadata": {
+          "comment_insights": [
+            "Me, but coding was not the hardest part \ud83d\ude05",
+            "Better question is who did not.",
+            "Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+            "I did, 1 year ago, and also expanded it a lot since the first release: https://apps.",
+            "A fuckton of people apparently which is why app review is so goddamn slow now",
+            "But it's not just about the prompt/code \u2014 as others said, that's the easy part. Marketing, ASO, and SEO are the more difficult parts.",
+            "Paceguru was builded by hand first.But bean updated using AI for one year",
+            "lolz in 15 days i did a Dice board game"
+          ],
+          "top_comments": [
+            {
+              "author": "GlitteringSecret8121",
+              "date": "2026-08-08",
+              "excerpt": "Me, but coding was not the hardest part \ud83d\ude05",
+              "score": 5,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2f8sug/"
+            },
+            {
+              "author": "AgreeableCress446",
+              "date": "2026-08-08",
+              "excerpt": "Better question is who did not.",
+              "score": 3,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2j1lkf/"
+            },
+            {
+              "author": "turnnoblindeye",
+              "date": "2026-08-08",
+              "excerpt": "Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+              "score": 2,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2e5a6j/"
+            },
+            {
+              "author": "kshirinkin",
+              "date": "2026-08-08",
+              "excerpt": "I did, 1 year ago, and also expanded it a lot since the first release: https://apps.apple.com/us/app/longevity-tracker-dont-die/id6751227633?pt=2108215&ct=home-hero&mt=8.",
+              "score": 2,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2fj6bh/"
+            },
+            {
+              "author": "OkInformation9097",
+              "date": "2026-08-09",
+              "excerpt": "A fuckton of people apparently which is why app review is so goddamn slow now",
+              "score": 2,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2kte39/"
+            },
+            {
+              "author": "4lv1nn",
+              "date": "2026-08-11",
+              "excerpt": "But it's not just about the prompt/code \u2014 as others said, that's the easy part. Marketing, ASO, and SEO are the more difficult parts.",
+              "score": 2,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p30a1vf/"
+            },
+            {
+              "author": "--Clintoris--",
+              "date": "2026-08-08",
+              "excerpt": "\ud83d\udc4b",
+              "score": 1,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2e5z76/"
+            },
+            {
+              "author": "Salt-Thing2745",
+              "date": "2026-08-08",
+              "excerpt": "Paceguru was builded by hand first.But bean updated using AI for one year",
+              "score": 1,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2een7c/"
+            },
+            {
+              "author": "Zappyle",
+              "date": "2026-08-08",
+              "excerpt": "I did",
+              "score": 1,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2evwze/"
+            },
+            {
+              "author": "dotnetdreamer",
+              "date": "2026-08-08",
+              "excerpt": "lolz in 15 days i did a Dice board game",
+              "score": 1,
+              "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2f84th/"
+            }
+          ]
+        },
+        "published_at": "2026-08-08",
+        "relevance_hint": 0.55,
+        "snippet": "Me, but coding was not the hardest part \ud83d\ude05 Better question is who did not. Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Who has built a complete mobile app entirely using AI?",
+        "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1vikhup/who_has_built_a_complete_mobile_app_entirely/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My open-source ASO tool just hit 120+ stars on GitHub. Now added an AI Agent\nNone",
+        "container": "AppStoreOptimization",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 2
+        },
+        "engagement_score": 3,
+        "freshness": 41,
+        "item_id": "R12",
+        "local_rank_score": 0.203,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-06",
+        "relevance_hint": 0.29,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My open-source ASO tool just hit 120+ stars on GitHub. Now added an AI Agent",
+        "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1vgr0h4/my_opensource_aso_tool_just_hit_120_stars_on/",
+        "why_relevant": "Reddit r/AppStoreOptimization search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "AI mobile app gaps \"would pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to AI mobile app gaps \"would pay\"?",
+        "search_query": "ai mobile app gaps \"would pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-05",
+  "range_to": "2026-09-04",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/aeo/comments/1vrt5ct/whats_everyone_doing_these_days_to_improve_ai",
+      "cluster_id": "cluster-1",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 9.296129032258062,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.0,
+      "item_id": "R7",
+      "local_relevance": 0.39,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 21.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Anyone here actively working on getting their app more visible in AI search/recommendations? Would love to hear real experiences. open to any tips:)",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What's everyone doing these days to improve AI visibility for mobile apps?\nAnyone here actively working on getting their app more visible in AI search/recommendations? Would love to hear real experiences. open to any tips:)",
+          "container": "aeo",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 4
+          },
+          "engagement_score": 19,
+          "freshness": 65,
+          "item_id": "R7",
+          "local_rank_score": 0.43500000000000005,
+          "local_relevance": 0.39,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-18",
+          "relevance_hint": 0.44,
+          "snippet": "Anyone here actively working on getting their app more visible in AI search/recommendations? Would love to hear real experiences. open to any tips:)",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What's everyone doing these days to improve AI visibility for mobile apps?",
+          "url": "https://www.reddit.com/r/aeo/comments/1vrt5ct/whats_everyone_doing_these_days_to_improve_ai/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What's everyone doing these days to improve AI visibility for mobile apps?",
+      "url": "https://www.reddit.com/r/aeo/comments/1vrt5ct/whats_everyone_doing_these_days_to_improve_ai/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/claudeai/comments/1vw73va/how_to_create_mobile_app_ui_prototypes_and_avoid",
+      "cluster_id": "cluster-2",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.6,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "So you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created every single window every single tab for every single user role in your software. Then you create a text file list of every single interface component you want, where it's supposed to live, what it does and what problem it solves. Then you start by c Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in accordance to design principles you could find in books? Models have vision capabilities now, and it can help you refine what you want,...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "How to create mobile app UI prototypes and avoid an AI slop?\nHi all, I am new to vibe coding. I have 10 years of backend development experience but absolutely 0 years in the frontend side. I have been planning to create a cross platform mobile app using RN (Expo). For the AI slop part, an LLM answer was creating the following MD in project root: https://www.markdownpaste.com/document/avoiding-ai-slop-ui Would you agree with this? More important question is that, what would be the best way to have some UI prototypes created based on my app idea? What is yo\nSo you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created every single window every single tab for every single user role in your software. Then you create a text file list of every single interface component you want, where it's supposed to live, what it does and what problem it solves.\n\n Then you start by c Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in accordance to design principles you could find in books?\n\n Models have vision capabilities now, and it can help you refine what you want, but it can\u2019t h Yes, but sometimes people don't know what they want even though they have examples and they don't understand what they're asking for because they have this mental picture but they can't put it in words or tell people what it's supposed to be until they click through it and understand it themselves.",
+          "container": "ClaudeAI",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 24,
+            "score": 14
+          },
+          "engagement_score": 50,
+          "freshness": 76,
+          "item_id": "R3",
+          "local_rank_score": 0.448,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "So you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created ev...",
+              "Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in ac...",
+              "I give it visual examples, screenshots of what I like.",
+              "have you tried using claude.ai/design ? It's been good to me as a hobby programmer that lets claude do the trickier things.",
+              "AI slop is slop just for people but that\u2019s too end for AI. If you want something different you must show it references.",
+              "prototype one complete expo flow with real copy, loading, empty, error, and keyboard states before asking for visual polish.",
+              "Yes, but sometimes people don't know what they want even though they have examples and they don't understand what they're asking for because they have...",
+              "Hey Product Designer here\nTake a look at the skills from Impeccable\nUsually what I do is: recherche some UI on Dribble, past them in ChatGpt, ask to g..."
+            ],
+            "top_comments": [
+              {
+                "author": "phocuser",
+                "date": "2026-08-23",
+                "excerpt": "So you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created every single window every single tab for every single user role in your software. Then you create a text file list of every single interface component you want, where it's supposed to live, what it does and what problem it solves.\n\n Then you start by c",
+                "score": 13,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5ekn2k/"
+              },
+              {
+                "author": "CursedSloth",
+                "date": "2026-08-23",
+                "excerpt": "Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in accordance to design principles you could find in books?\n\n Models have vision capabilities now, and it can help you refine what you want, but it can\u2019t h",
+                "score": 2,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5epbdu/"
+              },
+              {
+                "author": "phocuser",
+                "date": "2026-08-23",
+                "excerpt": "Yes, but sometimes people don't know what they want even though they have examples and they don't understand what they're asking for because they have this mental picture but they can't put it in words or tell people what it's supposed to be until they click through it and understand it themselves. ",
+                "score": 2,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5esb1f/"
+              },
+              {
+                "author": "bourgeoisbetch",
+                "date": "2026-08-23",
+                "excerpt": "I give it visual examples, screenshots of what I like.",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5epvj6/"
+              },
+              {
+                "author": "TooManyGamesNoTime",
+                "date": "2026-08-23",
+                "excerpt": "have you tried using claude.ai/design ? It's been good to me as a hobby programmer that lets claude do the trickier things.",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5fh7oh/"
+              },
+              {
+                "author": "Photon_Predator",
+                "date": "2026-08-23",
+                "excerpt": "AI slop is slop just for people but that\u2019s too end for AI. If you want something different you must show it references.",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5fifwu/"
+              },
+              {
+                "author": "RocketSeven",
+                "date": "2026-08-23",
+                "excerpt": "prototype one complete expo flow with real copy, loading, empty, error, and keyboard states before asking for visual polish. generic ui survives on happy path screens because the constraints that create hierarchy are still missing",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5fqwxd/"
+              },
+              {
+                "author": "Legitimate_Buddy1922",
+                "date": "2026-08-23",
+                "excerpt": "Hey Product Designer here\nTake a look at the skills from Impeccable\nUsually what I do is: recherche some UI on Dribble, past them in ChatGpt, ask to generate 6 variants, refine, ask prompt to GPT, copy the image and the prompt into Claude and I refine the design system with some skills of /impeccabl",
+                "score": 1,
+                "url": "https://reddit.com/r/ClaudeAI/comments/1vw73va/comment/p5h93s9/"
+              }
+            ]
+          },
+          "published_at": "2026-08-23",
+          "relevance_hint": 0.58,
+          "snippet": "So you start by telling Claude to build you a testing strategy built on playwright to do headless screenshots of every single modal that is created every single window every single tab for every single user role in your software. Then you create a text file list of every single interface component you want, where it's supposed to live, what it does and what problem it solves. Then you start by c Wouldn\u2019t it be easier to just sketch out what you would want yourself and ask AI to critique your suggestion constructively but brutally honest, in accordance to design principles you could find in books? Models have vision capabilities now, and it can help you refine what you want,...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "How to create mobile app UI prototypes and avoid an AI slop?",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vw73va/how_to_create_mobile_app_ui_prototypes_and_avoid/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "How to create mobile app UI prototypes and avoid an AI slop?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vw73va/how_to_create_mobile_app_ui_prototypes_and_avoid/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/introducing_mobile_app_20_explore_ai_and_weblink",
+      "cluster_id": "cluster-3",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 13.200000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "The new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to search notes, when to answer, when to search the net.\n\n The new aesthetics are fresh too, even if Android users are complaining it\u2019s too pretty for Android phones. Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object? Why do I need to add it to an existing Object or create a different type of Object first?\n\n Unless I'm missing something, it seems like a very odd choice. The updated iOS app is a very welcome update. It's great!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Introducing Mobile App 2.0, Explore AI, and weblink analysis for Pro. \ud83d\udcab\nWe're super excited about this release! \ud83d\udcf1 Mobile App 2.0 We've rebuilt Capacities on mobile so it feels faster and more joyful to use. \ud83d\udd25 The share sheet is quicker too: send links, text, and photos from other apps and keep working while capture finishes. \ud83c\udfe0 Home Screen Widgets (Experimental) Add widgets for Daily Note, Pinned, Recents, Tasks, Quick Capture, Quick Open, Quick Create, and AI Assistant on iOS and Android. On iOS you also get App Shortcuts for quick capture, new tasks, and more. \ud83d\udcf1 \ud83e\udd16\nThe new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to search notes, when to answer, when to search the net.\n\n The new aesthetics are fresh too, even if Android users are complaining it\u2019s too pretty for Android phones. Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object? Why do I need to add it to an existing Object or create a different type of Object first?\n\n Unless I'm missing something, it seems like a very odd choice. The updated iOS app is a very welcome update. It's great!",
+          "container": "capacitiesapp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 38
+          },
+          "engagement_score": 50,
+          "freshness": 70,
+          "item_id": "R2",
+          "local_rank_score": 0.39399999999999996,
+          "local_relevance": 0.26,
+          "metadata": {
+            "comment_insights": [
+              "The new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to sear...",
+              "Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object?",
+              "The updated iOS app is a very welcome update. It's great!",
+              "This has all been buttery smooth so far. I'm incredibly happy",
+              "That ui redesign was totally unnecessary",
+              "What is the usage limit for AI in Pro accounts?",
+              "It would be awesome if the app would use native navigation UI (with liquid glass on iOS)."
+            ],
+            "top_comments": [
+              {
+                "author": "Willnotwilling",
+                "date": "2026-08-20",
+                "excerpt": "The new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to search notes, when to answer, when to search the net.\n\n The new aesthetics are fresh too, even if Android users are complaining it\u2019s too pretty for Android phones.",
+                "score": 5,
+                "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4u2v1i/"
+              },
+              {
+                "author": "Jedi-Grand-Master",
+                "date": "2026-08-20",
+                "excerpt": "Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object? Why do I need to add it to an existing Object or create a different type of Object first?\n\n Unless I'm missing something, it seems like a very odd choice.",
+                "score": 5,
+                "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4vk1it/"
+              },
+              {
+                "author": "Ceres1",
+                "date": "2026-08-20",
+                "excerpt": "The updated iOS app is a very welcome update. It's great!",
+                "score": 4,
+                "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4u0hh0/"
+              },
+              {
+                "author": "Responsible_Gate_532",
+                "date": "2026-08-21",
+                "excerpt": "This has all been buttery smooth so far. I'm incredibly happy",
+                "score": 2,
+                "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4yph9m/"
+              },
+              {
+                "author": "fafros",
+                "date": "2026-08-20",
+                "excerpt": "That ui redesign was totally unnecessary",
+                "score": 2,
+                "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4u9un0/"
+              },
+              {
+                "author": "cazuza80",
+                "date": "2026-08-20",
+                "excerpt": "What is the usage limit for AI in Pro accounts?",
+                "score": 1,
+                "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p4vidl7/"
+              },
+              {
+                "author": "lennartuecker",
+                "date": "2026-08-29",
+                "excerpt": "It would be awesome if the app would use native navigation UI (with liquid glass on iOS). Especially the menu baar looks a bit weird with the not matching corner radii.",
+                "score": 1,
+                "url": "https://reddit.com/r/capacitiesapp/comments/1vtktw4/comment/p6lp9jc/"
+              }
+            ]
+          },
+          "published_at": "2026-08-20",
+          "relevance_hint": 0.55,
+          "snippet": "The new version is really good, really enjoying it. The ai assistants reasoning is vastly improved and following requests much better, ie when to search notes, when to answer, when to search the net.\n\n The new aesthetics are fresh too, even if Android users are complaining it\u2019s too pretty for Android phones. Nice changes so thank you but...\n\n Why can't I just share an image or URL with Capacities and have it directly create an Image or Weblink Object? Why do I need to add it to an existing Object or create a different type of Object first?\n\n Unless I'm missing something, it seems like a very odd choice. The updated iOS app is a very welcome update. It's great!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Introducing Mobile App 2.0, Explore AI, and weblink analysis for Pro. \ud83d\udcab",
+          "url": "https://www.reddit.com/r/capacitiesapp/comments/1vtktw4/introducing_mobile_app_20_explore_ai_and_weblink/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Introducing Mobile App 2.0, Explore AI, and weblink analysis for Pro. \ud83d\udcab",
+      "url": "https://www.reddit.com/r/capacitiesapp/comments/1vtktw4/introducing_mobile_app_20_explore_ai_and_weblink/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appstoreoptimization/comments/1vikhup/who_has_built_a_complete_mobile_app_entirely",
+      "cluster_id": "cluster-4",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 8.200000000000003,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Me, but coding was not the hardest part \ud83d\ude05 Better question is who did not. Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Who has built a complete mobile app entirely using AI?\nNone\nMe, but coding was not the hardest part \ud83d\ude05 Better question is who did not. Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+          "container": "AppStoreOptimization",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 23,
+            "score": 4
+          },
+          "engagement_score": 36,
+          "freshness": 45,
+          "item_id": "R4",
+          "local_rank_score": 0.3175,
+          "local_relevance": 0.26,
+          "metadata": {
+            "comment_insights": [
+              "Me, but coding was not the hardest part \ud83d\ude05",
+              "Better question is who did not.",
+              "Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+              "I did, 1 year ago, and also expanded it a lot since the first release: https://apps.",
+              "A fuckton of people apparently which is why app review is so goddamn slow now",
+              "But it's not just about the prompt/code \u2014 as others said, that's the easy part. Marketing, ASO, and SEO are the more difficult parts.",
+              "Paceguru was builded by hand first.But bean updated using AI for one year",
+              "lolz in 15 days i did a Dice board game"
+            ],
+            "top_comments": [
+              {
+                "author": "GlitteringSecret8121",
+                "date": "2026-08-08",
+                "excerpt": "Me, but coding was not the hardest part \ud83d\ude05",
+                "score": 5,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2f8sug/"
+              },
+              {
+                "author": "AgreeableCress446",
+                "date": "2026-08-08",
+                "excerpt": "Better question is who did not.",
+                "score": 3,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2j1lkf/"
+              },
+              {
+                "author": "turnnoblindeye",
+                "date": "2026-08-08",
+                "excerpt": "Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+                "score": 2,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2e5a6j/"
+              },
+              {
+                "author": "kshirinkin",
+                "date": "2026-08-08",
+                "excerpt": "I did, 1 year ago, and also expanded it a lot since the first release: https://apps.apple.com/us/app/longevity-tracker-dont-die/id6751227633?pt=2108215&ct=home-hero&mt=8.",
+                "score": 2,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2fj6bh/"
+              },
+              {
+                "author": "OkInformation9097",
+                "date": "2026-08-09",
+                "excerpt": "A fuckton of people apparently which is why app review is so goddamn slow now",
+                "score": 2,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2kte39/"
+              },
+              {
+                "author": "4lv1nn",
+                "date": "2026-08-11",
+                "excerpt": "But it's not just about the prompt/code \u2014 as others said, that's the easy part. Marketing, ASO, and SEO are the more difficult parts.",
+                "score": 2,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p30a1vf/"
+              },
+              {
+                "author": "--Clintoris--",
+                "date": "2026-08-08",
+                "excerpt": "\ud83d\udc4b",
+                "score": 1,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2e5z76/"
+              },
+              {
+                "author": "Salt-Thing2745",
+                "date": "2026-08-08",
+                "excerpt": "Paceguru was builded by hand first.But bean updated using AI for one year",
+                "score": 1,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2een7c/"
+              },
+              {
+                "author": "Zappyle",
+                "date": "2026-08-08",
+                "excerpt": "I did",
+                "score": 1,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2evwze/"
+              },
+              {
+                "author": "dotnetdreamer",
+                "date": "2026-08-08",
+                "excerpt": "lolz in 15 days i did a Dice board game",
+                "score": 1,
+                "url": "https://reddit.com/r/AppStoreOptimization/comments/1vikhup/comment/p2f84th/"
+              }
+            ]
+          },
+          "published_at": "2026-08-08",
+          "relevance_hint": 0.55,
+          "snippet": "Me, but coding was not the hardest part \ud83d\ude05 Better question is who did not. Primarily - for sure. but you still need a lot of systems knowledge. Code is cheap now.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Who has built a complete mobile app entirely using AI?",
+          "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1vikhup/who_has_built_a_complete_mobile_app_entirely/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Who has built a complete mobile app entirely using AI?",
+      "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1vikhup/who_has_built_a_complete_mobile_app_entirely/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/vibecoding/comments/1vw74e9/how_to_create_mobile_app_ui_prototypes_and_avoid",
+      "cluster_id": "cluster-5",
+      "engagement": 10,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 20.0,
+      "item_id": "R6",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 18.6,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hi all, I am new to vibe coding. I have 10 years of backend development experience but absolutely 0 years in the frontend side. I have been planning to create a cross platform mobile app using RN (Expo). For the AI slop part, an LLM answer was creating the following MD in project root: https://www.markdownpaste.com/document/avoiding-ai-slop-ui Would you agree with this? More important question is",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "How to create mobile app UI prototypes and avoid an AI slop?\nHi all, I am new to vibe coding. I have 10 years of backend development experience but absolutely 0 years in the frontend side. I have been planning to create a cross platform mobile app using RN (Expo). For the AI slop part, an LLM answer was creating the following MD in project root: https://www.markdownpaste.com/document/avoiding-ai-slop-ui Would you agree with this? More important question is that, what would be the best way to have some UI prototypes created based on my app idea? What is yo",
+          "container": "vibecoding",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 0
+          },
+          "engagement_score": 10,
+          "freshness": 76,
+          "item_id": "R6",
+          "local_rank_score": 0.40800000000000003,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-23",
+          "relevance_hint": 0.58,
+          "snippet": "Hi all, I am new to vibe coding. I have 10 years of backend development experience but absolutely 0 years in the frontend side. I have been planning to create a cross platform mobile app using RN (Expo). For the AI slop part, an LLM answer was creating the following MD in project root: https://www.markdownpaste.com/document/avoiding-ai-slop-ui Would you agree with this? More important question is",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "How to create mobile app UI prototypes and avoid an AI slop?",
+          "url": "https://www.reddit.com/r/vibecoding/comments/1vw74e9/how_to_create_mobile_app_ui_prototypes_and_avoid/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "How to create mobile app UI prototypes and avoid an AI slop?",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1vw74e9/how_to_create_mobile_app_ui_prototypes_and_avoid/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appstoreoptimization/comments/1vgr0h4/my_opensource_aso_tool_just_hit_120_stars_on",
+      "cluster_id": "cluster-6",
+      "engagement": 3,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 23.849999999999998,
+      "item_id": "R12",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R12",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My open-source ASO tool just hit 120+ stars on GitHub. Now added an AI Agent\nNone",
+          "container": "AppStoreOptimization",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 2
+          },
+          "engagement_score": 3,
+          "freshness": 41,
+          "item_id": "R12",
+          "local_rank_score": 0.203,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-06",
+          "relevance_hint": 0.29,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My open-source ASO tool just hit 120+ stars on GitHub. Now added an AI Agent",
+          "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1vgr0h4/my_opensource_aso_tool_just_hit_120_stars_on/",
+          "why_relevant": "Reddit r/AppStoreOptimization search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My open-source ASO tool just hit 120+ stars on GitHub. Now added an AI Agent",
+      "url": "https://www.reddit.com/r/AppStoreOptimization/comments/1vgr0h4/my_opensource_aso_tool_just_hit_120_stars_on/"
+    }
+  ],
+  "topic": "AI mobile app gaps \"would pay\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
