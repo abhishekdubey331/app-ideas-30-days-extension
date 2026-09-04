@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/dailygames/comments/1vrlpmm/reddit_makes_a_polyhedron_day_5"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/dailygames/comments/1vrlpmm/reddit_makes_a_polyhedron_day_5"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Reddit Makes A Polyhedron. Day 5"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-04T15:58:24.272096+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Reddit Makes A Polyhedron. Day 5\nEveryday, for 7 days the top comment will change something about a polyhedron. The following 11 allowed operations are in the last slide (except \"seed\") Previous operation: Zip",
+        "container": "dailygames",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 2
+        },
+        "engagement_score": 6,
+        "freshness": 65,
+        "item_id": "R26",
+        "local_rank_score": 0.31800000000000006,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-18",
+        "relevance_hint": 0.26,
+        "snippet": "Everyday, for 7 days the top comment will change something about a polyhedron. The following 11 allowed operations are in the last slide (except \"seed\") Previous operation: Zip",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Reddit Makes A Polyhedron. Day 5",
+        "url": "https://www.reddit.com/r/dailygames/comments/1vrlpmm/reddit_makes_a_polyhedron_day_5/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-05",
+  "range_to": "2026-09-04",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/dailygames/comments/1vrlpmm/reddit_makes_a_polyhedron_day_5",
+      "cluster_id": "cluster-1",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 22.0,
+      "item_id": "R26",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R26",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 10.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Everyday, for 7 days the top comment will change something about a polyhedron. The following 11 allowed operations are in the last slide (except \"seed\") Previous operation: Zip",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Reddit Makes A Polyhedron. Day 5\nEveryday, for 7 days the top comment will change something about a polyhedron. The following 11 allowed operations are in the last slide (except \"seed\") Previous operation: Zip",
+          "container": "dailygames",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 2
+          },
+          "engagement_score": 6,
+          "freshness": 65,
+          "item_id": "R26",
+          "local_rank_score": 0.31800000000000006,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-18",
+          "relevance_hint": 0.26,
+          "snippet": "Everyday, for 7 days the top comment will change something about a polyhedron. The following 11 allowed operations are in the last slide (except \"seed\") Previous operation: Zip",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Reddit Makes A Polyhedron. Day 5",
+          "url": "https://www.reddit.com/r/dailygames/comments/1vrlpmm/reddit_makes_a_polyhedron_day_5/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Reddit Makes A Polyhedron. Day 5",
+      "url": "https://www.reddit.com/r/dailygames/comments/1vrlpmm/reddit_makes_a_polyhedron_day_5/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
