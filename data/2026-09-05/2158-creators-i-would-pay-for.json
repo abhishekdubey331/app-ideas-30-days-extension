@@ -1,0 +1,237 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "creators \"I would pay for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saassolopreneurs/comments/1vxtnri/launching_my_first_saas"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/saassolopreneurs/comments/1vxtnri/launching_my_first_saas"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Launching my first SAAS"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-05T21:58:02.382715+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Launching my first SAAS\nFinally launching my first SASS. Can't hide behind creating any more new features. Just time to put it out there and see what happens. I'm going to try targeting UGC creators and posting on TikTok. The one good thing I like about my SaaS is that it is something I use every day so I would pay for it. I hope others will too Do or die. I'll try and keep you posted on how I do after 1 month of advertising. God this is the worst part of the whole process.\nHey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app..., sometimes it's not easy to know when to stop developing but I think mobile is useful though I was envisaging mainly PC users Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems. Also, don't treat month 1 as \"do or die\", it's just a sandbox to test different video hooks and messaging. Congrats! What does the product do?",
+        "container": "SaaSSolopreneurs",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 10,
+          "score": 3
+        },
+        "engagement_score": 100,
+        "freshness": 77,
+        "item_id": "R1",
+        "local_rank_score": 0.4225,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Hey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app.",
+            "Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems.",
+            "Congrats! What does the product do?",
+            "In case you havent noticed, you have some mobile responsiveness issues on your site."
+          ],
+          "top_comments": [
+            {
+              "author": "SignificanceFit7972",
+              "date": "2026-08-31",
+              "excerpt": "Hey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app..., sometimes it's not easy to know when to stop developing but I think mobile is useful though I was envisaging mainly PC users",
+              "score": 1,
+              "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p6xjc5x/"
+            },
+            {
+              "author": "Glass-Interaction972",
+              "date": "2026-08-25",
+              "excerpt": "Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems. Also, don't treat month 1 as \"do or die\", it's just a sandbox to test different video hooks and messaging.",
+              "score": 1,
+              "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p5rgplm/"
+            },
+            {
+              "author": "ymc9",
+              "date": "2026-08-25",
+              "excerpt": "Congrats! What does the product do?",
+              "score": 1,
+              "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p5rlypk/"
+            },
+            {
+              "author": "kepteasy",
+              "date": "2026-08-25",
+              "excerpt": "In case you havent noticed, you have some mobile responsiveness issues on your site.\n\n Not massive but definitely noticeable and a bit annoying. Enough to upset some people who'll click away.\n\n Some elements are off the screen to the right.",
+              "score": 1,
+              "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p5u8oa2/"
+            }
+          ]
+        },
+        "published_at": "2026-08-25",
+        "relevance_hint": 0.22,
+        "snippet": "Hey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app..., sometimes it's not easy to know when to stop developing but I think mobile is useful though I was envisaging mainly PC users Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems. Also, don't treat month 1 as \"do or die\", it's just a sandbox to test different video hooks and messaging. Congrats! What does the product do?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Launching my first SAAS",
+        "url": "https://www.reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/launching_my_first_saas/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "creators \"I would pay for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to creators \"I would pay for\", especially about creators \"i pay for\"?",
+        "search_query": "creators \"i pay for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-06",
+  "range_to": "2026-09-05",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/saassolopreneurs/comments/1vxtnri/launching_my_first_saas",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 10.399999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app..., sometimes it's not easy to know when to stop developing but I think mobile is useful though I was envisaging mainly PC users Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems. Also, don't treat month 1 as \"do or die\", it's just a sandbox to test different video hooks and messaging. Congrats! What does the product do?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Launching my first SAAS\nFinally launching my first SASS. Can't hide behind creating any more new features. Just time to put it out there and see what happens. I'm going to try targeting UGC creators and posting on TikTok. The one good thing I like about my SaaS is that it is something I use every day so I would pay for it. I hope others will too Do or die. I'll try and keep you posted on how I do after 1 month of advertising. God this is the worst part of the whole process.\nHey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app..., sometimes it's not easy to know when to stop developing but I think mobile is useful though I was envisaging mainly PC users Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems. Also, don't treat month 1 as \"do or die\", it's just a sandbox to test different video hooks and messaging. Congrats! What does the product do?",
+          "container": "SaaSSolopreneurs",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 10,
+            "score": 3
+          },
+          "engagement_score": 100,
+          "freshness": 77,
+          "item_id": "R1",
+          "local_rank_score": 0.4225,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Hey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app.",
+              "Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems.",
+              "Congrats! What does the product do?",
+              "In case you havent noticed, you have some mobile responsiveness issues on your site."
+            ],
+            "top_comments": [
+              {
+                "author": "SignificanceFit7972",
+                "date": "2026-08-31",
+                "excerpt": "Hey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app..., sometimes it's not easy to know when to stop developing but I think mobile is useful though I was envisaging mainly PC users",
+                "score": 1,
+                "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p6xjc5x/"
+              },
+              {
+                "author": "Glass-Interaction972",
+                "date": "2026-08-25",
+                "excerpt": "Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems. Also, don't treat month 1 as \"do or die\", it's just a sandbox to test different video hooks and messaging.",
+                "score": 1,
+                "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p5rgplm/"
+              },
+              {
+                "author": "ymc9",
+                "date": "2026-08-25",
+                "excerpt": "Congrats! What does the product do?",
+                "score": 1,
+                "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p5rlypk/"
+              },
+              {
+                "author": "kepteasy",
+                "date": "2026-08-25",
+                "excerpt": "In case you havent noticed, you have some mobile responsiveness issues on your site.\n\n Not massive but definitely noticeable and a bit annoying. Enough to upset some people who'll click away.\n\n Some elements are off the screen to the right.",
+                "score": 1,
+                "url": "https://reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/comment/p5u8oa2/"
+              }
+            ]
+          },
+          "published_at": "2026-08-25",
+          "relevance_hint": 0.22,
+          "snippet": "Hey I appreciate the point made about mobile friendliness, I'm now concentrating on that, maybe even making an app..., sometimes it's not easy to know when to stop developing but I think mobile is useful though I was envisaging mainly PC users Since you use it daily, just post raw 15-second clips of yourself using it to solve your own work problems. Also, don't treat month 1 as \"do or die\", it's just a sandbox to test different video hooks and messaging. Congrats! What does the product do?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Launching my first SAAS",
+          "url": "https://www.reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/launching_my_first_saas/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Launching my first SAAS",
+      "url": "https://www.reddit.com/r/SaaSSolopreneurs/comments/1vxtnri/launching_my_first_saas/"
+    }
+  ],
+  "topic": "creators \"I would pay for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
