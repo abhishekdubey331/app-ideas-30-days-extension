@@ -1,0 +1,880 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Make the purple stop"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/twitch/comments/1w037sj/im_getting_charged_for_nothing"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/twitch/comments/1w037sj/im_getting_charged_for_nothing"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I\u2019m getting charged for nothing"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What made u actually pull the trigger on a paid tool?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-07T03:32:30.335875+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I got tired of paying for music apps so I built my own, free and open source (Veluna)\nSpotify Free has ads every few songs. YouTube Music wants a subscription just to play in the background. I got sick of both, so over the last few months I built Veluna, a free desktop music player that streams from YouTube through yt-dlp and mpv, wrapped in a Tauri (Rust + React) shell. No account, no ads, no telemetry, no subscription. Everything runs locally on your machine. What it actually does: - Streams and searches YouTube directly, split into YT Music and Video results - Download tracks\nAndroid? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+        "container": "SpotifyLatestModAPK",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 31,
+          "score": 43
+        },
+        "engagement_score": 73,
+        "freshness": 71,
+        "item_id": "R2",
+        "local_rank_score": 0.4,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "What sets it apart from apps like MetroList and Meld?",
+            "Can it sync with my google account?",
+            "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down.",
+            "como activar Letras sincronizadas ? es automatico ?",
+            "What does flax seeds have to do with it"
+          ],
+          "top_comments": [
+            {
+              "author": "black_phantom_750",
+              "date": "2026-08-24",
+              "excerpt": "Android?",
+              "score": 3,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5mo9nz/"
+            },
+            {
+              "author": "SusejLegend",
+              "date": "2026-08-24",
+              "excerpt": "What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5nvru8/"
+            },
+            {
+              "author": "Erpt_77",
+              "date": "2026-08-25",
+              "excerpt": "Can it sync with my google account?",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sgud7/"
+            },
+            {
+              "author": "ToxicVenom09",
+              "date": "2026-08-24",
+              "excerpt": "Works on android?",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5moonq/"
+            },
+            {
+              "author": "Erpt_77",
+              "date": "2026-08-25",
+              "excerpt": "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down. Great work youve done here!",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sfkx8/"
+            },
+            {
+              "author": "Murky-Relation-7337",
+              "date": "2026-08-24",
+              "excerpt": "como activar Letras sincronizadas ? es automatico ?",
+              "score": 1,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5o8m22/"
+            },
+            {
+              "author": "WerewolfGullible15",
+              "date": "2026-08-25",
+              "excerpt": "What does flax seeds have to do with it",
+              "score": 1,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5wdfnq/"
+            }
+          ]
+        },
+        "published_at": "2026-08-24",
+        "relevance_hint": 0.22,
+        "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+        "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Make the purple stop\nI pay $80 a year (for multiple years at this point) and I am so sick of staring at this 2016 nightmare color scheme. The devs are smart enough to know the difference between mpeg-ts and hls but modern design vs a california raisin war crime is apparently a bridge too far. My subscription renewed today so I just had to vent about the ugliest app I pay for, and it\u2019s not even close. My kingdom for a dark mode.\nObviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+        "container": "getchannels",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 22,
+          "score": 18
+        },
+        "engagement_score": 63,
+        "freshness": 73,
+        "item_id": "R3",
+        "local_rank_score": 0.395,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+            "An option to change the theme would be a reasonable expectation , IMO.",
+            "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+            "I moved to emby, mainly so I could more easily consolidate my local media with streaming services.",
+            "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+            "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+            "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+            "I would prefer an option to change it too, but its a pretty minor concern for me.",
+            "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't s...",
+            "As purple is my favorite color and I like the straight forward design, I say nay."
+          ],
+          "top_comments": [
+            {
+              "author": "stevemac00",
+              "date": "2026-08-25",
+              "excerpt": "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+              "score": 12,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5uvcm1/"
+            },
+            {
+              "author": "thankyourob",
+              "date": "2026-08-25",
+              "excerpt": "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+              "score": 10,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sb5l9/"
+            },
+            {
+              "author": "snatchymcgrabberson",
+              "date": "2026-08-25",
+              "excerpt": "An option to change the theme would be a reasonable expectation , IMO.",
+              "score": 9,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sreje/"
+            },
+            {
+              "author": "ZoomZoomZoomss",
+              "date": "2026-08-25",
+              "excerpt": "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+              "score": 6,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5ry939/"
+            },
+            {
+              "author": "knobbysideup",
+              "date": "2026-08-25",
+              "excerpt": "I moved to emby, mainly so I could more easily consolidate my local media with streaming services. Channels sucks for the former. I'm pretty happy with it. It certainly handles tags/categories far better than channels does. But on topic, I can theme it.\n\n Emby sucks at handling any stream inconsiste",
+              "score": 4,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u0h8x/"
+            },
+            {
+              "author": "EV_Dad",
+              "date": "2026-08-25",
+              "excerpt": "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+              "score": 3,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u6oq3/"
+            },
+            {
+              "author": "Captriker",
+              "date": "2026-08-25",
+              "excerpt": "As purple is my favorite color and I like the straight forward design, I say nay.",
+              "score": 3,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sfxly/"
+            },
+            {
+              "author": "coolgui",
+              "date": "2026-08-25",
+              "excerpt": "I would prefer an option to change it too, but its a pretty minor concern for me. Feature parity between Android and iOS/tvOS is a much bigger issue for me. So much so that I have to reevaluate my other options before my next renewal.",
+              "score": 2,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5vtl4o/"
+            },
+            {
+              "author": "TheDaveAb1des",
+              "date": "2026-08-25",
+              "excerpt": "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't see them putting any resources towards it.",
+              "score": 2,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5we89h/"
+            },
+            {
+              "author": "SleepyD7",
+              "date": "2026-08-26",
+              "excerpt": "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+              "score": 1,
+              "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5xk07o/"
+            }
+          ]
+        },
+        "published_at": "2026-08-25",
+        "relevance_hint": 0.22,
+        "snippet": "Obviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Make the purple stop",
+        "url": "https://www.reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I\u2019m getting charged for nothing\nI bought a sub to a channel one time on March 11th and ever since on the 11th of each month, even though I canceled it and am now using my free Prime subscription I get charged $5.99, I\u2019ve been emailing back and forth with Twitch support for a month now, and they keep saying to cancel my subscription, but my subscription is through my free Prime sub. I\u2019m getting so sick of this. I\u2019ve shown them the proof it\u2019s charging me. They can look in my account and see I have one subscription, and it\u2019s a fr\nAre you sure it's through Prime sub? Are you renewing the sub manually every month? Prime doesn't renew, you have to do it yourself. So if it's renewing monthly, that's not Prime. Agree with other comment, prime sub does not auto renew, it's a manual action. It also doesn't charge you. Sounds like you have an actual sub and being charged accordingly. You should be able to block the payment in your banking app",
+        "container": "Twitch",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 25,
+          "score": 0
+        },
+        "engagement_score": 29,
+        "freshness": 77,
+        "item_id": "R4",
+        "local_rank_score": 0.371,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Are you sure it's through Prime sub? Are you renewing the sub manually every month?",
+            "Agree with other comment, prime sub does not auto renew, it's a manual action.",
+            "try clicking your profile icon on top right, select subscriptions and see if its still active.",
+            "To do prime you have to add it manually every month and check a small box below the options.",
+            "can you unlink the card that\u2019s being charged from your twitch account?",
+            "You should be able to block the payment in your banking app",
+            "Like others said either you're subscribed in the twitch system or your card is compromised."
+          ],
+          "top_comments": [
+            {
+              "author": "Commercial-Winter151",
+              "date": "2026-08-27",
+              "excerpt": "Are you sure it's through Prime sub? Are you renewing the sub manually every month? Prime doesn't renew, you have to do it yourself. So if it's renewing monthly, that's not Prime.",
+              "score": 22,
+              "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6a09ew/"
+            },
+            {
+              "author": "Mike_0xbigg",
+              "date": "2026-08-27",
+              "excerpt": "Agree with other comment, prime sub does not auto renew, it's a manual action. It also doesn't charge you. Sounds like you have an actual sub and being charged accordingly.",
+              "score": 5,
+              "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6b6h55/"
+            },
+            {
+              "author": "Thyrst49",
+              "date": "2026-08-27",
+              "excerpt": "You should be able to block the payment in your banking app",
+              "score": 5,
+              "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p69xqmd/"
+            },
+            {
+              "author": "Mushroom_Mink",
+              "date": "2026-08-27",
+              "excerpt": "try clicking your profile icon on top right, select subscriptions and see if its still active.",
+              "score": 3,
+              "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6a2yvp/"
+            },
+            {
+              "author": "LegendaryEnvy",
+              "date": "2026-08-28",
+              "excerpt": "To do prime you have to add it manually every month and check a small box below the options. If you don\u2019t it\u2019s automatically a charged amount. And if it\u2019s automatic you\u2019re paying .",
+              "score": 2,
+              "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6bjrg3/"
+            },
+            {
+              "author": "jazthespazz_",
+              "date": "2026-08-28",
+              "excerpt": "can you unlink the card that\u2019s being charged from your twitch account? i\u2019ve only ever subbed using prime myself so i don\u2019t have a card linked, but if they have no payment method they shouldn\u2019t be able to charge you. but i do agree with the other comments, prime subs annoyingly don\u2019t autorenew. if yo",
+              "score": 1,
+              "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6braba/"
+            },
+            {
+              "author": "NerdTitanGaming",
+              "date": "2026-08-29",
+              "excerpt": "Like others said either you're subscribed in the twitch system or your card is compromised. I would cancel your card or lock it when you're not using it.",
+              "score": 1,
+              "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6ou266/"
+            }
+          ]
+        },
+        "published_at": "2026-08-27",
+        "relevance_hint": 0.14,
+        "snippet": "Are you sure it's through Prime sub? Are you renewing the sub manually every month? Prime doesn't renew, you have to do it yourself. So if it's renewing monthly, that's not Prime. Agree with other comment, prime sub does not auto renew, it's a manual action. It also doesn't charge you. Sounds like you have an actual sub and being charged accordingly. You should be able to block the payment in your banking app",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I\u2019m getting charged for nothing",
+        "url": "https://www.reddit.com/r/Twitch/comments/1w037sj/im_getting_charged_for_nothing/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What made u actually pull the trigger on a paid tool?\nI've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine. Selfish reasons at first, just wanted to stop babysitting scripts. Now I'm at the point where I'm w",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 26,
+        "freshness": 49,
+        "item_id": "R6",
+        "local_rank_score": 0.29800000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-13",
+        "relevance_hint": 0.14,
+        "snippet": "I've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What made u actually pull the trigger on a paid tool?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-08",
+  "range_to": "2026-09-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built",
+      "cluster_id": "cluster-1",
+      "engagement": 73,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of paying for music apps so I built my own, free and open source (Veluna)\nSpotify Free has ads every few songs. YouTube Music wants a subscription just to play in the background. I got sick of both, so over the last few months I built Veluna, a free desktop music player that streams from YouTube through yt-dlp and mpv, wrapped in a Tauri (Rust + React) shell. No account, no ads, no telemetry, no subscription. Everything runs locally on your machine. What it actually does: - Streams and searches YouTube directly, split into YT Music and Video results - Download tracks\nAndroid? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+          "container": "SpotifyLatestModAPK",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 31,
+            "score": 43
+          },
+          "engagement_score": 73,
+          "freshness": 71,
+          "item_id": "R2",
+          "local_rank_score": 0.4,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "What sets it apart from apps like MetroList and Meld?",
+              "Can it sync with my google account?",
+              "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down.",
+              "como activar Letras sincronizadas ? es automatico ?",
+              "What does flax seeds have to do with it"
+            ],
+            "top_comments": [
+              {
+                "author": "black_phantom_750",
+                "date": "2026-08-24",
+                "excerpt": "Android?",
+                "score": 3,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5mo9nz/"
+              },
+              {
+                "author": "SusejLegend",
+                "date": "2026-08-24",
+                "excerpt": "What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5nvru8/"
+              },
+              {
+                "author": "Erpt_77",
+                "date": "2026-08-25",
+                "excerpt": "Can it sync with my google account?",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sgud7/"
+              },
+              {
+                "author": "ToxicVenom09",
+                "date": "2026-08-24",
+                "excerpt": "Works on android?",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5moonq/"
+              },
+              {
+                "author": "Erpt_77",
+                "date": "2026-08-25",
+                "excerpt": "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down. Great work youve done here!",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sfkx8/"
+              },
+              {
+                "author": "Murky-Relation-7337",
+                "date": "2026-08-24",
+                "excerpt": "como activar Letras sincronizadas ? es automatico ?",
+                "score": 1,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5o8m22/"
+              },
+              {
+                "author": "WerewolfGullible15",
+                "date": "2026-08-25",
+                "excerpt": "What does flax seeds have to do with it",
+                "score": 1,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5wdfnq/"
+              }
+            ]
+          },
+          "published_at": "2026-08-24",
+          "relevance_hint": 0.22,
+          "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+          "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+      "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop",
+      "cluster_id": "cluster-2",
+      "engagement": 63,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Obviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Make the purple stop\nI pay $80 a year (for multiple years at this point) and I am so sick of staring at this 2016 nightmare color scheme. The devs are smart enough to know the difference between mpeg-ts and hls but modern design vs a california raisin war crime is apparently a bridge too far. My subscription renewed today so I just had to vent about the ugliest app I pay for, and it\u2019s not even close. My kingdom for a dark mode.\nObviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+          "container": "getchannels",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 22,
+            "score": 18
+          },
+          "engagement_score": 63,
+          "freshness": 73,
+          "item_id": "R3",
+          "local_rank_score": 0.395,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+              "An option to change the theme would be a reasonable expectation , IMO.",
+              "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+              "I moved to emby, mainly so I could more easily consolidate my local media with streaming services.",
+              "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+              "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+              "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+              "I would prefer an option to change it too, but its a pretty minor concern for me.",
+              "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't s...",
+              "As purple is my favorite color and I like the straight forward design, I say nay."
+            ],
+            "top_comments": [
+              {
+                "author": "stevemac00",
+                "date": "2026-08-25",
+                "excerpt": "Obviously Chqnnels is working well if the worst complaint is the color scheme.",
+                "score": 12,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5uvcm1/"
+              },
+              {
+                "author": "thankyourob",
+                "date": "2026-08-25",
+                "excerpt": "Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome.",
+                "score": 10,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sb5l9/"
+              },
+              {
+                "author": "snatchymcgrabberson",
+                "date": "2026-08-25",
+                "excerpt": "An option to change the theme would be a reasonable expectation , IMO.",
+                "score": 9,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sreje/"
+              },
+              {
+                "author": "ZoomZoomZoomss",
+                "date": "2026-08-25",
+                "excerpt": "I\u2019d much rather they not raise the price, than spend money on a new graphic design.",
+                "score": 6,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5ry939/"
+              },
+              {
+                "author": "knobbysideup",
+                "date": "2026-08-25",
+                "excerpt": "I moved to emby, mainly so I could more easily consolidate my local media with streaming services. Channels sucks for the former. I'm pretty happy with it. It certainly handles tags/categories far better than channels does. But on topic, I can theme it.\n\n Emby sucks at handling any stream inconsiste",
+                "score": 4,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u0h8x/"
+              },
+              {
+                "author": "EV_Dad",
+                "date": "2026-08-25",
+                "excerpt": "Try the Carbon Theme: https://community.getchannels.com/t/channels-carbon-theme/25414",
+                "score": 3,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5u6oq3/"
+              },
+              {
+                "author": "Captriker",
+                "date": "2026-08-25",
+                "excerpt": "As purple is my favorite color and I like the straight forward design, I say nay.",
+                "score": 3,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5sfxly/"
+              },
+              {
+                "author": "coolgui",
+                "date": "2026-08-25",
+                "excerpt": "I would prefer an option to change it too, but its a pretty minor concern for me. Feature parity between Android and iOS/tvOS is a much bigger issue for me. So much so that I have to reevaluate my other options before my next renewal.",
+                "score": 2,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5vtl4o/"
+              },
+              {
+                "author": "TheDaveAb1des",
+                "date": "2026-08-25",
+                "excerpt": "I agree. The UI/UX is not great, some may say bad. But they won't even bother to add a dark mode theme to their forum (which is trivial), so I don't see them putting any resources towards it.",
+                "score": 2,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5we89h/"
+              },
+              {
+                "author": "SleepyD7",
+                "date": "2026-08-26",
+                "excerpt": "They\u2019ve discussed this numerous times. It\u2019s only three developers. It\u2019s staying purple.",
+                "score": 1,
+                "url": "https://reddit.com/r/getchannels/comments/1vxq4m5/comment/p5xk07o/"
+              }
+            ]
+          },
+          "published_at": "2026-08-25",
+          "relevance_hint": 0.22,
+          "snippet": "Obviously Chqnnels is working well if the worst complaint is the color scheme. Personally, I don\u2019t mind it. But I could get behind the option to customize the color. Personalization is always welcome. An option to change the theme would be a reasonable expectation , IMO.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Make the purple stop",
+          "url": "https://www.reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Make the purple stop",
+      "url": "https://www.reddit.com/r/getchannels/comments/1vxq4m5/make_the_purple_stop/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/twitch/comments/1w037sj/im_getting_charged_for_nothing",
+      "cluster_id": "cluster-3",
+      "engagement": 29,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 12.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Are you sure it's through Prime sub? Are you renewing the sub manually every month? Prime doesn't renew, you have to do it yourself. So if it's renewing monthly, that's not Prime. Agree with other comment, prime sub does not auto renew, it's a manual action. It also doesn't charge you. Sounds like you have an actual sub and being charged accordingly. You should be able to block the payment in your banking app",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I\u2019m getting charged for nothing\nI bought a sub to a channel one time on March 11th and ever since on the 11th of each month, even though I canceled it and am now using my free Prime subscription I get charged $5.99, I\u2019ve been emailing back and forth with Twitch support for a month now, and they keep saying to cancel my subscription, but my subscription is through my free Prime sub. I\u2019m getting so sick of this. I\u2019ve shown them the proof it\u2019s charging me. They can look in my account and see I have one subscription, and it\u2019s a fr\nAre you sure it's through Prime sub? Are you renewing the sub manually every month? Prime doesn't renew, you have to do it yourself. So if it's renewing monthly, that's not Prime. Agree with other comment, prime sub does not auto renew, it's a manual action. It also doesn't charge you. Sounds like you have an actual sub and being charged accordingly. You should be able to block the payment in your banking app",
+          "container": "Twitch",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 25,
+            "score": 0
+          },
+          "engagement_score": 29,
+          "freshness": 77,
+          "item_id": "R4",
+          "local_rank_score": 0.371,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Are you sure it's through Prime sub? Are you renewing the sub manually every month?",
+              "Agree with other comment, prime sub does not auto renew, it's a manual action.",
+              "try clicking your profile icon on top right, select subscriptions and see if its still active.",
+              "To do prime you have to add it manually every month and check a small box below the options.",
+              "can you unlink the card that\u2019s being charged from your twitch account?",
+              "You should be able to block the payment in your banking app",
+              "Like others said either you're subscribed in the twitch system or your card is compromised."
+            ],
+            "top_comments": [
+              {
+                "author": "Commercial-Winter151",
+                "date": "2026-08-27",
+                "excerpt": "Are you sure it's through Prime sub? Are you renewing the sub manually every month? Prime doesn't renew, you have to do it yourself. So if it's renewing monthly, that's not Prime.",
+                "score": 22,
+                "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6a09ew/"
+              },
+              {
+                "author": "Mike_0xbigg",
+                "date": "2026-08-27",
+                "excerpt": "Agree with other comment, prime sub does not auto renew, it's a manual action. It also doesn't charge you. Sounds like you have an actual sub and being charged accordingly.",
+                "score": 5,
+                "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6b6h55/"
+              },
+              {
+                "author": "Thyrst49",
+                "date": "2026-08-27",
+                "excerpt": "You should be able to block the payment in your banking app",
+                "score": 5,
+                "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p69xqmd/"
+              },
+              {
+                "author": "Mushroom_Mink",
+                "date": "2026-08-27",
+                "excerpt": "try clicking your profile icon on top right, select subscriptions and see if its still active.",
+                "score": 3,
+                "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6a2yvp/"
+              },
+              {
+                "author": "LegendaryEnvy",
+                "date": "2026-08-28",
+                "excerpt": "To do prime you have to add it manually every month and check a small box below the options. If you don\u2019t it\u2019s automatically a charged amount. And if it\u2019s automatic you\u2019re paying .",
+                "score": 2,
+                "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6bjrg3/"
+              },
+              {
+                "author": "jazthespazz_",
+                "date": "2026-08-28",
+                "excerpt": "can you unlink the card that\u2019s being charged from your twitch account? i\u2019ve only ever subbed using prime myself so i don\u2019t have a card linked, but if they have no payment method they shouldn\u2019t be able to charge you. but i do agree with the other comments, prime subs annoyingly don\u2019t autorenew. if yo",
+                "score": 1,
+                "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6braba/"
+              },
+              {
+                "author": "NerdTitanGaming",
+                "date": "2026-08-29",
+                "excerpt": "Like others said either you're subscribed in the twitch system or your card is compromised. I would cancel your card or lock it when you're not using it.",
+                "score": 1,
+                "url": "https://reddit.com/r/Twitch/comments/1w037sj/comment/p6ou266/"
+              }
+            ]
+          },
+          "published_at": "2026-08-27",
+          "relevance_hint": 0.14,
+          "snippet": "Are you sure it's through Prime sub? Are you renewing the sub manually every month? Prime doesn't renew, you have to do it yourself. So if it's renewing monthly, that's not Prime. Agree with other comment, prime sub does not auto renew, it's a manual action. It also doesn't charge you. Sounds like you have an actual sub and being charged accordingly. You should be able to block the payment in your banking app",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I\u2019m getting charged for nothing",
+          "url": "https://www.reddit.com/r/Twitch/comments/1w037sj/im_getting_charged_for_nothing/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I\u2019m getting charged for nothing",
+      "url": "https://www.reddit.com/r/Twitch/comments/1w037sj/im_getting_charged_for_nothing/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid",
+      "cluster_id": "cluster-4",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.899999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "I've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What made u actually pull the trigger on a paid tool?\nI've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine. Selfish reasons at first, just wanted to stop babysitting scripts. Now I'm at the point where I'm w",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 26,
+          "freshness": 49,
+          "item_id": "R6",
+          "local_rank_score": 0.29800000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-13",
+          "relevance_hint": 0.14,
+          "snippet": "I've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What made u actually pull the trigger on a paid tool?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What made u actually pull the trigger on a paid tool?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"currently paying\" \"app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1w23z3t/what_app_do_you_wish_you_could_build_yourself"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1w23z3t/what_app_do_you_wish_you_could_build_yourself"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What app do you wish you could build yourself?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What\u2019s a stupidly simple app you\u2019re paying for?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/doordash/comments/1vwewdb/shopping_frustration"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/doordash/comments/1vwewdb/shopping_frustration"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Shopping frustration"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/eegb/comments/1vog8ff/would_you_take_this_offer"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/eegb/comments/1vog8ff/would_you_take_this_offer"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Would you take this offer?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-07T03:32:42.152963+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "What\u2019s a stupidly simple app you\u2019re paying for?\nI want to build something small, useful, and completely free. So I\u2019m curious: What\u2019s an app/tool you currently pay for that feels like it shouldn\u2019t cost that much? Could be $2/month, $5/month, $10/month, whatever. Maybe it: Does only one thing really well Has an annoying subscription Is full of features you don't need Has a terrible UI Is missing one feature you really want Has no decent free alternative Tell me what it is, how much you pay, and what you wish was different. If I find a problem t\nIf we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 5
+        },
+        "engagement_score": 63,
+        "freshness": 91,
+        "item_id": "R5",
+        "local_rank_score": 0.44,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "If we're talking any type of app, pretty much every Figma and Wordpress plugin.",
+            "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bas..."
+          ],
+          "top_comments": [
+            {
+              "author": "NellieApp",
+              "date": "2026-09-03",
+              "excerpt": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7m8kgs/"
+            },
+            {
+              "author": "DevJedis",
+              "date": "2026-09-03",
+              "excerpt": "CTRL + C ?",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7mfca8/"
+            },
+            {
+              "author": "Kitchen_Cable6192",
+              "date": "2026-09-04",
+              "excerpt": "nice try to find ideas...",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7vqz1p/"
+            },
+            {
+              "author": "ApprehensiveBar6841",
+              "date": "2026-09-05",
+              "excerpt": "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bases.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7y2g39/"
+            }
+          ]
+        },
+        "published_at": "2026-09-03",
+        "relevance_hint": 0.56,
+        "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What app do you wish you could build yourself?\nIs there any app you\u2019re currently paying for that you wish you could just build yourself and stop paying for the subscription?\nNetflix \ud83d\udc40 I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already building the apps I want to use in this niche ; that being said if I had to develop apps that are not music-related, I'd lean towards making my versions I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.\n\n Then a shoutout cheer to \"Remindio: by the talented u/SnoopCupcakes1583\n\n And a honorable mention to r/Daylio\n\n Finally \"Lapser\" by u/DowngateLabs\n\n Fortunate to have found these.\n\n Use these as a combo.",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 13,
+          "score": 4
+        },
+        "engagement_score": 79,
+        "freshness": 83,
+        "item_id": "R3",
+        "local_rank_score": 0.436,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already bui...",
+            "I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.",
+            "I wish I could build an app that cooked my meals every day, ran my business, and did my grocery shopping, and also that made me immortal, deleted any...",
+            "Yeah. Actually i was searching for the perfect productivity app the last 15 years, never found it :)) So I'm vibe coding it myself.",
+            "Asana, when i was using it, and I did actually build the replacement i wanted (Zoro, https://www."
+          ],
+          "top_comments": [
+            {
+              "author": "somuchecho",
+              "date": "2026-08-30",
+              "excerpt": "Netflix \ud83d\udc40",
+              "score": 3,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6q0ka5/"
+            },
+            {
+              "author": "MusicOfTheApes",
+              "date": "2026-08-30",
+              "excerpt": "I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already building the apps I want to use in this niche ; that being said if I had to develop apps that are not music-related, I'd lean towards making my versions ",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6pve6v/"
+            },
+            {
+              "author": "usmannaeem",
+              "date": "2026-08-30",
+              "excerpt": "I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.\n\n Then a shoutout cheer to \"Remindio: by the talented u/SnoopCupcakes1583\n\n And a honorable mention to r/Daylio\n\n Finally \"Lapser\" by u/DowngateLabs\n\n Fortunate to have found these.\n\n Use these as a combo.",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6sx7vb/"
+            },
+            {
+              "author": "Clean-Data-259",
+              "date": "2026-08-30",
+              "excerpt": "I wish I could build an app that cooked my meals every day, ran my business, and did my grocery shopping, and also that made me immortal, deleted any loud neighbors and loud vehicles, and gave me 100% of my time back every day.",
+              "score": 2,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6q26lh/"
+            },
+            {
+              "author": "daniel7_m",
+              "date": "2026-08-30",
+              "excerpt": "Yeah. Actually i was searching for the perfect productivity app the last 15 years, never found it :)) So I'm vibe coding it myself. Almost ready: getsolumos.com",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6qznru/"
+            },
+            {
+              "author": "Headphone_101",
+              "date": "2026-08-30",
+              "excerpt": "todo list",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6stcwp/"
+            },
+            {
+              "author": "ToSee_ToHear",
+              "date": "2026-09-01",
+              "excerpt": "Asana, when i was using it, and I did actually build the replacement i wanted (Zoro, https://www.getzoro.app), so treat this as biased.\n\n I wanted something that allowed me to have power features for solo users (prioritization, sizing, weekly review) but configured for solo use",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p73x9rp/"
+            }
+          ]
+        },
+        "published_at": "2026-08-30",
+        "relevance_hint": 0.41,
+        "snippet": "Netflix \ud83d\udc40 I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already building the apps I want to use in this niche ; that being said if I had to develop apps that are not music-related, I'd lean towards making my versions I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.\n\n Then a shoutout cheer to \"Remindio: by the talented u/SnoopCupcakes1583\n\n And a honorable mention to r/Daylio\n\n Finally \"Lapser\" by u/DowngateLabs\n\n Fortunate to have found these.\n\n Use these as a combo.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What app do you wish you could build yourself?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1w23z3t/what_app_do_you_wish_you_could_build_yourself/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Shopping frustration\nOkay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on the acceptance rate I know that I can hit pause after delivery before I check out to prevent more or",
+        "container": "doordash",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 21,
+        "freshness": 70,
+        "item_id": "R7",
+        "local_rank_score": 0.34550000000000003,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-23",
+        "relevance_hint": 0.22,
+        "snippet": "Okay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Shopping frustration",
+        "url": "https://www.reddit.com/r/doordash/comments/1vwewdb/shopping_frustration/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Would you take this offer?\nCurrently paying \u00a321 for 50gb, unlimited text and minutes. Been with EE for 14 years and this year my offers for a renewal upgrade on my account were not very good on the app, was going to move to 1pmobile told them I was leaving and got offered this... Essential Plus Plan 125GB data, Unlimited calls and texts. Speed at 100mbps Data gifting and stay connected data feature. Free EU roaming For \u00a315 pm on 24 months plan Move to 1pmobile or take this? (Rejected any offers about their broadband)",
+        "container": "EEGB",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 0
+        },
+        "engagement_score": 15,
+        "freshness": 51,
+        "item_id": "R6",
+        "local_rank_score": 0.29200000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-14",
+        "relevance_hint": 0.22,
+        "snippet": "Currently paying \u00a321 for 50gb, unlimited text and minutes. Been with EE for 14 years and this year my offers for a renewal upgrade on my account were not very good on the app, was going to move to 1pmobile told them I was leaving and got offered this... Essential Plus Plan 125GB data, Unlimited calls and texts. Speed at 100mbps Data gifting and stay connected data feature. Free EU roaming For \u00a315",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Would you take this offer?",
+        "url": "https://www.reddit.com/r/EEGB/comments/1vog8ff/would_you_take_this_offer/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"currently paying\" \"app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"currently paying\" \"app\"?",
+        "search_query": "\"currently paying\" \"app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-08",
+  "range_to": "2026-09-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1w23z3t/what_app_do_you_wish_you_could_build_yourself",
+      "cluster_id": "cluster-1",
+      "engagement": 79,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Netflix \ud83d\udc40 I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already building the apps I want to use in this niche ; that being said if I had to develop apps that are not music-related, I'd lean towards making my versions I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.\n\n Then a shoutout cheer to \"Remindio: by the talented u/SnoopCupcakes1583\n\n And a honorable mention to r/Daylio\n\n Finally \"Lapser\" by u/DowngateLabs\n\n Fortunate to have found these.\n\n Use these as a combo.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What app do you wish you could build yourself?\nIs there any app you\u2019re currently paying for that you wish you could just build yourself and stop paying for the subscription?\nNetflix \ud83d\udc40 I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already building the apps I want to use in this niche ; that being said if I had to develop apps that are not music-related, I'd lean towards making my versions I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.\n\n Then a shoutout cheer to \"Remindio: by the talented u/SnoopCupcakes1583\n\n And a honorable mention to r/Daylio\n\n Finally \"Lapser\" by u/DowngateLabs\n\n Fortunate to have found these.\n\n Use these as a combo.",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 13,
+            "score": 4
+          },
+          "engagement_score": 79,
+          "freshness": 83,
+          "item_id": "R3",
+          "local_rank_score": 0.436,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already bui...",
+              "I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.",
+              "I wish I could build an app that cooked my meals every day, ran my business, and did my grocery shopping, and also that made me immortal, deleted any...",
+              "Yeah. Actually i was searching for the perfect productivity app the last 15 years, never found it :)) So I'm vibe coding it myself.",
+              "Asana, when i was using it, and I did actually build the replacement i wanted (Zoro, https://www."
+            ],
+            "top_comments": [
+              {
+                "author": "somuchecho",
+                "date": "2026-08-30",
+                "excerpt": "Netflix \ud83d\udc40",
+                "score": 3,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6q0ka5/"
+              },
+              {
+                "author": "MusicOfTheApes",
+                "date": "2026-08-30",
+                "excerpt": "I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already building the apps I want to use in this niche ; that being said if I had to develop apps that are not music-related, I'd lean towards making my versions ",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6pve6v/"
+              },
+              {
+                "author": "usmannaeem",
+                "date": "2026-08-30",
+                "excerpt": "I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.\n\n Then a shoutout cheer to \"Remindio: by the talented u/SnoopCupcakes1583\n\n And a honorable mention to r/Daylio\n\n Finally \"Lapser\" by u/DowngateLabs\n\n Fortunate to have found these.\n\n Use these as a combo.",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6sx7vb/"
+              },
+              {
+                "author": "Clean-Data-259",
+                "date": "2026-08-30",
+                "excerpt": "I wish I could build an app that cooked my meals every day, ran my business, and did my grocery shopping, and also that made me immortal, deleted any loud neighbors and loud vehicles, and gave me 100% of my time back every day.",
+                "score": 2,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6q26lh/"
+              },
+              {
+                "author": "daniel7_m",
+                "date": "2026-08-30",
+                "excerpt": "Yeah. Actually i was searching for the perfect productivity app the last 15 years, never found it :)) So I'm vibe coding it myself. Almost ready: getsolumos.com",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6qznru/"
+              },
+              {
+                "author": "Headphone_101",
+                "date": "2026-08-30",
+                "excerpt": "todo list",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p6stcwp/"
+              },
+              {
+                "author": "ToSee_ToHear",
+                "date": "2026-09-01",
+                "excerpt": "Asana, when i was using it, and I did actually build the replacement i wanted (Zoro, https://www.getzoro.app), so treat this as biased.\n\n I wanted something that allowed me to have power features for solo users (prioritization, sizing, weekly review) but configured for solo use",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductivityApps/comments/1w23z3t/comment/p73x9rp/"
+              }
+            ]
+          },
+          "published_at": "2026-08-30",
+          "relevance_hint": 0.41,
+          "snippet": "Netflix \ud83d\udc40 I don't use subscription-based apps and I've been learning iOS dev and making the apps I want to use since 2020, mostly music apps, so I'm already building the apps I want to use in this niche ; that being said if I had to develop apps that are not music-related, I'd lean towards making my versions I'd like to give a shoutout cheer to app \"chromastone\" by the talented u/harveyAptx.\n\n Then a shoutout cheer to \"Remindio: by the talented u/SnoopCupcakes1583\n\n And a honorable mention to r/Daylio\n\n Finally \"Lapser\" by u/DowngateLabs\n\n Fortunate to have found these.\n\n Use these as a combo.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What app do you wish you could build yourself?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1w23z3t/what_app_do_you_wish_you_could_build_yourself/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What app do you wish you could build yourself?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1w23z3t/what_app_do_you_wish_you_could_build_yourself/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for",
+      "cluster_id": "cluster-2",
+      "engagement": 63,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What\u2019s a stupidly simple app you\u2019re paying for?\nI want to build something small, useful, and completely free. So I\u2019m curious: What\u2019s an app/tool you currently pay for that feels like it shouldn\u2019t cost that much? Could be $2/month, $5/month, $10/month, whatever. Maybe it: Does only one thing really well Has an annoying subscription Is full of features you don't need Has a terrible UI Is missing one feature you really want Has no decent free alternative Tell me what it is, how much you pay, and what you wish was different. If I find a problem t\nIf we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 5
+          },
+          "engagement_score": 63,
+          "freshness": 91,
+          "item_id": "R5",
+          "local_rank_score": 0.44,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "If we're talking any type of app, pretty much every Figma and Wordpress plugin.",
+              "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bas..."
+            ],
+            "top_comments": [
+              {
+                "author": "NellieApp",
+                "date": "2026-09-03",
+                "excerpt": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7m8kgs/"
+              },
+              {
+                "author": "DevJedis",
+                "date": "2026-09-03",
+                "excerpt": "CTRL + C ?",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7mfca8/"
+              },
+              {
+                "author": "Kitchen_Cable6192",
+                "date": "2026-09-04",
+                "excerpt": "nice try to find ideas...",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7vqz1p/"
+              },
+              {
+                "author": "ApprehensiveBar6841",
+                "date": "2026-09-05",
+                "excerpt": "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bases.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7y2g39/"
+              }
+            ]
+          },
+          "published_at": "2026-09-03",
+          "relevance_hint": 0.56,
+          "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/doordash/comments/1vwewdb/shopping_frustration",
+      "cluster_id": "cluster-3",
+      "engagement": 21,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 11.099999999999994,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Okay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Shopping frustration\nOkay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on the acceptance rate I know that I can hit pause after delivery before I check out to prevent more or",
+          "container": "doordash",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 21,
+          "freshness": 70,
+          "item_id": "R7",
+          "local_rank_score": 0.34550000000000003,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-23",
+          "relevance_hint": 0.22,
+          "snippet": "Okay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Shopping frustration",
+          "url": "https://www.reddit.com/r/doordash/comments/1vwewdb/shopping_frustration/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Shopping frustration",
+      "url": "https://www.reddit.com/r/doordash/comments/1vwewdb/shopping_frustration/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/eegb/comments/1vog8ff/would_you_take_this_offer",
+      "cluster_id": "cluster-4",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 30.0,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 7.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "Currently paying \u00a321 for 50gb, unlimited text and minutes. Been with EE for 14 years and this year my offers for a renewal upgrade on my account were not very good on the app, was going to move to 1pmobile told them I was leaving and got offered this... Essential Plus Plan 125GB data, Unlimited calls and texts. Speed at 100mbps Data gifting and stay connected data feature. Free EU roaming For \u00a315",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Would you take this offer?\nCurrently paying \u00a321 for 50gb, unlimited text and minutes. Been with EE for 14 years and this year my offers for a renewal upgrade on my account were not very good on the app, was going to move to 1pmobile told them I was leaving and got offered this... Essential Plus Plan 125GB data, Unlimited calls and texts. Speed at 100mbps Data gifting and stay connected data feature. Free EU roaming For \u00a315 pm on 24 months plan Move to 1pmobile or take this? (Rejected any offers about their broadband)",
+          "container": "EEGB",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 0
+          },
+          "engagement_score": 15,
+          "freshness": 51,
+          "item_id": "R6",
+          "local_rank_score": 0.29200000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-14",
+          "relevance_hint": 0.22,
+          "snippet": "Currently paying \u00a321 for 50gb, unlimited text and minutes. Been with EE for 14 years and this year my offers for a renewal upgrade on my account were not very good on the app, was going to move to 1pmobile told them I was leaving and got offered this... Essential Plus Plan 125GB data, Unlimited calls and texts. Speed at 100mbps Data gifting and stay connected data feature. Free EU roaming For \u00a315",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Would you take this offer?",
+          "url": "https://www.reddit.com/r/EEGB/comments/1vog8ff/would_you_take_this_offer/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Would you take this offer?",
+      "url": "https://www.reddit.com/r/EEGB/comments/1vog8ff/would_you_take_this_offer/"
+    }
+  ],
+  "topic": "\"currently paying\" \"app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
