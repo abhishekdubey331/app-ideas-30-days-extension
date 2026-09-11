@@ -1,0 +1,684 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1vxu5go/i_got_sick_of_paying_subscriptions_for_basic"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1vxu5go/i_got_sick_of_paying_subscriptions_for_basic"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got sick of paying subscriptions for basic planners, so I built my own (and made it 100% free)."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What made u actually pull the trigger on a paid tool?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/musicsuggestions/comments/1vu1pkd/music_app_suggestions"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/musicsuggestions/comments/1vu1pkd/music_app_suggestions"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Music app suggestions?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-11T22:19:48.155692+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I got tired of paying for music apps so I built my own, free and open source (Veluna)\nSpotify Free has ads every few songs. YouTube Music wants a subscription just to play in the background. I got sick of both, so over the last few months I built Veluna, a free desktop music player that streams from YouTube through yt-dlp and mpv, wrapped in a Tauri (Rust + React) shell. No account, no ads, no telemetry, no subscription. Everything runs locally on your machine. What it actually does: - Streams and searches YouTube directly, split into YT Music and Video results - Download tracks\nAndroid? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+        "container": "SpotifyLatestModAPK",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 31,
+          "score": 44
+        },
+        "engagement_score": 69,
+        "freshness": 64,
+        "item_id": "R2",
+        "local_rank_score": 0.3785,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "What sets it apart from apps like MetroList and Meld?",
+            "Can it sync with my google account?",
+            "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down.",
+            "como activar Letras sincronizadas ? es automatico ?",
+            "What does flax seeds have to do with it"
+          ],
+          "top_comments": [
+            {
+              "author": "black_phantom_750",
+              "date": "2026-08-24",
+              "excerpt": "Android?",
+              "score": 3,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5mo9nz/"
+            },
+            {
+              "author": "SusejLegend",
+              "date": "2026-08-24",
+              "excerpt": "What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5nvru8/"
+            },
+            {
+              "author": "Erpt_77",
+              "date": "2026-08-25",
+              "excerpt": "Can it sync with my google account?",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sgud7/"
+            },
+            {
+              "author": "ToxicVenom09",
+              "date": "2026-08-24",
+              "excerpt": "Works on android?",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5moonq/"
+            },
+            {
+              "author": "Erpt_77",
+              "date": "2026-08-25",
+              "excerpt": "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down. Great work youve done here!",
+              "score": 2,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sfkx8/"
+            },
+            {
+              "author": "Murky-Relation-7337",
+              "date": "2026-08-24",
+              "excerpt": "como activar Letras sincronizadas ? es automatico ?",
+              "score": 1,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5o8m22/"
+            },
+            {
+              "author": "WerewolfGullible15",
+              "date": "2026-08-25",
+              "excerpt": "What does flax seeds have to do with it",
+              "score": 1,
+              "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5wdfnq/"
+            }
+          ]
+        },
+        "published_at": "2026-08-24",
+        "relevance_hint": 0.22,
+        "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+        "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got sick of paying subscriptions for basic planners, so I built my own (and made it 100% free).\nHey guys. I\u2019ve been dealing with serious app fatigue lately. It feels like every decent productivity app out there either locks the good features behind a paywall or is so cluttered that it takes more time to manage the app than my actual tasks. I just wanted something straightforward to track my daily routine, my expenses, and a multi-calendar without jumping between five different apps. So, I built Limbool Planner to solve my own headache. It's completely free. No hidden premium tiers, no ads.\ncombining daily routines, expenses, and calendars into one app is ambitious. have you talked to anyone outside your own use case about which of those three they actually want together? might be worth narrowing the positioning before you spread too thin Vou come\u00e7ar usar. Muito obrigado. Damn dude, this is really good.",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 17,
+          "score": 1
+        },
+        "engagement_score": 18,
+        "freshness": 65,
+        "item_id": "R4",
+        "local_rank_score": 0.2975,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "combining daily routines, expenses, and calendars into one app is ambitious.",
+            "Vou come\u00e7ar usar. Muito obrigado.",
+            "Damn dude, this is really good.",
+            "May I ask from the technical side, how do you make it free? Where does the app live?",
+            "For someone like me who likes to keep everything planned and organised, think this will be helpful"
+          ],
+          "top_comments": [
+            {
+              "author": "Powerful-Word-4939",
+              "date": "2026-08-25",
+              "excerpt": "combining daily routines, expenses, and calendars into one app is ambitious. have you talked to anyone outside your own use case about which of those three they actually want together? might be worth narrowing the positioning before you spread too thin",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5rrt61/"
+            },
+            {
+              "author": "Educational-Box-1584",
+              "date": "2026-08-25",
+              "excerpt": "Vou come\u00e7ar usar. Muito obrigado.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5s73k5/"
+            },
+            {
+              "author": "ResearchLow9875",
+              "date": "2026-08-25",
+              "excerpt": "Damn dude, this is really good.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5sczp2/"
+            },
+            {
+              "author": "OkConversation2330",
+              "date": "2026-08-25",
+              "excerpt": "May I ask from the technical side, how do you make it free? Where does the app live?",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5rm76v/"
+            },
+            {
+              "author": "CryptographerOld9077",
+              "date": "2026-08-25",
+              "excerpt": "For someone like me who likes to keep everything planned and organised, think this will be helpful",
+              "score": -1,
+              "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5rl7qo/"
+            }
+          ]
+        },
+        "published_at": "2026-08-25",
+        "relevance_hint": 0.24,
+        "snippet": "combining daily routines, expenses, and calendars into one app is ambitious. have you talked to anyone outside your own use case about which of those three they actually want together? might be worth narrowing the positioning before you spread too thin Vou come\u00e7ar usar. Muito obrigado. Damn dude, this is really good.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got sick of paying subscriptions for basic planners, so I built my own (and made it 100% free).",
+        "url": "https://www.reddit.com/r/SideProject/comments/1vxu5go/i_got_sick_of_paying_subscriptions_for_basic/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Music app suggestions?\nI know this place is supposed to be for music recommendations but I need recommendations for a new streaming platform that\u2019s ANYTHING other than Spotify! I\u2019m absolutely sick of being bombarded with adds in between every other song I\u2019d also very much like it to be free, It\u2019s already hard for me to keep in mind how much money I actually have with my ADHD It isn\u2019t a requirement(but also kinda is isn\u2019t) is the ability to move my playlists from Spotify to whatever the new app is(idk if any other app",
+        "container": "musicsuggestions",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 1
+        },
+        "engagement_score": 10,
+        "freshness": 58,
+        "item_id": "R6",
+        "local_rank_score": 0.272,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-21",
+        "relevance_hint": 0.43,
+        "snippet": "I know this place is supposed to be for music recommendations but I need recommendations for a new streaming platform that\u2019s ANYTHING other than Spotify! I\u2019m absolutely sick of being bombarded with adds in between every other song I\u2019d also very much like it to be free, It\u2019s already hard for me to keep in mind how much money I actually have with my ADHD It isn\u2019t a requirement(but also kinda is isn\u2019",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Music app suggestions?",
+        "url": "https://www.reddit.com/r/musicsuggestions/comments/1vu1pkd/music_app_suggestions/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What made u actually pull the trigger on a paid tool?\nI've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine. Selfish reasons at first, just wanted to stop babysitting scripts. Now I'm at the point where I'm w",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 14,
+        "freshness": 41,
+        "item_id": "R7",
+        "local_rank_score": 0.266,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-13",
+        "relevance_hint": 0.14,
+        "snippet": "I've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What made u actually pull the trigger on a paid tool?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-12",
+  "range_to": "2026-09-11",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/spotifylatestmodapk/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built",
+      "cluster_id": "cluster-1",
+      "engagement": 69,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 9.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of paying for music apps so I built my own, free and open source (Veluna)\nSpotify Free has ads every few songs. YouTube Music wants a subscription just to play in the background. I got sick of both, so over the last few months I built Veluna, a free desktop music player that streams from YouTube through yt-dlp and mpv, wrapped in a Tauri (Rust + React) shell. No account, no ads, no telemetry, no subscription. Everything runs locally on your machine. What it actually does: - Streams and searches YouTube directly, split into YT Music and Video results - Download tracks\nAndroid? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+          "container": "SpotifyLatestModAPK",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 31,
+            "score": 44
+          },
+          "engagement_score": 69,
+          "freshness": 64,
+          "item_id": "R2",
+          "local_rank_score": 0.3785,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "What sets it apart from apps like MetroList and Meld?",
+              "Can it sync with my google account?",
+              "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down.",
+              "como activar Letras sincronizadas ? es automatico ?",
+              "What does flax seeds have to do with it"
+            ],
+            "top_comments": [
+              {
+                "author": "black_phantom_750",
+                "date": "2026-08-24",
+                "excerpt": "Android?",
+                "score": 3,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5mo9nz/"
+              },
+              {
+                "author": "SusejLegend",
+                "date": "2026-08-24",
+                "excerpt": "What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5nvru8/"
+              },
+              {
+                "author": "Erpt_77",
+                "date": "2026-08-25",
+                "excerpt": "Can it sync with my google account?",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sgud7/"
+              },
+              {
+                "author": "ToxicVenom09",
+                "date": "2026-08-24",
+                "excerpt": "Works on android?",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5moonq/"
+              },
+              {
+                "author": "Erpt_77",
+                "date": "2026-08-25",
+                "excerpt": "Love to see something not built on electron, I have a very low end laptop and apps that are built with electron really slow it down. Great work youve done here!",
+                "score": 2,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5sfkx8/"
+              },
+              {
+                "author": "Murky-Relation-7337",
+                "date": "2026-08-24",
+                "excerpt": "como activar Letras sincronizadas ? es automatico ?",
+                "score": 1,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5o8m22/"
+              },
+              {
+                "author": "WerewolfGullible15",
+                "date": "2026-08-25",
+                "excerpt": "What does flax seeds have to do with it",
+                "score": 1,
+                "url": "https://reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/comment/p5wdfnq/"
+              }
+            ]
+          },
+          "published_at": "2026-08-24",
+          "relevance_hint": 0.22,
+          "snippet": "Android? What sets it apart from apps like MetroList and Meld? Every now and then, community-made alternatives pop up, and honestly, it\u2019s hard to decide when they all follow the same pattern. The only ones that really stand out are Meld and MetroFuse\u2014they integrate other services instead of just the usual Yo Can it sync with my google account?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+          "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of paying for music apps so I built my own, free and open source (Veluna)",
+      "url": "https://www.reddit.com/r/SpotifyLatestModAPK/comments/1vx7t8h/i_got_tired_of_paying_for_music_apps_so_i_built/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1vxu5go/i_got_sick_of_paying_subscriptions_for_basic",
+      "cluster_id": "cluster-2",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R4",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "combining daily routines, expenses, and calendars into one app is ambitious. have you talked to anyone outside your own use case about which of those three they actually want together? might be worth narrowing the positioning before you spread too thin Vou come\u00e7ar usar. Muito obrigado. Damn dude, this is really good.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got sick of paying subscriptions for basic planners, so I built my own (and made it 100% free).\nHey guys. I\u2019ve been dealing with serious app fatigue lately. It feels like every decent productivity app out there either locks the good features behind a paywall or is so cluttered that it takes more time to manage the app than my actual tasks. I just wanted something straightforward to track my daily routine, my expenses, and a multi-calendar without jumping between five different apps. So, I built Limbool Planner to solve my own headache. It's completely free. No hidden premium tiers, no ads.\ncombining daily routines, expenses, and calendars into one app is ambitious. have you talked to anyone outside your own use case about which of those three they actually want together? might be worth narrowing the positioning before you spread too thin Vou come\u00e7ar usar. Muito obrigado. Damn dude, this is really good.",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 17,
+            "score": 1
+          },
+          "engagement_score": 18,
+          "freshness": 65,
+          "item_id": "R4",
+          "local_rank_score": 0.2975,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "combining daily routines, expenses, and calendars into one app is ambitious.",
+              "Vou come\u00e7ar usar. Muito obrigado.",
+              "Damn dude, this is really good.",
+              "May I ask from the technical side, how do you make it free? Where does the app live?",
+              "For someone like me who likes to keep everything planned and organised, think this will be helpful"
+            ],
+            "top_comments": [
+              {
+                "author": "Powerful-Word-4939",
+                "date": "2026-08-25",
+                "excerpt": "combining daily routines, expenses, and calendars into one app is ambitious. have you talked to anyone outside your own use case about which of those three they actually want together? might be worth narrowing the positioning before you spread too thin",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5rrt61/"
+              },
+              {
+                "author": "Educational-Box-1584",
+                "date": "2026-08-25",
+                "excerpt": "Vou come\u00e7ar usar. Muito obrigado.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5s73k5/"
+              },
+              {
+                "author": "ResearchLow9875",
+                "date": "2026-08-25",
+                "excerpt": "Damn dude, this is really good.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5sczp2/"
+              },
+              {
+                "author": "OkConversation2330",
+                "date": "2026-08-25",
+                "excerpt": "May I ask from the technical side, how do you make it free? Where does the app live?",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5rm76v/"
+              },
+              {
+                "author": "CryptographerOld9077",
+                "date": "2026-08-25",
+                "excerpt": "For someone like me who likes to keep everything planned and organised, think this will be helpful",
+                "score": -1,
+                "url": "https://reddit.com/r/SideProject/comments/1vxu5go/comment/p5rl7qo/"
+              }
+            ]
+          },
+          "published_at": "2026-08-25",
+          "relevance_hint": 0.24,
+          "snippet": "combining daily routines, expenses, and calendars into one app is ambitious. have you talked to anyone outside your own use case about which of those three they actually want together? might be worth narrowing the positioning before you spread too thin Vou come\u00e7ar usar. Muito obrigado. Damn dude, this is really good.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got sick of paying subscriptions for basic planners, so I built my own (and made it 100% free).",
+          "url": "https://www.reddit.com/r/SideProject/comments/1vxu5go/i_got_sick_of_paying_subscriptions_for_basic/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got sick of paying subscriptions for basic planners, so I built my own (and made it 100% free).",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vxu5go/i_got_sick_of_paying_subscriptions_for_basic/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid",
+      "cluster_id": "cluster-3",
+      "engagement": 14,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 28.0,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 5.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What made u actually pull the trigger on a paid tool?\nI've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine. Selfish reasons at first, just wanted to stop babysitting scripts. Now I'm at the point where I'm w",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 14,
+          "freshness": 41,
+          "item_id": "R7",
+          "local_rank_score": 0.266,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-13",
+          "relevance_hint": 0.14,
+          "snippet": "I've got a dumb amount of AHK scripts held together with hope. Most of 'em still work. A few break every time Windows or some app updates and I gotta go dig thru Task Scheduler and remember why I even wrote 'em. I got sick of maintaining that pile so I started building my own thing... voice commands for stuff I do a hundred times a day, running fully offline, no cloud, nothing leaving the machine.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What made u actually pull the trigger on a paid tool?",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What made u actually pull the trigger on a paid tool?",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1vnf7yh/what_made_u_actually_pull_the_trigger_on_a_paid/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/musicsuggestions/comments/1vu1pkd/music_app_suggestions",
+      "cluster_id": "cluster-4",
+      "engagement": 10,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 20.0,
+      "item_id": "R6",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.200000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "I know this place is supposed to be for music recommendations but I need recommendations for a new streaming platform that\u2019s ANYTHING other than Spotify! I\u2019m absolutely sick of being bombarded with adds in between every other song I\u2019d also very much like it to be free, It\u2019s already hard for me to keep in mind how much money I actually have with my ADHD It isn\u2019t a requirement(but also kinda is isn\u2019",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Music app suggestions?\nI know this place is supposed to be for music recommendations but I need recommendations for a new streaming platform that\u2019s ANYTHING other than Spotify! I\u2019m absolutely sick of being bombarded with adds in between every other song I\u2019d also very much like it to be free, It\u2019s already hard for me to keep in mind how much money I actually have with my ADHD It isn\u2019t a requirement(but also kinda is isn\u2019t) is the ability to move my playlists from Spotify to whatever the new app is(idk if any other app",
+          "container": "musicsuggestions",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 1
+          },
+          "engagement_score": 10,
+          "freshness": 58,
+          "item_id": "R6",
+          "local_rank_score": 0.272,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-21",
+          "relevance_hint": 0.43,
+          "snippet": "I know this place is supposed to be for music recommendations but I need recommendations for a new streaming platform that\u2019s ANYTHING other than Spotify! I\u2019m absolutely sick of being bombarded with adds in between every other song I\u2019d also very much like it to be free, It\u2019s already hard for me to keep in mind how much money I actually have with my ADHD It isn\u2019t a requirement(but also kinda is isn\u2019",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Music app suggestions?",
+          "url": "https://www.reddit.com/r/musicsuggestions/comments/1vu1pkd/music_app_suggestions/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Music app suggestions?",
+      "url": "https://www.reddit.com/r/musicsuggestions/comments/1vu1pkd/music_app_suggestions/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
