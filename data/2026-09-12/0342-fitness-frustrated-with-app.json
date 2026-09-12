@@ -1,0 +1,588 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ui_design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/ui_design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-12T03:42:47.743868+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.\nTL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered, and it takes too many clicks just to log a simple set. I just wanted something fast, clean, and in d",
+        "container": "UI_Design",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 94,
+        "item_id": "R8",
+        "local_rank_score": 0.3845,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-09",
+        "relevance_hint": 0.22,
+        "snippet": "TL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered,",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.",
+        "url": "https://www.reddit.com/r/UI_Design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads\nHey everyone! \ud83d\udc4b (See screenshots of the UI and the Biological Fatigue Map here: [here]) I\u2019ve been lifting for a while, but I got incredibly frustrated with the current state of fitness apps. They are usually 300MB+, require constant internet connection, hide basic features behind $10/month paywalls, and are packed with ads that pop up right when you are resting between heavy sets. So, as a developer, I decided to scratch my own itch and build GymTracker. My main goal was extreme performance and\nAdded:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 0
+        },
+        "engagement_score": 16,
+        "freshness": 79,
+        "item_id": "R2",
+        "local_rank_score": 0.36300000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.",
+            "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too"
+          ],
+          "top_comments": [
+            {
+              "author": "medialantern",
+              "date": "2026-09-02",
+              "excerpt": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt",
+              "score": 2,
+              "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7f01mo/"
+            },
+            {
+              "author": "Outrageous_Ad_4801",
+              "date": "2026-09-02",
+              "excerpt": "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+              "score": 0,
+              "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7fnblj/"
+            }
+          ]
+        },
+        "published_at": "2026-09-02",
+        "relevance_hint": 0.22,
+        "snippet": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads",
+        "url": "https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!\nHey everyone, See screanshots of the UI and the Biological Fatigue Map here: [here] Like many of you, I was frustrated with fitness apps that either look like an Excel spreadsheet or charge a premium just to track your 1RM and volume. I spent the last few months building GymTracker PRO for myself, and I've decided to open it up. My main goal was to make something extremely visual and fast so I don't waste time staring at my phone between sets. What makes it different: Visual Muscle Fatigue Map:\nHey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions.\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I'll try it out.",
+        "container": "workout",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 0
+        },
+        "engagement_score": 8,
+        "freshness": 82,
+        "item_id": "R5",
+        "local_rank_score": 0.36250000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": [
+            {
+              "author": "AutoModerator",
+              "date": "2026-09-03",
+              "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions.\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1w6cnja/comment/p7lw7dy/"
+            },
+            {
+              "author": "kcsween74",
+              "date": "2026-09-03",
+              "excerpt": "I'll try it out.",
+              "score": 1,
+              "url": "https://reddit.com/r/workout/comments/1w6cnja/comment/p7m3gmz/"
+            }
+          ]
+        },
+        "published_at": "2026-09-03",
+        "relevance_hint": 0.22,
+        "snippet": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions.\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I'll try it out.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!",
+        "url": "https://www.reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise\nI\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery trends, with a 10-day battery and a minimalist band design for people who train, walk, or just want\nVous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+        "container": "FitnessTrackers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 4
+        },
+        "engagement_score": 29,
+        "freshness": 71,
+        "item_id": "R3",
+        "local_rank_score": 0.356,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it."
+          ],
+          "top_comments": [
+            {
+              "author": "EducationalWolf4429",
+              "date": "2026-08-29",
+              "excerpt": "Vous avez une photo ?",
+              "score": 1,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mbamx/"
+            },
+            {
+              "author": "PurpleDrink3926",
+              "date": "2026-08-29",
+              "excerpt": "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+              "score": 1,
+              "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mhpps/"
+            }
+          ]
+        },
+        "published_at": "2026-08-29",
+        "relevance_hint": 0.22,
+        "snippet": "Vous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+        "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-13",
+  "range_to": "2026-09-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just",
+      "cluster_id": "cluster-1",
+      "engagement": 29,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 11.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "Vous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise\nI\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery trends, with a 10-day battery and a minimalist band design for people who train, walk, or just want\nVous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+          "container": "FitnessTrackers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 4
+          },
+          "engagement_score": 29,
+          "freshness": 71,
+          "item_id": "R3",
+          "local_rank_score": 0.356,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it."
+            ],
+            "top_comments": [
+              {
+                "author": "EducationalWolf4429",
+                "date": "2026-08-29",
+                "excerpt": "Vous avez une photo ?",
+                "score": 1,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mbamx/"
+              },
+              {
+                "author": "PurpleDrink3926",
+                "date": "2026-08-29",
+                "excerpt": "Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+                "score": 1,
+                "url": "https://reddit.com/r/FitnessTrackers/comments/1w1ncpm/comment/p6mhpps/"
+              }
+            ]
+          },
+          "published_at": "2026-08-29",
+          "relevance_hint": 0.22,
+          "snippet": "Vous avez une photo ? Where is it available? I googled it and looked on Amazon and couldn\u2019t find it.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+          "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+      "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps",
+      "cluster_id": "cluster-2",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.899999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads\nHey everyone! \ud83d\udc4b (See screenshots of the UI and the Biological Fatigue Map here: [here]) I\u2019ve been lifting for a while, but I got incredibly frustrated with the current state of fitness apps. They are usually 300MB+, require constant internet connection, hide basic features behind $10/month paywalls, and are packed with ads that pop up right when you are resting between heavy sets. So, as a developer, I decided to scratch my own itch and build GymTracker. My main goal was extreme performance and\nAdded:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 0
+          },
+          "engagement_score": 16,
+          "freshness": 79,
+          "item_id": "R2",
+          "local_rank_score": 0.36300000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.",
+              "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too"
+            ],
+            "top_comments": [
+              {
+                "author": "medialantern",
+                "date": "2026-09-02",
+                "excerpt": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt",
+                "score": 2,
+                "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7f01mo/"
+              },
+              {
+                "author": "Outrageous_Ad_4801",
+                "date": "2026-09-02",
+                "excerpt": "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+                "score": 0,
+                "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7fnblj/"
+              }
+            ]
+          },
+          "published_at": "2026-09-02",
+          "relevance_hint": 0.22,
+          "snippet": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads",
+          "url": "https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads",
+      "url": "https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind",
+      "cluster_id": "cluster-3",
+      "engagement": 8,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 16.0,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions.\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I'll try it out.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!\nHey everyone, See screanshots of the UI and the Biological Fatigue Map here: [here] Like many of you, I was frustrated with fitness apps that either look like an Excel spreadsheet or charge a premium just to track your 1RM and volume. I spent the last few months building GymTracker PRO for myself, and I've decided to open it up. My main goal was to make something extremely visual and fast so I don't waste time staring at my phone between sets. What makes it different: Visual Muscle Fatigue Map:\nHey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions.\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I'll try it out.",
+          "container": "workout",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 0
+          },
+          "engagement_score": 8,
+          "freshness": 82,
+          "item_id": "R5",
+          "local_rank_score": 0.36250000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": [
+              {
+                "author": "AutoModerator",
+                "date": "2026-09-03",
+                "excerpt": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions.\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1w6cnja/comment/p7lw7dy/"
+              },
+              {
+                "author": "kcsween74",
+                "date": "2026-09-03",
+                "excerpt": "I'll try it out.",
+                "score": 1,
+                "url": "https://reddit.com/r/workout/comments/1w6cnja/comment/p7m3gmz/"
+              }
+            ]
+          },
+          "published_at": "2026-09-03",
+          "relevance_hint": 0.22,
+          "snippet": "Hey, thanks for making a new post! Please be sure to assign your post with flair for the best support! Also, check out this post to answer common questions.\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I'll try it out.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!",
+          "url": "https://www.reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!",
+      "url": "https://www.reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ui_design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R8",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "TL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered,",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.\nTL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered, and it takes too many clicks just to log a simple set. I just wanted something fast, clean, and in d",
+          "container": "UI_Design",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 94,
+          "item_id": "R8",
+          "local_rank_score": 0.3845,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-09",
+          "relevance_hint": 0.22,
+          "snippet": "TL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered,",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.",
+          "url": "https://www.reddit.com/r/UI_Design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.",
+      "url": "https://www.reddit.com/r/UI_Design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
