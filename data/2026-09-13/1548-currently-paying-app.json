@@ -1,0 +1,642 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"currently paying\" \"app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/degoogle/comments/1vra28q/my_path_to_degoogling"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/degoogle/comments/1vra28q/my_path_to_degoogling"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "My path to degoogling"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What\u2019s a stupidly simple app you\u2019re paying for?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/uae/comments/1wbhulw/e_how_to_escalate_complaint"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/uae/comments/1wbhulw/e_how_to_escalate_complaint"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "E& - How to escalate complaint"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-13T15:48:34.281222+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "E& - How to escalate complaint\nHi all, I thought I\u2019d try my luck here. I setup autopay about three years ago for my mobile phone bill with E&. I am now trying to disable this as I have changed plans. I have tried doing this in person at their store, via the mobile app and by calling their customer care. The app says I have a smartpay on my account which indicates that I have a device with E& that I am currently paying for. However, I don\u2019t have any devices with E&, just the postpaid account that I am paying for. I have raised\nKeep bugging them until you reach their managers Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms",
+        "container": "UAE",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 4
+        },
+        "engagement_score": 21,
+        "freshness": 91,
+        "item_id": "R5",
+        "local_rank_score": 0.398,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Keep bugging them until you reach their managers",
+            "Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms"
+          ],
+          "top_comments": [
+            {
+              "author": "United_Pressure_9983",
+              "date": "2026-09-09",
+              "excerpt": "Keep bugging them until you reach their managers",
+              "score": 2,
+              "url": "https://reddit.com/r/UAE/comments/1wbhulw/comment/p8q8khh/"
+            },
+            {
+              "author": "Purple-Zucchini-307",
+              "date": "2026-09-09",
+              "excerpt": "Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms",
+              "score": 1,
+              "url": "https://reddit.com/r/UAE/comments/1wbhulw/comment/p8qqr8j/"
+            }
+          ]
+        },
+        "published_at": "2026-09-09",
+        "relevance_hint": 0.22,
+        "snippet": "Keep bugging them until you reach their managers Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "E& - How to escalate complaint",
+        "url": "https://www.reddit.com/r/UAE/comments/1wbhulw/e_how_to_escalate_complaint/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What\u2019s a stupidly simple app you\u2019re paying for?\nI want to build something small, useful, and completely free. So I\u2019m curious: What\u2019s an app/tool you currently pay for that feels like it shouldn\u2019t cost that much? Could be $2/month, $5/month, $10/month, whatever. Maybe it: Does only one thing really well Has an annoying subscription Is full of features you don't need Has a terrible UI Is missing one feature you really want Has no decent free alternative Tell me what it is, how much you pay, and what you wish was different. If I find a problem t\nIf we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 5
+        },
+        "engagement_score": 26,
+        "freshness": 79,
+        "item_id": "R4",
+        "local_rank_score": 0.37300000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "If we're talking any type of app, pretty much every Figma and Wordpress plugin.",
+            "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bas..."
+          ],
+          "top_comments": [
+            {
+              "author": "NellieApp",
+              "date": "2026-09-03",
+              "excerpt": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7m8kgs/"
+            },
+            {
+              "author": "DevJedis",
+              "date": "2026-09-03",
+              "excerpt": "CTRL + C ?",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7mfca8/"
+            },
+            {
+              "author": "Kitchen_Cable6192",
+              "date": "2026-09-04",
+              "excerpt": "nice try to find ideas...",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7vqz1p/"
+            },
+            {
+              "author": "ApprehensiveBar6841",
+              "date": "2026-09-05",
+              "excerpt": "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bases.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7y2g39/"
+            }
+          ]
+        },
+        "published_at": "2026-09-03",
+        "relevance_hint": 0.56,
+        "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "My path to degoogling\nThis are my services/apps i have changed Most self-hosted. Im still using android, i am not thinking to change to grphene os, but i did erase samsungs bloatware. I am not currently paying mullvad but i may in the future I was wondering if i should change any other services to enhance this ultimate privacy setup\nChrome\n\n --> Brave\n\n is just Chrome --> Chrome you can use ungoogled chromium\n\n as browser or waterfox Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+        "container": "degoogle",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 48,
+          "score": 295
+        },
+        "engagement_score": 100,
+        "freshness": 47,
+        "item_id": "R1",
+        "local_rank_score": 0.367,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+            "idk if windows straight to arch linux is a good idea",
+            "Chrome\n\n --> Brave\n\n is just Chrome --> Chrome",
+            "you can use ungoogled chromium\n\n as browser or waterfox",
+            "Immich mentioned \ud83d\udde3\ud83d\udde3\ud83d\udde3\n\n that's the work of our people, folks",
+            "Ise titanium browser. For vpn, I would recommend Tor VPN or Bitmask (RiseupVPN).",
+            "bro what does proton bring, is that a good email (and is it bale to use my gmail account i mean i cant just leave that)",
+            "Did you go straight from win11 to arch or did you just go straight to arch? Either way this is pretty nice"
+          ],
+          "top_comments": [
+            {
+              "author": "Adjective_Noun_42069",
+              "date": "2026-08-18",
+              "excerpt": "Chrome\n\n --> Brave\n\n is just Chrome --> Chrome",
+              "score": 12,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4g0pov/"
+            },
+            {
+              "author": "urbanmagista",
+              "date": "2026-08-18",
+              "excerpt": "you can use ungoogled chromium\n\n as browser or waterfox",
+              "score": 5,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4hrzuh/"
+            },
+            {
+              "author": "Few_Needleworker8744",
+              "date": "2026-08-18",
+              "excerpt": "Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+              "score": 4,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4fs1ol/"
+            },
+            {
+              "author": "DarkDrifter_13",
+              "date": "2026-08-18",
+              "excerpt": "Vaultwarden will long last?",
+              "score": 3,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4cp444/"
+            },
+            {
+              "author": "B1g_BuddhAH",
+              "date": "2026-08-19",
+              "excerpt": "idk if windows straight to arch linux is a good idea",
+              "score": 2,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4kye98/"
+            },
+            {
+              "author": "anhngoc1227",
+              "date": "2026-08-19",
+              "excerpt": "Immich mentioned \ud83d\udde3\ud83d\udde3\ud83d\udde3\n\n that's the work of our people, folks",
+              "score": 1,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4m3jm5/"
+            },
+            {
+              "author": "Humble-Elevator3040",
+              "date": "2026-08-19",
+              "excerpt": "Ise titanium browser. For vpn, I would recommend Tor VPN or Bitmask (RiseupVPN). Also Tuta mail will be better. Use it with addy.io (AnonAddy). And startpage is better for me because it has google index (which is more accurate).",
+              "score": 1,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4p23uu/"
+            },
+            {
+              "author": "124k3",
+              "date": "2026-08-20",
+              "excerpt": "bro what does proton bring, is that a good email (and is it bale to use my gmail account i mean i cant just leave that)",
+              "score": 1,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4umfuk/"
+            },
+            {
+              "author": "Ne0Trees",
+              "date": "2026-08-22",
+              "excerpt": "proton pass",
+              "score": 1,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p579lzd/"
+            },
+            {
+              "author": "Gloomy_Acadia_445",
+              "date": "2026-08-18",
+              "excerpt": "Did you go straight from win11 to arch or did you just go straight to arch? Either way this is pretty nice",
+              "score": 1,
+              "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4cjwkj/"
+            }
+          ]
+        },
+        "published_at": "2026-08-18",
+        "relevance_hint": 0.14,
+        "snippet": "Chrome\n\n --> Brave\n\n is just Chrome --> Chrome you can use ungoogled chromium\n\n as browser or waterfox Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "My path to degoogling",
+        "url": "https://www.reddit.com/r/degoogle/comments/1vra28q/my_path_to_degoogling/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"currently paying\" \"app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"currently paying\" \"app\"?",
+        "search_query": "\"currently paying\" \"app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-14",
+  "range_to": "2026-09-13",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/degoogle/comments/1vra28q/my_path_to_degoogling",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R1",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Chrome\n\n --> Brave\n\n is just Chrome --> Chrome you can use ungoogled chromium\n\n as browser or waterfox Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "My path to degoogling\nThis are my services/apps i have changed Most self-hosted. Im still using android, i am not thinking to change to grphene os, but i did erase samsungs bloatware. I am not currently paying mullvad but i may in the future I was wondering if i should change any other services to enhance this ultimate privacy setup\nChrome\n\n --> Brave\n\n is just Chrome --> Chrome you can use ungoogled chromium\n\n as browser or waterfox Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+          "container": "degoogle",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 48,
+            "score": 295
+          },
+          "engagement_score": 100,
+          "freshness": 47,
+          "item_id": "R1",
+          "local_rank_score": 0.367,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+              "idk if windows straight to arch linux is a good idea",
+              "Chrome\n\n --> Brave\n\n is just Chrome --> Chrome",
+              "you can use ungoogled chromium\n\n as browser or waterfox",
+              "Immich mentioned \ud83d\udde3\ud83d\udde3\ud83d\udde3\n\n that's the work of our people, folks",
+              "Ise titanium browser. For vpn, I would recommend Tor VPN or Bitmask (RiseupVPN).",
+              "bro what does proton bring, is that a good email (and is it bale to use my gmail account i mean i cant just leave that)",
+              "Did you go straight from win11 to arch or did you just go straight to arch? Either way this is pretty nice"
+            ],
+            "top_comments": [
+              {
+                "author": "Adjective_Noun_42069",
+                "date": "2026-08-18",
+                "excerpt": "Chrome\n\n --> Brave\n\n is just Chrome --> Chrome",
+                "score": 12,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4g0pov/"
+              },
+              {
+                "author": "urbanmagista",
+                "date": "2026-08-18",
+                "excerpt": "you can use ungoogled chromium\n\n as browser or waterfox",
+                "score": 5,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4hrzuh/"
+              },
+              {
+                "author": "Few_Needleworker8744",
+                "date": "2026-08-18",
+                "excerpt": "Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+                "score": 4,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4fs1ol/"
+              },
+              {
+                "author": "DarkDrifter_13",
+                "date": "2026-08-18",
+                "excerpt": "Vaultwarden will long last?",
+                "score": 3,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4cp444/"
+              },
+              {
+                "author": "B1g_BuddhAH",
+                "date": "2026-08-19",
+                "excerpt": "idk if windows straight to arch linux is a good idea",
+                "score": 2,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4kye98/"
+              },
+              {
+                "author": "anhngoc1227",
+                "date": "2026-08-19",
+                "excerpt": "Immich mentioned \ud83d\udde3\ud83d\udde3\ud83d\udde3\n\n that's the work of our people, folks",
+                "score": 1,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4m3jm5/"
+              },
+              {
+                "author": "Humble-Elevator3040",
+                "date": "2026-08-19",
+                "excerpt": "Ise titanium browser. For vpn, I would recommend Tor VPN or Bitmask (RiseupVPN). Also Tuta mail will be better. Use it with addy.io (AnonAddy). And startpage is better for me because it has google index (which is more accurate).",
+                "score": 1,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4p23uu/"
+              },
+              {
+                "author": "124k3",
+                "date": "2026-08-20",
+                "excerpt": "bro what does proton bring, is that a good email (and is it bale to use my gmail account i mean i cant just leave that)",
+                "score": 1,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4umfuk/"
+              },
+              {
+                "author": "Ne0Trees",
+                "date": "2026-08-22",
+                "excerpt": "proton pass",
+                "score": 1,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p579lzd/"
+              },
+              {
+                "author": "Gloomy_Acadia_445",
+                "date": "2026-08-18",
+                "excerpt": "Did you go straight from win11 to arch or did you just go straight to arch? Either way this is pretty nice",
+                "score": 1,
+                "url": "https://reddit.com/r/degoogle/comments/1vra28q/comment/p4cjwkj/"
+              }
+            ]
+          },
+          "published_at": "2026-08-18",
+          "relevance_hint": 0.14,
+          "snippet": "Chrome\n\n --> Brave\n\n is just Chrome --> Chrome you can use ungoogled chromium\n\n as browser or waterfox Use ublock origin or ublock origin lite to block google sponsored link. I lost $20k to phishing because I click google sponsored links.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "My path to degoogling",
+          "url": "https://www.reddit.com/r/degoogle/comments/1vra28q/my_path_to_degoogling/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "My path to degoogling",
+      "url": "https://www.reddit.com/r/degoogle/comments/1vra28q/my_path_to_degoogling/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for",
+      "cluster_id": "cluster-2",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.899999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What\u2019s a stupidly simple app you\u2019re paying for?\nI want to build something small, useful, and completely free. So I\u2019m curious: What\u2019s an app/tool you currently pay for that feels like it shouldn\u2019t cost that much? Could be $2/month, $5/month, $10/month, whatever. Maybe it: Does only one thing really well Has an annoying subscription Is full of features you don't need Has a terrible UI Is missing one feature you really want Has no decent free alternative Tell me what it is, how much you pay, and what you wish was different. If I find a problem t\nIf we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 5
+          },
+          "engagement_score": 26,
+          "freshness": 79,
+          "item_id": "R4",
+          "local_rank_score": 0.37300000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "If we're talking any type of app, pretty much every Figma and Wordpress plugin.",
+              "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bas..."
+            ],
+            "top_comments": [
+              {
+                "author": "NellieApp",
+                "date": "2026-09-03",
+                "excerpt": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7m8kgs/"
+              },
+              {
+                "author": "DevJedis",
+                "date": "2026-09-03",
+                "excerpt": "CTRL + C ?",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7mfca8/"
+              },
+              {
+                "author": "Kitchen_Cable6192",
+                "date": "2026-09-04",
+                "excerpt": "nice try to find ideas...",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7vqz1p/"
+              },
+              {
+                "author": "ApprehensiveBar6841",
+                "date": "2026-09-05",
+                "excerpt": "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bases.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7y2g39/"
+              }
+            ]
+          },
+          "published_at": "2026-09-03",
+          "relevance_hint": 0.56,
+          "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/uae/comments/1wbhulw/e_how_to_escalate_complaint",
+      "cluster_id": "cluster-3",
+      "engagement": 21,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Keep bugging them until you reach their managers Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "E& - How to escalate complaint\nHi all, I thought I\u2019d try my luck here. I setup autopay about three years ago for my mobile phone bill with E&. I am now trying to disable this as I have changed plans. I have tried doing this in person at their store, via the mobile app and by calling their customer care. The app says I have a smartpay on my account which indicates that I have a device with E& that I am currently paying for. However, I don\u2019t have any devices with E&, just the postpaid account that I am paying for. I have raised\nKeep bugging them until you reach their managers Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms",
+          "container": "UAE",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 4
+          },
+          "engagement_score": 21,
+          "freshness": 91,
+          "item_id": "R5",
+          "local_rank_score": 0.398,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Keep bugging them until you reach their managers",
+              "Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms"
+            ],
+            "top_comments": [
+              {
+                "author": "United_Pressure_9983",
+                "date": "2026-09-09",
+                "excerpt": "Keep bugging them until you reach their managers",
+                "score": 2,
+                "url": "https://reddit.com/r/UAE/comments/1wbhulw/comment/p8q8khh/"
+              },
+              {
+                "author": "Purple-Zucchini-307",
+                "date": "2026-09-09",
+                "excerpt": "Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms",
+                "score": 1,
+                "url": "https://reddit.com/r/UAE/comments/1wbhulw/comment/p8qqr8j/"
+              }
+            ]
+          },
+          "published_at": "2026-09-09",
+          "relevance_hint": 0.22,
+          "snippet": "Keep bugging them until you reach their managers Bro just raise a complaint with tdra asap they will call you tomorrow afternoon and it will be resolved trust ms",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "E& - How to escalate complaint",
+          "url": "https://www.reddit.com/r/UAE/comments/1wbhulw/e_how_to_escalate_complaint/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "E& - How to escalate complaint",
+      "url": "https://www.reddit.com/r/UAE/comments/1wbhulw/e_how_to_escalate_complaint/"
+    }
+  ],
+  "topic": "\"currently paying\" \"app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
