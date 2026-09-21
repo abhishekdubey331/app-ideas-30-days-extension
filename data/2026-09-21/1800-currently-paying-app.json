@@ -1,0 +1,636 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"currently paying\" \"app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "What\u2019s a stupidly simple app you\u2019re paying for?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nychousinglottery/comments/1w3iujp/7_aria_platt_review"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/nychousinglottery/comments/1w3iujp/7_aria_platt_review"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "7 Aria Platt - review?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/drivinguk/comments/1w1xru0/is_the_goskippy_black_box_worth_it"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/drivinguk/comments/1w1xru0/is_the_goskippy_black_box_worth_it"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "is the goskippy black box worth it?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/doordash/comments/1vwewdb/shopping_frustration"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/doordash/comments/1vwewdb/shopping_frustration"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Shopping frustration"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-21T18:00:39.478609+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "7 Aria Platt - review?\nHey Everyone, Got my app pulled for a 1 bed in 7 Aria Platt. Struggling to find any information online past just the process and moving in. Curious about the building, amenities, and whether those ahead of me have found it to be worth the price tag or not. Most of what I see online is a couple broker videos and a lot of AI imagery. It would be a jump in what I\u2019m currently paying but allow me to live alone instead of a roommate, and view it a bit like having access to a dream apartment a little e",
+        "container": "nychousinglottery",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 4
+        },
+        "engagement_score": 13,
+        "freshness": 58,
+        "item_id": "R6",
+        "local_rank_score": 0.366,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-31",
+        "relevance_hint": 0.22,
+        "snippet": "Hey Everyone, Got my app pulled for a 1 bed in 7 Aria Platt. Struggling to find any information online past just the process and moving in. Curious about the building, amenities, and whether those ahead of me have found it to be worth the price tag or not. Most of what I see online is a couple broker videos and a lot of AI imagery. It would be a jump in what I\u2019m currently paying but allow me to li",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "7 Aria Platt - review?",
+        "url": "https://www.reddit.com/r/nychousinglottery/comments/1w3iujp/7_aria_platt_review/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "is the goskippy black box worth it?\nCurrently paying nearly \u00a3300 a month for my current policy with admiral - black box. They have been very good and lenient, but obviously it was quite expensive. Renewal is in a few weeks and have found another policy with goskippy (black box) for \u00a3108 monthly. However this time I have to download an app and they track everything to my phone usage etc..?? Cheapest policy without black box is \u00a3168. If anyone has experience with go skippy black box / other black box where they monitor phone usage,\nDepends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities. I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am. The box didn't like me driving at that time of morning and lowered my score. Kinda felt like I had a curfew. But I called them and told them what job I had and cancelled the score off. Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives. I would perhaps find it more annoying if I wasn't able to control music and maps from my actual car screen though as it would flag phone usage I think.\n\n You do need t",
+        "container": "drivingUK",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 16,
+          "score": 0
+        },
+        "engagement_score": 10,
+        "freshness": 53,
+        "item_id": "R3",
+        "local_rank_score": 0.35050000000000003,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Depends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities.",
+            "Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives.",
+            "I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am.",
+            "No black box is worth it. They don't save you money.",
+            "Why does everyone want to use their phone while driving? It\u2019s really easy not to"
+          ],
+          "top_comments": [
+            {
+              "author": "Dogemann1366",
+              "date": "2026-08-29",
+              "excerpt": "Depends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities.",
+              "score": 13,
+              "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p6ofcr2/"
+            },
+            {
+              "author": "Training_Piano9808",
+              "date": "2026-08-29",
+              "excerpt": "I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am. The box didn't like me driving at that time of morning and lowered my score. Kinda felt like I had a curfew. But I called them and told them what job I had and cancelled the score off.\n\n ",
+              "score": 5,
+              "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p6oip6o/"
+            },
+            {
+              "author": "all_in_vein",
+              "date": "2026-09-10",
+              "excerpt": "Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives. I would perhaps find it more annoying if I wasn't able to control music and maps from my actual car screen though as it would flag phone usage I think.\n\n You do need t",
+              "score": 2,
+              "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p8wtk22/"
+            },
+            {
+              "author": "Zeroth1989",
+              "date": "2026-09-01",
+              "excerpt": "No black box is worth it. They don't save you money. They only hike the premium then drop it if you get the black box anyway.\n\n Any negatives from the black box are used to justify a price hike. Whilst the positives don't reduce it.\n\n Shop around with 1 month lead on your insurance and you will get ",
+              "score": 1,
+              "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p74y2ek/"
+            },
+            {
+              "author": "OpportunityNew5685",
+              "date": "2026-08-29",
+              "excerpt": "Why does everyone want to use their phone while driving? It\u2019s really easy not to",
+              "score": 1,
+              "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p6ojfym/"
+            }
+          ]
+        },
+        "published_at": "2026-08-29",
+        "relevance_hint": 0.22,
+        "snippet": "Depends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities. I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am. The box didn't like me driving at that time of morning and lowered my score. Kinda felt like I had a curfew. But I called them and told them what job I had and cancelled the score off. Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives. I would perhaps find it...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "is the goskippy black box worth it?",
+        "url": "https://www.reddit.com/r/drivingUK/comments/1w1xru0/is_the_goskippy_black_box_worth_it/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "What\u2019s a stupidly simple app you\u2019re paying for?\nI want to build something small, useful, and completely free. So I\u2019m curious: What\u2019s an app/tool you currently pay for that feels like it shouldn\u2019t cost that much? Could be $2/month, $5/month, $10/month, whatever. Maybe it: Does only one thing really well Has an annoying subscription Is full of features you don't need Has a terrible UI Is missing one feature you really want Has no decent free alternative Tell me what it is, how much you pay, and what you wish was different. If I find a problem t\nIf we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 5
+        },
+        "engagement_score": 20,
+        "freshness": 64,
+        "item_id": "R4",
+        "local_rank_score": 0.3295,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "If we're talking any type of app, pretty much every Figma and Wordpress plugin.",
+            "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bas..."
+          ],
+          "top_comments": [
+            {
+              "author": "NellieApp",
+              "date": "2026-09-03",
+              "excerpt": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7m8kgs/"
+            },
+            {
+              "author": "DevJedis",
+              "date": "2026-09-03",
+              "excerpt": "CTRL + C ?",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7mfca8/"
+            },
+            {
+              "author": "Kitchen_Cable6192",
+              "date": "2026-09-04",
+              "excerpt": "nice try to find ideas...",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7vqz1p/"
+            },
+            {
+              "author": "ApprehensiveBar6841",
+              "date": "2026-09-05",
+              "excerpt": "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bases.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7y2g39/"
+            }
+          ]
+        },
+        "published_at": "2026-09-03",
+        "relevance_hint": 0.56,
+        "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Shopping frustration\nOkay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on the acceptance rate I know that I can hit pause after delivery before I check out to prevent more or",
+        "container": "doordash",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 41,
+        "item_id": "R7",
+        "local_rank_score": 0.252,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-23",
+        "relevance_hint": 0.22,
+        "snippet": "Okay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Shopping frustration",
+        "url": "https://www.reddit.com/r/doordash/comments/1vwewdb/shopping_frustration/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"currently paying\" \"app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"currently paying\" \"app\"?",
+        "search_query": "\"currently paying\" \"app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-22",
+  "range_to": "2026-09-21",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for",
+      "cluster_id": "cluster-1",
+      "engagement": 20,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.0,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "What\u2019s a stupidly simple app you\u2019re paying for?\nI want to build something small, useful, and completely free. So I\u2019m curious: What\u2019s an app/tool you currently pay for that feels like it shouldn\u2019t cost that much? Could be $2/month, $5/month, $10/month, whatever. Maybe it: Does only one thing really well Has an annoying subscription Is full of features you don't need Has a terrible UI Is missing one feature you really want Has no decent free alternative Tell me what it is, how much you pay, and what you wish was different. If I find a problem t\nIf we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 5
+          },
+          "engagement_score": 20,
+          "freshness": 64,
+          "item_id": "R4",
+          "local_rank_score": 0.3295,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "If we're talking any type of app, pretty much every Figma and Wordpress plugin.",
+              "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bas..."
+            ],
+            "top_comments": [
+              {
+                "author": "NellieApp",
+                "date": "2026-09-03",
+                "excerpt": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7m8kgs/"
+              },
+              {
+                "author": "DevJedis",
+                "date": "2026-09-03",
+                "excerpt": "CTRL + C ?",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7mfca8/"
+              },
+              {
+                "author": "Kitchen_Cable6192",
+                "date": "2026-09-04",
+                "excerpt": "nice try to find ideas...",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7vqz1p/"
+              },
+              {
+                "author": "ApprehensiveBar6841",
+                "date": "2026-09-05",
+                "excerpt": "I've paid for solo leveling workout app ( because i really loved the show), but i got less motivated over time to full fill my commitment on daily bases.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1w6di2k/comment/p7y2g39/"
+              }
+            ]
+          },
+          "published_at": "2026-09-03",
+          "relevance_hint": 0.56,
+          "snippet": "If we're talking any type of app, pretty much every Figma and Wordpress plugin. They all charge monthly fees for simple tasks that should already be built-in. CTRL + C ? nice try to find ideas...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "What\u2019s a stupidly simple app you\u2019re paying for?",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1w6di2k/whats_a_stupidly_simple_app_youre_paying_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/nychousinglottery/comments/1w3iujp/7_aria_platt_review",
+      "cluster_id": "cluster-2",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R6",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hey Everyone, Got my app pulled for a 1 bed in 7 Aria Platt. Struggling to find any information online past just the process and moving in. Curious about the building, amenities, and whether those ahead of me have found it to be worth the price tag or not. Most of what I see online is a couple broker videos and a lot of AI imagery. It would be a jump in what I\u2019m currently paying but allow me to li",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "7 Aria Platt - review?\nHey Everyone, Got my app pulled for a 1 bed in 7 Aria Platt. Struggling to find any information online past just the process and moving in. Curious about the building, amenities, and whether those ahead of me have found it to be worth the price tag or not. Most of what I see online is a couple broker videos and a lot of AI imagery. It would be a jump in what I\u2019m currently paying but allow me to live alone instead of a roommate, and view it a bit like having access to a dream apartment a little e",
+          "container": "nychousinglottery",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 4
+          },
+          "engagement_score": 13,
+          "freshness": 58,
+          "item_id": "R6",
+          "local_rank_score": 0.366,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-31",
+          "relevance_hint": 0.22,
+          "snippet": "Hey Everyone, Got my app pulled for a 1 bed in 7 Aria Platt. Struggling to find any information online past just the process and moving in. Curious about the building, amenities, and whether those ahead of me have found it to be worth the price tag or not. Most of what I see online is a couple broker videos and a lot of AI imagery. It would be a jump in what I\u2019m currently paying but allow me to li",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "7 Aria Platt - review?",
+          "url": "https://www.reddit.com/r/nychousinglottery/comments/1w3iujp/7_aria_platt_review/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "7 Aria Platt - review?",
+      "url": "https://www.reddit.com/r/nychousinglottery/comments/1w3iujp/7_aria_platt_review/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/drivinguk/comments/1w1xru0/is_the_goskippy_black_box_worth_it",
+      "cluster_id": "cluster-3",
+      "engagement": 10,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 20.0,
+      "item_id": "R3",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Depends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities. I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am. The box didn't like me driving at that time of morning and lowered my score. Kinda felt like I had a curfew. But I called them and told them what job I had and cancelled the score off. Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives. I would perhaps find it...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "is the goskippy black box worth it?\nCurrently paying nearly \u00a3300 a month for my current policy with admiral - black box. They have been very good and lenient, but obviously it was quite expensive. Renewal is in a few weeks and have found another policy with goskippy (black box) for \u00a3108 monthly. However this time I have to download an app and they track everything to my phone usage etc..?? Cheapest policy without black box is \u00a3168. If anyone has experience with go skippy black box / other black box where they monitor phone usage,\nDepends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities. I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am. The box didn't like me driving at that time of morning and lowered my score. Kinda felt like I had a curfew. But I called them and told them what job I had and cancelled the score off. Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives. I would perhaps find it more annoying if I wasn't able to control music and maps from my actual car screen though as it would flag phone usage I think.\n\n You do need t",
+          "container": "drivingUK",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 16,
+            "score": 0
+          },
+          "engagement_score": 10,
+          "freshness": 53,
+          "item_id": "R3",
+          "local_rank_score": 0.35050000000000003,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Depends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities.",
+              "Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives.",
+              "I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am.",
+              "No black box is worth it. They don't save you money.",
+              "Why does everyone want to use their phone while driving? It\u2019s really easy not to"
+            ],
+            "top_comments": [
+              {
+                "author": "Dogemann1366",
+                "date": "2026-08-29",
+                "excerpt": "Depends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities.",
+                "score": 13,
+                "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p6ofcr2/"
+              },
+              {
+                "author": "Training_Piano9808",
+                "date": "2026-08-29",
+                "excerpt": "I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am. The box didn't like me driving at that time of morning and lowered my score. Kinda felt like I had a curfew. But I called them and told them what job I had and cancelled the score off.\n\n ",
+                "score": 5,
+                "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p6oip6o/"
+              },
+              {
+                "author": "all_in_vein",
+                "date": "2026-09-10",
+                "excerpt": "Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives. I would perhaps find it more annoying if I wasn't able to control music and maps from my actual car screen though as it would flag phone usage I think.\n\n You do need t",
+                "score": 2,
+                "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p8wtk22/"
+              },
+              {
+                "author": "Zeroth1989",
+                "date": "2026-09-01",
+                "excerpt": "No black box is worth it. They don't save you money. They only hike the premium then drop it if you get the black box anyway.\n\n Any negatives from the black box are used to justify a price hike. Whilst the positives don't reduce it.\n\n Shop around with 1 month lead on your insurance and you will get ",
+                "score": 1,
+                "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p74y2ek/"
+              },
+              {
+                "author": "OpportunityNew5685",
+                "date": "2026-08-29",
+                "excerpt": "Why does everyone want to use their phone while driving? It\u2019s really easy not to",
+                "score": 1,
+                "url": "https://reddit.com/r/drivingUK/comments/1w1xru0/comment/p6ojfym/"
+              }
+            ]
+          },
+          "published_at": "2026-08-29",
+          "relevance_hint": 0.22,
+          "snippet": "Depends how much \u00a360 is worth to you. Me, I'd probably spend the extra for a non black box policy but we all have different priorities. I had a Hastings black box. It worked ok. But as an on call security guard I'd be called out at 2,3 or even 4am. The box didn't like me driving at that time of morning and lowered my score. Kinda felt like I had a curfew. But I called them and told them what job I had and cancelled the score off. Honestly ive had it for three weeks now and while yeah it can be sensitive to harsh braking, I can still get 100/100 on most drives. I would perhaps find it...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "is the goskippy black box worth it?",
+          "url": "https://www.reddit.com/r/drivingUK/comments/1w1xru0/is_the_goskippy_black_box_worth_it/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "is the goskippy black box worth it?",
+      "url": "https://www.reddit.com/r/drivingUK/comments/1w1xru0/is_the_goskippy_black_box_worth_it/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/doordash/comments/1vwewdb/shopping_frustration",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "Okay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Shopping frustration\nOkay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on the acceptance rate I know that I can hit pause after delivery before I check out to prevent more or",
+          "container": "doordash",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 41,
+          "item_id": "R7",
+          "local_rank_score": 0.252,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-23",
+          "relevance_hint": 0.22,
+          "snippet": "Okay so after I have finished shopping and I am currently checking out, I wish the app would stop sending me more orders in that store. There is no way to accept that order and continue checking out, it will force you to have to avoid the entire order that you're currently paying for to go back and get the other order It was a really good offer for one item and I had to decline, and take a hit on",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Shopping frustration",
+          "url": "https://www.reddit.com/r/doordash/comments/1vwewdb/shopping_frustration/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Shopping frustration",
+      "url": "https://www.reddit.com/r/doordash/comments/1vwewdb/shopping_frustration/"
+    }
+  ],
+  "topic": "\"currently paying\" \"app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
