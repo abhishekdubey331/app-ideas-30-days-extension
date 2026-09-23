@@ -1,0 +1,708 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"any good app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/gnome/comments/1wk64tr/any_good_pdf_and_epub_reader"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/gnome/comments/1wk64tr/any_good_pdf_and_epub_reader"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any good pdf and epub reader?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/privacy/comments/1w0bp33/any_apps_for_photo_editing_that_wont_try_to_steal"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/privacy/comments/1w0bp33/any_apps_for_photo_editing_that_wont_try_to_steal"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "any apps for photo editing that wont try to steal all my data?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nxtpaper/comments/1wd9fgg/tcl_phone"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/nxtpaper/comments/1wd9fgg/tcl_phone"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "TCL phone"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/androidtvapps/comments/1wdh8ci/any_app_for_saving_passwords"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/androidtvapps/comments/1wdh8ci/any_app_for_saving_passwords"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any app for saving passwords?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-23T03:52:20.373464+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Any good pdf and epub reader?\nI'm testing some apps like Foliate and Readest, but they're a bit buggy. Any good apps for reading books locally?\nCalibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that? Papers is the default PDF app for gnome I use Foliate and the default PDF reader.",
+        "container": "gnome",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 7
+        },
+        "engagement_score": 83,
+        "freshness": 89,
+        "item_id": "R2",
+        "local_rank_score": 0.43550000000000005,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Readest is the best epub reader for me, what was wrong?",
+            "Calibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that?",
+            "try Flow Reader, but only support epub and txt, it's super fast compare to the 2 apps you mentioned",
+            "Papers is the default PDF app for gnome",
+            "I use Foliate. Seems solid to me.",
+            "I use Foliate and the default PDF reader."
+          ],
+          "top_comments": [
+            {
+              "author": "judasdisciple",
+              "date": "2026-09-19",
+              "excerpt": "Calibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that?",
+              "score": 5,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paobwxg/"
+            },
+            {
+              "author": "blackcain",
+              "date": "2026-09-19",
+              "excerpt": "Papers is the default PDF app for gnome",
+              "score": 5,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/pap49b2/"
+            },
+            {
+              "author": "Aware-Librarian-3749",
+              "date": "2026-09-19",
+              "excerpt": "I use Foliate and the default PDF reader.",
+              "score": 5,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paodzce/"
+            },
+            {
+              "author": "Disastrous_Pin556",
+              "date": "2026-09-19",
+              "excerpt": "Readest is the best epub reader for me, what was wrong?",
+              "score": 4,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/papkhva/"
+            },
+            {
+              "author": "Obelisk2000",
+              "date": "2026-09-19",
+              "excerpt": "I use Foliate. Seems solid to me.",
+              "score": 3,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/pap10q7/"
+            },
+            {
+              "author": "Miserable-School-665",
+              "date": "2026-09-19",
+              "excerpt": "Okular, Foliate",
+              "score": 3,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paohc95/"
+            },
+            {
+              "author": "Consistent_Slide_447",
+              "date": "2026-09-19",
+              "excerpt": "try Flow Reader, but only support epub and txt, it's super fast compare to the 2 apps you mentioned",
+              "score": 2,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paqbjxs/"
+            },
+            {
+              "author": "Temporary-Lead3182",
+              "date": "2026-09-19",
+              "excerpt": "sioyek if ur hardcore",
+              "score": 2,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/papwhh6/"
+            },
+            {
+              "author": "c4pl4b",
+              "date": "2026-09-19",
+              "excerpt": "Paper",
+              "score": 2,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paq2e9n/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-09-18",
+              "excerpt": "Thank you for your submission.\n\n You too can support GNOME! Become a Friend of GNOME and contribute to keeping our project going!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/pao7ur8/"
+            }
+          ]
+        },
+        "published_at": "2026-09-18",
+        "relevance_hint": 0.38,
+        "snippet": "Calibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that? Papers is the default PDF app for gnome I use Foliate and the default PDF reader.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any good pdf and epub reader?",
+        "url": "https://www.reddit.com/r/gnome/comments/1wk64tr/any_good_pdf_and_epub_reader/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "TCL phone\nHello, any good app for the gallery? Without ads. I know there is a google pic. But as I understand it has a storage limit.",
+        "container": "nxtpaper",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 25,
+        "freshness": 76,
+        "item_id": "R8",
+        "local_rank_score": 0.34500000000000003,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-11",
+        "relevance_hint": 0.22,
+        "snippet": "Hello, any good app for the gallery? Without ads. I know there is a google pic. But as I understand it has a storage limit.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "TCL phone",
+        "url": "https://www.reddit.com/r/nxtpaper/comments/1wd9fgg/tcl_phone/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Any app for saving passwords?\nA few days ago my phone restarted and some accounts got deleted, but I managed to recover them. I\u2019m not sure I\u2019ll be that lucky next time, so I\u2019m looking for a reliable, multi-platform password manager app.",
+        "container": "AndroidTVApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 1
+        },
+        "engagement_score": 15,
+        "freshness": 76,
+        "item_id": "R7",
+        "local_rank_score": 0.335,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-11",
+        "relevance_hint": 1.0,
+        "snippet": "A few days ago my phone restarted and some accounts got deleted, but I managed to recover them. I\u2019m not sure I\u2019ll be that lucky next time, so I\u2019m looking for a reliable, multi-platform password manager app.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any app for saving passwords?",
+        "url": "https://www.reddit.com/r/AndroidTVApps/comments/1wdh8ci/any_app_for_saving_passwords/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "any apps for photo editing that wont try to steal all my data?\ni used to really love the SNOW app for adding stickers and making photos more colorful. but after downloading it to my new android i find out the new version demands acess to all our photos for ai training, which im really not comfortable with. so is there any similar photo app that isn't so invasive? or maybe someway to get ahold of an older version without the ai training?\nGIMP Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on. I will refer to rule 8 for this sub, can't say more than that. Image toolbox is a good photo editor and its available on Fdroid.",
+        "container": "privacy",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 5
+        },
+        "engagement_score": 60,
+        "freshness": 47,
+        "item_id": "R5",
+        "local_rank_score": 0.3075,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Image toolbox is a good photo editor and its available on Fdroid.",
+            "Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on."
+          ],
+          "top_comments": [
+            {
+              "author": "Kobakocka",
+              "date": "2026-08-28",
+              "excerpt": "GIMP",
+              "score": 5,
+              "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6etjph/"
+            },
+            {
+              "author": "NotSnakePliskin",
+              "date": "2026-08-28",
+              "excerpt": "Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on. I will refer to rule 8 for this sub, can't say more than that.",
+              "score": 5,
+              "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6epjyn/"
+            },
+            {
+              "author": "thesamenightmares",
+              "date": "2026-08-28",
+              "excerpt": "Image toolbox is a good photo editor and its available on Fdroid.",
+              "score": 3,
+              "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6ds5g7/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-08-28",
+              "excerpt": "Hello u/No_Apple_5842, please make sure you read the sub rules if you haven't already. (This is an automatic reminder left on all new posts.)\n\n Check out the r/privacy FAQ\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6bqfw9/"
+            }
+          ]
+        },
+        "published_at": "2026-08-28",
+        "relevance_hint": 0.49,
+        "snippet": "GIMP Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on. I will refer to rule 8 for this sub, can't say more than that. Image toolbox is a good photo editor and its available on Fdroid.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "any apps for photo editing that wont try to steal all my data?",
+        "url": "https://www.reddit.com/r/privacy/comments/1w0bp33/any_apps_for_photo_editing_that_wont_try_to_steal/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"any good app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"any good app for\", especially about \"any app for\"?",
+        "search_query": "\"any app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-24",
+  "range_to": "2026-09-23",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/gnome/comments/1wk64tr/any_good_pdf_and_epub_reader",
+      "cluster_id": "cluster-1",
+      "engagement": 83,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Calibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that? Papers is the default PDF app for gnome I use Foliate and the default PDF reader.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any good pdf and epub reader?\nI'm testing some apps like Foliate and Readest, but they're a bit buggy. Any good apps for reading books locally?\nCalibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that? Papers is the default PDF app for gnome I use Foliate and the default PDF reader.",
+          "container": "gnome",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 7
+          },
+          "engagement_score": 83,
+          "freshness": 89,
+          "item_id": "R2",
+          "local_rank_score": 0.43550000000000005,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Readest is the best epub reader for me, what was wrong?",
+              "Calibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that?",
+              "try Flow Reader, but only support epub and txt, it's super fast compare to the 2 apps you mentioned",
+              "Papers is the default PDF app for gnome",
+              "I use Foliate. Seems solid to me.",
+              "I use Foliate and the default PDF reader."
+            ],
+            "top_comments": [
+              {
+                "author": "judasdisciple",
+                "date": "2026-09-19",
+                "excerpt": "Calibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that?",
+                "score": 5,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paobwxg/"
+              },
+              {
+                "author": "blackcain",
+                "date": "2026-09-19",
+                "excerpt": "Papers is the default PDF app for gnome",
+                "score": 5,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/pap49b2/"
+              },
+              {
+                "author": "Aware-Librarian-3749",
+                "date": "2026-09-19",
+                "excerpt": "I use Foliate and the default PDF reader.",
+                "score": 5,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paodzce/"
+              },
+              {
+                "author": "Disastrous_Pin556",
+                "date": "2026-09-19",
+                "excerpt": "Readest is the best epub reader for me, what was wrong?",
+                "score": 4,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/papkhva/"
+              },
+              {
+                "author": "Obelisk2000",
+                "date": "2026-09-19",
+                "excerpt": "I use Foliate. Seems solid to me.",
+                "score": 3,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/pap10q7/"
+              },
+              {
+                "author": "Miserable-School-665",
+                "date": "2026-09-19",
+                "excerpt": "Okular, Foliate",
+                "score": 3,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paohc95/"
+              },
+              {
+                "author": "Consistent_Slide_447",
+                "date": "2026-09-19",
+                "excerpt": "try Flow Reader, but only support epub and txt, it's super fast compare to the 2 apps you mentioned",
+                "score": 2,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paqbjxs/"
+              },
+              {
+                "author": "Temporary-Lead3182",
+                "date": "2026-09-19",
+                "excerpt": "sioyek if ur hardcore",
+                "score": 2,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/papwhh6/"
+              },
+              {
+                "author": "c4pl4b",
+                "date": "2026-09-19",
+                "excerpt": "Paper",
+                "score": 2,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/paq2e9n/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-09-18",
+                "excerpt": "Thank you for your submission.\n\n You too can support GNOME! Become a Friend of GNOME and contribute to keeping our project going!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/gnome/comments/1wk64tr/comment/pao7ur8/"
+              }
+            ]
+          },
+          "published_at": "2026-09-18",
+          "relevance_hint": 0.38,
+          "snippet": "Calibre has a built in reader. But never had any issues with foliate myself, what was the bugginess about that? Papers is the default PDF app for gnome I use Foliate and the default PDF reader.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any good pdf and epub reader?",
+          "url": "https://www.reddit.com/r/gnome/comments/1wk64tr/any_good_pdf_and_epub_reader/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any good pdf and epub reader?",
+      "url": "https://www.reddit.com/r/gnome/comments/1wk64tr/any_good_pdf_and_epub_reader/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/privacy/comments/1w0bp33/any_apps_for_photo_editing_that_wont_try_to_steal",
+      "cluster_id": "cluster-2",
+      "engagement": 60,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "GIMP Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on. I will refer to rule 8 for this sub, can't say more than that. Image toolbox is a good photo editor and its available on Fdroid.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "any apps for photo editing that wont try to steal all my data?\ni used to really love the SNOW app for adding stickers and making photos more colorful. but after downloading it to my new android i find out the new version demands acess to all our photos for ai training, which im really not comfortable with. so is there any similar photo app that isn't so invasive? or maybe someway to get ahold of an older version without the ai training?\nGIMP Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on. I will refer to rule 8 for this sub, can't say more than that. Image toolbox is a good photo editor and its available on Fdroid.",
+          "container": "privacy",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 5
+          },
+          "engagement_score": 60,
+          "freshness": 47,
+          "item_id": "R5",
+          "local_rank_score": 0.3075,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Image toolbox is a good photo editor and its available on Fdroid.",
+              "Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on."
+            ],
+            "top_comments": [
+              {
+                "author": "Kobakocka",
+                "date": "2026-08-28",
+                "excerpt": "GIMP",
+                "score": 5,
+                "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6etjph/"
+              },
+              {
+                "author": "NotSnakePliskin",
+                "date": "2026-08-28",
+                "excerpt": "Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on. I will refer to rule 8 for this sub, can't say more than that.",
+                "score": 5,
+                "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6epjyn/"
+              },
+              {
+                "author": "thesamenightmares",
+                "date": "2026-08-28",
+                "excerpt": "Image toolbox is a good photo editor and its available on Fdroid.",
+                "score": 3,
+                "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6ds5g7/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-08-28",
+                "excerpt": "Hello u/No_Apple_5842, please make sure you read the sub rules if you haven't already. (This is an automatic reminder left on all new posts.)\n\n Check out the r/privacy FAQ\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/privacy/comments/1w0bp33/comment/p6bqfw9/"
+              }
+            ]
+          },
+          "published_at": "2026-08-28",
+          "relevance_hint": 0.49,
+          "snippet": "GIMP Step back and look at the bigger picture, it's not just the individual apps - consider the platform these apps run on. I will refer to rule 8 for this sub, can't say more than that. Image toolbox is a good photo editor and its available on Fdroid.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "any apps for photo editing that wont try to steal all my data?",
+          "url": "https://www.reddit.com/r/privacy/comments/1w0bp33/any_apps_for_photo_editing_that_wont_try_to_steal/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "any apps for photo editing that wont try to steal all my data?",
+      "url": "https://www.reddit.com/r/privacy/comments/1w0bp33/any_apps_for_photo_editing_that_wont_try_to_steal/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/nxtpaper/comments/1wd9fgg/tcl_phone",
+      "cluster_id": "cluster-3",
+      "engagement": 25,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.05,
+      "item_id": "R8",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hello, any good app for the gallery? Without ads. I know there is a google pic. But as I understand it has a storage limit.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "TCL phone\nHello, any good app for the gallery? Without ads. I know there is a google pic. But as I understand it has a storage limit.",
+          "container": "nxtpaper",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 25,
+          "freshness": 76,
+          "item_id": "R8",
+          "local_rank_score": 0.34500000000000003,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-11",
+          "relevance_hint": 0.22,
+          "snippet": "Hello, any good app for the gallery? Without ads. I know there is a google pic. But as I understand it has a storage limit.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "TCL phone",
+          "url": "https://www.reddit.com/r/nxtpaper/comments/1wd9fgg/tcl_phone/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "TCL phone",
+      "url": "https://www.reddit.com/r/nxtpaper/comments/1wd9fgg/tcl_phone/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/androidtvapps/comments/1wdh8ci/any_app_for_saving_passwords",
+      "cluster_id": "cluster-4",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 30.0,
+      "item_id": "R7",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.200000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "A few days ago my phone restarted and some accounts got deleted, but I managed to recover them. I\u2019m not sure I\u2019ll be that lucky next time, so I\u2019m looking for a reliable, multi-platform password manager app.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any app for saving passwords?\nA few days ago my phone restarted and some accounts got deleted, but I managed to recover them. I\u2019m not sure I\u2019ll be that lucky next time, so I\u2019m looking for a reliable, multi-platform password manager app.",
+          "container": "AndroidTVApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 1
+          },
+          "engagement_score": 15,
+          "freshness": 76,
+          "item_id": "R7",
+          "local_rank_score": 0.335,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-11",
+          "relevance_hint": 1.0,
+          "snippet": "A few days ago my phone restarted and some accounts got deleted, but I managed to recover them. I\u2019m not sure I\u2019ll be that lucky next time, so I\u2019m looking for a reliable, multi-platform password manager app.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any app for saving passwords?",
+          "url": "https://www.reddit.com/r/AndroidTVApps/comments/1wdh8ci/any_app_for_saving_passwords/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any app for saving passwords?",
+      "url": "https://www.reddit.com/r/AndroidTVApps/comments/1wdh8ci/any_app_for_saving_passwords/"
+    }
+  ],
+  "topic": "\"any good app for\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
