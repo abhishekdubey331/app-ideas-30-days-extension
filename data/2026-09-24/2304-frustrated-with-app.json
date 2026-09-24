@@ -1,0 +1,1603 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1wkic2m/i_built_a_free_stock_analysis_tool_after_getting"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1wkic2m/i_built_a_free_stock_analysis_tool_after_getting"
+      ],
+      "score": 13.34918032786885,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2014 would love feedback from actual investors"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ollama/comments/1wmlaqu/anyone_else_starting_to_have_an_ai_productivity"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/ollama/comments/1wmlaqu/anyone_else_starting_to_have_an_ai_productivity"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Anyone else starting to have an AI productivity crisis?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/firefox/comments/1whw9wv/am_i_the_only_one_frustrated_with_firefox_for"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/firefox/comments/1whw9wv/am_i_the_only_one_frustrated_with_firefox_for"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Am I the only one frustrated with Firefox for Android?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/surveyjunkie/comments/1wdgolr/so_done_with_this_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/surveyjunkie/comments/1wdgolr/so_done_with_this_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "So done with this app."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Timeline of app review time for my new apps vs updates to existing apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/whatsappbusinessapi/comments/1wi1b5f/rant_very_frustrated_with_the_whole_whatsapp_api"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/whatsappbusinessapi/comments/1wi1b5f/rant_very_frustrated_with_the_whole_whatsapp_api"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Rant: Very frustrated with the whole Whatsapp API program"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/seekingalpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://reddit.com/r/seekingalpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1wdgx5c/6_weeks_of_app_review_hell_is_finally_over"
+      ],
+      "cluster_id": "cluster-8",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1wdgx5c/6_weeks_of_app_review_hell_is_finally_over"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "6 weeks of app review hell is finally over \ud83d\ude02"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-24T23:04:49.658551+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2014 would love feedback from actual investors\nI've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools \u2014 a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a simplified DCF) Revenue breakdown by business segment (iPhone vs Services vs Mac for Apple etc) It'\nNice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall.\n\n I noticed that it can a bit slow loading the info on a stock. I see that it has an AI summary which I presume is slowing things down as all the elements load in at once. Something like progressive loading would make things feel more snappy without even making things more pe Your bull/base/bear simulator is where I would spend the attention. A simplified DCF renders as three tidy numbers, but nearly all of the spread between them comes from the growth and margin assumptions the user typed in, so it reads as analysis while behaving like an echo.\n\n Show which input moved Bro I think it looks really good, and I like the PE PS historicals. Suggestion: The price chart should be improved. It needs more visualization options (e.g. candels, I did not see the option, but maybe because i am using it on the phone) and analysis instruments.",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 27,
+          "score": 15
+        },
+        "engagement_score": 59,
+        "freshness": 89,
+        "item_id": "R4",
+        "local_rank_score": 0.5155000000000001,
+        "local_relevance": 0.36,
+        "metadata": {
+          "comment_insights": [
+            "Nice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall.",
+            "Your bull/base/bear simulator is where I would spend the attention.",
+            "Bro I think it looks really good, and I like the PE PS historicals.",
+            "I typed few stock names, but got no feedback"
+          ],
+          "top_comments": [
+            {
+              "author": "adamobrn",
+              "date": "2026-09-19",
+              "excerpt": "Nice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall.\n\n I noticed that it can a bit slow loading the info on a stock. I see that it has an AI summary which I presume is slowing things down as all the elements load in at once. Something like progressive loading would make things feel more snappy without even making things more pe",
+              "score": 2,
+              "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/par4e2h/"
+            },
+            {
+              "author": "QuanTradin",
+              "date": "2026-09-19",
+              "excerpt": "Your bull/base/bear simulator is where I would spend the attention. A simplified DCF renders as three tidy numbers, but nearly all of the spread between them comes from the growth and margin assumptions the user typed in, so it reads as analysis while behaving like an echo.\n\n Show which input moved ",
+              "score": 2,
+              "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/parnkvf/"
+            },
+            {
+              "author": "Baldo144",
+              "date": "2026-09-19",
+              "excerpt": "Bro I think it looks really good, and I like the PE PS historicals. Suggestion: The price chart should be improved. It needs more visualization options (e.g. candels, I did not see the option, but maybe because i am using it on the phone) and analysis instruments.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/paqusfu/"
+            },
+            {
+              "author": "Sharp-Present-3687",
+              "date": "2026-09-20",
+              "excerpt": "I typed few stock names, but got no feedback",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/payexsp/"
+            }
+          ]
+        },
+        "published_at": "2026-09-19",
+        "relevance_hint": 0.37,
+        "snippet": "Nice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall. I noticed that it can a bit slow loading the info on a stock. I see that it has an AI summary which I presume is slowing things down as all the elements load in at once. Something like progressive loading would make things feel more snappy without even making things more pe Your bull/base/bear simulator is where I would spend the attention. A simplified DCF renders as three tidy numbers, but nearly all of the spread between them comes from the growth and margin assumptions the user typed in, so it reads as analysis while behaving...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2014 would love feedback from actual investors",
+        "url": "https://www.reddit.com/r/SideProject/comments/1wkic2m/i_built_a_free_stock_analysis_tool_after_getting/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Anyone else starting to have an AI productivity crisis?\nI'm working on a computer game as a side project. I started it around 4 years ago, before I used any AI for coding. For most of that time I wrote everything myself. Later I started using GitHub Copilot here and there, mostly to polish things, help with some boring code, or talk through a problem. But I still understood the whole codebase pretty well and felt like I actually owned what I was building. Over the last few months or so something changed. I started feeling like I'm just not productive\nAI makes you more like a project manager.\n\n You\u2019d be a bad project manager if you don\u2019t understand the codebase.\n\n Architect the codebase yourself by prototyping and have the AI fill in the gaps. This way you maintain control while using AI to make you more productive. It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage. They get burned out then they come back with a better mindset and a happy balance I am experiencing something similar. A part of this.\n\n We have this new, powerful capability, and as you learn more about what it can do as you see it work, you naturally try to want to keep it running all of the time. To keep it fed. And then you reach a point where feeding it seems hard, because y",
+        "container": "ollama",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 49,
+          "score": 142
+        },
+        "engagement_score": 100,
+        "freshness": 94,
+        "item_id": "R1",
+        "local_rank_score": 0.43899999999999995,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "I've only been using AI for a couple of months. I had a few projects that had been hanging fire for.",
+            "That's probably the part that bothers me most. AI makes it easier than ever to build something, while at the same time it feels like it's making it ha...",
+            "It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage.",
+            "AI makes you more like a project manager.\n\n You\u2019d be a bad project manager if you don\u2019t understand the codebase.",
+            "I am experiencing something similar. A part of this.",
+            "This is the exactly the dependence that the \"AI\" companies want from you.",
+            "No, you\u2019re not alone with that",
+            "why am I still spending time writing code and trying to understand the codebase?",
+            "I had this, as I think everyone does at some point. How you fix it is by finding how you fit into the new scheme of things and find the place where yo...",
+            "As someone who loves ai tools but is not an app developer I appreciate that you respect your craft and haven't given your cognitive thought and reason..."
+          ],
+          "top_comments": [
+            {
+              "author": "GatePorters",
+              "date": "2026-09-21",
+              "excerpt": "AI makes you more like a project manager.\n\n You\u2019d be a bad project manager if you don\u2019t understand the codebase.\n\n Architect the codebase yourself by prototyping and have the AI fill in the gaps. This way you maintain control while using AI to make you more productive.",
+              "score": 57,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7vjmk/"
+            },
+            {
+              "author": "No_Cartographer3953",
+              "date": "2026-09-21",
+              "excerpt": "It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage. They get burned out then they come back with a better mindset and a happy balance",
+              "score": 44,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7tptw/"
+            },
+            {
+              "author": "thehardsphere",
+              "date": "2026-09-21",
+              "excerpt": "I am experiencing something similar. A part of this.\n\n We have this new, powerful capability, and as you learn more about what it can do as you see it work, you naturally try to want to keep it running all of the time. To keep it fed. And then you reach a point where feeding it seems hard, because y",
+              "score": 8,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7v77x/"
+            },
+            {
+              "author": "anselan2017",
+              "date": "2026-09-21",
+              "excerpt": "This is the exactly the dependence that the \"AI\" companies want from you.",
+              "score": 4,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7yczf/"
+            },
+            {
+              "author": "TRX302",
+              "date": "2026-09-21",
+              "excerpt": "I've only been using AI for a couple of months. I had a few projects that had been hanging fire for... uh... a long time. And I haven't programmed in earnest for about as long.\n\n I asked the free ChatGPT to write a simple program in Tcl. It did so. We expanded it. It ran into a number of problems, mostly because OpenAI says ChatGPT is \"optimized\" for C and Python, and Tcl worked different enough t",
+              "score": 3,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb98huy/"
+            },
+            {
+              "author": "alkimiadev",
+              "date": "2026-09-22",
+              "excerpt": "That's probably the part that bothers me most. AI makes it easier than ever to build something, while at the same time it feels like it's making it harder than ever for something good to actually be seen.\n\n This is a really good time to have a bias toward intrinsic motivation vs. extrinsic motivatio",
+              "score": 3,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb9rnrh/"
+            },
+            {
+              "author": "donotfire",
+              "date": "2026-09-21",
+              "excerpt": "No, you\u2019re not alone with that",
+              "score": 3,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7vhni/"
+            },
+            {
+              "author": "allisonmaybe",
+              "date": "2026-09-21",
+              "excerpt": "why am I still spending time writing code and trying to understand the codebase? Why don't I just vibe code the rest of the game and focus my own time mostly on the graphics, gameplay and overall direction?\n\n Right, why not? You had an idea that you wanted to take out of your brain and turn it into ",
+              "score": 2,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb80a31/"
+            },
+            {
+              "author": "Prudent_Sentence",
+              "date": "2026-09-21",
+              "excerpt": "I had this, as I think everyone does at some point. How you fix it is by finding how you fit into the new scheme of things and find the place where you do feel productive again.",
+              "score": 2,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb860q2/"
+            },
+            {
+              "author": "GloriousKev",
+              "date": "2026-09-21",
+              "excerpt": "As someone who loves ai tools but is not an app developer I appreciate that you respect your craft and haven't given your cognitive thought and reasoning completely to ai. You are actually building the hard stuff by hand. I respect that a lot.",
+              "score": 2,
+              "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb8jiwx/"
+            }
+          ]
+        },
+        "published_at": "2026-09-21",
+        "relevance_hint": 0.22,
+        "snippet": "AI makes you more like a project manager. You\u2019d be a bad project manager if you don\u2019t understand the codebase. Architect the codebase yourself by prototyping and have the AI fill in the gaps. This way you maintain control while using AI to make you more productive. It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage. They get burned out then they come back with a better mindset and a happy balance I am experiencing something similar. A part of this. We have this new, powerful capability, and as you learn more about what it can do as you see it work, you naturally try to want to keep it running all of...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Anyone else starting to have an AI productivity crisis?",
+        "url": "https://www.reddit.com/r/ollama/comments/1wmlaqu/anyone_else_starting_to_have_an_ai_productivity/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors\nI've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a simplified DCF) Revenue breakdown by business segment (iPhone vs Services vs Mac for Apple etc) It'",
+        "container": "SeekingAlpha",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 9
+        },
+        "engagement_score": 36,
+        "freshness": 89,
+        "item_id": "R7",
+        "local_rank_score": 0.421,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-19",
+        "relevance_hint": 0.37,
+        "snippet": "I've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors",
+        "url": "https://www.reddit.com/r/SeekingAlpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Rant: Very frustrated with the whole Whatsapp API program\nI've been trying to become a tech provider for 15 days. It is so long. It feels like every time I sneeze I need to ask for their approval. It is nothing but a succession of required reviews and approvals (business portfolio, organization verification, advanced access, whatsapp business accounts, new phone number, new display name, etc.). They are so slow and there is no way to escalate. I have experience with displeasing dev support with the App Store, but Meta has just set a new record. I've be",
+        "container": "WhatsappBusinessAPI",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 6
+        },
+        "engagement_score": 38,
+        "freshness": 83,
+        "item_id": "R6",
+        "local_rank_score": 0.40800000000000003,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-16",
+        "relevance_hint": 0.37,
+        "snippet": "I've been trying to become a tech provider for 15 days. It is so long. It feels like every time I sneeze I need to ask for their approval. It is nothing but a succession of required reviews and approvals (business portfolio, organization verification, advanced access, whatsapp business accounts, new phone number, new display name, etc.). They are so slow and there is no way to escalate. I have exp",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Rant: Very frustrated with the whole Whatsapp API program",
+        "url": "https://www.reddit.com/r/WhatsappBusinessAPI/comments/1wi1b5f/rant_very_frustrated_with_the_whole_whatsapp_api/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Am I the only one frustrated with Firefox for Android?\nI love Firefox on desktop, but on Android is frustrating me for one single reason: it doesn't keep itself in RAM. If I quickly go to the homescreen (or for example in the SMS app to copy an OTP code) and then open Firefox again, it opens as if I closed it (reloads the page from scratch, losing the temporary data on it). I have the latest Firefox application, one of the latest Androids, 8GB of RAM and plenty of available storage. FF is the only app behaving this way. Chromium-based web browsers d\nThat has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox Lol I mentioned this to their community so many times, even on reddit. People don't belive me. Firefox has the optimisation issue, I've tested the same on multiple devices. Disabling battery optimisation won't work either Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too. Im running older version but im sure its your phone not firefox problem",
+        "container": "firefox",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 19,
+          "score": 31
+        },
+        "engagement_score": 67,
+        "freshness": 83,
+        "item_id": "R2",
+        "local_rank_score": 0.3785,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "Give autostart permission and disable battery saver for the app..it will fix the issue",
+            "Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too.",
+            "That has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox",
+            "Install Automatic Tab Discarder or a similar extension.",
+            "Yeah this doesn't happen to me... I think it's something with your phone.",
+            "Not being able to have a tab bar on the bottom, with close button, like in opera, is a deal breaker for me.",
+            "Sounds familiar https://www.reddit.com/r/AdviceAnimals/s/XurHVFGiTr",
+            "Sadly it performs badly on mobile compared to most alternatives.",
+            "Which phone? Some manufacturers are hyperaggressive about clearing apps from RAM. The worst for me was Xiaomi.",
+            "Lol I mentioned this to their community so many times, even on reddit."
+          ],
+          "top_comments": [
+            {
+              "author": "SonnyKlinger",
+              "date": "2026-09-16",
+              "excerpt": "That has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox",
+              "score": 6,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5ps6g/"
+            },
+            {
+              "author": "Candid_Goose3394",
+              "date": "2026-09-16",
+              "excerpt": "Lol I mentioned this to their community so many times, even on reddit. People don't belive me. Firefox has the optimisation issue, I've tested the same on multiple devices. Disabling battery optimisation won't work either",
+              "score": 4,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa7cyje/"
+            },
+            {
+              "author": "Julian679",
+              "date": "2026-09-16",
+              "excerpt": "Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too. Im running older version but im sure its your phone not firefox problem",
+              "score": 3,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5o24t/"
+            },
+            {
+              "author": "LexxiiConn",
+              "date": "2026-09-16",
+              "excerpt": "Yeah this doesn't happen to me... I think it's something with your phone.",
+              "score": 3,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa600ic/"
+            },
+            {
+              "author": "Reasonable_Hat7594",
+              "date": "2026-09-16",
+              "excerpt": "Sadly it performs badly on mobile compared to most alternatives.",
+              "score": 3,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa7067x/"
+            },
+            {
+              "author": "Revolutionary_Ad_238",
+              "date": "2026-09-16",
+              "excerpt": "Give autostart permission and disable battery saver for the app..it will fix the issue",
+              "score": 2,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5ncm7/"
+            },
+            {
+              "author": "goreverminski",
+              "date": "2026-09-16",
+              "excerpt": "Which phone? Some manufacturers are hyperaggressive about clearing apps from RAM. The worst for me was Xiaomi.",
+              "score": 2,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa7aaf8/"
+            },
+            {
+              "author": "Same_Mood_8543",
+              "date": "2026-09-16",
+              "excerpt": "Sounds familiar https://www.reddit.com/r/AdviceAnimals/s/XurHVFGiTr",
+              "score": 1,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa6tsno/"
+            },
+            {
+              "author": "Leading-Plastic5771",
+              "date": "2026-09-16",
+              "excerpt": "Not being able to have a tab bar on the bottom, with close button, like in opera, is a deal breaker for me. I have used Firefox on Linux desktop for over 20 years but unfortunately not the on Android.",
+              "score": 0,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa6c47s/"
+            },
+            {
+              "author": "Nightwish1976",
+              "date": "2026-09-16",
+              "excerpt": "Install Automatic Tab Discarder or a similar extension.",
+              "score": -1,
+              "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5qgc3/"
+            }
+          ]
+        },
+        "published_at": "2026-09-16",
+        "relevance_hint": 0.37,
+        "snippet": "That has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox Lol I mentioned this to their community so many times, even on reddit. People don't belive me. Firefox has the optimisation issue, I've tested the same on multiple devices. Disabling battery optimisation won't work either Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too. Im running older version but im sure its your phone not firefox problem",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Am I the only one frustrated with Firefox for Android?",
+        "url": "https://www.reddit.com/r/firefox/comments/1whw9wv/am_i_the_only_one_frustrated_with_firefox_for/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "So done with this app.\nHaven't been able to make anything for like 2 weeks. Was doing so good for awhile, but I am beyond frustrated with this shit.\nThat was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish. I tend to close the tab whenever Decipher comes up. The real shame is spending an hour of your life for $2.70. That site is gross. Did the show start with a D? I got the same this morning. 18 minutes, 270 points, took 10 minutes just to get to \"Now watch this whole episode and interact with the engagement bar\" I backed out.",
+        "container": "surveyjunkie",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 16,
+          "score": 27
+        },
+        "engagement_score": 64,
+        "freshness": 73,
+        "item_id": "R3",
+        "local_rank_score": 0.3505,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "That was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish.",
+            "Did the show start with a D? I got the same this morning.",
+            "I soooo totally know exactly what you you are going through.",
+            "Branded Surveys has an actual appeals process, Survey Junkie has a void you can shout into to placate you.",
+            "The real shame is spending an hour of your life for $2.70. That site is gross.",
+            "I refuse to do super long surveys bc of this",
+            "I agree with you survey Junkie's been BS for probably the beginning of time They're always pretty good right at the beginning of your membership and y...",
+            "I hate those tv/movie surveys. If you don't engage with the bar for the whole hour, you get disqualified.",
+            "I would be so aggravated too, especially after doing well for a while and then suddenly barely being able to complete anything for two weeks."
+          ],
+          "top_comments": [
+            {
+              "author": "Intrepid-Hurry7694",
+              "date": "2026-09-11",
+              "excerpt": "That was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish. I tend to close the tab whenever Decipher comes up.",
+              "score": 9,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p95nicm/"
+            },
+            {
+              "author": "Actual-Classroom-725",
+              "date": "2026-09-11",
+              "excerpt": "The real shame is spending an hour of your life for $2.70. That site is gross.",
+              "score": 7,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p97ys53/"
+            },
+            {
+              "author": "StephenDoesStuff",
+              "date": "2026-09-11",
+              "excerpt": "Did the show start with a D? I got the same this morning. 18 minutes, 270 points, took 10 minutes just to get to \"Now watch this whole episode and interact with the engagement bar\" I backed out.",
+              "score": 4,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p95pqsw/"
+            },
+            {
+              "author": "PhysicalCharacter3",
+              "date": "2026-09-11",
+              "excerpt": "I refuse to do super long surveys bc of this",
+              "score": 4,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p98m641/"
+            },
+            {
+              "author": "Hlucyn8",
+              "date": "2026-09-11",
+              "excerpt": "I soooo totally know exactly what you you are going through. It\u2019s like they are getting the answers to all the questions then stealing the data that the researcher is looking for. You get 2 points and they keep the funds. I had to go from the truth of white male to saying I am Hispanic female before",
+              "score": 3,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p96c23j/"
+            },
+            {
+              "author": "liatrisinbloom",
+              "date": "2026-09-11",
+              "excerpt": "Branded Surveys has an actual appeals process, Survey Junkie has a void you can shout into to placate you.",
+              "score": 3,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p98hnvi/"
+            },
+            {
+              "author": "No_Molasses674",
+              "date": "2026-09-12",
+              "excerpt": "I agree with you survey Junkie's been BS for probably the beginning of time They're always pretty good right at the beginning of your membership and you can make a decent amount of money quickly but as you're there longer they really don't want you there so they give you crap and more crap I only do",
+              "score": 3,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p9a61ie/"
+            },
+            {
+              "author": "Green-Relation-7568",
+              "date": "2026-09-16",
+              "excerpt": "I hate those tv/movie surveys. If you don't engage with the bar for the whole hour, you get disqualified. Heaven forbid something might happen like having to go to the bathroom and there's no pause button. So you take care of business and get yelled at for not moving the bar.",
+              "score": 2,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/pa3oply/"
+            },
+            {
+              "author": "Dependent-Toe-3359",
+              "date": "2026-09-21",
+              "excerpt": "I would be so aggravated too, especially after doing well for a while and then suddenly barely being able to complete anything for two weeks.\n\n One thing I definitely would NOT do is change your race, gender, or other profile answers just to get surveys like someone suggested. That can make your ans",
+              "score": 1,
+              "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/pb35r3a/"
+            }
+          ]
+        },
+        "published_at": "2026-09-11",
+        "relevance_hint": 0.44,
+        "snippet": "That was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish. I tend to close the tab whenever Decipher comes up. The real shame is spending an hour of your life for $2.70. That site is gross. Did the show start with a D? I got the same this morning. 18 minutes, 270 points, took 10 minutes just to get to \"Now watch this whole episode and interact with the engagement bar\" I backed out.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "So done with this app.",
+        "url": "https://www.reddit.com/r/surveyjunkie/comments/1wdgolr/so_done_with_this_app/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "6 weeks of app review hell is finally over \ud83d\ude02\nAfter about 6 weeks of back and forth with Apple, my app finally got approved this week. This was my first proper native iOS app, although I\u2019ve been a software/web developer for 20+ years. The app started as a fairly simple poker tournament clock. I play live poker regularly and got frustrated with how basic or outdated a lot of tournament software is, so I started building something for myself. It got a bit out of hand. It now manages seating, table balancing, payouts, re-entries, leagues, mult",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 3
+        },
+        "engagement_score": 18,
+        "freshness": 73,
+        "item_id": "R8",
+        "local_rank_score": 0.3045,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-11",
+        "relevance_hint": 0.49,
+        "snippet": "After about 6 weeks of back and forth with Apple, my app finally got approved this week. This was my first proper native iOS app, although I\u2019ve been a software/web developer for 20+ years. The app started as a fairly simple poker tournament clock. I play live poker regularly and got frustrated with how basic or outdated a lot of tournament software is, so I started building something for myself. I",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "6 weeks of app review hell is finally over \ud83d\ude02",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1wdgx5c/6_weeks_of_app_review_hell_is_finally_over/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Timeline of app review time for my new apps vs updates to existing apps\nNone\nMy macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 21,
+          "score": 14
+        },
+        "engagement_score": 56,
+        "freshness": 53,
+        "item_id": "R5",
+        "local_rank_score": 0.29250000000000004,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+            "Does this status mean I just need to wait...?",
+            "Going on 1 month for my new app with 2 rejections so far.",
+            "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of a...",
+            "Meanwhile updates to existing apps are still very fast.",
+            "My macOS app usually gets passed the review in four to six hours.",
+            "Thank you so much for the info!",
+            "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app versio...",
+            "Can I have two or more completely different apps waiting for review at the same time?"
+          ],
+          "top_comments": [
+            {
+              "author": "bluedoggee",
+              "date": "2026-09-01",
+              "excerpt": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\"",
+              "score": 3,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p784q8a/"
+            },
+            {
+              "author": "damn_bruh_ruok",
+              "date": "2026-09-01",
+              "excerpt": "Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review?",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p76ulcu/"
+            },
+            {
+              "author": "Owmince",
+              "date": "2026-09-02",
+              "excerpt": "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p7eloqo/"
+            },
+            {
+              "author": "doobean",
+              "date": "2026-09-01",
+              "excerpt": "Does this status mean I just need to wait...?",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p79hip7/"
+            },
+            {
+              "author": "RaptorF22",
+              "date": "2026-09-01",
+              "excerpt": "Going on 1 month for my new app with 2 rejections so far.",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78j879/"
+            },
+            {
+              "author": "Curryative",
+              "date": "2026-09-01",
+              "excerpt": "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of account setup aa the way to deletion workflow, so I recorded that and sent it in and now I\u2019m waiting again. I\u2019ve found the process very straight forwar",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78h04w/"
+            },
+            {
+              "author": "ZanzibarMcFate",
+              "date": "2026-09-01",
+              "excerpt": "Meanwhile updates to existing apps are still very fast. Sometimes they get approved in 2-4 hours. Other times in 1-2 days.\n\n That used to be the case for me. I've got three apps I manage at my day job, and we publish updates every two weeks. For the last few years, app updates have taken at most 1-2",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78dgba/"
+            },
+            {
+              "author": "Rude_Importance7165",
+              "date": "2026-09-01",
+              "excerpt": "Thank you so much for the info!",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p77pq1a/"
+            },
+            {
+              "author": "stymiecrew",
+              "date": "2026-09-01",
+              "excerpt": "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app version. Took me a few review rounds to realize that marking a subscription \"Ready for Review\" on its own page doesn't actually submit it \u2014 you also need to",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p779ndv/"
+            }
+          ]
+        },
+        "published_at": "2026-09-01",
+        "relevance_hint": 0.37,
+        "snippet": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Timeline of app review time for my new apps vs updates to existing apps",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs/",
+        "why_relevant": "Reddit r/appledevelopers search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-25",
+  "range_to": "2026-09-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1wkic2m/i_built_a_free_stock_analysis_tool_after_getting",
+      "cluster_id": "cluster-1",
+      "engagement": 59,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 13.34918032786885,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.36,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 24.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Nice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall. I noticed that it can a bit slow loading the info on a stock. I see that it has an AI summary which I presume is slowing things down as all the elements load in at once. Something like progressive loading would make things feel more snappy without even making things more pe Your bull/base/bear simulator is where I would spend the attention. A simplified DCF renders as three tidy numbers, but nearly all of the spread between them comes from the growth and margin assumptions the user typed in, so it reads as analysis while behaving...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2014 would love feedback from actual investors\nI've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools \u2014 a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a simplified DCF) Revenue breakdown by business segment (iPhone vs Services vs Mac for Apple etc) It'\nNice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall.\n\n I noticed that it can a bit slow loading the info on a stock. I see that it has an AI summary which I presume is slowing things down as all the elements load in at once. Something like progressive loading would make things feel more snappy without even making things more pe Your bull/base/bear simulator is where I would spend the attention. A simplified DCF renders as three tidy numbers, but nearly all of the spread between them comes from the growth and margin assumptions the user typed in, so it reads as analysis while behaving like an echo.\n\n Show which input moved Bro I think it looks really good, and I like the PE PS historicals. Suggestion: The price chart should be improved. It needs more visualization options (e.g. candels, I did not see the option, but maybe because i am using it on the phone) and analysis instruments.",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 27,
+            "score": 15
+          },
+          "engagement_score": 59,
+          "freshness": 89,
+          "item_id": "R4",
+          "local_rank_score": 0.5155000000000001,
+          "local_relevance": 0.36,
+          "metadata": {
+            "comment_insights": [
+              "Nice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall.",
+              "Your bull/base/bear simulator is where I would spend the attention.",
+              "Bro I think it looks really good, and I like the PE PS historicals.",
+              "I typed few stock names, but got no feedback"
+            ],
+            "top_comments": [
+              {
+                "author": "adamobrn",
+                "date": "2026-09-19",
+                "excerpt": "Nice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall.\n\n I noticed that it can a bit slow loading the info on a stock. I see that it has an AI summary which I presume is slowing things down as all the elements load in at once. Something like progressive loading would make things feel more snappy without even making things more pe",
+                "score": 2,
+                "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/par4e2h/"
+              },
+              {
+                "author": "QuanTradin",
+                "date": "2026-09-19",
+                "excerpt": "Your bull/base/bear simulator is where I would spend the attention. A simplified DCF renders as three tidy numbers, but nearly all of the spread between them comes from the growth and margin assumptions the user typed in, so it reads as analysis while behaving like an echo.\n\n Show which input moved ",
+                "score": 2,
+                "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/parnkvf/"
+              },
+              {
+                "author": "Baldo144",
+                "date": "2026-09-19",
+                "excerpt": "Bro I think it looks really good, and I like the PE PS historicals. Suggestion: The price chart should be improved. It needs more visualization options (e.g. candels, I did not see the option, but maybe because i am using it on the phone) and analysis instruments.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/paqusfu/"
+              },
+              {
+                "author": "Sharp-Present-3687",
+                "date": "2026-09-20",
+                "excerpt": "I typed few stock names, but got no feedback",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1wkic2m/comment/payexsp/"
+              }
+            ]
+          },
+          "published_at": "2026-09-19",
+          "relevance_hint": 0.37,
+          "snippet": "Nice project dude. I usually use Simply Wall Street which has most of the stuff you are offering for free behind a paywall. I noticed that it can a bit slow loading the info on a stock. I see that it has an AI summary which I presume is slowing things down as all the elements load in at once. Something like progressive loading would make things feel more snappy without even making things more pe Your bull/base/bear simulator is where I would spend the attention. A simplified DCF renders as three tidy numbers, but nearly all of the spread between them comes from the growth and margin assumptions the user typed in, so it reads as analysis while behaving...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2014 would love feedback from actual investors",
+          "url": "https://www.reddit.com/r/SideProject/comments/1wkic2m/i_built_a_free_stock_analysis_tool_after_getting/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2014 would love feedback from actual investors",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wkic2m/i_built_a_free_stock_analysis_tool_after_getting/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ollama/comments/1wmlaqu/anyone_else_starting_to_have_an_ai_productivity",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "AI makes you more like a project manager. You\u2019d be a bad project manager if you don\u2019t understand the codebase. Architect the codebase yourself by prototyping and have the AI fill in the gaps. This way you maintain control while using AI to make you more productive. It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage. They get burned out then they come back with a better mindset and a happy balance I am experiencing something similar. A part of this. We have this new, powerful capability, and as you learn more about what it can do as you see it work, you naturally try to want to keep it running all of...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Anyone else starting to have an AI productivity crisis?\nI'm working on a computer game as a side project. I started it around 4 years ago, before I used any AI for coding. For most of that time I wrote everything myself. Later I started using GitHub Copilot here and there, mostly to polish things, help with some boring code, or talk through a problem. But I still understood the whole codebase pretty well and felt like I actually owned what I was building. Over the last few months or so something changed. I started feeling like I'm just not productive\nAI makes you more like a project manager.\n\n You\u2019d be a bad project manager if you don\u2019t understand the codebase.\n\n Architect the codebase yourself by prototyping and have the AI fill in the gaps. This way you maintain control while using AI to make you more productive. It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage. They get burned out then they come back with a better mindset and a happy balance I am experiencing something similar. A part of this.\n\n We have this new, powerful capability, and as you learn more about what it can do as you see it work, you naturally try to want to keep it running all of the time. To keep it fed. And then you reach a point where feeding it seems hard, because y",
+          "container": "ollama",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 49,
+            "score": 142
+          },
+          "engagement_score": 100,
+          "freshness": 94,
+          "item_id": "R1",
+          "local_rank_score": 0.43899999999999995,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "I've only been using AI for a couple of months. I had a few projects that had been hanging fire for.",
+              "That's probably the part that bothers me most. AI makes it easier than ever to build something, while at the same time it feels like it's making it ha...",
+              "It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage.",
+              "AI makes you more like a project manager.\n\n You\u2019d be a bad project manager if you don\u2019t understand the codebase.",
+              "I am experiencing something similar. A part of this.",
+              "This is the exactly the dependence that the \"AI\" companies want from you.",
+              "No, you\u2019re not alone with that",
+              "why am I still spending time writing code and trying to understand the codebase?",
+              "I had this, as I think everyone does at some point. How you fix it is by finding how you fit into the new scheme of things and find the place where yo...",
+              "As someone who loves ai tools but is not an app developer I appreciate that you respect your craft and haven't given your cognitive thought and reason..."
+            ],
+            "top_comments": [
+              {
+                "author": "GatePorters",
+                "date": "2026-09-21",
+                "excerpt": "AI makes you more like a project manager.\n\n You\u2019d be a bad project manager if you don\u2019t understand the codebase.\n\n Architect the codebase yourself by prototyping and have the AI fill in the gaps. This way you maintain control while using AI to make you more productive.",
+                "score": 57,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7vjmk/"
+              },
+              {
+                "author": "No_Cartographer3953",
+                "date": "2026-09-21",
+                "excerpt": "It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage. They get burned out then they come back with a better mindset and a happy balance",
+                "score": 44,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7tptw/"
+              },
+              {
+                "author": "thehardsphere",
+                "date": "2026-09-21",
+                "excerpt": "I am experiencing something similar. A part of this.\n\n We have this new, powerful capability, and as you learn more about what it can do as you see it work, you naturally try to want to keep it running all of the time. To keep it fed. And then you reach a point where feeding it seems hard, because y",
+                "score": 8,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7v77x/"
+              },
+              {
+                "author": "anselan2017",
+                "date": "2026-09-21",
+                "excerpt": "This is the exactly the dependence that the \"AI\" companies want from you.",
+                "score": 4,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7yczf/"
+              },
+              {
+                "author": "TRX302",
+                "date": "2026-09-21",
+                "excerpt": "I've only been using AI for a couple of months. I had a few projects that had been hanging fire for... uh... a long time. And I haven't programmed in earnest for about as long.\n\n I asked the free ChatGPT to write a simple program in Tcl. It did so. We expanded it. It ran into a number of problems, mostly because OpenAI says ChatGPT is \"optimized\" for C and Python, and Tcl worked different enough t",
+                "score": 3,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb98huy/"
+              },
+              {
+                "author": "alkimiadev",
+                "date": "2026-09-22",
+                "excerpt": "That's probably the part that bothers me most. AI makes it easier than ever to build something, while at the same time it feels like it's making it harder than ever for something good to actually be seen.\n\n This is a really good time to have a bias toward intrinsic motivation vs. extrinsic motivatio",
+                "score": 3,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb9rnrh/"
+              },
+              {
+                "author": "donotfire",
+                "date": "2026-09-21",
+                "excerpt": "No, you\u2019re not alone with that",
+                "score": 3,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb7vhni/"
+              },
+              {
+                "author": "allisonmaybe",
+                "date": "2026-09-21",
+                "excerpt": "why am I still spending time writing code and trying to understand the codebase? Why don't I just vibe code the rest of the game and focus my own time mostly on the graphics, gameplay and overall direction?\n\n Right, why not? You had an idea that you wanted to take out of your brain and turn it into ",
+                "score": 2,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb80a31/"
+              },
+              {
+                "author": "Prudent_Sentence",
+                "date": "2026-09-21",
+                "excerpt": "I had this, as I think everyone does at some point. How you fix it is by finding how you fit into the new scheme of things and find the place where you do feel productive again.",
+                "score": 2,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb860q2/"
+              },
+              {
+                "author": "GloriousKev",
+                "date": "2026-09-21",
+                "excerpt": "As someone who loves ai tools but is not an app developer I appreciate that you respect your craft and haven't given your cognitive thought and reasoning completely to ai. You are actually building the hard stuff by hand. I respect that a lot.",
+                "score": 2,
+                "url": "https://reddit.com/r/ollama/comments/1wmlaqu/comment/pb8jiwx/"
+              }
+            ]
+          },
+          "published_at": "2026-09-21",
+          "relevance_hint": 0.22,
+          "snippet": "AI makes you more like a project manager. You\u2019d be a bad project manager if you don\u2019t understand the codebase. Architect the codebase yourself by prototyping and have the AI fill in the gaps. This way you maintain control while using AI to make you more productive. It\u2019s part of the cycle with using AI tools. I think everyone goes through this stage. They get burned out then they come back with a better mindset and a happy balance I am experiencing something similar. A part of this. We have this new, powerful capability, and as you learn more about what it can do as you see it work, you naturally try to want to keep it running all of...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Anyone else starting to have an AI productivity crisis?",
+          "url": "https://www.reddit.com/r/ollama/comments/1wmlaqu/anyone_else_starting_to_have_an_ai_productivity/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Anyone else starting to have an AI productivity crisis?",
+      "url": "https://www.reddit.com/r/ollama/comments/1wmlaqu/anyone_else_starting_to_have_an_ai_productivity/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/firefox/comments/1whw9wv/am_i_the_only_one_frustrated_with_firefox_for",
+      "cluster_id": "cluster-3",
+      "engagement": 67,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 8.799999999999997,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "That has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox Lol I mentioned this to their community so many times, even on reddit. People don't belive me. Firefox has the optimisation issue, I've tested the same on multiple devices. Disabling battery optimisation won't work either Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too. Im running older version but im sure its your phone not firefox problem",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Am I the only one frustrated with Firefox for Android?\nI love Firefox on desktop, but on Android is frustrating me for one single reason: it doesn't keep itself in RAM. If I quickly go to the homescreen (or for example in the SMS app to copy an OTP code) and then open Firefox again, it opens as if I closed it (reloads the page from scratch, losing the temporary data on it). I have the latest Firefox application, one of the latest Androids, 8GB of RAM and plenty of available storage. FF is the only app behaving this way. Chromium-based web browsers d\nThat has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox Lol I mentioned this to their community so many times, even on reddit. People don't belive me. Firefox has the optimisation issue, I've tested the same on multiple devices. Disabling battery optimisation won't work either Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too. Im running older version but im sure its your phone not firefox problem",
+          "container": "firefox",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 19,
+            "score": 31
+          },
+          "engagement_score": 67,
+          "freshness": 83,
+          "item_id": "R2",
+          "local_rank_score": 0.3785,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "Give autostart permission and disable battery saver for the app..it will fix the issue",
+              "Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too.",
+              "That has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox",
+              "Install Automatic Tab Discarder or a similar extension.",
+              "Yeah this doesn't happen to me... I think it's something with your phone.",
+              "Not being able to have a tab bar on the bottom, with close button, like in opera, is a deal breaker for me.",
+              "Sounds familiar https://www.reddit.com/r/AdviceAnimals/s/XurHVFGiTr",
+              "Sadly it performs badly on mobile compared to most alternatives.",
+              "Which phone? Some manufacturers are hyperaggressive about clearing apps from RAM. The worst for me was Xiaomi.",
+              "Lol I mentioned this to their community so many times, even on reddit."
+            ],
+            "top_comments": [
+              {
+                "author": "SonnyKlinger",
+                "date": "2026-09-16",
+                "excerpt": "That has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox",
+                "score": 6,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5ps6g/"
+              },
+              {
+                "author": "Candid_Goose3394",
+                "date": "2026-09-16",
+                "excerpt": "Lol I mentioned this to their community so many times, even on reddit. People don't belive me. Firefox has the optimisation issue, I've tested the same on multiple devices. Disabling battery optimisation won't work either",
+                "score": 4,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa7cyje/"
+              },
+              {
+                "author": "Julian679",
+                "date": "2026-09-16",
+                "excerpt": "Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too. Im running older version but im sure its your phone not firefox problem",
+                "score": 3,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5o24t/"
+              },
+              {
+                "author": "LexxiiConn",
+                "date": "2026-09-16",
+                "excerpt": "Yeah this doesn't happen to me... I think it's something with your phone.",
+                "score": 3,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa600ic/"
+              },
+              {
+                "author": "Reasonable_Hat7594",
+                "date": "2026-09-16",
+                "excerpt": "Sadly it performs badly on mobile compared to most alternatives.",
+                "score": 3,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa7067x/"
+              },
+              {
+                "author": "Revolutionary_Ad_238",
+                "date": "2026-09-16",
+                "excerpt": "Give autostart permission and disable battery saver for the app..it will fix the issue",
+                "score": 2,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5ncm7/"
+              },
+              {
+                "author": "goreverminski",
+                "date": "2026-09-16",
+                "excerpt": "Which phone? Some manufacturers are hyperaggressive about clearing apps from RAM. The worst for me was Xiaomi.",
+                "score": 2,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa7aaf8/"
+              },
+              {
+                "author": "Same_Mood_8543",
+                "date": "2026-09-16",
+                "excerpt": "Sounds familiar https://www.reddit.com/r/AdviceAnimals/s/XurHVFGiTr",
+                "score": 1,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa6tsno/"
+              },
+              {
+                "author": "Leading-Plastic5771",
+                "date": "2026-09-16",
+                "excerpt": "Not being able to have a tab bar on the bottom, with close button, like in opera, is a deal breaker for me. I have used Firefox on Linux desktop for over 20 years but unfortunately not the on Android.",
+                "score": 0,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa6c47s/"
+              },
+              {
+                "author": "Nightwish1976",
+                "date": "2026-09-16",
+                "excerpt": "Install Automatic Tab Discarder or a similar extension.",
+                "score": -1,
+                "url": "https://reddit.com/r/firefox/comments/1whw9wv/comment/pa5qgc3/"
+              }
+            ]
+          },
+          "published_at": "2026-09-16",
+          "relevance_hint": 0.37,
+          "snippet": "That has definitely to do with your phone... I have 4GB RAM and no issues at all with Firefox Lol I mentioned this to their community so many times, even on reddit. People don't belive me. Firefox has the optimisation issue, I've tested the same on multiple devices. Disabling battery optimisation won't work either Probably your phone deleting it. I have a phone with 6gb of ram and it stays in ram for a very long time and some tabs over night too. Im running older version but im sure its your phone not firefox problem",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Am I the only one frustrated with Firefox for Android?",
+          "url": "https://www.reddit.com/r/firefox/comments/1whw9wv/am_i_the_only_one_frustrated_with_firefox_for/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Am I the only one frustrated with Firefox for Android?",
+      "url": "https://www.reddit.com/r/firefox/comments/1whw9wv/am_i_the_only_one_frustrated_with_firefox_for/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/so_done_with_this_app",
+      "cluster_id": "cluster-4",
+      "engagement": 64,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "That was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish. I tend to close the tab whenever Decipher comes up. The real shame is spending an hour of your life for $2.70. That site is gross. Did the show start with a D? I got the same this morning. 18 minutes, 270 points, took 10 minutes just to get to \"Now watch this whole episode and interact with the engagement bar\" I backed out.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "So done with this app.\nHaven't been able to make anything for like 2 weeks. Was doing so good for awhile, but I am beyond frustrated with this shit.\nThat was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish. I tend to close the tab whenever Decipher comes up. The real shame is spending an hour of your life for $2.70. That site is gross. Did the show start with a D? I got the same this morning. 18 minutes, 270 points, took 10 minutes just to get to \"Now watch this whole episode and interact with the engagement bar\" I backed out.",
+          "container": "surveyjunkie",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 16,
+            "score": 27
+          },
+          "engagement_score": 64,
+          "freshness": 73,
+          "item_id": "R3",
+          "local_rank_score": 0.3505,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "That was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish.",
+              "Did the show start with a D? I got the same this morning.",
+              "I soooo totally know exactly what you you are going through.",
+              "Branded Surveys has an actual appeals process, Survey Junkie has a void you can shout into to placate you.",
+              "The real shame is spending an hour of your life for $2.70. That site is gross.",
+              "I refuse to do super long surveys bc of this",
+              "I agree with you survey Junkie's been BS for probably the beginning of time They're always pretty good right at the beginning of your membership and y...",
+              "I hate those tv/movie surveys. If you don't engage with the bar for the whole hour, you get disqualified.",
+              "I would be so aggravated too, especially after doing well for a while and then suddenly barely being able to complete anything for two weeks."
+            ],
+            "top_comments": [
+              {
+                "author": "Intrepid-Hurry7694",
+                "date": "2026-09-11",
+                "excerpt": "That was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish. I tend to close the tab whenever Decipher comes up.",
+                "score": 9,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p95nicm/"
+              },
+              {
+                "author": "Actual-Classroom-725",
+                "date": "2026-09-11",
+                "excerpt": "The real shame is spending an hour of your life for $2.70. That site is gross.",
+                "score": 7,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p97ys53/"
+              },
+              {
+                "author": "StephenDoesStuff",
+                "date": "2026-09-11",
+                "excerpt": "Did the show start with a D? I got the same this morning. 18 minutes, 270 points, took 10 minutes just to get to \"Now watch this whole episode and interact with the engagement bar\" I backed out.",
+                "score": 4,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p95pqsw/"
+              },
+              {
+                "author": "PhysicalCharacter3",
+                "date": "2026-09-11",
+                "excerpt": "I refuse to do super long surveys bc of this",
+                "score": 4,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p98m641/"
+              },
+              {
+                "author": "Hlucyn8",
+                "date": "2026-09-11",
+                "excerpt": "I soooo totally know exactly what you you are going through. It\u2019s like they are getting the answers to all the questions then stealing the data that the researcher is looking for. You get 2 points and they keep the funds. I had to go from the truth of white male to saying I am Hispanic female before",
+                "score": 3,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p96c23j/"
+              },
+              {
+                "author": "liatrisinbloom",
+                "date": "2026-09-11",
+                "excerpt": "Branded Surveys has an actual appeals process, Survey Junkie has a void you can shout into to placate you.",
+                "score": 3,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p98hnvi/"
+              },
+              {
+                "author": "No_Molasses674",
+                "date": "2026-09-12",
+                "excerpt": "I agree with you survey Junkie's been BS for probably the beginning of time They're always pretty good right at the beginning of your membership and you can make a decent amount of money quickly but as you're there longer they really don't want you there so they give you crap and more crap I only do",
+                "score": 3,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/p9a61ie/"
+              },
+              {
+                "author": "Green-Relation-7568",
+                "date": "2026-09-16",
+                "excerpt": "I hate those tv/movie surveys. If you don't engage with the bar for the whole hour, you get disqualified. Heaven forbid something might happen like having to go to the bathroom and there's no pause button. So you take care of business and get yelled at for not moving the bar.",
+                "score": 2,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/pa3oply/"
+              },
+              {
+                "author": "Dependent-Toe-3359",
+                "date": "2026-09-21",
+                "excerpt": "I would be so aggravated too, especially after doing well for a while and then suddenly barely being able to complete anything for two weeks.\n\n One thing I definitely would NOT do is change your race, gender, or other profile answers just to get surveys like someone suggested. That can make your ans",
+                "score": 1,
+                "url": "https://reddit.com/r/surveyjunkie/comments/1wdgolr/comment/pb35r3a/"
+              }
+            ]
+          },
+          "published_at": "2026-09-11",
+          "relevance_hint": 0.44,
+          "snippet": "That was Decipher, wasn't it? They're infamous for their long movie/ad surveys that disqualify you with 0 points after you finish. I tend to close the tab whenever Decipher comes up. The real shame is spending an hour of your life for $2.70. That site is gross. Did the show start with a D? I got the same this morning. 18 minutes, 270 points, took 10 minutes just to get to \"Now watch this whole episode and interact with the engagement bar\" I backed out.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "So done with this app.",
+          "url": "https://www.reddit.com/r/surveyjunkie/comments/1wdgolr/so_done_with_this_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "So done with this app.",
+      "url": "https://www.reddit.com/r/surveyjunkie/comments/1wdgolr/so_done_with_this_app/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs",
+      "cluster_id": "cluster-5",
+      "engagement": 56,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 8,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 8
+      },
+      "rerank_score": 2.8000000000000007,
+      "rrf_score": 0.007352941176470588,
+      "snippet": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Timeline of app review time for my new apps vs updates to existing apps\nNone\nMy macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 21,
+            "score": 14
+          },
+          "engagement_score": 56,
+          "freshness": 53,
+          "item_id": "R5",
+          "local_rank_score": 0.29250000000000004,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+              "Does this status mean I just need to wait...?",
+              "Going on 1 month for my new app with 2 rejections so far.",
+              "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of a...",
+              "Meanwhile updates to existing apps are still very fast.",
+              "My macOS app usually gets passed the review in four to six hours.",
+              "Thank you so much for the info!",
+              "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app versio...",
+              "Can I have two or more completely different apps waiting for review at the same time?"
+            ],
+            "top_comments": [
+              {
+                "author": "bluedoggee",
+                "date": "2026-09-01",
+                "excerpt": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\"",
+                "score": 3,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p784q8a/"
+              },
+              {
+                "author": "damn_bruh_ruok",
+                "date": "2026-09-01",
+                "excerpt": "Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review?",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p76ulcu/"
+              },
+              {
+                "author": "Owmince",
+                "date": "2026-09-02",
+                "excerpt": "you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p7eloqo/"
+              },
+              {
+                "author": "doobean",
+                "date": "2026-09-01",
+                "excerpt": "Does this status mean I just need to wait...?",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p79hip7/"
+              },
+              {
+                "author": "RaptorF22",
+                "date": "2026-09-01",
+                "excerpt": "Going on 1 month for my new app with 2 rejections so far.",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78j879/"
+              },
+              {
+                "author": "Curryative",
+                "date": "2026-09-01",
+                "excerpt": "I submitted my first app couple days ago and it got an initial review in 2 days and then I must\u2019ve missed somewhere where they wanted a recording of account setup aa the way to deletion workflow, so I recorded that and sent it in and now I\u2019m waiting again. I\u2019ve found the process very straight forwar",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78h04w/"
+              },
+              {
+                "author": "ZanzibarMcFate",
+                "date": "2026-09-01",
+                "excerpt": "Meanwhile updates to existing apps are still very fast. Sometimes they get approved in 2-4 hours. Other times in 1-2 days.\n\n That used to be the case for me. I've got three apps I manage at my day job, and we publish updates every two weeks. For the last few years, app updates have taken at most 1-2",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p78dgba/"
+              },
+              {
+                "author": "Rude_Importance7165",
+                "date": "2026-09-01",
+                "excerpt": "Thank you so much for the info!",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p77pq1a/"
+              },
+              {
+                "author": "stymiecrew",
+                "date": "2026-09-01",
+                "excerpt": "Similar experience with initial app review being pretty fast (2-3 days), but I hit a different kind of delay: subscriptions attached to the app version. Took me a few review rounds to realize that marking a subscription \"Ready for Review\" on its own page doesn't actually submit it \u2014 you also need to",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1w4e9it/comment/p779ndv/"
+              }
+            ]
+          },
+          "published_at": "2026-09-01",
+          "relevance_hint": 0.37,
+          "snippet": "My macOS app usually gets passed the review in four to six hours.\n\n tips may work:\n\n Write \"What's new\" in detail. Don't just write \"Bug fix and performance improvement.\" Can I have two or more completely different apps waiting for review at the same time? Would that get me flagged as spam or anything like that?\nOr should I wait for the review of one app to be completed before submitting another app for review? you get only 1-2 days for app update in this past week? because I get 1-2 weeks waiting time since mid august. Before that it was 1-3 days",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Timeline of app review time for my new apps vs updates to existing apps",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs/",
+          "why_relevant": "Reddit r/appledevelopers search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Timeline of app review time for my new apps vs updates to existing apps",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1w4e9it/timeline_of_app_review_time_for_my_new_apps_vs/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/whatsappbusinessapi/comments/1wi1b5f/rant_very_frustrated_with_the_whole_whatsapp_api",
+      "cluster_id": "cluster-6",
+      "engagement": 38,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 15.100000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "I've been trying to become a tech provider for 15 days. It is so long. It feels like every time I sneeze I need to ask for their approval. It is nothing but a succession of required reviews and approvals (business portfolio, organization verification, advanced access, whatsapp business accounts, new phone number, new display name, etc.). They are so slow and there is no way to escalate. I have exp",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Rant: Very frustrated with the whole Whatsapp API program\nI've been trying to become a tech provider for 15 days. It is so long. It feels like every time I sneeze I need to ask for their approval. It is nothing but a succession of required reviews and approvals (business portfolio, organization verification, advanced access, whatsapp business accounts, new phone number, new display name, etc.). They are so slow and there is no way to escalate. I have experience with displeasing dev support with the App Store, but Meta has just set a new record. I've be",
+          "container": "WhatsappBusinessAPI",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 6
+          },
+          "engagement_score": 38,
+          "freshness": 83,
+          "item_id": "R6",
+          "local_rank_score": 0.40800000000000003,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-16",
+          "relevance_hint": 0.37,
+          "snippet": "I've been trying to become a tech provider for 15 days. It is so long. It feels like every time I sneeze I need to ask for their approval. It is nothing but a succession of required reviews and approvals (business portfolio, organization verification, advanced access, whatsapp business accounts, new phone number, new display name, etc.). They are so slow and there is no way to escalate. I have exp",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Rant: Very frustrated with the whole Whatsapp API program",
+          "url": "https://www.reddit.com/r/WhatsappBusinessAPI/comments/1wi1b5f/rant_very_frustrated_with_the_whole_whatsapp_api/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Rant: Very frustrated with the whole Whatsapp API program",
+      "url": "https://www.reddit.com/r/WhatsappBusinessAPI/comments/1wi1b5f/rant_very_frustrated_with_the_whole_whatsapp_api/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/seekingalpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting",
+      "cluster_id": "cluster-7",
+      "engagement": 36,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R7",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 16.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors\nI've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a simplified DCF) Revenue breakdown by business segment (iPhone vs Services vs Mac for Apple etc) It'",
+          "container": "SeekingAlpha",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 9
+          },
+          "engagement_score": 36,
+          "freshness": 89,
+          "item_id": "R7",
+          "local_rank_score": 0.421,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-19",
+          "relevance_hint": 0.37,
+          "snippet": "I've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors",
+          "url": "https://www.reddit.com/r/SeekingAlpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors",
+      "url": "https://www.reddit.com/r/SeekingAlpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1wdgx5c/6_weeks_of_app_review_hell_is_finally_over",
+      "cluster_id": "cluster-8",
+      "engagement": 18,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.0,
+      "item_id": "R8",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 7,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 7
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.007462686567164179,
+      "snippet": "After about 6 weeks of back and forth with Apple, my app finally got approved this week. This was my first proper native iOS app, although I\u2019ve been a software/web developer for 20+ years. The app started as a fairly simple poker tournament clock. I play live poker regularly and got frustrated with how basic or outdated a lot of tournament software is, so I started building something for myself. I",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "6 weeks of app review hell is finally over \ud83d\ude02\nAfter about 6 weeks of back and forth with Apple, my app finally got approved this week. This was my first proper native iOS app, although I\u2019ve been a software/web developer for 20+ years. The app started as a fairly simple poker tournament clock. I play live poker regularly and got frustrated with how basic or outdated a lot of tournament software is, so I started building something for myself. It got a bit out of hand. It now manages seating, table balancing, payouts, re-entries, leagues, mult",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 3
+          },
+          "engagement_score": 18,
+          "freshness": 73,
+          "item_id": "R8",
+          "local_rank_score": 0.3045,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-11",
+          "relevance_hint": 0.49,
+          "snippet": "After about 6 weeks of back and forth with Apple, my app finally got approved this week. This was my first proper native iOS app, although I\u2019ve been a software/web developer for 20+ years. The app started as a fairly simple poker tournament clock. I play live poker regularly and got frustrated with how basic or outdated a lot of tournament software is, so I started building something for myself. I",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "6 weeks of app review hell is finally over \ud83d\ude02",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1wdgx5c/6_weeks_of_app_review_hell_is_finally_over/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "6 weeks of app review hell is finally over \ud83d\ude02",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1wdgx5c/6_weeks_of_app_review_hell_is_finally_over/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
