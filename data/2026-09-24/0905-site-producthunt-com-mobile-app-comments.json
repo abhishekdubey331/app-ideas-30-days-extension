@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1wo0z8n/i_launched_my_first_product_on_producthunt_today"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1wo0z8n/i_launched_my_first_product_on_producthunt_today"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I launched my first product on ProductHunt today, it\u2019s called LookUp: Explore Your City"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-24T09:05:39.929504+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I launched my first product on ProductHunt today, it\u2019s called LookUp: Explore Your City\nI created this mobile app as part of the RevenueCat Shipaton and I\u2019m super pleased with it. I\u2019m from Glasgow and in my city we have some absolutely stunning architecture but it too often gets overlooked, or, if you\u2019re like me, when you walk pat it everyday it can be easily taken for granted. I realised I didn\u2019t actually know what all of the various architectural styles and influences were, or WHAT half of them were. So it started as a really simple app to tell you about the architectural styles",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 97,
+        "item_id": "R1",
+        "local_rank_score": 0.40299999999999997,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-23",
+        "relevance_hint": 0.15,
+        "snippet": "I created this mobile app as part of the RevenueCat Shipaton and I\u2019m super pleased with it. I\u2019m from Glasgow and in my city we have some absolutely stunning architecture but it too often gets overlooked, or, if you\u2019re like me, when you walk pat it everyday it can be easily taken for granted. I realised I didn\u2019t actually know what all of the various architectural styles and influences were, or WHAT",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I launched my first product on ProductHunt today, it\u2019s called LookUp: Explore Your City",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1wo0z8n/i_launched_my_first_product_on_producthunt_today/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-25",
+  "range_to": "2026-09-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1wo0z8n/i_launched_my_first_product_on_producthunt_today",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I created this mobile app as part of the RevenueCat Shipaton and I\u2019m super pleased with it. I\u2019m from Glasgow and in my city we have some absolutely stunning architecture but it too often gets overlooked, or, if you\u2019re like me, when you walk pat it everyday it can be easily taken for granted. I realised I didn\u2019t actually know what all of the various architectural styles and influences were, or WHAT",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I launched my first product on ProductHunt today, it\u2019s called LookUp: Explore Your City\nI created this mobile app as part of the RevenueCat Shipaton and I\u2019m super pleased with it. I\u2019m from Glasgow and in my city we have some absolutely stunning architecture but it too often gets overlooked, or, if you\u2019re like me, when you walk pat it everyday it can be easily taken for granted. I realised I didn\u2019t actually know what all of the various architectural styles and influences were, or WHAT half of them were. So it started as a really simple app to tell you about the architectural styles",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 97,
+          "item_id": "R1",
+          "local_rank_score": 0.40299999999999997,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-23",
+          "relevance_hint": 0.15,
+          "snippet": "I created this mobile app as part of the RevenueCat Shipaton and I\u2019m super pleased with it. I\u2019m from Glasgow and in my city we have some absolutely stunning architecture but it too often gets overlooked, or, if you\u2019re like me, when you walk pat it everyday it can be easily taken for granted. I realised I didn\u2019t actually know what all of the various architectural styles and influences were, or WHAT",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I launched my first product on ProductHunt today, it\u2019s called LookUp: Explore Your City",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1wo0z8n/i_launched_my_first_product_on_producthunt_today/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I launched my first product on ProductHunt today, it\u2019s called LookUp: Explore Your City",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1wo0z8n/i_launched_my_first_product_on_producthunt_today/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
