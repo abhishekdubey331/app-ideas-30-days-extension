@@ -1,0 +1,963 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/applefitnessplus/comments/1wev4te/beyond_frustrated_with_not_being_able_to_play"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/applefitnessplus/comments/1wev4te/beyond_frustrated_with_not_being_able_to_play"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Beyond frustrated with not being able to play videos"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnessonline/comments/1wi0b7g/dauntra_i_built_an_interactive_fitness_app_demo"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/fitnessonline/comments/1wi0b7g/dauntra_i_built_an_interactive_fitness_app_demo"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "DAUNTRA \u2014 I built an interactive fitness app demo before launching the actual app"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ui_design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/ui_design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-25T04:00:19.077476+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Beyond frustrated with not being able to play videos\nI use Apple Fitness plus six days a week - at least I try to. I\u2019ve been increasingly frustrated with the experience and tonight I gave up because I couldn\u2019t get any workout to work. Method 1: Connect my watch to the Apple TV. Go to my planned workout. \u201cCannot Play Video: The video for this workout is unavailable at this time.\u201d Try again, same message, try again few times, it may or may not begin the workout. Tonight I could not get my planned video or any other video to start. Method 2: Open the\nI play the videos straight from the phone. On your watch. Sign out of iCloud. Then sign back in. Known issue. Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+        "container": "AppleFitnessPlus",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 25,
+          "score": 9
+        },
+        "engagement_score": 57,
+        "freshness": 76,
+        "item_id": "R3",
+        "local_rank_score": 0.3965,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "I play the videos straight from the phone.",
+            "Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+            "On your watch. Sign out of iCloud. Then sign back in. Known issue.",
+            "You said you don't download the videos?\n\n I used to have issues with the workouts stopping midway on cellular network or wi-fi and the only solution I...",
+            "Is this on WiFi or the satellite network? I posted elsewhere that starting this week my iPhone 14 Pro Max can\u2019t play YouTube videos, stream music, ope...",
+            "Happens to me too when I airdrop from my phone to my Apple TV.",
+            "This happens to me when using the app and trying to play to my tv through Roku.",
+            "I\u2019ve had the issue from time to time. I restart the Apple TV and my watch.",
+            "I\u2019ve stopped AirPlaying to my Samsung tv for the same reason.",
+            "Check the storage use on your Apple TV. I've had weird behavior in the Apple Fitness app on the Apple TV when storage started running low."
+          ],
+          "top_comments": [
+            {
+              "author": "Plantfishcatmom",
+              "date": "2026-09-13",
+              "excerpt": "I play the videos straight from the phone.",
+              "score": 9,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9ha97i/"
+            },
+            {
+              "author": "pow_hnd",
+              "date": "2026-09-13",
+              "excerpt": "On your watch. Sign out of iCloud. Then sign back in. Known issue.",
+              "score": 8,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9hde21/"
+            },
+            {
+              "author": "LaDolceVita_59",
+              "date": "2026-09-13",
+              "excerpt": "Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+              "score": 7,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9jp9ez/"
+            },
+            {
+              "author": "Hot_Mushroom2265",
+              "date": "2026-09-13",
+              "excerpt": "Happens to me too when I airdrop from my phone to my Apple TV. Do a restart on your Apple TV, that always fixes it for me. I think something happens when an update goes through",
+              "score": 4,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9jxmli/"
+            },
+            {
+              "author": "drowsy_butterfly",
+              "date": "2026-09-13",
+              "excerpt": "You said you don't download the videos?\n\n I used to have issues with the workouts stopping midway on cellular network or wi-fi and the only solution I've found has been to download them.",
+              "score": 3,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9gzkyi/"
+            },
+            {
+              "author": "Misfit_Dogs",
+              "date": "2026-09-13",
+              "excerpt": "This happens to me when using the app and trying to play to my tv through Roku. I find unplugging the Roku and restarting it helps. Sometimes I also need to turn my watch off and back on.",
+              "score": 3,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9h82js/"
+            },
+            {
+              "author": "youhavetherighttoo",
+              "date": "2026-09-13",
+              "excerpt": "Is this on WiFi or the satellite network? I posted elsewhere that starting this week my iPhone 14 Pro Max can\u2019t play YouTube videos, stream music, open webpages on the Verizon network. Others aid the same happened to them this week.",
+              "score": 2,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9ne47p/"
+            },
+            {
+              "author": "SpaceGirl-",
+              "date": "2026-09-13",
+              "excerpt": "I\u2019ve had the issue from time to time. I restart the Apple TV and my watch.",
+              "score": 2,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9modd6/"
+            },
+            {
+              "author": "No-Fly-9063",
+              "date": "2026-09-14",
+              "excerpt": "I\u2019ve stopped AirPlaying to my Samsung tv for the same reason. I\u2019ve did all the suggestions. Sometimes it\u2019ll work. Sometimes it won\u2019t. I now just play it on my iPad or iPhone. It always works fine on my iPad. It\u2019s not worth the hassle of trying to AirPlay it after I\u2019ve spent however long hyping mysel",
+              "score": 2,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9np1b9/"
+            },
+            {
+              "author": "CardsFan-26",
+              "date": "2026-09-18",
+              "excerpt": "Check the storage use on your Apple TV. I've had weird behavior in the Apple Fitness app on the Apple TV when storage started running low. Restarting the Apple TV (not just letting it sleep, but telling it to restart from Settings) might help, as that can cause cached information to be removed.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/pamcith/"
+            }
+          ]
+        },
+        "published_at": "2026-09-13",
+        "relevance_hint": 0.4,
+        "snippet": "I play the videos straight from the phone. On your watch. Sign out of iCloud. Then sign back in. Known issue. Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Beyond frustrated with not being able to play videos",
+        "url": "https://www.reddit.com/r/AppleFitnessPlus/comments/1wev4te/beyond_frustrated_with_not_being_able_to_play/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "DAUNTRA \u2014 I built an interactive fitness app demo before launching the actual app\nI\u2019ve been building a fitness app called DAUNTRA. The idea came from being frustrated with fitness apps that are good at logging things, but bad at helping you understand what all that data actually means. DAUNTRA puts training, nutrition and progress in one place, then adds a layer called Lab Insights that tries to surface useful patterns from what you\u2019ve logged instead of just showing more charts. I\u2019m not launching the app publicly yet, so I built a fully interactive browser demo using a fictio\nOh god another fitness app slop have you no taste? \u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+        "container": "fitnessonline",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 13,
+          "score": 0
+        },
+        "engagement_score": 20,
+        "freshness": 82,
+        "item_id": "R4",
+        "local_rank_score": 0.37450000000000006,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "\u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+            "See also:\n\n u/medualantern made a tracker at https://confab.sh/?g=workout-trackers if you want to see the full list."
+          ],
+          "top_comments": [
+            {
+              "author": "No_Sky1737",
+              "date": "2026-09-16",
+              "excerpt": "Oh god another fitness app",
+              "score": 2,
+              "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pa7kwgb/"
+            },
+            {
+              "author": "Acceptable_Box451",
+              "date": "2026-09-16",
+              "excerpt": "slop have you no taste?",
+              "score": 1,
+              "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pa6n7yt/"
+            },
+            {
+              "author": "longtermcontract",
+              "date": "2026-09-16",
+              "excerpt": "\u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+              "score": 1,
+              "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pa7y8gp/"
+            },
+            {
+              "author": "longtermcontract",
+              "date": "2026-09-18",
+              "excerpt": "See also:\n\n u/medualantern made a tracker at https://confab.sh/?g=workout-trackers if you want to see the full list.",
+              "score": 1,
+              "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pakw8p7/"
+            }
+          ]
+        },
+        "published_at": "2026-09-16",
+        "relevance_hint": 0.63,
+        "snippet": "Oh god another fitness app slop have you no taste? \u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "DAUNTRA \u2014 I built an interactive fitness app demo before launching the actual app",
+        "url": "https://www.reddit.com/r/fitnessonline/comments/1wi0b7g/dauntra_i_built_an_interactive_fitness_app_demo/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.\nTL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered, and it takes too many clicks just to log a simple set. I just wanted something fast, clean, and in d",
+        "container": "UI_Design",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 67,
+        "item_id": "R8",
+        "local_rank_score": 0.31700000000000006,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-09",
+        "relevance_hint": 0.22,
+        "snippet": "TL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered,",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.",
+        "url": "https://www.reddit.com/r/UI_Design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads\nHey everyone! \ud83d\udc4b (See screenshots of the UI and the Biological Fatigue Map here: [here]) I\u2019ve been lifting for a while, but I got incredibly frustrated with the current state of fitness apps. They are usually 300MB+, require constant internet connection, hide basic features behind $10/month paywalls, and are packed with ads that pop up right when you are resting between heavy sets. So, as a developer, I decided to scratch my own itch and build GymTracker. My main goal was extreme performance and\nAdded:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 0
+        },
+        "engagement_score": 16,
+        "freshness": 53,
+        "item_id": "R5",
+        "local_rank_score": 0.29800000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.",
+            "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too"
+          ],
+          "top_comments": [
+            {
+              "author": "medialantern",
+              "date": "2026-09-02",
+              "excerpt": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt",
+              "score": 2,
+              "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7f01mo/"
+            },
+            {
+              "author": "Outrageous_Ad_4801",
+              "date": "2026-09-02",
+              "excerpt": "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+              "score": 0,
+              "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7fnblj/"
+            }
+          ]
+        },
+        "published_at": "2026-09-02",
+        "relevance_hint": 0.22,
+        "snippet": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads",
+        "url": "https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!\nHey everyone, See screanshots of the UI and the Biological Fatigue Map here: [here] Like many of you, I was frustrated with fitness apps that either look like an Excel spreadsheet or charge a premium just to track your 1RM and volume. I spent the last few months building GymTracker PRO for myself, and I've decided to open it up. My main goal was to make something extremely visual and fast so I don't waste time staring at my phone between sets. What makes it different: Visual Muscle Fatigue Map:",
+        "container": "workout",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 0
+        },
+        "engagement_score": 6,
+        "freshness": 55,
+        "item_id": "R7",
+        "local_rank_score": 0.29300000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-03",
+        "relevance_hint": 0.22,
+        "snippet": "Hey everyone, See screanshots of the UI and the Biological Fatigue Map here: [here] Like many of you, I was frustrated with fitness apps that either look like an Excel spreadsheet or charge a premium just to track your 1RM and volume. I spent the last few months building GymTracker PRO for myself, and I've decided to open it up. My main goal was to make something extremely visual and fast so I don",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!",
+        "url": "https://www.reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise\nI\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery trends, with a 10-day battery and a minimalist band design for people who train, walk, or just want",
+        "container": "FitnessTrackers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 5
+        },
+        "engagement_score": 28,
+        "freshness": 45,
+        "item_id": "R6",
+        "local_rank_score": 0.29000000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-08-29",
+        "relevance_hint": 0.22,
+        "snippet": "I\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+        "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-26",
+  "range_to": "2026-09-25",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/applefitnessplus/comments/1wev4te/beyond_frustrated_with_not_being_able_to_play",
+      "cluster_id": "cluster-1",
+      "engagement": 57,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I play the videos straight from the phone. On your watch. Sign out of iCloud. Then sign back in. Known issue. Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Beyond frustrated with not being able to play videos\nI use Apple Fitness plus six days a week - at least I try to. I\u2019ve been increasingly frustrated with the experience and tonight I gave up because I couldn\u2019t get any workout to work. Method 1: Connect my watch to the Apple TV. Go to my planned workout. \u201cCannot Play Video: The video for this workout is unavailable at this time.\u201d Try again, same message, try again few times, it may or may not begin the workout. Tonight I could not get my planned video or any other video to start. Method 2: Open the\nI play the videos straight from the phone. On your watch. Sign out of iCloud. Then sign back in. Known issue. Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+          "container": "AppleFitnessPlus",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 25,
+            "score": 9
+          },
+          "engagement_score": 57,
+          "freshness": 76,
+          "item_id": "R3",
+          "local_rank_score": 0.3965,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "I play the videos straight from the phone.",
+              "Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+              "On your watch. Sign out of iCloud. Then sign back in. Known issue.",
+              "You said you don't download the videos?\n\n I used to have issues with the workouts stopping midway on cellular network or wi-fi and the only solution I...",
+              "Is this on WiFi or the satellite network? I posted elsewhere that starting this week my iPhone 14 Pro Max can\u2019t play YouTube videos, stream music, ope...",
+              "Happens to me too when I airdrop from my phone to my Apple TV.",
+              "This happens to me when using the app and trying to play to my tv through Roku.",
+              "I\u2019ve had the issue from time to time. I restart the Apple TV and my watch.",
+              "I\u2019ve stopped AirPlaying to my Samsung tv for the same reason.",
+              "Check the storage use on your Apple TV. I've had weird behavior in the Apple Fitness app on the Apple TV when storage started running low."
+            ],
+            "top_comments": [
+              {
+                "author": "Plantfishcatmom",
+                "date": "2026-09-13",
+                "excerpt": "I play the videos straight from the phone.",
+                "score": 9,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9ha97i/"
+              },
+              {
+                "author": "pow_hnd",
+                "date": "2026-09-13",
+                "excerpt": "On your watch. Sign out of iCloud. Then sign back in. Known issue.",
+                "score": 8,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9hde21/"
+              },
+              {
+                "author": "LaDolceVita_59",
+                "date": "2026-09-13",
+                "excerpt": "Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+                "score": 7,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9jp9ez/"
+              },
+              {
+                "author": "Hot_Mushroom2265",
+                "date": "2026-09-13",
+                "excerpt": "Happens to me too when I airdrop from my phone to my Apple TV. Do a restart on your Apple TV, that always fixes it for me. I think something happens when an update goes through",
+                "score": 4,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9jxmli/"
+              },
+              {
+                "author": "drowsy_butterfly",
+                "date": "2026-09-13",
+                "excerpt": "You said you don't download the videos?\n\n I used to have issues with the workouts stopping midway on cellular network or wi-fi and the only solution I've found has been to download them.",
+                "score": 3,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9gzkyi/"
+              },
+              {
+                "author": "Misfit_Dogs",
+                "date": "2026-09-13",
+                "excerpt": "This happens to me when using the app and trying to play to my tv through Roku. I find unplugging the Roku and restarting it helps. Sometimes I also need to turn my watch off and back on.",
+                "score": 3,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9h82js/"
+              },
+              {
+                "author": "youhavetherighttoo",
+                "date": "2026-09-13",
+                "excerpt": "Is this on WiFi or the satellite network? I posted elsewhere that starting this week my iPhone 14 Pro Max can\u2019t play YouTube videos, stream music, open webpages on the Verizon network. Others aid the same happened to them this week.",
+                "score": 2,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9ne47p/"
+              },
+              {
+                "author": "SpaceGirl-",
+                "date": "2026-09-13",
+                "excerpt": "I\u2019ve had the issue from time to time. I restart the Apple TV and my watch.",
+                "score": 2,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9modd6/"
+              },
+              {
+                "author": "No-Fly-9063",
+                "date": "2026-09-14",
+                "excerpt": "I\u2019ve stopped AirPlaying to my Samsung tv for the same reason. I\u2019ve did all the suggestions. Sometimes it\u2019ll work. Sometimes it won\u2019t. I now just play it on my iPad or iPhone. It always works fine on my iPad. It\u2019s not worth the hassle of trying to AirPlay it after I\u2019ve spent however long hyping mysel",
+                "score": 2,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/p9np1b9/"
+              },
+              {
+                "author": "CardsFan-26",
+                "date": "2026-09-18",
+                "excerpt": "Check the storage use on your Apple TV. I've had weird behavior in the Apple Fitness app on the Apple TV when storage started running low. Restarting the Apple TV (not just letting it sleep, but telling it to restart from Settings) might help, as that can cause cached information to be removed.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppleFitnessPlus/comments/1wev4te/comment/pamcith/"
+              }
+            ]
+          },
+          "published_at": "2026-09-13",
+          "relevance_hint": 0.4,
+          "snippet": "I play the videos straight from the phone. On your watch. Sign out of iCloud. Then sign back in. Known issue. Go to Apps / support// AppleFitness+ call the number and talk to the nice people.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Beyond frustrated with not being able to play videos",
+          "url": "https://www.reddit.com/r/AppleFitnessPlus/comments/1wev4te/beyond_frustrated_with_not_being_able_to_play/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Beyond frustrated with not being able to play videos",
+      "url": "https://www.reddit.com/r/AppleFitnessPlus/comments/1wev4te/beyond_frustrated_with_not_being_able_to_play/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/fitnesstrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just",
+      "cluster_id": "cluster-2",
+      "engagement": 28,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 6.099999999999998,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "I\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise\nI\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery trends, with a 10-day battery and a minimalist band design for people who train, walk, or just want",
+          "container": "FitnessTrackers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 5
+          },
+          "engagement_score": 28,
+          "freshness": 45,
+          "item_id": "R6",
+          "local_rank_score": 0.29000000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-08-29",
+          "relevance_hint": 0.22,
+          "snippet": "I\u2019m the creator of QuietPulse, a small screenless fitness tracker I started building after getting frustrated with how many wearables felt like tiny phones first and health tools second. I wanted something that stays out of the way, tracks the basics consistently, and doesn\u2019t drown you in notifications, badges, or app clutter. QuietPulse focuses on steps, continuous heart rate, sleep, and recovery",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+          "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a screenless tracker for people who just want reliable steps, sleep, and HR without the noise",
+      "url": "https://www.reddit.com/r/FitnessTrackers/comments/1w1ncpm/i_built_a_screenless_tracker_for_people_who_just/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/dauntra_i_built_an_interactive_fitness_app_demo",
+      "cluster_id": "cluster-3",
+      "engagement": 20,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.0,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.5,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Oh god another fitness app slop have you no taste? \u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "DAUNTRA \u2014 I built an interactive fitness app demo before launching the actual app\nI\u2019ve been building a fitness app called DAUNTRA. The idea came from being frustrated with fitness apps that are good at logging things, but bad at helping you understand what all that data actually means. DAUNTRA puts training, nutrition and progress in one place, then adds a layer called Lab Insights that tries to surface useful patterns from what you\u2019ve logged instead of just showing more charts. I\u2019m not launching the app publicly yet, so I built a fully interactive browser demo using a fictio\nOh god another fitness app slop have you no taste? \u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+          "container": "fitnessonline",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 13,
+            "score": 0
+          },
+          "engagement_score": 20,
+          "freshness": 82,
+          "item_id": "R4",
+          "local_rank_score": 0.37450000000000006,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "\u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+              "See also:\n\n u/medualantern made a tracker at https://confab.sh/?g=workout-trackers if you want to see the full list."
+            ],
+            "top_comments": [
+              {
+                "author": "No_Sky1737",
+                "date": "2026-09-16",
+                "excerpt": "Oh god another fitness app",
+                "score": 2,
+                "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pa7kwgb/"
+              },
+              {
+                "author": "Acceptable_Box451",
+                "date": "2026-09-16",
+                "excerpt": "slop have you no taste?",
+                "score": 1,
+                "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pa6n7yt/"
+              },
+              {
+                "author": "longtermcontract",
+                "date": "2026-09-16",
+                "excerpt": "\u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+                "score": 1,
+                "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pa7y8gp/"
+              },
+              {
+                "author": "longtermcontract",
+                "date": "2026-09-18",
+                "excerpt": "See also:\n\n u/medualantern made a tracker at https://confab.sh/?g=workout-trackers if you want to see the full list.",
+                "score": 1,
+                "url": "https://reddit.com/r/fitnessonline/comments/1wi0b7g/comment/pakw8p7/"
+              }
+            ]
+          },
+          "published_at": "2026-09-16",
+          "relevance_hint": 0.63,
+          "snippet": "Oh god another fitness app slop have you no taste? \u201cI built.\u201d\n\n No you didn\u2019t. You and 20 thousand other people used Claude to vibe code a crappy app.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "DAUNTRA \u2014 I built an interactive fitness app demo before launching the actual app",
+          "url": "https://www.reddit.com/r/fitnessonline/comments/1wi0b7g/dauntra_i_built_an_interactive_fitness_app_demo/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "DAUNTRA \u2014 I built an interactive fitness app demo before launching the actual app",
+      "url": "https://www.reddit.com/r/fitnessonline/comments/1wi0b7g/dauntra_i_built_an_interactive_fitness_app_demo/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps",
+      "cluster_id": "cluster-4",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 7.700000000000003,
+      "rrf_score": 0.0078125,
+      "snippet": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads\nHey everyone! \ud83d\udc4b (See screenshots of the UI and the Biological Fatigue Map here: [here]) I\u2019ve been lifting for a while, but I got incredibly frustrated with the current state of fitness apps. They are usually 300MB+, require constant internet connection, hide basic features behind $10/month paywalls, and are packed with ads that pop up right when you are resting between heavy sets. So, as a developer, I decided to scratch my own itch and build GymTracker. My main goal was extreme performance and\nAdded:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 0
+          },
+          "engagement_score": 16,
+          "freshness": 53,
+          "item_id": "R5",
+          "local_rank_score": 0.29800000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.",
+              "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too"
+            ],
+            "top_comments": [
+              {
+                "author": "medialantern",
+                "date": "2026-09-02",
+                "excerpt": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt",
+                "score": 2,
+                "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7f01mo/"
+              },
+              {
+                "author": "Outrageous_Ad_4801",
+                "date": "2026-09-02",
+                "excerpt": "vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+                "score": 0,
+                "url": "https://reddit.com/r/SideProject/comments/1w5g1d9/comment/p7fnblj/"
+              }
+            ]
+          },
+          "published_at": "2026-09-02",
+          "relevance_hint": 0.22,
+          "snippet": "Added:\n\n https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/\n\n https://www.reddit.com/r/SideProject/comments/1w4yv3p/my_fitness_app/\n\n https://www.reddit.com/r/buildinpublic/comments/1w4qf3v/most_training_apps_treat_your_program_like_a/\n\n https://www.reddit.com/r/SideProject/comments/1w4obj2/every_training_plan_or_app_i_have_followed_knew/\n\n htt vanilla js pwas are so refreshing to see when every basic utility app is a 200mb react native download. fatigue heatmap looks clean too",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads",
+          "url": "https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of bloated, subscription-based gym apps, so I built my own 1MB PWA with Vanilla JS (Biological Fatigue Map + AI Warmups). Free & No Ads",
+      "url": "https://www.reddit.com/r/SideProject/comments/1w5g1d9/i_got_tired_of_bloated_subscriptionbased_gym_apps/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind",
+      "cluster_id": "cluster-5",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 12.0,
+      "item_id": "R7",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 8.099999999999994,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Hey everyone, See screanshots of the UI and the Biological Fatigue Map here: [here] Like many of you, I was frustrated with fitness apps that either look like an Excel spreadsheet or charge a premium just to track your 1RM and volume. I spent the last few months building GymTracker PRO for myself, and I've decided to open it up. My main goal was to make something extremely visual and fast so I don",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!\nHey everyone, See screanshots of the UI and the Biological Fatigue Map here: [here] Like many of you, I was frustrated with fitness apps that either look like an Excel spreadsheet or charge a premium just to track your 1RM and volume. I spent the last few months building GymTracker PRO for myself, and I've decided to open it up. My main goal was to make something extremely visual and fast so I don't waste time staring at my phone between sets. What makes it different: Visual Muscle Fatigue Map:",
+          "container": "workout",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 0
+          },
+          "engagement_score": 6,
+          "freshness": 55,
+          "item_id": "R7",
+          "local_rank_score": 0.29300000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-03",
+          "relevance_hint": 0.22,
+          "snippet": "Hey everyone, See screanshots of the UI and the Biological Fatigue Map here: [here] Like many of you, I was frustrated with fitness apps that either look like an Excel spreadsheet or charge a premium just to track your 1RM and volume. I spent the last few months building GymTracker PRO for myself, and I've decided to open it up. My main goal was to make something extremely visual and fast so I don",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!",
+          "url": "https://www.reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of gym apps hiding basic stats behind subscriptions, so I built my own. It features a visual muscle fatigue map and it's completely free. Roast it!",
+      "url": "https://www.reddit.com/r/workout/comments/1w6cnja/i_got_tired_of_gym_apps_hiding_basic_stats_behind/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ui_design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout",
+      "cluster_id": "cluster-6",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R8",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 10.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "TL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered,",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.\nTL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered, and it takes too many clicks just to log a simple set. I just wanted something fast, clean, and in d",
+          "container": "UI_Design",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 67,
+          "item_id": "R8",
+          "local_rank_score": 0.31700000000000006,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-09",
+          "relevance_hint": 0.22,
+          "snippet": "TL;DR: I built a hyper-minimal, fast fitness tracker with an AI coach built-in. I\u2019m opening a waitlist for beta testers and need this community to roast my design/features. The Problem: I train across multiple sports (gym, half-marathons), and I was incredibly frustrated with the current state of fitness trackers. Most of them look like Excel spreadsheets from 2015, they are incredibly cluttered,",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.",
+          "url": "https://www.reddit.com/r/UI_Design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got tired of cluttered, spreadsheet-like workout apps, so I coded my own minimal dark-mode tracker. Looking for honest feedback.",
+      "url": "https://www.reddit.com/r/UI_Design/comments/1wbn0ku/i_got_tired_of_cluttered_spreadsheetlike_workout/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
