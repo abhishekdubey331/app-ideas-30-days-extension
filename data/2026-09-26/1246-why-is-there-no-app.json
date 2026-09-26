@@ -1,0 +1,183 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@ruhi_cenet2/video/7683817965128830229"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@ruhi_cenet2/video/7683817965128830229"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "This community\u2019s phone has no apps, texts, WhatsApp, or internet. Could you use it for one week? #documentary #shorts #culture #tiktokturkey"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-26T12:46:36.640491+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "ruhi_cenet2",
+        "body": "This community\u2019s phone has no apps, texts, WhatsApp, or internet. Could you use it for one week? #documentary #shorts #culture #tiktokturkey\nThe Jewish life. Do you have a smartphone? No. Why? It's the most dangerous thing for a person to have one. Have you ever logged into internet? I never logged in. But a smart person learns from other people's mistakes. There's too many people that were injured physically, emotionally, mentally. It's so you have, everybody knows it. You have never logged into internet in your entire life? No. Do you know Michael Jackson? No. Do you know Cristiano Ronaldo? People in this community live a kosher lifestyle, meaning that what they eat, wear, watch and consume is, it's expected to be in accordance with Jewish law. You know when they say the dangers of the internet. Yeah, you're coming. They smell internet, so they go, hey, camera, internet, go away. You know? Many people here avoid technologies that give direct access to the outside world. Everyone we see has a kosher phone. We came to this store to see what it is. What is a question? Phone means a phone like the old times. Their phones is only talk only. Nothing besides doing it. No texting. No texting. No apps either. Nothing. No internet. No WhatsApp at all. Why? Internet is a sure, very bad. It's make you for sure busy whole day. Do you watch movies? No. Sure not. Do you know who Elon Musk is? No. Tom Cruise? No. We know where the rabbi is. Not more. Ha, ha, ha, ha. Have you ever watched television? Sure not. You're saying No, as if it's normal to say no in this community. It's normal to say no, even though you wanna watch some of your own footage. No, no, I don't wanna see.",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 4,
+          "likes": 61,
+          "shares": 16,
+          "views": 3207
+        },
+        "engagement_score": 16,
+        "freshness": 67,
+        "item_id": "TK4",
+        "local_rank_score": 0.3135,
+        "local_relevance": 0.2,
+        "metadata": {
+          "hashtags": [
+            "documentary",
+            "shorts",
+            "culture",
+            "tiktokturkey"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-09-10",
+        "relevance_hint": 0.0,
+        "snippet": "The Jewish life. Do you have a smartphone? No. Why? It's the most dangerous thing for a person to have one. Have you ever logged into internet? I never logged in. But a smart person learns from other people's mistakes. There's too many people that were injured physically, emotionally, mentally. It's so you have, everybody knows it. You have never logged into internet in your entire life? No. Do you know Michael Jackson? No. Do you know Cristiano Ronaldo? People in this community live a kosher lifestyle, meaning that what they eat, wear, watch and consume is, it's expected to be in accordance with Jewish law. You know when they say the dangers of the internet. Yeah, you're coming. They...",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "This community\u2019s phone has no apps, texts, WhatsApp, or internet. Could you use it for one week? #documentary #shorts #culture #tiktokturkey",
+        "url": "https://www.tiktok.com/@ruhi_cenet2/video/7683817965128830229",
+        "why_relevant": "TikTok: This community\u2019s phone has no apps, texts, WhatsApp, or inte"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-27",
+  "range_to": "2026-09-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@ruhi_cenet2/video/7683817965128830229",
+      "cluster_id": "cluster-1",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "TK4",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK4",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 8.199999999999996,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "The Jewish life. Do you have a smartphone? No. Why? It's the most dangerous thing for a person to have one. Have you ever logged into internet? I never logged in. But a smart person learns from other people's mistakes. There's too many people that were injured physically, emotionally, mentally. It's so you have, everybody knows it. You have never logged into internet in your entire life? No. Do you know Michael Jackson? No. Do you know Cristiano Ronaldo? People in this community live a kosher lifestyle, meaning that what they eat, wear, watch and consume is, it's expected to be in accordance with Jewish law. You know when they say the dangers of the internet. Yeah, you're coming. They...",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "ruhi_cenet2",
+          "body": "This community\u2019s phone has no apps, texts, WhatsApp, or internet. Could you use it for one week? #documentary #shorts #culture #tiktokturkey\nThe Jewish life. Do you have a smartphone? No. Why? It's the most dangerous thing for a person to have one. Have you ever logged into internet? I never logged in. But a smart person learns from other people's mistakes. There's too many people that were injured physically, emotionally, mentally. It's so you have, everybody knows it. You have never logged into internet in your entire life? No. Do you know Michael Jackson? No. Do you know Cristiano Ronaldo? People in this community live a kosher lifestyle, meaning that what they eat, wear, watch and consume is, it's expected to be in accordance with Jewish law. You know when they say the dangers of the internet. Yeah, you're coming. They smell internet, so they go, hey, camera, internet, go away. You know? Many people here avoid technologies that give direct access to the outside world. Everyone we see has a kosher phone. We came to this store to see what it is. What is a question? Phone means a phone like the old times. Their phones is only talk only. Nothing besides doing it. No texting. No texting. No apps either. Nothing. No internet. No WhatsApp at all. Why? Internet is a sure, very bad. It's make you for sure busy whole day. Do you watch movies? No. Sure not. Do you know who Elon Musk is? No. Tom Cruise? No. We know where the rabbi is. Not more. Ha, ha, ha, ha. Have you ever watched television? Sure not. You're saying No, as if it's normal to say no in this community. It's normal to say no, even though you wanna watch some of your own footage. No, no, I don't wanna see.",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 4,
+            "likes": 61,
+            "shares": 16,
+            "views": 3207
+          },
+          "engagement_score": 16,
+          "freshness": 67,
+          "item_id": "TK4",
+          "local_rank_score": 0.3135,
+          "local_relevance": 0.2,
+          "metadata": {
+            "hashtags": [
+              "documentary",
+              "shorts",
+              "culture",
+              "tiktokturkey"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-09-10",
+          "relevance_hint": 0.0,
+          "snippet": "The Jewish life. Do you have a smartphone? No. Why? It's the most dangerous thing for a person to have one. Have you ever logged into internet? I never logged in. But a smart person learns from other people's mistakes. There's too many people that were injured physically, emotionally, mentally. It's so you have, everybody knows it. You have never logged into internet in your entire life? No. Do you know Michael Jackson? No. Do you know Cristiano Ronaldo? People in this community live a kosher lifestyle, meaning that what they eat, wear, watch and consume is, it's expected to be in accordance with Jewish law. You know when they say the dangers of the internet. Yeah, you're coming. They...",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "This community\u2019s phone has no apps, texts, WhatsApp, or internet. Could you use it for one week? #documentary #shorts #culture #tiktokturkey",
+          "url": "https://www.tiktok.com/@ruhi_cenet2/video/7683817965128830229",
+          "why_relevant": "TikTok: This community\u2019s phone has no apps, texts, WhatsApp, or inte"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "This community\u2019s phone has no apps, texts, WhatsApp, or internet. Could you use it for one week? #documentary #shorts #culture #tiktokturkey",
+      "url": "https://www.tiktok.com/@ruhi_cenet2/video/7683817965128830229"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
