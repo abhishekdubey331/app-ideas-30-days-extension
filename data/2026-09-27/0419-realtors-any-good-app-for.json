@@ -1,0 +1,367 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "realtors \"any good app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://x.com/nenemaryfanatic/status/2103998272738378004"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://x.com/nenemaryfanatic/status/2103998272738378004"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "Kyle carries $250,000 Birkin bags (SO WHAT)\n\n[Kyle] is married to one of the most successful realtors on Earth. (OK, and?)\n\nShe only donated"
+    },
+    {
+      "candidate_ids": [
+        "https://x.com/bbiletniko4760/status/2104046832716566967"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://x.com/bbiletniko4760/status/2104046832716566967"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "Lincoln Riley. You are headed to Waco. \n\nAny good realtors on here that can help him find a house? \n\n#20Beers"
+    },
+    {
+      "candidate_ids": [
+        "https://x.com/walkswithhawk/status/2103994503736496132"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://x.com/walkswithhawk/status/2103994503736496132"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-27T04:19:06.441634+00:00",
+  "items_by_source": {
+    "bluesky": [],
+    "x": [
+      {
+        "author": "nenemaryfanatic",
+        "body": "Kyle carries $250,000 Birkin bags (SO WHAT)\n\n[Kyle] is married to one of the most successful realtors on Earth. (OK, and?)\n\nShe only donated $500 for your dire medical crisis. (SHE DIDN\u2019T HAVE TO DONATE ANYTHING). \n\nIt\u2019s actually insultingly low. A paltry amount for her. She spends more at brunch. (POCKET WATCHING ISN\u2019T A GOOD LOOK FOR ANYONE)\n\n#RHOBH",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 7,
+          "replies": 1,
+          "reposts": 0
+        },
+        "engagement_score": 61,
+        "freshness": 100,
+        "item_id": "X25",
+        "local_rank_score": 0.428,
+        "local_relevance": 0.18,
+        "metadata": {},
+        "published_at": "2026-09-27",
+        "relevance_hint": 0.24,
+        "snippet": "Kyle carries $250,000 Birkin bags (SO WHAT) [Kyle] is married to one of the most successful realtors on Earth. (OK, and?) She only donated $500 for your dire medical crisis. (SHE DIDN\u2019T HAVE TO DONATE ANYTHING). It\u2019s actually insultingly low. A paltry amount for her. She spends more at brunch. (POCKET WATCHING ISN\u2019T A GOOD LOOK FOR ANYONE) #RHOBH",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "Kyle carries $250,000 Birkin bags (SO WHAT)\n\n[Kyle] is married to one of the most successful realtors on Earth. (OK, and?)\n\nShe only donated",
+        "url": "https://x.com/nenemaryfanatic/status/2103998272738378004",
+        "why_relevant": ""
+      },
+      {
+        "author": "walkswithhawk",
+        "body": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell\u201d some may need to take 20-30% price drops to get any attention",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0
+        },
+        "freshness": 97,
+        "item_id": "X29",
+        "local_rank_score": 0.405,
+        "local_relevance": 0.25,
+        "metadata": {},
+        "published_at": "2026-09-26",
+        "relevance_hint": 0.54,
+        "snippet": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell\u201d some may need to take 20-30% price drops to get any attention",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell",
+        "url": "https://x.com/walkswithhawk/status/2103994503736496132",
+        "why_relevant": ""
+      },
+      {
+        "author": "BBiletniko4760",
+        "body": "Lincoln Riley. You are headed to Waco. \n\nAny good realtors on here that can help him find a house? \n\n#20Beers",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 1,
+          "replies": 0,
+          "reposts": 0
+        },
+        "engagement_score": 8,
+        "freshness": 100,
+        "item_id": "X8",
+        "local_rank_score": 0.3815,
+        "local_relevance": 0.19,
+        "metadata": {},
+        "published_at": "2026-09-27",
+        "relevance_hint": 0.54,
+        "snippet": "Lincoln Riley. You are headed to Waco. Any good realtors on here that can help him find a house? #20Beers",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "Lincoln Riley. You are headed to Waco. \n\nAny good realtors on here that can help him find a house? \n\n#20Beers",
+        "url": "https://x.com/BBiletniko4760/status/2104046832716566967",
+        "why_relevant": ""
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "realtors \"any good app for\"",
+    "source_weights": {
+      "bluesky": 0.5,
+      "x": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to realtors \"any good app for\", especially about realtors \"any app for\"?",
+        "search_query": "realtors \"any app for\"",
+        "sources": [
+          "x",
+          "bluesky"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-28",
+  "range_to": "2026-09-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://x.com/nenemaryfanatic/status/2103998272738378004",
+      "cluster_id": "cluster-1",
+      "engagement": 61,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "X25",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X25",
+            "native_rank": 1,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 1
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Kyle carries $250,000 Birkin bags (SO WHAT) [Kyle] is married to one of the most successful realtors on Earth. (OK, and?) She only donated $500 for your dire medical crisis. (SHE DIDN\u2019T HAVE TO DONATE ANYTHING). It\u2019s actually insultingly low. A paltry amount for her. She spends more at brunch. (POCKET WATCHING ISN\u2019T A GOOD LOOK FOR ANYONE) #RHOBH",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "nenemaryfanatic",
+          "body": "Kyle carries $250,000 Birkin bags (SO WHAT)\n\n[Kyle] is married to one of the most successful realtors on Earth. (OK, and?)\n\nShe only donated $500 for your dire medical crisis. (SHE DIDN\u2019T HAVE TO DONATE ANYTHING). \n\nIt\u2019s actually insultingly low. A paltry amount for her. She spends more at brunch. (POCKET WATCHING ISN\u2019T A GOOD LOOK FOR ANYONE)\n\n#RHOBH",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 7,
+            "replies": 1,
+            "reposts": 0
+          },
+          "engagement_score": 61,
+          "freshness": 100,
+          "item_id": "X25",
+          "local_rank_score": 0.428,
+          "local_relevance": 0.18,
+          "metadata": {},
+          "published_at": "2026-09-27",
+          "relevance_hint": 0.24,
+          "snippet": "Kyle carries $250,000 Birkin bags (SO WHAT) [Kyle] is married to one of the most successful realtors on Earth. (OK, and?) She only donated $500 for your dire medical crisis. (SHE DIDN\u2019T HAVE TO DONATE ANYTHING). It\u2019s actually insultingly low. A paltry amount for her. She spends more at brunch. (POCKET WATCHING ISN\u2019T A GOOD LOOK FOR ANYONE) #RHOBH",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "Kyle carries $250,000 Birkin bags (SO WHAT)\n\n[Kyle] is married to one of the most successful realtors on Earth. (OK, and?)\n\nShe only donated",
+          "url": "https://x.com/nenemaryfanatic/status/2103998272738378004",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Kyle carries $250,000 Birkin bags (SO WHAT)\n\n[Kyle] is married to one of the most successful realtors on Earth. (OK, and?)\n\nShe only donated",
+      "url": "https://x.com/nenemaryfanatic/status/2103998272738378004"
+    },
+    {
+      "candidate_id": "https://x.com/bbiletniko4760/status/2104046832716566967",
+      "cluster_id": "cluster-2",
+      "engagement": 8,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 16.0,
+      "item_id": "X8",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X8",
+            "native_rank": 2,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 2
+      },
+      "rerank_score": 15.099999999999994,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Lincoln Riley. You are headed to Waco. Any good realtors on here that can help him find a house? #20Beers",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "BBiletniko4760",
+          "body": "Lincoln Riley. You are headed to Waco. \n\nAny good realtors on here that can help him find a house? \n\n#20Beers",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 1,
+            "replies": 0,
+            "reposts": 0
+          },
+          "engagement_score": 8,
+          "freshness": 100,
+          "item_id": "X8",
+          "local_rank_score": 0.3815,
+          "local_relevance": 0.19,
+          "metadata": {},
+          "published_at": "2026-09-27",
+          "relevance_hint": 0.54,
+          "snippet": "Lincoln Riley. You are headed to Waco. Any good realtors on here that can help him find a house? #20Beers",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "Lincoln Riley. You are headed to Waco. \n\nAny good realtors on here that can help him find a house? \n\n#20Beers",
+          "url": "https://x.com/BBiletniko4760/status/2104046832716566967",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Lincoln Riley. You are headed to Waco. \n\nAny good realtors on here that can help him find a house? \n\n#20Beers",
+      "url": "https://x.com/BBiletniko4760/status/2104046832716566967"
+    },
+    {
+      "candidate_id": "https://x.com/walkswithhawk/status/2103994503736496132",
+      "cluster_id": "cluster-3",
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "X29",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X29",
+            "native_rank": 3,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 3
+      },
+      "rerank_score": 18.700000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell\u201d some may need to take 20-30% price drops to get any attention",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "walkswithhawk",
+          "body": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell\u201d some may need to take 20-30% price drops to get any attention",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 0,
+            "replies": 0,
+            "reposts": 0
+          },
+          "freshness": 97,
+          "item_id": "X29",
+          "local_rank_score": 0.405,
+          "local_relevance": 0.25,
+          "metadata": {},
+          "published_at": "2026-09-26",
+          "relevance_hint": 0.54,
+          "snippet": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell\u201d some may need to take 20-30% price drops to get any attention",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell",
+          "url": "https://x.com/walkswithhawk/status/2103994503736496132",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "@jonbrooks The realtors listing these properties need to have the pricing conversation- it\u2019s a simple statement \u201cwell priced properties sell",
+      "url": "https://x.com/walkswithhawk/status/2103994503736496132"
+    }
+  ],
+  "topic": "realtors \"any good app for\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
