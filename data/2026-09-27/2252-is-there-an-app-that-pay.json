@@ -1,0 +1,219 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/supplements/comments/1w1mmgl/app_for_supplements_timing"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/supplements/comments/1w1mmgl/app_for_supplements_timing"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "App for Supplements timing"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-27T22:52:18.817034+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "App for Supplements timing\nIs there an app that can tell me which supplements I should take at what time? Morning, afternoon, night. And which ones I shouldn\u2019t take at the same time? Etc I don\u2019t mind paying for it if the app is great\nRules of r/supplements\n\n Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc\n\n 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill {\n stroke-dasharray: 100;\n stroke-dashoffset: 50;\n }\n\n Sorry, something went wrong when loading this video.\n\n View in app\n\n Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+        "container": "Supplements",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 100,
+        "freshness": 41,
+        "item_id": "R1",
+        "local_rank_score": 0.3325,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+            ".buffering-track-fill {\n stroke-dasharray: 100;\n stroke-dashoffset: 50;\n }\n\n Sorry, something went wrong when loading this video."
+          ],
+          "top_comments": [
+            {
+              "author": "AutoModerator",
+              "date": "2026-08-29",
+              "excerpt": "Rules of r/supplements\n\n Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc\n\n 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can ",
+              "score": 1,
+              "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lue6j/"
+            },
+            {
+              "author": "Unlikely_Net_4488",
+              "date": "2026-08-29",
+              "excerpt": "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+              "score": 1,
+              "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lz25o/"
+            },
+            {
+              "author": "dataoops",
+              "date": "2026-08-29",
+              "excerpt": ".buffering-track-fill {\n stroke-dasharray: 100;\n stroke-dashoffset: 50;\n }\n\n Sorry, something went wrong when loading this video.\n\n View in app\n\n Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+              "score": 1,
+              "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6mx7tc/"
+            }
+          ]
+        },
+        "published_at": "2026-08-29",
+        "relevance_hint": 0.34,
+        "snippet": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "App for Supplements timing",
+        "url": "https://www.reddit.com/r/Supplements/comments/1w1mmgl/app_for_supplements_timing/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-28",
+  "range_to": "2026-09-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/supplements/comments/1w1mmgl/app_for_supplements_timing",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 3.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "App for Supplements timing\nIs there an app that can tell me which supplements I should take at what time? Morning, afternoon, night. And which ones I shouldn\u2019t take at the same time? Etc I don\u2019t mind paying for it if the app is great\nRules of r/supplements\n\n Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc\n\n 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill {\n stroke-dasharray: 100;\n stroke-dashoffset: 50;\n }\n\n Sorry, something went wrong when loading this video.\n\n View in app\n\n Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+          "container": "Supplements",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 100,
+          "freshness": 41,
+          "item_id": "R1",
+          "local_rank_score": 0.3325,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+              ".buffering-track-fill {\n stroke-dasharray: 100;\n stroke-dashoffset: 50;\n }\n\n Sorry, something went wrong when loading this video."
+            ],
+            "top_comments": [
+              {
+                "author": "AutoModerator",
+                "date": "2026-08-29",
+                "excerpt": "Rules of r/supplements\n\n Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc\n\n 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can ",
+                "score": 1,
+                "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lue6j/"
+              },
+              {
+                "author": "Unlikely_Net_4488",
+                "date": "2026-08-29",
+                "excerpt": "a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts",
+                "score": 1,
+                "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6lz25o/"
+              },
+              {
+                "author": "dataoops",
+                "date": "2026-08-29",
+                "excerpt": ".buffering-track-fill {\n stroke-dasharray: 100;\n stroke-dashoffset: 50;\n }\n\n Sorry, something went wrong when loading this video.\n\n View in app\n\n Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in testing and have iOS lmk.",
+                "score": 1,
+                "url": "https://reddit.com/r/Supplements/comments/1w1mmgl/comment/p6mx7tc/"
+              }
+            ]
+          },
+          "published_at": "2026-08-29",
+          "relevance_hint": 0.34,
+          "snippet": "Rules of r/supplements Do Not Suggest Prescription Drugs Posts & Comments Reported as: Do Not Suggest Prescription Drugs Prescription drugs are not Supplements; do not recommend prescription medication. Sensible/Suggest talking to DR. can be allowable etc 2. Dangerous Grey Area Substance Posts & Comments Reported as: Dangerous Grey Area Substance Potentially dangerous grey area substances can a spreadsheet works better than most apps for this sort of thing, just colour code your AM/PM slots and leave a column for conflicts .buffering-track-fill { stroke-dasharray: 100; stroke-dashoffset: 50; } Sorry, something went wrong when loading this video. View in app Building an app for exactly this, based on all the data I have (freely available) on suplmnt, if you are interested in...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "App for Supplements timing",
+          "url": "https://www.reddit.com/r/Supplements/comments/1w1mmgl/app_for_supplements_timing/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "App for Supplements timing",
+      "url": "https://www.reddit.com/r/Supplements/comments/1w1mmgl/app_for_supplements_timing/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
