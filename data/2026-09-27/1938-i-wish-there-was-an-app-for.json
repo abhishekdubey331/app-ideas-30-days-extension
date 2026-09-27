@@ -1,0 +1,235 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/punebikers/comments/1wg15zj/if_you_could_build_one_app_for_riders_what_would"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/punebikers/comments/1wg15zj/if_you_could_build_one_app_for_riders_what_would"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "If you could build one app for riders, what would it do?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-27T19:38:03.951806+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "If you could build one app for riders, what would it do?\nEven if it sounds stupid or overly specific, drop it below. I\u2019m particularly interested in things you\u2019ve personally experienced and thought: \u201cDamn, I wish there was an app for this.\u201d \ud83d\ude02 Looking for real rider problems rather than generic feature suggestions.\nOne app which can connect any BT device over BT with each other irrespective of device being used Reminder: Follow subreddit rules and be respectful!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I would take a look at the available options first.",
+        "container": "punebikers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 3
+        },
+        "engagement_score": 100,
+        "freshness": 73,
+        "item_id": "R1",
+        "local_rank_score": 0.4125,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "One app which can connect any BT device over BT with each other irrespective of device being used",
+            "I would take a look at the available options first.",
+            "Honestly, I don't feel the need of any app while riding, bluetooth/intercom is enough."
+          ],
+          "top_comments": [
+            {
+              "author": "Mysterious_Cell_4166",
+              "date": "2026-09-14",
+              "excerpt": "One app which can connect any BT device over BT with each other irrespective of device being used",
+              "score": 1,
+              "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qhzni/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-09-14",
+              "excerpt": "Reminder: Follow subreddit rules and be respectful!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+              "score": 1,
+              "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qh3jt/"
+            },
+            {
+              "author": "like_supabik_1109",
+              "date": "2026-09-14",
+              "excerpt": "I would take a look at the available options first.",
+              "score": 1,
+              "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qp40c/"
+            },
+            {
+              "author": "riksTaker0",
+              "date": "2026-09-14",
+              "excerpt": "Honestly, I don't feel the need of any app while riding, bluetooth/intercom is enough.",
+              "score": 1,
+              "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qvcxb/"
+            }
+          ]
+        },
+        "published_at": "2026-09-14",
+        "relevance_hint": 0.4,
+        "snippet": "One app which can connect any BT device over BT with each other irrespective of device being used Reminder: Follow subreddit rules and be respectful!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I would take a look at the available options first.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "If you could build one app for riders, what would it do?",
+        "url": "https://www.reddit.com/r/punebikers/comments/1wg15zj/if_you_could_build_one_app_for_riders_what_would/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app for\", especially about \"i wish there app for\"?",
+        "search_query": "\"i wish there app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-28",
+  "range_to": "2026-09-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/punebikers/comments/1wg15zj/if_you_could_build_one_app_for_riders_what_would",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 9.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "One app which can connect any BT device over BT with each other irrespective of device being used Reminder: Follow subreddit rules and be respectful!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I would take a look at the available options first.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "If you could build one app for riders, what would it do?\nEven if it sounds stupid or overly specific, drop it below. I\u2019m particularly interested in things you\u2019ve personally experienced and thought: \u201cDamn, I wish there was an app for this.\u201d \ud83d\ude02 Looking for real rider problems rather than generic feature suggestions.\nOne app which can connect any BT device over BT with each other irrespective of device being used Reminder: Follow subreddit rules and be respectful!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I would take a look at the available options first.",
+          "container": "punebikers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 3
+          },
+          "engagement_score": 100,
+          "freshness": 73,
+          "item_id": "R1",
+          "local_rank_score": 0.4125,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "One app which can connect any BT device over BT with each other irrespective of device being used",
+              "I would take a look at the available options first.",
+              "Honestly, I don't feel the need of any app while riding, bluetooth/intercom is enough."
+            ],
+            "top_comments": [
+              {
+                "author": "Mysterious_Cell_4166",
+                "date": "2026-09-14",
+                "excerpt": "One app which can connect any BT device over BT with each other irrespective of device being used",
+                "score": 1,
+                "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qhzni/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-09-14",
+                "excerpt": "Reminder: Follow subreddit rules and be respectful!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+                "score": 1,
+                "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qh3jt/"
+              },
+              {
+                "author": "like_supabik_1109",
+                "date": "2026-09-14",
+                "excerpt": "I would take a look at the available options first.",
+                "score": 1,
+                "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qp40c/"
+              },
+              {
+                "author": "riksTaker0",
+                "date": "2026-09-14",
+                "excerpt": "Honestly, I don't feel the need of any app while riding, bluetooth/intercom is enough.",
+                "score": 1,
+                "url": "https://reddit.com/r/punebikers/comments/1wg15zj/comment/p9qvcxb/"
+              }
+            ]
+          },
+          "published_at": "2026-09-14",
+          "relevance_hint": 0.4,
+          "snippet": "One app which can connect any BT device over BT with each other irrespective of device being used Reminder: Follow subreddit rules and be respectful!\n\n I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns. I would take a look at the available options first.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "If you could build one app for riders, what would it do?",
+          "url": "https://www.reddit.com/r/punebikers/comments/1wg15zj/if_you_could_build_one_app_for_riders_what_would/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "If you could build one app for riders, what would it do?",
+      "url": "https://www.reddit.com/r/punebikers/comments/1wg15zj/if_you_could_build_one_app_for_riders_what_would/"
+    }
+  ],
+  "topic": "\"I wish there was an app for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
