@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/coherencephysics/comments/1w720ub/reddit_what_ever_you_changed_killed_all_the"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/coherencephysics/comments/1w720ub/reddit_what_ever_you_changed_killed_all_the"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Reddit What Ever You Changed Killed All the Traffic In Coherence Physics. Went from 3.2 Milion views last Month to about 8k view last two days."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-30T14:43:46.693957+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Reddit What Ever You Changed Killed All the Traffic In Coherence Physics. Went from 3.2 Milion views last Month to about 8k view last two days.\nNone",
+        "container": "CoherencePhysics",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 26
+        },
+        "engagement_score": 52,
+        "freshness": 47,
+        "item_id": "R6",
+        "local_rank_score": 0.319,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-04",
+        "relevance_hint": 0.24,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Reddit What Ever You Changed Killed All the Traffic In Coherence Physics. Went from 3.2 Milion views last Month to about 8k view last two days.",
+        "url": "https://www.reddit.com/r/CoherencePhysics/comments/1w720ub/reddit_what_ever_you_changed_killed_all_the/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-31",
+  "range_to": "2026-09-30",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/coherencephysics/comments/1w720ub/reddit_what_ever_you_changed_killed_all_the",
+      "cluster_id": "cluster-1",
+      "engagement": 52,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 47.8,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 6.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Reddit What Ever You Changed Killed All the Traffic In Coherence Physics. Went from 3.2 Milion views last Month to about 8k view last two days.\nNone",
+          "container": "CoherencePhysics",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 26
+          },
+          "engagement_score": 52,
+          "freshness": 47,
+          "item_id": "R6",
+          "local_rank_score": 0.319,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-04",
+          "relevance_hint": 0.24,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Reddit What Ever You Changed Killed All the Traffic In Coherence Physics. Went from 3.2 Milion views last Month to about 8k view last two days.",
+          "url": "https://www.reddit.com/r/CoherencePhysics/comments/1w720ub/reddit_what_ever_you_changed_killed_all_the/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Reddit What Ever You Changed Killed All the Traffic In Coherence Physics. Went from 3.2 Milion views last Month to about 8k view last two days.",
+      "url": "https://www.reddit.com/r/CoherencePhysics/comments/1w720ub/reddit_what_ever_you_changed_killed_all_the/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
