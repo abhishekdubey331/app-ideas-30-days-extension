@@ -1,0 +1,119 @@
+Batch B sources=x,bluesky
+Started at 2026-09-30T04:37:10Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/36669620821
+----
+
+===== Seed: students "better app than" =====
+/last30days · researching: students "better app than"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="students "better app than"" sources=[x,bluesky]
+[Bird] Searching: students "better app than" since:2026-08-31
+[Bird] 0 results for 'students "better app than"', retrying with 'students "better'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'students "better app than"', retrying with strongest token 'students'
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (3.3s) - X: 12 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-09-30/0437-students-better-app-than.json
+[OK] seed succeeded
+
+===== Seed: travelers "I wish there was an app" =====
+/last30days · researching: travelers "I wish there was an app"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="travelers "i wish there app"" sources=[x,bluesky]
+[Bird] Searching: travelers "i wish there app" since:2026-08-31
+[Bird] 0 results for 'travelers "i wish there app"', retrying with 'travelers "i'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'travelers "i wish there app"', retrying with strongest token 'travelers'
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (2.9s) - X: 12 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-09-30/0437-travelers-i-wish-there-was-an-app.json
+[OK] seed succeeded
+
+===== Seed: remote workers "is there a paid app" =====
+/last30days · researching: remote workers "is there a paid app"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="remote workers "is there paid app"" sources=[x,bluesky]
+[Bird] Searching: remote workers "is there paid since:2026-08-31
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'remote workers "is there paid', retrying with 'remote workers'
+[Bird] Handle search failed for @hitmedev: 
+[Bird] Handle search failed for @jenseisert: 
+[Bird] Handle search failed for @staceyharri_son: 
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (2.3s) - X: 3 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-09-30/0437-remote-workers-is-there-a-paid-app.json
+[OK] seed succeeded
+
+===== Seed: creators "I would pay for" =====
+/last30days · researching: creators "I would pay for"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="creators "i pay for"" sources=[x,bluesky]
+[Bird] Searching: creators "i pay for" since:2026-08-31
+[Bird] Searching: creators "i pay since:2026-08-31
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'creators "i pay', retrying with 'creators "i'
+[Bird] Bird error: Bird search failed
+[Bird] 0 results for 'creators "i pay', retrying with strongest token 'creators'
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (3.6s) - X: 13 posts, Bluesky: 0 posts
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-09-30/0437-creators-i-would-pay-for.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed

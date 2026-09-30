@@ -1,0 +1,370 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "remote workers \"is there a paid app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://x.com/staceyharri_son/status/2105046242447311121"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://x.com/staceyharri_son/status/2105046242447311121"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "Plenty people on this app are remote workers and they have workspace and this fine big screen."
+    },
+    {
+      "candidate_ids": [
+        "https://x.com/hitmedev/status/2105128718213812517"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://x.com/hitmedev/status/2105128718213812517"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "@jenseisert you take remote workers?"
+    },
+    {
+      "candidate_ids": [
+        "https://x.com/eiiffyyy/status/2105109451435078042"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://x.com/eiiffyyy/status/2105109451435078042"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "@AgbawoGracious Lol remote workers \u270c\ufe0f"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-09-30T04:37:20.142406+00:00",
+  "items_by_source": {
+    "bluesky": [],
+    "x": [
+      {
+        "author": "StaceyHarri_son",
+        "body": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 5,
+          "replies": 1,
+          "reposts": 0
+        },
+        "engagement_score": 40,
+        "freshness": 97,
+        "item_id": "X27",
+        "local_rank_score": 0.406,
+        "local_relevance": 0.19,
+        "metadata": {},
+        "published_at": "2026-09-29",
+        "relevance_hint": 0.49,
+        "snippet": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+        "url": "https://x.com/StaceyHarri_son/status/2105046242447311121",
+        "why_relevant": ""
+      },
+      {
+        "author": "Hitmedev",
+        "body": "@jenseisert you take remote workers?",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 1,
+          "replies": 1,
+          "reposts": 0
+        },
+        "engagement_score": 15,
+        "freshness": 100,
+        "item_id": "X9",
+        "local_rank_score": 0.382,
+        "local_relevance": 0.18,
+        "metadata": {},
+        "published_at": "2026-09-30",
+        "relevance_hint": 0.36,
+        "snippet": "@jenseisert you take remote workers?",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "@jenseisert you take remote workers?",
+        "url": "https://x.com/Hitmedev/status/2105128718213812517",
+        "why_relevant": ""
+      },
+      {
+        "author": "eiiffyyy",
+        "body": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 1,
+          "replies": 0,
+          "reposts": 0
+        },
+        "engagement_score": 11,
+        "freshness": 100,
+        "item_id": "X12",
+        "local_rank_score": 0.378,
+        "local_relevance": 0.18,
+        "metadata": {},
+        "published_at": "2026-09-30",
+        "relevance_hint": 0.36,
+        "snippet": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+        "url": "https://x.com/eiiffyyy/status/2105109451435078042",
+        "why_relevant": ""
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "remote workers \"is there a paid app\"",
+    "source_weights": {
+      "bluesky": 0.5,
+      "x": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to remote workers \"is there a paid app\", especially about remote workers \"is there paid app\"?",
+        "search_query": "remote workers \"is there paid app\"",
+        "sources": [
+          "x",
+          "bluesky"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-08-31",
+  "range_to": "2026-09-30",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://x.com/staceyharri_son/status/2105046242447311121",
+      "cluster_id": "cluster-1",
+      "engagement": 40,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 41.65,
+      "item_id": "X27",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X27",
+            "native_rank": 1,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 1
+      },
+      "rerank_score": 14.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "StaceyHarri_son",
+          "body": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 5,
+            "replies": 1,
+            "reposts": 0
+          },
+          "engagement_score": 40,
+          "freshness": 97,
+          "item_id": "X27",
+          "local_rank_score": 0.406,
+          "local_relevance": 0.19,
+          "metadata": {},
+          "published_at": "2026-09-29",
+          "relevance_hint": 0.49,
+          "snippet": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+          "url": "https://x.com/StaceyHarri_son/status/2105046242447311121",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Plenty people on this app are remote workers and they have workspace and this fine big screen.",
+      "url": "https://x.com/StaceyHarri_son/status/2105046242447311121"
+    },
+    {
+      "candidate_id": "https://x.com/hitmedev/status/2105128718213812517",
+      "cluster_id": "cluster-2",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 49.05,
+      "item_id": "X9",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X9",
+            "native_rank": 2,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 2
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "@jenseisert you take remote workers?",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "Hitmedev",
+          "body": "@jenseisert you take remote workers?",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 1,
+            "replies": 1,
+            "reposts": 0
+          },
+          "engagement_score": 15,
+          "freshness": 100,
+          "item_id": "X9",
+          "local_rank_score": 0.382,
+          "local_relevance": 0.18,
+          "metadata": {},
+          "published_at": "2026-09-30",
+          "relevance_hint": 0.36,
+          "snippet": "@jenseisert you take remote workers?",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "@jenseisert you take remote workers?",
+          "url": "https://x.com/Hitmedev/status/2105128718213812517",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "@jenseisert you take remote workers?",
+      "url": "https://x.com/Hitmedev/status/2105128718213812517"
+    },
+    {
+      "candidate_id": "https://x.com/eiiffyyy/status/2105109451435078042",
+      "cluster_id": "cluster-3",
+      "engagement": 11,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50.75,
+      "item_id": "X12",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X12",
+            "native_rank": 3,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 3
+      },
+      "rerank_score": 14.400000000000006,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "eiiffyyy",
+          "body": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 1,
+            "replies": 0,
+            "reposts": 0
+          },
+          "engagement_score": 11,
+          "freshness": 100,
+          "item_id": "X12",
+          "local_rank_score": 0.378,
+          "local_relevance": 0.18,
+          "metadata": {},
+          "published_at": "2026-09-30",
+          "relevance_hint": 0.36,
+          "snippet": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+          "url": "https://x.com/eiiffyyy/status/2105109451435078042",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "@AgbawoGracious Lol remote workers \u270c\ufe0f",
+      "url": "https://x.com/eiiffyyy/status/2105109451435078042"
+    }
+  ],
+  "topic": "remote workers \"is there a paid app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
