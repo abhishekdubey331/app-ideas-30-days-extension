@@ -1,0 +1,744 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed"
+      ],
+      "score": 14.20918032786885,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fencebuilding/comments/1wvct24/is_there_an_app_anyone_recommends_that_helps_with"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/fencebuilding/comments/1wvct24/is_there_an_app_anyone_recommends_that_helps_with"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is there an App anyone recommends that helps with property lines if I have coordinates?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/personalfinance/comments/1watwtp/looking_for_temporary_joint_account_app_or_site"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/personalfinance/comments/1watwtp/looking_for_temporary_joint_account_app_or_site"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Looking for temporary joint account app or site"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-04T13:47:41.334430+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?\nHi all. I'm a solo developer (Flutter, iOS first). I have never launched a paid app and I have no marketing experience. Before I build anything, I want to find one app idea that has real evidence behind it. My rules: 6 weeks of research, $300 cash budget US market, subscription only Goal: $1K MRR within 6 months of launch. I stop if MRR is under $100 after 90 days. The MVP must take 6 weeks or less to build How the AI worksThe whole project is a folder of markdown files and small Python scripts.\nI did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 30,
+          "score": 8
+        },
+        "engagement_score": 100,
+        "freshness": 91,
+        "item_id": "R1",
+        "local_rank_score": 0.568,
+        "local_relevance": 0.37,
+        "metadata": {
+          "comment_insights": [
+            "I have done this about 5 years ago using aso. It was a success.",
+            "I did basically exactly this, and my conclusion was that it is way more difficult than it seems.",
+            "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it.",
+            "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes.",
+            "I have been using llm models to find new ideas, we usually get the ideas which already exist somewhere on internet",
+            "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gather...",
+            "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about.",
+            "you might as well just go out and get a regular job.",
+            "what I did was use AI to get a list of the top 50 current app ideas.",
+            "I love the structure but you're overthinking the research phase by a mile."
+          ],
+          "top_comments": [
+            {
+              "author": "hourlyproblemsolver",
+              "date": "2026-09-30",
+              "excerpt": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a",
+              "score": 6,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxkpgc/"
+            },
+            {
+              "author": "sourd1esel",
+              "date": "2026-09-30",
+              "excerpt": "I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in.",
+              "score": 2,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pczz59x/"
+            },
+            {
+              "author": "babaganoosh43",
+              "date": "2026-09-30",
+              "excerpt": "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+              "score": 2,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxc067/"
+            },
+            {
+              "author": "mentiondesk",
+              "date": "2026-09-30",
+              "excerpt": "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes. For finding interview candidates, try reaching out directly in broader tech or entrepreneurial communities. If you want to catch real time conversations and spot relevant l",
+              "score": 2,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcx9mt2/"
+            },
+            {
+              "author": "Ahsan_weed1",
+              "date": "2026-09-30",
+              "excerpt": "I have been using llm models to find new ideas, we usually get the ideas which already exist somewhere on internet",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcycmc6/"
+            },
+            {
+              "author": "OriginalChocolate645",
+              "date": "2026-09-30",
+              "excerpt": "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gathered initially might shift substantially. You are not going to get rid of risk, and all of this is because you\u2019re afraid, no one has managed to de-risk ",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcz0j9s/"
+            },
+            {
+              "author": "halfercode",
+              "date": "2026-09-30",
+              "excerpt": "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about. Can you not find a topic where you could dog-food easily?\n\n (Postscript: I did not use AI tools to write this comment. If you are a robot/LLM, do not reply to this messag",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd0ayva/"
+            },
+            {
+              "author": "Lucastotoa",
+              "date": "2026-09-30",
+              "excerpt": "you might as well just go out and get a regular job.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcx37zh/"
+            },
+            {
+              "author": "Prior-Enthusiasm-410",
+              "date": "2026-10-01",
+              "excerpt": "what I did was use AI to get a list of the top 50 current app ideas. Then I took that list and looked to see if there was anything that was interesting to me or I felt I could make something to benefit a product like that.\n\n If you are just making an app and have no interest in it then how will you ",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd4okmg/"
+            },
+            {
+              "author": "Sad-Safety5173",
+              "date": "2026-09-30",
+              "excerpt": "I love the structure but you're overthinking the research phase by a mile. Six weeks of evidence gathering before you write a line of code is how you end up with 154 quotes and zero products shipped.\n\n The review mining thing is real but only if you read the subtext. People complain about missing fe",
+              "score": 0,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxrma0/"
+            }
+          ]
+        },
+        "published_at": "2026-09-30",
+        "relevance_hint": 0.4,
+        "snippet": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult. And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is there an App anyone recommends that helps with property lines if I have coordinates?\nSigned a contract with a fence company to fence one side of our property, approx 350 ft and I\u2019m trying to avoid paying for a surveyor. I have a copy of the original property survey with gps coordinates of our small neighborhood that is from 1990. Is there an app that could help me mark the property line? My neighbor is pretty cool and we both have 5 acre lots so being off by a little bit likely won\u2019t bother either of us, but I\u2019d like to get as close as I can. Thanks\nYou probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon. Fun toy to have. Also use compass on your phone to get you close to intersection. You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man. 1k for a survey for 5acres is damn cheap.\n\n Get the survey.\n\n Here is why. Neighbor might be cool but you never know who may move in later. Having a survey done by a licensed surveyor is your legal backup, these type of disputes can get ugly.\n\n You do not have GPS equipment accurate enough to use fo",
+        "container": "FenceBuilding",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 24,
+          "score": 4
+        },
+        "engagement_score": 77,
+        "freshness": 94,
+        "item_id": "R2",
+        "local_rank_score": 0.429,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "You probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon.",
+            "1k for a survey for 5acres is damn cheap.\n\n Get the survey.",
+            "You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man.",
+            "This Youtube video \"How to Find the Property Lines of Any Home\"\n\n https://www.",
+            "If you give a copy of the survey to the fence contractor they should be able to locate the pins.",
+            "The online resources can be good, and if you live in the city, they can be pretty accurate but out in the country they often rely on satellite picture...",
+            "Not really. There\u2019s stuff like google earth and possibly a local online gis search.",
+            "Keep in mind that compasses use magnetic north but surveys use geographic. Do an internet search to find out the deviation for your location."
+          ],
+          "top_comments": [
+            {
+              "author": "texasfencer714",
+              "date": "2026-10-01",
+              "excerpt": "You probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon. Fun toy to have. Also use compass on your phone to get you close to intersection.",
+              "score": 5,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdb5f73/"
+            },
+            {
+              "author": "classygorilla",
+              "date": "2026-10-01",
+              "excerpt": "You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man.",
+              "score": 5,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdarij2/"
+            },
+            {
+              "author": "Infinite_Incident107",
+              "date": "2026-10-02",
+              "excerpt": "1k for a survey for 5acres is damn cheap.\n\n Get the survey.\n\n Here is why. Neighbor might be cool but you never know who may move in later. Having a survey done by a licensed surveyor is your legal backup, these type of disputes can get ugly.\n\n You do not have GPS equipment accurate enough to use fo",
+              "score": 4,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdbhvxb/"
+            },
+            {
+              "author": "RainyDayColor",
+              "date": "2026-10-02",
+              "excerpt": "This Youtube video \"How to Find the Property Lines of Any Home\"\n\n https://www.youtube.com/watch?v=0ZjfkqBOaSE\n\n reviews these 3 apps that map property boundaries:\n\n https://landglide.com/\n\n https://www.onxmaps.com/hunt/blog/how-to-find-property-lines\n\n https://regrid.com/property-app\n\n I only starte",
+              "score": 2,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdbkhrb/"
+            },
+            {
+              "author": "Born-Substance-1987",
+              "date": "2026-10-02",
+              "excerpt": "If you give a copy of the survey to the fence contractor they should be able to locate the pins.",
+              "score": 1,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdf8qdy/"
+            },
+            {
+              "author": "DrunkBuzzard",
+              "date": "2026-10-02",
+              "excerpt": "The online resources can be good, and if you live in the city, they can be pretty accurate but out in the country they often rely on satellite pictures, which can be off. I\u2019m having trouble finding the corner of 5 acres because the lines all seem to be shifted about 30 feet to the west. They show th",
+              "score": 1,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdf9hut/"
+            },
+            {
+              "author": "motociclista",
+              "date": "2026-10-02",
+              "excerpt": "Not really. There\u2019s stuff like google earth and possibly a local online gis search. But that will just give you where the lines are. The thing to remember is, you can\u2019t go by those. The only thing that protects you is pins, set in the ground by a licensed surveyor. There\u2019s no way around that. If you",
+              "score": 1,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdhkix4/"
+            },
+            {
+              "author": "Reasonable_Pilot_305",
+              "date": "2026-10-02",
+              "excerpt": "Keep in mind that compasses use magnetic north but surveys use geographic. Do an internet search to find out the deviation for your location.",
+              "score": 1,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdhy71j/"
+            },
+            {
+              "author": "Huge-Repeat-3040",
+              "date": "2026-10-03",
+              "excerpt": "Regrid",
+              "score": 1,
+              "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdjrxbi/"
+            }
+          ]
+        },
+        "published_at": "2026-10-01",
+        "relevance_hint": 0.54,
+        "snippet": "You probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon. Fun toy to have. Also use compass on your phone to get you close to intersection. You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man. 1k for a survey for 5acres is damn cheap.\n\n Get the survey.\n\n Here is why. Neighbor might be cool but you never know who may move in later. Having a survey done by a licensed surveyor is your legal backup, these type of disputes can get ugly.\n\n You do not have GPS equipment accurate enough to use fo",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is there an App anyone recommends that helps with property lines if I have coordinates?",
+        "url": "https://www.reddit.com/r/FenceBuilding/comments/1wvct24/is_there_an_app_anyone_recommends_that_helps_with/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Looking for temporary joint account app or site\nI do lots of shared money activities, like deposits for vacations, roomates coordination for rent, etc. Is there an app that lets you make temporary pools for money seeing who paid and can be a real account you both can pay from, not like just a spread sheet, but real temporary joint accounts that can open and then close when the purpose of the joint account is no longer needed, and the sign up doesnt come with lots of KYC / overhead or credit checks?\nYou're looking for something like splitwise. SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what each person owes, and to whom. Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account. So it almost does exactly what you are looking for. It's much easier then anything else I've tried!",
+        "container": "personalfinance",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 0
+        },
+        "engagement_score": 6,
+        "freshness": 47,
+        "item_id": "R3",
+        "local_rank_score": 0.2535,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "You're looking for something like splitwise.",
+            "SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what...",
+            "Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account."
+          ],
+          "top_comments": [
+            {
+              "author": "mrkmrrsn",
+              "date": "2026-09-08",
+              "excerpt": "You're looking for something like splitwise.",
+              "score": 15,
+              "url": "https://reddit.com/r/personalfinance/comments/1watwtp/comment/p8ktm62/"
+            },
+            {
+              "author": "pancak3d",
+              "date": "2026-09-08",
+              "excerpt": "SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what each person owes, and to whom.",
+              "score": 6,
+              "url": "https://reddit.com/r/personalfinance/comments/1watwtp/comment/p8kygym/"
+            },
+            {
+              "author": "GossamerLens",
+              "date": "2026-09-08",
+              "excerpt": "Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account. So it almost does exactly what you are looking for. It's much easier then anything else I've tried!",
+              "score": 3,
+              "url": "https://reddit.com/r/personalfinance/comments/1watwtp/comment/p8lpk4t/"
+            }
+          ]
+        },
+        "published_at": "2026-09-08",
+        "relevance_hint": 0.4,
+        "snippet": "You're looking for something like splitwise. SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what each person owes, and to whom. Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account. So it almost does exactly what you are looking for. It's much easier then anything else I've tried!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Looking for temporary joint account app or site",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1watwtp/looking_for_temporary_joint_account_app_or_site/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-04",
+  "range_to": "2026-10-04",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 14.20918032786885,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.37,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 25.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult. And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?\nHi all. I'm a solo developer (Flutter, iOS first). I have never launched a paid app and I have no marketing experience. Before I build anything, I want to find one app idea that has real evidence behind it. My rules: 6 weeks of research, $300 cash budget US market, subscription only Goal: $1K MRR within 6 months of launch. I stop if MRR is under $100 after 90 days. The MVP must take 6 weeks or less to build How the AI worksThe whole project is a folder of markdown files and small Python scripts.\nI did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 30,
+            "score": 8
+          },
+          "engagement_score": 100,
+          "freshness": 91,
+          "item_id": "R1",
+          "local_rank_score": 0.568,
+          "local_relevance": 0.37,
+          "metadata": {
+            "comment_insights": [
+              "I have done this about 5 years ago using aso. It was a success.",
+              "I did basically exactly this, and my conclusion was that it is way more difficult than it seems.",
+              "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it.",
+              "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes.",
+              "I have been using llm models to find new ideas, we usually get the ideas which already exist somewhere on internet",
+              "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gather...",
+              "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about.",
+              "you might as well just go out and get a regular job.",
+              "what I did was use AI to get a list of the top 50 current app ideas.",
+              "I love the structure but you're overthinking the research phase by a mile."
+            ],
+            "top_comments": [
+              {
+                "author": "hourlyproblemsolver",
+                "date": "2026-09-30",
+                "excerpt": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a",
+                "score": 6,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxkpgc/"
+              },
+              {
+                "author": "sourd1esel",
+                "date": "2026-09-30",
+                "excerpt": "I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in.",
+                "score": 2,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pczz59x/"
+              },
+              {
+                "author": "babaganoosh43",
+                "date": "2026-09-30",
+                "excerpt": "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+                "score": 2,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxc067/"
+              },
+              {
+                "author": "mentiondesk",
+                "date": "2026-09-30",
+                "excerpt": "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes. For finding interview candidates, try reaching out directly in broader tech or entrepreneurial communities. If you want to catch real time conversations and spot relevant l",
+                "score": 2,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcx9mt2/"
+              },
+              {
+                "author": "Ahsan_weed1",
+                "date": "2026-09-30",
+                "excerpt": "I have been using llm models to find new ideas, we usually get the ideas which already exist somewhere on internet",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcycmc6/"
+              },
+              {
+                "author": "OriginalChocolate645",
+                "date": "2026-09-30",
+                "excerpt": "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gathered initially might shift substantially. You are not going to get rid of risk, and all of this is because you\u2019re afraid, no one has managed to de-risk ",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcz0j9s/"
+              },
+              {
+                "author": "halfercode",
+                "date": "2026-09-30",
+                "excerpt": "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about. Can you not find a topic where you could dog-food easily?\n\n (Postscript: I did not use AI tools to write this comment. If you are a robot/LLM, do not reply to this messag",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd0ayva/"
+              },
+              {
+                "author": "Lucastotoa",
+                "date": "2026-09-30",
+                "excerpt": "you might as well just go out and get a regular job.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcx37zh/"
+              },
+              {
+                "author": "Prior-Enthusiasm-410",
+                "date": "2026-10-01",
+                "excerpt": "what I did was use AI to get a list of the top 50 current app ideas. Then I took that list and looked to see if there was anything that was interesting to me or I felt I could make something to benefit a product like that.\n\n If you are just making an app and have no interest in it then how will you ",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd4okmg/"
+              },
+              {
+                "author": "Sad-Safety5173",
+                "date": "2026-09-30",
+                "excerpt": "I love the structure but you're overthinking the research phase by a mile. Six weeks of evidence gathering before you write a line of code is how you end up with 154 quotes and zero products shipped.\n\n The review mining thing is real but only if you read the subtext. People complain about missing fe",
+                "score": 0,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxrma0/"
+              }
+            ]
+          },
+          "published_at": "2026-09-30",
+          "relevance_hint": 0.4,
+          "snippet": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult. And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/fencebuilding/comments/1wvct24/is_there_an_app_anyone_recommends_that_helps_with",
+      "cluster_id": "cluster-2",
+      "engagement": 77,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 12.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "You probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon. Fun toy to have. Also use compass on your phone to get you close to intersection. You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man. 1k for a survey for 5acres is damn cheap.\n\n Get the survey.\n\n Here is why. Neighbor might be cool but you never know who may move in later. Having a survey done by a licensed surveyor is your legal backup, these type of disputes can get ugly.\n\n You do not have GPS equipment accurate enough to use fo",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is there an App anyone recommends that helps with property lines if I have coordinates?\nSigned a contract with a fence company to fence one side of our property, approx 350 ft and I\u2019m trying to avoid paying for a surveyor. I have a copy of the original property survey with gps coordinates of our small neighborhood that is from 1990. Is there an app that could help me mark the property line? My neighbor is pretty cool and we both have 5 acre lots so being off by a little bit likely won\u2019t bother either of us, but I\u2019d like to get as close as I can. Thanks\nYou probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon. Fun toy to have. Also use compass on your phone to get you close to intersection. You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man. 1k for a survey for 5acres is damn cheap.\n\n Get the survey.\n\n Here is why. Neighbor might be cool but you never know who may move in later. Having a survey done by a licensed surveyor is your legal backup, these type of disputes can get ugly.\n\n You do not have GPS equipment accurate enough to use fo",
+          "container": "FenceBuilding",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 24,
+            "score": 4
+          },
+          "engagement_score": 77,
+          "freshness": 94,
+          "item_id": "R2",
+          "local_rank_score": 0.429,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "You probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon.",
+              "1k for a survey for 5acres is damn cheap.\n\n Get the survey.",
+              "You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man.",
+              "This Youtube video \"How to Find the Property Lines of Any Home\"\n\n https://www.",
+              "If you give a copy of the survey to the fence contractor they should be able to locate the pins.",
+              "The online resources can be good, and if you live in the city, they can be pretty accurate but out in the country they often rely on satellite picture...",
+              "Not really. There\u2019s stuff like google earth and possibly a local online gis search.",
+              "Keep in mind that compasses use magnetic north but surveys use geographic. Do an internet search to find out the deviation for your location."
+            ],
+            "top_comments": [
+              {
+                "author": "texasfencer714",
+                "date": "2026-10-01",
+                "excerpt": "You probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon. Fun toy to have. Also use compass on your phone to get you close to intersection.",
+                "score": 5,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdb5f73/"
+              },
+              {
+                "author": "classygorilla",
+                "date": "2026-10-01",
+                "excerpt": "You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man.",
+                "score": 5,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdarij2/"
+              },
+              {
+                "author": "Infinite_Incident107",
+                "date": "2026-10-02",
+                "excerpt": "1k for a survey for 5acres is damn cheap.\n\n Get the survey.\n\n Here is why. Neighbor might be cool but you never know who may move in later. Having a survey done by a licensed surveyor is your legal backup, these type of disputes can get ugly.\n\n You do not have GPS equipment accurate enough to use fo",
+                "score": 4,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdbhvxb/"
+              },
+              {
+                "author": "RainyDayColor",
+                "date": "2026-10-02",
+                "excerpt": "This Youtube video \"How to Find the Property Lines of Any Home\"\n\n https://www.youtube.com/watch?v=0ZjfkqBOaSE\n\n reviews these 3 apps that map property boundaries:\n\n https://landglide.com/\n\n https://www.onxmaps.com/hunt/blog/how-to-find-property-lines\n\n https://regrid.com/property-app\n\n I only starte",
+                "score": 2,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdbkhrb/"
+              },
+              {
+                "author": "Born-Substance-1987",
+                "date": "2026-10-02",
+                "excerpt": "If you give a copy of the survey to the fence contractor they should be able to locate the pins.",
+                "score": 1,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdf8qdy/"
+              },
+              {
+                "author": "DrunkBuzzard",
+                "date": "2026-10-02",
+                "excerpt": "The online resources can be good, and if you live in the city, they can be pretty accurate but out in the country they often rely on satellite pictures, which can be off. I\u2019m having trouble finding the corner of 5 acres because the lines all seem to be shifted about 30 feet to the west. They show th",
+                "score": 1,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdf9hut/"
+              },
+              {
+                "author": "motociclista",
+                "date": "2026-10-02",
+                "excerpt": "Not really. There\u2019s stuff like google earth and possibly a local online gis search. But that will just give you where the lines are. The thing to remember is, you can\u2019t go by those. The only thing that protects you is pins, set in the ground by a licensed surveyor. There\u2019s no way around that. If you",
+                "score": 1,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdhkix4/"
+              },
+              {
+                "author": "Reasonable_Pilot_305",
+                "date": "2026-10-02",
+                "excerpt": "Keep in mind that compasses use magnetic north but surveys use geographic. Do an internet search to find out the deviation for your location.",
+                "score": 1,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdhy71j/"
+              },
+              {
+                "author": "Huge-Repeat-3040",
+                "date": "2026-10-03",
+                "excerpt": "Regrid",
+                "score": 1,
+                "url": "https://reddit.com/r/FenceBuilding/comments/1wvct24/comment/pdjrxbi/"
+              }
+            ]
+          },
+          "published_at": "2026-10-01",
+          "relevance_hint": 0.54,
+          "snippet": "You probably have pins in ground covered up. Get a 20 dollar metal detector from Amazon. Fun toy to have. Also use compass on your phone to get you close to intersection. You're gonna spend 5-10k+ on a,fence but cheap out on a $600 survey? Cmon man. 1k for a survey for 5acres is damn cheap.\n\n Get the survey.\n\n Here is why. Neighbor might be cool but you never know who may move in later. Having a survey done by a licensed surveyor is your legal backup, these type of disputes can get ugly.\n\n You do not have GPS equipment accurate enough to use fo",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is there an App anyone recommends that helps with property lines if I have coordinates?",
+          "url": "https://www.reddit.com/r/FenceBuilding/comments/1wvct24/is_there_an_app_anyone_recommends_that_helps_with/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is there an App anyone recommends that helps with property lines if I have coordinates?",
+      "url": "https://www.reddit.com/r/FenceBuilding/comments/1wvct24/is_there_an_app_anyone_recommends_that_helps_with/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/personalfinance/comments/1watwtp/looking_for_temporary_joint_account_app_or_site",
+      "cluster_id": "cluster-3",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 12.0,
+      "item_id": "R3",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "You're looking for something like splitwise. SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what each person owes, and to whom. Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account. So it almost does exactly what you are looking for. It's much easier then anything else I've tried!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Looking for temporary joint account app or site\nI do lots of shared money activities, like deposits for vacations, roomates coordination for rent, etc. Is there an app that lets you make temporary pools for money seeing who paid and can be a real account you both can pay from, not like just a spread sheet, but real temporary joint accounts that can open and then close when the purpose of the joint account is no longer needed, and the sign up doesnt come with lots of KYC / overhead or credit checks?\nYou're looking for something like splitwise. SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what each person owes, and to whom. Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account. So it almost does exactly what you are looking for. It's much easier then anything else I've tried!",
+          "container": "personalfinance",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 0
+          },
+          "engagement_score": 6,
+          "freshness": 47,
+          "item_id": "R3",
+          "local_rank_score": 0.2535,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "You're looking for something like splitwise.",
+              "SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what...",
+              "Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account."
+            ],
+            "top_comments": [
+              {
+                "author": "mrkmrrsn",
+                "date": "2026-09-08",
+                "excerpt": "You're looking for something like splitwise.",
+                "score": 15,
+                "url": "https://reddit.com/r/personalfinance/comments/1watwtp/comment/p8ktm62/"
+              },
+              {
+                "author": "pancak3d",
+                "date": "2026-09-08",
+                "excerpt": "SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what each person owes, and to whom.",
+                "score": 6,
+                "url": "https://reddit.com/r/personalfinance/comments/1watwtp/comment/p8kygym/"
+              },
+              {
+                "author": "GossamerLens",
+                "date": "2026-09-08",
+                "excerpt": "Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account. So it almost does exactly what you are looking for. It's much easier then anything else I've tried!",
+                "score": 3,
+                "url": "https://reddit.com/r/personalfinance/comments/1watwtp/comment/p8lpk4t/"
+              }
+            ]
+          },
+          "published_at": "2026-09-08",
+          "relevance_hint": 0.4,
+          "snippet": "You're looking for something like splitwise. SplitWise doesn't let you pay, but each individual pays and tracks what they paid, and the app splits the cost amonsts your group, and identifies what each person owes, and to whom. Splitwise is the way to go. It can let you directly payoff balances owed with a linked paypal account. So it almost does exactly what you are looking for. It's much easier then anything else I've tried!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Looking for temporary joint account app or site",
+          "url": "https://www.reddit.com/r/personalfinance/comments/1watwtp/looking_for_temporary_joint_account_app_or_site/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Looking for temporary joint account app or site",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1watwtp/looking_for_temporary_joint_account_app_or_site/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
