@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/androidtvapps/comments/1wzte3y/best_android_app_for_nhlhockey_sports_in_general"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/androidtvapps/comments/1wzte3y/best_android_app_for_nhlhockey_sports_in_general"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Best Android app for NHL/Hockey (sports in general)?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-10T19:53:33.460128+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Best Android app for NHL/Hockey (sports in general)?\nSorry if wrong sub (there's so many for rrr matey's!) but I'm wondering what's the latest and greatest 3rd party app for sports. Particularly NHL or Hockey in general. I wish there was an app for onhockeytv. Currently I use sportzx (on a shield pro) and it seems fine but I do notice some quality issues.",
+        "container": "AndroidTVApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 3
+        },
+        "engagement_score": 100,
+        "freshness": 94,
+        "item_id": "R1",
+        "local_rank_score": 0.46499999999999997,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-07",
+        "relevance_hint": 0.4,
+        "snippet": "Sorry if wrong sub (there's so many for rrr matey's!) but I'm wondering what's the latest and greatest 3rd party app for sports. Particularly NHL or Hockey in general. I wish there was an app for onhockeytv. Currently I use sportzx (on a shield pro) and it seems fine but I do notice some quality issues.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Best Android app for NHL/Hockey (sports in general)?",
+        "url": "https://www.reddit.com/r/AndroidTVApps/comments/1wzte3y/best_android_app_for_nhlhockey_sports_in_general/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app for\", especially about \"i wish there app for\"?",
+        "search_query": "\"i wish there app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-10",
+  "range_to": "2026-10-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/androidtvapps/comments/1wzte3y/best_android_app_for_nhlhockey_sports_in_general",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 13.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Sorry if wrong sub (there's so many for rrr matey's!) but I'm wondering what's the latest and greatest 3rd party app for sports. Particularly NHL or Hockey in general. I wish there was an app for onhockeytv. Currently I use sportzx (on a shield pro) and it seems fine but I do notice some quality issues.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Best Android app for NHL/Hockey (sports in general)?\nSorry if wrong sub (there's so many for rrr matey's!) but I'm wondering what's the latest and greatest 3rd party app for sports. Particularly NHL or Hockey in general. I wish there was an app for onhockeytv. Currently I use sportzx (on a shield pro) and it seems fine but I do notice some quality issues.",
+          "container": "AndroidTVApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 3
+          },
+          "engagement_score": 100,
+          "freshness": 94,
+          "item_id": "R1",
+          "local_rank_score": 0.46499999999999997,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-07",
+          "relevance_hint": 0.4,
+          "snippet": "Sorry if wrong sub (there's so many for rrr matey's!) but I'm wondering what's the latest and greatest 3rd party app for sports. Particularly NHL or Hockey in general. I wish there was an app for onhockeytv. Currently I use sportzx (on a shield pro) and it seems fine but I do notice some quality issues.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Best Android app for NHL/Hockey (sports in general)?",
+          "url": "https://www.reddit.com/r/AndroidTVApps/comments/1wzte3y/best_android_app_for_nhlhockey_sports_in_general/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Best Android app for NHL/Hockey (sports in general)?",
+      "url": "https://www.reddit.com/r/AndroidTVApps/comments/1wzte3y/best_android_app_for_nhlhockey_sports_in_general/"
+    }
+  ],
+  "topic": "\"I wish there was an app for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
