@@ -1,0 +1,546 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/selfhosted/comments/1x0hapb/plex_is_actively_making_its_own_product_worse"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/selfhosted/comments/1x0hapb/plex_is_actively_making_its_own_product_worse"
+      ],
+      "score": 13.789180327868849,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Plex is actively making its own product worse. Removing Watch Together is just another example of enshittification."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/seekingalpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/seekingalpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/recommend_a_book/comments/1wwi5z5/frustrated_with_impersonal_reviews"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/recommend_a_book/comments/1wwi5z5/frustrated_with_impersonal_reviews"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Frustrated with impersonal reviews?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-12T17:31:07.755689+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Plex is actively making its own product worse. Removing Watch Together is just another example of enshittification.\nI've been using Plex for years, and I'm getting increasingly frustrated with the direction this company is heading. Tonight, I went to use Watch Together, a feature my girlfriend and I use almost daily to watch shows when we're apart. It was working just minutes earlier, and suddenly it was gone from my Google TV. Apparently, Plex decided not to carry Watch Together over to its redesigned app. A perfectly functional feature that people actually use was simply discarded. This is textbook enshitti\nAgreed unfortunately Plex use to be good and now it's just not. At this point I don't think anyone really recommends Plex at the current price tag of 749.99 (where they collect your data). The only people that run Plex/ defend Plex are the people who bought the life time Plex pass when it was cheap. I'm upset personally that they removed watch together but as a software engineer I kinda get it. They're rewriting their entire app to be easier to run the same foundation on different platforms and they cut one of the most underused features. It happens. i thought they got rid of watch together months ago. regardless, they keep fucking with the UI and it sucks. I went to read the description on a movie last night on my apple tv, the little description modal pops up when i click it so i can read the whole thing. when i hit the 'back' button, it just",
+        "container": "selfhosted",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 626,
+          "score": 1642
+        },
+        "engagement_score": 100,
+        "freshness": 91,
+        "item_id": "R1",
+        "local_rank_score": 0.5615,
+        "local_relevance": 0.36,
+        "metadata": {
+          "comment_insights": [
+            "Expand the replies to this comment to learn how AI was used in this post/project.",
+            "i thought they got rid of watch together months ago.",
+            "Agreed unfortunately Plex use to be good and now it's just not.",
+            "Its funny cause in bed last night I noticed the new TV app.",
+            "I think lots of us left Plex years ago because it was really obvious that they were moving towards increased large corporation approach to adding feat...",
+            "I'm upset personally that they removed watch together but as a software engineer I kinda get it.",
+            "There are a lot of people who paid for the plex pass and either have 0 users on their server or have 0 empathy for the users on their server.",
+            "Does Jelly have working watch together these days ? My BFF and I still do the '3 2 1 stop' countdown over the phone lol",
+            "If you are fully invested in Plex and don't want to switch (I don't blame you, me too), there is Plezy for the feature you are looking for.",
+            "You can't provide URL of your watchlist without subscription now."
+          ],
+          "top_comments": [
+            {
+              "author": "1WeekNotice",
+              "date": "2026-10-08",
+              "excerpt": "Agreed unfortunately Plex use to be good and now it's just not. At this point I don't think anyone really recommends Plex at the current price tag of 749.99 (where they collect your data). The only people that run Plex/ defend Plex are the people who bought the life time Plex pass when it was cheap.",
+              "score": 99,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/peko8g7/"
+            },
+            {
+              "author": "zooberwask",
+              "date": "2026-10-08",
+              "excerpt": "I'm upset personally that they removed watch together but as a software engineer I kinda get it. They're rewriting their entire app to be easier to run the same foundation on different platforms and they cut one of the most underused features. It happens.",
+              "score": 49,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/peknfg4/"
+            },
+            {
+              "author": "tlz81389",
+              "date": "2026-10-08",
+              "excerpt": "i thought they got rid of watch together months ago. regardless, they keep fucking with the UI and it sucks. I went to read the description on a movie last night on my apple tv, the little description modal pops up when i click it so i can read the whole thing. when i hit the 'back' button, it just ",
+              "score": 18,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/peomxmq/"
+            },
+            {
+              "author": "MasterChiefmas",
+              "date": "2026-10-08",
+              "excerpt": "I think lots of us left Plex years ago because it was really obvious that they were moving towards increased large corporation approach to adding features, and losing sight of what the user base wanted and the focus on just video streaming which made it a great product back then. Generalization of a",
+              "score": 13,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pektw6a/"
+            },
+            {
+              "author": "IMABEARLAWL",
+              "date": "2026-10-08",
+              "excerpt": "If you are fully invested in Plex and don't want to switch (I don't blame you, me too), there is Plezy for the feature you are looking for. Yes, it's another $5, but $5 is worth the price of admission IMO.",
+              "score": 10,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pekvq63/"
+            },
+            {
+              "author": "MajorFuckingDick",
+              "date": "2026-10-08",
+              "excerpt": "Its funny cause in bed last night I noticed the new TV app. Then proceeded to used Watch Together for the first time ever this evening on the desktop app.\n\n Unironically considering a jellyfin instance if only for this but there has to be a better alternative.",
+              "score": 7,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pekr0w7/"
+            },
+            {
+              "author": "AdUnfair9248",
+              "date": "2026-10-09",
+              "excerpt": "There are a lot of people who paid for the plex pass and either have 0 users on their server or have 0 empathy for the users on their server.",
+              "score": 5,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/perjgnj/"
+            },
+            {
+              "author": "TW-Twisti",
+              "date": "2026-10-09",
+              "excerpt": "Does Jelly have working watch together these days ? My BFF and I still do the '3 2 1 stop' countdown over the phone lol",
+              "score": 5,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pey5jmw/"
+            },
+            {
+              "author": "omar300i",
+              "date": "2026-10-08",
+              "excerpt": "You can't provide URL of your watchlist without subscription now. How was this useful? You could feed the watchlist of friends and family to radarr and sonarr. Shitout of luck there now so created a scraper to do that. Completely unnecessary that we need to go backwards",
+              "score": 3,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pel32vc/"
+            },
+            {
+              "author": "asimovs-auditor",
+              "date": "2026-10-08",
+              "excerpt": "Expand the replies to this comment to learn how AI was used in this post/project.",
+              "score": 1,
+              "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pekmgef/"
+            }
+          ]
+        },
+        "published_at": "2026-10-08",
+        "relevance_hint": 0.22,
+        "snippet": "Agreed unfortunately Plex use to be good and now it's just not. At this point I don't think anyone really recommends Plex at the current price tag of 749.99 (where they collect your data). The only people that run Plex/ defend Plex are the people who bought the life time Plex pass when it was cheap. I'm upset personally that they removed watch together but as a software engineer I kinda get it. They're rewriting their entire app to be easier to run the same foundation on different platforms and they cut one of the most underused features. It happens. i thought they got rid of watch together months ago. regardless, they keep fucking with the UI and it sucks....",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Plex is actively making its own product worse. Removing Watch Together is just another example of enshittification.",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1x0hapb/plex_is_actively_making_its_own_product_worse/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors\nI've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a simplified DCF) Revenue breakdown by business segment (iPhone vs Services vs Mac for Apple etc) It'",
+        "container": "SeekingAlpha",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 10
+        },
+        "engagement_score": 24,
+        "freshness": 53,
+        "item_id": "R6",
+        "local_rank_score": 0.31900000000000006,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-19",
+        "relevance_hint": 0.37,
+        "snippet": "I've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors",
+        "url": "https://www.reddit.com/r/SeekingAlpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Frustrated with impersonal reviews?\nHey\ud83d\udcda \u2013 I've been building this small app called Nook, whose entire purpose is simply one goal: helping you to find your next read, all based on your personal preferences. I used to wander around bookstores, trying hard to find my \u2018perfect\u2019 book. I spent countless hours comparing and weighing different books, all in pursuit of my next read. Then I realised - why don\u2019t I build something which does all of that for me? Nook is the result of me following that idea. There are a few things which this a",
+        "container": "Recommend_A_Book",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 3
+        },
+        "engagement_score": 9,
+        "freshness": 82,
+        "item_id": "R8",
+        "local_rank_score": 0.318,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-03",
+        "relevance_hint": 0.41,
+        "snippet": "Hey\ud83d\udcda \u2013 I've been building this small app called Nook, whose entire purpose is simply one goal: helping you to find your next read, all based on your personal preferences. I used to wander around bookstores, trying hard to find my \u2018perfect\u2019 book. I spent countless hours comparing and weighing different books, all in pursuit of my next read. Then I realised - why don\u2019t I build something which does a",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Frustrated with impersonal reviews?",
+        "url": "https://www.reddit.com/r/Recommend_A_Book/comments/1wwi5z5/frustrated_with_impersonal_reviews/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-12",
+  "range_to": "2026-10-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/selfhosted/comments/1x0hapb/plex_is_actively_making_its_own_product_worse",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 13.789180327868849,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.36,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 24.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Agreed unfortunately Plex use to be good and now it's just not. At this point I don't think anyone really recommends Plex at the current price tag of 749.99 (where they collect your data). The only people that run Plex/ defend Plex are the people who bought the life time Plex pass when it was cheap. I'm upset personally that they removed watch together but as a software engineer I kinda get it. They're rewriting their entire app to be easier to run the same foundation on different platforms and they cut one of the most underused features. It happens. i thought they got rid of watch together months ago. regardless, they keep fucking with the UI and it sucks....",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Plex is actively making its own product worse. Removing Watch Together is just another example of enshittification.\nI've been using Plex for years, and I'm getting increasingly frustrated with the direction this company is heading. Tonight, I went to use Watch Together, a feature my girlfriend and I use almost daily to watch shows when we're apart. It was working just minutes earlier, and suddenly it was gone from my Google TV. Apparently, Plex decided not to carry Watch Together over to its redesigned app. A perfectly functional feature that people actually use was simply discarded. This is textbook enshitti\nAgreed unfortunately Plex use to be good and now it's just not. At this point I don't think anyone really recommends Plex at the current price tag of 749.99 (where they collect your data). The only people that run Plex/ defend Plex are the people who bought the life time Plex pass when it was cheap. I'm upset personally that they removed watch together but as a software engineer I kinda get it. They're rewriting their entire app to be easier to run the same foundation on different platforms and they cut one of the most underused features. It happens. i thought they got rid of watch together months ago. regardless, they keep fucking with the UI and it sucks. I went to read the description on a movie last night on my apple tv, the little description modal pops up when i click it so i can read the whole thing. when i hit the 'back' button, it just",
+          "container": "selfhosted",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 626,
+            "score": 1642
+          },
+          "engagement_score": 100,
+          "freshness": 91,
+          "item_id": "R1",
+          "local_rank_score": 0.5615,
+          "local_relevance": 0.36,
+          "metadata": {
+            "comment_insights": [
+              "Expand the replies to this comment to learn how AI was used in this post/project.",
+              "i thought they got rid of watch together months ago.",
+              "Agreed unfortunately Plex use to be good and now it's just not.",
+              "Its funny cause in bed last night I noticed the new TV app.",
+              "I think lots of us left Plex years ago because it was really obvious that they were moving towards increased large corporation approach to adding feat...",
+              "I'm upset personally that they removed watch together but as a software engineer I kinda get it.",
+              "There are a lot of people who paid for the plex pass and either have 0 users on their server or have 0 empathy for the users on their server.",
+              "Does Jelly have working watch together these days ? My BFF and I still do the '3 2 1 stop' countdown over the phone lol",
+              "If you are fully invested in Plex and don't want to switch (I don't blame you, me too), there is Plezy for the feature you are looking for.",
+              "You can't provide URL of your watchlist without subscription now."
+            ],
+            "top_comments": [
+              {
+                "author": "1WeekNotice",
+                "date": "2026-10-08",
+                "excerpt": "Agreed unfortunately Plex use to be good and now it's just not. At this point I don't think anyone really recommends Plex at the current price tag of 749.99 (where they collect your data). The only people that run Plex/ defend Plex are the people who bought the life time Plex pass when it was cheap.",
+                "score": 99,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/peko8g7/"
+              },
+              {
+                "author": "zooberwask",
+                "date": "2026-10-08",
+                "excerpt": "I'm upset personally that they removed watch together but as a software engineer I kinda get it. They're rewriting their entire app to be easier to run the same foundation on different platforms and they cut one of the most underused features. It happens.",
+                "score": 49,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/peknfg4/"
+              },
+              {
+                "author": "tlz81389",
+                "date": "2026-10-08",
+                "excerpt": "i thought they got rid of watch together months ago. regardless, they keep fucking with the UI and it sucks. I went to read the description on a movie last night on my apple tv, the little description modal pops up when i click it so i can read the whole thing. when i hit the 'back' button, it just ",
+                "score": 18,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/peomxmq/"
+              },
+              {
+                "author": "MasterChiefmas",
+                "date": "2026-10-08",
+                "excerpt": "I think lots of us left Plex years ago because it was really obvious that they were moving towards increased large corporation approach to adding features, and losing sight of what the user base wanted and the focus on just video streaming which made it a great product back then. Generalization of a",
+                "score": 13,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pektw6a/"
+              },
+              {
+                "author": "IMABEARLAWL",
+                "date": "2026-10-08",
+                "excerpt": "If you are fully invested in Plex and don't want to switch (I don't blame you, me too), there is Plezy for the feature you are looking for. Yes, it's another $5, but $5 is worth the price of admission IMO.",
+                "score": 10,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pekvq63/"
+              },
+              {
+                "author": "MajorFuckingDick",
+                "date": "2026-10-08",
+                "excerpt": "Its funny cause in bed last night I noticed the new TV app. Then proceeded to used Watch Together for the first time ever this evening on the desktop app.\n\n Unironically considering a jellyfin instance if only for this but there has to be a better alternative.",
+                "score": 7,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pekr0w7/"
+              },
+              {
+                "author": "AdUnfair9248",
+                "date": "2026-10-09",
+                "excerpt": "There are a lot of people who paid for the plex pass and either have 0 users on their server or have 0 empathy for the users on their server.",
+                "score": 5,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/perjgnj/"
+              },
+              {
+                "author": "TW-Twisti",
+                "date": "2026-10-09",
+                "excerpt": "Does Jelly have working watch together these days ? My BFF and I still do the '3 2 1 stop' countdown over the phone lol",
+                "score": 5,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pey5jmw/"
+              },
+              {
+                "author": "omar300i",
+                "date": "2026-10-08",
+                "excerpt": "You can't provide URL of your watchlist without subscription now. How was this useful? You could feed the watchlist of friends and family to radarr and sonarr. Shitout of luck there now so created a scraper to do that. Completely unnecessary that we need to go backwards",
+                "score": 3,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pel32vc/"
+              },
+              {
+                "author": "asimovs-auditor",
+                "date": "2026-10-08",
+                "excerpt": "Expand the replies to this comment to learn how AI was used in this post/project.",
+                "score": 1,
+                "url": "https://reddit.com/r/selfhosted/comments/1x0hapb/comment/pekmgef/"
+              }
+            ]
+          },
+          "published_at": "2026-10-08",
+          "relevance_hint": 0.22,
+          "snippet": "Agreed unfortunately Plex use to be good and now it's just not. At this point I don't think anyone really recommends Plex at the current price tag of 749.99 (where they collect your data). The only people that run Plex/ defend Plex are the people who bought the life time Plex pass when it was cheap. I'm upset personally that they removed watch together but as a software engineer I kinda get it. They're rewriting their entire app to be easier to run the same foundation on different platforms and they cut one of the most underused features. It happens. i thought they got rid of watch together months ago. regardless, they keep fucking with the UI and it sucks....",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Plex is actively making its own product worse. Removing Watch Together is just another example of enshittification.",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1x0hapb/plex_is_actively_making_its_own_product_worse/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Plex is actively making its own product worse. Removing Watch Together is just another example of enshittification.",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1x0hapb/plex_is_actively_making_its_own_product_worse/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/seekingalpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting",
+      "cluster_id": "cluster-2",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 9.100000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors\nI've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a simplified DCF) Revenue breakdown by business segment (iPhone vs Services vs Mac for Apple etc) It'",
+          "container": "SeekingAlpha",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 10
+          },
+          "engagement_score": 24,
+          "freshness": 53,
+          "item_id": "R6",
+          "local_rank_score": 0.31900000000000006,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-19",
+          "relevance_hint": 0.37,
+          "snippet": "I've been investing for a few years and always wanted access to professional-grade analysis without paying $300+/month for Bloomberg or $50/month for other tools. So I spent the last few months building StockManTools - a free web app that gives you: Historical P/E, P/S, and margin charts Side-by-side comparison of up to 3 stocks with a winner column A 10-year Bull/Base/Bear projection simulator (a",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors",
+          "url": "https://www.reddit.com/r/SeekingAlpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a free stock analysis tool after getting frustrated with Bloomberg's price tag \u2026 would love feedback from actual investors",
+      "url": "https://www.reddit.com/r/SeekingAlpha/comments/1wkt7y8/i_built_a_free_stock_analysis_tool_after_getting/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/recommend_a_book/comments/1wwi5z5/frustrated_with_impersonal_reviews",
+      "cluster_id": "cluster-3",
+      "engagement": 9,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 18.0,
+      "item_id": "R8",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hey\ud83d\udcda \u2013 I've been building this small app called Nook, whose entire purpose is simply one goal: helping you to find your next read, all based on your personal preferences. I used to wander around bookstores, trying hard to find my \u2018perfect\u2019 book. I spent countless hours comparing and weighing different books, all in pursuit of my next read. Then I realised - why don\u2019t I build something which does a",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Frustrated with impersonal reviews?\nHey\ud83d\udcda \u2013 I've been building this small app called Nook, whose entire purpose is simply one goal: helping you to find your next read, all based on your personal preferences. I used to wander around bookstores, trying hard to find my \u2018perfect\u2019 book. I spent countless hours comparing and weighing different books, all in pursuit of my next read. Then I realised - why don\u2019t I build something which does all of that for me? Nook is the result of me following that idea. There are a few things which this a",
+          "container": "Recommend_A_Book",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 3
+          },
+          "engagement_score": 9,
+          "freshness": 82,
+          "item_id": "R8",
+          "local_rank_score": 0.318,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-03",
+          "relevance_hint": 0.41,
+          "snippet": "Hey\ud83d\udcda \u2013 I've been building this small app called Nook, whose entire purpose is simply one goal: helping you to find your next read, all based on your personal preferences. I used to wander around bookstores, trying hard to find my \u2018perfect\u2019 book. I spent countless hours comparing and weighing different books, all in pursuit of my next read. Then I realised - why don\u2019t I build something which does a",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Frustrated with impersonal reviews?",
+          "url": "https://www.reddit.com/r/Recommend_A_Book/comments/1wwi5z5/frustrated_with_impersonal_reviews/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Frustrated with impersonal reviews?",
+      "url": "https://www.reddit.com/r/Recommend_A_Book/comments/1wwi5z5/frustrated_with_impersonal_reviews/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
