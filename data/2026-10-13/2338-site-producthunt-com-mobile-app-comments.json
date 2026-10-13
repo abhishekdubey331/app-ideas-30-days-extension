@@ -1,0 +1,221 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/producthunters/comments/1wzsj1g/we_just_launched_burrow_on_product_hunt"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/producthunters/comments/1wzsj1g/we_just_launched_burrow_on_product_hunt"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We just launched Burrow on Product Hunt - local-first budget, journal, and habits with zero cloud sync."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-13T23:38:26.618319+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "We just launched Burrow on Product Hunt - local-first budget, journal, and habits with zero cloud sync.\nHey r/producthunters! I\u2019m Christian, an independent developer, and today I\u2019m launching Burrow on Product Hunt. Like many of you, I hit subscription and cloud fatigue. Every budgeting and journaling tool I tried demanded an account, hooked into third-party analytics, locked basic features behind monthly fees, and kept my financial records on someone else's server. I wanted something different: a single, snappy desktop app that works completely offline with Wi-Fi switched off. What is Burrow? Burr\nThanks for checking out Burrow! Here are direct links for convenience:\n\n Product Hunt: https://www.producthunt.com/products/burrow-4?launch=burrow-6\n\n Download / Gumroad: cdmunoz98.gumroad.com/l/burrow-free\n\n Source / Checksums: https://github.com/ChristianMunoz31/burrow-releases?ref=producthunt\n\n What\u2019s one workflow you wish your current daily planner or budget app handled locally? Let me know an nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach. it's cool to see a focus on privacy and data ownership. how's the product hunt launch going so far? Deterministic code for the math and AI only explaining it is a good move for finance. Respect for that constraint. Windows-first is also a nice change from the usual Mac-only launches.\n\n We're live on PH today too. Upvoted yours, would appreciate you checking us out if you got a sec!\n\n -Jacob from F",
+        "container": "ProductHunters",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 1
+        },
+        "engagement_score": 100,
+        "freshness": 88,
+        "item_id": "R1",
+        "local_rank_score": 0.4305,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "Thanks for checking out Burrow! Here are direct links for convenience:\n\n Product Hunt: https://www.",
+            "nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach.",
+            "Deterministic code for the math and AI only explaining it is a good move for finance."
+          ],
+          "top_comments": [
+            {
+              "author": "Revibed69",
+              "date": "2026-10-07",
+              "excerpt": "Thanks for checking out Burrow! Here are direct links for convenience:\n\n Product Hunt: https://www.producthunt.com/products/burrow-4?launch=burrow-6\n\n Download / Gumroad: cdmunoz98.gumroad.com/l/burrow-free\n\n Source / Checksums: https://github.com/ChristianMunoz31/burrow-releases?ref=producthunt\n\n What\u2019s one workflow you wish your current daily planner or budget app handled locally? Let me know an",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1wzsj1g/comment/peedwa5/"
+            },
+            {
+              "author": "powleads",
+              "date": "2026-10-07",
+              "excerpt": "nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach. it's cool to see a focus on privacy and data ownership. how's the product hunt launch going so far?",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1wzsj1g/comment/peewwqo/"
+            },
+            {
+              "author": "digitalbananax",
+              "date": "2026-10-07",
+              "excerpt": "Deterministic code for the math and AI only explaining it is a good move for finance. Respect for that constraint. Windows-first is also a nice change from the usual Mac-only launches.\n\n We're live on PH today too. Upvoted yours, would appreciate you checking us out if you got a sec!\n\n -Jacob from F",
+              "score": 1,
+              "url": "https://reddit.com/r/ProductHunters/comments/1wzsj1g/comment/peeqdrc/"
+            }
+          ]
+        },
+        "published_at": "2026-10-07",
+        "relevance_hint": 0.03,
+        "snippet": "Thanks for checking out Burrow! Here are direct links for convenience: Product Hunt: https://www.producthunt.com/products/burrow-4?launch=burrow-6 Download / Gumroad: cdmunoz98.gumroad.com/l/burrow-free Source / Checksums: https://github.com/ChristianMunoz31/burrow-releases?ref=producthunt What\u2019s one workflow you wish your current daily planner or budget app handled locally? Let me know an nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach. it's cool to see a focus on privacy and data ownership. how's the product hunt launch going so far? Deterministic code for the math and AI only explaining it is a good move for finance. Respect for that constraint. Windows-first is also a nice change from the usual Mac-only launches. We're live on PH today...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We just launched Burrow on Product Hunt - local-first budget, journal, and habits with zero cloud sync.",
+        "url": "https://www.reddit.com/r/ProductHunters/comments/1wzsj1g/we_just_launched_burrow_on_product_hunt/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-13",
+  "range_to": "2026-10-13",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/producthunters/comments/1wzsj1g/we_just_launched_burrow_on_product_hunt",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 10.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Thanks for checking out Burrow! Here are direct links for convenience: Product Hunt: https://www.producthunt.com/products/burrow-4?launch=burrow-6 Download / Gumroad: cdmunoz98.gumroad.com/l/burrow-free Source / Checksums: https://github.com/ChristianMunoz31/burrow-releases?ref=producthunt What\u2019s one workflow you wish your current daily planner or budget app handled locally? Let me know an nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach. it's cool to see a focus on privacy and data ownership. how's the product hunt launch going so far? Deterministic code for the math and AI only explaining it is a good move for finance. Respect for that constraint. Windows-first is also a nice change from the usual Mac-only launches. We're live on PH today...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We just launched Burrow on Product Hunt - local-first budget, journal, and habits with zero cloud sync.\nHey r/producthunters! I\u2019m Christian, an independent developer, and today I\u2019m launching Burrow on Product Hunt. Like many of you, I hit subscription and cloud fatigue. Every budgeting and journaling tool I tried demanded an account, hooked into third-party analytics, locked basic features behind monthly fees, and kept my financial records on someone else's server. I wanted something different: a single, snappy desktop app that works completely offline with Wi-Fi switched off. What is Burrow? Burr\nThanks for checking out Burrow! Here are direct links for convenience:\n\n Product Hunt: https://www.producthunt.com/products/burrow-4?launch=burrow-6\n\n Download / Gumroad: cdmunoz98.gumroad.com/l/burrow-free\n\n Source / Checksums: https://github.com/ChristianMunoz31/burrow-releases?ref=producthunt\n\n What\u2019s one workflow you wish your current daily planner or budget app handled locally? Let me know an nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach. it's cool to see a focus on privacy and data ownership. how's the product hunt launch going so far? Deterministic code for the math and AI only explaining it is a good move for finance. Respect for that constraint. Windows-first is also a nice change from the usual Mac-only launches.\n\n We're live on PH today too. Upvoted yours, would appreciate you checking us out if you got a sec!\n\n -Jacob from F",
+          "container": "ProductHunters",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 1
+          },
+          "engagement_score": 100,
+          "freshness": 88,
+          "item_id": "R1",
+          "local_rank_score": 0.4305,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "Thanks for checking out Burrow! Here are direct links for convenience:\n\n Product Hunt: https://www.",
+              "nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach.",
+              "Deterministic code for the math and AI only explaining it is a good move for finance."
+            ],
+            "top_comments": [
+              {
+                "author": "Revibed69",
+                "date": "2026-10-07",
+                "excerpt": "Thanks for checking out Burrow! Here are direct links for convenience:\n\n Product Hunt: https://www.producthunt.com/products/burrow-4?launch=burrow-6\n\n Download / Gumroad: cdmunoz98.gumroad.com/l/burrow-free\n\n Source / Checksums: https://github.com/ChristianMunoz31/burrow-releases?ref=producthunt\n\n What\u2019s one workflow you wish your current daily planner or budget app handled locally? Let me know an",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1wzsj1g/comment/peedwa5/"
+              },
+              {
+                "author": "powleads",
+                "date": "2026-10-07",
+                "excerpt": "nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach. it's cool to see a focus on privacy and data ownership. how's the product hunt launch going so far?",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1wzsj1g/comment/peewwqo/"
+              },
+              {
+                "author": "digitalbananax",
+                "date": "2026-10-07",
+                "excerpt": "Deterministic code for the math and AI only explaining it is a good move for finance. Respect for that constraint. Windows-first is also a nice change from the usual Mac-only launches.\n\n We're live on PH today too. Upvoted yours, would appreciate you checking us out if you got a sec!\n\n -Jacob from F",
+                "score": 1,
+                "url": "https://reddit.com/r/ProductHunters/comments/1wzsj1g/comment/peeqdrc/"
+              }
+            ]
+          },
+          "published_at": "2026-10-07",
+          "relevance_hint": 0.03,
+          "snippet": "Thanks for checking out Burrow! Here are direct links for convenience: Product Hunt: https://www.producthunt.com/products/burrow-4?launch=burrow-6 Download / Gumroad: cdmunoz98.gumroad.com/l/burrow-free Source / Checksums: https://github.com/ChristianMunoz31/burrow-releases?ref=producthunt What\u2019s one workflow you wish your current daily planner or budget app handled locally? Let me know an nice launch for Burrow! as an indie dev myself, i totally get the subscription and cloud fatigue \u2013 building something local-first is a solid approach. it's cool to see a focus on privacy and data ownership. how's the product hunt launch going so far? Deterministic code for the math and AI only explaining it is a good move for finance. Respect for that constraint. Windows-first is also a nice change from the usual Mac-only launches. We're live on PH today...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We just launched Burrow on Product Hunt - local-first budget, journal, and habits with zero cloud sync.",
+          "url": "https://www.reddit.com/r/ProductHunters/comments/1wzsj1g/we_just_launched_burrow_on_product_hunt/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We just launched Burrow on Product Hunt - local-first budget, journal, and habits with zero cloud sync.",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1wzsj1g/we_just_launched_burrow_on_product_hunt/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
