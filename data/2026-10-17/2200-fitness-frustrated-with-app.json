@@ -1,0 +1,740 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "score": 16.769180327868852,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "score": 14.056129032258063,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sugarland/comments/1wsp02y/amped_fitness_sugar_land_alta_open_issue"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/sugarland/comments/1wsp02y/amped_fitness_sugar_land_alta_open_issue"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Amped Fitness Sugar Land Alta Open Issue"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/showyourapp/comments/1wzj4ek/frustrated_with_logging_indian_food_on_expensive"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/showyourapp/comments/1wzj4ek/frustrated_with_logging_indian_food_on_expensive"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Frustrated with logging Indian food on expensive fitness apps, so I built an AI Calorie Tracker (BiteSize)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-17T22:00:12.171061+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time. I also found other fitness apps too restrictive and a bit s\nI\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+        "container": "apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2
+        },
+        "engagement_score": 63,
+        "freshness": 95,
+        "item_id": "R3",
+        "local_rank_score": 0.567,
+        "local_relevance": 0.41,
+        "metadata": {
+          "comment_insights": [
+            "I\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out",
+            "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+            "It's absurd how many exercise apps charge for the most basic of features... this could really work for me."
+          ],
+          "top_comments": [
+            {
+              "author": "Plastic-Proof-4963",
+              "date": "2026-10-15",
+              "excerpt": "I\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out",
+              "score": 1,
+              "url": "https://reddit.com/r/apps/comments/1x6v113/comment/pgypq4f/"
+            },
+            {
+              "author": "Local-Tea1656",
+              "date": "2026-10-16",
+              "excerpt": "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+              "score": 1,
+              "url": "https://reddit.com/r/apps/comments/1x6v113/comment/ph5xcbu/"
+            },
+            {
+              "author": "AntAir267",
+              "date": "2026-10-15",
+              "excerpt": "It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+              "score": 1,
+              "url": "https://reddit.com/r/apps/comments/1x6v113/comment/pgyqwuf/"
+            }
+          ]
+        },
+        "published_at": "2026-10-15",
+        "relevance_hint": 0.22,
+        "snippet": "I\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+        "url": "https://www.reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. Same here \u2026. Really live the idea and would use it sooo much Yeahhh!!!!",
+        "container": "coolgithubprojects",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 5
+        },
+        "engagement_score": 100,
+        "freshness": 100,
+        "item_id": "R1",
+        "local_rank_score": 0.558,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+            "Same here \u2026. Really live the idea and would use it sooo much",
+            "If it was available and open source, I would definitely try it out.",
+            "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+            "please do. id love to get of hevy"
+          ],
+          "top_comments": [
+            {
+              "author": "BenjiSponge",
+              "date": "2026-10-17",
+              "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+              "score": 2,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+            },
+            {
+              "author": "Software_Sennin",
+              "date": "2026-10-17",
+              "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+            },
+            {
+              "author": "beberuhimuzik",
+              "date": "2026-10-17",
+              "excerpt": "Yeahhh!!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+            },
+            {
+              "author": "thomdough",
+              "date": "2026-10-17",
+              "excerpt": "If it was available and open source, I would definitely try it out.",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+            },
+            {
+              "author": "LankyPlenty8029",
+              "date": "2026-10-17",
+              "excerpt": "Release it! Looks good",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+            },
+            {
+              "author": "Background_Daikon300",
+              "date": "2026-10-17",
+              "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+            },
+            {
+              "author": "youreanidiotyes",
+              "date": "2026-10-17",
+              "excerpt": "please do. id love to get of hevy",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdvj47/"
+            }
+          ]
+        },
+        "published_at": "2026-10-17",
+        "relevance_hint": 0.54,
+        "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. Same here \u2026. Really live the idea and would use it sooo much Yeahhh!!!!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+        "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Amped Fitness Sugar Land Alta Open Issue\nVery frustrated with their Alta Open app. It doesn't work for me since day 1. It's been a month and no solution. I called their store and visit in person, but usually the store manager isn't there to help. If they were there to help, it'd be fixed for only 12 hours. I called number 866-992-8955 and they told me do not call them if this issue happens repeatedly, I have to contact the store.??? This amped fitness doesn't have customer service and doesn't care about their customers. I called their\nSolution: cancel that membership and find another gym. Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access. Now I\u2019m at a smaller private gym and love it. I\u2019ll never go to another corporate gym ever again Join purple fitness / planet fitness",
+        "container": "sugarland",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 3
+        },
+        "engagement_score": 84,
+        "freshness": 61,
+        "item_id": "R2",
+        "local_rank_score": 0.38600000000000007,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access.",
+            "Solution: cancel that membership and find another gym.",
+            "Join purple fitness / planet fitness"
+          ],
+          "top_comments": [
+            {
+              "author": "Striking-Leg8733",
+              "date": "2026-09-28",
+              "excerpt": "Solution: cancel that membership and find another gym.",
+              "score": 7,
+              "url": "https://reddit.com/r/sugarland/comments/1wsp02y/comment/pcnvacq/"
+            },
+            {
+              "author": "gsp83",
+              "date": "2026-09-29",
+              "excerpt": "Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access. Now I\u2019m at a smaller private gym and love it. I\u2019ll never go to another corporate gym ever again",
+              "score": 2,
+              "url": "https://reddit.com/r/sugarland/comments/1wsp02y/comment/pcs8u2x/"
+            },
+            {
+              "author": "OnePeace_1",
+              "date": "2026-09-28",
+              "excerpt": "Join purple fitness / planet fitness",
+              "score": 1,
+              "url": "https://reddit.com/r/sugarland/comments/1wsp02y/comment/pcobu5g/"
+            }
+          ]
+        },
+        "published_at": "2026-09-28",
+        "relevance_hint": 0.4,
+        "snippet": "Solution: cancel that membership and find another gym. Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access. Now I\u2019m at a smaller private gym and love it. I\u2019ll never go to another corporate gym ever again Join purple fitness / planet fitness",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Amped Fitness Sugar Land Alta Open Issue",
+        "url": "https://www.reddit.com/r/sugarland/comments/1wsp02y/amped_fitness_sugar_land_alta_open_issue/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Frustrated with logging Indian food on expensive fitness apps, so I built an AI Calorie Tracker (BiteSize)\nHey everyone! If you track your calories, you know the daily struggle: opening apps like HealthifyMe or MyFitnessPal, only to realize that: Entering homemade Indian meals (sambars, curries, appam, dosas) by measuring every single gram is exhausting. Their premium plans cost an insane amount (\u20b9400\u2013\u20b9800/month or \u20b93,000+/year) just to scan meals. To fix this for myself, I spent the last few months building BiteSize \u2014 an AI-powered calorie tracker built specifically with Indian diets in mind. How it\nthe 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused. curious how it handles stuff like pongal or bisibelebath where everything kinda merges into one beige blob on the plate For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensibly. Share the test\u2019s web opt-in link alongside the store link, with instructions to opt in using the Google account on their phone before installing.",
+        "container": "ShowYourApp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 1
+        },
+        "engagement_score": 38,
+        "freshness": 79,
+        "item_id": "R5",
+        "local_rank_score": 0.385,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "the 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused.",
+            "For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensi..."
+          ],
+          "top_comments": [
+            {
+              "author": "EffectiveCount7291",
+              "date": "2026-10-07",
+              "excerpt": "the 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused. curious how it handles stuff like pongal or bisibelebath where everything kinda merges into one beige blob on the plate",
+              "score": 1,
+              "url": "https://reddit.com/r/ShowYourApp/comments/1wzj4ek/comment/pec4vg5/"
+            },
+            {
+              "author": "investigatormaker",
+              "date": "2026-10-13",
+              "excerpt": "For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensibly. Share the test\u2019s web opt-in link alongside the store link, with instructions to opt in using the Google account on their phone before installing.",
+              "score": 1,
+              "url": "https://reddit.com/r/ShowYourApp/comments/1wzj4ek/comment/pge2qya/"
+            }
+          ]
+        },
+        "published_at": "2026-10-07",
+        "relevance_hint": 0.54,
+        "snippet": "the 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused. curious how it handles stuff like pongal or bisibelebath where everything kinda merges into one beige blob on the plate For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensibly. Share the test\u2019s web opt-in link alongside the store link, with instructions to opt in using the Google account on their phone before installing.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Frustrated with logging Indian food on expensive fitness apps, so I built an AI Calorie Tracker (BiteSize)",
+        "url": "https://www.reddit.com/r/ShowYourApp/comments/1wzj4ek/frustrated_with_logging_indian_food_on_expensive/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-17",
+  "range_to": "2026-10-17",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i",
+      "cluster_id": "cluster-1",
+      "engagement": 63,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 16.769180327868852,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R3",
+      "local_relevance": 0.41,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 28.700000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time. I also found other fitness apps too restrictive and a bit s\nI\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+          "container": "apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2
+          },
+          "engagement_score": 63,
+          "freshness": 95,
+          "item_id": "R3",
+          "local_rank_score": 0.567,
+          "local_relevance": 0.41,
+          "metadata": {
+            "comment_insights": [
+              "I\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out",
+              "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+              "It's absurd how many exercise apps charge for the most basic of features... this could really work for me."
+            ],
+            "top_comments": [
+              {
+                "author": "Plastic-Proof-4963",
+                "date": "2026-10-15",
+                "excerpt": "I\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out",
+                "score": 1,
+                "url": "https://reddit.com/r/apps/comments/1x6v113/comment/pgypq4f/"
+              },
+              {
+                "author": "Local-Tea1656",
+                "date": "2026-10-16",
+                "excerpt": "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+                "score": 1,
+                "url": "https://reddit.com/r/apps/comments/1x6v113/comment/ph5xcbu/"
+              },
+              {
+                "author": "AntAir267",
+                "date": "2026-10-15",
+                "excerpt": "It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+                "score": 1,
+                "url": "https://reddit.com/r/apps/comments/1x6v113/comment/pgyqwuf/"
+              }
+            ]
+          },
+          "published_at": "2026-10-15",
+          "relevance_hint": 0.22,
+          "snippet": "I\u2019ve been using a notes app for my lifts for like 5 years so i get the frustration, might actually check this out Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+          "url": "https://www.reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+      "url": "https://www.reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 14.056129032258063,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 23.4,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. Same here \u2026. Really live the idea and would use it sooo much Yeahhh!!!!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. Same here \u2026. Really live the idea and would use it sooo much Yeahhh!!!!",
+          "container": "coolgithubprojects",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 5
+          },
+          "engagement_score": 100,
+          "freshness": 100,
+          "item_id": "R1",
+          "local_rank_score": 0.558,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+              "Same here \u2026. Really live the idea and would use it sooo much",
+              "If it was available and open source, I would definitely try it out.",
+              "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+              "please do. id love to get of hevy"
+            ],
+            "top_comments": [
+              {
+                "author": "BenjiSponge",
+                "date": "2026-10-17",
+                "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+                "score": 2,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+              },
+              {
+                "author": "Software_Sennin",
+                "date": "2026-10-17",
+                "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+              },
+              {
+                "author": "beberuhimuzik",
+                "date": "2026-10-17",
+                "excerpt": "Yeahhh!!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+              },
+              {
+                "author": "thomdough",
+                "date": "2026-10-17",
+                "excerpt": "If it was available and open source, I would definitely try it out.",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+              },
+              {
+                "author": "LankyPlenty8029",
+                "date": "2026-10-17",
+                "excerpt": "Release it! Looks good",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+              },
+              {
+                "author": "Background_Daikon300",
+                "date": "2026-10-17",
+                "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+              },
+              {
+                "author": "youreanidiotyes",
+                "date": "2026-10-17",
+                "excerpt": "please do. id love to get of hevy",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdvj47/"
+              }
+            ]
+          },
+          "published_at": "2026-10-17",
+          "relevance_hint": 0.54,
+          "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. Same here \u2026. Really live the idea and would use it sooo much Yeahhh!!!!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+          "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sugarland/comments/1wsp02y/amped_fitness_sugar_land_alta_open_issue",
+      "cluster_id": "cluster-3",
+      "engagement": 84,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Solution: cancel that membership and find another gym. Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access. Now I\u2019m at a smaller private gym and love it. I\u2019ll never go to another corporate gym ever again Join purple fitness / planet fitness",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Amped Fitness Sugar Land Alta Open Issue\nVery frustrated with their Alta Open app. It doesn't work for me since day 1. It's been a month and no solution. I called their store and visit in person, but usually the store manager isn't there to help. If they were there to help, it'd be fixed for only 12 hours. I called number 866-992-8955 and they told me do not call them if this issue happens repeatedly, I have to contact the store.??? This amped fitness doesn't have customer service and doesn't care about their customers. I called their\nSolution: cancel that membership and find another gym. Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access. Now I\u2019m at a smaller private gym and love it. I\u2019ll never go to another corporate gym ever again Join purple fitness / planet fitness",
+          "container": "sugarland",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 3
+          },
+          "engagement_score": 84,
+          "freshness": 61,
+          "item_id": "R2",
+          "local_rank_score": 0.38600000000000007,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access.",
+              "Solution: cancel that membership and find another gym.",
+              "Join purple fitness / planet fitness"
+            ],
+            "top_comments": [
+              {
+                "author": "Striking-Leg8733",
+                "date": "2026-09-28",
+                "excerpt": "Solution: cancel that membership and find another gym.",
+                "score": 7,
+                "url": "https://reddit.com/r/sugarland/comments/1wsp02y/comment/pcnvacq/"
+              },
+              {
+                "author": "gsp83",
+                "date": "2026-09-29",
+                "excerpt": "Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access. Now I\u2019m at a smaller private gym and love it. I\u2019ll never go to another corporate gym ever again",
+                "score": 2,
+                "url": "https://reddit.com/r/sugarland/comments/1wsp02y/comment/pcs8u2x/"
+              },
+              {
+                "author": "OnePeace_1",
+                "date": "2026-09-28",
+                "excerpt": "Join purple fitness / planet fitness",
+                "score": 1,
+                "url": "https://reddit.com/r/sugarland/comments/1wsp02y/comment/pcobu5g/"
+              }
+            ]
+          },
+          "published_at": "2026-09-28",
+          "relevance_hint": 0.4,
+          "snippet": "Solution: cancel that membership and find another gym. Amped is terrible at this. Took a long time to get access to Willowbrook location THEN took even longer to get sprint location access. Now I\u2019m at a smaller private gym and love it. I\u2019ll never go to another corporate gym ever again Join purple fitness / planet fitness",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Amped Fitness Sugar Land Alta Open Issue",
+          "url": "https://www.reddit.com/r/sugarland/comments/1wsp02y/amped_fitness_sugar_land_alta_open_issue/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Amped Fitness Sugar Land Alta Open Issue",
+      "url": "https://www.reddit.com/r/sugarland/comments/1wsp02y/amped_fitness_sugar_land_alta_open_issue/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/showyourapp/comments/1wzj4ek/frustrated_with_logging_indian_food_on_expensive",
+      "cluster_id": "cluster-4",
+      "engagement": 38,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 12.899999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "the 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused. curious how it handles stuff like pongal or bisibelebath where everything kinda merges into one beige blob on the plate For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensibly. Share the test\u2019s web opt-in link alongside the store link, with instructions to opt in using the Google account on their phone before installing.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Frustrated with logging Indian food on expensive fitness apps, so I built an AI Calorie Tracker (BiteSize)\nHey everyone! If you track your calories, you know the daily struggle: opening apps like HealthifyMe or MyFitnessPal, only to realize that: Entering homemade Indian meals (sambars, curries, appam, dosas) by measuring every single gram is exhausting. Their premium plans cost an insane amount (\u20b9400\u2013\u20b9800/month or \u20b93,000+/year) just to scan meals. To fix this for myself, I spent the last few months building BiteSize \u2014 an AI-powered calorie tracker built specifically with Indian diets in mind. How it\nthe 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused. curious how it handles stuff like pongal or bisibelebath where everything kinda merges into one beige blob on the plate For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensibly. Share the test\u2019s web opt-in link alongside the store link, with instructions to opt in using the Google account on their phone before installing.",
+          "container": "ShowYourApp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 1
+          },
+          "engagement_score": 38,
+          "freshness": 79,
+          "item_id": "R5",
+          "local_rank_score": 0.385,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "the 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused.",
+              "For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensi..."
+            ],
+            "top_comments": [
+              {
+                "author": "EffectiveCount7291",
+                "date": "2026-10-07",
+                "excerpt": "the 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused. curious how it handles stuff like pongal or bisibelebath where everything kinda merges into one beige blob on the plate",
+                "score": 1,
+                "url": "https://reddit.com/r/ShowYourApp/comments/1wzj4ek/comment/pec4vg5/"
+              },
+              {
+                "author": "investigatormaker",
+                "date": "2026-10-13",
+                "excerpt": "For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensibly. Share the test\u2019s web opt-in link alongside the store link, with instructions to opt in using the Google account on their phone before installing.",
+                "score": 1,
+                "url": "https://reddit.com/r/ShowYourApp/comments/1wzj4ek/comment/pge2qya/"
+              }
+            ]
+          },
+          "published_at": "2026-10-07",
+          "relevance_hint": 0.54,
+          "snippet": "the 400-800 rupee thing is too real. half those apps feel like theyre charging you for the privilege of being confused. curious how it handles stuff like pongal or bisibelebath where everything kinda merges into one beige blob on the plate For BiteSize, give testers a repeatable daily task: photograph the same homemade meal at two portion sizes and note whether the estimates change sensibly. Share the test\u2019s web opt-in link alongside the store link, with instructions to opt in using the Google account on their phone before installing.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Frustrated with logging Indian food on expensive fitness apps, so I built an AI Calorie Tracker (BiteSize)",
+          "url": "https://www.reddit.com/r/ShowYourApp/comments/1wzj4ek/frustrated_with_logging_indian_food_on_expensive/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Frustrated with logging Indian food on expensive fitness apps, so I built an AI Calorie Tracker (BiteSize)",
+      "url": "https://www.reddit.com/r/ShowYourApp/comments/1wzj4ek/frustrated_with_logging_indian_food_on_expensive/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
