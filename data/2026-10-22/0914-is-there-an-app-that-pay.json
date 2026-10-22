@@ -1,0 +1,676 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"is there an app that\" \"pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/indiabusiness/comments/1x98rtf/any_app_that_handles_instagram_enquiries_through"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/indiabusiness/comments/1x98rtf/any_app_that_handles_instagram_enquiries_through"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Any app that handles Instagram enquiries through to orders and delivery?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/mortgages/comments/1x92l24/app_to_track_a_loan"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/mortgages/comments/1x92l24/app_to_track_a_loan"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "App to track a loan."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-22T09:14:16.738967+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Any app that handles Instagram enquiries through to orders and delivery?\nMy sister runs a small business on Instagram, and keeping up with comments, DMs and WhatsApp messages is becoming a struggle. Most enquiries are about prices, sizes, how to order or \u201cwhere\u2019s my parcel?\u201d Some get missed, especially when a reel does well.Is there an app that brings all this together? Ideally, it would DM people who comment on a reel, answer basic product questions on Instagram and WhatsApp, send checkout links, follow up on unfinished purchases and share shipment tracking updates.\nRun a website... Solves everything Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking. You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply. I use instict and it's amazing",
+        "container": "IndiaBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 16,
+          "score": 5
+        },
+        "engagement_score": 76,
+        "freshness": 91,
+        "item_id": "R4",
+        "local_rank_score": 0.48550000000000004,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking.",
+            "Run a website... Solves everything",
+            "You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply.",
+            "Hi Sam problem I had you can DM me",
+            "hey my friend is looking for a part - time opportunity , she can manage your social media accounts and customer enquires",
+            "For Instagram, the automation space really is Meta's territory \u2014 you can build with the official Instagram Graph/Messaging API (via Meta Business Suit...",
+            "but if ur on a budget try https://superprofile.bio/ ...pretty much covers everything u mentioned",
+            "Actually in meta business suit, they already have an inbuilt tool called inbox.",
+            "Shopify + SagePilot - thank me later :)"
+          ],
+          "top_comments": [
+            {
+              "author": "Hot-Original-6895",
+              "date": "2026-10-18",
+              "excerpt": "Run a website... Solves everything",
+              "score": 2,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phk2nbo/"
+            },
+            {
+              "author": "the_algo_trader_",
+              "date": "2026-10-18",
+              "excerpt": "Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking.",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phj7lrc/"
+            },
+            {
+              "author": "sufyangigani",
+              "date": "2026-10-19",
+              "excerpt": "You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply. I use instict and it's amazing",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phmrj4d/"
+            },
+            {
+              "author": "ramchand2009",
+              "date": "2026-10-19",
+              "excerpt": "Hi Sam problem I had you can DM me",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phnefuk/"
+            },
+            {
+              "author": "fitnestemple",
+              "date": "2026-10-19",
+              "excerpt": "hey my friend is looking for a part - time opportunity , she can manage your social media accounts and customer enquires",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phnlr0e/"
+            },
+            {
+              "author": "Dismal-Badger-6698",
+              "date": "2026-10-19",
+              "excerpt": "For Instagram, the automation space really is Meta's territory \u2014 you can build with the official Instagram Graph/Messaging API (via Meta Business Suite / a BSP like WATI, Interakt, etc.) to auto-reply to DMs and comments and hand off to a human, but the moment you want it to capture an order, track ",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/pho0tfn/"
+            },
+            {
+              "author": "official-reddit-user",
+              "date": "2026-10-19",
+              "excerpt": "but if ur on a budget try https://superprofile.bio/ ...pretty much covers everything u mentioned",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phqa6si/"
+            },
+            {
+              "author": "dark__yagami",
+              "date": "2026-10-20",
+              "excerpt": "Actually in meta business suit, they already have an inbuilt tool called inbox. There you can see all the inboxes and comments together\n\n This is what i use to handle communications via all channels together. A single inbox for all messages and comments",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phu91x0/"
+            },
+            {
+              "author": "Fancy-Airline5641",
+              "date": "2026-10-20",
+              "excerpt": "Shopify + SagePilot - thank me later :)",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phxbusq/"
+            },
+            {
+              "author": "jeeettttttttt65",
+              "date": "2026-10-20",
+              "excerpt": "Hire someone for management",
+              "score": 1,
+              "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phxzz0c/"
+            }
+          ]
+        },
+        "published_at": "2026-10-18",
+        "relevance_hint": 0.32,
+        "snippet": "Run a website... Solves everything Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking. You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply. I use instict and it's amazing",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Any app that handles Instagram enquiries through to orders and delivery?",
+        "url": "https://www.reddit.com/r/IndiaBusiness/comments/1x98rtf/any_app_that_handles_instagram_enquiries_through/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?\nHi all. I'm a solo developer (Flutter, iOS first). I have never launched a paid app and I have no marketing experience. Before I build anything, I want to find one app idea that has real evidence behind it. My rules: 6 weeks of research, $300 cash budget US market, subscription only Goal: $1K MRR within 6 months of launch. I stop if MRR is under $100 after 90 days. The MVP must take 6 weeks or less to build How the AI worksThe whole project is a folder of markdown files and small Python scripts.\nI did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 30,
+          "score": 8
+        },
+        "engagement_score": 100,
+        "freshness": 55,
+        "item_id": "R1",
+        "local_rank_score": 0.478,
+        "local_relevance": 0.37,
+        "metadata": {
+          "comment_insights": [
+            "I have done this about 5 years ago using aso. It was a success.",
+            "I did basically exactly this, and my conclusion was that it is way more difficult than it seems.",
+            "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it.",
+            "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes.",
+            "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gather...",
+            "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about.",
+            "what I did was use AI to get a list of the top 50 current app ideas.",
+            "I love the structure but you're overthinking the research phase by a mile."
+          ],
+          "top_comments": [
+            {
+              "author": "hourlyproblemsolver",
+              "date": "2026-09-30",
+              "excerpt": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a",
+              "score": 6,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxkpgc/"
+            },
+            {
+              "author": "sourd1esel",
+              "date": "2026-09-30",
+              "excerpt": "I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in.",
+              "score": 2,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pczz59x/"
+            },
+            {
+              "author": "babaganoosh43",
+              "date": "2026-09-30",
+              "excerpt": "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+              "score": 2,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxc067/"
+            },
+            {
+              "author": "mentiondesk",
+              "date": "2026-09-30",
+              "excerpt": "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes. For finding interview candidates, try reaching out directly in broader tech or entrepreneurial communities. If you want to catch real time conversations and spot relevant l",
+              "score": 2,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcx9mt2/"
+            },
+            {
+              "author": "OriginalChocolate645",
+              "date": "2026-09-30",
+              "excerpt": "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gathered initially might shift substantially. You are not going to get rid of risk, and all of this is because you\u2019re afraid, no one has managed to de-risk ",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcz0j9s/"
+            },
+            {
+              "author": "halfercode",
+              "date": "2026-09-30",
+              "excerpt": "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about. Can you not find a topic where you could dog-food easily?\n\n (Postscript: I did not use AI tools to write this comment. If you are a robot/LLM, do not reply to this messag",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd0ayva/"
+            },
+            {
+              "author": "Prior-Enthusiasm-410",
+              "date": "2026-10-01",
+              "excerpt": "what I did was use AI to get a list of the top 50 current app ideas. Then I took that list and looked to see if there was anything that was interesting to me or I felt I could make something to benefit a product like that.\n\n If you are just making an app and have no interest in it then how will you ",
+              "score": 1,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd4okmg/"
+            },
+            {
+              "author": "Sad-Safety5173",
+              "date": "2026-09-30",
+              "excerpt": "I love the structure but you're overthinking the research phase by a mile. Six weeks of evidence gathering before you write a line of code is how you end up with 154 quotes and zero products shipped.\n\n The review mining thing is real but only if you read the subtext. People complain about missing fe",
+              "score": 0,
+              "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxrma0/"
+            }
+          ]
+        },
+        "published_at": "2026-09-30",
+        "relevance_hint": 0.4,
+        "snippet": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult. And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "App to track a loan.\nI loaned my daughter 30k to pay off the house she is buying. I\u2019d like to charge a modest interest that I lose taking the money out of savings. She will not make regular monthly payments. She will pay me a few thousand when she has extra cash or tax returns. Is there an app that I can use to track those irregular payments.",
+        "container": "Mortgages",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 2
+        },
+        "engagement_score": 32,
+        "freshness": 91,
+        "item_id": "R6",
+        "local_rank_score": 0.38950000000000007,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-18",
+        "relevance_hint": 0.43,
+        "snippet": "I loaned my daughter 30k to pay off the house she is buying. I\u2019d like to charge a modest interest that I lose taking the money out of savings. She will not make regular monthly payments. She will pay me a few thousand when she has extra cash or tax returns. Is there an app that I can use to track those irregular payments.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "App to track a loan.",
+        "url": "https://www.reddit.com/r/Mortgages/comments/1x92l24/app_to_track_a_loan/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"is there an app that\" \"pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"is there an app that\" \"pay\", especially about \"is there app that\" \"pay\"?",
+        "search_query": "\"is there app that\" \"pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-22",
+  "range_to": "2026-10-22",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.37,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 17.9,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult. And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?\nHi all. I'm a solo developer (Flutter, iOS first). I have never launched a paid app and I have no marketing experience. Before I build anything, I want to find one app idea that has real evidence behind it. My rules: 6 weeks of research, $300 cash budget US market, subscription only Goal: $1K MRR within 6 months of launch. I stop if MRR is under $100 after 90 days. The MVP must take 6 weeks or less to build How the AI worksThe whole project is a folder of markdown files and small Python scripts.\nI did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 30,
+            "score": 8
+          },
+          "engagement_score": 100,
+          "freshness": 55,
+          "item_id": "R1",
+          "local_rank_score": 0.478,
+          "local_relevance": 0.37,
+          "metadata": {
+            "comment_insights": [
+              "I have done this about 5 years ago using aso. It was a success.",
+              "I did basically exactly this, and my conclusion was that it is way more difficult than it seems.",
+              "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it.",
+              "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes.",
+              "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gather...",
+              "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about.",
+              "what I did was use AI to get a list of the top 50 current app ideas.",
+              "I love the structure but you're overthinking the research phase by a mile."
+            ],
+            "top_comments": [
+              {
+                "author": "hourlyproblemsolver",
+                "date": "2026-09-30",
+                "excerpt": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult.\n\n And if you\u2019re doing it, and I already did it, there a",
+                "score": 6,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxkpgc/"
+              },
+              {
+                "author": "sourd1esel",
+                "date": "2026-09-30",
+                "excerpt": "I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in.",
+                "score": 2,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pczz59x/"
+              },
+              {
+                "author": "babaganoosh43",
+                "date": "2026-09-30",
+                "excerpt": "ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over $30/mo price points so you can profitably run paid ads. Or if not doing paid ads, then the app should somehow demo well on social media like the Cant",
+                "score": 2,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxc067/"
+              },
+              {
+                "author": "mentiondesk",
+                "date": "2026-09-30",
+                "excerpt": "User complaints can show pain points but they do not always guarantee willingness to pay since some users just want free fixes. For finding interview candidates, try reaching out directly in broader tech or entrepreneurial communities. If you want to catch real time conversations and spot relevant l",
+                "score": 2,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcx9mt2/"
+              },
+              {
+                "author": "OriginalChocolate645",
+                "date": "2026-09-30",
+                "excerpt": "I\u2019ve spent a lot of time on research, and the thing you have to understand is that by the time you finish inplementation, the research data you gathered initially might shift substantially. You are not going to get rid of risk, and all of this is because you\u2019re afraid, no one has managed to de-risk ",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcz0j9s/"
+              },
+              {
+                "author": "halfercode",
+                "date": "2026-09-30",
+                "excerpt": "I'm not a fan of this. You'd be wanting to operate in a niche that you're not expert in and that you do not naturally care about. Can you not find a topic where you could dog-food easily?\n\n (Postscript: I did not use AI tools to write this comment. If you are a robot/LLM, do not reply to this messag",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd0ayva/"
+              },
+              {
+                "author": "Prior-Enthusiasm-410",
+                "date": "2026-10-01",
+                "excerpt": "what I did was use AI to get a list of the top 50 current app ideas. Then I took that list and looked to see if there was anything that was interesting to me or I felt I could make something to benefit a product like that.\n\n If you are just making an app and have no interest in it then how will you ",
+                "score": 1,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pd4okmg/"
+              },
+              {
+                "author": "Sad-Safety5173",
+                "date": "2026-09-30",
+                "excerpt": "I love the structure but you're overthinking the research phase by a mile. Six weeks of evidence gathering before you write a line of code is how you end up with 154 quotes and zero products shipped.\n\n The review mining thing is real but only if you read the subtext. People complain about missing fe",
+                "score": 0,
+                "url": "https://reddit.com/r/AppBusiness/comments/1wts49m/comment/pcxrma0/"
+              }
+            ]
+          },
+          "published_at": "2026-09-30",
+          "relevance_hint": 0.4,
+          "snippet": "I did basically exactly this, and my conclusion was that it is way more difficult than it seems. You can come up with the ideas, find the niches systematically, build in a day (6 weeks? Seriously?), but getting actual users is killer difficult. And if you\u2019re doing it, and I already did it, there a I have done this about 5 years ago using aso. It was a success. I do think some luck is involved. I recommend you choose an idea you have a small interest in. ASO is pretty hard for a new app with all the AI slop apps nowadays, I'm able to get 1-3 downloads a day from it. What you should be targeting is over...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I'm using Claude Code to find an app idea backed by real evidence before I build anything. Will this method work?",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1wts49m/im_using_claude_code_to_find_an_app_idea_backed/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/indiabusiness/comments/1x98rtf/any_app_that_handles_instagram_enquiries_through",
+      "cluster_id": "cluster-2",
+      "engagement": 76,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Run a website... Solves everything Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking. You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply. I use instict and it's amazing",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Any app that handles Instagram enquiries through to orders and delivery?\nMy sister runs a small business on Instagram, and keeping up with comments, DMs and WhatsApp messages is becoming a struggle. Most enquiries are about prices, sizes, how to order or \u201cwhere\u2019s my parcel?\u201d Some get missed, especially when a reel does well.Is there an app that brings all this together? Ideally, it would DM people who comment on a reel, answer basic product questions on Instagram and WhatsApp, send checkout links, follow up on unfinished purchases and share shipment tracking updates.\nRun a website... Solves everything Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking. You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply. I use instict and it's amazing",
+          "container": "IndiaBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 16,
+            "score": 5
+          },
+          "engagement_score": 76,
+          "freshness": 91,
+          "item_id": "R4",
+          "local_rank_score": 0.48550000000000004,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking.",
+              "Run a website... Solves everything",
+              "You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply.",
+              "Hi Sam problem I had you can DM me",
+              "hey my friend is looking for a part - time opportunity , she can manage your social media accounts and customer enquires",
+              "For Instagram, the automation space really is Meta's territory \u2014 you can build with the official Instagram Graph/Messaging API (via Meta Business Suit...",
+              "but if ur on a budget try https://superprofile.bio/ ...pretty much covers everything u mentioned",
+              "Actually in meta business suit, they already have an inbuilt tool called inbox.",
+              "Shopify + SagePilot - thank me later :)"
+            ],
+            "top_comments": [
+              {
+                "author": "Hot-Original-6895",
+                "date": "2026-10-18",
+                "excerpt": "Run a website... Solves everything",
+                "score": 2,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phk2nbo/"
+              },
+              {
+                "author": "the_algo_trader_",
+                "date": "2026-10-18",
+                "excerpt": "Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking.",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phj7lrc/"
+              },
+              {
+                "author": "sufyangigani",
+                "date": "2026-10-19",
+                "excerpt": "You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply. I use instict and it's amazing",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phmrj4d/"
+              },
+              {
+                "author": "ramchand2009",
+                "date": "2026-10-19",
+                "excerpt": "Hi Sam problem I had you can DM me",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phnefuk/"
+              },
+              {
+                "author": "fitnestemple",
+                "date": "2026-10-19",
+                "excerpt": "hey my friend is looking for a part - time opportunity , she can manage your social media accounts and customer enquires",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phnlr0e/"
+              },
+              {
+                "author": "Dismal-Badger-6698",
+                "date": "2026-10-19",
+                "excerpt": "For Instagram, the automation space really is Meta's territory \u2014 you can build with the official Instagram Graph/Messaging API (via Meta Business Suite / a BSP like WATI, Interakt, etc.) to auto-reply to DMs and comments and hand off to a human, but the moment you want it to capture an order, track ",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/pho0tfn/"
+              },
+              {
+                "author": "official-reddit-user",
+                "date": "2026-10-19",
+                "excerpt": "but if ur on a budget try https://superprofile.bio/ ...pretty much covers everything u mentioned",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phqa6si/"
+              },
+              {
+                "author": "dark__yagami",
+                "date": "2026-10-20",
+                "excerpt": "Actually in meta business suit, they already have an inbuilt tool called inbox. There you can see all the inboxes and comments together\n\n This is what i use to handle communications via all channels together. A single inbox for all messages and comments",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phu91x0/"
+              },
+              {
+                "author": "Fancy-Airline5641",
+                "date": "2026-10-20",
+                "excerpt": "Shopify + SagePilot - thank me later :)",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phxbusq/"
+              },
+              {
+                "author": "jeeettttttttt65",
+                "date": "2026-10-20",
+                "excerpt": "Hire someone for management",
+                "score": 1,
+                "url": "https://reddit.com/r/IndiaBusiness/comments/1x98rtf/comment/phxzz0c/"
+              }
+            ]
+          },
+          "published_at": "2026-10-18",
+          "relevance_hint": 0.32,
+          "snippet": "Run a website... Solves everything Yes, such integrated systems exist to manage social commerce for queries like prices and parcel tracking. You can use ai and connect your insta with it. You can pre feed the data and it will reply automatically or it will send you and ask what to reply. I use instict and it's amazing",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Any app that handles Instagram enquiries through to orders and delivery?",
+          "url": "https://www.reddit.com/r/IndiaBusiness/comments/1x98rtf/any_app_that_handles_instagram_enquiries_through/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Any app that handles Instagram enquiries through to orders and delivery?",
+      "url": "https://www.reddit.com/r/IndiaBusiness/comments/1x98rtf/any_app_that_handles_instagram_enquiries_through/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/mortgages/comments/1x92l24/app_to_track_a_loan",
+      "cluster_id": "cluster-3",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 13.200000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I loaned my daughter 30k to pay off the house she is buying. I\u2019d like to charge a modest interest that I lose taking the money out of savings. She will not make regular monthly payments. She will pay me a few thousand when she has extra cash or tax returns. Is there an app that I can use to track those irregular payments.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "App to track a loan.\nI loaned my daughter 30k to pay off the house she is buying. I\u2019d like to charge a modest interest that I lose taking the money out of savings. She will not make regular monthly payments. She will pay me a few thousand when she has extra cash or tax returns. Is there an app that I can use to track those irregular payments.",
+          "container": "Mortgages",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 2
+          },
+          "engagement_score": 32,
+          "freshness": 91,
+          "item_id": "R6",
+          "local_rank_score": 0.38950000000000007,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-18",
+          "relevance_hint": 0.43,
+          "snippet": "I loaned my daughter 30k to pay off the house she is buying. I\u2019d like to charge a modest interest that I lose taking the money out of savings. She will not make regular monthly payments. She will pay me a few thousand when she has extra cash or tax returns. Is there an app that I can use to track those irregular payments.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "App to track a loan.",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1x92l24/app_to_track_a_loan/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "App to track a loan.",
+      "url": "https://www.reddit.com/r/Mortgages/comments/1x92l24/app_to_track_a_loan/"
+    }
+  ],
+  "topic": "\"is there an app that\" \"pay\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
