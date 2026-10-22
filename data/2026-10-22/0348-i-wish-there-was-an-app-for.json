@@ -1,0 +1,205 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/froggysworld/comments/1x50d22/new_to_this"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/froggysworld/comments/1x50d22/new_to_this"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "New to this!"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-22T03:48:12.524883+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "New to this!\nI think I'm off to a great start and wanted to share! I wish there was an app for Froggy's world lol\nYou already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages! I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728",
+        "container": "froggysworld",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 20
+        },
+        "engagement_score": 100,
+        "freshness": 82,
+        "item_id": "R1",
+        "local_rank_score": 0.43499999999999994,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "You already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages!",
+            "I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728"
+          ],
+          "top_comments": [
+            {
+              "author": "South_Onion927",
+              "date": "2026-10-14",
+              "excerpt": "You already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages!",
+              "score": 1,
+              "url": "https://reddit.com/r/froggysworld/comments/1x50d22/comment/pgn6rgj/"
+            },
+            {
+              "author": "lemon_pies_28",
+              "date": "2026-10-14",
+              "excerpt": "I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728",
+              "score": 1,
+              "url": "https://reddit.com/r/froggysworld/comments/1x50d22/comment/pgotmnm/"
+            }
+          ]
+        },
+        "published_at": "2026-10-13",
+        "relevance_hint": 0.22,
+        "snippet": "You already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages! I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "New to this!",
+        "url": "https://www.reddit.com/r/froggysworld/comments/1x50d22/new_to_this/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app for\", especially about \"i wish there app for\"?",
+        "search_query": "\"i wish there app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-22",
+  "range_to": "2026-10-22",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/froggysworld/comments/1x50d22/new_to_this",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.400000000000006,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "You already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages! I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "New to this!\nI think I'm off to a great start and wanted to share! I wish there was an app for Froggy's world lol\nYou already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages! I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728",
+          "container": "froggysworld",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 20
+          },
+          "engagement_score": 100,
+          "freshness": 82,
+          "item_id": "R1",
+          "local_rank_score": 0.43499999999999994,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "You already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages!",
+              "I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728"
+            ],
+            "top_comments": [
+              {
+                "author": "South_Onion927",
+                "date": "2026-10-14",
+                "excerpt": "You already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages!",
+                "score": 1,
+                "url": "https://reddit.com/r/froggysworld/comments/1x50d22/comment/pgn6rgj/"
+              },
+              {
+                "author": "lemon_pies_28",
+                "date": "2026-10-14",
+                "excerpt": "I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728",
+                "score": 1,
+                "url": "https://reddit.com/r/froggysworld/comments/1x50d22/comment/pgotmnm/"
+              }
+            ]
+          },
+          "published_at": "2026-10-13",
+          "relevance_hint": 0.22,
+          "snippet": "You already have some awesome things! I am waiting for palm trees, and, what is that.. Joshua tree? For ages! I wish there was an app for it too. I kinda love this. It's good to just mindlessly but stuff sometimes \ud83d\ude14\u2728",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "New to this!",
+          "url": "https://www.reddit.com/r/froggysworld/comments/1x50d22/new_to_this/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "New to this!",
+      "url": "https://www.reddit.com/r/froggysworld/comments/1x50d22/new_to_this/"
+    }
+  ],
+  "topic": "\"I wish there was an app for\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

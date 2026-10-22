@@ -1,0 +1,1341 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "AI mobile app gaps \"would pay\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/vibecoding/comments/1x7p4xo/a_stepbystep_guide_to_your_first_mobile_app_from"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/vibecoding/comments/1x7p4xo/a_stepbystep_guide_to_your_first_mobile_app_from"
+      ],
+      "score": 11.449180327868852,
+      "sources": [
+        "reddit"
+      ],
+      "title": "a step-by-step guide to your first mobile app, from someone who shipped 100+ apps before ai"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Andrej Karpathy breaks down the capability gap"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/singularity/comments/1x4xmw7/andrej_karpahty_ai_usage_funnel_by_use_cases"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/singularity/comments/1x4xmw7/andrej_karpahty_ai_usage_funnel_by_use_cases"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Andrej Karpahty AI usage funnel by use cases."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/bestgithubrepos/comments/1wwjgxs/project_airi_selfhosted_ai_companion_that_plays"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/bestgithubrepos/comments/1wwjgxs/project_airi_selfhosted_ai_companion_that_plays"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Project AIRI: self-hosted AI companion that plays games, streams, and chats (49k stars)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/vibecoding/comments/1wqxdaz/companies_moving_towards_native_apps_as_ai_made"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/vibecoding/comments/1wqxdaz/companies_moving_towards_native_apps_as_ai_made"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "companies moving towards native apps, as AI made native the best option again!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/antiai/comments/1x4ouwe/kaparthy_on_gaps_in_ai_capability_perception"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/antiai/comments/1x4ouwe/kaparthy_on_gaps_in_ai_capability_perception"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Kaparthy on Gaps in AI Capability Perception"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/developerspak/comments/1x297xn/client_wants_me_to_build_web_application_mobile"
+      ],
+      "cluster_id": "cluster-7",
+      "representative_ids": [
+        "https://reddit.com/r/developerspak/comments/1x297xn/client_wants_me_to_build_web_application_mobile"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Client wants me to build web application + Mobile App for $362. And trying to justify it by saying AI does the work.."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/vibecoding/comments/1x0vqoz/a_tool_to_finetune_automation_directly_in_your_ai"
+      ],
+      "cluster_id": "cluster-8",
+      "representative_ids": [
+        "https://reddit.com/r/vibecoding/comments/1x0vqoz/a_tool_to_finetune_automation_directly_in_your_ai"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "A tool to fine-tune automation - directly in your AI harness - frink.dev"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/bestgithubrepos/comments/1x1j5kv/google_ai_edge_gallery_explore_experience_and"
+      ],
+      "cluster_id": "cluster-9",
+      "representative_ids": [
+        "https://reddit.com/r/bestgithubrepos/comments/1x1j5kv/google_ai_edge_gallery_explore_experience_and"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Google AI Edge Gallery: Explore, Experience, and Evaluate the Future of On-Device Generative AI with Google AI Edge (25k stars)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-22T03:47:44.917340+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "a step-by-step guide to your first mobile app, from someone who shipped 100+ apps before ai\ni see a lot of people starting to build mobile apps with ai, many of them non-technical. so i decided to write the general path i\u2019d follow if i was starting today. who am i to tell you guys: i started building mobile apps in 2009 as an agency in Ukraine, and later built our own portfolio of apps. more than 100 apps released, about 6m organic downloads, company called popappfactory (closed now, some apps are still live). my indie studio, popapp factory tl;dr: pick the idea carefully, validate it\nThank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize something in it, don\u2019t give them attention. Great post! Lots of good information here. Appreciate you sharing. Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+        "container": "vibecoding",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 94,
+          "score": 638
+        },
+        "engagement_score": 80,
+        "freshness": 88,
+        "item_id": "R4",
+        "local_rank_score": 0.508,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Great post! Lots of good information here. Appreciate you sharing.",
+            "Thank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize...",
+            "Why are you shipping so many apps? I\u2019m still working on 2. It\u2019s a lot of working testing",
+            "Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+            "hi, can you also share your mobile app design principles and best practices?",
+            "Thanks for your post, very interesting. I have several questions:\n\n Have you ever worked with freelancers (e.",
+            "Thank you for your sharing, really helpful",
+            "Your app looks interesting. Does it do iwatch apps?"
+          ],
+          "top_comments": [
+            {
+              "author": "The-Architect-93",
+              "date": "2026-10-16",
+              "excerpt": "Thank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize something in it, don\u2019t give them attention.",
+              "score": 21,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph66nvi/"
+            },
+            {
+              "author": "Spkk",
+              "date": "2026-10-16",
+              "excerpt": "Great post! Lots of good information here. Appreciate you sharing.",
+              "score": 11,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph632fz/"
+            },
+            {
+              "author": "Anxious_Carpenter673",
+              "date": "2026-10-16",
+              "excerpt": "Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+              "score": 7,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph65bns/"
+            },
+            {
+              "author": "theNyMets",
+              "date": "2026-10-16",
+              "excerpt": "Why are you shipping so many apps? I\u2019m still working on 2. It\u2019s a lot of working testing",
+              "score": 3,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph75ih1/"
+            },
+            {
+              "author": "Standard-Reply-04",
+              "date": "2026-10-16",
+              "excerpt": "Your app looks interesting. Does it do iwatch apps?",
+              "score": 3,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph66ebv/"
+            },
+            {
+              "author": "Altruistic_Tale_7049",
+              "date": "2026-10-16",
+              "excerpt": "Is flutter a good option?",
+              "score": 2,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph6mmuu/"
+            },
+            {
+              "author": "romik138",
+              "date": "2026-10-17",
+              "excerpt": "hi, can you also share your mobile app design principles and best practices? coming from a backend dev job, i find it the most irritating part of building an app :)",
+              "score": 2,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phb7xvy/"
+            },
+            {
+              "author": "Heco1331",
+              "date": "2026-10-17",
+              "excerpt": "Thanks for your post, very interesting. I have several questions:\n\n Have you ever worked with freelancers (e.g. UI designers, OpSec, customer service...) from fiver or upwork or other marketplaces like those? Could you explain the usual approach to work with remote freelancers? I dont know if it's c",
+              "score": 2,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phc6kgp/"
+            },
+            {
+              "author": "rDevansh",
+              "date": "2026-10-18",
+              "excerpt": "That's so helpful!",
+              "score": 2,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phfjfz7/"
+            },
+            {
+              "author": "KeyAny2402",
+              "date": "2026-10-20",
+              "excerpt": "Thank you for your sharing, really helpful",
+              "score": 2,
+              "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phuemil/"
+            }
+          ]
+        },
+        "published_at": "2026-10-16",
+        "relevance_hint": 0.56,
+        "snippet": "Thank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize something in it, don\u2019t give them attention. Great post! Lots of good information here. Appreciate you sharing. Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "a step-by-step guide to your first mobile app, from someone who shipped 100+ apps before ai",
+        "url": "https://www.reddit.com/r/vibecoding/comments/1x7p4xo/a_stepbystep_guide_to_your_first_mobile_app_from/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Andrej Karpathy breaks down the capability gap\nhttps://x.com/karpathy/status/2109361546505966046\nPart of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.\n\n Energy prices.\n\n Grocery prices.\n\n Jobs.\n\n Housing.\n\n Crime.\n\n Public services\n\n Most people couldn't give two shits if it's really good at coding and math; it doesn't affect them. And anyone who t Babe wake up, new social pyramid has dropped Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s hard to understand how quickly progress is accelerating but if you do, you likely have AI psychosis to a degree that it\u2019s impossible to explain it in",
+        "container": "singularity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 374,
+          "score": 1287
+        },
+        "engagement_score": 100,
+        "freshness": 77,
+        "item_id": "R2",
+        "local_rank_score": 0.4615,
+        "local_relevance": 0.26,
+        "metadata": {
+          "comment_insights": [
+            "Babe wake up, new social pyramid has dropped",
+            "Always refreshing to hear grounded words by a top scientist.",
+            "Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s...",
+            "Part of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.",
+            "He's not wrong. I barely have access to Astra, would love to get a glimps at internal models.",
+            "This is a wonderful explanation of the reason Reddit is so goddamn insufferable about LLM progress.",
+            "The shape is accurate but I'm not sure about the numbers, I would guess that a lot more than 20M fall in the second to last group.",
+            "I wonder what the difference to access to former supercomputer clusters or the few quantum computer servers is.",
+            "he has this exactly right. i don\u2019t blame people for not knowing how spooky the state of the art is with LLMs, but\u2026 there is absolutely zero denying th...",
+            "https://nitter.cf/karpathy/status/2109361546505966046"
+          ],
+          "top_comments": [
+            {
+              "author": "Dredgefort",
+              "date": "2026-10-11",
+              "excerpt": "Part of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.\n\n Energy prices.\n\n Grocery prices.\n\n Jobs.\n\n Housing.\n\n Crime.\n\n Public services\n\n Most people couldn't give two shits if it's really good at coding and math; it doesn't affect them. And anyone who t",
+              "score": 260,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfbjhcn/"
+            },
+            {
+              "author": "chlebseby",
+              "date": "2026-10-11",
+              "excerpt": "Babe wake up, new social pyramid has dropped",
+              "score": 236,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfaxall/"
+            },
+            {
+              "author": "FunLilThrowawayAcct",
+              "date": "2026-10-11",
+              "excerpt": "Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s hard to understand how quickly progress is accelerating but if you do, you likely have AI psychosis to a degree that it\u2019s impossible to explain it in ",
+              "score": 190,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb7fby/"
+            },
+            {
+              "author": "michael-relleum",
+              "date": "2026-10-11",
+              "excerpt": "He's not wrong. I barely have access to Astra, would love to get a glimps at internal models. Only have to wait a couple weeks / month though at the current rate. But I fear it's less a skill level gap but more and more a money gap...",
+              "score": 86,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfaybr3/"
+            },
+            {
+              "author": "emteedub",
+              "date": "2026-10-11",
+              "excerpt": "Always refreshing to hear grounded words by a top scientist. I hope the people losing their heads digest this.\n\n Also, scale isn't what it was cracked up to be. Clearly ~0.000002% of the population with access to AI that \"counts\" is miniscule - ie not at scale, nowhere even close. You could count th",
+              "score": 73,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfayfg3/"
+            },
+            {
+              "author": "SmashShock",
+              "date": "2026-10-11",
+              "excerpt": "This is a wonderful explanation of the reason Reddit is so goddamn insufferable about LLM progress.",
+              "score": 50,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb5qbb/"
+            },
+            {
+              "author": "dumquestions",
+              "date": "2026-10-11",
+              "excerpt": "The shape is accurate but I'm not sure about the numbers, I would guess that a lot more than 20M fall in the second to last group.",
+              "score": 10,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb5dlm/"
+            },
+            {
+              "author": "unkownuser436",
+              "date": "2026-10-11",
+              "excerpt": "https://nitter.cf/karpathy/status/2109361546505966046",
+              "score": 10,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfax1ee/"
+            },
+            {
+              "author": "ranft",
+              "date": "2026-10-11",
+              "excerpt": "I wonder what the difference to access to former supercomputer clusters or the few quantum computer servers is. Wasn't it always like that when it comes to compute?",
+              "score": 8,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb2098/"
+            },
+            {
+              "author": "MVPhurricane",
+              "date": "2026-10-11",
+              "excerpt": "he has this exactly right. i don\u2019t blame people for not knowing how spooky the state of the art is with LLMs, but\u2026 there is absolutely zero denying that the curve is as vertical as people are saying. i am one of these people saying this. and i have been since ~Fable came out. the tech was good enoug",
+              "score": 8,
+              "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfc5dl4/"
+            }
+          ]
+        },
+        "published_at": "2026-10-11",
+        "relevance_hint": 0.0,
+        "snippet": "Part of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.\n\n Energy prices.\n\n Grocery prices.\n\n Jobs.\n\n Housing.\n\n Crime.\n\n Public services\n\n Most people couldn't give two shits if it's really good at coding and math; it doesn't affect them. And anyone who t Babe wake up, new social pyramid has dropped Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s hard to understand how quickly progress is accelerating but if you do, you likely have AI psychosis to a degree that it\u2019s impossible to explain it in",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Andrej Karpathy breaks down the capability gap",
+        "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Client wants me to build web application + Mobile App for $362. And trying to justify it by saying AI does the work..\nFor context I have a job and wanted to start a side hustle (as current job is not paying enough). I have 4 years of experience in this field. This client is my first freelance job so I don't know how things work. They want me to complete in 45 days as well. I have to manage everything till deployments etc. they say AI will do everything you just have to give prompt that is your expertise (according to him) and test it so everything works. Mind it this involves managing inventory, quality testing",
+        "container": "developersPak",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 65,
+          "score": 14
+        },
+        "engagement_score": 38,
+        "freshness": 76,
+        "item_id": "R17",
+        "local_rank_score": 0.43600000000000005,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-10",
+        "relevance_hint": 0.53,
+        "snippet": "For context I have a job and wanted to start a side hustle (as current job is not paying enough). I have 4 years of experience in this field. This client is my first freelance job so I don't know how things work. They want me to complete in 45 days as well. I have to manage everything till deployments etc. they say AI will do everything you just have to give prompt that is your expertise (accordin",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Client wants me to build web application + Mobile App for $362. And trying to justify it by saying AI does the work..",
+        "url": "https://www.reddit.com/r/developersPak/comments/1x297xn/client_wants_me_to_build_web_application_mobile/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Andrej Karpahty AI usage funnel by use cases.\nNone",
+        "container": "singularity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 65,
+          "score": 282
+        },
+        "engagement_score": 65,
+        "freshness": 82,
+        "item_id": "R8",
+        "local_rank_score": 0.3805,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-13",
+        "relevance_hint": 0.31,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Andrej Karpahty AI usage funnel by use cases.",
+        "url": "https://www.reddit.com/r/singularity/comments/1x4xmw7/andrej_karpahty_ai_usage_funnel_by_use_cases/",
+        "why_relevant": "Reddit r/singularity search"
+      },
+      {
+        "body": "Kaparthy on Gaps in AI Capability Perception\nThoughts on this? It's one of the foremost experts on the current state of AI tech, talking about the widening gulf in perspectives on how capable AI is based on a person's exposure to it. Makes me wonder how many of the complaints and criticisms people here have only exist because they avoid anything AI and AI news-related that isn't strictly voiced in the negative.",
+        "container": "antiai",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 64,
+          "score": 17
+        },
+        "engagement_score": 40,
+        "freshness": 82,
+        "item_id": "R16",
+        "local_rank_score": 0.375,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-13",
+        "relevance_hint": 0.46,
+        "snippet": "Thoughts on this? It's one of the foremost experts on the current state of AI tech, talking about the widening gulf in perspectives on how capable AI is based on a person's exposure to it. Makes me wonder how many of the complaints and criticisms people here have only exist because they avoid anything AI and AI news-related that isn't strictly voiced in the negative.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Kaparthy on Gaps in AI Capability Perception",
+        "url": "https://www.reddit.com/r/antiai/comments/1x4ouwe/kaparthy_on_gaps_in_ai_capability_perception/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Project AIRI: self-hosted AI companion that plays games, streams, and chats (49k stars)\nNone",
+        "container": "BestGitHubRepos",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 126
+        },
+        "engagement_score": 47,
+        "freshness": 61,
+        "item_id": "R11",
+        "local_rank_score": 0.297,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-03",
+        "relevance_hint": 0.29,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Project AIRI: self-hosted AI companion that plays games, streams, and chats (49k stars)",
+        "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1wwjgxs/project_airi_selfhosted_ai_companion_that_plays/",
+        "why_relevant": "Reddit r/BestGitHubRepos search"
+      },
+      {
+        "body": "A tool to fine-tune automation - directly in your AI harness - frink.dev\nNone",
+        "container": "vibecoding",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 9
+        },
+        "engagement_score": 12,
+        "freshness": 71,
+        "item_id": "R21",
+        "local_rank_score": 0.2935,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-08",
+        "relevance_hint": 0.29,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "A tool to fine-tune automation - directly in your AI harness - frink.dev",
+        "url": "https://www.reddit.com/r/vibecoding/comments/1x0vqoz/a_tool_to_finetune_automation_directly_in_your_ai/",
+        "why_relevant": "Reddit r/vibecoding search"
+      },
+      {
+        "body": "Google AI Edge Gallery: Explore, Experience, and Evaluate the Future of On-Device Generative AI with Google AI Edge (25k stars)\nNone",
+        "container": "BestGitHubRepos",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 4
+        },
+        "engagement_score": 2,
+        "freshness": 73,
+        "item_id": "R23",
+        "local_rank_score": 0.28200000000000003,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-09",
+        "relevance_hint": 0.29,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Google AI Edge Gallery: Explore, Experience, and Evaluate the Future of On-Device Generative AI with Google AI Edge (25k stars)",
+        "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1x1j5kv/google_ai_edge_gallery_explore_experience_and/",
+        "why_relevant": "Reddit r/BestGitHubRepos search"
+      },
+      {
+        "body": "companies moving towards native apps, as AI made native the best option again!\nNone",
+        "container": "vibecoding",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 66,
+          "score": 27
+        },
+        "engagement_score": 44,
+        "freshness": 47,
+        "item_id": "R14",
+        "local_rank_score": 0.2655,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-09-26",
+        "relevance_hint": 0.29,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "companies moving towards native apps, as AI made native the best option again!",
+        "url": "https://www.reddit.com/r/vibecoding/comments/1wqxdaz/companies_moving_towards_native_apps_as_ai_made/",
+        "why_relevant": "Reddit r/vibecoding search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "AI mobile app gaps \"would pay\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to AI mobile app gaps \"would pay\"?",
+        "search_query": "ai mobile app gaps \"would pay\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-22",
+  "range_to": "2026-10-22",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/vibecoding/comments/1x7p4xo/a_stepbystep_guide_to_your_first_mobile_app_from",
+      "cluster_id": "cluster-1",
+      "engagement": 80,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 11.449180327868852,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 21.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Thank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize something in it, don\u2019t give them attention. Great post! Lots of good information here. Appreciate you sharing. Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "a step-by-step guide to your first mobile app, from someone who shipped 100+ apps before ai\ni see a lot of people starting to build mobile apps with ai, many of them non-technical. so i decided to write the general path i\u2019d follow if i was starting today. who am i to tell you guys: i started building mobile apps in 2009 as an agency in Ukraine, and later built our own portfolio of apps. more than 100 apps released, about 6m organic downloads, company called popappfactory (closed now, some apps are still live). my indie studio, popapp factory tl;dr: pick the idea carefully, validate it\nThank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize something in it, don\u2019t give them attention. Great post! Lots of good information here. Appreciate you sharing. Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+          "container": "vibecoding",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 94,
+            "score": 638
+          },
+          "engagement_score": 80,
+          "freshness": 88,
+          "item_id": "R4",
+          "local_rank_score": 0.508,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Great post! Lots of good information here. Appreciate you sharing.",
+              "Thank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize...",
+              "Why are you shipping so many apps? I\u2019m still working on 2. It\u2019s a lot of working testing",
+              "Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+              "hi, can you also share your mobile app design principles and best practices?",
+              "Thanks for your post, very interesting. I have several questions:\n\n Have you ever worked with freelancers (e.",
+              "Thank you for your sharing, really helpful",
+              "Your app looks interesting. Does it do iwatch apps?"
+            ],
+            "top_comments": [
+              {
+                "author": "The-Architect-93",
+                "date": "2026-10-16",
+                "excerpt": "Thank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize something in it, don\u2019t give them attention.",
+                "score": 21,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph66nvi/"
+              },
+              {
+                "author": "Spkk",
+                "date": "2026-10-16",
+                "excerpt": "Great post! Lots of good information here. Appreciate you sharing.",
+                "score": 11,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph632fz/"
+              },
+              {
+                "author": "Anxious_Carpenter673",
+                "date": "2026-10-16",
+                "excerpt": "Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+                "score": 7,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph65bns/"
+              },
+              {
+                "author": "theNyMets",
+                "date": "2026-10-16",
+                "excerpt": "Why are you shipping so many apps? I\u2019m still working on 2. It\u2019s a lot of working testing",
+                "score": 3,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph75ih1/"
+              },
+              {
+                "author": "Standard-Reply-04",
+                "date": "2026-10-16",
+                "excerpt": "Your app looks interesting. Does it do iwatch apps?",
+                "score": 3,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph66ebv/"
+              },
+              {
+                "author": "Altruistic_Tale_7049",
+                "date": "2026-10-16",
+                "excerpt": "Is flutter a good option?",
+                "score": 2,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/ph6mmuu/"
+              },
+              {
+                "author": "romik138",
+                "date": "2026-10-17",
+                "excerpt": "hi, can you also share your mobile app design principles and best practices? coming from a backend dev job, i find it the most irritating part of building an app :)",
+                "score": 2,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phb7xvy/"
+              },
+              {
+                "author": "Heco1331",
+                "date": "2026-10-17",
+                "excerpt": "Thanks for your post, very interesting. I have several questions:\n\n Have you ever worked with freelancers (e.g. UI designers, OpSec, customer service...) from fiver or upwork or other marketplaces like those? Could you explain the usual approach to work with remote freelancers? I dont know if it's c",
+                "score": 2,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phc6kgp/"
+              },
+              {
+                "author": "rDevansh",
+                "date": "2026-10-18",
+                "excerpt": "That's so helpful!",
+                "score": 2,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phfjfz7/"
+              },
+              {
+                "author": "KeyAny2402",
+                "date": "2026-10-20",
+                "excerpt": "Thank you for your sharing, really helpful",
+                "score": 2,
+                "url": "https://reddit.com/r/vibecoding/comments/1x7p4xo/comment/phuemil/"
+              }
+            ]
+          },
+          "published_at": "2026-10-16",
+          "relevance_hint": 0.56,
+          "snippet": "Thank you! Great!\n\n I saved it, probably I will never read it, but please don\u2019t delete \ud83d\ude02\n\n I know some asshole SWE will come in a minute to criticize something in it, don\u2019t give them attention. Great post! Lots of good information here. Appreciate you sharing. Which free ai agents would you recommend to build an app or a web app like this? im totally new and clueless about this world",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "a step-by-step guide to your first mobile app, from someone who shipped 100+ apps before ai",
+          "url": "https://www.reddit.com/r/vibecoding/comments/1x7p4xo/a_stepbystep_guide_to_your_first_mobile_app_from/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "a step-by-step guide to your first mobile app, from someone who shipped 100+ apps before ai",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1x7p4xo/a_stepbystep_guide_to_your_first_mobile_app_from/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 14.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Part of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.\n\n Energy prices.\n\n Grocery prices.\n\n Jobs.\n\n Housing.\n\n Crime.\n\n Public services\n\n Most people couldn't give two shits if it's really good at coding and math; it doesn't affect them. And anyone who t Babe wake up, new social pyramid has dropped Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s hard to understand how quickly progress is accelerating but if you do, you likely have AI psychosis to a degree that it\u2019s impossible to explain it in",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Andrej Karpathy breaks down the capability gap\nhttps://x.com/karpathy/status/2109361546505966046\nPart of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.\n\n Energy prices.\n\n Grocery prices.\n\n Jobs.\n\n Housing.\n\n Crime.\n\n Public services\n\n Most people couldn't give two shits if it's really good at coding and math; it doesn't affect them. And anyone who t Babe wake up, new social pyramid has dropped Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s hard to understand how quickly progress is accelerating but if you do, you likely have AI psychosis to a degree that it\u2019s impossible to explain it in",
+          "container": "singularity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 374,
+            "score": 1287
+          },
+          "engagement_score": 100,
+          "freshness": 77,
+          "item_id": "R2",
+          "local_rank_score": 0.4615,
+          "local_relevance": 0.26,
+          "metadata": {
+            "comment_insights": [
+              "Babe wake up, new social pyramid has dropped",
+              "Always refreshing to hear grounded words by a top scientist.",
+              "Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s...",
+              "Part of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.",
+              "He's not wrong. I barely have access to Astra, would love to get a glimps at internal models.",
+              "This is a wonderful explanation of the reason Reddit is so goddamn insufferable about LLM progress.",
+              "The shape is accurate but I'm not sure about the numbers, I would guess that a lot more than 20M fall in the second to last group.",
+              "I wonder what the difference to access to former supercomputer clusters or the few quantum computer servers is.",
+              "he has this exactly right. i don\u2019t blame people for not knowing how spooky the state of the art is with LLMs, but\u2026 there is absolutely zero denying th...",
+              "https://nitter.cf/karpathy/status/2109361546505966046"
+            ],
+            "top_comments": [
+              {
+                "author": "Dredgefort",
+                "date": "2026-10-11",
+                "excerpt": "Part of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.\n\n Energy prices.\n\n Grocery prices.\n\n Jobs.\n\n Housing.\n\n Crime.\n\n Public services\n\n Most people couldn't give two shits if it's really good at coding and math; it doesn't affect them. And anyone who t",
+                "score": 260,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfbjhcn/"
+              },
+              {
+                "author": "chlebseby",
+                "date": "2026-10-11",
+                "excerpt": "Babe wake up, new social pyramid has dropped",
+                "score": 236,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfaxall/"
+              },
+              {
+                "author": "FunLilThrowawayAcct",
+                "date": "2026-10-11",
+                "excerpt": "Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s hard to understand how quickly progress is accelerating but if you do, you likely have AI psychosis to a degree that it\u2019s impossible to explain it in ",
+                "score": 190,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb7fby/"
+              },
+              {
+                "author": "michael-relleum",
+                "date": "2026-10-11",
+                "excerpt": "He's not wrong. I barely have access to Astra, would love to get a glimps at internal models. Only have to wait a couple weeks / month though at the current rate. But I fear it's less a skill level gap but more and more a money gap...",
+                "score": 86,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfaybr3/"
+              },
+              {
+                "author": "emteedub",
+                "date": "2026-10-11",
+                "excerpt": "Always refreshing to hear grounded words by a top scientist. I hope the people losing their heads digest this.\n\n Also, scale isn't what it was cracked up to be. Clearly ~0.000002% of the population with access to AI that \"counts\" is miniscule - ie not at scale, nowhere even close. You could count th",
+                "score": 73,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfayfg3/"
+              },
+              {
+                "author": "SmashShock",
+                "date": "2026-10-11",
+                "excerpt": "This is a wonderful explanation of the reason Reddit is so goddamn insufferable about LLM progress.",
+                "score": 50,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb5qbb/"
+              },
+              {
+                "author": "dumquestions",
+                "date": "2026-10-11",
+                "excerpt": "The shape is accurate but I'm not sure about the numbers, I would guess that a lot more than 20M fall in the second to last group.",
+                "score": 10,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb5dlm/"
+              },
+              {
+                "author": "unkownuser436",
+                "date": "2026-10-11",
+                "excerpt": "https://nitter.cf/karpathy/status/2109361546505966046",
+                "score": 10,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfax1ee/"
+              },
+              {
+                "author": "ranft",
+                "date": "2026-10-11",
+                "excerpt": "I wonder what the difference to access to former supercomputer clusters or the few quantum computer servers is. Wasn't it always like that when it comes to compute?",
+                "score": 8,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfb2098/"
+              },
+              {
+                "author": "MVPhurricane",
+                "date": "2026-10-11",
+                "excerpt": "he has this exactly right. i don\u2019t blame people for not knowing how spooky the state of the art is with LLMs, but\u2026 there is absolutely zero denying that the curve is as vertical as people are saying. i am one of these people saying this. and i have been since ~Fable came out. the tech was good enoug",
+                "score": 8,
+                "url": "https://reddit.com/r/singularity/comments/1x3gsc4/comment/pfc5dl4/"
+              }
+            ]
+          },
+          "published_at": "2026-10-11",
+          "relevance_hint": 0.0,
+          "snippet": "Part of the problem is that AI hasn't done anything to change anyone's lives yet, people care about.\n\n Energy prices.\n\n Grocery prices.\n\n Jobs.\n\n Housing.\n\n Crime.\n\n Public services\n\n Most people couldn't give two shits if it's really good at coding and math; it doesn't affect them. And anyone who t Babe wake up, new social pyramid has dropped Reminds me of a tweet I saw last week:\n\n there\u2019s so much confusion about what\u2019s happening in AI because if you don\u2019t use coding models every day it\u2019s hard to understand how quickly progress is accelerating but if you do, you likely have AI psychosis to a degree that it\u2019s impossible to explain it in",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Andrej Karpathy breaks down the capability gap",
+          "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Andrej Karpathy breaks down the capability gap",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/singularity/comments/1x4xmw7/andrej_karpahty_ai_usage_funnel_by_use_cases",
+      "cluster_id": "cluster-3",
+      "engagement": 65,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 62.5,
+      "item_id": "R8",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 9.299999999999997,
+      "rrf_score": 0.0078125,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Andrej Karpahty AI usage funnel by use cases.\nNone",
+          "container": "singularity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 65,
+            "score": 282
+          },
+          "engagement_score": 65,
+          "freshness": 82,
+          "item_id": "R8",
+          "local_rank_score": 0.3805,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-13",
+          "relevance_hint": 0.31,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Andrej Karpahty AI usage funnel by use cases.",
+          "url": "https://www.reddit.com/r/singularity/comments/1x4xmw7/andrej_karpahty_ai_usage_funnel_by_use_cases/",
+          "why_relevant": "Reddit r/singularity search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Andrej Karpahty AI usage funnel by use cases.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x4xmw7/andrej_karpahty_ai_usage_funnel_by_use_cases/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/bestgithubrepos/comments/1wwjgxs/project_airi_selfhosted_ai_companion_that_plays",
+      "cluster_id": "cluster-4",
+      "engagement": 47,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 56.2,
+      "item_id": "R11",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R11",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 3.700000000000003,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Project AIRI: self-hosted AI companion that plays games, streams, and chats (49k stars)\nNone",
+          "container": "BestGitHubRepos",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 126
+          },
+          "engagement_score": 47,
+          "freshness": 61,
+          "item_id": "R11",
+          "local_rank_score": 0.297,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-03",
+          "relevance_hint": 0.29,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Project AIRI: self-hosted AI companion that plays games, streams, and chats (49k stars)",
+          "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1wwjgxs/project_airi_selfhosted_ai_companion_that_plays/",
+          "why_relevant": "Reddit r/BestGitHubRepos search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Project AIRI: self-hosted AI companion that plays games, streams, and chats (49k stars)",
+      "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1wwjgxs/project_airi_selfhosted_ai_companion_that_plays/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/vibecoding/comments/1wqxdaz/companies_moving_towards_native_apps_as_ai_made",
+      "cluster_id": "cluster-5",
+      "engagement": 44,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 47,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 57.55,
+      "item_id": "R14",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R14",
+            "native_rank": 9,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 9
+      },
+      "rerank_score": 1.6000000000000014,
+      "rrf_score": 0.007246376811594203,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "companies moving towards native apps, as AI made native the best option again!\nNone",
+          "container": "vibecoding",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 66,
+            "score": 27
+          },
+          "engagement_score": 44,
+          "freshness": 47,
+          "item_id": "R14",
+          "local_rank_score": 0.2655,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-09-26",
+          "relevance_hint": 0.29,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "companies moving towards native apps, as AI made native the best option again!",
+          "url": "https://www.reddit.com/r/vibecoding/comments/1wqxdaz/companies_moving_towards_native_apps_as_ai_made/",
+          "why_relevant": "Reddit r/vibecoding search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "companies moving towards native apps, as AI made native the best option again!",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wqxdaz/companies_moving_towards_native_apps_as_ai_made/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/antiai/comments/1x4ouwe/kaparthy_on_gaps_in_ai_capability_perception",
+      "cluster_id": "cluster-6",
+      "engagement": 40,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R16",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R16",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 11.400000000000006,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Thoughts on this? It's one of the foremost experts on the current state of AI tech, talking about the widening gulf in perspectives on how capable AI is based on a person's exposure to it. Makes me wonder how many of the complaints and criticisms people here have only exist because they avoid anything AI and AI news-related that isn't strictly voiced in the negative.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Kaparthy on Gaps in AI Capability Perception\nThoughts on this? It's one of the foremost experts on the current state of AI tech, talking about the widening gulf in perspectives on how capable AI is based on a person's exposure to it. Makes me wonder how many of the complaints and criticisms people here have only exist because they avoid anything AI and AI news-related that isn't strictly voiced in the negative.",
+          "container": "antiai",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 64,
+            "score": 17
+          },
+          "engagement_score": 40,
+          "freshness": 82,
+          "item_id": "R16",
+          "local_rank_score": 0.375,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-13",
+          "relevance_hint": 0.46,
+          "snippet": "Thoughts on this? It's one of the foremost experts on the current state of AI tech, talking about the widening gulf in perspectives on how capable AI is based on a person's exposure to it. Makes me wonder how many of the complaints and criticisms people here have only exist because they avoid anything AI and AI news-related that isn't strictly voiced in the negative.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Kaparthy on Gaps in AI Capability Perception",
+          "url": "https://www.reddit.com/r/antiai/comments/1x4ouwe/kaparthy_on_gaps_in_ai_capability_perception/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Kaparthy on Gaps in AI Capability Perception",
+      "url": "https://www.reddit.com/r/antiai/comments/1x4ouwe/kaparthy_on_gaps_in_ai_capability_perception/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/developerspak/comments/1x297xn/client_wants_me_to_build_web_application_mobile",
+      "cluster_id": "cluster-7",
+      "engagement": 38,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R17",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R17",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 18.6,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "For context I have a job and wanted to start a side hustle (as current job is not paying enough). I have 4 years of experience in this field. This client is my first freelance job so I don't know how things work. They want me to complete in 45 days as well. I have to manage everything till deployments etc. they say AI will do everything you just have to give prompt that is your expertise (accordin",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Client wants me to build web application + Mobile App for $362. And trying to justify it by saying AI does the work..\nFor context I have a job and wanted to start a side hustle (as current job is not paying enough). I have 4 years of experience in this field. This client is my first freelance job so I don't know how things work. They want me to complete in 45 days as well. I have to manage everything till deployments etc. they say AI will do everything you just have to give prompt that is your expertise (according to him) and test it so everything works. Mind it this involves managing inventory, quality testing",
+          "container": "developersPak",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 65,
+            "score": 14
+          },
+          "engagement_score": 38,
+          "freshness": 76,
+          "item_id": "R17",
+          "local_rank_score": 0.43600000000000005,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-10",
+          "relevance_hint": 0.53,
+          "snippet": "For context I have a job and wanted to start a side hustle (as current job is not paying enough). I have 4 years of experience in this field. This client is my first freelance job so I don't know how things work. They want me to complete in 45 days as well. I have to manage everything till deployments etc. they say AI will do everything you just have to give prompt that is your expertise (accordin",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Client wants me to build web application + Mobile App for $362. And trying to justify it by saying AI does the work..",
+          "url": "https://www.reddit.com/r/developersPak/comments/1x297xn/client_wants_me_to_build_web_application_mobile/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Client wants me to build web application + Mobile App for $362. And trying to justify it by saying AI does the work..",
+      "url": "https://www.reddit.com/r/developersPak/comments/1x297xn/client_wants_me_to_build_web_application_mobile/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/vibecoding/comments/1x0vqoz/a_tool_to_finetune_automation_directly_in_your_ai",
+      "cluster_id": "cluster-8",
+      "engagement": 12,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 42.45,
+      "item_id": "R21",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R21",
+            "native_rank": 7,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 7
+      },
+      "rerank_score": 6.399999999999999,
+      "rrf_score": 0.007462686567164179,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "A tool to fine-tune automation - directly in your AI harness - frink.dev\nNone",
+          "container": "vibecoding",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 9
+          },
+          "engagement_score": 12,
+          "freshness": 71,
+          "item_id": "R21",
+          "local_rank_score": 0.2935,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-08",
+          "relevance_hint": 0.29,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "A tool to fine-tune automation - directly in your AI harness - frink.dev",
+          "url": "https://www.reddit.com/r/vibecoding/comments/1x0vqoz/a_tool_to_finetune_automation_directly_in_your_ai/",
+          "why_relevant": "Reddit r/vibecoding search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "A tool to fine-tune automation - directly in your AI harness - frink.dev",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1x0vqoz/a_tool_to_finetune_automation_directly_in_your_ai/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/bestgithubrepos/comments/1x1j5kv/google_ai_edge_gallery_explore_experience_and",
+      "cluster_id": "cluster-9",
+      "engagement": 2,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 14.200000000000001,
+      "item_id": "R23",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R23",
+            "native_rank": 8,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 8
+      },
+      "rerank_score": 6.100000000000001,
+      "rrf_score": 0.007352941176470588,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Google AI Edge Gallery: Explore, Experience, and Evaluate the Future of On-Device Generative AI with Google AI Edge (25k stars)\nNone",
+          "container": "BestGitHubRepos",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 4
+          },
+          "engagement_score": 2,
+          "freshness": 73,
+          "item_id": "R23",
+          "local_rank_score": 0.28200000000000003,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-09",
+          "relevance_hint": 0.29,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Google AI Edge Gallery: Explore, Experience, and Evaluate the Future of On-Device Generative AI with Google AI Edge (25k stars)",
+          "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1x1j5kv/google_ai_edge_gallery_explore_experience_and/",
+          "why_relevant": "Reddit r/BestGitHubRepos search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Google AI Edge Gallery: Explore, Experience, and Evaluate the Future of On-Device Generative AI with Google AI Edge (25k stars)",
+      "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1x1j5kv/google_ai_edge_gallery_explore_experience_and/"
+    }
+  ],
+  "topic": "AI mobile app gaps \"would pay\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
