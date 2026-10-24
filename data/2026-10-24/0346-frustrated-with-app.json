@@ -1,0 +1,708 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/applyingtocollege/comments/1x64o7v/i_feel_cheated_sometimes_with_college_apps"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/applyingtocollege/comments/1x64o7v/i_feel_cheated_sometimes_with_college_apps"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I feel cheated sometimes with college apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1x8zimu/more_than_10_days_in_review_anyone_else"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/appledevelopers/comments/1x8zimu/more_than_10_days_in_review_anyone_else"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "More than 10 days \"In Review\". Anyone else experiencing unusually long App Store review times recently?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/micro_saas/comments/1x37ood/40_apps_34k_in_verified_mrr_heres_what_i_learned"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/micro_saas/comments/1x37ood/40_apps_34k_in_verified_mrr_heres_what_i_learned"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "40 apps, $34K in verified MRR - here\u2019s what I learned"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-24T03:46:38.138767+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "More than 10 days \"In Review\". Anyone else experiencing unusually long App Store review times recently?\nI'm getting pretty frustrated with the App Store review process lately, and I'm wondering if anyone else has experienced something similar. My initial submission was stuck \"In Review\" for 7 days with no updates. I eventually had to resubmit due to some code changes. Now, my second submission has been \"In Review\" for more than 7 days again, still with no updates or feedback from Apple. I'm not sure if something has changed with Apple's review process recently, but I've never experienced delays li\n\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough. Wth guys how can I get rich if they don\u2019t approve the shitty code I had someone else make for me\u201d\n\n Stop whining. The amount of apps has increased ten fold and quality has decreased by at LEAST that much. It takes time now. W 2 weeks still waiting , so just publish and forget about it for a while 10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience",
+        "container": "appledevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 13,
+          "score": 0
+        },
+        "engagement_score": 7,
+        "freshness": 88,
+        "item_id": "R4",
+        "local_rank_score": 0.3895,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [
+            "its stuck in \"in review\" process. remove it from review and submit again. same thing has happended to me 2-3 times.",
+            "my first app from my personal account, i\u2019ve submitted for review almost 10 times now, each review took from 2-14 days",
+            "My updates seem to be approved in 24h-48h but a new app has been in \"waiting for review\" for 11 days. Interestingly it was also submitted October 8.",
+            "It\u2019s based on your account reputation\nnot one line queue, it\u2019s your first app and new account. that\u2019s why",
+            "Is the only topic that you see in this subreddit, so\u2026",
+            "For me my third app took 10 days not sure if running an active test flight at the same time helped.",
+            "2 weeks still waiting , so just publish and forget about it for a while",
+            "\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough.",
+            "10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience"
+          ],
+          "top_comments": [
+            {
+              "author": "Low-Injury-9219",
+              "date": "2026-10-18",
+              "excerpt": "\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough. Wth guys how can I get rich if they don\u2019t approve the shitty code I had someone else make for me\u201d\n\n Stop whining. The amount of apps has increased ten fold and quality has decreased by at LEAST that much. It takes time now. W",
+              "score": 5,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh0w8y/"
+            },
+            {
+              "author": "AdNo8866",
+              "date": "2026-10-18",
+              "excerpt": "2 weeks still waiting , so just publish and forget about it for a while",
+              "score": 3,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh1jvy/"
+            },
+            {
+              "author": "NotSeacombe",
+              "date": "2026-10-18",
+              "excerpt": "10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience",
+              "score": 3,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phgyfzr/"
+            },
+            {
+              "author": "Technical_Split_6315",
+              "date": "2026-10-18",
+              "excerpt": "Is the only topic that you see in this subreddit, so\u2026",
+              "score": 2,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh5med/"
+            },
+            {
+              "author": "umrf5900",
+              "date": "2026-10-21",
+              "excerpt": "its stuck in \"in review\" process. remove it from review and submit again. same thing has happended to me 2-3 times.",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/19rfhu2vvbbs2/"
+            },
+            {
+              "author": "Imaginary_Penalty177",
+              "date": "2026-10-20",
+              "excerpt": "my first app from my personal account, i\u2019ve submitted for review almost 10 times now, each review took from 2-14 days",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/19re1v7krjr6t/"
+            },
+            {
+              "author": "Easy-Bad2656",
+              "date": "2026-10-19",
+              "excerpt": "My updates seem to be approved in 24h-48h but a new app has been in \"waiting for review\" for 11 days. Interestingly it was also submitted October 8.",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phnyn8t/"
+            },
+            {
+              "author": "forwoobusiness",
+              "date": "2026-10-19",
+              "excerpt": "It\u2019s based on your account reputation\nnot one line queue, it\u2019s your first app and new account. that\u2019s why",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phmku4p/"
+            },
+            {
+              "author": "Sinkyz",
+              "date": "2026-10-18",
+              "excerpt": "For me my third app took 10 days not sure if running an active test flight at the same time helped.",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh2qga/"
+            },
+            {
+              "author": "Similar_Passage_6783",
+              "date": "2026-10-18",
+              "excerpt": "You\u2019re not alone",
+              "score": 1,
+              "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phgxnb1/"
+            }
+          ]
+        },
+        "published_at": "2026-10-18",
+        "relevance_hint": 0.49,
+        "snippet": "\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough. Wth guys how can I get rich if they don\u2019t approve the shitty code I had someone else make for me\u201d\n\n Stop whining. The amount of apps has increased ten fold and quality has decreased by at LEAST that much. It takes time now. W 2 weeks still waiting , so just publish and forget about it for a while 10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "More than 10 days \"In Review\". Anyone else experiencing unusually long App Store review times recently?",
+        "url": "https://www.reddit.com/r/appledevelopers/comments/1x8zimu/more_than_10_days_in_review_anyone_else/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "40 apps, $34K in verified MRR - here\u2019s what I learned\nA few months ago I got frustrated with how app revenue gets \u201cproven\u201d online here on Reddit and all over X. Cropped screenshots, DMs saying \u201ctrust me, it makes $8k/mo,\u201d no way to check anything. So I built MobileMRR, a place where mobile app founders list their app and get their revenue verified, so buyers and users can see real numbers. Where it\u2019s at right now:- 40 apps listed- $34K in combined, verified MRR- 5 months since I launched (I've been busy building mobile apps so I haven't really been\nVerification actually being verification is the part everyone skips. Most of these just let you upload a screenshot and call it a day. Curious how you're handling the strip out of fake dashboard mockups without making it a massive pain for legit sellers Whether people list probably comes down to what access you ask for. If MobileMRR verifies through a read-only RevenueCat or App Store Connect key and says exactly what it can see, sellers worry less. The other lever is a verified badge founders can add to their own revenue posts and app pages, so ev I love the idea. Good luck. Stay consistent!",
+        "container": "micro_saas",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 0
+        },
+        "engagement_score": 2,
+        "freshness": 73,
+        "item_id": "R5",
+        "local_rank_score": 0.347,
+        "local_relevance": 0.25,
+        "metadata": {
+          "comment_insights": [
+            "Verification actually being verification is the part everyone skips.",
+            "Whether people list probably comes down to what access you ask for.",
+            "I love the idea. Good luck. Stay consistent!"
+          ],
+          "top_comments": [
+            {
+              "author": "No_Sympathy_6202",
+              "date": "2026-10-11",
+              "excerpt": "Verification actually being verification is the part everyone skips. Most of these just let you upload a screenshot and call it a day. Curious how you're handling the strip out of fake dashboard mockups without making it a massive pain for legit sellers",
+              "score": 1,
+              "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf8held/"
+            },
+            {
+              "author": "investigatormaker",
+              "date": "2026-10-11",
+              "excerpt": "Whether people list probably comes down to what access you ask for. If MobileMRR verifies through a read-only RevenueCat or App Store Connect key and says exactly what it can see, sellers worry less. The other lever is a verified badge founders can add to their own revenue posts and app pages, so ev",
+              "score": 1,
+              "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf8jyqc/"
+            },
+            {
+              "author": "kaan_gal",
+              "date": "2026-10-11",
+              "excerpt": "I love the idea. Good luck. Stay consistent!",
+              "score": 1,
+              "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf8lxay/"
+            },
+            {
+              "author": "ConsciousSlip2394",
+              "date": "2026-10-11",
+              "excerpt": "That's a solid idea",
+              "score": 1,
+              "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf9rlvt/"
+            }
+          ]
+        },
+        "published_at": "2026-10-11",
+        "relevance_hint": 0.22,
+        "snippet": "Verification actually being verification is the part everyone skips. Most of these just let you upload a screenshot and call it a day. Curious how you're handling the strip out of fake dashboard mockups without making it a massive pain for legit sellers Whether people list probably comes down to what access you ask for. If MobileMRR verifies through a read-only RevenueCat or App Store Connect key and says exactly what it can see, sellers worry less. The other lever is a verified badge founders can add to their own revenue posts and app pages, so ev I love the idea. Good luck. Stay consistent!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "40 apps, $34K in verified MRR - here\u2019s what I learned",
+        "url": "https://www.reddit.com/r/micro_saas/comments/1x37ood/40_apps_34k_in_verified_mrr_heres_what_i_learned/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I feel cheated sometimes with college apps\nIm just really frustrated. I have a lower GPA, 3.1 UW and 3.7 W and I feel so bad about it. It\u2019s not like I slacked off in school that much. I\u2019ve had so many things happen to me throughout high school and middle school. It all starts with my dad passing. We are broke. Can\u2019t afford our house and it was during COVID. His funeral was literally on my birthday. I had to leave everything behind all my stuff, my house, my old friends, my school and my decent-ish life (actually no, he was an addict and\nMy daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective schools (>25% acceptance rate). Social media makes it seem like everyone in the world has 4.8 gpa and 1550 on the SAT but it's just not true. Do your research and find schools that are good fit for you. Apply to a couple of safeties, a handful of tar Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know. Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which is true to some extent, it isn't really that unfair. People with your circumstances will be given a huge boost in the admissions process, and if you present it well, I could defi",
+        "container": "ApplyingToCollege",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 14
+        },
+        "engagement_score": 44,
+        "freshness": 79,
+        "item_id": "R3",
+        "local_rank_score": 0.3455,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [
+            "My daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective...",
+            "Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know.",
+            "Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which is true to some extent, it i...",
+            "I saw Rutgers in the comments - if you're in NJ apply to their campuses (they've got a great nursing program too).",
+            "hey im sorry im only a sophmore and im sorry for wha t ur going through,but would this not be a good topic for a college essay,i mean even what ur goi..."
+          ],
+          "top_comments": [
+            {
+              "author": "Aware-Celery-892",
+              "date": "2026-10-14",
+              "excerpt": "My daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective schools (>25% acceptance rate). Social media makes it seem like everyone in the world has 4.8 gpa and 1550 on the SAT but it's just not true. Do your research and find schools that are good fit for you. Apply to a couple of safeties, a handful of tar",
+              "score": 10,
+              "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgsd8fz/"
+            },
+            {
+              "author": "lsp2005",
+              "date": "2026-10-14",
+              "excerpt": "Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know.",
+              "score": 5,
+              "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgse0is/"
+            },
+            {
+              "author": "Wide_Worldliness4483",
+              "date": "2026-10-15",
+              "excerpt": "Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which is true to some extent, it isn't really that unfair. People with your circumstances will be given a huge boost in the admissions process, and if you present it well, I could defi",
+              "score": 3,
+              "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgsweyj/"
+            },
+            {
+              "author": "Hungry_Freedom_8664",
+              "date": "2026-10-15",
+              "excerpt": "I saw Rutgers in the comments - if you're in NJ apply to their campuses (they've got a great nursing program too). My son and I visited New Brunswick from Texas, it's a great college. He looked at schools in your area because he was interested in business, and his merit offer from Seton Hall was so ",
+              "score": 3,
+              "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgy8tic/"
+            },
+            {
+              "author": "Medical_Algae2927",
+              "date": "2026-10-15",
+              "excerpt": "hey im sorry im only a sophmore and im sorry for wha t ur going through,but would this not be a good topic for a college essay,i mean even what ur going through u had a good gpa ik ppl who have a very relaxed life and have like 1 or2 i mean if someone could fact check me tho if im wrong",
+              "score": 2,
+              "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgzlq6o/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-10-14",
+              "excerpt": "Hey there, I'm a bot and something you said made me think you might be looking for help!\n\n It sounds like your post is related to essays \u2014 please check the A2C Wiki Page on Essays for a list of resources related to essay topics, tips & tricks, and editing advice. You can also go to the r/CollegeEssa",
+              "score": 1,
+              "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgs6339/"
+            }
+          ]
+        },
+        "published_at": "2026-10-14",
+        "relevance_hint": 0.09,
+        "snippet": "My daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective schools (>25% acceptance rate). Social media makes it seem like everyone in the world has 4.8 gpa and 1550 on the SAT but it's just not true. Do your research and find schools that are good fit for you. Apply to a couple of safeties, a handful of tar Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know. Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I feel cheated sometimes with college apps",
+        "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1x64o7v/i_feel_cheated_sometimes_with_college_apps/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"frustrated with\" app?",
+        "search_query": "\"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-24",
+  "range_to": "2026-10-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/applyingtocollege/comments/1x64o7v/i_feel_cheated_sometimes_with_college_apps",
+      "cluster_id": "cluster-1",
+      "engagement": 44,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.0,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "My daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective schools (>25% acceptance rate). Social media makes it seem like everyone in the world has 4.8 gpa and 1550 on the SAT but it's just not true. Do your research and find schools that are good fit for you. Apply to a couple of safeties, a handful of tar Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know. Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I feel cheated sometimes with college apps\nIm just really frustrated. I have a lower GPA, 3.1 UW and 3.7 W and I feel so bad about it. It\u2019s not like I slacked off in school that much. I\u2019ve had so many things happen to me throughout high school and middle school. It all starts with my dad passing. We are broke. Can\u2019t afford our house and it was during COVID. His funeral was literally on my birthday. I had to leave everything behind all my stuff, my house, my old friends, my school and my decent-ish life (actually no, he was an addict and\nMy daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective schools (>25% acceptance rate). Social media makes it seem like everyone in the world has 4.8 gpa and 1550 on the SAT but it's just not true. Do your research and find schools that are good fit for you. Apply to a couple of safeties, a handful of tar Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know. Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which is true to some extent, it isn't really that unfair. People with your circumstances will be given a huge boost in the admissions process, and if you present it well, I could defi",
+          "container": "ApplyingToCollege",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 14
+          },
+          "engagement_score": 44,
+          "freshness": 79,
+          "item_id": "R3",
+          "local_rank_score": 0.3455,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [
+              "My daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective...",
+              "Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know.",
+              "Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which is true to some extent, it i...",
+              "I saw Rutgers in the comments - if you're in NJ apply to their campuses (they've got a great nursing program too).",
+              "hey im sorry im only a sophmore and im sorry for wha t ur going through,but would this not be a good topic for a college essay,i mean even what ur goi..."
+            ],
+            "top_comments": [
+              {
+                "author": "Aware-Celery-892",
+                "date": "2026-10-14",
+                "excerpt": "My daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective schools (>25% acceptance rate). Social media makes it seem like everyone in the world has 4.8 gpa and 1550 on the SAT but it's just not true. Do your research and find schools that are good fit for you. Apply to a couple of safeties, a handful of tar",
+                "score": 10,
+                "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgsd8fz/"
+              },
+              {
+                "author": "lsp2005",
+                "date": "2026-10-14",
+                "excerpt": "Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know.",
+                "score": 5,
+                "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgse0is/"
+              },
+              {
+                "author": "Wide_Worldliness4483",
+                "date": "2026-10-15",
+                "excerpt": "Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which is true to some extent, it isn't really that unfair. People with your circumstances will be given a huge boost in the admissions process, and if you present it well, I could defi",
+                "score": 3,
+                "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgsweyj/"
+              },
+              {
+                "author": "Hungry_Freedom_8664",
+                "date": "2026-10-15",
+                "excerpt": "I saw Rutgers in the comments - if you're in NJ apply to their campuses (they've got a great nursing program too). My son and I visited New Brunswick from Texas, it's a great college. He looked at schools in your area because he was interested in business, and his merit offer from Seton Hall was so ",
+                "score": 3,
+                "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgy8tic/"
+              },
+              {
+                "author": "Medical_Algae2927",
+                "date": "2026-10-15",
+                "excerpt": "hey im sorry im only a sophmore and im sorry for wha t ur going through,but would this not be a good topic for a college essay,i mean even what ur going through u had a good gpa ik ppl who have a very relaxed life and have like 1 or2 i mean if someone could fact check me tho if im wrong",
+                "score": 2,
+                "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgzlq6o/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-10-14",
+                "excerpt": "Hey there, I'm a bot and something you said made me think you might be looking for help!\n\n It sounds like your post is related to essays \u2014 please check the A2C Wiki Page on Essays for a list of resources related to essay topics, tips & tricks, and editing advice. You can also go to the r/CollegeEssa",
+                "score": 1,
+                "url": "https://reddit.com/r/ApplyingToCollege/comments/1x64o7v/comment/pgs6339/"
+              }
+            ]
+          },
+          "published_at": "2026-10-14",
+          "relevance_hint": 0.09,
+          "snippet": "My daughter had 3.2 uw/3.4 w, didn't submit test scores, and got in almost everywhere she applied with lots of merit, including some pretty selective schools (>25% acceptance rate). Social media makes it seem like everyone in the world has 4.8 gpa and 1550 on the SAT but it's just not true. Do your research and find schools that are good fit for you. Apply to a couple of safeties, a handful of tar Tell your story. There is an extended circumstances section for the common app. This is what it is for. Shoot your shot, you never know. Hi! Don't worry about this at all. Although people make it seem like the college admissions process is very unfair, which...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I feel cheated sometimes with college apps",
+          "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1x64o7v/i_feel_cheated_sometimes_with_college_apps/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I feel cheated sometimes with college apps",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1x64o7v/i_feel_cheated_sometimes_with_college_apps/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appledevelopers/comments/1x8zimu/more_than_10_days_in_review_anyone_else",
+      "cluster_id": "cluster-2",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 14.0,
+      "item_id": "R4",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.1,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough. Wth guys how can I get rich if they don\u2019t approve the shitty code I had someone else make for me\u201d\n\n Stop whining. The amount of apps has increased ten fold and quality has decreased by at LEAST that much. It takes time now. W 2 weeks still waiting , so just publish and forget about it for a while 10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "More than 10 days \"In Review\". Anyone else experiencing unusually long App Store review times recently?\nI'm getting pretty frustrated with the App Store review process lately, and I'm wondering if anyone else has experienced something similar. My initial submission was stuck \"In Review\" for 7 days with no updates. I eventually had to resubmit due to some code changes. Now, my second submission has been \"In Review\" for more than 7 days again, still with no updates or feedback from Apple. I'm not sure if something has changed with Apple's review process recently, but I've never experienced delays li\n\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough. Wth guys how can I get rich if they don\u2019t approve the shitty code I had someone else make for me\u201d\n\n Stop whining. The amount of apps has increased ten fold and quality has decreased by at LEAST that much. It takes time now. W 2 weeks still waiting , so just publish and forget about it for a while 10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience",
+          "container": "appledevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 13,
+            "score": 0
+          },
+          "engagement_score": 7,
+          "freshness": 88,
+          "item_id": "R4",
+          "local_rank_score": 0.3895,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [
+              "its stuck in \"in review\" process. remove it from review and submit again. same thing has happended to me 2-3 times.",
+              "my first app from my personal account, i\u2019ve submitted for review almost 10 times now, each review took from 2-14 days",
+              "My updates seem to be approved in 24h-48h but a new app has been in \"waiting for review\" for 11 days. Interestingly it was also submitted October 8.",
+              "It\u2019s based on your account reputation\nnot one line queue, it\u2019s your first app and new account. that\u2019s why",
+              "Is the only topic that you see in this subreddit, so\u2026",
+              "For me my third app took 10 days not sure if running an active test flight at the same time helped.",
+              "2 weeks still waiting , so just publish and forget about it for a while",
+              "\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough.",
+              "10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience"
+            ],
+            "top_comments": [
+              {
+                "author": "Low-Injury-9219",
+                "date": "2026-10-18",
+                "excerpt": "\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough. Wth guys how can I get rich if they don\u2019t approve the shitty code I had someone else make for me\u201d\n\n Stop whining. The amount of apps has increased ten fold and quality has decreased by at LEAST that much. It takes time now. W",
+                "score": 5,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh0w8y/"
+              },
+              {
+                "author": "AdNo8866",
+                "date": "2026-10-18",
+                "excerpt": "2 weeks still waiting , so just publish and forget about it for a while",
+                "score": 3,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh1jvy/"
+              },
+              {
+                "author": "NotSeacombe",
+                "date": "2026-10-18",
+                "excerpt": "10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience",
+                "score": 3,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phgyfzr/"
+              },
+              {
+                "author": "Technical_Split_6315",
+                "date": "2026-10-18",
+                "excerpt": "Is the only topic that you see in this subreddit, so\u2026",
+                "score": 2,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh5med/"
+              },
+              {
+                "author": "umrf5900",
+                "date": "2026-10-21",
+                "excerpt": "its stuck in \"in review\" process. remove it from review and submit again. same thing has happended to me 2-3 times.",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/19rfhu2vvbbs2/"
+              },
+              {
+                "author": "Imaginary_Penalty177",
+                "date": "2026-10-20",
+                "excerpt": "my first app from my personal account, i\u2019ve submitted for review almost 10 times now, each review took from 2-14 days",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/19re1v7krjr6t/"
+              },
+              {
+                "author": "Easy-Bad2656",
+                "date": "2026-10-19",
+                "excerpt": "My updates seem to be approved in 24h-48h but a new app has been in \"waiting for review\" for 11 days. Interestingly it was also submitted October 8.",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phnyn8t/"
+              },
+              {
+                "author": "forwoobusiness",
+                "date": "2026-10-19",
+                "excerpt": "It\u2019s based on your account reputation\nnot one line queue, it\u2019s your first app and new account. that\u2019s why",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phmku4p/"
+              },
+              {
+                "author": "Sinkyz",
+                "date": "2026-10-18",
+                "excerpt": "For me my third app took 10 days not sure if running an active test flight at the same time helped.",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phh2qga/"
+              },
+              {
+                "author": "Similar_Passage_6783",
+                "date": "2026-10-18",
+                "excerpt": "You\u2019re not alone",
+                "score": 1,
+                "url": "https://reddit.com/r/appledevelopers/comments/1x8zimu/comment/phgxnb1/"
+              }
+            ]
+          },
+          "published_at": "2026-10-18",
+          "relevance_hint": 0.49,
+          "snippet": "\u201cOh no my aislop code from Claude isn\u2019t being pushed through quick enough. Wth guys how can I get rich if they don\u2019t approve the shitty code I had someone else make for me\u201d\n\n Stop whining. The amount of apps has increased ten fold and quality has decreased by at LEAST that much. It takes time now. W 2 weeks still waiting , so just publish and forget about it for a while 10 days is not very long, I have heard people in this subreddit say 6 weeks+. you will need to exercise some patience",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "More than 10 days \"In Review\". Anyone else experiencing unusually long App Store review times recently?",
+          "url": "https://www.reddit.com/r/appledevelopers/comments/1x8zimu/more_than_10_days_in_review_anyone_else/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "More than 10 days \"In Review\". Anyone else experiencing unusually long App Store review times recently?",
+      "url": "https://www.reddit.com/r/appledevelopers/comments/1x8zimu/more_than_10_days_in_review_anyone_else/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/micro_saas/comments/1x37ood/40_apps_34k_in_verified_mrr_heres_what_i_learned",
+      "cluster_id": "cluster-3",
+      "engagement": 2,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 4.0,
+      "item_id": "R5",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.100000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Verification actually being verification is the part everyone skips. Most of these just let you upload a screenshot and call it a day. Curious how you're handling the strip out of fake dashboard mockups without making it a massive pain for legit sellers Whether people list probably comes down to what access you ask for. If MobileMRR verifies through a read-only RevenueCat or App Store Connect key and says exactly what it can see, sellers worry less. The other lever is a verified badge founders can add to their own revenue posts and app pages, so ev I love the idea. Good luck. Stay consistent!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "40 apps, $34K in verified MRR - here\u2019s what I learned\nA few months ago I got frustrated with how app revenue gets \u201cproven\u201d online here on Reddit and all over X. Cropped screenshots, DMs saying \u201ctrust me, it makes $8k/mo,\u201d no way to check anything. So I built MobileMRR, a place where mobile app founders list their app and get their revenue verified, so buyers and users can see real numbers. Where it\u2019s at right now:- 40 apps listed- $34K in combined, verified MRR- 5 months since I launched (I've been busy building mobile apps so I haven't really been\nVerification actually being verification is the part everyone skips. Most of these just let you upload a screenshot and call it a day. Curious how you're handling the strip out of fake dashboard mockups without making it a massive pain for legit sellers Whether people list probably comes down to what access you ask for. If MobileMRR verifies through a read-only RevenueCat or App Store Connect key and says exactly what it can see, sellers worry less. The other lever is a verified badge founders can add to their own revenue posts and app pages, so ev I love the idea. Good luck. Stay consistent!",
+          "container": "micro_saas",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 0
+          },
+          "engagement_score": 2,
+          "freshness": 73,
+          "item_id": "R5",
+          "local_rank_score": 0.347,
+          "local_relevance": 0.25,
+          "metadata": {
+            "comment_insights": [
+              "Verification actually being verification is the part everyone skips.",
+              "Whether people list probably comes down to what access you ask for.",
+              "I love the idea. Good luck. Stay consistent!"
+            ],
+            "top_comments": [
+              {
+                "author": "No_Sympathy_6202",
+                "date": "2026-10-11",
+                "excerpt": "Verification actually being verification is the part everyone skips. Most of these just let you upload a screenshot and call it a day. Curious how you're handling the strip out of fake dashboard mockups without making it a massive pain for legit sellers",
+                "score": 1,
+                "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf8held/"
+              },
+              {
+                "author": "investigatormaker",
+                "date": "2026-10-11",
+                "excerpt": "Whether people list probably comes down to what access you ask for. If MobileMRR verifies through a read-only RevenueCat or App Store Connect key and says exactly what it can see, sellers worry less. The other lever is a verified badge founders can add to their own revenue posts and app pages, so ev",
+                "score": 1,
+                "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf8jyqc/"
+              },
+              {
+                "author": "kaan_gal",
+                "date": "2026-10-11",
+                "excerpt": "I love the idea. Good luck. Stay consistent!",
+                "score": 1,
+                "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf8lxay/"
+              },
+              {
+                "author": "ConsciousSlip2394",
+                "date": "2026-10-11",
+                "excerpt": "That's a solid idea",
+                "score": 1,
+                "url": "https://reddit.com/r/micro_saas/comments/1x37ood/comment/pf9rlvt/"
+              }
+            ]
+          },
+          "published_at": "2026-10-11",
+          "relevance_hint": 0.22,
+          "snippet": "Verification actually being verification is the part everyone skips. Most of these just let you upload a screenshot and call it a day. Curious how you're handling the strip out of fake dashboard mockups without making it a massive pain for legit sellers Whether people list probably comes down to what access you ask for. If MobileMRR verifies through a read-only RevenueCat or App Store Connect key and says exactly what it can see, sellers worry less. The other lever is a verified badge founders can add to their own revenue posts and app pages, so ev I love the idea. Good luck. Stay consistent!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "40 apps, $34K in verified MRR - here\u2019s what I learned",
+          "url": "https://www.reddit.com/r/micro_saas/comments/1x37ood/40_apps_34k_in_verified_mrr_heres_what_i_learned/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "40 apps, $34K in verified MRR - here\u2019s what I learned",
+      "url": "https://www.reddit.com/r/micro_saas/comments/1x37ood/40_apps_34k_in_verified_mrr_heres_what_i_learned/"
+    }
+  ],
+  "topic": "\"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
