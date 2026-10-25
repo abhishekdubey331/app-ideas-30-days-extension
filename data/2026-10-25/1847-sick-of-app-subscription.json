@@ -1,0 +1,496 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ableton/comments/1x29vud/til_sonobus_is_a_free_audio_streaming_app_that"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/ableton/comments/1x29vud/til_sonobus_is_a_free_audio_streaming_app_that"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "TIL Sonobus is a free audio streaming app that handles completely lossless audio with no login or subscription"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/testerscommunity/comments/1wucuyl/sick_of_10mo_budgeting_apps_selling_your_data_i"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/testerscommunity/comments/1wucuyl/sick_of_10mo_budgeting_apps_selling_your_data_i"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Sick of $10/mo budgeting apps selling your data? I built a 100% offline expense parser with ZERO internet permissions. Need closed testers (will test your app back!)"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nightshift/comments/1xf7d7o/i_got_sick_of_shift_calendar_apps_with_nonstop"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/nightshift/comments/1xf7d7o/i_got_sick_of_shift_calendar_apps_with_nonstop"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I got sick of shift calendar apps with non-stop ads, so I spent my free time building a clean one myself."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-25T18:47:14.256535+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I got sick of shift calendar apps with non-stop ads, so I spent my free time building a clean one myself.\nHey guys, I\u2019m an indie dev, and honestly, I just couldn't stand shift calendar apps anymore. Every time I tried to check a schedule, I was hit with full-screen popup ads, clunky UIs, and subscription prompts. It drove me crazy. So, I decided to fix it myself. I spent my free time building a bare-bones, completely ad-free and clean shift calendar app called Ooff. I focused on just a few simple things: Zero Ads: Just a clean monthly calendar view where you can see your shifts at a glance. No popup",
+        "container": "Nightshift",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 0
+        },
+        "engagement_score": 0,
+        "freshness": 100,
+        "item_id": "R6",
+        "local_rank_score": 0.3995,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-25",
+        "relevance_hint": 0.32,
+        "snippet": "Hey guys, I\u2019m an indie dev, and honestly, I just couldn't stand shift calendar apps anymore. Every time I tried to check a schedule, I was hit with full-screen popup ads, clunky UIs, and subscription prompts. It drove me crazy. So, I decided to fix it myself. I spent my free time building a bare-bones, completely ad-free and clean shift calendar app called Ooff. I focused on just a few simple thin",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I got sick of shift calendar apps with non-stop ads, so I spent my free time building a clean one myself.",
+        "url": "https://www.reddit.com/r/Nightshift/comments/1xf7d7o/i_got_sick_of_shift_calendar_apps_with_nonstop/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "TIL Sonobus is a free audio streaming app that handles completely lossless audio with no login or subscription\nI just started doing production lessons and was sick of all the compressed options out there: Zoom, Google Meet, WhatsApp etc and the only lossless options (Audiomovers, Muse etc) were all paid. I found Sonobus (am not an affiliate) and it does video streaming as well as audio. Great for collaborations or presentations where you need to share high quality audio.\nWhy does this thread so far just feel like a marketing department talking to each other. Not saying it is, but it just gives off marketing intern big idea vibes. Also really good for live playback/mixing thru phone speakers Sonobus and jamtaba need to be upvoted more",
+        "container": "ableton",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 10,
+          "score": 36
+        },
+        "engagement_score": 39,
+        "freshness": 70,
+        "item_id": "R3",
+        "local_rank_score": 0.36350000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Also really good for live playback/mixing thru phone speakers",
+            "Why does this thread so far just feel like a marketing department talking to each other.",
+            "Sonobus and jamtaba need to be upvoted more",
+            "I've been using it to route audio between my laptop and main computer as well as send to one for capturing my studio jams in OBS.",
+            "Been using it on some occasions! Great stuff for direct streaming from DAW"
+          ],
+          "top_comments": [
+            {
+              "author": "Vic_Serotonin",
+              "date": "2026-10-10",
+              "excerpt": "Why does this thread so far just feel like a marketing department talking to each other. Not saying it is, but it just gives off marketing intern big idea vibes.",
+              "score": 17,
+              "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf1dk43/"
+            },
+            {
+              "author": "StretchWatson",
+              "date": "2026-10-10",
+              "excerpt": "Also really good for live playback/mixing thru phone speakers",
+              "score": 10,
+              "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf0jfou/"
+            },
+            {
+              "author": "Routine-Stress6442",
+              "date": "2026-10-10",
+              "excerpt": "Sonobus and jamtaba need to be upvoted more",
+              "score": 5,
+              "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf1722n/"
+            },
+            {
+              "author": "thudclak",
+              "date": "2026-10-10",
+              "excerpt": "I've been using it to route audio between my laptop and main computer as well as send to one for capturing my studio jams in OBS. Also for using koala on my ipad wirelessly through my main monitors (turn off Bluetooth on the ipad during).\n\n It can take a little network tuning and the right Ethernet ",
+              "score": 2,
+              "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf1jilk/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-10-10",
+              "excerpt": "This is your friendly reminder to read the submission rules, they're found in the sidebar. If you find your post breaking any of the rules, you should delete your post before the mods get to it. If you're asking a question, make sure you've checked the Live manual, Ableton's help and support knowled",
+              "score": 1,
+              "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf0cu66/"
+            },
+            {
+              "author": "Vedanta_Psytech",
+              "date": "2026-10-11",
+              "excerpt": "Been using it on some occasions! Great stuff for direct streaming from DAW",
+              "score": 1,
+              "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf5ksed/"
+            }
+          ]
+        },
+        "published_at": "2026-10-10",
+        "relevance_hint": 0.54,
+        "snippet": "Why does this thread so far just feel like a marketing department talking to each other. Not saying it is, but it just gives off marketing intern big idea vibes. Also really good for live playback/mixing thru phone speakers Sonobus and jamtaba need to be upvoted more",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "TIL Sonobus is a free audio streaming app that handles completely lossless audio with no login or subscription",
+        "url": "https://www.reddit.com/r/ableton/comments/1x29vud/til_sonobus_is_a_free_audio_streaming_app_that/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Sick of $10/mo budgeting apps selling your data? I built a 100% offline expense parser with ZERO internet permissions. Need closed testers (will test your app back!)\nHey everyone, Like many of you, I got completely fed up with personal finance apps demanding $10\u2013$15/month subscriptions, disconnecting bank logins via Plaid every two weeks, and packaging user financial habits behind the scenes. So I built LedgerShield\u2014a completely local-first expense tracker built on three strict principles: Zero Internet Permissions: The app doesn\u2019t even have android.permission.INTERNET declared in the manifest. It is physically impossible for your financial data to leave you\nHi u/Temporary-Body5562!\n\n Finding testers on Reddit is a great start, but the hardest part is ensuring they actually open your app daily for the full 14 days.\n\n To make this easier, we\u2019ve launched Packs in the Testers Community app.\n\n What is a Pack? A coordinated group of 16 developers who hold each other accountable.\n\n How it works: Everyone in the pack commits to opening and testing each other",
+        "container": "TestersCommunity",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1
+        },
+        "engagement_score": 4,
+        "freshness": 49,
+        "item_id": "R5",
+        "local_rank_score": 0.276,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": [
+            {
+              "author": "AutoModerator",
+              "date": "2026-09-30",
+              "excerpt": "Hi u/Temporary-Body5562!\n\n Finding testers on Reddit is a great start, but the hardest part is ensuring they actually open your app daily for the full 14 days.\n\n To make this easier, we\u2019ve launched Packs in the Testers Community app.\n\n What is a Pack? A coordinated group of 16 developers who hold each other accountable.\n\n How it works: Everyone in the pack commits to opening and testing each other",
+              "score": 1,
+              "url": "https://reddit.com/r/TestersCommunity/comments/1wucuyl/comment/pd20vx1/"
+            }
+          ]
+        },
+        "published_at": "2026-09-30",
+        "relevance_hint": 0.54,
+        "snippet": "Hi u/Temporary-Body5562!\n\n Finding testers on Reddit is a great start, but the hardest part is ensuring they actually open your app daily for the full 14 days.\n\n To make this easier, we\u2019ve launched Packs in the Testers Community app.\n\n What is a Pack? A coordinated group of 16 developers who hold each other accountable.\n\n How it works: Everyone in the pack commits to opening and testing each other",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Sick of $10/mo budgeting apps selling your data? I built a 100% offline expense parser with ZERO internet permissions. Need closed testers (will test your app back!)",
+        "url": "https://www.reddit.com/r/TestersCommunity/comments/1wucuyl/sick_of_10mo_budgeting_apps_selling_your_data_i/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-25",
+  "range_to": "2026-10-25",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/ableton/comments/1x29vud/til_sonobus_is_a_free_audio_streaming_app_that",
+      "cluster_id": "cluster-1",
+      "engagement": 39,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.099999999999994,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Why does this thread so far just feel like a marketing department talking to each other. Not saying it is, but it just gives off marketing intern big idea vibes. Also really good for live playback/mixing thru phone speakers Sonobus and jamtaba need to be upvoted more",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "TIL Sonobus is a free audio streaming app that handles completely lossless audio with no login or subscription\nI just started doing production lessons and was sick of all the compressed options out there: Zoom, Google Meet, WhatsApp etc and the only lossless options (Audiomovers, Muse etc) were all paid. I found Sonobus (am not an affiliate) and it does video streaming as well as audio. Great for collaborations or presentations where you need to share high quality audio.\nWhy does this thread so far just feel like a marketing department talking to each other. Not saying it is, but it just gives off marketing intern big idea vibes. Also really good for live playback/mixing thru phone speakers Sonobus and jamtaba need to be upvoted more",
+          "container": "ableton",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 10,
+            "score": 36
+          },
+          "engagement_score": 39,
+          "freshness": 70,
+          "item_id": "R3",
+          "local_rank_score": 0.36350000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Also really good for live playback/mixing thru phone speakers",
+              "Why does this thread so far just feel like a marketing department talking to each other.",
+              "Sonobus and jamtaba need to be upvoted more",
+              "I've been using it to route audio between my laptop and main computer as well as send to one for capturing my studio jams in OBS.",
+              "Been using it on some occasions! Great stuff for direct streaming from DAW"
+            ],
+            "top_comments": [
+              {
+                "author": "Vic_Serotonin",
+                "date": "2026-10-10",
+                "excerpt": "Why does this thread so far just feel like a marketing department talking to each other. Not saying it is, but it just gives off marketing intern big idea vibes.",
+                "score": 17,
+                "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf1dk43/"
+              },
+              {
+                "author": "StretchWatson",
+                "date": "2026-10-10",
+                "excerpt": "Also really good for live playback/mixing thru phone speakers",
+                "score": 10,
+                "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf0jfou/"
+              },
+              {
+                "author": "Routine-Stress6442",
+                "date": "2026-10-10",
+                "excerpt": "Sonobus and jamtaba need to be upvoted more",
+                "score": 5,
+                "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf1722n/"
+              },
+              {
+                "author": "thudclak",
+                "date": "2026-10-10",
+                "excerpt": "I've been using it to route audio between my laptop and main computer as well as send to one for capturing my studio jams in OBS. Also for using koala on my ipad wirelessly through my main monitors (turn off Bluetooth on the ipad during).\n\n It can take a little network tuning and the right Ethernet ",
+                "score": 2,
+                "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf1jilk/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-10-10",
+                "excerpt": "This is your friendly reminder to read the submission rules, they're found in the sidebar. If you find your post breaking any of the rules, you should delete your post before the mods get to it. If you're asking a question, make sure you've checked the Live manual, Ableton's help and support knowled",
+                "score": 1,
+                "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf0cu66/"
+              },
+              {
+                "author": "Vedanta_Psytech",
+                "date": "2026-10-11",
+                "excerpt": "Been using it on some occasions! Great stuff for direct streaming from DAW",
+                "score": 1,
+                "url": "https://reddit.com/r/ableton/comments/1x29vud/comment/pf5ksed/"
+              }
+            ]
+          },
+          "published_at": "2026-10-10",
+          "relevance_hint": 0.54,
+          "snippet": "Why does this thread so far just feel like a marketing department talking to each other. Not saying it is, but it just gives off marketing intern big idea vibes. Also really good for live playback/mixing thru phone speakers Sonobus and jamtaba need to be upvoted more",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "TIL Sonobus is a free audio streaming app that handles completely lossless audio with no login or subscription",
+          "url": "https://www.reddit.com/r/ableton/comments/1x29vud/til_sonobus_is_a_free_audio_streaming_app_that/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "TIL Sonobus is a free audio streaming app that handles completely lossless audio with no login or subscription",
+      "url": "https://www.reddit.com/r/ableton/comments/1x29vud/til_sonobus_is_a_free_audio_streaming_app_that/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/testerscommunity/comments/1wucuyl/sick_of_10mo_budgeting_apps_selling_your_data_i",
+      "cluster_id": "cluster-2",
+      "engagement": 4,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 8.0,
+      "item_id": "R5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hi u/Temporary-Body5562!\n\n Finding testers on Reddit is a great start, but the hardest part is ensuring they actually open your app daily for the full 14 days.\n\n To make this easier, we\u2019ve launched Packs in the Testers Community app.\n\n What is a Pack? A coordinated group of 16 developers who hold each other accountable.\n\n How it works: Everyone in the pack commits to opening and testing each other",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Sick of $10/mo budgeting apps selling your data? I built a 100% offline expense parser with ZERO internet permissions. Need closed testers (will test your app back!)\nHey everyone, Like many of you, I got completely fed up with personal finance apps demanding $10\u2013$15/month subscriptions, disconnecting bank logins via Plaid every two weeks, and packaging user financial habits behind the scenes. So I built LedgerShield\u2014a completely local-first expense tracker built on three strict principles: Zero Internet Permissions: The app doesn\u2019t even have android.permission.INTERNET declared in the manifest. It is physically impossible for your financial data to leave you\nHi u/Temporary-Body5562!\n\n Finding testers on Reddit is a great start, but the hardest part is ensuring they actually open your app daily for the full 14 days.\n\n To make this easier, we\u2019ve launched Packs in the Testers Community app.\n\n What is a Pack? A coordinated group of 16 developers who hold each other accountable.\n\n How it works: Everyone in the pack commits to opening and testing each other",
+          "container": "TestersCommunity",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1
+          },
+          "engagement_score": 4,
+          "freshness": 49,
+          "item_id": "R5",
+          "local_rank_score": 0.276,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": [
+              {
+                "author": "AutoModerator",
+                "date": "2026-09-30",
+                "excerpt": "Hi u/Temporary-Body5562!\n\n Finding testers on Reddit is a great start, but the hardest part is ensuring they actually open your app daily for the full 14 days.\n\n To make this easier, we\u2019ve launched Packs in the Testers Community app.\n\n What is a Pack? A coordinated group of 16 developers who hold each other accountable.\n\n How it works: Everyone in the pack commits to opening and testing each other",
+                "score": 1,
+                "url": "https://reddit.com/r/TestersCommunity/comments/1wucuyl/comment/pd20vx1/"
+              }
+            ]
+          },
+          "published_at": "2026-09-30",
+          "relevance_hint": 0.54,
+          "snippet": "Hi u/Temporary-Body5562!\n\n Finding testers on Reddit is a great start, but the hardest part is ensuring they actually open your app daily for the full 14 days.\n\n To make this easier, we\u2019ve launched Packs in the Testers Community app.\n\n What is a Pack? A coordinated group of 16 developers who hold each other accountable.\n\n How it works: Everyone in the pack commits to opening and testing each other",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Sick of $10/mo budgeting apps selling your data? I built a 100% offline expense parser with ZERO internet permissions. Need closed testers (will test your app back!)",
+          "url": "https://www.reddit.com/r/TestersCommunity/comments/1wucuyl/sick_of_10mo_budgeting_apps_selling_your_data_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Sick of $10/mo budgeting apps selling your data? I built a 100% offline expense parser with ZERO internet permissions. Need closed testers (will test your app back!)",
+      "url": "https://www.reddit.com/r/TestersCommunity/comments/1wucuyl/sick_of_10mo_budgeting_apps_selling_your_data_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/nightshift/comments/1xf7d7o/i_got_sick_of_shift_calendar_apps_with_nonstop",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R6",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 17.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hey guys, I\u2019m an indie dev, and honestly, I just couldn't stand shift calendar apps anymore. Every time I tried to check a schedule, I was hit with full-screen popup ads, clunky UIs, and subscription prompts. It drove me crazy. So, I decided to fix it myself. I spent my free time building a bare-bones, completely ad-free and clean shift calendar app called Ooff. I focused on just a few simple thin",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I got sick of shift calendar apps with non-stop ads, so I spent my free time building a clean one myself.\nHey guys, I\u2019m an indie dev, and honestly, I just couldn't stand shift calendar apps anymore. Every time I tried to check a schedule, I was hit with full-screen popup ads, clunky UIs, and subscription prompts. It drove me crazy. So, I decided to fix it myself. I spent my free time building a bare-bones, completely ad-free and clean shift calendar app called Ooff. I focused on just a few simple things: Zero Ads: Just a clean monthly calendar view where you can see your shifts at a glance. No popup",
+          "container": "Nightshift",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 0
+          },
+          "engagement_score": 0,
+          "freshness": 100,
+          "item_id": "R6",
+          "local_rank_score": 0.3995,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-25",
+          "relevance_hint": 0.32,
+          "snippet": "Hey guys, I\u2019m an indie dev, and honestly, I just couldn't stand shift calendar apps anymore. Every time I tried to check a schedule, I was hit with full-screen popup ads, clunky UIs, and subscription prompts. It drove me crazy. So, I decided to fix it myself. I spent my free time building a bare-bones, completely ad-free and clean shift calendar app called Ooff. I focused on just a few simple thin",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I got sick of shift calendar apps with non-stop ads, so I spent my free time building a clean one myself.",
+          "url": "https://www.reddit.com/r/Nightshift/comments/1xf7d7o/i_got_sick_of_shift_calendar_apps_with_nonstop/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I got sick of shift calendar apps with non-stop ads, so I spent my free time building a clean one myself.",
+      "url": "https://www.reddit.com/r/Nightshift/comments/1xf7d7o/i_got_sick_of_shift_calendar_apps_with_nonstop/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
