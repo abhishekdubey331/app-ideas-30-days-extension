@@ -1,0 +1,672 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/applewatchultra/comments/1xeks8a/why_are_thirdparty_health_complications_still_so"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/applewatchultra/comments/1xeks8a/why_are_thirdparty_health_complications_still_so"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Why are third-party health complications still so unreliable on Apple Watch?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-26T03:48:28.004344+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+        "container": "coolgithubprojects",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 18
+        },
+        "engagement_score": 65,
+        "freshness": 82,
+        "item_id": "R5",
+        "local_rank_score": 0.47800000000000004,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+            "If it was available and open source, I would definitely try it out.",
+            "Same here \u2026. Really live the idea and would use it sooo much",
+            "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+            "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+            "I'm looking to start a serious workout routine and witogur a trainer (most likely).",
+            "This is like 10th one I have seen this week."
+          ],
+          "top_comments": [
+            {
+              "author": "BenjiSponge",
+              "date": "2026-10-17",
+              "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+              "score": 4,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+            },
+            {
+              "author": "thomdough",
+              "date": "2026-10-17",
+              "excerpt": "If it was available and open source, I would definitely try it out.",
+              "score": 4,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+            },
+            {
+              "author": "Software_Sennin",
+              "date": "2026-10-17",
+              "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+            },
+            {
+              "author": "beberuhimuzik",
+              "date": "2026-10-17",
+              "excerpt": "Yeahhh!!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+            },
+            {
+              "author": "LankyPlenty8029",
+              "date": "2026-10-17",
+              "excerpt": "Release it! Looks good",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+            },
+            {
+              "author": "Background_Daikon300",
+              "date": "2026-10-17",
+              "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+            },
+            {
+              "author": "rogo725",
+              "date": "2026-10-18",
+              "excerpt": "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phet381/"
+            },
+            {
+              "author": "BowlingShoeThief",
+              "date": "2026-10-18",
+              "excerpt": "Yasss",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phf418b/"
+            },
+            {
+              "author": "saltyourhash",
+              "date": "2026-10-18",
+              "excerpt": "I'm looking to start a serious workout routine and witogur a trainer (most likely). This would be amazing to have open source. I could evne contribute code to it. I'd love this to be open source.",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phgbcw0/"
+            },
+            {
+              "author": "nonamenomonet",
+              "date": "2026-10-19",
+              "excerpt": "This is like 10th one I have seen this week.",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phlmqj3/"
+            }
+          ]
+        },
+        "published_at": "2026-10-17",
+        "relevance_hint": 0.54,
+        "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+        "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Why are third-party health complications still so unreliable on Apple Watch?\nIs anyone else frustrated with third-party complications not updating properly on Apple Watch? I recently switched back to the Apple Watch Ultra 4 after using Garmin, and I'm already getting frustrated. I had exactly the same problem with my old Ultra 1 a couple of years ago, and apparently nothing has changed. Apps like Bevel can show outdated values for hours, sometimes even an entire day. But the moment I open the app, everything updates instantly. Interestingly, not all third-party complicat\nDo you have background app refresh on the watch and your phone set to on for Bevel? The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather. Both seem to update fairly frequently, seems like at least every couple to few minutes. Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device. On average, it should refresh every 15-30 mins, but from my experience, this is rarely the case.",
+        "container": "applewatchultra",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 25
+        },
+        "engagement_score": 74,
+        "freshness": 95,
+        "item_id": "R4",
+        "local_rank_score": 0.461,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [
+            "Do you have background app refresh on the watch and your phone set to on for Bevel?",
+            "The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather.",
+            "Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device.",
+            "What\u2019s the graphing weather complication in the middle position?",
+            "Ja, ich habe das gleiche Problem. Ob Bevel, Livity, Bodystage alle aktualisieren sich erst \u201erichtig\u201c, wenn man die App auf der Uhr \u00f6ffnet.",
+            "Apple controls how often the update. Not the devs fault. Blame Apple.",
+            "What is the point of having an incredibly beautiful display if you just don\u2019t have any colour in it?",
+            "Why I would never use a third party app complication"
+          ],
+          "top_comments": [
+            {
+              "author": "Kitchen-Ad6860",
+              "date": "2026-10-24",
+              "excerpt": "Do you have background app refresh on the watch and your phone set to on for Bevel?",
+              "score": 5,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlpwswu4csh/"
+            },
+            {
+              "author": "mrbofus",
+              "date": "2026-10-25",
+              "excerpt": "The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather. Both seem to update fairly frequently, seems like at least every couple to few minutes.",
+              "score": 4,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlxu7lcvao5/"
+            },
+            {
+              "author": "lyfeizfones",
+              "date": "2026-10-24",
+              "excerpt": "Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device. On average, it should refresh every 15-30 mins, but from my experience, this is rarely the case.",
+              "score": 2,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlq3v5qb7b4/"
+            },
+            {
+              "author": "MottoCycle",
+              "date": "2026-10-25",
+              "excerpt": "What\u2019s the graphing weather complication in the middle position?",
+              "score": 2,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rm5f38reaip/"
+            },
+            {
+              "author": "Dependent-Noise9200",
+              "date": "2026-10-25",
+              "excerpt": "Ja, ich habe das gleiche Problem. Ob Bevel, Livity, Bodystage alle aktualisieren sich erst \u201erichtig\u201c, wenn man die App auf der Uhr \u00f6ffnet.\n\n \u00dcberlege ebenfalls wieder zur\u00fcck zu Garmin zu gehen.",
+              "score": 2,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rmbx2ubq9xd/"
+            },
+            {
+              "author": "jailtheorange1",
+              "date": "2026-10-25",
+              "excerpt": "What is the point of having an incredibly beautiful display if you just don\u2019t have any colour in it? Colour is important for indicating things at a glance",
+              "score": -1,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rmnlijoyitc/"
+            },
+            {
+              "author": "TheeDelpino",
+              "date": "2026-10-24",
+              "excerpt": "Apple controls how often the update. Not the devs fault. Blame Apple.",
+              "score": -2,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlu8sqw0ypv/"
+            },
+            {
+              "author": "Kitchen_Alps",
+              "date": "2026-10-24",
+              "excerpt": "Why I would never use a third party app complication",
+              "score": -8,
+              "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlqk7v9k14x/"
+            }
+          ]
+        },
+        "published_at": "2026-10-24",
+        "relevance_hint": 0.22,
+        "snippet": "Do you have background app refresh on the watch and your phone set to on for Bevel? The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather. Both seem to update fairly frequently, seems like at least every couple to few minutes. Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device. On average, it should refresh every 15-30 mins, but from my experience, this is rarely the case.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Why are third-party health complications still so unreliable on Apple Watch?",
+        "url": "https://www.reddit.com/r/applewatchultra/comments/1xeks8a/why_are_thirdparty_health_complications_still_so/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time. I also found other fitness apps too restrictive and a bit s",
+        "container": "expo",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 2
+        },
+        "engagement_score": 26,
+        "freshness": 77,
+        "item_id": "R8",
+        "local_rank_score": 0.42650000000000005,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-15",
+        "relevance_hint": 0.22,
+        "snippet": "Hello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking),",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+        "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-26",
+  "range_to": "2026-10-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/applewatchultra/comments/1xeks8a/why_are_thirdparty_health_complications_still_so",
+      "cluster_id": "cluster-1",
+      "engagement": 74,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 16.099999999999994,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Do you have background app refresh on the watch and your phone set to on for Bevel? The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather. Both seem to update fairly frequently, seems like at least every couple to few minutes. Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device. On average, it should refresh every 15-30 mins, but from my experience, this is rarely the case.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Why are third-party health complications still so unreliable on Apple Watch?\nIs anyone else frustrated with third-party complications not updating properly on Apple Watch? I recently switched back to the Apple Watch Ultra 4 after using Garmin, and I'm already getting frustrated. I had exactly the same problem with my old Ultra 1 a couple of years ago, and apparently nothing has changed. Apps like Bevel can show outdated values for hours, sometimes even an entire day. But the moment I open the app, everything updates instantly. Interestingly, not all third-party complicat\nDo you have background app refresh on the watch and your phone set to on for Bevel? The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather. Both seem to update fairly frequently, seems like at least every couple to few minutes. Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device. On average, it should refresh every 15-30 mins, but from my experience, this is rarely the case.",
+          "container": "applewatchultra",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 25
+          },
+          "engagement_score": 74,
+          "freshness": 95,
+          "item_id": "R4",
+          "local_rank_score": 0.461,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [
+              "Do you have background app refresh on the watch and your phone set to on for Bevel?",
+              "The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather.",
+              "Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device.",
+              "What\u2019s the graphing weather complication in the middle position?",
+              "Ja, ich habe das gleiche Problem. Ob Bevel, Livity, Bodystage alle aktualisieren sich erst \u201erichtig\u201c, wenn man die App auf der Uhr \u00f6ffnet.",
+              "Apple controls how often the update. Not the devs fault. Blame Apple.",
+              "What is the point of having an incredibly beautiful display if you just don\u2019t have any colour in it?",
+              "Why I would never use a third party app complication"
+            ],
+            "top_comments": [
+              {
+                "author": "Kitchen-Ad6860",
+                "date": "2026-10-24",
+                "excerpt": "Do you have background app refresh on the watch and your phone set to on for Bevel?",
+                "score": 5,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlpwswu4csh/"
+              },
+              {
+                "author": "mrbofus",
+                "date": "2026-10-25",
+                "excerpt": "The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather. Both seem to update fairly frequently, seems like at least every couple to few minutes.",
+                "score": 4,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlxu7lcvao5/"
+              },
+              {
+                "author": "lyfeizfones",
+                "date": "2026-10-24",
+                "excerpt": "Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device. On average, it should refresh every 15-30 mins, but from my experience, this is rarely the case.",
+                "score": 2,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlq3v5qb7b4/"
+              },
+              {
+                "author": "MottoCycle",
+                "date": "2026-10-25",
+                "excerpt": "What\u2019s the graphing weather complication in the middle position?",
+                "score": 2,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rm5f38reaip/"
+              },
+              {
+                "author": "Dependent-Noise9200",
+                "date": "2026-10-25",
+                "excerpt": "Ja, ich habe das gleiche Problem. Ob Bevel, Livity, Bodystage alle aktualisieren sich erst \u201erichtig\u201c, wenn man die App auf der Uhr \u00f6ffnet.\n\n \u00dcberlege ebenfalls wieder zur\u00fcck zu Garmin zu gehen.",
+                "score": 2,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rmbx2ubq9xd/"
+              },
+              {
+                "author": "jailtheorange1",
+                "date": "2026-10-25",
+                "excerpt": "What is the point of having an incredibly beautiful display if you just don\u2019t have any colour in it? Colour is important for indicating things at a glance",
+                "score": -1,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rmnlijoyitc/"
+              },
+              {
+                "author": "TheeDelpino",
+                "date": "2026-10-24",
+                "excerpt": "Apple controls how often the update. Not the devs fault. Blame Apple.",
+                "score": -2,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlu8sqw0ypv/"
+              },
+              {
+                "author": "Kitchen_Alps",
+                "date": "2026-10-24",
+                "excerpt": "Why I would never use a third party app complication",
+                "score": -8,
+                "url": "https://reddit.com/r/applewatchultra/comments/1xeks8a/comment/19rlqk7v9k14x/"
+              }
+            ]
+          },
+          "published_at": "2026-10-24",
+          "relevance_hint": 0.22,
+          "snippet": "Do you have background app refresh on the watch and your phone set to on for Bevel? The only third-party complications I have on my Ultra 3 watch face are Duffy and Carrot Weather. Both seem to update fairly frequently, seems like at least every couple to few minutes. Yes it\u2019s annoying. Complication refresh interval is controled by iOS/watchOS and depends on the available resources on the device. On average, it should refresh every 15-30 mins, but from my experience, this is rarely the case.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Why are third-party health complications still so unreliable on Apple Watch?",
+          "url": "https://www.reddit.com/r/applewatchultra/comments/1xeks8a/why_are_thirdparty_health_complications_still_so/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Why are third-party health complications still so unreliable on Apple Watch?",
+      "url": "https://www.reddit.com/r/applewatchultra/comments/1xeks8a/why_are_thirdparty_health_complications_still_so/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline",
+      "cluster_id": "cluster-2",
+      "engagement": 65,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 19.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+          "container": "coolgithubprojects",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 18
+          },
+          "engagement_score": 65,
+          "freshness": 82,
+          "item_id": "R5",
+          "local_rank_score": 0.47800000000000004,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+              "If it was available and open source, I would definitely try it out.",
+              "Same here \u2026. Really live the idea and would use it sooo much",
+              "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+              "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+              "I'm looking to start a serious workout routine and witogur a trainer (most likely).",
+              "This is like 10th one I have seen this week."
+            ],
+            "top_comments": [
+              {
+                "author": "BenjiSponge",
+                "date": "2026-10-17",
+                "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+                "score": 4,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+              },
+              {
+                "author": "thomdough",
+                "date": "2026-10-17",
+                "excerpt": "If it was available and open source, I would definitely try it out.",
+                "score": 4,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+              },
+              {
+                "author": "Software_Sennin",
+                "date": "2026-10-17",
+                "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+              },
+              {
+                "author": "beberuhimuzik",
+                "date": "2026-10-17",
+                "excerpt": "Yeahhh!!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+              },
+              {
+                "author": "LankyPlenty8029",
+                "date": "2026-10-17",
+                "excerpt": "Release it! Looks good",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+              },
+              {
+                "author": "Background_Daikon300",
+                "date": "2026-10-17",
+                "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+              },
+              {
+                "author": "rogo725",
+                "date": "2026-10-18",
+                "excerpt": "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phet381/"
+              },
+              {
+                "author": "BowlingShoeThief",
+                "date": "2026-10-18",
+                "excerpt": "Yasss",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phf418b/"
+              },
+              {
+                "author": "saltyourhash",
+                "date": "2026-10-18",
+                "excerpt": "I'm looking to start a serious workout routine and witogur a trainer (most likely). This would be amazing to have open source. I could evne contribute code to it. I'd love this to be open source.",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phgbcw0/"
+              },
+              {
+                "author": "nonamenomonet",
+                "date": "2026-10-19",
+                "excerpt": "This is like 10th one I have seen this week.",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phlmqj3/"
+              }
+            ]
+          },
+          "published_at": "2026-10-17",
+          "relevance_hint": 0.54,
+          "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+          "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i",
+      "cluster_id": "cluster-3",
+      "engagement": 26,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 18.799999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking),",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time. I also found other fitness apps too restrictive and a bit s",
+          "container": "expo",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 2
+          },
+          "engagement_score": 26,
+          "freshness": 77,
+          "item_id": "R8",
+          "local_rank_score": 0.42650000000000005,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-15",
+          "relevance_hint": 0.22,
+          "snippet": "Hello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking),",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+          "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+      "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
