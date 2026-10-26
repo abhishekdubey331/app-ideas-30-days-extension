@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/4tran4/comments/1xby2x1/this_is_how_4tran_grows_and_they_dont_even"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/4tran4/comments/1xby2x1/this_is_how_4tran_grows_and_they_dont_even"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "This is how 4tran grows, and they don't even realize it."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-26T18:25:19.142644+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "This is how 4tran grows, and they don't even realize it.\nGot banned from ihatethissmug for being genuinely wholesome, and the mods couldnt even give me answer. Ngl; I'm barely active on reddit these days because my irl is too busy these last years with family life, leaving the military, transitioning finally, etc. Im not active here, nor have I been in a long time, but figured you all would get a good laugh, and it could serve as, idk, something for others to consider about these supposedly safe spaces. Mind you; these are literally the only comments",
+        "container": "4tran4",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 77,
+          "score": 116
+        },
+        "engagement_score": 34,
+        "freshness": 89,
+        "item_id": "R20",
+        "local_rank_score": 0.406,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-21",
+        "relevance_hint": 0.06,
+        "snippet": "Got banned from ihatethissmug for being genuinely wholesome, and the mods couldnt even give me answer. Ngl; I'm barely active on reddit these days because my irl is too busy these last years with family life, leaving the military, transitioning finally, etc. Im not active here, nor have I been in a long time, but figured you all would get a good laugh, and it could serve as, idk, something for oth",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "This is how 4tran grows, and they don't even realize it.",
+        "url": "https://www.reddit.com/r/4tran4/comments/1xby2x1/this_is_how_4tran_grows_and_they_dont_even/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-26",
+  "range_to": "2026-10-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/4tran4/comments/1xby2x1/this_is_how_4tran_grows_and_they_dont_even",
+      "cluster_id": "cluster-1",
+      "engagement": 34,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R20",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R20",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 14.899999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Got banned from ihatethissmug for being genuinely wholesome, and the mods couldnt even give me answer. Ngl; I'm barely active on reddit these days because my irl is too busy these last years with family life, leaving the military, transitioning finally, etc. Im not active here, nor have I been in a long time, but figured you all would get a good laugh, and it could serve as, idk, something for oth",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "This is how 4tran grows, and they don't even realize it.\nGot banned from ihatethissmug for being genuinely wholesome, and the mods couldnt even give me answer. Ngl; I'm barely active on reddit these days because my irl is too busy these last years with family life, leaving the military, transitioning finally, etc. Im not active here, nor have I been in a long time, but figured you all would get a good laugh, and it could serve as, idk, something for others to consider about these supposedly safe spaces. Mind you; these are literally the only comments",
+          "container": "4tran4",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 77,
+            "score": 116
+          },
+          "engagement_score": 34,
+          "freshness": 89,
+          "item_id": "R20",
+          "local_rank_score": 0.406,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-21",
+          "relevance_hint": 0.06,
+          "snippet": "Got banned from ihatethissmug for being genuinely wholesome, and the mods couldnt even give me answer. Ngl; I'm barely active on reddit these days because my irl is too busy these last years with family life, leaving the military, transitioning finally, etc. Im not active here, nor have I been in a long time, but figured you all would get a good laugh, and it could serve as, idk, something for oth",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "This is how 4tran grows, and they don't even realize it.",
+          "url": "https://www.reddit.com/r/4tran4/comments/1xby2x1/this_is_how_4tran_grows_and_they_dont_even/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "This is how 4tran grows, and they don't even realize it.",
+      "url": "https://www.reddit.com/r/4tran4/comments/1xby2x1/this_is_how_4tran_grows_and_they_dont_even/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
