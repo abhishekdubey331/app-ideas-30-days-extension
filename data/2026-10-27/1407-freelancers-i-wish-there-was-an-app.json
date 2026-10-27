@@ -1,0 +1,311 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "freelancers \"I wish there was an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saasdevelopers/comments/1xft2zp/got_a_saas_idea_or_a_annoying_business_problem"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/saasdevelopers/comments/1xft2zp/got_a_saas_idea_or_a_annoying_business_problem"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/showmeyoursaas/comments/1xft3hk/got_a_saas_idea_or_a_annoying_business_problem"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/showmeyoursaas/comments/1xft3hk/got_a_saas_idea_or_a_annoying_business_problem"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-27T14:07:55.557921+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.\nHey guys, I have some free bandwidth right now and I'm looking to build some cool stuff and make a bit of extra cash. \u2022 Got a SaaS idea you\u2019ve been sitting on forever? \u2022 Running a business and losing hours to some annoying, repetitive manual task? Drop your pain points or \"I wish there was an app for X\" ideas in the comments. If it sounds like a good fit, I\u2019ll shoot you a DM and we can figure out a way to build it for you\u2014whether that\u2019s a quick MVP, an automation workflow, or a freelance gig. \\#\nspreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one. what's the most soul-crushing manual process you're dealing with right now? are you looking to do straight client work for cash or trying to partner up on equity? those are two very different conversations and most folks with a real budget will want to know upfront",
+        "container": "SaasDevelopers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2
+        },
+        "engagement_score": 100,
+        "freshness": 97,
+        "item_id": "R1",
+        "local_rank_score": 0.5115,
+        "local_relevance": 0.26,
+        "metadata": {
+          "comment_insights": [
+            "spreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one.",
+            "are you looking to do straight client work for cash or trying to partner up on equity?"
+          ],
+          "top_comments": [
+            {
+              "author": "Many_Hour_1877",
+              "date": "2026-10-26",
+              "excerpt": "spreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one. what's the most soul-crushing manual process you're dealing with right now?",
+              "score": 1,
+              "url": "https://reddit.com/r/SaasDevelopers/comments/1xft2zp/comment/19roevcbk1ccl/"
+            },
+            {
+              "author": "duskharborings",
+              "date": "2026-10-26",
+              "excerpt": "are you looking to do straight client work for cash or trying to partner up on equity? those are two very different conversations and most folks with a real budget will want to know upfront",
+              "score": 1,
+              "url": "https://reddit.com/r/SaasDevelopers/comments/1xft2zp/comment/19roi1y76kama/"
+            }
+          ]
+        },
+        "published_at": "2026-10-26",
+        "relevance_hint": 0.16,
+        "snippet": "spreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one. what's the most soul-crushing manual process you're dealing with right now? are you looking to do straight client work for cash or trying to partner up on equity? those are two very different conversations and most folks with a real budget will want to know upfront",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.",
+        "url": "https://www.reddit.com/r/SaasDevelopers/comments/1xft2zp/got_a_saas_idea_or_a_annoying_business_problem/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.\nHey guys, I have some free bandwidth right now and I'm looking to build some cool stuff and make a bit of extra cash. \u2022 Got a SaaS idea you\u2019ve been sitting on forever? \u2022 Running a business and losing hours to some annoying, repetitive manual task? Drop your pain points or \"I wish there was an app for X\" ideas in the comments. If it sounds like a good fit, I\u2019ll shoot you a DM and we can figure out a way to build it for you\u2014whether that\u2019s a quick MVP, an automation workflow, or a freelance gig. \\#",
+        "container": "ShowMeYourSaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 97,
+        "item_id": "R2",
+        "local_rank_score": 0.2945,
+        "local_relevance": 0.08,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-26",
+        "relevance_hint": 0.16,
+        "snippet": "Hey guys, I have some free bandwidth right now and I'm looking to build some cool stuff and make a bit of extra cash. \u2022 Got a SaaS idea you\u2019ve been sitting on forever? \u2022 Running a business and losing hours to some annoying, repetitive manual task? Drop your pain points or \"I wish there was an app for X\" ideas in the comments. If it sounds like a good fit, I\u2019ll shoot you a DM and we can figure out",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.",
+        "url": "https://www.reddit.com/r/ShowMeYourSaaS/comments/1xft3hk/got_a_saas_idea_or_a_annoying_business_problem/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "freelancers \"I wish there was an app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to freelancers \"I wish there was an app\", especially about freelancers \"i wish there app\"?",
+        "search_query": "freelancers \"i wish there app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-27",
+  "range_to": "2026-10-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/saasdevelopers/comments/1xft2zp/got_a_saas_idea_or_a_annoying_business_problem",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 18.6,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "spreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one. what's the most soul-crushing manual process you're dealing with right now? are you looking to do straight client work for cash or trying to partner up on equity? those are two very different conversations and most folks with a real budget will want to know upfront",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.\nHey guys, I have some free bandwidth right now and I'm looking to build some cool stuff and make a bit of extra cash. \u2022 Got a SaaS idea you\u2019ve been sitting on forever? \u2022 Running a business and losing hours to some annoying, repetitive manual task? Drop your pain points or \"I wish there was an app for X\" ideas in the comments. If it sounds like a good fit, I\u2019ll shoot you a DM and we can figure out a way to build it for you\u2014whether that\u2019s a quick MVP, an automation workflow, or a freelance gig. \\#\nspreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one. what's the most soul-crushing manual process you're dealing with right now? are you looking to do straight client work for cash or trying to partner up on equity? those are two very different conversations and most folks with a real budget will want to know upfront",
+          "container": "SaasDevelopers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2
+          },
+          "engagement_score": 100,
+          "freshness": 97,
+          "item_id": "R1",
+          "local_rank_score": 0.5115,
+          "local_relevance": 0.26,
+          "metadata": {
+            "comment_insights": [
+              "spreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one.",
+              "are you looking to do straight client work for cash or trying to partner up on equity?"
+            ],
+            "top_comments": [
+              {
+                "author": "Many_Hour_1877",
+                "date": "2026-10-26",
+                "excerpt": "spreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one. what's the most soul-crushing manual process you're dealing with right now?",
+                "score": 1,
+                "url": "https://reddit.com/r/SaasDevelopers/comments/1xft2zp/comment/19roevcbk1ccl/"
+              },
+              {
+                "author": "duskharborings",
+                "date": "2026-10-26",
+                "excerpt": "are you looking to do straight client work for cash or trying to partner up on equity? those are two very different conversations and most folks with a real budget will want to know upfront",
+                "score": 1,
+                "url": "https://reddit.com/r/SaasDevelopers/comments/1xft2zp/comment/19roi1y76kama/"
+              }
+            ]
+          },
+          "published_at": "2026-10-26",
+          "relevance_hint": 0.16,
+          "snippet": "spreadsheets are truly the backbone of modern business, i track my cat's nap schedule in one. what's the most soul-crushing manual process you're dealing with right now? are you looking to do straight client work for cash or trying to partner up on equity? those are two very different conversations and most folks with a real budget will want to know upfront",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.",
+          "url": "https://www.reddit.com/r/SaasDevelopers/comments/1xft2zp/got_a_saas_idea_or_a_annoying_business_problem/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.",
+      "url": "https://www.reddit.com/r/SaasDevelopers/comments/1xft2zp/got_a_saas_idea_or_a_annoying_business_problem/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/showmeyoursaas/comments/1xft3hk/got_a_saas_idea_or_a_annoying_business_problem",
+      "cluster_id": "cluster-2",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 97,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R2",
+      "local_relevance": 0.08,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 6.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hey guys, I have some free bandwidth right now and I'm looking to build some cool stuff and make a bit of extra cash. \u2022 Got a SaaS idea you\u2019ve been sitting on forever? \u2022 Running a business and losing hours to some annoying, repetitive manual task? Drop your pain points or \"I wish there was an app for X\" ideas in the comments. If it sounds like a good fit, I\u2019ll shoot you a DM and we can figure out",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.\nHey guys, I have some free bandwidth right now and I'm looking to build some cool stuff and make a bit of extra cash. \u2022 Got a SaaS idea you\u2019ve been sitting on forever? \u2022 Running a business and losing hours to some annoying, repetitive manual task? Drop your pain points or \"I wish there was an app for X\" ideas in the comments. If it sounds like a good fit, I\u2019ll shoot you a DM and we can figure out a way to build it for you\u2014whether that\u2019s a quick MVP, an automation workflow, or a freelance gig. \\#",
+          "container": "ShowMeYourSaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 97,
+          "item_id": "R2",
+          "local_rank_score": 0.2945,
+          "local_relevance": 0.08,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-26",
+          "relevance_hint": 0.16,
+          "snippet": "Hey guys, I have some free bandwidth right now and I'm looking to build some cool stuff and make a bit of extra cash. \u2022 Got a SaaS idea you\u2019ve been sitting on forever? \u2022 Running a business and losing hours to some annoying, repetitive manual task? Drop your pain points or \"I wish there was an app for X\" ideas in the comments. If it sounds like a good fit, I\u2019ll shoot you a DM and we can figure out",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.",
+          "url": "https://www.reddit.com/r/ShowMeYourSaaS/comments/1xft3hk/got_a_saas_idea_or_a_annoying_business_problem/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Got a SaaS idea or a annoying business problem but no time to build it? Let\u2019s talk.",
+      "url": "https://www.reddit.com/r/ShowMeYourSaaS/comments/1xft3hk/got_a_saas_idea_or_a_annoying_business_problem/"
+    }
+  ],
+  "topic": "freelancers \"I wish there was an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
