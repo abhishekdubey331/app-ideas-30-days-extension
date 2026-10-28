@@ -1,0 +1,165 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://x.com/heizolshao/status/2109787075289706639"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://x.com/heizolshao/status/2109787075289706639"
+      ],
+      "score": 0.0,
+      "sources": [
+        "x"
+      ],
+      "title": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-10-28T04:39:48.390711+00:00",
+  "items_by_source": {
+    "bluesky": [],
+    "x": [
+      {
+        "author": "heizolshao",
+        "body": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+        "date_confidence": "high",
+        "engagement": {
+          "likes": 38,
+          "replies": 8,
+          "reposts": 12
+        },
+        "engagement_score": 100,
+        "freshness": 67,
+        "item_id": "X4",
+        "local_rank_score": 0.365,
+        "local_relevance": 0.15,
+        "metadata": {},
+        "published_at": "2026-10-12",
+        "relevance_hint": 0.31,
+        "snippet": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+        "source": "x",
+        "source_quality": 0.68,
+        "title": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+        "url": "https://x.com/heizolshao/status/2109787075289706639",
+        "why_relevant": ""
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "bluesky": 0.5,
+      "x": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "x",
+          "bluesky"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-09-28",
+  "range_to": "2026-10-28",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://x.com/heizolshao/status/2109787075289706639",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 63.85,
+      "item_id": "X4",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "X4",
+            "native_rank": 1,
+            "source": "x",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:x": 1
+      },
+      "rerank_score": 5.699999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+      "source": "x",
+      "source_items": [
+        {
+          "author": "heizolshao",
+          "body": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+          "date_confidence": "high",
+          "engagement": {
+            "likes": 38,
+            "replies": 8,
+            "reposts": 12
+          },
+          "engagement_score": 100,
+          "freshness": 67,
+          "item_id": "X4",
+          "local_rank_score": 0.365,
+          "local_relevance": 0.15,
+          "metadata": {},
+          "published_at": "2026-10-12",
+          "relevance_hint": 0.31,
+          "snippet": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+          "source": "x",
+          "source_quality": 0.68,
+          "title": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+          "url": "https://x.com/heizolshao/status/2109787075289706639",
+          "why_relevant": ""
+        }
+      ],
+      "source_quality": 0.68,
+      "sources": [
+        "x"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Reddit \u793e\u533a\u5206\u5c42\u7cbe\u7ec6\u5316\u8fd0\u8425\u5b9e\u6218\u6307\u5357",
+      "url": "https://x.com/heizolshao/status/2109787075289706639"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
