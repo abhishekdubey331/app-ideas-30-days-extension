@@ -1,0 +1,681 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "score": 10.136129032258065,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/homefitness/comments/1x5oat8/i_wasnt_frustrated_with_other_workout_trackers"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/homefitness/comments/1x5oat8/i_wasnt_frustrated_with_other_workout_trackers"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I wasn't frustrated with other workout trackers, but I still built my own. And surprise-surprise, it's free \ud83d\ude05"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-01T14:48:59.526270+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+        "container": "coolgithubprojects",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 18
+        },
+        "engagement_score": 100,
+        "freshness": 70,
+        "item_id": "R1",
+        "local_rank_score": 0.483,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+            "If it was available and open source, I would definitely try it out.",
+            "Same here \u2026. Really live the idea and would use it sooo much",
+            "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+            "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+            "I'm looking to start a serious workout routine and witogur a trainer (most likely).",
+            "This is like 10th one I have seen this week."
+          ],
+          "top_comments": [
+            {
+              "author": "BenjiSponge",
+              "date": "2026-10-17",
+              "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+              "score": 4,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+            },
+            {
+              "author": "thomdough",
+              "date": "2026-10-17",
+              "excerpt": "If it was available and open source, I would definitely try it out.",
+              "score": 4,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+            },
+            {
+              "author": "Software_Sennin",
+              "date": "2026-10-17",
+              "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+            },
+            {
+              "author": "beberuhimuzik",
+              "date": "2026-10-17",
+              "excerpt": "Yeahhh!!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+            },
+            {
+              "author": "LankyPlenty8029",
+              "date": "2026-10-17",
+              "excerpt": "Release it! Looks good",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+            },
+            {
+              "author": "Background_Daikon300",
+              "date": "2026-10-17",
+              "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+            },
+            {
+              "author": "rogo725",
+              "date": "2026-10-18",
+              "excerpt": "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phet381/"
+            },
+            {
+              "author": "BowlingShoeThief",
+              "date": "2026-10-18",
+              "excerpt": "Yasss",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phf418b/"
+            },
+            {
+              "author": "saltyourhash",
+              "date": "2026-10-18",
+              "excerpt": "I'm looking to start a serious workout routine and witogur a trainer (most likely). This would be amazing to have open source. I could evne contribute code to it. I'd love this to be open source.",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phgbcw0/"
+            },
+            {
+              "author": "nonamenomonet",
+              "date": "2026-10-19",
+              "excerpt": "This is like 10th one I have seen this week.",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phlmqj3/"
+            }
+          ]
+        },
+        "published_at": "2026-10-17",
+        "relevance_hint": 0.54,
+        "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+        "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time. I also found other fitness apps too restrictive and a bit s\nJust downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+        "container": "apps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 5,
+          "score": 2
+        },
+        "engagement_score": 41,
+        "freshness": 65,
+        "item_id": "R3",
+        "local_rank_score": 0.47000000000000003,
+        "local_relevance": 0.41,
+        "metadata": {
+          "comment_insights": [
+            "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+            "It's absurd how many exercise apps charge for the most basic of features... this could really work for me."
+          ],
+          "top_comments": [
+            {
+              "author": "Local-Tea1656",
+              "date": "2026-10-16",
+              "excerpt": "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+              "score": 1,
+              "url": "https://reddit.com/r/apps/comments/1x6v113/comment/ph5xcbu/"
+            },
+            {
+              "author": "AntAir267",
+              "date": "2026-10-15",
+              "excerpt": "It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+              "score": 1,
+              "url": "https://reddit.com/r/apps/comments/1x6v113/comment/pgyqwuf/"
+            }
+          ]
+        },
+        "published_at": "2026-10-15",
+        "relevance_hint": 0.22,
+        "snippet": "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+        "url": "https://www.reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I wasn't frustrated with other workout trackers, but I still built my own. And surprise-surprise, it's free \ud83d\ude05\nHey everyone! So yeah, I built another workout tracker. It's free, works offline, doesn't require an account, and all the usual stuff you've probably heard a hundred times already. But I actually use it every day, and I'd be really happy if someone else found it useful too. I built it around how I personally like to train: no unnecessary noise, just a few clicks to log my sets, see what I did last time, and try to beat my previous numbers. There's also AI-powered workout plan generation. You can",
+        "container": "homefitness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 0
+        },
+        "engagement_score": 1,
+        "freshness": 64,
+        "item_id": "R6",
+        "local_rank_score": 0.278,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-14",
+        "relevance_hint": 0.24,
+        "snippet": "Hey everyone! So yeah, I built another workout tracker. It's free, works offline, doesn't require an account, and all the usual stuff you've probably heard a hundred times already. But I actually use it every day, and I'd be really happy if someone else found it useful too. I built it around how I personally like to train: no unnecessary noise, just a few clicks to log my sets, see what I did last",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I wasn't frustrated with other workout trackers, but I still built my own. And surprise-surprise, it's free \ud83d\ude05",
+        "url": "https://www.reddit.com/r/homefitness/comments/1x5oat8/i_wasnt_frustrated_with_other_workout_trackers/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-02",
+  "range_to": "2026-11-01",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i",
+      "cluster_id": "cluster-1",
+      "engagement": 41,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 10.136129032258065,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.41,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 22.700000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time. I also found other fitness apps too restrictive and a bit s\nJust downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+          "container": "apps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 5,
+            "score": 2
+          },
+          "engagement_score": 41,
+          "freshness": 65,
+          "item_id": "R3",
+          "local_rank_score": 0.47000000000000003,
+          "local_relevance": 0.41,
+          "metadata": {
+            "comment_insights": [
+              "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+              "It's absurd how many exercise apps charge for the most basic of features... this could really work for me."
+            ],
+            "top_comments": [
+              {
+                "author": "Local-Tea1656",
+                "date": "2026-10-16",
+                "excerpt": "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful",
+                "score": 1,
+                "url": "https://reddit.com/r/apps/comments/1x6v113/comment/ph5xcbu/"
+              },
+              {
+                "author": "AntAir267",
+                "date": "2026-10-15",
+                "excerpt": "It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+                "score": 1,
+                "url": "https://reddit.com/r/apps/comments/1x6v113/comment/pgyqwuf/"
+              }
+            ]
+          },
+          "published_at": "2026-10-15",
+          "relevance_hint": 0.22,
+          "snippet": "Just downloaded, I'll give it a go. I currently just use an excel sheet to track my programme so this could be useful It's absurd how many exercise apps charge for the most basic of features... this could really work for me.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+          "url": "https://www.reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+      "url": "https://www.reddit.com/r/apps/comments/1x6v113/i_spent_2_years_building_the_lifting_tracker_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline",
+      "cluster_id": "cluster-2",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 17.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+          "container": "coolgithubprojects",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 18
+          },
+          "engagement_score": 100,
+          "freshness": 70,
+          "item_id": "R1",
+          "local_rank_score": 0.483,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+              "If it was available and open source, I would definitely try it out.",
+              "Same here \u2026. Really live the idea and would use it sooo much",
+              "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+              "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+              "I'm looking to start a serious workout routine and witogur a trainer (most likely).",
+              "This is like 10th one I have seen this week."
+            ],
+            "top_comments": [
+              {
+                "author": "BenjiSponge",
+                "date": "2026-10-17",
+                "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+                "score": 4,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+              },
+              {
+                "author": "thomdough",
+                "date": "2026-10-17",
+                "excerpt": "If it was available and open source, I would definitely try it out.",
+                "score": 4,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+              },
+              {
+                "author": "Software_Sennin",
+                "date": "2026-10-17",
+                "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+              },
+              {
+                "author": "beberuhimuzik",
+                "date": "2026-10-17",
+                "excerpt": "Yeahhh!!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+              },
+              {
+                "author": "LankyPlenty8029",
+                "date": "2026-10-17",
+                "excerpt": "Release it! Looks good",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+              },
+              {
+                "author": "Background_Daikon300",
+                "date": "2026-10-17",
+                "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+              },
+              {
+                "author": "rogo725",
+                "date": "2026-10-18",
+                "excerpt": "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phet381/"
+              },
+              {
+                "author": "BowlingShoeThief",
+                "date": "2026-10-18",
+                "excerpt": "Yasss",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phf418b/"
+              },
+              {
+                "author": "saltyourhash",
+                "date": "2026-10-18",
+                "excerpt": "I'm looking to start a serious workout routine and witogur a trainer (most likely). This would be amazing to have open source. I could evne contribute code to it. I'd love this to be open source.",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phgbcw0/"
+              },
+              {
+                "author": "nonamenomonet",
+                "date": "2026-10-19",
+                "excerpt": "This is like 10th one I have seen this week.",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phlmqj3/"
+              }
+            ]
+          },
+          "published_at": "2026-10-17",
+          "relevance_hint": 0.54,
+          "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+          "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i",
+      "cluster_id": "cluster-3",
+      "engagement": 47,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.29,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 14.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Aside from the two-year thing, all the things that you mentioned as frustration points are pretty much the basic features that you find in any Fitness app Please stop with that 2y bs. I think the ui is cluttered at first glance really",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public. At first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time. I also found other fitness apps too restrictive and a bit s\nAside from the two-year thing, all the things that you mentioned as frustration points are pretty much the basic features that you find in any Fitness app Please stop with that 2y bs. I think the ui is cluttered at first glance really",
+          "container": "expo",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 2
+          },
+          "engagement_score": 47,
+          "freshness": 65,
+          "item_id": "R2",
+          "local_rank_score": 0.39799999999999996,
+          "local_relevance": 0.29,
+          "metadata": {
+            "comment_insights": [
+              "Aside from the two-year thing, all the things that you mentioned as frustration points are pretty much the basic features that you find in any Fitness...",
+              "I think the ui is cluttered at first glance really"
+            ],
+            "top_comments": [
+              {
+                "author": "Aytewun",
+                "date": "2026-10-16",
+                "excerpt": "Aside from the two-year thing, all the things that you mentioned as frustration points are pretty much the basic features that you find in any Fitness app",
+                "score": 2,
+                "url": "https://reddit.com/r/expo/comments/1x6vk61/comment/ph6q8yr/"
+              },
+              {
+                "author": "Inside_Egg_409",
+                "date": "2026-10-15",
+                "excerpt": "Please stop with that 2y bs.",
+                "score": 2,
+                "url": "https://reddit.com/r/expo/comments/1x6vk61/comment/pgzzinm/"
+              },
+              {
+                "author": "Dyloreddit",
+                "date": "2026-10-19",
+                "excerpt": "I think the ui is cluttered at first glance really",
+                "score": 1,
+                "url": "https://reddit.com/r/expo/comments/1x6vk61/comment/pho6tob/"
+              }
+            ]
+          },
+          "published_at": "2026-10-15",
+          "relevance_hint": 0.22,
+          "snippet": "Aside from the two-year thing, all the things that you mentioned as frustration points are pretty much the basic features that you find in any Fitness app Please stop with that 2y bs. I think the ui is cluttered at first glance really",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+          "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+      "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/homefitness/comments/1x5oat8/i_wasnt_frustrated_with_other_workout_trackers",
+      "cluster_id": "cluster-4",
+      "engagement": 1,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 2.0,
+      "item_id": "R6",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.399999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "Hey everyone! So yeah, I built another workout tracker. It's free, works offline, doesn't require an account, and all the usual stuff you've probably heard a hundred times already. But I actually use it every day, and I'd be really happy if someone else found it useful too. I built it around how I personally like to train: no unnecessary noise, just a few clicks to log my sets, see what I did last",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I wasn't frustrated with other workout trackers, but I still built my own. And surprise-surprise, it's free \ud83d\ude05\nHey everyone! So yeah, I built another workout tracker. It's free, works offline, doesn't require an account, and all the usual stuff you've probably heard a hundred times already. But I actually use it every day, and I'd be really happy if someone else found it useful too. I built it around how I personally like to train: no unnecessary noise, just a few clicks to log my sets, see what I did last time, and try to beat my previous numbers. There's also AI-powered workout plan generation. You can",
+          "container": "homefitness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 0
+          },
+          "engagement_score": 1,
+          "freshness": 64,
+          "item_id": "R6",
+          "local_rank_score": 0.278,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-14",
+          "relevance_hint": 0.24,
+          "snippet": "Hey everyone! So yeah, I built another workout tracker. It's free, works offline, doesn't require an account, and all the usual stuff you've probably heard a hundred times already. But I actually use it every day, and I'd be really happy if someone else found it useful too. I built it around how I personally like to train: no unnecessary noise, just a few clicks to log my sets, see what I did last",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I wasn't frustrated with other workout trackers, but I still built my own. And surprise-surprise, it's free \ud83d\ude05",
+          "url": "https://www.reddit.com/r/homefitness/comments/1x5oat8/i_wasnt_frustrated_with_other_workout_trackers/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I wasn't frustrated with other workout trackers, but I still built my own. And surprise-surprise, it's free \ud83d\ude05",
+      "url": "https://www.reddit.com/r/homefitness/comments/1x5oat8/i_wasnt_frustrated_with_other_workout_trackers/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
