@@ -1,0 +1,275 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/xboxally/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/xboxally/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ihatethissmug/comments/1xnznb6/i_hate_how_most_of_the_posts_and_comments_on"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/ihatethissmug/comments/1xnznb6/i_hate_how_most_of_the_posts_and_comments_on"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I hate how most of the posts and comments on Reddit in my native language are homophobic"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-06T19:01:37.692068+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I hate how most of the posts and comments on Reddit in my native language are homophobic\nNone",
+        "container": "ihatethissmug",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 103
+        },
+        "engagement_score": 22,
+        "freshness": 95,
+        "item_id": "R37",
+        "local_rank_score": 0.36350000000000005,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-04",
+        "relevance_hint": 0.24,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I hate how most of the posts and comments on Reddit in my native language are homophobic",
+        "url": "https://www.reddit.com/r/ihatethissmug/comments/1xnznb6/i_hate_how_most_of_the_posts_and_comments_on/",
+        "why_relevant": "Reddit r/ihatethissmug search"
+      },
+      {
+        "body": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.\nFollowing up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unreal. The OLED\u2019s are nearly identical imo of quality, but OXP3 is just more of the goodness.\n\nThe ergon",
+        "container": "XboxAlly",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 432,
+          "score": 331
+        },
+        "engagement_score": 54,
+        "freshness": 61,
+        "item_id": "R25",
+        "local_rank_score": 0.35600000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-18",
+        "relevance_hint": 0.14,
+        "snippet": "Following up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unrea",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.",
+        "url": "https://www.reddit.com/r/XboxAlly/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-07",
+  "range_to": "2026-11-06",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/xboxally/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks",
+      "cluster_id": "cluster-1",
+      "engagement": 54,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R25",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R25",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 9.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Following up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unrea",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.\nFollowing up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unreal. The OLED\u2019s are nearly identical imo of quality, but OXP3 is just more of the goodness.\n\nThe ergon",
+          "container": "XboxAlly",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 432,
+            "score": 331
+          },
+          "engagement_score": 54,
+          "freshness": 61,
+          "item_id": "R25",
+          "local_rank_score": 0.35600000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-18",
+          "relevance_hint": 0.14,
+          "snippet": "Following up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unrea",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.",
+          "url": "https://www.reddit.com/r/XboxAlly/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.",
+      "url": "https://www.reddit.com/r/XboxAlly/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/ihatethissmug/comments/1xnznb6/i_hate_how_most_of_the_posts_and_comments_on",
+      "cluster_id": "cluster-2",
+      "engagement": 22,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 56.05,
+      "item_id": "R37",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R37",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I hate how most of the posts and comments on Reddit in my native language are homophobic\nNone",
+          "container": "ihatethissmug",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 103
+          },
+          "engagement_score": 22,
+          "freshness": 95,
+          "item_id": "R37",
+          "local_rank_score": 0.36350000000000005,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-04",
+          "relevance_hint": 0.24,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I hate how most of the posts and comments on Reddit in my native language are homophobic",
+          "url": "https://www.reddit.com/r/ihatethissmug/comments/1xnznb6/i_hate_how_most_of_the_posts_and_comments_on/",
+          "why_relevant": "Reddit r/ihatethissmug search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I hate how most of the posts and comments on Reddit in my native language are homophobic",
+      "url": "https://www.reddit.com/r/ihatethissmug/comments/1xnznb6/i_hate_how_most_of_the_posts_and_comments_on/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
