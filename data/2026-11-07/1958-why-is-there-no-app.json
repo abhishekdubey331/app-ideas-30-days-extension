@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/personality/comments/1xlwant/you_wanna_discover_you_are_ive_got_some_actual"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/personality/comments/1xlwant/you_wanna_discover_you_are_ive_got_some_actual"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "You wanna discover you are? I've got some actual tips for you"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-07T19:58:31.549328+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "You wanna discover you are? I've got some actual tips for you\nOne of the things ive struggled the most in life was discovering myself. Hoping someone would give me the overall blueprint about who I really am. It took me years to arrive at who I've become now. And I'm not gonna say I've arrived at Somewhere and fully found myself.. but it's more like I've became soo much more confident when I understand myself more. And the process that led me through \"finding myself\" was...\n\nTaking endless mbti,enneagram etcc those types of quizes. I still love those and t",
+        "container": "Personality",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 89,
+        "item_id": "R1",
+        "local_rank_score": 0.3115,
+        "local_relevance": 0.06,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-02",
+        "relevance_hint": 0.22,
+        "snippet": "One of the things ive struggled the most in life was discovering myself. Hoping someone would give me the overall blueprint about who I really am. It took me years to arrive at who I've become now. And I'm not gonna say I've arrived at Somewhere and fully found myself.. but it's more like I've became soo much more confident when I understand myself more. And the process that led me through \"findin",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "You wanna discover you are? I've got some actual tips for you",
+        "url": "https://www.reddit.com/r/Personality/comments/1xlwant/you_wanna_discover_you_are_ive_got_some_actual/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-08",
+  "range_to": "2026-11-07",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/personality/comments/1xlwant/you_wanna_discover_you_are_ive_got_some_actual",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.06,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 3.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "One of the things ive struggled the most in life was discovering myself. Hoping someone would give me the overall blueprint about who I really am. It took me years to arrive at who I've become now. And I'm not gonna say I've arrived at Somewhere and fully found myself.. but it's more like I've became soo much more confident when I understand myself more. And the process that led me through \"findin",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "You wanna discover you are? I've got some actual tips for you\nOne of the things ive struggled the most in life was discovering myself. Hoping someone would give me the overall blueprint about who I really am. It took me years to arrive at who I've become now. And I'm not gonna say I've arrived at Somewhere and fully found myself.. but it's more like I've became soo much more confident when I understand myself more. And the process that led me through \"finding myself\" was...\n\nTaking endless mbti,enneagram etcc those types of quizes. I still love those and t",
+          "container": "Personality",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 89,
+          "item_id": "R1",
+          "local_rank_score": 0.3115,
+          "local_relevance": 0.06,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-02",
+          "relevance_hint": 0.22,
+          "snippet": "One of the things ive struggled the most in life was discovering myself. Hoping someone would give me the overall blueprint about who I really am. It took me years to arrive at who I've become now. And I'm not gonna say I've arrived at Somewhere and fully found myself.. but it's more like I've became soo much more confident when I understand myself more. And the process that led me through \"findin",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "You wanna discover you are? I've got some actual tips for you",
+          "url": "https://www.reddit.com/r/Personality/comments/1xlwant/you_wanna_discover_you_are_ive_got_some_actual/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "You wanna discover you are? I've got some actual tips for you",
+      "url": "https://www.reddit.com/r/Personality/comments/1xlwant/you_wanna_discover_you_are_ive_got_some_actual/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
