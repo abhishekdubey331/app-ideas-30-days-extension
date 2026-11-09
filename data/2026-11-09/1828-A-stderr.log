@@ -1,0 +1,163 @@
+Batch A sources=reddit,hackernews
+Started at 2026-11-09T18:28:06Z
+Run URL: https://github.com/abhishekdubey331/app-ideas-30-days-extension/actions/runs/42674235544
+----
+
+===== Seed: fitness "frustrated with" app =====
+/last30days · researching: fitness "frustrated with" app
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="fitness "frustrated with" app" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=fitness+%22frustrated+with%22+app&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'fitness "frustrated with" app' into 1 queries: ['fitness "frustrated with" app']
+[Reddit] Global search 1/2: 'fitness "frustrated with" app' (sort=relevance)
+[Reddit]   -> 25 results for 'fitness "frustrated with" app'
+[Reddit] Discovered subreddits: ['apps', 'homefitness', 'wahoofitness']
+[Reddit] Subreddit search: r/apps for 'fitness "frustrated with" app'
+[Reddit] Subreddit search: r/homefitness for 'fitness "frustrated with" app'
+[Reddit] Subreddit search: r/wahoofitness for 'fitness "frustrated with" app'
+[Reddit]   -> 1 results from r/wahoofitness
+[Reddit]   -> 1 results from r/homefitness
+[Reddit]   -> 2 results from r/apps
+[Reddit] After dedup: 26 unique posts
+[Reddit] Filtered 1 posts outside date range
+[Reddit] Final: 25 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 5.3s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (15.1s) - Reddit: 3 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-11-09/1828-fitness-frustrated-with-app.json
+[OK] seed succeeded
+
+===== Seed: students "better app than" =====
+/last30days · researching: students "better app than"
+⏳ [95mProcessing[0m Removing duplicates...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="students "better app than"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=students+%22better+app+than%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'students "better app than"' into 1 queries: ['students "better app than"']
+[Reddit] Global search 1/2: 'students "better app than"' (sort=relevance)
+[Reddit]   -> 0 results for 'students "better app than"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=students+%22better+app+than%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'students "better app than"' into 1 queries: ['students "better app than"']
+[Reddit] Global search 1/2: 'students "better app than"' (sort=relevance)
+[Reddit]   -> 0 results for 'students "better app than"'
+[Reddit] Discovered subreddits: []
+[Reddit] After dedup: 0 unique posts
+[Reddit] No posts within date range, keeping all 0
+[Reddit] Final: 0 Reddit posts
+✓ Research complete (1.0s) - Reddit: 0 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-11-09/1828-students-better-app-than.json
+[OK] seed succeeded
+
+===== Seed: travelers "I wish there was an app" =====
+/last30days · researching: travelers "I wish there was an app"
+⏳ [95mProcessing[0m Organizing findings...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="travelers "i wish there app"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=travelers+%22I+wish+there+was+an+app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'travelers "I wish there was an app"' into 2 queries: ['travelers "i wish there was app"', 'travelers "I wish there was an app"']
+[Reddit] Global search 1/2: 'travelers "i wish there was app"' (sort=relevance)
+[Reddit] Global search 2/2: 'travelers "I wish there was an app"' (sort=top)
+[Reddit]   -> 4 results for 'travelers "I wish there was an app"'
+[Reddit]   -> 0 results for 'travelers "i wish there was app"'
+[Reddit] Discovered subreddits: ['hyderabadstartups', 'hyderabad_telugu', 'hyderabad']
+[Reddit] Subreddit search: r/hyderabadstartups for 'travelers "i wish there was app"'
+[Reddit] Subreddit search: r/hyderabad_telugu for 'travelers "i wish there was app"'
+[Reddit] Subreddit search: r/hyderabad for 'travelers "i wish there was app"'
+[Reddit]   -> 0 results from r/hyderabad
+[Reddit]   -> 0 results from r/hyderabad_telugu
+[Reddit]   -> 0 results from r/hyderabadstartups
+[Reddit] After dedup: 4 unique posts
+[Reddit] Final: 4 Reddit posts
+[Reddit] Enriching comments for 4 posts (by total engagement)
+[Reddit] Enriched 4/4 posts in 5.2s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (16.4s) - Reddit: 3 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-11-09/1828-travelers-i-wish-there-was-an-app.json
+[OK] seed succeeded
+
+===== Seed: remote workers "is there a paid app" =====
+/last30days · researching: remote workers "is there a paid app"
+⏳ [95mProcessing[0m Scoring and ranking...
+[Planner] LLM planning failed, using deterministic fallback: HTTPError: HTTP 401: Unauthorized
+[Planner] Plan: intent=concept, freshness=evergreen_ok, cluster_mode=none, subqueries=1, source=deterministic
+[Planner]   sq1 label=primary search="remote workers "is there paid app"" sources=[reddit,hackernews]
+[RedditPublic] 403 forbidden: https://www.reddit.com/search.json?q=remote+workers+%22is+there+a+paid+app%22&sort=relevance&t=month&limit=25&raw_json=1
+[Reddit] Expanded 'remote workers "is there a paid app"' into 2 queries: ['remote workers "is there paid app"', 'remote workers "is there a paid app"']
+[Reddit] Global search 1/2: 'remote workers "is there paid app"' (sort=relevance)
+[Reddit] Global search 2/2: 'remote workers "is there a paid app"' (sort=top)
+[Reddit]   -> 0 results for 'remote workers "is there paid app"'
+[Reddit]   -> 25 results for 'remote workers "is there a paid app"'
+[Reddit] Discovered subreddits: ['technology', 'travel', 'Infuriating']
+[Reddit] Subreddit search: r/technology for 'remote workers "is there paid app"'
+[Reddit] Subreddit search: r/travel for 'remote workers "is there paid app"'
+[Reddit] Subreddit search: r/Infuriating for 'remote workers "is there paid app"'
+[Reddit]   -> 0 results from r/travel
+[Reddit]   -> 0 results from r/Infuriating
+[Reddit]   -> 0 results from r/technology
+[Reddit] After dedup: 25 unique posts
+[Reddit] Final: 25 Reddit posts
+[Reddit] Enriching comments for 5 posts (by total engagement)
+[Reddit] Enriched 5/5 posts in 7.0s
+[Rerank] LLM reranking failed, using local fallback: HTTPError: HTTP 401: Unauthorized
+[FunJudge] LLM scoring failed: HTTPError: HTTP 401: Unauthorized
+✓ Research complete (22.3s) - Reddit: 5 threads, HN: 0 stories
+
+💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
+
+Research quality: 4/5 core sources.
+Missing: YouTube.
+
+Free fixes:
+  - YouTube: video transcripts with key moments - often the deepest explanations on any topic. Install yt-dlp: brew install yt-dlp (free)
+  - Your SC key also powers Threads, Pinterest and YouTube comments. Add them to INCLUDE_SOURCES in your .env to enable.
+
+last30days has no affiliation with any API provider.
+[last30days] Saved batch JSON to data/2026-11-09/1829-remote-workers-is-there-a-paid-app.json
+[OK] seed succeeded
+
+----
+Batch summary: 4 succeeded, 0 failed

@@ -1,0 +1,905 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "remote workers \"is there a paid app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/technology/comments/1xohgv3/the_office_increasingly_fails_to_deliver_this"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/technology/comments/1xohgv3/the_office_increasingly_fails_to_deliver_this"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as \u2018remote' despite bosses promising to boost in-person teams"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/allthatsinteresting/comments/1xhmuik/in_the_1970s_and_80s_alaskan_serial_killer_robert"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/allthatsinteresting/comments/1xhmuik/in_the_1970s_and_80s_alaskan_serial_killer_robert"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "In the 1970s and \u201980s, Alaskan serial killer Robert Hansen abducted women, released them into the wilderness, and hunted them like animals before murdering them."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/interviewvip/comments/1xgsuec/if_you_give_100_theyll_give_you_25_of_someone"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/interviewvip/comments/1xgsuec/if_you_give_100_theyll_give_you_25_of_someone"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "If you give 100% they'll give you 25% of someone else's work."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/pcmasterrace/comments/1xbu3ew/psa_severe_rce_bugs_found_in_php_and_plex_and_tls"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/pcmasterrace/comments/1xbu3ew/psa_severe_rce_bugs_found_in_php_and_plex_and_tls"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "PSA: Severe RCE bugs found in PHP and Plex, and TLS intermediate certs compromised. If you develop server software or self-host web facing applications, update immediately."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/upliftingnews/comments/1x41i0v/rwanda_has_reduced_maternal_deaths_by_30_in_just"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/upliftingnews/comments/1x41i0v/rwanda_has_reduced_maternal_deaths_by_30_in_just"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Rwanda has reduced maternal deaths by 30% in just two years, building on an 85% decline over the past 20 years. Digital health systems help community health workers identify high risk pregnancies earlier, while virtual hospitals connect doctors in remote areas with specialists to save mothers' lives"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-09T18:29:02.808505+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as \u2018remote' despite bosses promising to boost in-person teams\nNone\nBut years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-person meetings still.\n\n The data, provided through a Federal Reserve Bank of New York report, found that many workers actually end up spending their office days either working independently or collaborating with colleagues through online platforms \u2013 Come into the office, spend all day on teams meetings at your desk, in the office. I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+        "container": "technology",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 537,
+          "score": 4332
+        },
+        "engagement_score": 100,
+        "freshness": 91,
+        "item_id": "R2",
+        "local_rank_score": 0.48350000000000004,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [
+            "But years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-...",
+            "Come into the office, spend all day on teams meetings at your desk, in the office.",
+            "two years ago I was told to come back into the office 3 days a week after working remote for 12 years.",
+            "I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+            "I\u2019ve been wondering recently if a law requiring commuting times to be paid would help solve this issue.",
+            "My company flew me to Seattle for a week for work. I sat in a cubicle for 3 hrs and had 2 Zoom calls with people who were all in adjacent cubicles.",
+            "the open office floorplan uses the same magical thinking as WeWork.",
+            "It\u2019s always been to justify the lease cost of the offices and to pretend middle managers have value, while watching over workers.",
+            "It was never about \"in-person collaboration\" - It was always about tax breaks that the businesses and the elite C-suite \"leaders\" get from having peop...",
+            "What I don't get, is they can have a far smaller and cheaper HQ for any instances they need an in person meeting / for executives and for needed infra..."
+          ],
+          "top_comments": [
+            {
+              "author": "invyros",
+              "date": "2026-11-05",
+              "excerpt": "But years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-person meetings still.\n\n The data, provided through a Federal Reserve Bank of New York report, found that many workers actually end up spending their office days either working independently or collaborating with colleagues through online platforms \u2013",
+              "score": 2076,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6ekhon4p9g/"
+            },
+            {
+              "author": "HotepHatt",
+              "date": "2026-11-05",
+              "excerpt": "Come into the office, spend all day on teams meetings at your desk, in the office.",
+              "score": 737,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6fh7pnz8bk/"
+            },
+            {
+              "author": "tekonus",
+              "date": "2026-11-05",
+              "excerpt": "I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+              "score": 289,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6f5b0ukag5/"
+            },
+            {
+              "author": "TheRatingsAgency",
+              "date": "2026-11-05",
+              "excerpt": "It\u2019s always been to justify the lease cost of the offices and to pretend middle managers have value, while watching over workers.\n\n Zero value gained. Or efficiency.",
+              "score": 212,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6est2yhxwh/"
+            },
+            {
+              "author": "CTGamerBear",
+              "date": "2026-11-05",
+              "excerpt": "two years ago I was told to come back into the office 3 days a week after working remote for 12 years. It's about an hour drive one way to work. The return to office mandate only applied to anyone within a 50 mile radius of the office.\n\n I go into the office, sit by myself in a pod of desks, and get",
+              "score": 126,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6nl9wzgr1d/"
+            },
+            {
+              "author": "marinerNA",
+              "date": "2026-11-05",
+              "excerpt": "I\u2019ve been wondering recently if a law requiring commuting times to be paid would help solve this issue. The cost and lost time spent commuting nowadays is just insane and is born 100% by the employees.",
+              "score": 106,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6qyn741uch/"
+            },
+            {
+              "author": "ReactionJifs",
+              "date": "2026-11-05",
+              "excerpt": "the open office floorplan uses the same magical thinking as WeWork.\n\n That somehow, you working on a project, and someone else, in a completely different discipline, working on a completely different project, will stop focusing, connect, and then learn from each other, improving both projects\n\n it d",
+              "score": 75,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6qghh5xxb4/"
+            },
+            {
+              "author": "BANGImportant2825",
+              "date": "2026-11-05",
+              "excerpt": "My company flew me to Seattle for a week for work. I sat in a cubicle for 3 hrs and had 2 Zoom calls with people who were all in adjacent cubicles. I went back to my hotel at noon. We have another one at 9 today. It\u2019s been a useless trip but I\u2019ll gladly spend the company\u2019s money since they aren\u2019t sp",
+              "score": 52,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6gumownpb8/"
+            },
+            {
+              "author": "lilaccheesecake",
+              "date": "2026-11-05",
+              "excerpt": "What I don't get, is they can have a far smaller and cheaper HQ for any instances they need an in person meeting / for executives and for needed infrastructure.\n\n Everyone else can be remote. And they'll save money. The fuck? Is this too smart a thinking??",
+              "score": 47,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6f6ksi35d0/"
+            },
+            {
+              "author": "LikelySoutherner",
+              "date": "2026-11-05",
+              "excerpt": "It was never about \"in-person collaboration\" - It was always about tax breaks that the businesses and the elite C-suite \"leaders\" get from having people in the building to keep their real estate investment relevant.\n\n Its ALWAYS about the money",
+              "score": 28,
+              "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6l9n4qvt9h/"
+            }
+          ]
+        },
+        "published_at": "2026-11-05",
+        "relevance_hint": 0.3,
+        "snippet": "But years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-person meetings still.\n\n The data, provided through a Federal Reserve Bank of New York report, found that many workers actually end up spending their office days either working independently or collaborating with colleagues through online platforms \u2013 Come into the office, spend all day on teams meetings at your desk, in the office. I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as \u2018remote' despite bosses promising to boost in-person teams",
+        "url": "https://www.reddit.com/r/technology/comments/1xohgv3/the_office_increasingly_fails_to_deliver_this/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "In the 1970s and \u201980s, Alaskan serial killer Robert Hansen abducted women, released them into the wilderness, and hunted them like animals before murdering them.\nKnown as the \"Butcher Baker,\" Robert Hansen carried out a terrifying killing spree around Anchorage, Alaska, for more than a decade. A respected baker and avid hunter by day, he secretly targeted sex workers and exotic dancers, flying or driving them into the remote Alaskan bush. There, he let them run \u2014 only to stalk them for hours or even days before finally murdering them with a rifle like wild game.\n\nUltimately, police found a map of the local area inside his home marked with tiny \"X's\" that\nOutside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as having the time for his super fucked hobbies. Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history. What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+        "container": "AllThatsInteresting",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 310,
+          "score": 3046
+        },
+        "engagement_score": 79,
+        "freshness": 76,
+        "item_id": "R5",
+        "local_rank_score": 0.425,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [
+            "Outside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as havin...",
+            "Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history.",
+            "What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+            "Why is it always men hunting women... how fucking weak.",
+            "He sounds like a real jerk.\n\n -Norm.",
+            "That\u2019s enough internet for today\u2026.",
+            "Looks like he listens to Huey Lewis and the News",
+            "Forgive me if this comment has already been made, but if you think you recognize this as an episode of criminal minds, you indeed do.",
+            "and then they made a movie about it."
+          ],
+          "top_comments": [
+            {
+              "author": "Shotbyahorse",
+              "date": "2026-10-28",
+              "excerpt": "Outside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as having the time for his super fucked hobbies.",
+              "score": 282,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsma1wcxcqq/"
+            },
+            {
+              "author": "stealingjoy",
+              "date": "2026-10-28",
+              "excerpt": "Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history.",
+              "score": 90,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rscctj80h4x/"
+            },
+            {
+              "author": "Fair_Quail8248",
+              "date": "2026-10-28",
+              "excerpt": "What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+              "score": 26,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsehn7fjb9g/"
+            },
+            {
+              "author": "dazzleunexpired",
+              "date": "2026-10-28",
+              "excerpt": "Forgive me if this comment has already been made, but if you think you recognize this as an episode of criminal minds, you indeed do. (:\n\n (There's actually two episodes that are based off Robert Hansen and he's mentioned by name in a third.)\n\n Eta: sometimes I wish the bot would not identify me thi",
+              "score": 21,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rst2qjua3lt/"
+            },
+            {
+              "author": "Livic-Basil",
+              "date": "2026-10-29",
+              "excerpt": "Why is it always men hunting women... how fucking weak.",
+              "score": 20,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19ru68kagorsx/"
+            },
+            {
+              "author": "ToyCannonJimmyWinn",
+              "date": "2026-10-28",
+              "excerpt": "He sounds like a real jerk.\n\n -Norm.",
+              "score": 18,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsdgscqq2te/"
+            },
+            {
+              "author": "KaptainKankles",
+              "date": "2026-10-28",
+              "excerpt": "That\u2019s enough internet for today\u2026.",
+              "score": 14,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsc6jaglcjp/"
+            },
+            {
+              "author": "Ok_Concentrate_75",
+              "date": "2026-10-28",
+              "excerpt": "Looks like he listens to Huey Lewis and the News",
+              "score": 12,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rs9zujw7mpw/"
+            },
+            {
+              "author": "Melodic-Comb9076",
+              "date": "2026-10-28",
+              "excerpt": "and then they made a movie about it.",
+              "score": 9,
+              "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rs9d9kvedhe/"
+            }
+          ]
+        },
+        "published_at": "2026-10-28",
+        "relevance_hint": 0.12,
+        "snippet": "Outside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as having the time for his super fucked hobbies. Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history. What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "In the 1970s and \u201980s, Alaskan serial killer Robert Hansen abducted women, released them into the wilderness, and hunted them like animals before murdering them.",
+        "url": "https://www.reddit.com/r/AllThatsInteresting/comments/1xhmuik/in_the_1970s_and_80s_alaskan_serial_killer_robert/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "If you give 100% they'll give you 25% of someone else's work.\nThis will actually be my strategy for the new job. I quit my previous job because of this. I was a hard worker who finishes tasks quickly and leave early 30 minutes because guess what? I finished my work so why to stay? They noticed and kept throwing more tasks on me without getting any salary raise. So, I submitted my resignation, and applied for a remote job this time and the interview is on Monday. These days, I've been trying to apply the tips mentioned here with a friend in a mock interview",
+        "container": "InterviewVip",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 144,
+          "score": 2735
+        },
+        "engagement_score": 46,
+        "freshness": 73,
+        "item_id": "R6",
+        "local_rank_score": 0.339,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-27",
+        "relevance_hint": 0.03,
+        "snippet": "This will actually be my strategy for the new job. I quit my previous job because of this. I was a hard worker who finishes tasks quickly and leave early 30 minutes because guess what? I finished my work so why to stay? They noticed and kept throwing more tasks on me without getting any salary raise. So, I submitted my resignation, and applied for a remote job this time and the interview is on Mon",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "If you give 100% they'll give you 25% of someone else's work.",
+        "url": "https://www.reddit.com/r/InterviewVip/comments/1xgsuec/if_you_give_100_theyll_give_you_25_of_someone/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "PSA: Severe RCE bugs found in PHP and Plex, and TLS intermediate certs compromised. If you develop server software or self-host web facing applications, update immediately.\nThere's never a dull moment.\n\nWhat's happening?\n\nOver the past two days, there's been a whole bunch of security issues found in lots of very popular software. While for the most part our userbase is gaming focused, for which this won't have a huge impact and might already be effectively mitigated, I know for an absolute fact there's a bunch of developers and homelabbers in our audience that will need to take action to protect their stuff. (frankly idk why you'd be finding this out via PCMR and n",
+        "container": "pcmasterrace",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 93,
+          "score": 1125
+        },
+        "engagement_score": 24,
+        "freshness": 61,
+        "item_id": "R20",
+        "local_rank_score": 0.28700000000000003,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-21",
+        "relevance_hint": 0.12,
+        "snippet": "There's never a dull moment.\n\nWhat's happening?\n\nOver the past two days, there's been a whole bunch of security issues found in lots of very popular software. While for the most part our userbase is gaming focused, for which this won't have a huge impact and might already be effectively mitigated, I know for an absolute fact there's a bunch of developers and homelabbers in our audience that will n",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "PSA: Severe RCE bugs found in PHP and Plex, and TLS intermediate certs compromised. If you develop server software or self-host web facing applications, update immediately.",
+        "url": "https://www.reddit.com/r/pcmasterrace/comments/1xbu3ew/psa_severe_rce_bugs_found_in_php_and_plex_and_tls/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Rwanda has reduced maternal deaths by 30% in just two years, building on an 85% decline over the past 20 years. Digital health systems help community health workers identify high risk pregnancies earlier, while virtual hospitals connect doctors in remote areas with specialists to save mothers' lives\nNone",
+        "container": "UpliftingNews",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 1483
+        },
+        "engagement_score": 1,
+        "freshness": 43,
+        "item_id": "R13",
+        "local_rank_score": 0.21900000000000003,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-12",
+        "relevance_hint": 0.3,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Rwanda has reduced maternal deaths by 30% in just two years, building on an 85% decline over the past 20 years. Digital health systems help community health workers identify high risk pregnancies earlier, while virtual hospitals connect doctors in remote areas with specialists to save mothers' lives",
+        "url": "https://www.reddit.com/r/UpliftingNews/comments/1x41i0v/rwanda_has_reduced_maternal_deaths_by_30_in_just/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "remote workers \"is there a paid app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to remote workers \"is there a paid app\", especially about remote workers \"is there paid app\"?",
+        "search_query": "remote workers \"is there paid app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-10",
+  "range_to": "2026-11-09",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/technology/comments/1xohgv3/the_office_increasingly_fails_to_deliver_this",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 16.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "But years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-person meetings still.\n\n The data, provided through a Federal Reserve Bank of New York report, found that many workers actually end up spending their office days either working independently or collaborating with colleagues through online platforms \u2013 Come into the office, spend all day on teams meetings at your desk, in the office. I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as \u2018remote' despite bosses promising to boost in-person teams\nNone\nBut years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-person meetings still.\n\n The data, provided through a Federal Reserve Bank of New York report, found that many workers actually end up spending their office days either working independently or collaborating with colleagues through online platforms \u2013 Come into the office, spend all day on teams meetings at your desk, in the office. I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+          "container": "technology",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 537,
+            "score": 4332
+          },
+          "engagement_score": 100,
+          "freshness": 91,
+          "item_id": "R2",
+          "local_rank_score": 0.48350000000000004,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [
+              "But years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-...",
+              "Come into the office, spend all day on teams meetings at your desk, in the office.",
+              "two years ago I was told to come back into the office 3 days a week after working remote for 12 years.",
+              "I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+              "I\u2019ve been wondering recently if a law requiring commuting times to be paid would help solve this issue.",
+              "My company flew me to Seattle for a week for work. I sat in a cubicle for 3 hrs and had 2 Zoom calls with people who were all in adjacent cubicles.",
+              "the open office floorplan uses the same magical thinking as WeWork.",
+              "It\u2019s always been to justify the lease cost of the offices and to pretend middle managers have value, while watching over workers.",
+              "It was never about \"in-person collaboration\" - It was always about tax breaks that the businesses and the elite C-suite \"leaders\" get from having peop...",
+              "What I don't get, is they can have a far smaller and cheaper HQ for any instances they need an in person meeting / for executives and for needed infra..."
+            ],
+            "top_comments": [
+              {
+                "author": "invyros",
+                "date": "2026-11-05",
+                "excerpt": "But years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-person meetings still.\n\n The data, provided through a Federal Reserve Bank of New York report, found that many workers actually end up spending their office days either working independently or collaborating with colleagues through online platforms \u2013",
+                "score": 2076,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6ekhon4p9g/"
+              },
+              {
+                "author": "HotepHatt",
+                "date": "2026-11-05",
+                "excerpt": "Come into the office, spend all day on teams meetings at your desk, in the office.",
+                "score": 737,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6fh7pnz8bk/"
+              },
+              {
+                "author": "tekonus",
+                "date": "2026-11-05",
+                "excerpt": "I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+                "score": 289,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6f5b0ukag5/"
+              },
+              {
+                "author": "TheRatingsAgency",
+                "date": "2026-11-05",
+                "excerpt": "It\u2019s always been to justify the lease cost of the offices and to pretend middle managers have value, while watching over workers.\n\n Zero value gained. Or efficiency.",
+                "score": 212,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6est2yhxwh/"
+              },
+              {
+                "author": "CTGamerBear",
+                "date": "2026-11-05",
+                "excerpt": "two years ago I was told to come back into the office 3 days a week after working remote for 12 years. It's about an hour drive one way to work. The return to office mandate only applied to anyone within a 50 mile radius of the office.\n\n I go into the office, sit by myself in a pod of desks, and get",
+                "score": 126,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6nl9wzgr1d/"
+              },
+              {
+                "author": "marinerNA",
+                "date": "2026-11-05",
+                "excerpt": "I\u2019ve been wondering recently if a law requiring commuting times to be paid would help solve this issue. The cost and lost time spent commuting nowadays is just insane and is born 100% by the employees.",
+                "score": 106,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6qyn741uch/"
+              },
+              {
+                "author": "ReactionJifs",
+                "date": "2026-11-05",
+                "excerpt": "the open office floorplan uses the same magical thinking as WeWork.\n\n That somehow, you working on a project, and someone else, in a completely different discipline, working on a completely different project, will stop focusing, connect, and then learn from each other, improving both projects\n\n it d",
+                "score": 75,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6qghh5xxb4/"
+              },
+              {
+                "author": "BANGImportant2825",
+                "date": "2026-11-05",
+                "excerpt": "My company flew me to Seattle for a week for work. I sat in a cubicle for 3 hrs and had 2 Zoom calls with people who were all in adjacent cubicles. I went back to my hotel at noon. We have another one at 9 today. It\u2019s been a useless trip but I\u2019ll gladly spend the company\u2019s money since they aren\u2019t sp",
+                "score": 52,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6gumownpb8/"
+              },
+              {
+                "author": "lilaccheesecake",
+                "date": "2026-11-05",
+                "excerpt": "What I don't get, is they can have a far smaller and cheaper HQ for any instances they need an in person meeting / for executives and for needed infrastructure.\n\n Everyone else can be remote. And they'll save money. The fuck? Is this too smart a thinking??",
+                "score": 47,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6f6ksi35d0/"
+              },
+              {
+                "author": "LikelySoutherner",
+                "date": "2026-11-05",
+                "excerpt": "It was never about \"in-person collaboration\" - It was always about tax breaks that the businesses and the elite C-suite \"leaders\" get from having people in the building to keep their real estate investment relevant.\n\n Its ALWAYS about the money",
+                "score": 28,
+                "url": "https://reddit.com/r/technology/comments/1xohgv3/comment/19s6l9n4qvt9h/"
+              }
+            ]
+          },
+          "published_at": "2026-11-05",
+          "relevance_hint": 0.3,
+          "snippet": "But years later, it seems those benefits are yet to be realized, and almost half (49%) of employees who commute to an office don't even have fully in-person meetings still.\n\n The data, provided through a Federal Reserve Bank of New York report, found that many workers actually end up spending their office days either working independently or collaborating with colleagues through online platforms \u2013 Come into the office, spend all day on teams meetings at your desk, in the office. I wish they would keep them all home so that traffic for workers that MUST commute would be so much better.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as \u2018remote' despite bosses promising to boost in-person teams",
+          "url": "https://www.reddit.com/r/technology/comments/1xohgv3/the_office_increasingly_fails_to_deliver_this/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as \u2018remote' despite bosses promising to boost in-person teams",
+      "url": "https://www.reddit.com/r/technology/comments/1xohgv3/the_office_increasingly_fails_to_deliver_this/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/allthatsinteresting/comments/1xhmuik/in_the_1970s_and_80s_alaskan_serial_killer_robert",
+      "cluster_id": "cluster-2",
+      "engagement": 79,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R5",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R5",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Outside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as having the time for his super fucked hobbies. Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history. What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "In the 1970s and \u201980s, Alaskan serial killer Robert Hansen abducted women, released them into the wilderness, and hunted them like animals before murdering them.\nKnown as the \"Butcher Baker,\" Robert Hansen carried out a terrifying killing spree around Anchorage, Alaska, for more than a decade. A respected baker and avid hunter by day, he secretly targeted sex workers and exotic dancers, flying or driving them into the remote Alaskan bush. There, he let them run \u2014 only to stalk them for hours or even days before finally murdering them with a rifle like wild game.\n\nUltimately, police found a map of the local area inside his home marked with tiny \"X's\" that\nOutside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as having the time for his super fucked hobbies. Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history. What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+          "container": "AllThatsInteresting",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 310,
+            "score": 3046
+          },
+          "engagement_score": 79,
+          "freshness": 76,
+          "item_id": "R5",
+          "local_rank_score": 0.425,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [
+              "Outside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as havin...",
+              "Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history.",
+              "What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+              "Why is it always men hunting women... how fucking weak.",
+              "He sounds like a real jerk.\n\n -Norm.",
+              "That\u2019s enough internet for today\u2026.",
+              "Looks like he listens to Huey Lewis and the News",
+              "Forgive me if this comment has already been made, but if you think you recognize this as an episode of criminal minds, you indeed do.",
+              "and then they made a movie about it."
+            ],
+            "top_comments": [
+              {
+                "author": "Shotbyahorse",
+                "date": "2026-10-28",
+                "excerpt": "Outside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as having the time for his super fucked hobbies.",
+                "score": 282,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsma1wcxcqq/"
+              },
+              {
+                "author": "stealingjoy",
+                "date": "2026-10-28",
+                "excerpt": "Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history.",
+                "score": 90,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rscctj80h4x/"
+              },
+              {
+                "author": "Fair_Quail8248",
+                "date": "2026-10-28",
+                "excerpt": "What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+                "score": 26,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsehn7fjb9g/"
+              },
+              {
+                "author": "dazzleunexpired",
+                "date": "2026-10-28",
+                "excerpt": "Forgive me if this comment has already been made, but if you think you recognize this as an episode of criminal minds, you indeed do. (:\n\n (There's actually two episodes that are based off Robert Hansen and he's mentioned by name in a third.)\n\n Eta: sometimes I wish the bot would not identify me thi",
+                "score": 21,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rst2qjua3lt/"
+              },
+              {
+                "author": "Livic-Basil",
+                "date": "2026-10-29",
+                "excerpt": "Why is it always men hunting women... how fucking weak.",
+                "score": 20,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19ru68kagorsx/"
+              },
+              {
+                "author": "ToyCannonJimmyWinn",
+                "date": "2026-10-28",
+                "excerpt": "He sounds like a real jerk.\n\n -Norm.",
+                "score": 18,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsdgscqq2te/"
+              },
+              {
+                "author": "KaptainKankles",
+                "date": "2026-10-28",
+                "excerpt": "That\u2019s enough internet for today\u2026.",
+                "score": 14,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rsc6jaglcjp/"
+              },
+              {
+                "author": "Ok_Concentrate_75",
+                "date": "2026-10-28",
+                "excerpt": "Looks like he listens to Huey Lewis and the News",
+                "score": 12,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rs9zujw7mpw/"
+              },
+              {
+                "author": "Melodic-Comb9076",
+                "date": "2026-10-28",
+                "excerpt": "and then they made a movie about it.",
+                "score": 9,
+                "url": "https://reddit.com/r/AllThatsInteresting/comments/1xhmuik/comment/19rs9d9kvedhe/"
+              }
+            ]
+          },
+          "published_at": "2026-10-28",
+          "relevance_hint": 0.12,
+          "snippet": "Outside of all the crazy, can we reflect on the fact an insane small town baker in the 70s could afford a home, family, plane, cabin, as well as having the time for his super fucked hobbies. Don't name your kid Robert Hansen.\n\n That name was also one of the worst moles in US intelligence history. What a freak. Disguisting degenerates like that make me sick to my stomach. You wish that there was some hell even if you don't believe in hell.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "In the 1970s and \u201980s, Alaskan serial killer Robert Hansen abducted women, released them into the wilderness, and hunted them like animals before murdering them.",
+          "url": "https://www.reddit.com/r/AllThatsInteresting/comments/1xhmuik/in_the_1970s_and_80s_alaskan_serial_killer_robert/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "In the 1970s and \u201980s, Alaskan serial killer Robert Hansen abducted women, released them into the wilderness, and hunted them like animals before murdering them.",
+      "url": "https://www.reddit.com/r/AllThatsInteresting/comments/1xhmuik/in_the_1970s_and_80s_alaskan_serial_killer_robert/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/interviewvip/comments/1xgsuec/if_you_give_100_theyll_give_you_25_of_someone",
+      "cluster_id": "cluster-3",
+      "engagement": 46,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 7.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "This will actually be my strategy for the new job. I quit my previous job because of this. I was a hard worker who finishes tasks quickly and leave early 30 minutes because guess what? I finished my work so why to stay? They noticed and kept throwing more tasks on me without getting any salary raise. So, I submitted my resignation, and applied for a remote job this time and the interview is on Mon",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "If you give 100% they'll give you 25% of someone else's work.\nThis will actually be my strategy for the new job. I quit my previous job because of this. I was a hard worker who finishes tasks quickly and leave early 30 minutes because guess what? I finished my work so why to stay? They noticed and kept throwing more tasks on me without getting any salary raise. So, I submitted my resignation, and applied for a remote job this time and the interview is on Monday. These days, I've been trying to apply the tips mentioned here with a friend in a mock interview",
+          "container": "InterviewVip",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 144,
+            "score": 2735
+          },
+          "engagement_score": 46,
+          "freshness": 73,
+          "item_id": "R6",
+          "local_rank_score": 0.339,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-27",
+          "relevance_hint": 0.03,
+          "snippet": "This will actually be my strategy for the new job. I quit my previous job because of this. I was a hard worker who finishes tasks quickly and leave early 30 minutes because guess what? I finished my work so why to stay? They noticed and kept throwing more tasks on me without getting any salary raise. So, I submitted my resignation, and applied for a remote job this time and the interview is on Mon",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "If you give 100% they'll give you 25% of someone else's work.",
+          "url": "https://www.reddit.com/r/InterviewVip/comments/1xgsuec/if_you_give_100_theyll_give_you_25_of_someone/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "If you give 100% they'll give you 25% of someone else's work.",
+      "url": "https://www.reddit.com/r/InterviewVip/comments/1xgsuec/if_you_give_100_theyll_give_you_25_of_someone/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/pcmasterrace/comments/1xbu3ew/psa_severe_rce_bugs_found_in_php_and_plex_and_tls",
+      "cluster_id": "cluster-4",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R20",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R20",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 5.100000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "There's never a dull moment.\n\nWhat's happening?\n\nOver the past two days, there's been a whole bunch of security issues found in lots of very popular software. While for the most part our userbase is gaming focused, for which this won't have a huge impact and might already be effectively mitigated, I know for an absolute fact there's a bunch of developers and homelabbers in our audience that will n",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "PSA: Severe RCE bugs found in PHP and Plex, and TLS intermediate certs compromised. If you develop server software or self-host web facing applications, update immediately.\nThere's never a dull moment.\n\nWhat's happening?\n\nOver the past two days, there's been a whole bunch of security issues found in lots of very popular software. While for the most part our userbase is gaming focused, for which this won't have a huge impact and might already be effectively mitigated, I know for an absolute fact there's a bunch of developers and homelabbers in our audience that will need to take action to protect their stuff. (frankly idk why you'd be finding this out via PCMR and n",
+          "container": "pcmasterrace",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 93,
+            "score": 1125
+          },
+          "engagement_score": 24,
+          "freshness": 61,
+          "item_id": "R20",
+          "local_rank_score": 0.28700000000000003,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-21",
+          "relevance_hint": 0.12,
+          "snippet": "There's never a dull moment.\n\nWhat's happening?\n\nOver the past two days, there's been a whole bunch of security issues found in lots of very popular software. While for the most part our userbase is gaming focused, for which this won't have a huge impact and might already be effectively mitigated, I know for an absolute fact there's a bunch of developers and homelabbers in our audience that will n",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "PSA: Severe RCE bugs found in PHP and Plex, and TLS intermediate certs compromised. If you develop server software or self-host web facing applications, update immediately.",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1xbu3ew/psa_severe_rce_bugs_found_in_php_and_plex_and_tls/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "PSA: Severe RCE bugs found in PHP and Plex, and TLS intermediate certs compromised. If you develop server software or self-host web facing applications, update immediately.",
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1xbu3ew/psa_severe_rce_bugs_found_in_php_and_plex_and_tls/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/upliftingnews/comments/1x41i0v/rwanda_has_reduced_maternal_deaths_by_30_in_just",
+      "cluster_id": "cluster-5",
+      "engagement": 1,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 2.0,
+      "item_id": "R13",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R13",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 1.5,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Rwanda has reduced maternal deaths by 30% in just two years, building on an 85% decline over the past 20 years. Digital health systems help community health workers identify high risk pregnancies earlier, while virtual hospitals connect doctors in remote areas with specialists to save mothers' lives\nNone",
+          "container": "UpliftingNews",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 1483
+          },
+          "engagement_score": 1,
+          "freshness": 43,
+          "item_id": "R13",
+          "local_rank_score": 0.21900000000000003,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-12",
+          "relevance_hint": 0.3,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Rwanda has reduced maternal deaths by 30% in just two years, building on an 85% decline over the past 20 years. Digital health systems help community health workers identify high risk pregnancies earlier, while virtual hospitals connect doctors in remote areas with specialists to save mothers' lives",
+          "url": "https://www.reddit.com/r/UpliftingNews/comments/1x41i0v/rwanda_has_reduced_maternal_deaths_by_30_in_just/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Rwanda has reduced maternal deaths by 30% in just two years, building on an 85% decline over the past 20 years. Digital health systems help community health workers identify high risk pregnancies earlier, while virtual hospitals connect doctors in remote areas with specialists to save mothers' lives",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/1x41i0v/rwanda_has_reduced_maternal_deaths_by_30_in_just/"
+    }
+  ],
+  "topic": "remote workers \"is there a paid app\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
