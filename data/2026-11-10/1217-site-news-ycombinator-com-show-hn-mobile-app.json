@@ -1,0 +1,463 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@stardust.gx/video/7702479041017859349"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@stardust.gx/video/7702479041017859349"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Uplo",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@reelwireio/video/7703576400661368065"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@reelwireio/video/7703576400661368065"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: Hac",
+      "uncertainty": "single-source"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@godzillaenlacasa/video/7701378071588310286"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://tiktok.com/@godzillaenlacasa/video/7701378071588310286"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cu",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-10T12:17:20.474300+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "stardust.gx",
+        "body": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Upload Method \u2192 @editingnews.com\u200b",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 44,
+          "likes": 186,
+          "shares": 20,
+          "views": 4060
+        },
+        "engagement_score": 45,
+        "freshness": 63,
+        "item_id": "TK13",
+        "local_rank_score": 0.326,
+        "local_relevance": 0.19,
+        "metadata": {
+          "hashtags": [
+            "aftereffects",
+            "alightmotion",
+            "capcut",
+            "blurrrapp",
+            "fyp",
+            "editingnews"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-10-30",
+        "relevance_hint": 0.36,
+        "snippet": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Upload Method \u2192 @editingnews.com\u200b",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Uplo",
+        "url": "https://www.tiktok.com/@stardust.gx/video/7702479041017859349",
+        "why_relevant": "TikTok: This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova"
+      },
+      {
+        "author": "reelwireio",
+        "body": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: HackerBooks \u2013 HackerTube, but for books mentioned on HN (1245 points) \u2022 Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case (456 points) \u2022 The AI cost of JavaScript frameworks (346 points) \u2022 Ask HN: Which TV do you recommend for privacy? (284 points) \u2022 Mathematics has changed. Let's act like it (277 points) Made by Reelwire, untouched. On brand. Every day. #Tech #hackernews #news #reelwire",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 2,
+          "shares": 0,
+          "views": 142
+        },
+        "engagement_score": 6,
+        "freshness": 73,
+        "item_id": "TK19",
+        "local_rank_score": 0.312,
+        "local_relevance": 0.19,
+        "metadata": {
+          "hashtags": [
+            "tech",
+            "hackernews",
+            "news",
+            "reelwire"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-11-02",
+        "relevance_hint": 0.19,
+        "snippet": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: HackerBooks \u2013 HackerTube, but for books mentioned on HN (1245 points) \u2022 Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case (456 points) \u2022 The AI cost of JavaScript frameworks (346 points) \u2022 Ask HN: Which TV do you recommend for privacy? (284 points) \u2022 Mathematics has changed. Let's act like it (277 points) Made by Reelwire, untouched. On brand. Every day. #Tech #hackernews #news #reelwire",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: Hac",
+        "url": "https://www.tiktok.com/@reelwireio/video/7703576400661368065",
+        "why_relevant": "TikTok: The most upvoted stories on Hacker News this morning: \u2022 Hack"
+      },
+      {
+        "author": "godzillaenlacasa",
+        "body": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cut it to 79, and also flagged a line that overstated what our scanner does. HN would have caught that in about four seconds, so it got rewritten too. (HN then told us new accounts can't post a Show HN yet.) Then my AI CEO Angie rewrote the buy button: it now names your worst problem and counts the rest. Day 10 of building ShipLatch in public with an AI team. Free security scans for vibe-coded apps: shiplatch.com #buildinpublic #vibecoding #appsecurity",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 0,
+          "likes": 0,
+          "shares": 0,
+          "views": 84
+        },
+        "engagement_score": 0,
+        "freshness": 53,
+        "item_id": "TK22",
+        "local_rank_score": 0.29500000000000004,
+        "local_relevance": 0.25,
+        "metadata": {
+          "hashtags": [
+            "buildinpublic",
+            "vibecoding",
+            "appsecurity"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-10-27",
+        "relevance_hint": 0.52,
+        "snippet": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cut it to 79, and also flagged a line that overstated what our scanner does. HN would have caught that in about four seconds, so it got rewritten too. (HN then told us new accounts can't post a Show HN yet.) Then my AI CEO Angie rewrote the buy button: it now names your worst problem and counts the rest. Day 10 of building ShipLatch in public with an AI team. Free security scans for vibe-coded apps: shiplatch.com #buildinpublic #vibecoding #appsecurity",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cu",
+        "url": "https://www.tiktok.com/@godzillaenlacasa/video/7701378071588310286",
+        "why_relevant": "TikTok: Launching on Hacker News? Count your title first. Hacker New"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Show HN\" \"mobile app\"?",
+        "search_query": "site:news.ycombinator.com \"show hn\" \"mobile app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-10-11",
+  "range_to": "2026-11-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@stardust.gx/video/7702479041017859349",
+      "cluster_id": "cluster-1",
+      "engagement": 45,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 63,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK13",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK13",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK13",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 6.699999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Upload Method \u2192 @editingnews.com\u200b",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "stardust.gx",
+          "body": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Upload Method \u2192 @editingnews.com\u200b",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 44,
+            "likes": 186,
+            "shares": 20,
+            "views": 4060
+          },
+          "engagement_score": 45,
+          "freshness": 63,
+          "item_id": "TK13",
+          "local_rank_score": 0.326,
+          "local_relevance": 0.19,
+          "metadata": {
+            "hashtags": [
+              "aftereffects",
+              "alightmotion",
+              "capcut",
+              "blurrrapp",
+              "fyp",
+              "editingnews"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-10-30",
+          "relevance_hint": 0.36,
+          "snippet": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Upload Method \u2192 @editingnews.com\u200b",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Uplo",
+          "url": "https://www.tiktok.com/@stardust.gx/video/7702479041017859349",
+          "why_relevant": "TikTok: This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "This Mobile App Feels Like After Effects \ud83e\udd2f||App Name  (Nova Editor)||#aftereffects #alightmotion #capcut #blurrrapp #fyp #editingnews \u30fb Uplo",
+      "url": "https://www.tiktok.com/@stardust.gx/video/7702479041017859349"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@reelwireio/video/7703576400661368065",
+      "cluster_id": "cluster-2",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 12.0,
+      "item_id": "TK19",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK19",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK19",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 2,
+        "reaction:tiktok": 2
+      },
+      "rerank_score": 8.699999999999996,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: HackerBooks \u2013 HackerTube, but for books mentioned on HN (1245 points) \u2022 Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case (456 points) \u2022 The AI cost of JavaScript frameworks (346 points) \u2022 Ask HN: Which TV do you recommend for privacy? (284 points) \u2022 Mathematics has changed. Let's act like it (277 points) Made by Reelwire, untouched. On brand. Every day. #Tech #hackernews #news #reelwire",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "reelwireio",
+          "body": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: HackerBooks \u2013 HackerTube, but for books mentioned on HN (1245 points) \u2022 Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case (456 points) \u2022 The AI cost of JavaScript frameworks (346 points) \u2022 Ask HN: Which TV do you recommend for privacy? (284 points) \u2022 Mathematics has changed. Let's act like it (277 points) Made by Reelwire, untouched. On brand. Every day. #Tech #hackernews #news #reelwire",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 2,
+            "shares": 0,
+            "views": 142
+          },
+          "engagement_score": 6,
+          "freshness": 73,
+          "item_id": "TK19",
+          "local_rank_score": 0.312,
+          "local_relevance": 0.19,
+          "metadata": {
+            "hashtags": [
+              "tech",
+              "hackernews",
+              "news",
+              "reelwire"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-11-02",
+          "relevance_hint": 0.19,
+          "snippet": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: HackerBooks \u2013 HackerTube, but for books mentioned on HN (1245 points) \u2022 Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case (456 points) \u2022 The AI cost of JavaScript frameworks (346 points) \u2022 Ask HN: Which TV do you recommend for privacy? (284 points) \u2022 Mathematics has changed. Let's act like it (277 points) Made by Reelwire, untouched. On brand. Every day. #Tech #hackernews #news #reelwire",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: Hac",
+          "url": "https://www.tiktok.com/@reelwireio/video/7703576400661368065",
+          "why_relevant": "TikTok: The most upvoted stories on Hacker News this morning: \u2022 Hack"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "The most upvoted stories on Hacker News this morning: \u2022 HackerTube: YouTube built from videos recommended by HN (2466 points) \u2022 Show HN: Hac",
+      "url": "https://www.tiktok.com/@reelwireio/video/7703576400661368065"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@godzillaenlacasa/video/7701378071588310286",
+      "cluster_id": "cluster-3",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "TK22",
+      "local_relevance": 0.25,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK22",
+            "native_rank": 3,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK22",
+            "native_rank": 3,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 3,
+        "reaction:tiktok": 3
+      },
+      "rerank_score": 8.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cut it to 79, and also flagged a line that overstated what our scanner does. HN would have caught that in about four seconds, so it got rewritten too. (HN then told us new accounts can't post a Show HN yet.) Then my AI CEO Angie rewrote the buy button: it now names your worst problem and counts the rest. Day 10 of building ShipLatch in public with an AI team. Free security scans for vibe-coded apps: shiplatch.com #buildinpublic #vibecoding #appsecurity",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "godzillaenlacasa",
+          "body": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cut it to 79, and also flagged a line that overstated what our scanner does. HN would have caught that in about four seconds, so it got rewritten too. (HN then told us new accounts can't post a Show HN yet.) Then my AI CEO Angie rewrote the buy button: it now names your worst problem and counts the rest. Day 10 of building ShipLatch in public with an AI team. Free security scans for vibe-coded apps: shiplatch.com #buildinpublic #vibecoding #appsecurity",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 0,
+            "likes": 0,
+            "shares": 0,
+            "views": 84
+          },
+          "engagement_score": 0,
+          "freshness": 53,
+          "item_id": "TK22",
+          "local_rank_score": 0.29500000000000004,
+          "local_relevance": 0.25,
+          "metadata": {
+            "hashtags": [
+              "buildinpublic",
+              "vibecoding",
+              "appsecurity"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-10-27",
+          "relevance_hint": 0.52,
+          "snippet": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cut it to 79, and also flagged a line that overstated what our scanner does. HN would have caught that in about four seconds, so it got rewritten too. (HN then told us new accounts can't post a Show HN yet.) Then my AI CEO Angie rewrote the buy button: it now names your worst problem and counts the rest. Day 10 of building ShipLatch in public with an AI team. Free security scans for vibe-coded apps: shiplatch.com #buildinpublic #vibecoding #appsecurity",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cu",
+          "url": "https://www.tiktok.com/@godzillaenlacasa/video/7701378071588310286",
+          "why_relevant": "TikTok: Launching on Hacker News? Count your title first. Hacker New"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Launching on Hacker News? Count your title first. Hacker News caps titles at 80 characters. Ours was 92. My AI Growth agent caught it and cu",
+      "url": "https://www.tiktok.com/@godzillaenlacasa/video/7701378071588310286"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Show HN\" \"mobile app\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@trin.talks/video/7703811766119157006"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@trin.talks/video/7703811766119157006"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-10T12:17:45.297795+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "trin.talks",
+        "body": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 11,
+          "likes": 215,
+          "shares": 59,
+          "views": 6583
+        },
+        "engagement_score": 33,
+        "freshness": 76,
+        "item_id": "TK7",
+        "local_rank_score": 0.353,
+        "local_relevance": 0.2,
+        "metadata": {
+          "hashtags": [
+            "ai",
+            "aiagent",
+            "technews",
+            "ycombinator",
+            "yc"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-11-03",
+        "relevance_hint": 0.39,
+        "snippet": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+        "url": "https://www.tiktok.com/@trin.talks/video/7703811766119157006",
+        "why_relevant": "TikTok: Do you think multiplayer AI will be huge?? #ai #aiagent #tec"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "story",
+    "freshness_mode": "strict_recent",
+    "intent": "breaking_news",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:news.ycombinator.com \"Ask HN\" \"is there an app\", especially about site:news.ycombinator.com \"ask hn\" \"is there app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.5882352941176471
+      },
+      {
+        "label": "reaction",
+        "ranking_query": "What new reactions or follow-up reporting from the last 30 days matter for site:news.ycombinator.com \"Ask HN\" \"is there an app\"?",
+        "search_query": "site:news.ycombinator.com \"ask hn\" \"is there app\" reaction update",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 0.4117647058823529
+      }
+    ]
+  },
+  "range_from": "2026-10-11",
+  "range_to": "2026-11-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@trin.talks/video/7703811766119157006",
+      "cluster_id": "cluster-1",
+      "engagement": 33,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 76,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 45.25,
+      "item_id": "TK7",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK7",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          },
+          {
+            "item_id": "TK7",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "reaction"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1,
+        "reaction:tiktok": 1
+      },
+      "rerank_score": 10.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "trin.talks",
+          "body": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 11,
+            "likes": 215,
+            "shares": 59,
+            "views": 6583
+          },
+          "engagement_score": 33,
+          "freshness": 76,
+          "item_id": "TK7",
+          "local_rank_score": 0.353,
+          "local_relevance": 0.2,
+          "metadata": {
+            "hashtags": [
+              "ai",
+              "aiagent",
+              "technews",
+              "ycombinator",
+              "yc"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-11-03",
+          "relevance_hint": 0.39,
+          "snippet": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+          "url": "https://www.tiktok.com/@trin.talks/video/7703811766119157006",
+          "why_relevant": "TikTok: Do you think multiplayer AI will be huge?? #ai #aiagent #tec"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary",
+        "reaction"
+      ],
+      "title": "Do you think multiplayer AI will be huge?? #ai #aiagent #technews #ycombinator #yc",
+      "url": "https://www.tiktok.com/@trin.talks/video/7703811766119157006"
+    }
+  ],
+  "topic": "site:news.ycombinator.com \"Ask HN\" \"is there an app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
