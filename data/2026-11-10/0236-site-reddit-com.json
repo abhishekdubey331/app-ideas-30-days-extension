@@ -1,0 +1,488 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/desloppification/comments/1xcvcyd/deslopped_this_meme"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/desloppification/comments/1xcvcyd/deslopped_this_meme"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Deslopped this meme"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/redditstock/comments/1xmhwc2/i_found_a_thread_on_reddit_explaining_the_demise"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/redditstock/comments/1xmhwc2/i_found_a_thread_on_reddit_explaining_the_demise"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I found a thread on Reddit explaining the demise of Quora. I think it is pretty relevant to us."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Price check new one cost 42k"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/piercingadvice/comments/1xhao28/vertical_labret_irrational_bump_on_bottom_would"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/piercingadvice/comments/1xhao28/vertical_labret_irrational_bump_on_bottom_would"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Vertical Labret irrational bump on bottom. Would disk help?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-10T02:35:52.539440+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Price check new one cost 42k\nRealme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Deal, Can Also Ship if buyer is not from Kanpur UP, Have Already Sold many items through reddit in Bang",
+        "container": "resellpur",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 0
+        },
+        "engagement_score": 7,
+        "freshness": 88,
+        "item_id": "R34",
+        "local_rank_score": 0.331,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-04",
+        "relevance_hint": 0.06,
+        "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Price check new one cost 42k",
+        "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I found a thread on Reddit explaining the demise of Quora. I think it is pretty relevant to us.\nNone",
+        "container": "redditstock",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 45,
+          "score": 0
+        },
+        "engagement_score": 13,
+        "freshness": 85,
+        "item_id": "R15",
+        "local_rank_score": 0.323,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-03",
+        "relevance_hint": 0.24,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I found a thread on Reddit explaining the demise of Quora. I think it is pretty relevant to us.",
+        "url": "https://www.reddit.com/r/redditstock/comments/1xmhwc2/i_found_a_thread_on_reddit_explaining_the_demise/",
+        "why_relevant": "Reddit r/redditstock search"
+      },
+      {
+        "body": "Deslopped this meme\nSource: https://www.reddit.com/r/antiai/s/9xOyR6yzRr",
+        "container": "desloppification",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 286
+        },
+        "engagement_score": 45,
+        "freshness": 61,
+        "item_id": "R8",
+        "local_rank_score": 0.3015,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-22",
+        "relevance_hint": 0.14,
+        "snippet": "Source: https://www.reddit.com/r/antiai/s/9xOyR6yzRr",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Deslopped this meme",
+        "url": "https://www.reddit.com/r/desloppification/comments/1xcvcyd/deslopped_this_meme/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Vertical Labret irrational bump on bottom. Would disk help?\nMy lovely daughter head butted me on accident and my piercing bled and was throbbing all night. It didn\u2019t swell bad as I did cold saline soak. It is around 4 months old and had been downsized once but I assume it was too loose. The headbutt did make the top feel raw/sting so I was messing around with the ball a lot (bad ik) after 2 days this bump on the lower lip occurred. I saw a piercer in the state im on vacation in and switched to a flat top titanium curved barbell (Reddit\u2019s advice) It\u2019s bee",
+        "container": "PiercingAdvice",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 5,
+        "freshness": 73,
+        "item_id": "R42",
+        "local_rank_score": 0.2915,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-28",
+        "relevance_hint": 0.06,
+        "snippet": "My lovely daughter head butted me on accident and my piercing bled and was throbbing all night. It didn\u2019t swell bad as I did cold saline soak. It is around 4 months old and had been downsized once but I assume it was too loose. The headbutt did make the top feel raw/sting so I was messing around with the ball a lot (bad ik) after 2 days this bump on the lower lip occurred. I saw a piercer in the s",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Vertical Labret irrational bump on bottom. Would disk help?",
+        "url": "https://www.reddit.com/r/PiercingAdvice/comments/1xhao28/vertical_labret_irrational_bump_on_bottom_would/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-11",
+  "range_to": "2026-11-10",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/desloppification/comments/1xcvcyd/deslopped_this_meme",
+      "cluster_id": "cluster-1",
+      "engagement": 45,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 59.2,
+      "item_id": "R8",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Source: https://www.reddit.com/r/antiai/s/9xOyR6yzRr",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Deslopped this meme\nSource: https://www.reddit.com/r/antiai/s/9xOyR6yzRr",
+          "container": "desloppification",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 286
+          },
+          "engagement_score": 45,
+          "freshness": 61,
+          "item_id": "R8",
+          "local_rank_score": 0.3015,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-22",
+          "relevance_hint": 0.14,
+          "snippet": "Source: https://www.reddit.com/r/antiai/s/9xOyR6yzRr",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Deslopped this meme",
+          "url": "https://www.reddit.com/r/desloppification/comments/1xcvcyd/deslopped_this_meme/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Deslopped this meme",
+      "url": "https://www.reddit.com/r/desloppification/comments/1xcvcyd/deslopped_this_meme/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/redditstock/comments/1xmhwc2/i_found_a_thread_on_reddit_explaining_the_demise",
+      "cluster_id": "cluster-2",
+      "engagement": 13,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 41.0,
+      "item_id": "R15",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R15",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 8.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I found a thread on Reddit explaining the demise of Quora. I think it is pretty relevant to us.\nNone",
+          "container": "redditstock",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 45,
+            "score": 0
+          },
+          "engagement_score": 13,
+          "freshness": 85,
+          "item_id": "R15",
+          "local_rank_score": 0.323,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-03",
+          "relevance_hint": 0.24,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I found a thread on Reddit explaining the demise of Quora. I think it is pretty relevant to us.",
+          "url": "https://www.reddit.com/r/redditstock/comments/1xmhwc2/i_found_a_thread_on_reddit_explaining_the_demise/",
+          "why_relevant": "Reddit r/redditstock search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I found a thread on Reddit explaining the demise of Quora. I think it is pretty relevant to us.",
+      "url": "https://www.reddit.com/r/redditstock/comments/1xmhwc2/i_found_a_thread_on_reddit_explaining_the_demise/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k",
+      "cluster_id": "cluster-3",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 88,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 14.0,
+      "item_id": "R34",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R34",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.799999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Price check new one cost 42k\nRealme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Deal, Can Also Ship if buyer is not from Kanpur UP, Have Already Sold many items through reddit in Bang",
+          "container": "resellpur",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 0
+          },
+          "engagement_score": 7,
+          "freshness": 88,
+          "item_id": "R34",
+          "local_rank_score": 0.331,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-04",
+          "relevance_hint": 0.06,
+          "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Price check new one cost 42k",
+          "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Price check new one cost 42k",
+      "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/piercingadvice/comments/1xhao28/vertical_labret_irrational_bump_on_bottom_would",
+      "cluster_id": "cluster-4",
+      "engagement": 5,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 73,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 20.0,
+      "item_id": "R42",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R42",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.800000000000001,
+      "rrf_score": 0.0078125,
+      "snippet": "My lovely daughter head butted me on accident and my piercing bled and was throbbing all night. It didn\u2019t swell bad as I did cold saline soak. It is around 4 months old and had been downsized once but I assume it was too loose. The headbutt did make the top feel raw/sting so I was messing around with the ball a lot (bad ik) after 2 days this bump on the lower lip occurred. I saw a piercer in the s",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Vertical Labret irrational bump on bottom. Would disk help?\nMy lovely daughter head butted me on accident and my piercing bled and was throbbing all night. It didn\u2019t swell bad as I did cold saline soak. It is around 4 months old and had been downsized once but I assume it was too loose. The headbutt did make the top feel raw/sting so I was messing around with the ball a lot (bad ik) after 2 days this bump on the lower lip occurred. I saw a piercer in the state im on vacation in and switched to a flat top titanium curved barbell (Reddit\u2019s advice) It\u2019s bee",
+          "container": "PiercingAdvice",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 5,
+          "freshness": 73,
+          "item_id": "R42",
+          "local_rank_score": 0.2915,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-28",
+          "relevance_hint": 0.06,
+          "snippet": "My lovely daughter head butted me on accident and my piercing bled and was throbbing all night. It didn\u2019t swell bad as I did cold saline soak. It is around 4 months old and had been downsized once but I assume it was too loose. The headbutt did make the top feel raw/sting so I was messing around with the ball a lot (bad ik) after 2 days this bump on the lower lip occurred. I saw a piercer in the s",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Vertical Labret irrational bump on bottom. Would disk help?",
+          "url": "https://www.reddit.com/r/PiercingAdvice/comments/1xhao28/vertical_labret_irrational_bump_on_bottom_would/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Vertical Labret irrational bump on bottom. Would disk help?",
+      "url": "https://www.reddit.com/r/PiercingAdvice/comments/1xhao28/vertical_labret_irrational_bump_on_bottom_would/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
