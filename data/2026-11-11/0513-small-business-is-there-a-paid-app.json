@@ -1,0 +1,815 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "small business \"is there a paid app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/amitheasshole/comments/1x9vb4m/aitah_for_not_wanting_to_pay_for_this_little"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/amitheasshole/comments/1x9vb4m/aitah_for_not_wanting_to_pay_for_this_little"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "AITAH for not wanting to pay for this little girl\u2019s dress?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/crm/comments/1xbk4b5/unpopular_opinion_from_someone_who_builds_crms"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/crm/comments/1xbk4b5/unpopular_opinion_from_someone_who_builds_crms"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Unpopular opinion from someone who builds CRMs: most small businesses should NOT buy one"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/smallbusiness/comments/1x5mj0u/small_business_owner_beauty_business"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/smallbusiness/comments/1x5mj0u/small_business_owner_beauty_business"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Small business owner / beauty business"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/claudecode/comments/1xf8uvv/small_business_owner_trying_to_replace_paid_saas"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/claudecode/comments/1xf8uvv/small_business_owner_trying_to_replace_paid_saas"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Small Business Owner Trying to Replace Paid SAAS"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/entrepreneurridealong/comments/1xa0fln/i_built_a_smallbusiness_app_and_left_its_main"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/entrepreneurridealong/comments/1xa0fln/i_built_a_smallbusiness_app_and_left_its_main"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a small-business app and left its main features free"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/macstack/comments/1xq8ngl/paydesk_project_management_time_tracking_invoice"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/macstack/comments/1xq8ngl/paydesk_project_management_time_tracking_invoice"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Paydesk - Project management, Time tracking, invoice creation on device for freelancers/Small business. one-time fee for all future updates"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-11T05:13:51.858898+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Paydesk - Project management, Time tracking, invoice creation on device for freelancers/Small business. one-time fee for all future updates\nI've been building Paydesk for a while and it's finally at a point where I'd like people to try it and tell me what's wrong with it. The Second build is live on Mac App store \ud83c\udf89\n\nPaydesk is a Mac app for freelancers, consultants and small studios. It keeps projects, time tracking, quotes, invoices, expenses and reports in one place, and it runs entirely on your Mac.\n\nFreelance admin on the Mac usually ends up spread across a lot of places.\n\nHours live in a timer app, or on sticky notes. Invoices",
+        "container": "MacStack",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 4
+        },
+        "engagement_score": 11,
+        "freshness": 91,
+        "item_id": "R48",
+        "local_rank_score": 0.34900000000000003,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-07",
+        "relevance_hint": 0.4,
+        "snippet": "I've been building Paydesk for a while and it's finally at a point where I'd like people to try it and tell me what's wrong with it. The Second build is live on Mac App store \ud83c\udf89\n\nPaydesk is a Mac app for freelancers, consultants and small studios. It keeps projects, time tracking, quotes, invoices, expenses and reports in one place, and it runs entirely on your Mac.\n\nFreelance admin on the Mac usua",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Paydesk - Project management, Time tracking, invoice creation on device for freelancers/Small business. one-time fee for all future updates",
+        "url": "https://www.reddit.com/r/MacStack/comments/1xq8ngl/paydesk_project_management_time_tracking_invoice/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Small Business Owner Trying to Replace Paid SAAS\nSo I'm a small business owner and what drives me mad are the two subscription services that I pay for payroll and accounting.\n\nTherefore I'm thinking of diving into ClaudeCode to create my own app/program to install.\n\nWould this be possible with ClaudeCode and what pitfalls would I have to look out for?\n\nI would also like this app/program to allow my employees to scan a QR code to log in and log out.\n\nAny ideas or suggestions would be perfect thank you very much!",
+        "container": "ClaudeCode",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 49,
+          "score": 2
+        },
+        "engagement_score": 19,
+        "freshness": 65,
+        "item_id": "R35",
+        "local_rank_score": 0.3375,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-25",
+        "relevance_hint": 0.51,
+        "snippet": "So I'm a small business owner and what drives me mad are the two subscription services that I pay for payroll and accounting.\n\nTherefore I'm thinking of diving into ClaudeCode to create my own app/program to install.\n\nWould this be possible with ClaudeCode and what pitfalls would I have to look out for?\n\nI would also like this app/program to allow my employees to scan a QR code to log in and log o",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Small Business Owner Trying to Replace Paid SAAS",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1xf8uvv/small_business_owner_trying_to_replace_paid_saas/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "AITAH for not wanting to pay for this little girl\u2019s dress?\nA couple weeks ago, I threw my daughter a tea party for her 7th birthday at a small local play place with about 18 of her friends. The invitation stated to bring their dolls and stuffed animals as honored guests and that there would be a toy painting activity as well.\u00a0\n\nThe owner of the play place is a super lovely mom who was absolutely amazing and handled everything for me so I could be stress free and enjoy the party. I was a little concerned about the paint getting everywhere but she told me\nNta, I wouldn't pay but also wouldn't invite her to anything again Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.\n\n Maybe offer to clean the dress. But I suspect she wants the money (and let me guess, its an expensive dress). NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself. I wouldn\u2019t want a small business owner to have that burden. I would also make it clear to that mother that you were only paying her to help the business owner and that she should be embarrassed by he",
+        "container": "AmItheAsshole",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 693,
+          "score": 8177
+        },
+        "engagement_score": 92,
+        "freshness": 53,
+        "item_id": "R3",
+        "local_rank_score": 0.335,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [
+            "Nta, I wouldn't pay but also wouldn't invite her to anything again",
+            "Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.",
+            "NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself.",
+            "So, the other mom is 100% in the wrong. You never send a kid to any kid's birthday party with good clothes on.",
+            "Should there probably be smocks at this type of event? Yes.\n\n But who sends a kid to a party like this in an expensive dress.\n\n NTA",
+            "NAH.Im actually surprised smocks were not provided.",
+            "NTA but ask her for the dress so you can see the damage and also see if you can get it cleaned."
+          ],
+          "top_comments": [
+            {
+              "author": "benjm88",
+              "date": "2026-10-19",
+              "excerpt": "Nta, I wouldn't pay but also wouldn't invite her to anything again",
+              "score": 12543,
+              "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phojs2s/"
+            },
+            {
+              "author": "CatCharacter848",
+              "date": "2026-10-19",
+              "excerpt": "Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.\n\n Maybe offer to clean the dress. But I suspect she wants the money (and let me guess, its an expensive dress).",
+              "score": 2399,
+              "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phok547/"
+            },
+            {
+              "author": "WeepingWillow5555",
+              "date": "2026-10-19",
+              "excerpt": "NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself. I wouldn\u2019t want a small business owner to have that burden. I would also make it clear to that mother that you were only paying her to help the business owner and that she should be embarrassed by he",
+              "score": 1024,
+              "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phoknem/"
+            },
+            {
+              "author": "StunningSystem8171",
+              "date": "2026-10-19",
+              "excerpt": "So, the other mom is 100% in the wrong. You never send a kid to any kid's birthday party with good clothes on. Painting or not.\n\n However, you mention about things being awkward going forward and whether it could cause ongoing issues. How much would half the dress be? I'd be tempted to pay it, just ",
+              "score": 473,
+              "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phok80z/"
+            },
+            {
+              "author": "Auroraburst",
+              "date": "2026-10-19",
+              "excerpt": "Should there probably be smocks at this type of event? Yes.\n\n But who sends a kid to a party like this in an expensive dress.\n\n NTA",
+              "score": 381,
+              "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phol2pf/"
+            },
+            {
+              "author": "OrcEight",
+              "date": "2026-10-19",
+              "excerpt": "NAH.Im actually surprised smocks were not provided.",
+              "score": 219,
+              "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phokmjj/"
+            },
+            {
+              "author": "HeverAfter",
+              "date": "2026-10-19",
+              "excerpt": "NTA but ask her for the dress so you can see the damage and also see if you can get it cleaned. This way you'll know what the damage is and how much she is lying (because she is). Have you actually seen the \"damage\"? She's stating you're liable so you need evidence. I would be tough and state that y",
+              "score": 144,
+              "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phol7dq/"
+            }
+          ]
+        },
+        "published_at": "2026-10-19",
+        "relevance_hint": 0.12,
+        "snippet": "Nta, I wouldn't pay but also wouldn't invite her to anything again Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.\n\n Maybe offer to clean the dress. But I suspect she wants the money (and let me guess, its an expensive dress). NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself. I wouldn\u2019t want a small business owner to have that burden. I would also make it clear to that mother that you were only paying her to help the business owner and that she should be embarrassed by he",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "AITAH for not wanting to pay for this little girl\u2019s dress?",
+        "url": "https://www.reddit.com/r/AmItheAsshole/comments/1x9vb4m/aitah_for_not_wanting_to_pay_for_this_little/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a small-business app and left its main features free\nI\u2019m building Selluvo, a mobile sales and inventory app for small shops. One decision I\u2019ve made is to leave sales and product tracking free, without limits on how many products someone adds or sales they record.\n\nThe paid version adds things like cloud sync, automatic backups and longer reports.\n\nThat leaves me with an interesting business problem: someone running a shop from one phone might use the free version indefinitely. They may never need the things I charge for.\n\nThe app works offline, so",
+        "container": "EntrepreneurRideAlong",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 8,
+          "score": 5
+        },
+        "engagement_score": 16,
+        "freshness": 53,
+        "item_id": "R43",
+        "local_rank_score": 0.3045,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-19",
+        "relevance_hint": 0.55,
+        "snippet": "I\u2019m building Selluvo, a mobile sales and inventory app for small shops. One decision I\u2019ve made is to leave sales and product tracking free, without limits on how many products someone adds or sales they record.\n\nThe paid version adds things like cloud sync, automatic backups and longer reports.\n\nThat leaves me with an interesting business problem: someone running a shop from one phone might use th",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a small-business app and left its main features free",
+        "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1xa0fln/i_built_a_smallbusiness_app_and_left_its_main/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Small business owner / beauty business\nHey everyone \ud83e\udd0d\n\nI\u2019m a beauty business owner in a small town, there\u2019s a lot of competition (business and home based ones). I\u2019ve been running it solo for 2 years now and I still have empty days. I don\u2019t know what I\u2019m doing wrong..I thought it was the social media presence that needed work but I\u2019m not sure if thats the case..\n\nid love to hear your opinion and advice! Thank u so much",
+        "container": "smallbusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 30,
+          "score": 14
+        },
+        "engagement_score": 27,
+        "freshness": 43,
+        "item_id": "R36",
+        "local_rank_score": 0.29050000000000004,
+        "local_relevance": 0.24,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-14",
+        "relevance_hint": 0.39,
+        "snippet": "Hey everyone \ud83e\udd0d\n\nI\u2019m a beauty business owner in a small town, there\u2019s a lot of competition (business and home based ones). I\u2019ve been running it solo for 2 years now and I still have empty days. I don\u2019t know what I\u2019m doing wrong..I thought it was the social media presence that needed work but I\u2019m not sure if thats the case..\n\nid love to hear your opinion and advice! Thank u so much",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Small business owner / beauty business",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1x5mj0u/small_business_owner_beauty_business/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Unpopular opinion from someone who builds CRMs: most small businesses should NOT buy one\nI build custom CRMs and automation systems for small businesses, and the most common situation I walk into is this: the business owner is paying for a CRM, used it properly for 3 weeks, and is now back to WhatsApp and a spreadsheet. The subscription just quietly renews.\n\nAfter enough of these, my honest take is that the problem usually isn\u2019t the tool. The big CRMs are good software. The problem is fit:\n\nMost CRMs are built around sales pipelines and deal stages. A travel agent, a clinic, a real",
+        "container": "CRM",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 78,
+          "score": 12
+        },
+        "engagement_score": 30,
+        "freshness": 58,
+        "item_id": "R32",
+        "local_rank_score": 0.2855,
+        "local_relevance": 0.17,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-21",
+        "relevance_hint": 0.22,
+        "snippet": "I build custom CRMs and automation systems for small businesses, and the most common situation I walk into is this: the business owner is paying for a CRM, used it properly for 3 weeks, and is now back to WhatsApp and a spreadsheet. The subscription just quietly renews.\n\nAfter enough of these, my honest take is that the problem usually isn\u2019t the tool. The big CRMs are good software. The problem is",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Unpopular opinion from someone who builds CRMs: most small businesses should NOT buy one",
+        "url": "https://www.reddit.com/r/CRM/comments/1xbk4b5/unpopular_opinion_from_someone_who_builds_crms/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "small business \"is there a paid app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to small business \"is there a paid app\", especially about small business \"is there paid app\"?",
+        "search_query": "small business \"is there paid app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-12",
+  "range_to": "2026-11-11",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/amitheasshole/comments/1x9vb4m/aitah_for_not_wanting_to_pay_for_this_little",
+      "cluster_id": "cluster-1",
+      "engagement": 92,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 3.5,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Nta, I wouldn't pay but also wouldn't invite her to anything again Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.\n\n Maybe offer to clean the dress. But I suspect she wants the money (and let me guess, its an expensive dress). NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself. I wouldn\u2019t want a small business owner to have that burden. I would also make it clear to that mother that you were only paying her to help the business owner and that she should be embarrassed by he",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "AITAH for not wanting to pay for this little girl\u2019s dress?\nA couple weeks ago, I threw my daughter a tea party for her 7th birthday at a small local play place with about 18 of her friends. The invitation stated to bring their dolls and stuffed animals as honored guests and that there would be a toy painting activity as well.\u00a0\n\nThe owner of the play place is a super lovely mom who was absolutely amazing and handled everything for me so I could be stress free and enjoy the party. I was a little concerned about the paint getting everywhere but she told me\nNta, I wouldn't pay but also wouldn't invite her to anything again Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.\n\n Maybe offer to clean the dress. But I suspect she wants the money (and let me guess, its an expensive dress). NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself. I wouldn\u2019t want a small business owner to have that burden. I would also make it clear to that mother that you were only paying her to help the business owner and that she should be embarrassed by he",
+          "container": "AmItheAsshole",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 693,
+            "score": 8177
+          },
+          "engagement_score": 92,
+          "freshness": 53,
+          "item_id": "R3",
+          "local_rank_score": 0.335,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [
+              "Nta, I wouldn't pay but also wouldn't invite her to anything again",
+              "Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.",
+              "NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself.",
+              "So, the other mom is 100% in the wrong. You never send a kid to any kid's birthday party with good clothes on.",
+              "Should there probably be smocks at this type of event? Yes.\n\n But who sends a kid to a party like this in an expensive dress.\n\n NTA",
+              "NAH.Im actually surprised smocks were not provided.",
+              "NTA but ask her for the dress so you can see the damage and also see if you can get it cleaned."
+            ],
+            "top_comments": [
+              {
+                "author": "benjm88",
+                "date": "2026-10-19",
+                "excerpt": "Nta, I wouldn't pay but also wouldn't invite her to anything again",
+                "score": 12543,
+                "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phojs2s/"
+              },
+              {
+                "author": "CatCharacter848",
+                "date": "2026-10-19",
+                "excerpt": "Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.\n\n Maybe offer to clean the dress. But I suspect she wants the money (and let me guess, its an expensive dress).",
+                "score": 2399,
+                "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phok547/"
+              },
+              {
+                "author": "WeepingWillow5555",
+                "date": "2026-10-19",
+                "excerpt": "NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself. I wouldn\u2019t want a small business owner to have that burden. I would also make it clear to that mother that you were only paying her to help the business owner and that she should be embarrassed by he",
+                "score": 1024,
+                "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phoknem/"
+              },
+              {
+                "author": "StunningSystem8171",
+                "date": "2026-10-19",
+                "excerpt": "So, the other mom is 100% in the wrong. You never send a kid to any kid's birthday party with good clothes on. Painting or not.\n\n However, you mention about things being awkward going forward and whether it could cause ongoing issues. How much would half the dress be? I'd be tempted to pay it, just ",
+                "score": 473,
+                "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phok80z/"
+              },
+              {
+                "author": "Auroraburst",
+                "date": "2026-10-19",
+                "excerpt": "Should there probably be smocks at this type of event? Yes.\n\n But who sends a kid to a party like this in an expensive dress.\n\n NTA",
+                "score": 381,
+                "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phol2pf/"
+              },
+              {
+                "author": "OrcEight",
+                "date": "2026-10-19",
+                "excerpt": "NAH.Im actually surprised smocks were not provided.",
+                "score": 219,
+                "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phokmjj/"
+              },
+              {
+                "author": "HeverAfter",
+                "date": "2026-10-19",
+                "excerpt": "NTA but ask her for the dress so you can see the damage and also see if you can get it cleaned. This way you'll know what the damage is and how much she is lying (because she is). Have you actually seen the \"damage\"? She's stating you're liable so you need evidence. I would be tough and state that y",
+                "score": 144,
+                "url": "https://reddit.com/r/AmItheAsshole/comments/1x9vb4m/comment/phol7dq/"
+              }
+            ]
+          },
+          "published_at": "2026-10-19",
+          "relevance_hint": 0.12,
+          "snippet": "Nta, I wouldn't pay but also wouldn't invite her to anything again Have you seen the ruined dress. Because she might be trying her luck if these were wash out paints.\n\n Maybe offer to clean the dress. But I suspect she wants the money (and let me guess, its an expensive dress). NTA, but I would tell the business owner not to pay her and I would pay for the entire dress myself. I wouldn\u2019t want a small business owner to have that burden. I would also make it clear to that mother that you were only paying her to help the business owner and that she should be embarrassed by he",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "AITAH for not wanting to pay for this little girl\u2019s dress?",
+          "url": "https://www.reddit.com/r/AmItheAsshole/comments/1x9vb4m/aitah_for_not_wanting_to_pay_for_this_little/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "AITAH for not wanting to pay for this little girl\u2019s dress?",
+      "url": "https://www.reddit.com/r/AmItheAsshole/comments/1x9vb4m/aitah_for_not_wanting_to_pay_for_this_little/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/crm/comments/1xbk4b5/unpopular_opinion_from_someone_who_builds_crms",
+      "cluster_id": "cluster-2",
+      "engagement": 30,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 58,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R32",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R32",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 4.5,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "I build custom CRMs and automation systems for small businesses, and the most common situation I walk into is this: the business owner is paying for a CRM, used it properly for 3 weeks, and is now back to WhatsApp and a spreadsheet. The subscription just quietly renews.\n\nAfter enough of these, my honest take is that the problem usually isn\u2019t the tool. The big CRMs are good software. The problem is",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Unpopular opinion from someone who builds CRMs: most small businesses should NOT buy one\nI build custom CRMs and automation systems for small businesses, and the most common situation I walk into is this: the business owner is paying for a CRM, used it properly for 3 weeks, and is now back to WhatsApp and a spreadsheet. The subscription just quietly renews.\n\nAfter enough of these, my honest take is that the problem usually isn\u2019t the tool. The big CRMs are good software. The problem is fit:\n\nMost CRMs are built around sales pipelines and deal stages. A travel agent, a clinic, a real",
+          "container": "CRM",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 78,
+            "score": 12
+          },
+          "engagement_score": 30,
+          "freshness": 58,
+          "item_id": "R32",
+          "local_rank_score": 0.2855,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-21",
+          "relevance_hint": 0.22,
+          "snippet": "I build custom CRMs and automation systems for small businesses, and the most common situation I walk into is this: the business owner is paying for a CRM, used it properly for 3 weeks, and is now back to WhatsApp and a spreadsheet. The subscription just quietly renews.\n\nAfter enough of these, my honest take is that the problem usually isn\u2019t the tool. The big CRMs are good software. The problem is",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Unpopular opinion from someone who builds CRMs: most small businesses should NOT buy one",
+          "url": "https://www.reddit.com/r/CRM/comments/1xbk4b5/unpopular_opinion_from_someone_who_builds_crms/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Unpopular opinion from someone who builds CRMs: most small businesses should NOT buy one",
+      "url": "https://www.reddit.com/r/CRM/comments/1xbk4b5/unpopular_opinion_from_someone_who_builds_crms/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/smallbusiness/comments/1x5mj0u/small_business_owner_beauty_business",
+      "cluster_id": "cluster-3",
+      "engagement": 27,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R36",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R36",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 6.399999999999999,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "Hey everyone \ud83e\udd0d\n\nI\u2019m a beauty business owner in a small town, there\u2019s a lot of competition (business and home based ones). I\u2019ve been running it solo for 2 years now and I still have empty days. I don\u2019t know what I\u2019m doing wrong..I thought it was the social media presence that needed work but I\u2019m not sure if thats the case..\n\nid love to hear your opinion and advice! Thank u so much",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Small business owner / beauty business\nHey everyone \ud83e\udd0d\n\nI\u2019m a beauty business owner in a small town, there\u2019s a lot of competition (business and home based ones). I\u2019ve been running it solo for 2 years now and I still have empty days. I don\u2019t know what I\u2019m doing wrong..I thought it was the social media presence that needed work but I\u2019m not sure if thats the case..\n\nid love to hear your opinion and advice! Thank u so much",
+          "container": "smallbusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 30,
+            "score": 14
+          },
+          "engagement_score": 27,
+          "freshness": 43,
+          "item_id": "R36",
+          "local_rank_score": 0.29050000000000004,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-14",
+          "relevance_hint": 0.39,
+          "snippet": "Hey everyone \ud83e\udd0d\n\nI\u2019m a beauty business owner in a small town, there\u2019s a lot of competition (business and home based ones). I\u2019ve been running it solo for 2 years now and I still have empty days. I don\u2019t know what I\u2019m doing wrong..I thought it was the social media presence that needed work but I\u2019m not sure if thats the case..\n\nid love to hear your opinion and advice! Thank u so much",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Small business owner / beauty business",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x5mj0u/small_business_owner_beauty_business/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Small business owner / beauty business",
+      "url": "https://www.reddit.com/r/smallbusiness/comments/1x5mj0u/small_business_owner_beauty_business/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/claudecode/comments/1xf8uvv/small_business_owner_trying_to_replace_paid_saas",
+      "cluster_id": "cluster-4",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.0,
+      "item_id": "R35",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R35",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.799999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "So I'm a small business owner and what drives me mad are the two subscription services that I pay for payroll and accounting.\n\nTherefore I'm thinking of diving into ClaudeCode to create my own app/program to install.\n\nWould this be possible with ClaudeCode and what pitfalls would I have to look out for?\n\nI would also like this app/program to allow my employees to scan a QR code to log in and log o",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Small Business Owner Trying to Replace Paid SAAS\nSo I'm a small business owner and what drives me mad are the two subscription services that I pay for payroll and accounting.\n\nTherefore I'm thinking of diving into ClaudeCode to create my own app/program to install.\n\nWould this be possible with ClaudeCode and what pitfalls would I have to look out for?\n\nI would also like this app/program to allow my employees to scan a QR code to log in and log out.\n\nAny ideas or suggestions would be perfect thank you very much!",
+          "container": "ClaudeCode",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 49,
+            "score": 2
+          },
+          "engagement_score": 19,
+          "freshness": 65,
+          "item_id": "R35",
+          "local_rank_score": 0.3375,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-25",
+          "relevance_hint": 0.51,
+          "snippet": "So I'm a small business owner and what drives me mad are the two subscription services that I pay for payroll and accounting.\n\nTherefore I'm thinking of diving into ClaudeCode to create my own app/program to install.\n\nWould this be possible with ClaudeCode and what pitfalls would I have to look out for?\n\nI would also like this app/program to allow my employees to scan a QR code to log in and log o",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Small Business Owner Trying to Replace Paid SAAS",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1xf8uvv/small_business_owner_trying_to_replace_paid_saas/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Small Business Owner Trying to Replace Paid SAAS",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xf8uvv/small_business_owner_trying_to_replace_paid_saas/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/entrepreneurridealong/comments/1xa0fln/i_built_a_smallbusiness_app_and_left_its_main",
+      "cluster_id": "cluster-5",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "R43",
+      "local_relevance": 0.24,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R43",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 8.399999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "I\u2019m building Selluvo, a mobile sales and inventory app for small shops. One decision I\u2019ve made is to leave sales and product tracking free, without limits on how many products someone adds or sales they record.\n\nThe paid version adds things like cloud sync, automatic backups and longer reports.\n\nThat leaves me with an interesting business problem: someone running a shop from one phone might use th",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a small-business app and left its main features free\nI\u2019m building Selluvo, a mobile sales and inventory app for small shops. One decision I\u2019ve made is to leave sales and product tracking free, without limits on how many products someone adds or sales they record.\n\nThe paid version adds things like cloud sync, automatic backups and longer reports.\n\nThat leaves me with an interesting business problem: someone running a shop from one phone might use the free version indefinitely. They may never need the things I charge for.\n\nThe app works offline, so",
+          "container": "EntrepreneurRideAlong",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 8,
+            "score": 5
+          },
+          "engagement_score": 16,
+          "freshness": 53,
+          "item_id": "R43",
+          "local_rank_score": 0.3045,
+          "local_relevance": 0.24,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-19",
+          "relevance_hint": 0.55,
+          "snippet": "I\u2019m building Selluvo, a mobile sales and inventory app for small shops. One decision I\u2019ve made is to leave sales and product tracking free, without limits on how many products someone adds or sales they record.\n\nThe paid version adds things like cloud sync, automatic backups and longer reports.\n\nThat leaves me with an interesting business problem: someone running a shop from one phone might use th",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a small-business app and left its main features free",
+          "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1xa0fln/i_built_a_smallbusiness_app_and_left_its_main/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a small-business app and left its main features free",
+      "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1xa0fln/i_built_a_smallbusiness_app_and_left_its_main/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/macstack/comments/1xq8ngl/paydesk_project_management_time_tracking_invoice",
+      "cluster_id": "cluster-6",
+      "engagement": 11,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 22.0,
+      "item_id": "R48",
+      "local_relevance": 0.17,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R48",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.099999999999994,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I've been building Paydesk for a while and it's finally at a point where I'd like people to try it and tell me what's wrong with it. The Second build is live on Mac App store \ud83c\udf89\n\nPaydesk is a Mac app for freelancers, consultants and small studios. It keeps projects, time tracking, quotes, invoices, expenses and reports in one place, and it runs entirely on your Mac.\n\nFreelance admin on the Mac usua",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Paydesk - Project management, Time tracking, invoice creation on device for freelancers/Small business. one-time fee for all future updates\nI've been building Paydesk for a while and it's finally at a point where I'd like people to try it and tell me what's wrong with it. The Second build is live on Mac App store \ud83c\udf89\n\nPaydesk is a Mac app for freelancers, consultants and small studios. It keeps projects, time tracking, quotes, invoices, expenses and reports in one place, and it runs entirely on your Mac.\n\nFreelance admin on the Mac usually ends up spread across a lot of places.\n\nHours live in a timer app, or on sticky notes. Invoices",
+          "container": "MacStack",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 4
+          },
+          "engagement_score": 11,
+          "freshness": 91,
+          "item_id": "R48",
+          "local_rank_score": 0.34900000000000003,
+          "local_relevance": 0.17,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-07",
+          "relevance_hint": 0.4,
+          "snippet": "I've been building Paydesk for a while and it's finally at a point where I'd like people to try it and tell me what's wrong with it. The Second build is live on Mac App store \ud83c\udf89\n\nPaydesk is a Mac app for freelancers, consultants and small studios. It keeps projects, time tracking, quotes, invoices, expenses and reports in one place, and it runs entirely on your Mac.\n\nFreelance admin on the Mac usua",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Paydesk - Project management, Time tracking, invoice creation on device for freelancers/Small business. one-time fee for all future updates",
+          "url": "https://www.reddit.com/r/MacStack/comments/1xq8ngl/paydesk_project_management_time_tracking_invoice/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Paydesk - Project management, Time tracking, invoice creation on device for freelancers/Small business. one-time fee for all future updates",
+      "url": "https://www.reddit.com/r/MacStack/comments/1xq8ngl/paydesk_project_management_time_tracking_invoice/"
+    }
+  ],
+  "topic": "small business \"is there a paid app\"",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
