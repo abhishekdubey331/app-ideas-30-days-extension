@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/xboxally/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/xboxally/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-11T15:56:00.962435+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.\nFollowing up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unreal. The OLED\u2019s are nearly identical imo of quality, but OXP3 is just more of the goodness.\n\nThe ergon",
+        "container": "XboxAlly",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 434,
+          "score": 333
+        },
+        "engagement_score": 32,
+        "freshness": 51,
+        "item_id": "R38",
+        "local_rank_score": 0.30900000000000005,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-18",
+        "relevance_hint": 0.14,
+        "snippet": "Following up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unrea",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.",
+        "url": "https://www.reddit.com/r/XboxAlly/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-12",
+  "range_to": "2026-11-11",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/xboxally/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks",
+      "cluster_id": "cluster-1",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R38",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R38",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 7.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Following up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unrea",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.\nFollowing up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unreal. The OLED\u2019s are nearly identical imo of quality, but OXP3 is just more of the goodness.\n\nThe ergon",
+          "container": "XboxAlly",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 434,
+            "score": 333
+          },
+          "engagement_score": 32,
+          "freshness": 51,
+          "item_id": "R38",
+          "local_rank_score": 0.30900000000000005,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-18",
+          "relevance_hint": 0.14,
+          "snippet": "Following up from my last thread here: https://www.reddit.com/r/Handhelds/s/cpT3xhEydW\n\nThe X20 is a great device. The comfort, controls, beautiful screen and solid Z2E performance. I also really loved the XAX for a year and this is a great upgrade for fans of XAX.\n\nThe OXP3 is just game-changing. As a 45yo, the increase in screen size is one thing and helps, but the increased performance is unrea",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.",
+          "url": "https://www.reddit.com/r/XboxAlly/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Returning the X20 after 48 hours with it. 2 weeks with the OneXPlayer 3 just changed my opinion too much after owning the Xbox Rog Ally X for a year.",
+      "url": "https://www.reddit.com/r/XboxAlly/comments/1x8yirb/returning_the_x20_after_48_hours_with_it_2_weeks/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
