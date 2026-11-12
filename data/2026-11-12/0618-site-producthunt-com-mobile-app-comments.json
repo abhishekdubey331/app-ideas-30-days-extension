@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fina/comments/1x4pvas/were_live_on_product_hunt_today_and_we_need_your"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/fina/comments/1x4pvas/were_live_on_product_hunt_today_and_we_need_your"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We\u2019re live on Product Hunt today! \ud83d\ude80 (And we need your support)"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-12T06:18:18.963135+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "We\u2019re live on Product Hunt today! \ud83d\ude80 (And we need your support)\nWhen we first built Fina, our mission was simple: give you complete flexibility over your financial tracking.\n\nOver the last 3 years, thousands of you have used Fina to customize your tracking and run multi-profile setups.\n\nToday, we\u2019re launching Fina Business on Product Hunt today! \ud83d\ude80\n\n\ud83d\udc49 Support us on Product Hunt (Only 30 seconds, your upvote and comment mean the world to our team!)\n\nWhat\u2019s New in Fina Business?\n\nWe built Fina Business specifically for founders, freelancers, and entrepreneurs w",
+        "container": "fina",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 40,
+        "item_id": "R1",
+        "local_rank_score": 0.22150000000000003,
+        "local_relevance": 0.11,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-13",
+        "relevance_hint": 0.0,
+        "snippet": "When we first built Fina, our mission was simple: give you complete flexibility over your financial tracking.\n\nOver the last 3 years, thousands of you have used Fina to customize your tracking and run multi-profile setups.\n\nToday, we\u2019re launching Fina Business on Product Hunt today! \ud83d\ude80\n\n\ud83d\udc49 Support us on Product Hunt (Only 30 seconds, your upvote and comment mean the world to our team!)\n\nWhat\u2019s New i",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We\u2019re live on Product Hunt today! \ud83d\ude80 (And we need your support)",
+        "url": "https://www.reddit.com/r/fina/comments/1x4pvas/were_live_on_product_hunt_today_and_we_need_your/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-13",
+  "range_to": "2026-11-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/fina/comments/1x4pvas/were_live_on_product_hunt_today_and_we_need_your",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 40,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.11,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 0.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "When we first built Fina, our mission was simple: give you complete flexibility over your financial tracking.\n\nOver the last 3 years, thousands of you have used Fina to customize your tracking and run multi-profile setups.\n\nToday, we\u2019re launching Fina Business on Product Hunt today! \ud83d\ude80\n\n\ud83d\udc49 Support us on Product Hunt (Only 30 seconds, your upvote and comment mean the world to our team!)\n\nWhat\u2019s New i",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We\u2019re live on Product Hunt today! \ud83d\ude80 (And we need your support)\nWhen we first built Fina, our mission was simple: give you complete flexibility over your financial tracking.\n\nOver the last 3 years, thousands of you have used Fina to customize your tracking and run multi-profile setups.\n\nToday, we\u2019re launching Fina Business on Product Hunt today! \ud83d\ude80\n\n\ud83d\udc49 Support us on Product Hunt (Only 30 seconds, your upvote and comment mean the world to our team!)\n\nWhat\u2019s New in Fina Business?\n\nWe built Fina Business specifically for founders, freelancers, and entrepreneurs w",
+          "container": "fina",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 40,
+          "item_id": "R1",
+          "local_rank_score": 0.22150000000000003,
+          "local_relevance": 0.11,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-13",
+          "relevance_hint": 0.0,
+          "snippet": "When we first built Fina, our mission was simple: give you complete flexibility over your financial tracking.\n\nOver the last 3 years, thousands of you have used Fina to customize your tracking and run multi-profile setups.\n\nToday, we\u2019re launching Fina Business on Product Hunt today! \ud83d\ude80\n\n\ud83d\udc49 Support us on Product Hunt (Only 30 seconds, your upvote and comment mean the world to our team!)\n\nWhat\u2019s New i",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We\u2019re live on Product Hunt today! \ud83d\ude80 (And we need your support)",
+          "url": "https://www.reddit.com/r/fina/comments/1x4pvas/were_live_on_product_hunt_today_and_we_need_your/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We\u2019re live on Product Hunt today! \ud83d\ude80 (And we need your support)",
+      "url": "https://www.reddit.com/r/fina/comments/1x4pvas/were_live_on_product_hunt_today_and_we_need_your/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}

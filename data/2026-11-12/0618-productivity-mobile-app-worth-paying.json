@@ -1,0 +1,382 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "productivity mobile app \"worth paying\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/productivityapps/comments/1xoukyc/i_built_a_ynab_alternative_for_40_a_year_9_months"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/productivityapps/comments/1xoukyc/i_built_a_ynab_alternative_for_40_a_year_9_months"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a YNAB alternative for $40 a year. 9 months after the beta, 5,000+ people are using it"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/saas/comments/1xgsx2w/mobile_app_at_82_mrr_5k_organic_downloads_100"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/saas/comments/1xgsx2w/mobile_app_at_82_mrr_5k_organic_downloads_100"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Mobile app at $82 MRR, 5K+ organic downloads, $100 budget: should I run Google Play ads?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appfollow/comments/1xlpkce/mobile_app_maintenance_costs_slas_agreements"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/appfollow/comments/1xlpkce/mobile_app_maintenance_costs_slas_agreements"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Mobile app maintenance: costs, SLAs, agreements"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-12T06:18:50.306274+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I built a YNAB alternative for $40 a year. 9 months after the beta, 5,000+ people are using it\nHi all,\n\nI used YNAB every day for about six years. I love the method, but the price kept going up and I was paying for bank sync I never even turned on. So I built my own: Zerosum, a zero-based budgeting app. I'm a solo developer from Portugal, no investors, no ads.\n\nThe public beta opened in February. As of this week it's past 5,000 users, and a lot of them came over from YNAB. The things people mention most when they switch are the analytics, the price, and that it feels quicker and nicer to",
+        "container": "ProductivityApps",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 33,
+          "score": 49
+        },
+        "engagement_score": 58,
+        "freshness": 85,
+        "item_id": "R8",
+        "local_rank_score": 0.394,
+        "local_relevance": 0.19,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-05",
+        "relevance_hint": 0.17,
+        "snippet": "Hi all,\n\nI used YNAB every day for about six years. I love the method, but the price kept going up and I was paying for bank sync I never even turned on. So I built my own: Zerosum, a zero-based budgeting app. I'm a solo developer from Portugal, no investors, no ads.\n\nThe public beta opened in February. As of this week it's past 5,000 users, and a lot of them came over from YNAB. The things people",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a YNAB alternative for $40 a year. 9 months after the beta, 5,000+ people are using it",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1xoukyc/i_built_a_ynab_alternative_for_40_a_year_9_months/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Mobile app at $82 MRR, 5K+ organic downloads, $100 budget: should I run Google Play ads?\nHi everyone,\n\nI\u2019m a solo dev and I\u2019d love some advice on what to do next with my app and a small budget.\n\nThe app\n\nA productivity mobile app for n8n users\n\nFeatures: n8n instance monitoring, plus provisioning for users who don\u2019t have an n8n instance yet\n\nLaunched on Google Play in early April and on the App Store in early July\n\nCurrent metrics (verified RevenueCat link at the bottom)\n\nMRR: $82 (peaked around $100 last month, then dropped)\n\nActive subscriptions: 15\n\nActive trials: 5\n\nNew customer",
+        "container": "SaaS",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 4
+        },
+        "engagement_score": 28,
+        "freshness": 67,
+        "item_id": "R19",
+        "local_rank_score": 0.37100000000000005,
+        "local_relevance": 0.27,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-27",
+        "relevance_hint": 0.47,
+        "snippet": "Hi everyone,\n\nI\u2019m a solo dev and I\u2019d love some advice on what to do next with my app and a small budget.\n\nThe app\n\nA productivity mobile app for n8n users\n\nFeatures: n8n instance monitoring, plus provisioning for users who don\u2019t have an n8n instance yet\n\nLaunched on Google Play in early April and on the App Store in early July\n\nCurrent metrics (verified RevenueCat link at the bottom)\n\nMRR: $82 (pe",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Mobile app at $82 MRR, 5K+ organic downloads, $100 budget: should I run Google Play ads?",
+        "url": "https://www.reddit.com/r/SaaS/comments/1xgsx2w/mobile_app_at_82_mrr_5k_organic_downloads_100/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Mobile app maintenance: costs, SLAs, agreements\nNone",
+        "container": "AppFollow",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 7,
+        "freshness": 79,
+        "item_id": "R35",
+        "local_rank_score": 0.30200000000000005,
+        "local_relevance": 0.15,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-02",
+        "relevance_hint": 0.35,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Mobile app maintenance: costs, SLAs, agreements",
+        "url": "https://www.reddit.com/r/AppFollow/comments/1xlpkce/mobile_app_maintenance_costs_slas_agreements/",
+        "why_relevant": "Reddit r/AppFollow search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "productivity mobile app \"worth paying\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to productivity mobile app \"worth paying\"?",
+        "search_query": "productivity mobile app \"worth paying\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-13",
+  "range_to": "2026-11-12",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/productivityapps/comments/1xoukyc/i_built_a_ynab_alternative_for_40_a_year_9_months",
+      "cluster_id": "cluster-1",
+      "engagement": 58,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R8",
+      "local_relevance": 0.19,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hi all,\n\nI used YNAB every day for about six years. I love the method, but the price kept going up and I was paying for bank sync I never even turned on. So I built my own: Zerosum, a zero-based budgeting app. I'm a solo developer from Portugal, no investors, no ads.\n\nThe public beta opened in February. As of this week it's past 5,000 users, and a lot of them came over from YNAB. The things people",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a YNAB alternative for $40 a year. 9 months after the beta, 5,000+ people are using it\nHi all,\n\nI used YNAB every day for about six years. I love the method, but the price kept going up and I was paying for bank sync I never even turned on. So I built my own: Zerosum, a zero-based budgeting app. I'm a solo developer from Portugal, no investors, no ads.\n\nThe public beta opened in February. As of this week it's past 5,000 users, and a lot of them came over from YNAB. The things people mention most when they switch are the analytics, the price, and that it feels quicker and nicer to",
+          "container": "ProductivityApps",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 33,
+            "score": 49
+          },
+          "engagement_score": 58,
+          "freshness": 85,
+          "item_id": "R8",
+          "local_rank_score": 0.394,
+          "local_relevance": 0.19,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-05",
+          "relevance_hint": 0.17,
+          "snippet": "Hi all,\n\nI used YNAB every day for about six years. I love the method, but the price kept going up and I was paying for bank sync I never even turned on. So I built my own: Zerosum, a zero-based budgeting app. I'm a solo developer from Portugal, no investors, no ads.\n\nThe public beta opened in February. As of this week it's past 5,000 users, and a lot of them came over from YNAB. The things people",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a YNAB alternative for $40 a year. 9 months after the beta, 5,000+ people are using it",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1xoukyc/i_built_a_ynab_alternative_for_40_a_year_9_months/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a YNAB alternative for $40 a year. 9 months after the beta, 5,000+ people are using it",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1xoukyc/i_built_a_ynab_alternative_for_40_a_year_9_months/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/saas/comments/1xgsx2w/mobile_app_at_82_mrr_5k_organic_downloads_100",
+      "cluster_id": "cluster-2",
+      "engagement": 28,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 67,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R19",
+      "local_relevance": 0.27,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.299999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Hi everyone,\n\nI\u2019m a solo dev and I\u2019d love some advice on what to do next with my app and a small budget.\n\nThe app\n\nA productivity mobile app for n8n users\n\nFeatures: n8n instance monitoring, plus provisioning for users who don\u2019t have an n8n instance yet\n\nLaunched on Google Play in early April and on the App Store in early July\n\nCurrent metrics (verified RevenueCat link at the bottom)\n\nMRR: $82 (pe",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Mobile app at $82 MRR, 5K+ organic downloads, $100 budget: should I run Google Play ads?\nHi everyone,\n\nI\u2019m a solo dev and I\u2019d love some advice on what to do next with my app and a small budget.\n\nThe app\n\nA productivity mobile app for n8n users\n\nFeatures: n8n instance monitoring, plus provisioning for users who don\u2019t have an n8n instance yet\n\nLaunched on Google Play in early April and on the App Store in early July\n\nCurrent metrics (verified RevenueCat link at the bottom)\n\nMRR: $82 (peaked around $100 last month, then dropped)\n\nActive subscriptions: 15\n\nActive trials: 5\n\nNew customer",
+          "container": "SaaS",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 4
+          },
+          "engagement_score": 28,
+          "freshness": 67,
+          "item_id": "R19",
+          "local_rank_score": 0.37100000000000005,
+          "local_relevance": 0.27,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-27",
+          "relevance_hint": 0.47,
+          "snippet": "Hi everyone,\n\nI\u2019m a solo dev and I\u2019d love some advice on what to do next with my app and a small budget.\n\nThe app\n\nA productivity mobile app for n8n users\n\nFeatures: n8n instance monitoring, plus provisioning for users who don\u2019t have an n8n instance yet\n\nLaunched on Google Play in early April and on the App Store in early July\n\nCurrent metrics (verified RevenueCat link at the bottom)\n\nMRR: $82 (pe",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Mobile app at $82 MRR, 5K+ organic downloads, $100 budget: should I run Google Play ads?",
+          "url": "https://www.reddit.com/r/SaaS/comments/1xgsx2w/mobile_app_at_82_mrr_5k_organic_downloads_100/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Mobile app at $82 MRR, 5K+ organic downloads, $100 budget: should I run Google Play ads?",
+      "url": "https://www.reddit.com/r/SaaS/comments/1xgsx2w/mobile_app_at_82_mrr_5k_organic_downloads_100/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appfollow/comments/1xlpkce/mobile_app_maintenance_costs_slas_agreements",
+      "cluster_id": "cluster-3",
+      "engagement": 7,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 79,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 36.2,
+      "item_id": "R35",
+      "local_relevance": 0.15,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R35",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 7.299999999999997,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Mobile app maintenance: costs, SLAs, agreements\nNone",
+          "container": "AppFollow",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 7,
+          "freshness": 79,
+          "item_id": "R35",
+          "local_rank_score": 0.30200000000000005,
+          "local_relevance": 0.15,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-02",
+          "relevance_hint": 0.35,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Mobile app maintenance: costs, SLAs, agreements",
+          "url": "https://www.reddit.com/r/AppFollow/comments/1xlpkce/mobile_app_maintenance_costs_slas_agreements/",
+          "why_relevant": "Reddit r/AppFollow search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Mobile app maintenance: costs, SLAs, agreements",
+      "url": "https://www.reddit.com/r/AppFollow/comments/1xlpkce/mobile_app_maintenance_costs_slas_agreements/"
+    }
+  ],
+  "topic": "productivity mobile app \"worth paying\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
