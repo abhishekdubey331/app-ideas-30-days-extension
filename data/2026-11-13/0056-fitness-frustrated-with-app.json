@@ -1,0 +1,646 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness"
+      ],
+      "score": 9.989180327868851,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Full Send on my Frustrations with Fitness Wearables and Apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/applewatch/comments/1x9w2eg/problem_with_metrics_displayed_after_workouts"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/applewatch/comments/1x9w2eg/problem_with_metrics_displayed_after_workouts"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Problem with metrics displayed after workouts recorded on AW11 after update to Watch OS27"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-13T00:56:35.161677+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Full Send on my Frustrations with Fitness Wearables and Apps\nI\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was completing the puzzle. Realizing that certain wearables fall short in specific areas made me second-",
+        "container": "FitnessTrackers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 3,
+        "freshness": 100,
+        "item_id": "R34",
+        "local_rank_score": 0.461,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-13",
+        "relevance_hint": 0.4,
+        "snippet": "I\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Full Send on my Frustrations with Fitness Wearables and Apps",
+        "url": "https://www.reddit.com/r/FitnessTrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+        "container": "coolgithubprojects",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 18
+        },
+        "engagement_score": 83,
+        "freshness": 45,
+        "item_id": "R3",
+        "local_rank_score": 0.4035,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [
+            "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+            "If it was available and open source, I would definitely try it out.",
+            "Same here \u2026. Really live the idea and would use it sooo much",
+            "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+            "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+            "I'm looking to start a serious workout routine and witogur a trainer (most likely).",
+            "This is like 10th one I have seen this week."
+          ],
+          "top_comments": [
+            {
+              "author": "BenjiSponge",
+              "date": "2026-10-17",
+              "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+              "score": 4,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+            },
+            {
+              "author": "thomdough",
+              "date": "2026-10-17",
+              "excerpt": "If it was available and open source, I would definitely try it out.",
+              "score": 4,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+            },
+            {
+              "author": "Software_Sennin",
+              "date": "2026-10-17",
+              "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+            },
+            {
+              "author": "beberuhimuzik",
+              "date": "2026-10-17",
+              "excerpt": "Yeahhh!!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+            },
+            {
+              "author": "LankyPlenty8029",
+              "date": "2026-10-17",
+              "excerpt": "Release it! Looks good",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+            },
+            {
+              "author": "Background_Daikon300",
+              "date": "2026-10-17",
+              "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+            },
+            {
+              "author": "rogo725",
+              "date": "2026-10-18",
+              "excerpt": "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phet381/"
+            },
+            {
+              "author": "BowlingShoeThief",
+              "date": "2026-10-18",
+              "excerpt": "Yasss",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phf418b/"
+            },
+            {
+              "author": "saltyourhash",
+              "date": "2026-10-18",
+              "excerpt": "I'm looking to start a serious workout routine and witogur a trainer (most likely). This would be amazing to have open source. I could evne contribute code to it. I'd love this to be open source.",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phgbcw0/"
+            },
+            {
+              "author": "nonamenomonet",
+              "date": "2026-10-19",
+              "excerpt": "This is like 10th one I have seen this week.",
+              "score": 1,
+              "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phlmqj3/"
+            }
+          ]
+        },
+        "published_at": "2026-10-17",
+        "relevance_hint": 0.54,
+        "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+        "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public.\n\nAt first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time.\u00a0\n\nI also found other fitness apps too restrictive and a bi",
+        "container": "expo",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 2
+        },
+        "engagement_score": 37,
+        "freshness": 41,
+        "item_id": "R9",
+        "local_rank_score": 0.3475,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-15",
+        "relevance_hint": 0.22,
+        "snippet": "Hello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public.\n\nAt first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking),",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+        "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Problem with metrics displayed after workouts recorded on AW11 after update to Watch OS27\nI have been using Apple watches for years to record workouts. Since the update to OS27, I am frustrated with metrics that are displayed when I look at workout details in the Fitness app under Sessions. The photos show one example: Before the update, Workout Details for Hiking showed Workout Time and Elapsed Time. Now, Elapsed time is missing. Outdoor Walk workouts are the same. I had similar issues with outdoor cycling where the view of my workout in the Fitness app didn\u2019t show Distance after th",
+        "container": "AppleWatch",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 24,
+        "freshness": 49,
+        "item_id": "R21",
+        "local_rank_score": 0.29600000000000004,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-19",
+        "relevance_hint": 0.22,
+        "snippet": "I have been using Apple watches for years to record workouts. Since the update to OS27, I am frustrated with metrics that are displayed when I look at workout details in the Fitness app under Sessions. The photos show one example: Before the update, Workout Details for Hiking showed Workout Time and Elapsed Time. Now, Elapsed time is missing. Outdoor Walk workouts are the same. I had similar issue",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Problem with metrics displayed after workouts recorded on AW11 after update to Watch OS27",
+        "url": "https://www.reddit.com/r/AppleWatch/comments/1x9w2eg/problem_with_metrics_displayed_after_workouts/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-14",
+  "range_to": "2026-11-13",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/fitnesstrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness",
+      "cluster_id": "cluster-1",
+      "engagement": 3,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 9.989180327868851,
+      "freshness": 100,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 16.0,
+      "item_id": "R34",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R34",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 23.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Full Send on my Frustrations with Fitness Wearables and Apps\nI\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was completing the puzzle. Realizing that certain wearables fall short in specific areas made me second-",
+          "container": "FitnessTrackers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 3,
+          "freshness": 100,
+          "item_id": "R34",
+          "local_rank_score": 0.461,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-13",
+          "relevance_hint": 0.4,
+          "snippet": "I\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Full Send on my Frustrations with Fitness Wearables and Apps",
+          "url": "https://www.reddit.com/r/FitnessTrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Full Send on my Frustrations with Fitness Wearables and Apps",
+      "url": "https://www.reddit.com/r/FitnessTrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline",
+      "cluster_id": "cluster-2",
+      "engagement": 83,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 45,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 12.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.\nI'm a personal trainer and gym manager who's become increasingly frustrated with the state of fitness and coaching software. Expensive subscriptions, half-baked applications, unnecessary cloud dependencies and questionable data privacy practices. So I started building True Grit, a premium, entirely offline workout tracking and coaching application written in Flutter. It's a massive undertaking, nowhere near finished, and probably more feature-packed than most people will ever need. But what I've\nYes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+          "container": "coolgithubprojects",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 18
+          },
+          "engagement_score": 83,
+          "freshness": 45,
+          "item_id": "R3",
+          "local_rank_score": 0.4035,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [
+              "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.",
+              "If it was available and open source, I would definitely try it out.",
+              "Same here \u2026. Really live the idea and would use it sooo much",
+              "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, suppor...",
+              "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+              "I'm looking to start a serious workout routine and witogur a trainer (most likely).",
+              "This is like 10th one I have seen this week."
+            ],
+            "top_comments": [
+              {
+                "author": "BenjiSponge",
+                "date": "2026-10-17",
+                "excerpt": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use.",
+                "score": 4,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcvtm4/"
+              },
+              {
+                "author": "thomdough",
+                "date": "2026-10-17",
+                "excerpt": "If it was available and open source, I would definitely try it out.",
+                "score": 4,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd825p/"
+              },
+              {
+                "author": "Software_Sennin",
+                "date": "2026-10-17",
+                "excerpt": "Same here \u2026. Really live the idea and would use it sooo much",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phcxp5v/"
+              },
+              {
+                "author": "beberuhimuzik",
+                "date": "2026-10-17",
+                "excerpt": "Yeahhh!!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phd35g1/"
+              },
+              {
+                "author": "LankyPlenty8029",
+                "date": "2026-10-17",
+                "excerpt": "Release it! Looks good",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdceiw/"
+              },
+              {
+                "author": "Background_Daikon300",
+                "date": "2026-10-17",
+                "excerpt": "Creating is just the first hurdle.\n\n Next comes promotion, support, monetization, support, need to take break, support, why did I ever do this, support ... you get the picture. If it has value then give to an appreciative community. Feel good. Take the skills you learned and move on.\n\n Watch your ba",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phdlubc/"
+              },
+              {
+                "author": "rogo725",
+                "date": "2026-10-18",
+                "excerpt": "YES!!! I was looking into this today since from another GitHub repo. im happy to help!",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phet381/"
+              },
+              {
+                "author": "BowlingShoeThief",
+                "date": "2026-10-18",
+                "excerpt": "Yasss",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phf418b/"
+              },
+              {
+                "author": "saltyourhash",
+                "date": "2026-10-18",
+                "excerpt": "I'm looking to start a serious workout routine and witogur a trainer (most likely). This would be amazing to have open source. I could evne contribute code to it. I'd love this to be open source.",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phgbcw0/"
+              },
+              {
+                "author": "nonamenomonet",
+                "date": "2026-10-19",
+                "excerpt": "This is like 10th one I have seen this week.",
+                "score": 1,
+                "url": "https://reddit.com/r/coolgithubprojects/comments/1x8c48e/comment/phlmqj3/"
+              }
+            ]
+          },
+          "published_at": "2026-10-17",
+          "relevance_hint": 0.54,
+          "snippet": "Yes! This looks great! I've been working on a totally personal one with a lot of similar ideas at ben.soy/fitness but this looks better and more polished. Would totally use. If it was available and open source, I would definitely try it out. Same here \u2026. Really live the idea and would use it sooo much",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+          "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I've spent years building an ambitious offline fitness app. Now I'm seriously considering making it free and community-developed. I'd love some honest opinions.",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1x8c48e/ive_spent_years_building_an_ambitious_offline/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i",
+      "cluster_id": "cluster-3",
+      "engagement": 37,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R9",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R9",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 11.600000000000001,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public.\n\nAt first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking),",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free\nHello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public.\n\nAt first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking), etc. on the app I was using at the time.\u00a0\n\nI also found other fitness apps too restrictive and a bi",
+          "container": "expo",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 2
+          },
+          "engagement_score": 37,
+          "freshness": 41,
+          "item_id": "R9",
+          "local_rank_score": 0.3475,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-15",
+          "relevance_hint": 0.22,
+          "snippet": "Hello, for the last two years I've been working on my workout app CataLift and I feel like it is in a good spot to show off comfortably to the public.\n\nAt first, I built it because I was frustrated with not being able to have features such as tempo, pause, supersets, rest between sets, rest between exercises, plate calculator, and variations (grip width, stance, deficit, left/right side tracking),",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+          "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I spent 2 years building the lifting tracker I couldn't find: tempo, pauses, grip/stance/deficit variations, L/R sides, and it's mostly free",
+      "url": "https://www.reddit.com/r/expo/comments/1x6vk61/i_spent_2_years_building_the_lifting_tracker_i/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/applewatch/comments/1x9w2eg/problem_with_metrics_displayed_after_workouts",
+      "cluster_id": "cluster-4",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 49,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R21",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R21",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 6.899999999999999,
+      "rrf_score": 0.0078125,
+      "snippet": "I have been using Apple watches for years to record workouts. Since the update to OS27, I am frustrated with metrics that are displayed when I look at workout details in the Fitness app under Sessions. The photos show one example: Before the update, Workout Details for Hiking showed Workout Time and Elapsed Time. Now, Elapsed time is missing. Outdoor Walk workouts are the same. I had similar issue",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Problem with metrics displayed after workouts recorded on AW11 after update to Watch OS27\nI have been using Apple watches for years to record workouts. Since the update to OS27, I am frustrated with metrics that are displayed when I look at workout details in the Fitness app under Sessions. The photos show one example: Before the update, Workout Details for Hiking showed Workout Time and Elapsed Time. Now, Elapsed time is missing. Outdoor Walk workouts are the same. I had similar issues with outdoor cycling where the view of my workout in the Fitness app didn\u2019t show Distance after th",
+          "container": "AppleWatch",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 24,
+          "freshness": 49,
+          "item_id": "R21",
+          "local_rank_score": 0.29600000000000004,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-19",
+          "relevance_hint": 0.22,
+          "snippet": "I have been using Apple watches for years to record workouts. Since the update to OS27, I am frustrated with metrics that are displayed when I look at workout details in the Fitness app under Sessions. The photos show one example: Before the update, Workout Details for Hiking showed Workout Time and Elapsed Time. Now, Elapsed time is missing. Outdoor Walk workouts are the same. I had similar issue",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Problem with metrics displayed after workouts recorded on AW11 after update to Watch OS27",
+          "url": "https://www.reddit.com/r/AppleWatch/comments/1x9w2eg/problem_with_metrics_displayed_after_workouts/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Problem with metrics displayed after workouts recorded on AW11 after update to Watch OS27",
+      "url": "https://www.reddit.com/r/AppleWatch/comments/1x9w2eg/problem_with_metrics_displayed_after_workouts/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
