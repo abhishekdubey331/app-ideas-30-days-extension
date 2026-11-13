@@ -1,0 +1,488 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/casualph/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/casualph/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I finally unlocked 1000 days on reddit!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/puneclassifieds/comments/1x6gxg0/grateful_for_reddits_support"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/puneclassifieds/comments/1x6gxg0/grateful_for_reddits_support"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Grateful for Reddit\u2019s Support! \u2764\ufe0f"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/gta6unmoderated/comments/1xf40xv/the_hype_is_getting_real"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/gta6unmoderated/comments/1xf40xv/the_hype_is_getting_real"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "The hype is getting real"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Price check new one cost 42k"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-13T11:57:35.390354+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I finally unlocked 1000 days on reddit!\nNone",
+        "container": "CasualPH",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 31,
+          "score": 409
+        },
+        "engagement_score": 47,
+        "freshness": 65,
+        "item_id": "R8",
+        "local_rank_score": 0.32649999999999996,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-27",
+        "relevance_hint": 0.25,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I finally unlocked 1000 days on reddit!",
+        "url": "https://www.reddit.com/r/CasualPH/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Price check new one cost 42k\nRealme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Deal, Can Also Ship if buyer is not from Kanpur UP, Have Already Sold many items through reddit in Bang",
+        "container": "resellpur",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 0
+        },
+        "engagement_score": 1,
+        "freshness": 82,
+        "item_id": "R34",
+        "local_rank_score": 0.31,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-04",
+        "relevance_hint": 0.06,
+        "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Price check new one cost 42k",
+        "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "The hype is getting real\nLogged into Instagram earlier and saw that my Reddit post is going viral. I guess I\u2019m cemented in GTA 6 history \ud83d\ude2d\n\nOriginal post: https://www.reddit.com/r/PS5pro/s/aBoMpzYT7P\n\nHow will you all be enjoying the game on November 19th?",
+        "container": "GTA6unmoderated",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 2
+        },
+        "engagement_score": 8,
+        "freshness": 61,
+        "item_id": "R32",
+        "local_rank_score": 0.2645,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-25",
+        "relevance_hint": 0.14,
+        "snippet": "Logged into Instagram earlier and saw that my Reddit post is going viral. I guess I\u2019m cemented in GTA 6 history \ud83d\ude2d\n\nOriginal post: https://www.reddit.com/r/PS5pro/s/aBoMpzYT7P\n\nHow will you all be enjoying the game on November 19th?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "The hype is getting real",
+        "url": "https://www.reddit.com/r/GTA6unmoderated/comments/1xf40xv/the_hype_is_getting_real/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Grateful for Reddit\u2019s Support! \u2764\ufe0f\nHello, hello! \ud83d\ude04\n\nI am sooo happy with Reddit! Reddit gave me my first bulk order when I first posted about my small venture, Ranji \u2013 Handcrafted Bags. I had already sold out of all the bags I started with, and now I have taken a bigger leap this time!\n\nHere is my new collection! I am posting the pictures as I received the bags (I am not a good photographer yet, but I am still working on it \ud83d\ude05).\n\nPlease suggest more ideas! Last time, so many people connected with me personally and guided me. Thank",
+        "container": "PuneClassifieds",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 21
+        },
+        "engagement_score": 22,
+        "freshness": 41,
+        "item_id": "R20",
+        "local_rank_score": 0.2285,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-15",
+        "relevance_hint": 0.27,
+        "snippet": "Hello, hello! \ud83d\ude04\n\nI am sooo happy with Reddit! Reddit gave me my first bulk order when I first posted about my small venture, Ranji \u2013 Handcrafted Bags. I had already sold out of all the bags I started with, and now I have taken a bigger leap this time!\n\nHere is my new collection! I am posting the pictures as I received the bags (I am not a good photographer yet, but I am still working on it \ud83d\ude05).\n\nPl",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Grateful for Reddit\u2019s Support! \u2764\ufe0f",
+        "url": "https://www.reddit.com/r/PuneClassifieds/comments/1x6gxg0/grateful_for_reddits_support/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-14",
+  "range_to": "2026-11-13",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/casualph/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit",
+      "cluster_id": "cluster-1",
+      "engagement": 47,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 65,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 63.400000000000006,
+      "item_id": "R8",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R8",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 6.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I finally unlocked 1000 days on reddit!\nNone",
+          "container": "CasualPH",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 31,
+            "score": 409
+          },
+          "engagement_score": 47,
+          "freshness": 65,
+          "item_id": "R8",
+          "local_rank_score": 0.32649999999999996,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-27",
+          "relevance_hint": 0.25,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I finally unlocked 1000 days on reddit!",
+          "url": "https://www.reddit.com/r/CasualPH/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I finally unlocked 1000 days on reddit!",
+      "url": "https://www.reddit.com/r/CasualPH/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/puneclassifieds/comments/1x6gxg0/grateful_for_reddits_support",
+      "cluster_id": "cluster-2",
+      "engagement": 22,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R20",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R20",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 0.3999999999999986,
+      "rrf_score": 0.0078125,
+      "snippet": "Hello, hello! \ud83d\ude04\n\nI am sooo happy with Reddit! Reddit gave me my first bulk order when I first posted about my small venture, Ranji \u2013 Handcrafted Bags. I had already sold out of all the bags I started with, and now I have taken a bigger leap this time!\n\nHere is my new collection! I am posting the pictures as I received the bags (I am not a good photographer yet, but I am still working on it \ud83d\ude05).\n\nPl",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Grateful for Reddit\u2019s Support! \u2764\ufe0f\nHello, hello! \ud83d\ude04\n\nI am sooo happy with Reddit! Reddit gave me my first bulk order when I first posted about my small venture, Ranji \u2013 Handcrafted Bags. I had already sold out of all the bags I started with, and now I have taken a bigger leap this time!\n\nHere is my new collection! I am posting the pictures as I received the bags (I am not a good photographer yet, but I am still working on it \ud83d\ude05).\n\nPlease suggest more ideas! Last time, so many people connected with me personally and guided me. Thank",
+          "container": "PuneClassifieds",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 21
+          },
+          "engagement_score": 22,
+          "freshness": 41,
+          "item_id": "R20",
+          "local_rank_score": 0.2285,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-15",
+          "relevance_hint": 0.27,
+          "snippet": "Hello, hello! \ud83d\ude04\n\nI am sooo happy with Reddit! Reddit gave me my first bulk order when I first posted about my small venture, Ranji \u2013 Handcrafted Bags. I had already sold out of all the bags I started with, and now I have taken a bigger leap this time!\n\nHere is my new collection! I am posting the pictures as I received the bags (I am not a good photographer yet, but I am still working on it \ud83d\ude05).\n\nPl",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Grateful for Reddit\u2019s Support! \u2764\ufe0f",
+          "url": "https://www.reddit.com/r/PuneClassifieds/comments/1x6gxg0/grateful_for_reddits_support/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Grateful for Reddit\u2019s Support! \u2764\ufe0f",
+      "url": "https://www.reddit.com/r/PuneClassifieds/comments/1x6gxg0/grateful_for_reddits_support/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/gta6unmoderated/comments/1xf40xv/the_hype_is_getting_real",
+      "cluster_id": "cluster-3",
+      "engagement": 8,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 61,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 16.0,
+      "item_id": "R32",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R32",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 4.399999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Logged into Instagram earlier and saw that my Reddit post is going viral. I guess I\u2019m cemented in GTA 6 history \ud83d\ude2d\n\nOriginal post: https://www.reddit.com/r/PS5pro/s/aBoMpzYT7P\n\nHow will you all be enjoying the game on November 19th?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "The hype is getting real\nLogged into Instagram earlier and saw that my Reddit post is going viral. I guess I\u2019m cemented in GTA 6 history \ud83d\ude2d\n\nOriginal post: https://www.reddit.com/r/PS5pro/s/aBoMpzYT7P\n\nHow will you all be enjoying the game on November 19th?",
+          "container": "GTA6unmoderated",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 2
+          },
+          "engagement_score": 8,
+          "freshness": 61,
+          "item_id": "R32",
+          "local_rank_score": 0.2645,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-25",
+          "relevance_hint": 0.14,
+          "snippet": "Logged into Instagram earlier and saw that my Reddit post is going viral. I guess I\u2019m cemented in GTA 6 history \ud83d\ude2d\n\nOriginal post: https://www.reddit.com/r/PS5pro/s/aBoMpzYT7P\n\nHow will you all be enjoying the game on November 19th?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "The hype is getting real",
+          "url": "https://www.reddit.com/r/GTA6unmoderated/comments/1xf40xv/the_hype_is_getting_real/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "The hype is getting real",
+      "url": "https://www.reddit.com/r/GTA6unmoderated/comments/1xf40xv/the_hype_is_getting_real/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k",
+      "cluster_id": "cluster-4",
+      "engagement": 1,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 2.0,
+      "item_id": "R34",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R34",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 8.600000000000001,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Price check new one cost 42k\nRealme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Deal, Can Also Ship if buyer is not from Kanpur UP, Have Already Sold many items through reddit in Bang",
+          "container": "resellpur",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 0
+          },
+          "engagement_score": 1,
+          "freshness": 82,
+          "item_id": "R34",
+          "local_rank_score": 0.31,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-04",
+          "relevance_hint": 0.06,
+          "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Price check new one cost 42k",
+          "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Price check new one cost 42k",
+      "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
