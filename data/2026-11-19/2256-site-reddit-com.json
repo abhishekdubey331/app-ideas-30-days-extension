@@ -1,0 +1,699 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/casualph/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/casualph/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I finally unlocked 1000 days on reddit!"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/kenyanladies/comments/1xj7o1m/too_comfy_with_dv_on_reddit"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/kenyanladies/comments/1xj7o1m/too_comfy_with_dv_on_reddit"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Too comfy with DV on reddit"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/retrofantasyscifi/comments/1xhsbw1/reddit_scam_where_a_user_asks_to_chat_saying_they"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/retrofantasyscifi/comments/1xhsbw1/reddit_scam_where_a_user_asks_to_chat_saying_they"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Reddit Scam where a user asks to chat saying they reported your account by mistake."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/periodontaldisease/comments/1xghwd9/is_my_gum_graft_failing"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/periodontaldisease/comments/1xghwd9/is_my_gum_graft_failing"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is my Gum Graft failing? \ud83e\udd7a"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/reddithelp/comments/1xoltae/not_all_photos_are_displayed_in_the_posts_image"
+      ],
+      "cluster_id": "cluster-5",
+      "representative_ids": [
+        "https://reddit.com/r/reddithelp/comments/1xoltae/not_all_photos_are_displayed_in_the_posts_image"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Not all photos are displayed in the post's image feed."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k"
+      ],
+      "cluster_id": "cluster-6",
+      "representative_ids": [
+        "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Price check new one cost 42k"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-19T22:56:37.745977+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I finally unlocked 1000 days on reddit!\nNone",
+        "container": "CasualPH",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 31,
+          "score": 409
+        },
+        "engagement_score": 42,
+        "freshness": 53,
+        "item_id": "R7",
+        "local_rank_score": 0.2915,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-27",
+        "relevance_hint": 0.25,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I finally unlocked 1000 days on reddit!",
+        "url": "https://www.reddit.com/r/CasualPH/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Not all photos are displayed in the post's image feed.\nI\u2019m referring to my post from yesterday, which featured photos from all over the world: https://www.reddit.com/r/MiSideReddit/s/Ku2LC7jcPt\n\nInitially, I had a version that included the names of various social networks, apps, and services, but Reddit\u2019s filters removed it. Suspecting that was the cause, I edited the text to remove any such mentions\u2014yet now, I\u2019m running into the same problem again.\n\nTake a look at this first screenshot. I can clearly see the photo collage I put together, but it see",
+        "container": "reddithelp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 2
+        },
+        "engagement_score": 6,
+        "freshness": 71,
+        "item_id": "R39",
+        "local_rank_score": 0.2875,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-05",
+        "relevance_hint": 0.14,
+        "snippet": "I\u2019m referring to my post from yesterday, which featured photos from all over the world: https://www.reddit.com/r/MiSideReddit/s/Ku2LC7jcPt\n\nInitially, I had a version that included the names of various social networks, apps, and services, but Reddit\u2019s filters removed it. Suspecting that was the cause, I edited the text to remove any such mentions\u2014yet now, I\u2019m running into the same problem again.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Not all photos are displayed in the post's image feed.",
+        "url": "https://www.reddit.com/r/reddithelp/comments/1xoltae/not_all_photos_are_displayed_in_the_posts_image/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Price check new one cost 42k\nRealme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Deal, Can Also Ship if buyer is not from Kanpur UP, Have Already Sold many items through reddit in Bang",
+        "container": "resellpur",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 11,
+          "score": 0
+        },
+        "engagement_score": 1,
+        "freshness": 70,
+        "item_id": "R33",
+        "local_rank_score": 0.28,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-04",
+        "relevance_hint": 0.06,
+        "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Price check new one cost 42k",
+        "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Too comfy with DV on reddit\nSo in this post, a guy says he slapped and pushed his gf, and the comments under it are mixed. You can see many guys say they are okay with it, and others say otherwise. But the fact that a post promoting domestic abuse is on such a Kenyan platform is concerning. tHE FACT THAT THE POST IS STILL UP FOR DAYS IS MAD.\nJust in case it is deleted",
+        "container": "KenyanLadies",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 7,
+          "score": 25
+        },
+        "engagement_score": 20,
+        "freshness": 59,
+        "item_id": "R23",
+        "local_rank_score": 0.2715,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-30",
+        "relevance_hint": 0.26,
+        "snippet": "So in this post, a guy says he slapped and pushed his gf, and the comments under it are mixed. You can see many guys say they are okay with it, and others say otherwise. But the fact that a post promoting domestic abuse is on such a Kenyan platform is concerning. tHE FACT THAT THE POST IS STILL UP FOR DAYS IS MAD.\nJust in case it is deleted",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Too comfy with DV on reddit",
+        "url": "https://www.reddit.com/r/KenyanLadies/comments/1xj7o1m/too_comfy_with_dv_on_reddit/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Reddit Scam where a user asks to chat saying they reported your account by mistake.\nAn account started a chat with me saying they reported my account by mistake and I would have to contact Reddit by Discord. Reddit will contact through reddit itself, and this is a phishing scam as reported here in the link provided.\n\nI did not give them any information and reported the account. This just happened in the last hour or 2 and wanted to warn others in case.",
+        "container": "RetroFantasyScifi",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 15
+        },
+        "engagement_score": 15,
+        "freshness": 55,
+        "item_id": "R26",
+        "local_rank_score": 0.2565,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-28",
+        "relevance_hint": 0.24,
+        "snippet": "An account started a chat with me saying they reported my account by mistake and I would have to contact Reddit by Discord. Reddit will contact through reddit itself, and this is a phishing scam as reported here in the link provided.\n\nI did not give them any information and reported the account. This just happened in the last hour or 2 and wanted to warn others in case.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Reddit Scam where a user asks to chat saying they reported your account by mistake.",
+        "url": "https://www.reddit.com/r/RetroFantasyScifi/comments/1xhsbw1/reddit_scam_where_a_user_asks_to_chat_saying_they/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Is my Gum Graft failing? \ud83e\udd7a\nSo I just had my first gum graft 5 days ago and am extremely glad I\u2019ve had Reddit as a resource to read first-hand stories\u2026but also finding a lot of anxiety in the post-op process!\n\nI have two small kids (1 & 3 y/o) and it just wasn\u2019t a reality for me to be resting days 1-3 and I\u2019m worried the tissue has dislodged through excessive movement\u2026and a few light toddler bumps in the face.\n\nSome key points that maybe work in my favor, or not:\n> I haven\u2019t had any bleeding\n> Pain is manageable (didn\u2019t ta",
+        "container": "PeriodontalDisease",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 6
+        },
+        "engagement_score": 8,
+        "freshness": 53,
+        "item_id": "R36",
+        "local_rank_score": 0.24450000000000002,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-27",
+        "relevance_hint": 0.06,
+        "snippet": "So I just had my first gum graft 5 days ago and am extremely glad I\u2019ve had Reddit as a resource to read first-hand stories\u2026but also finding a lot of anxiety in the post-op process!\n\nI have two small kids (1 & 3 y/o) and it just wasn\u2019t a reality for me to be resting days 1-3 and I\u2019m worried the tissue has dislodged through excessive movement\u2026and a few light toddler bumps in the face.\n\nSome key poin",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is my Gum Graft failing? \ud83e\udd7a",
+        "url": "https://www.reddit.com/r/PeriodontalDisease/comments/1xghwd9/is_my_gum_graft_failing/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-20",
+  "range_to": "2026-11-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/casualph/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit",
+      "cluster_id": "cluster-1",
+      "engagement": 42,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 63.400000000000006,
+      "item_id": "R7",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R7",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 4.200000000000003,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I finally unlocked 1000 days on reddit!\nNone",
+          "container": "CasualPH",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 31,
+            "score": 409
+          },
+          "engagement_score": 42,
+          "freshness": 53,
+          "item_id": "R7",
+          "local_rank_score": 0.2915,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-27",
+          "relevance_hint": 0.25,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I finally unlocked 1000 days on reddit!",
+          "url": "https://www.reddit.com/r/CasualPH/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I finally unlocked 1000 days on reddit!",
+      "url": "https://www.reddit.com/r/CasualPH/comments/1xgygxe/i_finally_unlocked_1000_days_on_reddit/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/kenyanladies/comments/1xj7o1m/too_comfy_with_dv_on_reddit",
+      "cluster_id": "cluster-2",
+      "engagement": 20,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40.0,
+      "item_id": "R23",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R23",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 4.0,
+      "rrf_score": 0.0078125,
+      "snippet": "So in this post, a guy says he slapped and pushed his gf, and the comments under it are mixed. You can see many guys say they are okay with it, and others say otherwise. But the fact that a post promoting domestic abuse is on such a Kenyan platform is concerning. tHE FACT THAT THE POST IS STILL UP FOR DAYS IS MAD.\nJust in case it is deleted",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Too comfy with DV on reddit\nSo in this post, a guy says he slapped and pushed his gf, and the comments under it are mixed. You can see many guys say they are okay with it, and others say otherwise. But the fact that a post promoting domestic abuse is on such a Kenyan platform is concerning. tHE FACT THAT THE POST IS STILL UP FOR DAYS IS MAD.\nJust in case it is deleted",
+          "container": "KenyanLadies",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 25
+          },
+          "engagement_score": 20,
+          "freshness": 59,
+          "item_id": "R23",
+          "local_rank_score": 0.2715,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-30",
+          "relevance_hint": 0.26,
+          "snippet": "So in this post, a guy says he slapped and pushed his gf, and the comments under it are mixed. You can see many guys say they are okay with it, and others say otherwise. But the fact that a post promoting domestic abuse is on such a Kenyan platform is concerning. tHE FACT THAT THE POST IS STILL UP FOR DAYS IS MAD.\nJust in case it is deleted",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Too comfy with DV on reddit",
+          "url": "https://www.reddit.com/r/KenyanLadies/comments/1xj7o1m/too_comfy_with_dv_on_reddit/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Too comfy with DV on reddit",
+      "url": "https://www.reddit.com/r/KenyanLadies/comments/1xj7o1m/too_comfy_with_dv_on_reddit/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/retrofantasyscifi/comments/1xhsbw1/reddit_scam_where_a_user_asks_to_chat_saying_they",
+      "cluster_id": "cluster-3",
+      "engagement": 15,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 55,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 30.0,
+      "item_id": "R26",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R26",
+            "native_rank": 5,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 5
+      },
+      "rerank_score": 3.1999999999999993,
+      "rrf_score": 0.007692307692307693,
+      "snippet": "An account started a chat with me saying they reported my account by mistake and I would have to contact Reddit by Discord. Reddit will contact through reddit itself, and this is a phishing scam as reported here in the link provided.\n\nI did not give them any information and reported the account. This just happened in the last hour or 2 and wanted to warn others in case.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Reddit Scam where a user asks to chat saying they reported your account by mistake.\nAn account started a chat with me saying they reported my account by mistake and I would have to contact Reddit by Discord. Reddit will contact through reddit itself, and this is a phishing scam as reported here in the link provided.\n\nI did not give them any information and reported the account. This just happened in the last hour or 2 and wanted to warn others in case.",
+          "container": "RetroFantasyScifi",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 15
+          },
+          "engagement_score": 15,
+          "freshness": 55,
+          "item_id": "R26",
+          "local_rank_score": 0.2565,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-28",
+          "relevance_hint": 0.24,
+          "snippet": "An account started a chat with me saying they reported my account by mistake and I would have to contact Reddit by Discord. Reddit will contact through reddit itself, and this is a phishing scam as reported here in the link provided.\n\nI did not give them any information and reported the account. This just happened in the last hour or 2 and wanted to warn others in case.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Reddit Scam where a user asks to chat saying they reported your account by mistake.",
+          "url": "https://www.reddit.com/r/RetroFantasyScifi/comments/1xhsbw1/reddit_scam_where_a_user_asks_to_chat_saying_they/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Reddit Scam where a user asks to chat saying they reported your account by mistake.",
+      "url": "https://www.reddit.com/r/RetroFantasyScifi/comments/1xhsbw1/reddit_scam_where_a_user_asks_to_chat_saying_they/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/periodontaldisease/comments/1xghwd9/is_my_gum_graft_failing",
+      "cluster_id": "cluster-4",
+      "engagement": 8,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 16.0,
+      "item_id": "R36",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R36",
+            "native_rank": 6,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 6
+      },
+      "rerank_score": 2.8000000000000007,
+      "rrf_score": 0.007575757575757576,
+      "snippet": "So I just had my first gum graft 5 days ago and am extremely glad I\u2019ve had Reddit as a resource to read first-hand stories\u2026but also finding a lot of anxiety in the post-op process!\n\nI have two small kids (1 & 3 y/o) and it just wasn\u2019t a reality for me to be resting days 1-3 and I\u2019m worried the tissue has dislodged through excessive movement\u2026and a few light toddler bumps in the face.\n\nSome key poin",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is my Gum Graft failing? \ud83e\udd7a\nSo I just had my first gum graft 5 days ago and am extremely glad I\u2019ve had Reddit as a resource to read first-hand stories\u2026but also finding a lot of anxiety in the post-op process!\n\nI have two small kids (1 & 3 y/o) and it just wasn\u2019t a reality for me to be resting days 1-3 and I\u2019m worried the tissue has dislodged through excessive movement\u2026and a few light toddler bumps in the face.\n\nSome key points that maybe work in my favor, or not:\n> I haven\u2019t had any bleeding\n> Pain is manageable (didn\u2019t ta",
+          "container": "PeriodontalDisease",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 6
+          },
+          "engagement_score": 8,
+          "freshness": 53,
+          "item_id": "R36",
+          "local_rank_score": 0.24450000000000002,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-27",
+          "relevance_hint": 0.06,
+          "snippet": "So I just had my first gum graft 5 days ago and am extremely glad I\u2019ve had Reddit as a resource to read first-hand stories\u2026but also finding a lot of anxiety in the post-op process!\n\nI have two small kids (1 & 3 y/o) and it just wasn\u2019t a reality for me to be resting days 1-3 and I\u2019m worried the tissue has dislodged through excessive movement\u2026and a few light toddler bumps in the face.\n\nSome key poin",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is my Gum Graft failing? \ud83e\udd7a",
+          "url": "https://www.reddit.com/r/PeriodontalDisease/comments/1xghwd9/is_my_gum_graft_failing/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is my Gum Graft failing? \ud83e\udd7a",
+      "url": "https://www.reddit.com/r/PeriodontalDisease/comments/1xghwd9/is_my_gum_graft_failing/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/reddithelp/comments/1xoltae/not_all_photos_are_displayed_in_the_posts_image",
+      "cluster_id": "cluster-5",
+      "engagement": 6,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 12.0,
+      "item_id": "R39",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R39",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 6.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I\u2019m referring to my post from yesterday, which featured photos from all over the world: https://www.reddit.com/r/MiSideReddit/s/Ku2LC7jcPt\n\nInitially, I had a version that included the names of various social networks, apps, and services, but Reddit\u2019s filters removed it. Suspecting that was the cause, I edited the text to remove any such mentions\u2014yet now, I\u2019m running into the same problem again.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Not all photos are displayed in the post's image feed.\nI\u2019m referring to my post from yesterday, which featured photos from all over the world: https://www.reddit.com/r/MiSideReddit/s/Ku2LC7jcPt\n\nInitially, I had a version that included the names of various social networks, apps, and services, but Reddit\u2019s filters removed it. Suspecting that was the cause, I edited the text to remove any such mentions\u2014yet now, I\u2019m running into the same problem again.\n\nTake a look at this first screenshot. I can clearly see the photo collage I put together, but it see",
+          "container": "reddithelp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 7,
+            "score": 2
+          },
+          "engagement_score": 6,
+          "freshness": 71,
+          "item_id": "R39",
+          "local_rank_score": 0.2875,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-05",
+          "relevance_hint": 0.14,
+          "snippet": "I\u2019m referring to my post from yesterday, which featured photos from all over the world: https://www.reddit.com/r/MiSideReddit/s/Ku2LC7jcPt\n\nInitially, I had a version that included the names of various social networks, apps, and services, but Reddit\u2019s filters removed it. Suspecting that was the cause, I edited the text to remove any such mentions\u2014yet now, I\u2019m running into the same problem again.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Not all photos are displayed in the post's image feed.",
+          "url": "https://www.reddit.com/r/reddithelp/comments/1xoltae/not_all_photos_are_displayed_in_the_posts_image/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Not all photos are displayed in the post's image feed.",
+      "url": "https://www.reddit.com/r/reddithelp/comments/1xoltae/not_all_photos_are_displayed_in_the_posts_image/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k",
+      "cluster_id": "cluster-6",
+      "engagement": 1,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 70,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 2.0,
+      "item_id": "R33",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R33",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 6.199999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Price check new one cost 42k\nRealme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Deal, Can Also Ship if buyer is not from Kanpur UP, Have Already Sold many items through reddit in Bang",
+          "container": "resellpur",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 11,
+            "score": 0
+          },
+          "engagement_score": 1,
+          "freshness": 70,
+          "item_id": "R33",
+          "local_rank_score": 0.28,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-04",
+          "relevance_hint": 0.06,
+          "snippet": "Realme 16 - 5g - 8+10/128\n\nPurchased at 37k - 45 Days Ago\n\nCurrent Price - 42k On Flipkart\n\nIncluding Bill Box Charger Cable & Case\n\nMatte Tempered Installed since day one\n\nNo scratches anywhere - Clean Device\n\nLocation - Kanpur Uttarpradesh - Sold\n\nReason to sell - Already having 2 mobiles And I don't like the UI, And prefer using Oneplus\n\nDrop Your Offers In Dm - i Always prefer Face To Face Dea",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Price check new one cost 42k",
+          "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Price check new one cost 42k",
+      "url": "https://www.reddit.com/r/resellpur/comments/1xnzt63/price_check_new_one_cost_42k/"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Top evidence is highly concentrated in one source."
+  ]
+}
