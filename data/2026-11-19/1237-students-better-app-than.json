@@ -1,0 +1,303 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "students \"better app than\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@joshuastudies7/video/7708413126630214926"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@joshuastudies7/video/7708413126630214926"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "no way an app this good is just sitting there. phrasly, go try it #study #school #collage #university"
+    },
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@ms.mikles/video/7701496373224492319"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://tiktok.com/@ms.mikles/video/7701496373224492319"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-19T12:37:32.012352+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "joshuastudies7",
+        "body": "no way an app this good is just sitting there. phrasly, go try it #study #school #collage #university\nThese are three of the most gay kept apps. First up, we have the calculator and if you press share more than calculator, you'll see why. Next up, we got this website called Phrasely, which lets you copy any essay and upload to their free eye humanizer, which will make it sound more human and actually bypass all the eye detectors like GBT0 and turn it in. Lastly, we have reminders. If you're a student or a high functioning person and you're not using these, what are you doing?",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 3,
+          "likes": 38,
+          "shares": 186,
+          "views": 5483
+        },
+        "engagement_score": 37,
+        "freshness": 91,
+        "item_id": "TK2",
+        "local_rank_score": 0.3945,
+        "local_relevance": 0.2,
+        "metadata": {
+          "hashtags": [
+            "study",
+            "school",
+            "collage",
+            "university"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-11-15",
+        "relevance_hint": 0.09,
+        "snippet": "These are three of the most gay kept apps. First up, we have the calculator and if you press share more than calculator, you'll see why. Next up, we got this website called Phrasely, which lets you copy any essay and upload to their free eye humanizer, which will make it sound more human and actually bypass all the eye detectors like GBT0 and turn it in. Lastly, we have reminders. If you're a student or a high functioning person and you're not using these, what are you doing?",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "no way an app this good is just sitting there. phrasly, go try it #study #school #collage #university",
+        "url": "https://www.tiktok.com/@joshuastudies7/video/7708413126630214926",
+        "why_relevant": "TikTok: no way an app this good is just sitting there. phrasly, go t"
+      },
+      {
+        "author": "ms.mikles",
+        "body": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 4,
+          "likes": 47,
+          "shares": 0,
+          "views": 758
+        },
+        "engagement_score": 27,
+        "freshness": 53,
+        "item_id": "TK9",
+        "local_rank_score": 0.35450000000000004,
+        "local_relevance": 0.3,
+        "metadata": {
+          "hashtags": [
+            "teachersoftiktok",
+            "knowie",
+            "knowunity",
+            "studytips"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-10-27",
+        "relevance_hint": 0.9,
+        "snippet": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+        "url": "https://www.tiktok.com/@ms.mikles/video/7701496373224492319",
+        "why_relevant": "TikTok: my students said this app explains better than me so I teste"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "students \"better app than\"",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to students \"better app than\"?",
+        "search_query": "students \"better app than\"",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-20",
+  "range_to": "2026-11-19",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@joshuastudies7/video/7708413126630214926",
+      "cluster_id": "cluster-1",
+      "engagement": 37,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK2",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 13.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "These are three of the most gay kept apps. First up, we have the calculator and if you press share more than calculator, you'll see why. Next up, we got this website called Phrasely, which lets you copy any essay and upload to their free eye humanizer, which will make it sound more human and actually bypass all the eye detectors like GBT0 and turn it in. Lastly, we have reminders. If you're a student or a high functioning person and you're not using these, what are you doing?",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "joshuastudies7",
+          "body": "no way an app this good is just sitting there. phrasly, go try it #study #school #collage #university\nThese are three of the most gay kept apps. First up, we have the calculator and if you press share more than calculator, you'll see why. Next up, we got this website called Phrasely, which lets you copy any essay and upload to their free eye humanizer, which will make it sound more human and actually bypass all the eye detectors like GBT0 and turn it in. Lastly, we have reminders. If you're a student or a high functioning person and you're not using these, what are you doing?",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 3,
+            "likes": 38,
+            "shares": 186,
+            "views": 5483
+          },
+          "engagement_score": 37,
+          "freshness": 91,
+          "item_id": "TK2",
+          "local_rank_score": 0.3945,
+          "local_relevance": 0.2,
+          "metadata": {
+            "hashtags": [
+              "study",
+              "school",
+              "collage",
+              "university"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-11-15",
+          "relevance_hint": 0.09,
+          "snippet": "These are three of the most gay kept apps. First up, we have the calculator and if you press share more than calculator, you'll see why. Next up, we got this website called Phrasely, which lets you copy any essay and upload to their free eye humanizer, which will make it sound more human and actually bypass all the eye detectors like GBT0 and turn it in. Lastly, we have reminders. If you're a student or a high functioning person and you're not using these, what are you doing?",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "no way an app this good is just sitting there. phrasly, go try it #study #school #collage #university",
+          "url": "https://www.tiktok.com/@joshuastudies7/video/7708413126630214926",
+          "why_relevant": "TikTok: no way an app this good is just sitting there. phrasly, go t"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "no way an app this good is just sitting there. phrasly, go try it #study #school #collage #university",
+      "url": "https://www.tiktok.com/@joshuastudies7/video/7708413126630214926"
+    },
+    {
+      "candidate_id": "https://tiktok.com/@ms.mikles/video/7701496373224492319",
+      "cluster_id": "cluster-2",
+      "engagement": 27,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 53,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK9",
+      "local_relevance": 0.3,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK9",
+            "native_rank": 2,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 2
+      },
+      "rerank_score": 12.399999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "ms.mikles",
+          "body": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 4,
+            "likes": 47,
+            "shares": 0,
+            "views": 758
+          },
+          "engagement_score": 27,
+          "freshness": 53,
+          "item_id": "TK9",
+          "local_rank_score": 0.35450000000000004,
+          "local_relevance": 0.3,
+          "metadata": {
+            "hashtags": [
+              "teachersoftiktok",
+              "knowie",
+              "knowunity",
+              "studytips"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-10-27",
+          "relevance_hint": 0.9,
+          "snippet": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+          "url": "https://www.tiktok.com/@ms.mikles/video/7701496373224492319",
+          "why_relevant": "TikTok: my students said this app explains better than me so I teste"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "my students said this app explains better than me so I tested it #teachersoftiktok #knowie #knowunity #StudyTips",
+      "url": "https://www.tiktok.com/@ms.mikles/video/7701496373224492319"
+    }
+  ],
+  "topic": "students \"better app than\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
