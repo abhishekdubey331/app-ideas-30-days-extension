@@ -1,0 +1,169 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:producthunt.com mobile app comments",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/hiesencyber/comments/1xym5hs/we_launched_hexmobsuite_on_product_hunt_feedback"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/hiesencyber/comments/1xym5hs/we_launched_hexmobsuite_on_product_hunt_feedback"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "We launched HexMobSuite on Product Hunt, feedback from mobile developers and security testers welcome"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-20T06:16:02.243581+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "We launched HexMobSuite on Product Hunt, feedback from mobile developers and security testers welcome\nHey everyone,\n\nWe\u2019re the team at Hiesen CyberSecurity, and we recently launched HexMobSuite on Product Hunt.\n\nWe built it to help teams test Android and iOS apps and make security findings easier to review, prioritise, and act on.\n\nHere\u2019s what it offers:\n\nUpload an APK or IPA for automated static analysis.\n\nReview findings with supporting evidence.\n\nMap findings to OWASP MASVS.\n\nIntegrate security checks into your CI/CD workflow.\n\nGenerate reports to share with your team.\n\nWe\u2019d love to hear from",
+        "container": "HiesenCyber",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 1,
+          "score": 1
+        },
+        "engagement_score": 50,
+        "freshness": 94,
+        "item_id": "R1",
+        "local_rank_score": 0.3565,
+        "local_relevance": 0.11,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-17",
+        "relevance_hint": 0.15,
+        "snippet": "Hey everyone,\n\nWe\u2019re the team at Hiesen CyberSecurity, and we recently launched HexMobSuite on Product Hunt.\n\nWe built it to help teams test Android and iOS apps and make security findings easier to review, prioritise, and act on.\n\nHere\u2019s what it offers:\n\nUpload an APK or IPA for automated static analysis.\n\nReview findings with supporting evidence.\n\nMap findings to OWASP MASVS.\n\nIntegrate security",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "We launched HexMobSuite on Product Hunt, feedback from mobile developers and security testers welcome",
+        "url": "https://www.reddit.com/r/HiesenCyber/comments/1xym5hs/we_launched_hexmobsuite_on_product_hunt_feedback/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:producthunt.com mobile app comments",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:producthunt.com mobile app comments?",
+        "search_query": "site:producthunt.com mobile app comments",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-21",
+  "range_to": "2026-11-20",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/hiesencyber/comments/1xym5hs/we_launched_hexmobsuite_on_product_hunt_feedback",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 94,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.11,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 7.5,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hey everyone,\n\nWe\u2019re the team at Hiesen CyberSecurity, and we recently launched HexMobSuite on Product Hunt.\n\nWe built it to help teams test Android and iOS apps and make security findings easier to review, prioritise, and act on.\n\nHere\u2019s what it offers:\n\nUpload an APK or IPA for automated static analysis.\n\nReview findings with supporting evidence.\n\nMap findings to OWASP MASVS.\n\nIntegrate security",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "We launched HexMobSuite on Product Hunt, feedback from mobile developers and security testers welcome\nHey everyone,\n\nWe\u2019re the team at Hiesen CyberSecurity, and we recently launched HexMobSuite on Product Hunt.\n\nWe built it to help teams test Android and iOS apps and make security findings easier to review, prioritise, and act on.\n\nHere\u2019s what it offers:\n\nUpload an APK or IPA for automated static analysis.\n\nReview findings with supporting evidence.\n\nMap findings to OWASP MASVS.\n\nIntegrate security checks into your CI/CD workflow.\n\nGenerate reports to share with your team.\n\nWe\u2019d love to hear from",
+          "container": "HiesenCyber",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 1,
+            "score": 1
+          },
+          "engagement_score": 50,
+          "freshness": 94,
+          "item_id": "R1",
+          "local_rank_score": 0.3565,
+          "local_relevance": 0.11,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-17",
+          "relevance_hint": 0.15,
+          "snippet": "Hey everyone,\n\nWe\u2019re the team at Hiesen CyberSecurity, and we recently launched HexMobSuite on Product Hunt.\n\nWe built it to help teams test Android and iOS apps and make security findings easier to review, prioritise, and act on.\n\nHere\u2019s what it offers:\n\nUpload an APK or IPA for automated static analysis.\n\nReview findings with supporting evidence.\n\nMap findings to OWASP MASVS.\n\nIntegrate security",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "We launched HexMobSuite on Product Hunt, feedback from mobile developers and security testers welcome",
+          "url": "https://www.reddit.com/r/HiesenCyber/comments/1xym5hs/we_launched_hexmobsuite_on_product_hunt_feedback/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "We launched HexMobSuite on Product Hunt, feedback from mobile developers and security testers welcome",
+      "url": "https://www.reddit.com/r/HiesenCyber/comments/1xym5hs/we_launched_hexmobsuite_on_product_hunt_feedback/"
+    }
+  ],
+  "topic": "site:producthunt.com mobile app comments",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
