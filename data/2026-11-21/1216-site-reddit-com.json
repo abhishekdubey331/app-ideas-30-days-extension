@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "site:reddit.com",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://tiktok.com/@ikhvan.game/video/7706564903926058248"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://tiktok.com/@ikhvan.game/video/7706564903926058248"
+      ],
+      "score": 0.0,
+      "sources": [
+        "tiktok"
+      ],
+      "title": "Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan Mod HD yang ada di Reddit.com Link Mod penyu : https://sipenyu.attractively.site"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-21T12:16:16.818761+00:00",
+  "items_by_source": {
+    "instagram": [],
+    "tiktok": [
+      {
+        "author": "ikhvan.game",
+        "body": "Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan Mod HD yang ada di Reddit.com Link Mod penyu : https://sipenyu.attractively.site/ Link Mod HD : https://www.reddit.com/r/harvestmoon/comments/1x7vkov/harvest_moon_back_to_nature_ps1_hd_pack/ #harvestmoon #harvestmoonmod #harvestmoonmodpenyu #harvestmoonbacktonature #pemalanghits\nkombinasi mod penyu dan mod HD wajahnya tuh dibikin HD nggak nggak nggak kotak-kotak banget wih lebih jelas kan tuh ini kombinasi versi HD itu ada yang bikin cuma nggak diterusin ada yang bikin nih ininya nih gambar gambarnya tuh batunya tuh wih batu ayamnya sama ini di sini kelihatan ya bawahnya kok bisa nyala ada bisa ya bisa cuma di bajunya nggak bisa kayaknya bajunya nggak bisa ganti mana lagi oke lanjut ih nih coba ya karakternya tuh lebih jelas ininya kalau di game-nya masih kotak-kotak ih bisa beli tas lagi tampilannya otomatis jadi nih",
+        "date_confidence": "high",
+        "engagement": {
+          "comments": 38,
+          "likes": 128,
+          "shares": 11,
+          "views": 7418
+        },
+        "engagement_score": 42,
+        "freshness": 77,
+        "item_id": "TK5",
+        "local_rank_score": 0.384,
+        "local_relevance": 0.23,
+        "metadata": {
+          "hashtags": [
+            "harvestmoon",
+            "harvestmoonmod",
+            "harvestmoonmodpenyu",
+            "harvestmoonbacktonature",
+            "pemalanghits"
+          ],
+          "top_comments": []
+        },
+        "published_at": "2026-11-10",
+        "relevance_hint": 0.89,
+        "snippet": "kombinasi mod penyu dan mod HD wajahnya tuh dibikin HD nggak nggak nggak kotak-kotak banget wih lebih jelas kan tuh ini kombinasi versi HD itu ada yang bikin cuma nggak diterusin ada yang bikin nih ininya nih gambar gambarnya tuh batunya tuh wih batu ayamnya sama ini di sini kelihatan ya bawahnya kok bisa nyala ada bisa ya bisa cuma di bajunya nggak bisa kayaknya bajunya nggak bisa ganti mana lagi oke lanjut ih nih coba ya karakternya tuh lebih jelas ininya kalau di game-nya masih kotak-kotak ih bisa beli tas lagi tampilannya otomatis jadi nih",
+        "source": "tiktok",
+        "source_quality": 0.58,
+        "title": "Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan Mod HD yang ada di Reddit.com Link Mod penyu : https://sipenyu.attractively.site",
+        "url": "https://www.tiktok.com/@ikhvan.game/video/7706564903926058248",
+        "why_relevant": "TikTok: Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "site:reddit.com",
+    "source_weights": {
+      "instagram": 0.5,
+      "tiktok": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to site:reddit.com?",
+        "search_query": "site:reddit.com",
+        "sources": [
+          "tiktok",
+          "instagram"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-22",
+  "range_to": "2026-11-21",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://tiktok.com/@ikhvan.game/video/7706564903926058248",
+      "cluster_id": "cluster-1",
+      "engagement": 42,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 77,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "TK5",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "TK5",
+            "native_rank": 1,
+            "source": "tiktok",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:tiktok": 1
+      },
+      "rerank_score": 12.299999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "kombinasi mod penyu dan mod HD wajahnya tuh dibikin HD nggak nggak nggak kotak-kotak banget wih lebih jelas kan tuh ini kombinasi versi HD itu ada yang bikin cuma nggak diterusin ada yang bikin nih ininya nih gambar gambarnya tuh batunya tuh wih batu ayamnya sama ini di sini kelihatan ya bawahnya kok bisa nyala ada bisa ya bisa cuma di bajunya nggak bisa kayaknya bajunya nggak bisa ganti mana lagi oke lanjut ih nih coba ya karakternya tuh lebih jelas ininya kalau di game-nya masih kotak-kotak ih bisa beli tas lagi tampilannya otomatis jadi nih",
+      "source": "tiktok",
+      "source_items": [
+        {
+          "author": "ikhvan.game",
+          "body": "Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan Mod HD yang ada di Reddit.com Link Mod penyu : https://sipenyu.attractively.site/ Link Mod HD : https://www.reddit.com/r/harvestmoon/comments/1x7vkov/harvest_moon_back_to_nature_ps1_hd_pack/ #harvestmoon #harvestmoonmod #harvestmoonmodpenyu #harvestmoonbacktonature #pemalanghits\nkombinasi mod penyu dan mod HD wajahnya tuh dibikin HD nggak nggak nggak kotak-kotak banget wih lebih jelas kan tuh ini kombinasi versi HD itu ada yang bikin cuma nggak diterusin ada yang bikin nih ininya nih gambar gambarnya tuh batunya tuh wih batu ayamnya sama ini di sini kelihatan ya bawahnya kok bisa nyala ada bisa ya bisa cuma di bajunya nggak bisa kayaknya bajunya nggak bisa ganti mana lagi oke lanjut ih nih coba ya karakternya tuh lebih jelas ininya kalau di game-nya masih kotak-kotak ih bisa beli tas lagi tampilannya otomatis jadi nih",
+          "date_confidence": "high",
+          "engagement": {
+            "comments": 38,
+            "likes": 128,
+            "shares": 11,
+            "views": 7418
+          },
+          "engagement_score": 42,
+          "freshness": 77,
+          "item_id": "TK5",
+          "local_rank_score": 0.384,
+          "local_relevance": 0.23,
+          "metadata": {
+            "hashtags": [
+              "harvestmoon",
+              "harvestmoonmod",
+              "harvestmoonmodpenyu",
+              "harvestmoonbacktonature",
+              "pemalanghits"
+            ],
+            "top_comments": []
+          },
+          "published_at": "2026-11-10",
+          "relevance_hint": 0.89,
+          "snippet": "kombinasi mod penyu dan mod HD wajahnya tuh dibikin HD nggak nggak nggak kotak-kotak banget wih lebih jelas kan tuh ini kombinasi versi HD itu ada yang bikin cuma nggak diterusin ada yang bikin nih ininya nih gambar gambarnya tuh batunya tuh wih batu ayamnya sama ini di sini kelihatan ya bawahnya kok bisa nyala ada bisa ya bisa cuma di bajunya nggak bisa kayaknya bajunya nggak bisa ganti mana lagi oke lanjut ih nih coba ya karakternya tuh lebih jelas ininya kalau di game-nya masih kotak-kotak ih bisa beli tas lagi tampilannya otomatis jadi nih",
+          "source": "tiktok",
+          "source_quality": 0.58,
+          "title": "Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan Mod HD yang ada di Reddit.com Link Mod penyu : https://sipenyu.attractively.site",
+          "url": "https://www.tiktok.com/@ikhvan.game/video/7706564903926058248",
+          "why_relevant": "TikTok: Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan"
+        }
+      ],
+      "source_quality": 0.58,
+      "sources": [
+        "tiktok"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Hasil gabungin dua Mod jadi satu, yaitu Mod versi Penyu dan Mod HD yang ada di Reddit.com Link Mod penyu : https://sipenyu.attractively.site",
+      "url": "https://www.tiktok.com/@ikhvan.game/video/7706564903926058248"
+    }
+  ],
+  "topic": "site:reddit.com",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
