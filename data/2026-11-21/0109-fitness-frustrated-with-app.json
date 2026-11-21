@@ -1,0 +1,382 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "fitness \"frustrated with\" app",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/testflight/comments/1xwb5fz/myfit_fitness_tracker_beta"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/testflight/comments/1xwb5fz/myfit_fitness_tracker_beta"
+      ],
+      "score": 10.589180327868853,
+      "sources": [
+        "reddit"
+      ],
+      "title": "MyFit: Fitness Tracker beta"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/fitnesstrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness"
+      ],
+      "score": 5.316129032258065,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Full Send on my Frustrations with Fitness Wearables and Apps"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/indiebiz/comments/1xn4o98/fitness_apps_are_getting_ridiculously_expensive"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/indiebiz/comments/1xn4o98/fitness_apps_are_getting_ridiculously_expensive"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Fitness apps are getting ridiculously expensive, so I started building my own. Looking for honest feedback."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-21T01:09:50.710157+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "MyFit: Fitness Tracker beta\nHi everyone, I\u2019m the developer of MyFit: Workout Tracker, a new iOS app for people who want strength training and cardio in one place. I\u2019m looking for a small group of TestFlight testers before launch. Been building this out over the course of a year as a stay-at-home dad who is frustrated by most fitness tracking apps requiring a subscription for features that should come standard.\n\nWhat it does:\n\n\u2022 Strength routines with sets, rep ranges, rest timers, supersets, and a plate calculator\n\n\u2022 Outdo",
+        "container": "TestFlight",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 2,
+          "score": 1
+        },
+        "engagement_score": 16,
+        "freshness": 85,
+        "item_id": "R23",
+        "local_rank_score": 0.4365,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-14",
+        "relevance_hint": 0.42,
+        "snippet": "Hi everyone, I\u2019m the developer of MyFit: Workout Tracker, a new iOS app for people who want strength training and cardio in one place. I\u2019m looking for a small group of TestFlight testers before launch. Been building this out over the course of a year as a stay-at-home dad who is frustrated by most fitness tracking apps requiring a subscription for features that should come standard.\n\nWhat it does:",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "MyFit: Fitness Tracker beta",
+        "url": "https://www.reddit.com/r/TestFlight/comments/1xwb5fz/myfit_fitness_tracker_beta/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Full Send on my Frustrations with Fitness Wearables and Apps\nI\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was completing the puzzle. Realizing that certain wearables fall short in specific areas made me second-",
+        "container": "FitnessTrackers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 0,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 83,
+        "item_id": "R28",
+        "local_rank_score": 0.4155,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-13",
+        "relevance_hint": 0.4,
+        "snippet": "I\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Full Send on my Frustrations with Fitness Wearables and Apps",
+        "url": "https://www.reddit.com/r/FitnessTrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Fitness apps are getting ridiculously expensive, so I started building my own. Looking for honest feedback.\nThere are already tons of workout tracking apps out there. Some are genuinely great, but I've always been frustrated by how expensive they've become, especially when so much of what you're paying for is basic workout logging and progress charts.\n\nAs someone who goes to the gym myself, I wanted something different. Something I'd actually benefit from using every day without paying an unreasonable subscription.\n\nSo I started building my own fitness app.\n\nThe idea is to make strength progression fe",
+        "container": "indiebiz",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 4,
+          "score": 1
+        },
+        "engagement_score": 23,
+        "freshness": 64,
+        "item_id": "R19",
+        "local_rank_score": 0.3325,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-03",
+        "relevance_hint": 0.4,
+        "snippet": "There are already tons of workout tracking apps out there. Some are genuinely great, but I've always been frustrated by how expensive they've become, especially when so much of what you're paying for is basic workout logging and progress charts.\n\nAs someone who goes to the gym myself, I wanted something different. Something I'd actually benefit from using every day without paying an unreasonable s",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Fitness apps are getting ridiculously expensive, so I started building my own. Looking for honest feedback.",
+        "url": "https://www.reddit.com/r/indiebiz/comments/1xn4o98/fitness_apps_are_getting_ridiculously_expensive/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "fitness \"frustrated with\" app",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to fitness \"frustrated with\" app?",
+        "search_query": "fitness \"frustrated with\" app",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-22",
+  "range_to": "2026-11-21",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/testflight/comments/1xwb5fz/myfit_fitness_tracker_beta",
+      "cluster_id": "cluster-1",
+      "engagement": 16,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 10.589180327868853,
+      "freshness": 85,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 32.0,
+      "item_id": "R23",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R23",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 20.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Hi everyone, I\u2019m the developer of MyFit: Workout Tracker, a new iOS app for people who want strength training and cardio in one place. I\u2019m looking for a small group of TestFlight testers before launch. Been building this out over the course of a year as a stay-at-home dad who is frustrated by most fitness tracking apps requiring a subscription for features that should come standard.\n\nWhat it does:",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "MyFit: Fitness Tracker beta\nHi everyone, I\u2019m the developer of MyFit: Workout Tracker, a new iOS app for people who want strength training and cardio in one place. I\u2019m looking for a small group of TestFlight testers before launch. Been building this out over the course of a year as a stay-at-home dad who is frustrated by most fitness tracking apps requiring a subscription for features that should come standard.\n\nWhat it does:\n\n\u2022 Strength routines with sets, rep ranges, rest timers, supersets, and a plate calculator\n\n\u2022 Outdo",
+          "container": "TestFlight",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 2,
+            "score": 1
+          },
+          "engagement_score": 16,
+          "freshness": 85,
+          "item_id": "R23",
+          "local_rank_score": 0.4365,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-14",
+          "relevance_hint": 0.42,
+          "snippet": "Hi everyone, I\u2019m the developer of MyFit: Workout Tracker, a new iOS app for people who want strength training and cardio in one place. I\u2019m looking for a small group of TestFlight testers before launch. Been building this out over the course of a year as a stay-at-home dad who is frustrated by most fitness tracking apps requiring a subscription for features that should come standard.\n\nWhat it does:",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "MyFit: Fitness Tracker beta",
+          "url": "https://www.reddit.com/r/TestFlight/comments/1xwb5fz/myfit_fitness_tracker_beta/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "MyFit: Fitness Tracker beta",
+      "url": "https://www.reddit.com/r/TestFlight/comments/1xwb5fz/myfit_fitness_tracker_beta/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/fitnesstrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness",
+      "cluster_id": "cluster-2",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 5.316129032258065,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 10.0,
+      "item_id": "R28",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R28",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 20.0,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Full Send on my Frustrations with Fitness Wearables and Apps\nI\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was completing the puzzle. Realizing that certain wearables fall short in specific areas made me second-",
+          "container": "FitnessTrackers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 0,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 83,
+          "item_id": "R28",
+          "local_rank_score": 0.4155,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-13",
+          "relevance_hint": 0.4,
+          "snippet": "I\u2019ve been obsessively tracking my training and biometrics since the Palm Pilot and Garmin Forerunner 101. Over the last five years alone, I\u2019ve daily driven through everything from Samsung, Fitbit, Whoop,Oura, Garmin, Polar AND the training apps. I still found myself frustrated. I was wearing multiple devices at once, trying to make sense of conflicting data, and realizing no single device/app was",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Full Send on my Frustrations with Fitness Wearables and Apps",
+          "url": "https://www.reddit.com/r/FitnessTrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Full Send on my Frustrations with Fitness Wearables and Apps",
+      "url": "https://www.reddit.com/r/FitnessTrackers/comments/1xutr5d/full_send_on_my_frustrations_with_fitness/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/indiebiz/comments/1xn4o98/fitness_apps_are_getting_ridiculously_expensive",
+      "cluster_id": "cluster-3",
+      "engagement": 23,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R19",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R19",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "There are already tons of workout tracking apps out there. Some are genuinely great, but I've always been frustrated by how expensive they've become, especially when so much of what you're paying for is basic workout logging and progress charts.\n\nAs someone who goes to the gym myself, I wanted something different. Something I'd actually benefit from using every day without paying an unreasonable s",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Fitness apps are getting ridiculously expensive, so I started building my own. Looking for honest feedback.\nThere are already tons of workout tracking apps out there. Some are genuinely great, but I've always been frustrated by how expensive they've become, especially when so much of what you're paying for is basic workout logging and progress charts.\n\nAs someone who goes to the gym myself, I wanted something different. Something I'd actually benefit from using every day without paying an unreasonable subscription.\n\nSo I started building my own fitness app.\n\nThe idea is to make strength progression fe",
+          "container": "indiebiz",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 4,
+            "score": 1
+          },
+          "engagement_score": 23,
+          "freshness": 64,
+          "item_id": "R19",
+          "local_rank_score": 0.3325,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-03",
+          "relevance_hint": 0.4,
+          "snippet": "There are already tons of workout tracking apps out there. Some are genuinely great, but I've always been frustrated by how expensive they've become, especially when so much of what you're paying for is basic workout logging and progress charts.\n\nAs someone who goes to the gym myself, I wanted something different. Something I'd actually benefit from using every day without paying an unreasonable s",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Fitness apps are getting ridiculously expensive, so I started building my own. Looking for honest feedback.",
+          "url": "https://www.reddit.com/r/indiebiz/comments/1xn4o98/fitness_apps_are_getting_ridiculously_expensive/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Fitness apps are getting ridiculously expensive, so I started building my own. Looking for honest feedback.",
+      "url": "https://www.reddit.com/r/indiebiz/comments/1xn4o98/fitness_apps_are_getting_ridiculously_expensive/"
+    }
+  ],
+  "topic": "fitness \"frustrated with\" app",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
