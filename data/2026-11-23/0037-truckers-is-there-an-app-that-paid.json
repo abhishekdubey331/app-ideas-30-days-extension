@@ -1,0 +1,382 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "truckers \"is there an app that\" paid",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nosleep/comments/1y0islo/the_six_rules"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/nosleep/comments/1y0islo/the_six_rules"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "The six rules"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/truckers/comments/1xvs8kr/i_added_up_what_stopandgo_traffic_actually_costs"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/truckers/comments/1xvs8kr/i_added_up_what_stopandgo_traffic_actually_costs"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I added up what stop-and-go traffic actually costs me. It's roughly $400\u2013$750 a month, and my company pays $0 for it."
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Trucker Path is most certainly an app."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-23T00:37:26.503190+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I added up what stop-and-go traffic actually costs me. It's roughly $400\u2013$750 a month, and my company pays $0 for it.\nBeen running regional for a big private fleet for about a year. Before this I drove day cab for a grocery chain's fleet, and they actually paid us for traffic delays \u2014 so there's one thing about mileage/activity pay that has grated on me since I switched: sitting in traffic for free.\n\nLast night I went through my last 23 work days of logs \u2014 miles, driving hours, what each day actually paid \u2014 and put a number on it.\n\nMy average day works out to 48.8 mph behind the wheel. My clean days run 55+. Th",
+        "container": "Truckers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 24,
+          "score": 27
+        },
+        "engagement_score": 44,
+        "freshness": 82,
+        "item_id": "R36",
+        "local_rank_score": 0.418,
+        "local_relevance": 0.26,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-14",
+        "relevance_hint": 0.1,
+        "snippet": "Been running regional for a big private fleet for about a year. Before this I drove day cab for a grocery chain's fleet, and they actually paid us for traffic delays \u2014 so there's one thing about mileage/activity pay that has grated on me since I switched: sitting in traffic for free.\n\nLast night I went through my last 23 work days of logs \u2014 miles, driving hours, what each day actually paid \u2014 and p",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I added up what stop-and-go traffic actually costs me. It's roughly $400\u2013$750 a month, and my company pays $0 for it.",
+        "url": "https://www.reddit.com/r/Truckers/comments/1xvs8kr/i_added_up_what_stopandgo_traffic_actually_costs/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "The six rules\nI started working the night shift at a caf\u00e9 about a month ago. It's a small place squeezed between a laundromat and a bookstore. The caf\u00e9 is open twenty-four hours, most people don't seem to know that. After midnight, we mostly get truckers, people coming home from work, and the occasional group of students looking for somewhere to study.\n\nThe job wasn't difficult. Make coffee, heat up pastries, wipe down the counters and keep everything clean. There wasn't much else to do during the night.\n\nThe",
+        "container": "nosleep",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 19,
+          "score": 362
+        },
+        "engagement_score": 65,
+        "freshness": 91,
+        "item_id": "R6",
+        "local_rank_score": 0.40950000000000003,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-19",
+        "relevance_hint": 0.16,
+        "snippet": "I started working the night shift at a caf\u00e9 about a month ago. It's a small place squeezed between a laundromat and a bookstore. The caf\u00e9 is open twenty-four hours, most people don't seem to know that. After midnight, we mostly get truckers, people coming home from work, and the occasional group of students looking for somewhere to study.\n\nThe job wasn't difficult. Make coffee, heat up pastries, w",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "The six rules",
+        "url": "https://www.reddit.com/r/nosleep/comments/1y0islo/the_six_rules/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Trucker Path is most certainly an app.\nNone",
+        "container": "Truckers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 7
+        },
+        "engagement_score": 25,
+        "freshness": 51,
+        "item_id": "R51",
+        "local_rank_score": 0.2565,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-30",
+        "relevance_hint": 0.19,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Trucker Path is most certainly an app.",
+        "url": "https://www.reddit.com/r/Truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "truckers \"is there an app that\" paid",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to truckers \"is there an app that\" paid, especially about truckers \"is there app that\" paid?",
+        "search_query": "truckers \"is there app that\" paid",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-24",
+  "range_to": "2026-11-23",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/nosleep/comments/1y0islo/the_six_rules",
+      "cluster_id": "cluster-1",
+      "engagement": 65,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 11.799999999999997,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I started working the night shift at a caf\u00e9 about a month ago. It's a small place squeezed between a laundromat and a bookstore. The caf\u00e9 is open twenty-four hours, most people don't seem to know that. After midnight, we mostly get truckers, people coming home from work, and the occasional group of students looking for somewhere to study.\n\nThe job wasn't difficult. Make coffee, heat up pastries, w",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "The six rules\nI started working the night shift at a caf\u00e9 about a month ago. It's a small place squeezed between a laundromat and a bookstore. The caf\u00e9 is open twenty-four hours, most people don't seem to know that. After midnight, we mostly get truckers, people coming home from work, and the occasional group of students looking for somewhere to study.\n\nThe job wasn't difficult. Make coffee, heat up pastries, wipe down the counters and keep everything clean. There wasn't much else to do during the night.\n\nThe",
+          "container": "nosleep",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 19,
+            "score": 362
+          },
+          "engagement_score": 65,
+          "freshness": 91,
+          "item_id": "R6",
+          "local_rank_score": 0.40950000000000003,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-19",
+          "relevance_hint": 0.16,
+          "snippet": "I started working the night shift at a caf\u00e9 about a month ago. It's a small place squeezed between a laundromat and a bookstore. The caf\u00e9 is open twenty-four hours, most people don't seem to know that. After midnight, we mostly get truckers, people coming home from work, and the occasional group of students looking for somewhere to study.\n\nThe job wasn't difficult. Make coffee, heat up pastries, w",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "The six rules",
+          "url": "https://www.reddit.com/r/nosleep/comments/1y0islo/the_six_rules/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "The six rules",
+      "url": "https://www.reddit.com/r/nosleep/comments/1y0islo/the_six_rules/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/truckers/comments/1xvs8kr/i_added_up_what_stopandgo_traffic_actually_costs",
+      "cluster_id": "cluster-2",
+      "engagement": 44,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R36",
+      "local_relevance": 0.26,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R36",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 15.600000000000001,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Been running regional for a big private fleet for about a year. Before this I drove day cab for a grocery chain's fleet, and they actually paid us for traffic delays \u2014 so there's one thing about mileage/activity pay that has grated on me since I switched: sitting in traffic for free.\n\nLast night I went through my last 23 work days of logs \u2014 miles, driving hours, what each day actually paid \u2014 and p",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I added up what stop-and-go traffic actually costs me. It's roughly $400\u2013$750 a month, and my company pays $0 for it.\nBeen running regional for a big private fleet for about a year. Before this I drove day cab for a grocery chain's fleet, and they actually paid us for traffic delays \u2014 so there's one thing about mileage/activity pay that has grated on me since I switched: sitting in traffic for free.\n\nLast night I went through my last 23 work days of logs \u2014 miles, driving hours, what each day actually paid \u2014 and put a number on it.\n\nMy average day works out to 48.8 mph behind the wheel. My clean days run 55+. Th",
+          "container": "Truckers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 24,
+            "score": 27
+          },
+          "engagement_score": 44,
+          "freshness": 82,
+          "item_id": "R36",
+          "local_rank_score": 0.418,
+          "local_relevance": 0.26,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-14",
+          "relevance_hint": 0.1,
+          "snippet": "Been running regional for a big private fleet for about a year. Before this I drove day cab for a grocery chain's fleet, and they actually paid us for traffic delays \u2014 so there's one thing about mileage/activity pay that has grated on me since I switched: sitting in traffic for free.\n\nLast night I went through my last 23 work days of logs \u2014 miles, driving hours, what each day actually paid \u2014 and p",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I added up what stop-and-go traffic actually costs me. It's roughly $400\u2013$750 a month, and my company pays $0 for it.",
+          "url": "https://www.reddit.com/r/Truckers/comments/1xvs8kr/i_added_up_what_stopandgo_traffic_actually_costs/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I added up what stop-and-go traffic actually costs me. It's roughly $400\u2013$750 a month, and my company pays $0 for it.",
+      "url": "https://www.reddit.com/r/Truckers/comments/1xvs8kr/i_added_up_what_stopandgo_traffic_actually_costs/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app",
+      "cluster_id": "cluster-3",
+      "engagement": 25,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 63.55,
+      "item_id": "R51",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R51",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 2.3999999999999986,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Trucker Path is most certainly an app.\nNone",
+          "container": "Truckers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 7
+          },
+          "engagement_score": 25,
+          "freshness": 51,
+          "item_id": "R51",
+          "local_rank_score": 0.2565,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-30",
+          "relevance_hint": 0.19,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Trucker Path is most certainly an app.",
+          "url": "https://www.reddit.com/r/Truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Trucker Path is most certainly an app.",
+      "url": "https://www.reddit.com/r/Truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app/"
+    }
+  ],
+  "topic": "truckers \"is there an app that\" paid",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
