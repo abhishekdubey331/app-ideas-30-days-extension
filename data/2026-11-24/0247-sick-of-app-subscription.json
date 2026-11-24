@@ -1,0 +1,382 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"sick of\" app subscription",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appbusiness/comments/1y2xuby/is_subscription_based_model_sustainable"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/appbusiness/comments/1y2xuby/is_subscription_based_model_sustainable"
+      ],
+      "score": 12.989180327868851,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Is subscription based model sustainable?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/duolingo/comments/1xnag58/not_renewing"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/duolingo/comments/1xnag58/not_renewing"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Not renewing"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/showyourapp/comments/1xpc63r/i_built_a_habit_tracker_where_one_missed_day"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/showyourapp/comments/1xpc63r/i_built_a_habit_tracker_where_one_missed_day"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I built a habit tracker where one missed day doesn't reset anything"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-24T02:47:28.702473+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Is subscription based model sustainable?\nI am personally sick and tired of subscriptions. I have so many and if an app is subscription based I look for alternatives which are single purchase, even if a little pricier.\n\nI would assume most people are like that, but then I look around all the devs here with their MRRs and I'm wondering - is it just me? Are regular people really ok with having a bunch of subscription apps?\n\nI realize it depends on the app, but in general, is your goto model subscription or onetime iap?",
+        "container": "AppBusiness",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 14,
+          "score": 5
+        },
+        "engagement_score": 32,
+        "freshness": 95,
+        "item_id": "R27",
+        "local_rank_score": 0.47750000000000004,
+        "local_relevance": 0.32,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-22",
+        "relevance_hint": 0.42,
+        "snippet": "I am personally sick and tired of subscriptions. I have so many and if an app is subscription based I look for alternatives which are single purchase, even if a little pricier.\n\nI would assume most people are like that, but then I look around all the devs here with their MRRs and I'm wondering - is it just me? Are regular people really ok with having a bunch of subscription apps?\n\nI realize it dep",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Is subscription based model sustainable?",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1y2xuby/is_subscription_based_model_sustainable/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "I built a habit tracker where one missed day doesn't reset anything\nMost habit trackers run on streaks. Miss one day, the number goes back to zero, and that's often the day people stop opening the app.\n\nThat always bugged me, because the research says something else. In the UCL study everyone quotes (Lally et al., 2010), habits took 66 days on average to become automatic, with a huge spread from 18 to 254 days. Missing a single day made no measurable difference.\n\nSo I built Dotpilot around that. The main number isn't a streak, it's an \"autopilot\" score: an estim",
+        "container": "ShowYourApp",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 9,
+          "score": 0
+        },
+        "engagement_score": 11,
+        "freshness": 64,
+        "item_id": "R33",
+        "local_rank_score": 0.3205,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-06",
+        "relevance_hint": 0.22,
+        "snippet": "Most habit trackers run on streaks. Miss one day, the number goes back to zero, and that's often the day people stop opening the app.\n\nThat always bugged me, because the research says something else. In the UCL study everyone quotes (Lally et al., 2010), habits took 66 days on average to become automatic, with a huge spread from 18 to 254 days. Missing a single day made no measurable difference.",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I built a habit tracker where one missed day doesn't reset anything",
+        "url": "https://www.reddit.com/r/ShowYourApp/comments/1xpc63r/i_built_a_habit_tracker_where_one_missed_day/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Not renewing\nI've been paying for a Super subscription for a couple of years, but when it runs out soon, I'm done.\n\nThe app is just too buggy and I'm sick and tired of the gamification. Flashcards are the current rage maker. The microphone has a bad habit of turning off in the middle of the frenzy. Nothing wrong with the microphone itself because it will continue to work just fine for speaking exercises. But I have to turn the tablet off and back on again to get flashcards working again. Also, the word choic",
+        "container": "duolingo",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 10,
+          "score": 1
+        },
+        "engagement_score": 19,
+        "freshness": 59,
+        "item_id": "R31",
+        "local_rank_score": 0.31600000000000006,
+        "local_relevance": 0.23,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-04",
+        "relevance_hint": 0.22,
+        "snippet": "I've been paying for a Super subscription for a couple of years, but when it runs out soon, I'm done.\n\nThe app is just too buggy and I'm sick and tired of the gamification. Flashcards are the current rage maker. The microphone has a bad habit of turning off in the middle of the frenzy. Nothing wrong with the microphone itself because it will continue to work just fine for speaking exercises. But I",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Not renewing",
+        "url": "https://www.reddit.com/r/duolingo/comments/1xnag58/not_renewing/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"sick of\" app subscription",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"sick of\" app subscription?",
+        "search_query": "\"sick of\" app subscription",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-25",
+  "range_to": "2026-11-24",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/appbusiness/comments/1y2xuby/is_subscription_based_model_sustainable",
+      "cluster_id": "cluster-1",
+      "engagement": 32,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 12.989180327868851,
+      "freshness": 95,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R27",
+      "local_relevance": 0.32,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R27",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 22.4,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I am personally sick and tired of subscriptions. I have so many and if an app is subscription based I look for alternatives which are single purchase, even if a little pricier.\n\nI would assume most people are like that, but then I look around all the devs here with their MRRs and I'm wondering - is it just me? Are regular people really ok with having a bunch of subscription apps?\n\nI realize it dep",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Is subscription based model sustainable?\nI am personally sick and tired of subscriptions. I have so many and if an app is subscription based I look for alternatives which are single purchase, even if a little pricier.\n\nI would assume most people are like that, but then I look around all the devs here with their MRRs and I'm wondering - is it just me? Are regular people really ok with having a bunch of subscription apps?\n\nI realize it depends on the app, but in general, is your goto model subscription or onetime iap?",
+          "container": "AppBusiness",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 14,
+            "score": 5
+          },
+          "engagement_score": 32,
+          "freshness": 95,
+          "item_id": "R27",
+          "local_rank_score": 0.47750000000000004,
+          "local_relevance": 0.32,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-22",
+          "relevance_hint": 0.42,
+          "snippet": "I am personally sick and tired of subscriptions. I have so many and if an app is subscription based I look for alternatives which are single purchase, even if a little pricier.\n\nI would assume most people are like that, but then I look around all the devs here with their MRRs and I'm wondering - is it just me? Are regular people really ok with having a bunch of subscription apps?\n\nI realize it dep",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Is subscription based model sustainable?",
+          "url": "https://www.reddit.com/r/AppBusiness/comments/1y2xuby/is_subscription_based_model_sustainable/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Is subscription based model sustainable?",
+      "url": "https://www.reddit.com/r/AppBusiness/comments/1y2xuby/is_subscription_based_model_sustainable/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/duolingo/comments/1xnag58/not_renewing",
+      "cluster_id": "cluster-2",
+      "engagement": 19,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 59,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 38.0,
+      "item_id": "R31",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R31",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 8.899999999999999,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "I've been paying for a Super subscription for a couple of years, but when it runs out soon, I'm done.\n\nThe app is just too buggy and I'm sick and tired of the gamification. Flashcards are the current rage maker. The microphone has a bad habit of turning off in the middle of the frenzy. Nothing wrong with the microphone itself because it will continue to work just fine for speaking exercises. But I",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Not renewing\nI've been paying for a Super subscription for a couple of years, but when it runs out soon, I'm done.\n\nThe app is just too buggy and I'm sick and tired of the gamification. Flashcards are the current rage maker. The microphone has a bad habit of turning off in the middle of the frenzy. Nothing wrong with the microphone itself because it will continue to work just fine for speaking exercises. But I have to turn the tablet off and back on again to get flashcards working again. Also, the word choic",
+          "container": "duolingo",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 10,
+            "score": 1
+          },
+          "engagement_score": 19,
+          "freshness": 59,
+          "item_id": "R31",
+          "local_rank_score": 0.31600000000000006,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-04",
+          "relevance_hint": 0.22,
+          "snippet": "I've been paying for a Super subscription for a couple of years, but when it runs out soon, I'm done.\n\nThe app is just too buggy and I'm sick and tired of the gamification. Flashcards are the current rage maker. The microphone has a bad habit of turning off in the middle of the frenzy. Nothing wrong with the microphone itself because it will continue to work just fine for speaking exercises. But I",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Not renewing",
+          "url": "https://www.reddit.com/r/duolingo/comments/1xnag58/not_renewing/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Not renewing",
+      "url": "https://www.reddit.com/r/duolingo/comments/1xnag58/not_renewing/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/showyourapp/comments/1xpc63r/i_built_a_habit_tracker_where_one_missed_day",
+      "cluster_id": "cluster-3",
+      "engagement": 11,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 64,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 22.0,
+      "item_id": "R33",
+      "local_relevance": 0.23,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R33",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 9.899999999999999,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "Most habit trackers run on streaks. Miss one day, the number goes back to zero, and that's often the day people stop opening the app.\n\nThat always bugged me, because the research says something else. In the UCL study everyone quotes (Lally et al., 2010), habits took 66 days on average to become automatic, with a huge spread from 18 to 254 days. Missing a single day made no measurable difference.",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I built a habit tracker where one missed day doesn't reset anything\nMost habit trackers run on streaks. Miss one day, the number goes back to zero, and that's often the day people stop opening the app.\n\nThat always bugged me, because the research says something else. In the UCL study everyone quotes (Lally et al., 2010), habits took 66 days on average to become automatic, with a huge spread from 18 to 254 days. Missing a single day made no measurable difference.\n\nSo I built Dotpilot around that. The main number isn't a streak, it's an \"autopilot\" score: an estim",
+          "container": "ShowYourApp",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 9,
+            "score": 0
+          },
+          "engagement_score": 11,
+          "freshness": 64,
+          "item_id": "R33",
+          "local_rank_score": 0.3205,
+          "local_relevance": 0.23,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-06",
+          "relevance_hint": 0.22,
+          "snippet": "Most habit trackers run on streaks. Miss one day, the number goes back to zero, and that's often the day people stop opening the app.\n\nThat always bugged me, because the research says something else. In the UCL study everyone quotes (Lally et al., 2010), habits took 66 days on average to become automatic, with a huge spread from 18 to 254 days. Missing a single day made no measurable difference.",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I built a habit tracker where one missed day doesn't reset anything",
+          "url": "https://www.reddit.com/r/ShowYourApp/comments/1xpc63r/i_built_a_habit_tracker_where_one_missed_day/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I built a habit tracker where one missed day doesn't reset anything",
+      "url": "https://www.reddit.com/r/ShowYourApp/comments/1xpc63r/i_built_a_habit_tracker_where_one_missed_day/"
+    }
+  ],
+  "topic": "\"sick of\" app subscription",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
