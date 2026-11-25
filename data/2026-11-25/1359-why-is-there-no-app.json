@@ -1,0 +1,247 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"why is there no app\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/ezeefiber/comments/1y0v436/no_app"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/ezeefiber/comments/1y0v436/no_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "No App?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-25T13:59:36.947961+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "No App?\nAm I missing something? Why is there no app that can notify you if your service is down?\nAnd here I was, glad that not everything needed an app Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preferences. If you haven't been receiving these notifications, please send us a DM so we can check your account and see what's going on. ^ Angel S. @ Ezee Fibe \ud83e\udd37\u200d\u2642\ufe0f",
+        "container": "EzeeFiber",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 0
+        },
+        "engagement_score": 100,
+        "freshness": 89,
+        "item_id": "R1",
+        "local_rank_score": 0.4525,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "And here I was, glad that not everything needed an app",
+            "Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preference..."
+          ],
+          "top_comments": [
+            {
+              "author": "gravis86",
+              "date": "2026-11-20",
+              "excerpt": "And here I was, glad that not everything needed an app",
+              "score": 6,
+              "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19sws4q3dde4j/"
+            },
+            {
+              "author": "ezeefiber713",
+              "date": "2026-11-20",
+              "excerpt": "Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preferences. If you haven't been receiving these notifications, please send us a DM so we can check your account and see what's going on. ^ Angel S. @ Ezee Fibe",
+              "score": 3,
+              "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19sxaca8snqh1/"
+            },
+            {
+              "author": "honey_rainbow",
+              "date": "2026-11-20",
+              "excerpt": "\ud83e\udd37\u200d\u2642\ufe0f",
+              "score": 1,
+              "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19swmqr4vl328/"
+            },
+            {
+              "author": "Afraid-Expression366",
+              "date": "2026-11-20",
+              "excerpt": "Eero",
+              "score": 1,
+              "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19swomebazvsy/"
+            },
+            {
+              "author": "JohnTheRaceFan",
+              "date": "2026-11-20",
+              "excerpt": "It's called a phone call.",
+              "score": 0,
+              "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19sx4d387h9l0/"
+            }
+          ]
+        },
+        "published_at": "2026-11-20",
+        "relevance_hint": 0.53,
+        "snippet": "And here I was, glad that not everything needed an app Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preferences. If you haven't been receiving these notifications, please send us a DM so we can check your account and see what's going on. ^ Angel S. @ Ezee Fibe \ud83e\udd37\u200d\u2642\ufe0f",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "No App?",
+        "url": "https://www.reddit.com/r/EzeeFiber/comments/1y0v436/no_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"why is there no app\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"why is there no app\", especially about \"why there no app\"?",
+        "search_query": "\"why there no app\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-26",
+  "range_to": "2026-11-25",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/ezeefiber/comments/1y0v436/no_app",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 12.799999999999997,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "And here I was, glad that not everything needed an app Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preferences. If you haven't been receiving these notifications, please send us a DM so we can check your account and see what's going on. ^ Angel S. @ Ezee Fibe \ud83e\udd37\u200d\u2642\ufe0f",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "No App?\nAm I missing something? Why is there no app that can notify you if your service is down?\nAnd here I was, glad that not everything needed an app Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preferences. If you haven't been receiving these notifications, please send us a DM so we can check your account and see what's going on. ^ Angel S. @ Ezee Fibe \ud83e\udd37\u200d\u2642\ufe0f",
+          "container": "EzeeFiber",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 0
+          },
+          "engagement_score": 100,
+          "freshness": 89,
+          "item_id": "R1",
+          "local_rank_score": 0.4525,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "And here I was, glad that not everything needed an app",
+              "Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preference..."
+            ],
+            "top_comments": [
+              {
+                "author": "gravis86",
+                "date": "2026-11-20",
+                "excerpt": "And here I was, glad that not everything needed an app",
+                "score": 6,
+                "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19sws4q3dde4j/"
+              },
+              {
+                "author": "ezeefiber713",
+                "date": "2026-11-20",
+                "excerpt": "Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preferences. If you haven't been receiving these notifications, please send us a DM so we can check your account and see what's going on. ^ Angel S. @ Ezee Fibe",
+                "score": 3,
+                "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19sxaca8snqh1/"
+              },
+              {
+                "author": "honey_rainbow",
+                "date": "2026-11-20",
+                "excerpt": "\ud83e\udd37\u200d\u2642\ufe0f",
+                "score": 1,
+                "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19swmqr4vl328/"
+              },
+              {
+                "author": "Afraid-Expression366",
+                "date": "2026-11-20",
+                "excerpt": "Eero",
+                "score": 1,
+                "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19swomebazvsy/"
+              },
+              {
+                "author": "JohnTheRaceFan",
+                "date": "2026-11-20",
+                "excerpt": "It's called a phone call.",
+                "score": 0,
+                "url": "https://reddit.com/r/EzeeFiber/comments/1y0v436/comment/19sx4d387h9l0/"
+              }
+            ]
+          },
+          "published_at": "2026-11-20",
+          "relevance_hint": 0.53,
+          "snippet": "And here I was, glad that not everything needed an app Hi there! We don't currently have an app for outage notifications, but we do send updates through text or email based on your communication preferences. If you haven't been receiving these notifications, please send us a DM so we can check your account and see what's going on. ^ Angel S. @ Ezee Fibe \ud83e\udd37\u200d\u2642\ufe0f",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "No App?",
+          "url": "https://www.reddit.com/r/EzeeFiber/comments/1y0v436/no_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "No App?",
+      "url": "https://www.reddit.com/r/EzeeFiber/comments/1y0v436/no_app/"
+    }
+  ],
+  "topic": "\"why is there no app\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
