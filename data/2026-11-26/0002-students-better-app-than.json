@@ -1,0 +1,333 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "students \"better app than\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/selfhosted/comments/1xzhdsc/selfhosted_alternative_to_onenote"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/selfhosted/comments/1xzhdsc/selfhosted_alternative_to_onenote"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Self-hosted alternative to OneNote"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-26T00:02:39.456149+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Self-hosted alternative to OneNote\nHey everyone - been a OneNote user for years on my 2-in-1 laptop.\n\nMain use case is as a university student annotating pdfs of lecture slides and writing out assignment answers to math homework.\nI really really hate the OneNote drawing experience and want to move to literally anything else.\n\nThe only thing holding me back is that all my notes so far are in OneNote and sync to my education provider's OneDrive which is really handy for easy and secure backups.\n\nI do also run a self-hosted server a\nAnnoyingly, Onenote is in a league of its own in how handles notes\nEvery note app uses Markdown which is great for allot of function.\nBut its no where near as easy to maneuver as Onenote write down attach pictures and links.\nIt Honestly sucks. Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner.\n\n I have spent years looking for an alternative that does that.\n\n I have not found it.\n\n All the alternatives people will suggest will let put those elements into the notes. But they ca I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments and printouts.\n\n It\u2019s not as at feature parity with OneNote. But it\u2019s good enough.",
+        "container": "selfhosted",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 47,
+          "score": 37
+        },
+        "engagement_score": 50,
+        "freshness": 83,
+        "item_id": "R1",
+        "local_rank_score": 0.2965,
+        "local_relevance": 0.06,
+        "metadata": {
+          "comment_insights": [
+            "Expand the replies to this comment to learn how AI was used in this post/project.",
+            "Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner.",
+            "Annoyingly, Onenote is in a league of its own in how handles notes\nEvery note app uses Markdown which is great for allot of function.",
+            "I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments and printouts.",
+            "Maybe check out Obsidian? You can sync it to home in various ways; mine syncs to couchdb backend and works pretty great.",
+            "Take a look at Joplin. There are some notable plugins for various needs.",
+            "Checkout Linwood butterfly (I have only tested it a bit).",
+            "closest i could find is trillium next.",
+            "Maybe try Trilium notes? I'm not sure if it has drawing abilities",
+            "I really like outline. Its more like confluence which once your into that system feels so much better than onenote\n\n https://www.getoutline.com/"
+          ],
+          "top_comments": [
+            {
+              "author": "Bfox135",
+              "date": "2026-11-18",
+              "excerpt": "Annoyingly, Onenote is in a league of its own in how handles notes\nEvery note app uses Markdown which is great for allot of function.\nBut its no where near as easy to maneuver as Onenote write down attach pictures and links.\nIt Honestly sucks.",
+              "score": 49,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stxk1c0qao3/"
+            },
+            {
+              "author": "FabianN",
+              "date": "2026-11-18",
+              "excerpt": "Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner.\n\n I have spent years looking for an alternative that does that.\n\n I have not found it.\n\n All the alternatives people will suggest will let put those elements into the notes. But they ca",
+              "score": 43,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19styoanotite/"
+            },
+            {
+              "author": "brandontaylor1",
+              "date": "2026-11-19",
+              "excerpt": "I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments and printouts.\n\n It\u2019s not as at feature parity with OneNote. But it\u2019s good enough.",
+              "score": 24,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sulzlgrcw3o/"
+            },
+            {
+              "author": "Typical-Shock-3359",
+              "date": "2026-11-18",
+              "excerpt": "Maybe check out Obsidian? You can sync it to home in various ways; mine syncs to couchdb backend and works pretty great.",
+              "score": 19,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stsh8ir7beq/"
+            },
+            {
+              "author": "idoitforbeer",
+              "date": "2026-11-18",
+              "excerpt": "Take a look at Joplin. There are some notable plugins for various needs. For example, for drawing.\n\n I still like OneNote a bit more, but I've been out of the MS Office ecosystem for a long time.",
+              "score": 13,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stsi4iw4ayr/"
+            },
+            {
+              "author": "majerus1223",
+              "date": "2026-11-18",
+              "excerpt": "I really like outline. Its more like confluence which once your into that system feels so much better than onenote\n\n https://www.getoutline.com/",
+              "score": 5,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stsqv0re4cl/"
+            },
+            {
+              "author": "FallDeeperAlice5268",
+              "date": "2026-11-18",
+              "excerpt": "Maybe try Trilium notes? I'm not sure if it has drawing abilities",
+              "score": 4,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sttbij63q11/"
+            },
+            {
+              "author": "imagineeelego",
+              "date": "2026-11-18",
+              "excerpt": "Checkout Linwood butterfly (I have only tested it a bit). I seems like an onenote alternative with the ability to import and annotate pdfs. And you can either sync to webdav from the app, or just syncthing the folder that stores the notes.\n\n https://butterfly.linwood.dev",
+              "score": 3,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19su430exe1kx/"
+            },
+            {
+              "author": "Tytsr",
+              "date": "2026-11-19",
+              "excerpt": "closest i could find is trillium next.",
+              "score": 3,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sutt1r4hcar/"
+            },
+            {
+              "author": "asimovs-auditor",
+              "date": "2026-11-18",
+              "excerpt": "Expand the replies to this comment to learn how AI was used in this post/project.",
+              "score": 1,
+              "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sts5ae1wayr/"
+            }
+          ]
+        },
+        "published_at": "2026-11-18",
+        "relevance_hint": 0.16,
+        "snippet": "Annoyingly, Onenote is in a league of its own in how handles notes Every note app uses Markdown which is great for allot of function. But its no where near as easy to maneuver as Onenote write down attach pictures and links. It Honestly sucks. Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner. I have spent years looking for an alternative that does that. I have not found it. All the alternatives people will suggest will let put those elements into the notes. But they ca I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Self-hosted alternative to OneNote",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1xzhdsc/selfhosted_alternative_to_onenote/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "students \"better app than\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to students \"better app than\"?",
+        "search_query": "students \"better app than\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-27",
+  "range_to": "2026-11-26",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/selfhosted/comments/1xzhdsc/selfhosted_alternative_to_onenote",
+      "cluster_id": "cluster-1",
+      "engagement": 50,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R1",
+      "local_relevance": 0.06,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 1.8000000000000007,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Annoyingly, Onenote is in a league of its own in how handles notes Every note app uses Markdown which is great for allot of function. But its no where near as easy to maneuver as Onenote write down attach pictures and links. It Honestly sucks. Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner. I have spent years looking for an alternative that does that. I have not found it. All the alternatives people will suggest will let put those elements into the notes. But they ca I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Self-hosted alternative to OneNote\nHey everyone - been a OneNote user for years on my 2-in-1 laptop.\n\nMain use case is as a university student annotating pdfs of lecture slides and writing out assignment answers to math homework.\nI really really hate the OneNote drawing experience and want to move to literally anything else.\n\nThe only thing holding me back is that all my notes so far are in OneNote and sync to my education provider's OneDrive which is really handy for easy and secure backups.\n\nI do also run a self-hosted server a\nAnnoyingly, Onenote is in a league of its own in how handles notes\nEvery note app uses Markdown which is great for allot of function.\nBut its no where near as easy to maneuver as Onenote write down attach pictures and links.\nIt Honestly sucks. Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner.\n\n I have spent years looking for an alternative that does that.\n\n I have not found it.\n\n All the alternatives people will suggest will let put those elements into the notes. But they ca I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments and printouts.\n\n It\u2019s not as at feature parity with OneNote. But it\u2019s good enough.",
+          "container": "selfhosted",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 47,
+            "score": 37
+          },
+          "engagement_score": 50,
+          "freshness": 83,
+          "item_id": "R1",
+          "local_rank_score": 0.2965,
+          "local_relevance": 0.06,
+          "metadata": {
+            "comment_insights": [
+              "Expand the replies to this comment to learn how AI was used in this post/project.",
+              "Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner.",
+              "Annoyingly, Onenote is in a league of its own in how handles notes\nEvery note app uses Markdown which is great for allot of function.",
+              "I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments and printouts.",
+              "Maybe check out Obsidian? You can sync it to home in various ways; mine syncs to couchdb backend and works pretty great.",
+              "Take a look at Joplin. There are some notable plugins for various needs.",
+              "Checkout Linwood butterfly (I have only tested it a bit).",
+              "closest i could find is trillium next.",
+              "Maybe try Trilium notes? I'm not sure if it has drawing abilities",
+              "I really like outline. Its more like confluence which once your into that system feels so much better than onenote\n\n https://www.getoutline.com/"
+            ],
+            "top_comments": [
+              {
+                "author": "Bfox135",
+                "date": "2026-11-18",
+                "excerpt": "Annoyingly, Onenote is in a league of its own in how handles notes\nEvery note app uses Markdown which is great for allot of function.\nBut its no where near as easy to maneuver as Onenote write down attach pictures and links.\nIt Honestly sucks.",
+                "score": 49,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stxk1c0qao3/"
+              },
+              {
+                "author": "FabianN",
+                "date": "2026-11-18",
+                "excerpt": "Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner.\n\n I have spent years looking for an alternative that does that.\n\n I have not found it.\n\n All the alternatives people will suggest will let put those elements into the notes. But they ca",
+                "score": 43,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19styoanotite/"
+              },
+              {
+                "author": "brandontaylor1",
+                "date": "2026-11-19",
+                "excerpt": "I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments and printouts.\n\n It\u2019s not as at feature parity with OneNote. But it\u2019s good enough.",
+                "score": 24,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sulzlgrcw3o/"
+              },
+              {
+                "author": "Typical-Shock-3359",
+                "date": "2026-11-18",
+                "excerpt": "Maybe check out Obsidian? You can sync it to home in various ways; mine syncs to couchdb backend and works pretty great.",
+                "score": 19,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stsh8ir7beq/"
+              },
+              {
+                "author": "idoitforbeer",
+                "date": "2026-11-18",
+                "excerpt": "Take a look at Joplin. There are some notable plugins for various needs. For example, for drawing.\n\n I still like OneNote a bit more, but I've been out of the MS Office ecosystem for a long time.",
+                "score": 13,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stsi4iw4ayr/"
+              },
+              {
+                "author": "majerus1223",
+                "date": "2026-11-18",
+                "excerpt": "I really like outline. Its more like confluence which once your into that system feels so much better than onenote\n\n https://www.getoutline.com/",
+                "score": 5,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19stsqv0re4cl/"
+              },
+              {
+                "author": "FallDeeperAlice5268",
+                "date": "2026-11-18",
+                "excerpt": "Maybe try Trilium notes? I'm not sure if it has drawing abilities",
+                "score": 4,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sttbij63q11/"
+              },
+              {
+                "author": "imagineeelego",
+                "date": "2026-11-18",
+                "excerpt": "Checkout Linwood butterfly (I have only tested it a bit). I seems like an onenote alternative with the ability to import and annotate pdfs. And you can either sync to webdav from the app, or just syncthing the folder that stores the notes.\n\n https://butterfly.linwood.dev",
+                "score": 3,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19su430exe1kx/"
+              },
+              {
+                "author": "Tytsr",
+                "date": "2026-11-19",
+                "excerpt": "closest i could find is trillium next.",
+                "score": 3,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sutt1r4hcar/"
+              },
+              {
+                "author": "asimovs-auditor",
+                "date": "2026-11-18",
+                "excerpt": "Expand the replies to this comment to learn how AI was used in this post/project.",
+                "score": 1,
+                "url": "https://reddit.com/r/selfhosted/comments/1xzhdsc/comment/19sts5ae1wayr/"
+              }
+            ]
+          },
+          "published_at": "2026-11-18",
+          "relevance_hint": 0.16,
+          "snippet": "Annoyingly, Onenote is in a league of its own in how handles notes Every note app uses Markdown which is great for allot of function. But its no where near as easy to maneuver as Onenote write down attach pictures and links. It Honestly sucks. Sounds like the key feature you want is how onenote can layer elements on top of each other in a arbitrary manner. I have spent years looking for an alternative that does that. I have not found it. All the alternatives people will suggest will let put those elements into the notes. But they ca I moved to Trillium. It\u2019s the only one that handled my one note import without making a mess of attachments...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Self-hosted alternative to OneNote",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1xzhdsc/selfhosted_alternative_to_onenote/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Self-hosted alternative to OneNote",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xzhdsc/selfhosted_alternative_to_onenote/"
+    }
+  ],
+  "topic": "students \"better app than\"",
+  "warnings": [
+    "Evidence is thin for this topic."
+  ]
+}
