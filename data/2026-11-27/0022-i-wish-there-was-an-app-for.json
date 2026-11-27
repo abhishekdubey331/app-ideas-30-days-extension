@@ -1,0 +1,932 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "\"I wish there was an app for\"",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/tamagotchi/comments/1xvll6u/whats_some_things_youd_change_about_ur_fav"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/tamagotchi/comments/1xvll6u/whats_some_things_youd_change_about_ur_fav"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Whats some things you'd change about ur fav tamagotchi device?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/sideproject/comments/1y3mql5/15_places_to_look_for_a_side_project_idea_where"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/sideproject/comments/1y3mql5/15_places_to_look_for_a_side_project_idea_where"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "15 places to look for a side project idea. Where did your last one come from?"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/i_wish_there_was_an_app_for_this"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/i_wish_there_was_an_app_for_this"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "I wish there was an app for this"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/appideas/comments/1xitp42/what_app_do_you_wish_existed"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/appideas/comments/1xitp42/what_app_do_you_wish_existed"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "\ud83d\udcf1 What App Do You Wish Existed?"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-27T00:22:16.441968+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "I wish there was an app for this\nNot asking for advice, just voicing my thoughts\n\nI struggle saving for trips and vacations because even though I put it in a separate account I just use the other account.\n\nI need an app where I can lock away my money until, for example, August 1st 2027. Absolutely no access to it but I can add to it. I know thats probably illegal I'm just saying I wish it was a thing.\nI feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf) I keep my savings in a separate account - at a separate institution. I don\u2019t have a debit card with it. The money auto transfers each pay check and then I have to do a transfer when I need it (like the deposit for my next vacation), which takes 2-3 business days to move into my primary account.\n\n Ha",
+        "container": "shoppingaddiction",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 12,
+          "score": 7
+        },
+        "engagement_score": 56,
+        "freshness": 82,
+        "item_id": "R3",
+        "local_rank_score": 0.443,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf)",
+            "I feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits",
+            "I keep my savings in a separate account - at a separate institution.",
+            "You could potentially look into short term bonds",
+            "i literally gave my money to my mom at one point to hold for me and i asked her to approve every purchase over $50 i wanted to make and it helped \u201ctra...",
+            "Make it harder to access. Deposit it in a bank savings account at a different bank than your checking (so not as easy to transfer).",
+            "CDs. New ones every deposit. You choose the maturity date. 1 month 2, 3, 6, 12, 24.",
+            "I use a high-yield savings account from Capital One, and I don't have a card connected with it."
+          ],
+          "top_comments": [
+            {
+              "author": "CHEMICALalienation",
+              "date": "2026-11-18",
+              "excerpt": "I feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits",
+              "score": 8,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19su3bds65qro/"
+            },
+            {
+              "author": "horneliusthenarwhal",
+              "date": "2026-11-18",
+              "excerpt": "CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf)",
+              "score": 6,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19su2sj1fo0qq/"
+            },
+            {
+              "author": "avettestingray",
+              "date": "2026-11-18",
+              "excerpt": "I keep my savings in a separate account - at a separate institution. I don\u2019t have a debit card with it. The money auto transfers each pay check and then I have to do a transfer when I need it (like the deposit for my next vacation), which takes 2-3 business days to move into my primary account.\n\n Ha",
+              "score": 5,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19subjuu16v9d/"
+            },
+            {
+              "author": "midnight_thoughts_13",
+              "date": "2026-11-18",
+              "excerpt": "You could potentially look into short term bonds",
+              "score": 2,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19stqgz9p2dab/"
+            },
+            {
+              "author": "Wild_Professional_27",
+              "date": "2026-11-18",
+              "excerpt": "i literally gave my money to my mom at one point to hold for me and i asked her to approve every purchase over $50 i wanted to make and it helped \u201ctrain\u201d me a lot to take an extra beat when buying things but yeah i do wish there was an app called bless. i think and it also helped",
+              "score": 2,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19su7l8a8zd1c/"
+            },
+            {
+              "author": "AutoModerator",
+              "date": "2026-11-18",
+              "excerpt": "Welcome to r/shoppingaddiction! If this is your first post, please be sure to check out our rules in the subreddit sidebar. If you are on mobile, they can be viewed by tapping the \u24d8 symbol.\n\n Please keep in mind this is a discussion forum for recovering shopping addicts. Any posts encouraging shopping, self promotion, or link posts will be removed. Please be respectful to your fellow users and tha",
+              "score": 1,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19stp9gn6vr28/"
+            },
+            {
+              "author": "mochi_kitty86",
+              "date": "2026-11-21",
+              "excerpt": "Make it harder to access. Deposit it in a bank savings account at a different bank than your checking (so not as easy to transfer). Lock that account down so no withdrawals can be made via ACH (also prevents fraud). Set up part of your paycheck direct deposit to send a portion of your paycheck there",
+              "score": 1,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19sy1bvgozkxt/"
+            },
+            {
+              "author": "LookingUpDaily",
+              "date": "2026-11-21",
+              "excerpt": "CDs. New ones every deposit. You choose the maturity date. 1 month 2, 3, 6, 12, 24.",
+              "score": 1,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19sylt1l95j28/"
+            },
+            {
+              "author": "MyLittlPwn13",
+              "date": "2026-11-21",
+              "excerpt": "I use a high-yield savings account from Capital One, and I don't have a card connected with it. It takes four or five days to transfer to my credit union.",
+              "score": 1,
+              "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19szq4pvisypw/"
+            }
+          ]
+        },
+        "published_at": "2026-11-18",
+        "relevance_hint": 1.0,
+        "snippet": "I feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf) I keep my savings in a separate account - at a separate institution. I don\u2019t have a debit card with it. The money auto transfers each pay check and then I have to do a transfer when I need it (like the deposit for my next vacation), which takes 2-3 business days to move into my primary account.\n\n Ha",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "I wish there was an app for this",
+        "url": "https://www.reddit.com/r/shoppingaddiction/comments/1xzfuxc/i_wish_there_was_an_app_for_this/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "15 places to look for a side project idea. Where did your last one come from?\nI've been collecting places to look for an idea for the next project. Most of them have one thing in common: people there either describe a problem or already pay for something that solves it.\n\nApify Store. A marketplace for scrapers and automations that takes payments for you. Read the reviews of paid tools in a niche you know and look for requests that keep coming back.\n\nThe Chrome extension graveyard. Some extensions stopped working after Manifest V2 was switched off. Check which ones people\nMy last idea came from seeing how many folks manually download and rename files from multiple client portals every week.\n\n Automating that file download and routing via a script that checks a shared inbox or FTP for new files and sorts them into client-specific folders would save a ton of time. One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs. Jumping into live discussions where pain points come up naturally can spark awesome side project ideas. If you want to keep an eye on those conversations across multiple c Almost all of mine started from something I was already doing by hand and getting annoyed at, not from a list. The paid spreadsheet point is underrated: if you have been maintaining one for months, you already know the edge cases a landing page will never tell you. The ones I started from Reddit com",
+        "container": "SideProject",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 18,
+          "score": 12
+        },
+        "engagement_score": 67,
+        "freshness": 91,
+        "item_id": "R2",
+        "local_rank_score": 0.42450000000000004,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "My last idea came from seeing how many folks manually download and rename files from multiple client portals every week.",
+            "One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs.",
+            "Almost all of mine started from something I was already doing by hand and getting annoyed at, not from a list.",
+            "Look at the tedious, repetitive tasks in your own professional workflow that nobody else has automated yet.",
+            "Use your brain. I'm not kidding. Go for a walk without a device and let your mind wander. Most people don't do that."
+          ],
+          "top_comments": [
+            {
+              "author": "mystique0712",
+              "date": "2026-11-23",
+              "excerpt": "My last idea came from seeing how many folks manually download and rename files from multiple client portals every week.\n\n Automating that file download and routing via a script that checks a shared inbox or FTP for new files and sorts them into client-specific folders would save a ton of time.",
+              "score": 2,
+              "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t3a32d1mplw/"
+            },
+            {
+              "author": "mentiondesk",
+              "date": "2026-11-23",
+              "excerpt": "One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs. Jumping into live discussions where pain points come up naturally can spark awesome side project ideas. If you want to keep an eye on those conversations across multiple c",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2trpg95b1c/"
+            },
+            {
+              "author": "ivangrisa",
+              "date": "2026-11-23",
+              "excerpt": "Almost all of mine started from something I was already doing by hand and getting annoyed at, not from a list. The paid spreadsheet point is underrated: if you have been maintaining one for months, you already know the edge cases a landing page will never tell you. The ones I started from Reddit com",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2v5hqs3ehu/"
+            },
+            {
+              "author": "Saver411",
+              "date": "2026-11-23",
+              "excerpt": "Look at the tedious, repetitive tasks in your own professional workflow that nobody else has automated yet. Most people ignore the mundane friction in their day job, but that\u2019s exactly where the real business potential hides. If you\u2019re manually moving data between two platforms every morning, someon",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2xkpoveuch/"
+            },
+            {
+              "author": "CappuccinoCodes",
+              "date": "2026-11-23",
+              "excerpt": "Use your brain. I'm not kidding. Go for a walk without a device and let your mind wander. Most people don't do that.",
+              "score": 1,
+              "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2y935icp42/"
+            }
+          ]
+        },
+        "published_at": "2026-11-23",
+        "relevance_hint": 0.22,
+        "snippet": "My last idea came from seeing how many folks manually download and rename files from multiple client portals every week. Automating that file download and routing via a script that checks a shared inbox or FTP for new files and sorts them into client-specific folders would save a ton of time. One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs. Jumping into live discussions where pain points come up naturally can spark awesome side project ideas. If you want to keep an eye on those conversations across multiple c Almost all of mine started from something I was already doing by hand and getting annoyed at, not...",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "15 places to look for a side project idea. Where did your last one come from?",
+        "url": "https://www.reddit.com/r/SideProject/comments/1y3mql5/15_places_to_look_for_a_side_project_idea_where/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Whats some things you'd change about ur fav tamagotchi device?\nI'll go first, I love the my Uni more than my other Tamagotchi's but there are totally a few things I'd add/change about it:\n\nI'd like it if my tama comes up to the screen from time to time, like on the Tamagotchi Connection, instead of just spamming the same animation over and over.\n\nIt would be nice if you could play games with your tama, like the left/right game on the gen 1 or Catch like on the Paradise, it won't make you money but I really like playing with my Tamas on my paradise or gen 1,\nHmm... maybe a Pix with traditional buttons and a breeding mechanic.\n\n Or Connection with a backlight, lol.\n\n And everything with a selective mute option (mute interface actions without muting alerts). MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too. I wish paradise had more options to interact with them more! I wish you could pet them, or throw a ball around with them or something, lol. I also wish you could check on different fields (technically you can, but you can\u2019t zoom out) and I wish that the visitors from other planets you got would actu",
+        "container": "tamagotchi",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 33,
+          "score": 22
+        },
+        "engagement_score": 100,
+        "freshness": 71,
+        "item_id": "R1",
+        "local_rank_score": 0.4075,
+        "local_relevance": 0.2,
+        "metadata": {
+          "comment_insights": [
+            "Hmm... maybe a Pix with traditional buttons and a breeding mechanic.",
+            "I wish paradise had more options to interact with them more!",
+            "Uni needs way more games in general imo, I also don\u2019t think the seasonal online tournaments don\u2019t really make up for it.",
+            "MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too.",
+            "The pet features in the pix and smart are really cute",
+            "To be honest, I would change that the Meets only has TWO mini games at the TamaDepa.",
+            "The ability to run all DLCs concurrently on the uni would make it such a special device.",
+            "For the On, i would say more stuff to do bc i sometimes get bored of it easily, and also to bring back the app(ik theres an unofficial one on android...",
+            "interesting split in these answers: the things that are firmware and the things that are plastic.",
+            "The ability to pet your critter on the Paradise and to let us put on like minimum ONE accessory \ud83d\ude2d they didn\u2019t even have to be hats or clothes just lik..."
+          ],
+          "top_comments": [
+            {
+              "author": "jednatt",
+              "date": "2026-11-13",
+              "excerpt": "Hmm... maybe a Pix with traditional buttons and a breeding mechanic.\n\n Or Connection with a backlight, lol.\n\n And everything with a selective mute option (mute interface actions without muting alerts).",
+              "score": 29,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slf84yj219e/"
+            },
+            {
+              "author": "stressed-soda",
+              "date": "2026-11-13",
+              "excerpt": "MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too.",
+              "score": 15,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slgjzljfkrk/"
+            },
+            {
+              "author": "AlwaysLit2",
+              "date": "2026-11-13",
+              "excerpt": "I wish paradise had more options to interact with them more! I wish you could pet them, or throw a ball around with them or something, lol. I also wish you could check on different fields (technically you can, but you can\u2019t zoom out) and I wish that the visitors from other planets you got would actu",
+              "score": 12,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slhgq65qfhf/"
+            },
+            {
+              "author": "RealAssociation5281",
+              "date": "2026-11-13",
+              "excerpt": "Uni needs way more games in general imo, I also don\u2019t think the seasonal online tournaments don\u2019t really make up for it.\nThe pix had 9 games (iirc), every day it switched between a set of 3.\n\n I love how many games are on the paradise, but I do miss the more personal aspects and dress up- otherwise ",
+              "score": 11,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slhkxx6wxyb/"
+            },
+            {
+              "author": "Numerous_Medicine204",
+              "date": "2026-11-13",
+              "excerpt": "The pet features in the pix and smart are really cute",
+              "score": 11,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slg2vf6vra8/"
+            },
+            {
+              "author": "Just-Subject-5052",
+              "date": "2026-11-13",
+              "excerpt": "To be honest, I would change that the Meets only has TWO mini games at the TamaDepa. It needs at least 4. Like maybe you could unlock them at certain generations, or by unlocking a certain amount of worlds I DON\u2019T KNOW!!!",
+              "score": 4,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slh89t34s10/"
+            },
+            {
+              "author": "StavRoast",
+              "date": "2026-11-14",
+              "excerpt": "The ability to run all DLCs concurrently on the uni would make it such a special device.",
+              "score": 4,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slxv866q2n6/"
+            },
+            {
+              "author": "Financial-Stranger48",
+              "date": "2026-11-14",
+              "excerpt": "For the On, i would say more stuff to do bc i sometimes get bored of it easily, and also to bring back the app(ik theres an unofficial one on android but i dont have anything that i can open it on\ud83e\udd72)",
+              "score": 2,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19sltygosmear/"
+            },
+            {
+              "author": "Mediocre-Student9893",
+              "date": "2026-11-15",
+              "excerpt": "interesting split in these answers: the things that are firmware and the things that are plastic. the firmware list is usually buildable by one person, the plastic list is not. which half would you actually pay to have fixed?",
+              "score": 2,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19so4urma40kk/"
+            },
+            {
+              "author": "versaceprincess",
+              "date": "2026-11-25",
+              "excerpt": "The ability to pet your critter on the Paradise and to let us put on like minimum ONE accessory \ud83d\ude2d they didn\u2019t even have to be hats or clothes just like\u2026 idk a twig, some feathers, mud\u2026 like animals on the wild themed accessories would have been neat. Bandai hire me",
+              "score": 2,
+              "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19t5ugoyhvjkz/"
+            }
+          ]
+        },
+        "published_at": "2026-11-13",
+        "relevance_hint": 0.22,
+        "snippet": "Hmm... maybe a Pix with traditional buttons and a breeding mechanic.\n\n Or Connection with a backlight, lol.\n\n And everything with a selective mute option (mute interface actions without muting alerts). MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too. I wish paradise had more options to interact with them more! I wish you could pet them, or throw a ball around with them or something, lol. I also wish you could check on different fields (technically you can, but you can\u2019t zoom out) and I wish that the visitors from other planets you got would actu",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Whats some things you'd change about ur fav tamagotchi device?",
+        "url": "https://www.reddit.com/r/tamagotchi/comments/1xvll6u/whats_some_things_youd_change_about_ur_fav/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "\ud83d\udcf1 What App Do You Wish Existed?\nI'm researching ideas for a new app and want to know what people actually want\u2014not just another copy of an app that already exists!\n\nWhat's one thing you wish was easier in your everyday life?\n\nHave you ever thought, \u201cI wish there was an app for this\u201d? If yes, what would the app do?\n\nWhat would you most like an app to help you with?\n\n- Making and maintaining friendships\n\n- School and studying\n\n- Fashion, beauty and personal style\n\n- Entertainment and fun\n\n- Creativity and discovering new interes\nI want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx. None tbh app ecosystem is already mature Better dating apps?",
+        "container": "AppIdeas",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 3,
+          "score": 1
+        },
+        "engagement_score": 0,
+        "freshness": 41,
+        "item_id": "R4",
+        "local_rank_score": 0.28450000000000003,
+        "local_relevance": 0.28,
+        "metadata": {
+          "comment_insights": [
+            "I want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx.",
+            "None tbh app ecosystem is already mature"
+          ],
+          "top_comments": [
+            {
+              "author": "otter_overlord_",
+              "date": "2026-10-30",
+              "excerpt": "I want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx.",
+              "score": 1,
+              "url": "https://reddit.com/r/AppIdeas/comments/1xitp42/comment/19rv5bcev1swx/"
+            },
+            {
+              "author": "Standgrounding",
+              "date": "2026-10-30",
+              "excerpt": "None tbh app ecosystem is already mature",
+              "score": 1,
+              "url": "https://reddit.com/r/AppIdeas/comments/1xitp42/comment/19rw0p9hqbici/"
+            },
+            {
+              "author": "HippoTwo",
+              "date": "2026-11-03",
+              "excerpt": "Better dating apps?",
+              "score": 1,
+              "url": "https://reddit.com/r/AppIdeas/comments/1xitp42/comment/19s2vmudve468/"
+            }
+          ]
+        },
+        "published_at": "2026-10-29",
+        "relevance_hint": 0.69,
+        "snippet": "I want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx. None tbh app ecosystem is already mature Better dating apps?",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "\ud83d\udcf1 What App Do You Wish Existed?",
+        "url": "https://www.reddit.com/r/AppIdeas/comments/1xitp42/what_app_do_you_wish_existed/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "\"I wish there was an app for\"",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to \"I wish there was an app for\", especially about \"i wish there app for\"?",
+        "search_query": "\"i wish there app for\"",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-28",
+  "range_to": "2026-11-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/tamagotchi/comments/1xvll6u/whats_some_things_youd_change_about_ur_fav",
+      "cluster_id": "cluster-1",
+      "engagement": 100,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 71,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R1",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R1",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 9.200000000000003,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Hmm... maybe a Pix with traditional buttons and a breeding mechanic.\n\n Or Connection with a backlight, lol.\n\n And everything with a selective mute option (mute interface actions without muting alerts). MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too. I wish paradise had more options to interact with them more! I wish you could pet them, or throw a ball around with them or something, lol. I also wish you could check on different fields (technically you can, but you can\u2019t zoom out) and I wish that the visitors from other planets you got would actu",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Whats some things you'd change about ur fav tamagotchi device?\nI'll go first, I love the my Uni more than my other Tamagotchi's but there are totally a few things I'd add/change about it:\n\nI'd like it if my tama comes up to the screen from time to time, like on the Tamagotchi Connection, instead of just spamming the same animation over and over.\n\nIt would be nice if you could play games with your tama, like the left/right game on the gen 1 or Catch like on the Paradise, it won't make you money but I really like playing with my Tamas on my paradise or gen 1,\nHmm... maybe a Pix with traditional buttons and a breeding mechanic.\n\n Or Connection with a backlight, lol.\n\n And everything with a selective mute option (mute interface actions without muting alerts). MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too. I wish paradise had more options to interact with them more! I wish you could pet them, or throw a ball around with them or something, lol. I also wish you could check on different fields (technically you can, but you can\u2019t zoom out) and I wish that the visitors from other planets you got would actu",
+          "container": "tamagotchi",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 33,
+            "score": 22
+          },
+          "engagement_score": 100,
+          "freshness": 71,
+          "item_id": "R1",
+          "local_rank_score": 0.4075,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "Hmm... maybe a Pix with traditional buttons and a breeding mechanic.",
+              "I wish paradise had more options to interact with them more!",
+              "Uni needs way more games in general imo, I also don\u2019t think the seasonal online tournaments don\u2019t really make up for it.",
+              "MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too.",
+              "The pet features in the pix and smart are really cute",
+              "To be honest, I would change that the Meets only has TWO mini games at the TamaDepa.",
+              "The ability to run all DLCs concurrently on the uni would make it such a special device.",
+              "For the On, i would say more stuff to do bc i sometimes get bored of it easily, and also to bring back the app(ik theres an unofficial one on android...",
+              "interesting split in these answers: the things that are firmware and the things that are plastic.",
+              "The ability to pet your critter on the Paradise and to let us put on like minimum ONE accessory \ud83d\ude2d they didn\u2019t even have to be hats or clothes just lik..."
+            ],
+            "top_comments": [
+              {
+                "author": "jednatt",
+                "date": "2026-11-13",
+                "excerpt": "Hmm... maybe a Pix with traditional buttons and a breeding mechanic.\n\n Or Connection with a backlight, lol.\n\n And everything with a selective mute option (mute interface actions without muting alerts).",
+                "score": 29,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slf84yj219e/"
+              },
+              {
+                "author": "stressed-soda",
+                "date": "2026-11-13",
+                "excerpt": "MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too.",
+                "score": 15,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slgjzljfkrk/"
+              },
+              {
+                "author": "AlwaysLit2",
+                "date": "2026-11-13",
+                "excerpt": "I wish paradise had more options to interact with them more! I wish you could pet them, or throw a ball around with them or something, lol. I also wish you could check on different fields (technically you can, but you can\u2019t zoom out) and I wish that the visitors from other planets you got would actu",
+                "score": 12,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slhgq65qfhf/"
+              },
+              {
+                "author": "RealAssociation5281",
+                "date": "2026-11-13",
+                "excerpt": "Uni needs way more games in general imo, I also don\u2019t think the seasonal online tournaments don\u2019t really make up for it.\nThe pix had 9 games (iirc), every day it switched between a set of 3.\n\n I love how many games are on the paradise, but I do miss the more personal aspects and dress up- otherwise ",
+                "score": 11,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slhkxx6wxyb/"
+              },
+              {
+                "author": "Numerous_Medicine204",
+                "date": "2026-11-13",
+                "excerpt": "The pet features in the pix and smart are really cute",
+                "score": 11,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slg2vf6vra8/"
+              },
+              {
+                "author": "Just-Subject-5052",
+                "date": "2026-11-13",
+                "excerpt": "To be honest, I would change that the Meets only has TWO mini games at the TamaDepa. It needs at least 4. Like maybe you could unlock them at certain generations, or by unlocking a certain amount of worlds I DON\u2019T KNOW!!!",
+                "score": 4,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slh89t34s10/"
+              },
+              {
+                "author": "StavRoast",
+                "date": "2026-11-14",
+                "excerpt": "The ability to run all DLCs concurrently on the uni would make it such a special device.",
+                "score": 4,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19slxv866q2n6/"
+              },
+              {
+                "author": "Financial-Stranger48",
+                "date": "2026-11-14",
+                "excerpt": "For the On, i would say more stuff to do bc i sometimes get bored of it easily, and also to bring back the app(ik theres an unofficial one on android but i dont have anything that i can open it on\ud83e\udd72)",
+                "score": 2,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19sltygosmear/"
+              },
+              {
+                "author": "Mediocre-Student9893",
+                "date": "2026-11-15",
+                "excerpt": "interesting split in these answers: the things that are firmware and the things that are plastic. the firmware list is usually buildable by one person, the plastic list is not. which half would you actually pay to have fixed?",
+                "score": 2,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19so4urma40kk/"
+              },
+              {
+                "author": "versaceprincess",
+                "date": "2026-11-25",
+                "excerpt": "The ability to pet your critter on the Paradise and to let us put on like minimum ONE accessory \ud83d\ude2d they didn\u2019t even have to be hats or clothes just like\u2026 idk a twig, some feathers, mud\u2026 like animals on the wild themed accessories would have been neat. Bandai hire me",
+                "score": 2,
+                "url": "https://reddit.com/r/tamagotchi/comments/1xvll6u/comment/19t5ugoyhvjkz/"
+              }
+            ]
+          },
+          "published_at": "2026-11-13",
+          "relevance_hint": 0.22,
+          "snippet": "Hmm... maybe a Pix with traditional buttons and a breeding mechanic.\n\n Or Connection with a backlight, lol.\n\n And everything with a selective mute option (mute interface actions without muting alerts). MORE STORAGE ON THE UNI and maybe a stronger battery too. That would solve most problems already. Being able to pet your tama would be nice too. I wish paradise had more options to interact with them more! I wish you could pet them, or throw a ball around with them or something, lol. I also wish you could check on different fields (technically you can, but you can\u2019t zoom out) and I wish that the visitors from other planets you got would actu",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Whats some things you'd change about ur fav tamagotchi device?",
+          "url": "https://www.reddit.com/r/tamagotchi/comments/1xvll6u/whats_some_things_youd_change_about_ur_fav/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Whats some things you'd change about ur fav tamagotchi device?",
+      "url": "https://www.reddit.com/r/tamagotchi/comments/1xvll6u/whats_some_things_youd_change_about_ur_fav/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/sideproject/comments/1y3mql5/15_places_to_look_for_a_side_project_idea_where",
+      "cluster_id": "cluster-2",
+      "engagement": 67,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 91,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 50,
+      "item_id": "R2",
+      "local_relevance": 0.2,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 13.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "My last idea came from seeing how many folks manually download and rename files from multiple client portals every week. Automating that file download and routing via a script that checks a shared inbox or FTP for new files and sorts them into client-specific folders would save a ton of time. One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs. Jumping into live discussions where pain points come up naturally can spark awesome side project ideas. If you want to keep an eye on those conversations across multiple c Almost all of mine started from something I was already doing by hand and getting annoyed at, not...",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "15 places to look for a side project idea. Where did your last one come from?\nI've been collecting places to look for an idea for the next project. Most of them have one thing in common: people there either describe a problem or already pay for something that solves it.\n\nApify Store. A marketplace for scrapers and automations that takes payments for you. Read the reviews of paid tools in a niche you know and look for requests that keep coming back.\n\nThe Chrome extension graveyard. Some extensions stopped working after Manifest V2 was switched off. Check which ones people\nMy last idea came from seeing how many folks manually download and rename files from multiple client portals every week.\n\n Automating that file download and routing via a script that checks a shared inbox or FTP for new files and sorts them into client-specific folders would save a ton of time. One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs. Jumping into live discussions where pain points come up naturally can spark awesome side project ideas. If you want to keep an eye on those conversations across multiple c Almost all of mine started from something I was already doing by hand and getting annoyed at, not from a list. The paid spreadsheet point is underrated: if you have been maintaining one for months, you already know the edge cases a landing page will never tell you. The ones I started from Reddit com",
+          "container": "SideProject",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 18,
+            "score": 12
+          },
+          "engagement_score": 67,
+          "freshness": 91,
+          "item_id": "R2",
+          "local_rank_score": 0.42450000000000004,
+          "local_relevance": 0.2,
+          "metadata": {
+            "comment_insights": [
+              "My last idea came from seeing how many folks manually download and rename files from multiple client portals every week.",
+              "One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs.",
+              "Almost all of mine started from something I was already doing by hand and getting annoyed at, not from a list.",
+              "Look at the tedious, repetitive tasks in your own professional workflow that nobody else has automated yet.",
+              "Use your brain. I'm not kidding. Go for a walk without a device and let your mind wander. Most people don't do that."
+            ],
+            "top_comments": [
+              {
+                "author": "mystique0712",
+                "date": "2026-11-23",
+                "excerpt": "My last idea came from seeing how many folks manually download and rename files from multiple client portals every week.\n\n Automating that file download and routing via a script that checks a shared inbox or FTP for new files and sorts them into client-specific folders would save a ton of time.",
+                "score": 2,
+                "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t3a32d1mplw/"
+              },
+              {
+                "author": "mentiondesk",
+                "date": "2026-11-23",
+                "excerpt": "One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs. Jumping into live discussions where pain points come up naturally can spark awesome side project ideas. If you want to keep an eye on those conversations across multiple c",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2trpg95b1c/"
+              },
+              {
+                "author": "ivangrisa",
+                "date": "2026-11-23",
+                "excerpt": "Almost all of mine started from something I was already doing by hand and getting annoyed at, not from a list. The paid spreadsheet point is underrated: if you have been maintaining one for months, you already know the edge cases a landing page will never tell you. The ones I started from Reddit com",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2v5hqs3ehu/"
+              },
+              {
+                "author": "Saver411",
+                "date": "2026-11-23",
+                "excerpt": "Look at the tedious, repetitive tasks in your own professional workflow that nobody else has automated yet. Most people ignore the mundane friction in their day job, but that\u2019s exactly where the real business potential hides. If you\u2019re manually moving data between two platforms every morning, someon",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2xkpoveuch/"
+              },
+              {
+                "author": "CappuccinoCodes",
+                "date": "2026-11-23",
+                "excerpt": "Use your brain. I'm not kidding. Go for a walk without a device and let your mind wander. Most people don't do that.",
+                "score": 1,
+                "url": "https://reddit.com/r/SideProject/comments/1y3mql5/comment/19t2y935icp42/"
+              }
+            ]
+          },
+          "published_at": "2026-11-23",
+          "relevance_hint": 0.22,
+          "snippet": "My last idea came from seeing how many folks manually download and rename files from multiple client portals every week. Automating that file download and routing via a script that checks a shared inbox or FTP for new files and sorts them into client-specific folders would save a ton of time. One of my favorite ways to find real problems people have is to monitor niche threads for recurring frustrations or unmet needs. Jumping into live discussions where pain points come up naturally can spark awesome side project ideas. If you want to keep an eye on those conversations across multiple c Almost all of mine started from something I was already doing by hand and getting annoyed at, not...",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "15 places to look for a side project idea. Where did your last one come from?",
+          "url": "https://www.reddit.com/r/SideProject/comments/1y3mql5/15_places_to_look_for_a_side_project_idea_where/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "15 places to look for a side project idea. Where did your last one come from?",
+      "url": "https://www.reddit.com/r/SideProject/comments/1y3mql5/15_places_to_look_for_a_side_project_idea_where/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/i_wish_there_was_an_app_for_this",
+      "cluster_id": "cluster-3",
+      "engagement": 56,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 82,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R3",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R3",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 17.0,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "I feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf) I keep my savings in a separate account - at a separate institution. I don\u2019t have a debit card with it. The money auto transfers each pay check and then I have to do a transfer when I need it (like the deposit for my next vacation), which takes 2-3 business days to move into my primary account.\n\n Ha",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "I wish there was an app for this\nNot asking for advice, just voicing my thoughts\n\nI struggle saving for trips and vacations because even though I put it in a separate account I just use the other account.\n\nI need an app where I can lock away my money until, for example, August 1st 2027. Absolutely no access to it but I can add to it. I know thats probably illegal I'm just saying I wish it was a thing.\nI feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf) I keep my savings in a separate account - at a separate institution. I don\u2019t have a debit card with it. The money auto transfers each pay check and then I have to do a transfer when I need it (like the deposit for my next vacation), which takes 2-3 business days to move into my primary account.\n\n Ha",
+          "container": "shoppingaddiction",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 12,
+            "score": 7
+          },
+          "engagement_score": 56,
+          "freshness": 82,
+          "item_id": "R3",
+          "local_rank_score": 0.443,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf)",
+              "I feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits",
+              "I keep my savings in a separate account - at a separate institution.",
+              "You could potentially look into short term bonds",
+              "i literally gave my money to my mom at one point to hold for me and i asked her to approve every purchase over $50 i wanted to make and it helped \u201ctra...",
+              "Make it harder to access. Deposit it in a bank savings account at a different bank than your checking (so not as easy to transfer).",
+              "CDs. New ones every deposit. You choose the maturity date. 1 month 2, 3, 6, 12, 24.",
+              "I use a high-yield savings account from Capital One, and I don't have a card connected with it."
+            ],
+            "top_comments": [
+              {
+                "author": "CHEMICALalienation",
+                "date": "2026-11-18",
+                "excerpt": "I feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits",
+                "score": 8,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19su3bds65qro/"
+              },
+              {
+                "author": "horneliusthenarwhal",
+                "date": "2026-11-18",
+                "excerpt": "CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf)",
+                "score": 6,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19su2sj1fo0qq/"
+              },
+              {
+                "author": "avettestingray",
+                "date": "2026-11-18",
+                "excerpt": "I keep my savings in a separate account - at a separate institution. I don\u2019t have a debit card with it. The money auto transfers each pay check and then I have to do a transfer when I need it (like the deposit for my next vacation), which takes 2-3 business days to move into my primary account.\n\n Ha",
+                "score": 5,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19subjuu16v9d/"
+              },
+              {
+                "author": "midnight_thoughts_13",
+                "date": "2026-11-18",
+                "excerpt": "You could potentially look into short term bonds",
+                "score": 2,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19stqgz9p2dab/"
+              },
+              {
+                "author": "Wild_Professional_27",
+                "date": "2026-11-18",
+                "excerpt": "i literally gave my money to my mom at one point to hold for me and i asked her to approve every purchase over $50 i wanted to make and it helped \u201ctrain\u201d me a lot to take an extra beat when buying things but yeah i do wish there was an app called bless. i think and it also helped",
+                "score": 2,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19su7l8a8zd1c/"
+              },
+              {
+                "author": "AutoModerator",
+                "date": "2026-11-18",
+                "excerpt": "Welcome to r/shoppingaddiction! If this is your first post, please be sure to check out our rules in the subreddit sidebar. If you are on mobile, they can be viewed by tapping the \u24d8 symbol.\n\n Please keep in mind this is a discussion forum for recovering shopping addicts. Any posts encouraging shopping, self promotion, or link posts will be removed. Please be respectful to your fellow users and tha",
+                "score": 1,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19stp9gn6vr28/"
+              },
+              {
+                "author": "mochi_kitty86",
+                "date": "2026-11-21",
+                "excerpt": "Make it harder to access. Deposit it in a bank savings account at a different bank than your checking (so not as easy to transfer). Lock that account down so no withdrawals can be made via ACH (also prevents fraud). Set up part of your paycheck direct deposit to send a portion of your paycheck there",
+                "score": 1,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19sy1bvgozkxt/"
+              },
+              {
+                "author": "LookingUpDaily",
+                "date": "2026-11-21",
+                "excerpt": "CDs. New ones every deposit. You choose the maturity date. 1 month 2, 3, 6, 12, 24.",
+                "score": 1,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19sylt1l95j28/"
+              },
+              {
+                "author": "MyLittlPwn13",
+                "date": "2026-11-21",
+                "excerpt": "I use a high-yield savings account from Capital One, and I don't have a card connected with it. It takes four or five days to transfer to my credit union.",
+                "score": 1,
+                "url": "https://reddit.com/r/shoppingaddiction/comments/1xzfuxc/comment/19szq4pvisypw/"
+              }
+            ]
+          },
+          "published_at": "2026-11-18",
+          "relevance_hint": 1.0,
+          "snippet": "I feel ya. I\u2019m like \u201cclearly I have money right there\u201d I can\u2019t trick my brain into thinking it\u2019s off limits CDs! Go earn some interest while you\u2019re at it. (Certificate of deposit, not \ud83d\udcbf) I keep my savings in a separate account - at a separate institution. I don\u2019t have a debit card with it. The money auto transfers each pay check and then I have to do a transfer when I need it (like the deposit for my next vacation), which takes 2-3 business days to move into my primary account.\n\n Ha",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "I wish there was an app for this",
+          "url": "https://www.reddit.com/r/shoppingaddiction/comments/1xzfuxc/i_wish_there_was_an_app_for_this/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "I wish there was an app for this",
+      "url": "https://www.reddit.com/r/shoppingaddiction/comments/1xzfuxc/i_wish_there_was_an_app_for_this/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/appideas/comments/1xitp42/what_app_do_you_wish_existed",
+      "cluster_id": "cluster-4",
+      "engagement": 0,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 41,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 0.0,
+      "item_id": "R4",
+      "local_relevance": 0.28,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 8.800000000000004,
+      "rrf_score": 0.0078125,
+      "snippet": "I want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx. None tbh app ecosystem is already mature Better dating apps?",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "\ud83d\udcf1 What App Do You Wish Existed?\nI'm researching ideas for a new app and want to know what people actually want\u2014not just another copy of an app that already exists!\n\nWhat's one thing you wish was easier in your everyday life?\n\nHave you ever thought, \u201cI wish there was an app for this\u201d? If yes, what would the app do?\n\nWhat would you most like an app to help you with?\n\n- Making and maintaining friendships\n\n- School and studying\n\n- Fashion, beauty and personal style\n\n- Entertainment and fun\n\n- Creativity and discovering new interes\nI want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx. None tbh app ecosystem is already mature Better dating apps?",
+          "container": "AppIdeas",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 3,
+            "score": 1
+          },
+          "engagement_score": 0,
+          "freshness": 41,
+          "item_id": "R4",
+          "local_rank_score": 0.28450000000000003,
+          "local_relevance": 0.28,
+          "metadata": {
+            "comment_insights": [
+              "I want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx.",
+              "None tbh app ecosystem is already mature"
+            ],
+            "top_comments": [
+              {
+                "author": "otter_overlord_",
+                "date": "2026-10-30",
+                "excerpt": "I want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx.",
+                "score": 1,
+                "url": "https://reddit.com/r/AppIdeas/comments/1xitp42/comment/19rv5bcev1swx/"
+              },
+              {
+                "author": "Standgrounding",
+                "date": "2026-10-30",
+                "excerpt": "None tbh app ecosystem is already mature",
+                "score": 1,
+                "url": "https://reddit.com/r/AppIdeas/comments/1xitp42/comment/19rw0p9hqbici/"
+              },
+              {
+                "author": "HippoTwo",
+                "date": "2026-11-03",
+                "excerpt": "Better dating apps?",
+                "score": 1,
+                "url": "https://reddit.com/r/AppIdeas/comments/1xitp42/comment/19s2vmudve468/"
+              }
+            ]
+          },
+          "published_at": "2026-10-29",
+          "relevance_hint": 0.69,
+          "snippet": "I want an app that monitors this sub and automatically reports POS posts like this one. Lmk when it's done, thx. None tbh app ecosystem is already mature Better dating apps?",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "\ud83d\udcf1 What App Do You Wish Existed?",
+          "url": "https://www.reddit.com/r/AppIdeas/comments/1xitp42/what_app_do_you_wish_existed/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "\ud83d\udcf1 What App Do You Wish Existed?",
+      "url": "https://www.reddit.com/r/AppIdeas/comments/1xitp42/what_app_do_you_wish_existed/"
+    }
+  ],
+  "topic": "\"I wish there was an app for\"",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
