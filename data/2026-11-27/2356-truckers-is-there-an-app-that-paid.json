@@ -1,0 +1,810 @@
+{
+  "artifacts": {
+    "grounding": [],
+    "plan_source": "deterministic",
+    "pre_research_flags_present": false,
+    "resolved": {
+      "context": "",
+      "entity": "truckers \"is there an app that\" paid",
+      "github_repos": [],
+      "github_user": "",
+      "subreddits": [],
+      "x_handle": ""
+    }
+  },
+  "clusters": [
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/nosleep/comments/1y0islo/the_six_rules"
+      ],
+      "cluster_id": "cluster-1",
+      "representative_ids": [
+        "https://reddit.com/r/nosleep/comments/1y0islo/the_six_rules"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "The six rules"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/northcarolina/comments/1xmhjkw/truckers_flashing"
+      ],
+      "cluster_id": "cluster-2",
+      "representative_ids": [
+        "https://reddit.com/r/northcarolina/comments/1xmhjkw/truckers_flashing"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Truckers flashing"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/truckers/comments/1y33l69/man_yall_fuckin_lied"
+      ],
+      "cluster_id": "cluster-3",
+      "representative_ids": [
+        "https://reddit.com/r/truckers/comments/1y33l69/man_yall_fuckin_lied"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Man, y'all fuckin lied\ud83d\ude2d"
+    },
+    {
+      "candidate_ids": [
+        "https://reddit.com/r/truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app"
+      ],
+      "cluster_id": "cluster-4",
+      "representative_ids": [
+        "https://reddit.com/r/truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app"
+      ],
+      "score": 0.0,
+      "sources": [
+        "reddit"
+      ],
+      "title": "Trucker Path is most certainly an app."
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-11-27T23:56:34.607907+00:00",
+  "items_by_source": {
+    "hackernews": [],
+    "reddit": [
+      {
+        "body": "Man, y'all fuckin lied\ud83d\ude2d\nEverything is NOT automatic! The amount of jobs I've seen in this city that require no automatic restriction is insane. Not even any of the shitty food service jobs wanna hire but there are plenty of dump truck jobs that I can't even apply for. Scratch that! There's ONE food service position open that pays 32/hr with 8-10 hour days and...it's in a manual truck. What the fuck?? Those more cushy local or LTL positions? Don't even ask, they don't want me.\n\nTo be fair though, the company that paid f",
+        "container": "Truckers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 106,
+          "score": 98
+        },
+        "engagement_score": 63,
+        "freshness": 89,
+        "item_id": "R6",
+        "local_rank_score": 0.4025,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-11-22",
+        "relevance_hint": 0.1,
+        "snippet": "Everything is NOT automatic! The amount of jobs I've seen in this city that require no automatic restriction is insane. Not even any of the shitty food service jobs wanna hire but there are plenty of dump truck jobs that I can't even apply for. Scratch that! There's ONE food service position open that pays 32/hr with 8-10 hour days and...it's in a manual truck. What the fuck?? Those more cushy loc",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Man, y'all fuckin lied\ud83d\ude2d",
+        "url": "https://www.reddit.com/r/Truckers/comments/1y33l69/man_yall_fuckin_lied/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "The six rules\nI started working the night shift at a caf\u00e9 about a month ago. It's a small place squeezed between a laundromat and a bookstore. The caf\u00e9 is open twenty-four hours, most people don't seem to know that. After midnight, we mostly get truckers, people coming home from work, and the occasional group of students looking for somewhere to study.\n\nThe job wasn't difficult. Make coffee, heat up pastries, wipe down the counters and keep everything clean. There wasn't much else to do during the night.\n\nThe\nI was into this til it started reading like ai... Ok, this was good but I need to ask, did you die in the diner at 3:33? Need more of this!",
+        "container": "nosleep",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 34,
+          "score": 547
+        },
+        "engagement_score": 77,
+        "freshness": 83,
+        "item_id": "R2",
+        "local_rank_score": 0.4015,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "Find Repost checked by u/Away_Garlic_5097\n\nNo Repost Found\n\n I am bot! This action was performed automatically. Contact DEVELOPER for any help.",
+            "I think once you stop thinking about the door at 3:33 am , you\u2019ll break the cycle.",
+            "Ok, this was good but I need to ask, did you die in the diner at 3:33?",
+            "I keep coming back to the cameras? Why would Maria lie about them? She said they didn\u2019t work and they do work. What else does she know?",
+            "I always order black coffee, no sugar. I'll be super attentive to add context from now on.",
+            "I was into this til it started reading like ai...",
+            "Man, I always have my coffee black and no sugar.."
+          ],
+          "top_comments": [
+            {
+              "author": "mysticaltater",
+              "date": "2026-11-20",
+              "excerpt": "I was into this til it started reading like ai...",
+              "score": 28,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19sxne4ratncx/"
+            },
+            {
+              "author": "PainPatientThrowaway",
+              "date": "2026-11-23",
+              "excerpt": "Ok, this was good but I need to ask, did you die in the diner at 3:33?",
+              "score": 14,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t1xpekkp6kg/"
+            },
+            {
+              "author": "TwiggyPom",
+              "date": "2026-11-20",
+              "excerpt": "Need more of this!",
+              "score": 9,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19swsch7qx2ma/"
+            },
+            {
+              "author": "One-Situation6237",
+              "date": "2026-11-25",
+              "excerpt": "I think once you stop thinking about the door at 3:33 am , you\u2019ll break the cycle. It\u2019s possible you astral travel to the cafe over and over, and you yourself have written the rules \u2615\ufe0f",
+              "score": 6,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t5l8ekedz7p/"
+            },
+            {
+              "author": "McGee629",
+              "date": "2026-11-22",
+              "excerpt": "I keep coming back to the cameras? Why would Maria lie about them? She said they didn\u2019t work and they do work. What else does she know?",
+              "score": 6,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t1kh2b23vr9/"
+            },
+            {
+              "author": "sleep81092",
+              "date": "2026-11-20",
+              "excerpt": "Man, I always have my coffee black and no sugar..",
+              "score": 6,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19sxgyz3q22yp/"
+            },
+            {
+              "author": "TheodosiaBurrGoodman",
+              "date": "2026-11-22",
+              "excerpt": "I always order black coffee, no sugar. I'll be super attentive to add context from now on. Im pale enough I can be taken for a ghost. Was that creature you encountered a ghost?",
+              "score": 5,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t0aina5s139/"
+            },
+            {
+              "author": "Harikts",
+              "date": "2026-11-20",
+              "excerpt": "Man, this is good!!!",
+              "score": 3,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19sxlffoqz5oh/"
+            },
+            {
+              "author": "Significant-Pay-1480",
+              "date": "2026-11-26",
+              "excerpt": "I want more!!!",
+              "score": 1,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t8i1igqlq4i/"
+            },
+            {
+              "author": "findcrosspost",
+              "date": "2026-11-26",
+              "excerpt": "Find Repost checked by u/Away_Garlic_5097\n\nNo Repost Found\n\n I am bot! This action was performed automatically. Contact DEVELOPER for any help.",
+              "score": 1,
+              "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t7vd12silj7/"
+            }
+          ]
+        },
+        "published_at": "2026-11-19",
+        "relevance_hint": 0.16,
+        "snippet": "I was into this til it started reading like ai... Ok, this was good but I need to ask, did you die in the diner at 3:33? Need more of this!",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "The six rules",
+        "url": "https://www.reddit.com/r/nosleep/comments/1y0islo/the_six_rules/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Truckers flashing\nSo , this has happened a few times to me where I\u2019ll be on the highway, not in the passing lane where I\u2019ll be in front of a transfer truck and he\u2019ll flash his lights at me. Like wanting me to speed up or get out of his way. I am already going a little over the speed limit. I\u2019ve lived here all my life.  Is there some rule that says you gotta get over a truckers way, or are these guys just assholes?\nAre you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle. It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them merge or pass. May not have been meant for you. A few times over like, years, or a few times in recent memory? They may be trying to tell you something is wrong.\n\n Have you checked your taillights, brake lights, license plate lights, etc?\n\n And also that you aren't accidentally driving at night with your daytime running lights instead of full hea",
+        "container": "NorthCarolina",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 354,
+          "score": 20
+        },
+        "engagement_score": 64,
+        "freshness": 51,
+        "item_id": "R4",
+        "local_rank_score": 0.3085,
+        "local_relevance": 0.18,
+        "metadata": {
+          "comment_insights": [
+            "Are you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle.",
+            "You\u2019re likely speeding up and slowing down. Probably hovering around the speed they\u2019re governed at so they\u2019re unable to pass you but your inability to...",
+            "It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them...",
+            "A few times over like, years, or a few times in recent memory?",
+            "This has never once happened to me, and I\u2019ve been a slightly over the limit driver for decades.",
+            "If youre going 67-68 and lane change in front of a truck going the same speed you're putting both of you in danger of you dont accelerate to 70.",
+            "This is not the conversation I thought we\u2019d be having.",
+            "Are there hills involved? Trucks need/want to coast down hill and usually exceed the speed limit when doing so.",
+            "We have 14 hours of on duty time and 11 hours of drive time.",
+            "Are the semis able to use the passing lane in the areas you are driving?"
+          ],
+          "top_comments": [
+            {
+              "author": "SwShThrwy",
+              "date": "2026-11-03",
+              "excerpt": "Are you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle.",
+              "score": 51,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2tqyzo06sj/"
+            },
+            {
+              "author": "ilmhonky",
+              "date": "2026-11-03",
+              "excerpt": "It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them merge or pass. May not have been meant for you.",
+              "score": 51,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s24kix13cdc/"
+            },
+            {
+              "author": "etTuPlutus",
+              "date": "2026-11-03",
+              "excerpt": "A few times over like, years, or a few times in recent memory? They may be trying to tell you something is wrong.\n\n Have you checked your taillights, brake lights, license plate lights, etc?\n\n And also that you aren't accidentally driving at night with your daytime running lights instead of full hea",
+              "score": 35,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s24y0wq5iec/"
+            },
+            {
+              "author": "Joeybowman",
+              "date": "2026-11-03",
+              "excerpt": "You\u2019re likely speeding up and slowing down. Probably hovering around the speed they\u2019re governed at so they\u2019re unable to pass you but your inability to maintain speed is causing havoc for the cruise control and anti collision system in the truck.",
+              "score": 34,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2vqvanl0tc/"
+            },
+            {
+              "author": "chiefsholsters",
+              "date": "2026-11-03",
+              "excerpt": "We have 14 hours of on duty time and 11 hours of drive time. Sounds like a lot, until it's not. Most trucks are governed and on highways we are usually going to try and get all we can out of it. If it's a multi lane highway what you are probably calling the passing lane, the truck is not supposed to",
+              "score": 27,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2eiio3ofaa/"
+            },
+            {
+              "author": "greenmachine11235",
+              "date": "2026-11-03",
+              "excerpt": "Are the semis able to use the passing lane in the areas you are driving? Many of the more urban highways in the state ban trucks from the fast lane so if you're camping in the middle lane going 'a little over the speed limit' then you're doing exactly the same thing as if you would be camped in the ",
+              "score": 23,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s26oqemkup0/"
+            },
+            {
+              "author": "Cycles-the-bandsaw",
+              "date": "2026-11-03",
+              "excerpt": "This has never once happened to me, and I\u2019ve been a slightly over the limit driver for decades.\n\n There\u2019s either something wrong with your vehicle, or you\u2019re doing something weird.",
+              "score": 22,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2vc7b0qe77/"
+            },
+            {
+              "author": "masterpd85",
+              "date": "2026-11-05",
+              "excerpt": "If youre going 67-68 and lane change in front of a truck going the same speed you're putting both of you in danger of you dont accelerate to 70.\n\n Also highway from greensboro to Raleigh (i40/i85) has plenty of hills to kill momentum. Everyone in cars/suvs like to either do 80, or cruise (aka daydre",
+              "score": 11,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s78djbdud0k/"
+            },
+            {
+              "author": "TSnow6065",
+              "date": "2026-11-05",
+              "excerpt": "This is not the conversation I thought we\u2019d be having.",
+              "score": 8,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s75jky5hcgz/"
+            },
+            {
+              "author": "Sorry-Addendum-1530",
+              "date": "2026-11-03",
+              "excerpt": "Are there hills involved? Trucks need/want to coast down hill and usually exceed the speed limit when doing so. You may be in front of them on cruise and maintaining that speed down hill.",
+              "score": 7,
+              "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s31cuz8utsz/"
+            }
+          ]
+        },
+        "published_at": "2026-11-03",
+        "relevance_hint": 0.29,
+        "snippet": "Are you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle. It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them merge or pass. May not have been meant for you. A few times over like, years, or a few times in recent memory? They may be trying to tell you something is wrong.\n\n Have you checked your taillights, brake lights, license plate lights, etc?\n\n And also that you aren't accidentally driving at night with your daytime running lights instead of full hea",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Truckers flashing",
+        "url": "https://www.reddit.com/r/NorthCarolina/comments/1xmhjkw/truckers_flashing/",
+        "why_relevant": "Reddit global search"
+      },
+      {
+        "body": "Trucker Path is most certainly an app.\nNone",
+        "container": "Truckers",
+        "date_confidence": "high",
+        "engagement": {
+          "num_comments": 6,
+          "score": 7
+        },
+        "engagement_score": 24,
+        "freshness": 43,
+        "item_id": "R52",
+        "local_rank_score": 0.23550000000000001,
+        "local_relevance": 0.16,
+        "metadata": {
+          "comment_insights": [],
+          "top_comments": []
+        },
+        "published_at": "2026-10-30",
+        "relevance_hint": 0.19,
+        "snippet": "None",
+        "source": "reddit",
+        "source_quality": 0.6,
+        "title": "Trucker Path is most certainly an app.",
+        "url": "https://www.reddit.com/r/Truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app/",
+        "why_relevant": "Reddit global search"
+      }
+    ]
+  },
+  "provider_runtime": {
+    "planner_model": "google/gemini-flash-2.0",
+    "reasoning_provider": "openrouter",
+    "rerank_model": "google/gemini-flash-2.0",
+    "x_search_backend": "bird"
+  },
+  "query_plan": {
+    "cluster_mode": "none",
+    "freshness_mode": "evergreen_ok",
+    "intent": "concept",
+    "notes": [
+      "fallback-plan (LLM error: HTTPError)"
+    ],
+    "raw_topic": "truckers \"is there an app that\" paid",
+    "source_weights": {
+      "hackernews": 0.5,
+      "reddit": 0.5
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "What recent evidence from the last 30 days is most relevant to truckers \"is there an app that\" paid, especially about truckers \"is there app that\" paid?",
+        "search_query": "truckers \"is there app that\" paid",
+        "sources": [
+          "reddit",
+          "hackernews"
+        ],
+        "weight": 1.0
+      }
+    ]
+  },
+  "range_from": "2026-10-28",
+  "range_to": "2026-11-27",
+  "ranked_candidates": [
+    {
+      "candidate_id": "https://reddit.com/r/nosleep/comments/1y0islo/the_six_rules",
+      "cluster_id": "cluster-1",
+      "engagement": 77,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 83,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R2",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R2",
+            "native_rank": 2,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 2
+      },
+      "rerank_score": 10.200000000000003,
+      "rrf_score": 0.008064516129032258,
+      "snippet": "I was into this til it started reading like ai... Ok, this was good but I need to ask, did you die in the diner at 3:33? Need more of this!",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "The six rules\nI started working the night shift at a caf\u00e9 about a month ago. It's a small place squeezed between a laundromat and a bookstore. The caf\u00e9 is open twenty-four hours, most people don't seem to know that. After midnight, we mostly get truckers, people coming home from work, and the occasional group of students looking for somewhere to study.\n\nThe job wasn't difficult. Make coffee, heat up pastries, wipe down the counters and keep everything clean. There wasn't much else to do during the night.\n\nThe\nI was into this til it started reading like ai... Ok, this was good but I need to ask, did you die in the diner at 3:33? Need more of this!",
+          "container": "nosleep",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 34,
+            "score": 547
+          },
+          "engagement_score": 77,
+          "freshness": 83,
+          "item_id": "R2",
+          "local_rank_score": 0.4015,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "Find Repost checked by u/Away_Garlic_5097\n\nNo Repost Found\n\n I am bot! This action was performed automatically. Contact DEVELOPER for any help.",
+              "I think once you stop thinking about the door at 3:33 am , you\u2019ll break the cycle.",
+              "Ok, this was good but I need to ask, did you die in the diner at 3:33?",
+              "I keep coming back to the cameras? Why would Maria lie about them? She said they didn\u2019t work and they do work. What else does she know?",
+              "I always order black coffee, no sugar. I'll be super attentive to add context from now on.",
+              "I was into this til it started reading like ai...",
+              "Man, I always have my coffee black and no sugar.."
+            ],
+            "top_comments": [
+              {
+                "author": "mysticaltater",
+                "date": "2026-11-20",
+                "excerpt": "I was into this til it started reading like ai...",
+                "score": 28,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19sxne4ratncx/"
+              },
+              {
+                "author": "PainPatientThrowaway",
+                "date": "2026-11-23",
+                "excerpt": "Ok, this was good but I need to ask, did you die in the diner at 3:33?",
+                "score": 14,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t1xpekkp6kg/"
+              },
+              {
+                "author": "TwiggyPom",
+                "date": "2026-11-20",
+                "excerpt": "Need more of this!",
+                "score": 9,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19swsch7qx2ma/"
+              },
+              {
+                "author": "One-Situation6237",
+                "date": "2026-11-25",
+                "excerpt": "I think once you stop thinking about the door at 3:33 am , you\u2019ll break the cycle. It\u2019s possible you astral travel to the cafe over and over, and you yourself have written the rules \u2615\ufe0f",
+                "score": 6,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t5l8ekedz7p/"
+              },
+              {
+                "author": "McGee629",
+                "date": "2026-11-22",
+                "excerpt": "I keep coming back to the cameras? Why would Maria lie about them? She said they didn\u2019t work and they do work. What else does she know?",
+                "score": 6,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t1kh2b23vr9/"
+              },
+              {
+                "author": "sleep81092",
+                "date": "2026-11-20",
+                "excerpt": "Man, I always have my coffee black and no sugar..",
+                "score": 6,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19sxgyz3q22yp/"
+              },
+              {
+                "author": "TheodosiaBurrGoodman",
+                "date": "2026-11-22",
+                "excerpt": "I always order black coffee, no sugar. I'll be super attentive to add context from now on. Im pale enough I can be taken for a ghost. Was that creature you encountered a ghost?",
+                "score": 5,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t0aina5s139/"
+              },
+              {
+                "author": "Harikts",
+                "date": "2026-11-20",
+                "excerpt": "Man, this is good!!!",
+                "score": 3,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19sxlffoqz5oh/"
+              },
+              {
+                "author": "Significant-Pay-1480",
+                "date": "2026-11-26",
+                "excerpt": "I want more!!!",
+                "score": 1,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t8i1igqlq4i/"
+              },
+              {
+                "author": "findcrosspost",
+                "date": "2026-11-26",
+                "excerpt": "Find Repost checked by u/Away_Garlic_5097\n\nNo Repost Found\n\n I am bot! This action was performed automatically. Contact DEVELOPER for any help.",
+                "score": 1,
+                "url": "https://reddit.com/r/nosleep/comments/1y0islo/comment/19t7vd12silj7/"
+              }
+            ]
+          },
+          "published_at": "2026-11-19",
+          "relevance_hint": 0.16,
+          "snippet": "I was into this til it started reading like ai... Ok, this was good but I need to ask, did you die in the diner at 3:33? Need more of this!",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "The six rules",
+          "url": "https://www.reddit.com/r/nosleep/comments/1y0islo/the_six_rules/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "The six rules",
+      "url": "https://www.reddit.com/r/nosleep/comments/1y0islo/the_six_rules/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/northcarolina/comments/1xmhjkw/truckers_flashing",
+      "cluster_id": "cluster-2",
+      "engagement": 64,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 51,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R4",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R4",
+            "native_rank": 3,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 3
+      },
+      "rerank_score": 3.8000000000000007,
+      "rrf_score": 0.007936507936507936,
+      "snippet": "Are you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle. It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them merge or pass. May not have been meant for you. A few times over like, years, or a few times in recent memory? They may be trying to tell you something is wrong.\n\n Have you checked your taillights, brake lights, license plate lights, etc?\n\n And also that you aren't accidentally driving at night with your daytime running lights instead of full hea",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Truckers flashing\nSo , this has happened a few times to me where I\u2019ll be on the highway, not in the passing lane where I\u2019ll be in front of a transfer truck and he\u2019ll flash his lights at me. Like wanting me to speed up or get out of his way. I am already going a little over the speed limit. I\u2019ve lived here all my life.  Is there some rule that says you gotta get over a truckers way, or are these guys just assholes?\nAre you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle. It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them merge or pass. May not have been meant for you. A few times over like, years, or a few times in recent memory? They may be trying to tell you something is wrong.\n\n Have you checked your taillights, brake lights, license plate lights, etc?\n\n And also that you aren't accidentally driving at night with your daytime running lights instead of full hea",
+          "container": "NorthCarolina",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 354,
+            "score": 20
+          },
+          "engagement_score": 64,
+          "freshness": 51,
+          "item_id": "R4",
+          "local_rank_score": 0.3085,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [
+              "Are you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle.",
+              "You\u2019re likely speeding up and slowing down. Probably hovering around the speed they\u2019re governed at so they\u2019re unable to pass you but your inability to...",
+              "It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them...",
+              "A few times over like, years, or a few times in recent memory?",
+              "This has never once happened to me, and I\u2019ve been a slightly over the limit driver for decades.",
+              "If youre going 67-68 and lane change in front of a truck going the same speed you're putting both of you in danger of you dont accelerate to 70.",
+              "This is not the conversation I thought we\u2019d be having.",
+              "Are there hills involved? Trucks need/want to coast down hill and usually exceed the speed limit when doing so.",
+              "We have 14 hours of on duty time and 11 hours of drive time.",
+              "Are the semis able to use the passing lane in the areas you are driving?"
+            ],
+            "top_comments": [
+              {
+                "author": "SwShThrwy",
+                "date": "2026-11-03",
+                "excerpt": "Are you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle.",
+                "score": 51,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2tqyzo06sj/"
+              },
+              {
+                "author": "ilmhonky",
+                "date": "2026-11-03",
+                "excerpt": "It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them merge or pass. May not have been meant for you.",
+                "score": 51,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s24kix13cdc/"
+              },
+              {
+                "author": "etTuPlutus",
+                "date": "2026-11-03",
+                "excerpt": "A few times over like, years, or a few times in recent memory? They may be trying to tell you something is wrong.\n\n Have you checked your taillights, brake lights, license plate lights, etc?\n\n And also that you aren't accidentally driving at night with your daytime running lights instead of full hea",
+                "score": 35,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s24y0wq5iec/"
+              },
+              {
+                "author": "Joeybowman",
+                "date": "2026-11-03",
+                "excerpt": "You\u2019re likely speeding up and slowing down. Probably hovering around the speed they\u2019re governed at so they\u2019re unable to pass you but your inability to maintain speed is causing havoc for the cruise control and anti collision system in the truck.",
+                "score": 34,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2vqvanl0tc/"
+              },
+              {
+                "author": "chiefsholsters",
+                "date": "2026-11-03",
+                "excerpt": "We have 14 hours of on duty time and 11 hours of drive time. Sounds like a lot, until it's not. Most trucks are governed and on highways we are usually going to try and get all we can out of it. If it's a multi lane highway what you are probably calling the passing lane, the truck is not supposed to",
+                "score": 27,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2eiio3ofaa/"
+              },
+              {
+                "author": "greenmachine11235",
+                "date": "2026-11-03",
+                "excerpt": "Are the semis able to use the passing lane in the areas you are driving? Many of the more urban highways in the state ban trucks from the fast lane so if you're camping in the middle lane going 'a little over the speed limit' then you're doing exactly the same thing as if you would be camped in the ",
+                "score": 23,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s26oqemkup0/"
+              },
+              {
+                "author": "Cycles-the-bandsaw",
+                "date": "2026-11-03",
+                "excerpt": "This has never once happened to me, and I\u2019ve been a slightly over the limit driver for decades.\n\n There\u2019s either something wrong with your vehicle, or you\u2019re doing something weird.",
+                "score": 22,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s2vc7b0qe77/"
+              },
+              {
+                "author": "masterpd85",
+                "date": "2026-11-05",
+                "excerpt": "If youre going 67-68 and lane change in front of a truck going the same speed you're putting both of you in danger of you dont accelerate to 70.\n\n Also highway from greensboro to Raleigh (i40/i85) has plenty of hills to kill momentum. Everyone in cars/suvs like to either do 80, or cruise (aka daydre",
+                "score": 11,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s78djbdud0k/"
+              },
+              {
+                "author": "TSnow6065",
+                "date": "2026-11-05",
+                "excerpt": "This is not the conversation I thought we\u2019d be having.",
+                "score": 8,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s75jky5hcgz/"
+              },
+              {
+                "author": "Sorry-Addendum-1530",
+                "date": "2026-11-03",
+                "excerpt": "Are there hills involved? Trucks need/want to coast down hill and usually exceed the speed limit when doing so. You may be in front of them on cruise and maintaining that speed down hill.",
+                "score": 7,
+                "url": "https://reddit.com/r/NorthCarolina/comments/1xmhjkw/comment/19s31cuz8utsz/"
+              }
+            ]
+          },
+          "published_at": "2026-11-03",
+          "relevance_hint": 0.29,
+          "snippet": "Are you sure you don't have tail lights or brake lights out? They could just be flashing you to get your attention to inspect your vehicle. It may not apply to your experience but, I will say that truckers will flash or do a quick off/on to thank another trucker or vehicle for letting them merge or pass. May not have been meant for you. A few times over like, years, or a few times in recent memory? They may be trying to tell you something is wrong.\n\n Have you checked your taillights, brake lights, license plate lights, etc?\n\n And also that you aren't accidentally driving at night with your daytime running lights instead of full hea",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Truckers flashing",
+          "url": "https://www.reddit.com/r/NorthCarolina/comments/1xmhjkw/truckers_flashing/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Truckers flashing",
+      "url": "https://www.reddit.com/r/NorthCarolina/comments/1xmhjkw/truckers_flashing/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/truckers/comments/1y33l69/man_yall_fuckin_lied",
+      "cluster_id": "cluster-3",
+      "engagement": 63,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 89,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 40,
+      "item_id": "R6",
+      "local_relevance": 0.18,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R6",
+            "native_rank": 1,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 1
+      },
+      "rerank_score": 11.399999999999999,
+      "rrf_score": 0.00819672131147541,
+      "snippet": "Everything is NOT automatic! The amount of jobs I've seen in this city that require no automatic restriction is insane. Not even any of the shitty food service jobs wanna hire but there are plenty of dump truck jobs that I can't even apply for. Scratch that! There's ONE food service position open that pays 32/hr with 8-10 hour days and...it's in a manual truck. What the fuck?? Those more cushy loc",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Man, y'all fuckin lied\ud83d\ude2d\nEverything is NOT automatic! The amount of jobs I've seen in this city that require no automatic restriction is insane. Not even any of the shitty food service jobs wanna hire but there are plenty of dump truck jobs that I can't even apply for. Scratch that! There's ONE food service position open that pays 32/hr with 8-10 hour days and...it's in a manual truck. What the fuck?? Those more cushy local or LTL positions? Don't even ask, they don't want me.\n\nTo be fair though, the company that paid f",
+          "container": "Truckers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 106,
+            "score": 98
+          },
+          "engagement_score": 63,
+          "freshness": 89,
+          "item_id": "R6",
+          "local_rank_score": 0.4025,
+          "local_relevance": 0.18,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-11-22",
+          "relevance_hint": 0.1,
+          "snippet": "Everything is NOT automatic! The amount of jobs I've seen in this city that require no automatic restriction is insane. Not even any of the shitty food service jobs wanna hire but there are plenty of dump truck jobs that I can't even apply for. Scratch that! There's ONE food service position open that pays 32/hr with 8-10 hour days and...it's in a manual truck. What the fuck?? Those more cushy loc",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Man, y'all fuckin lied\ud83d\ude2d",
+          "url": "https://www.reddit.com/r/Truckers/comments/1y33l69/man_yall_fuckin_lied/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Man, y'all fuckin lied\ud83d\ude2d",
+      "url": "https://www.reddit.com/r/Truckers/comments/1y33l69/man_yall_fuckin_lied/"
+    },
+    {
+      "candidate_id": "https://reddit.com/r/truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app",
+      "cluster_id": "cluster-4",
+      "engagement": 24,
+      "explanation": "fallback-local-score (entity-miss demotion)",
+      "final_score": 0.0,
+      "freshness": 43,
+      "fun_explanation": "heuristic-fallback",
+      "fun_score": 63.55,
+      "item_id": "R52",
+      "local_relevance": 0.16,
+      "metadata": {
+        "provenance": [
+          {
+            "item_id": "R52",
+            "native_rank": 4,
+            "source": "reddit",
+            "subquery_label": "primary"
+          }
+        ]
+      },
+      "native_ranks": {
+        "primary:reddit": 4
+      },
+      "rerank_score": 0.7999999999999972,
+      "rrf_score": 0.0078125,
+      "snippet": "None",
+      "source": "reddit",
+      "source_items": [
+        {
+          "body": "Trucker Path is most certainly an app.\nNone",
+          "container": "Truckers",
+          "date_confidence": "high",
+          "engagement": {
+            "num_comments": 6,
+            "score": 7
+          },
+          "engagement_score": 24,
+          "freshness": 43,
+          "item_id": "R52",
+          "local_rank_score": 0.23550000000000001,
+          "local_relevance": 0.16,
+          "metadata": {
+            "comment_insights": [],
+            "top_comments": []
+          },
+          "published_at": "2026-10-30",
+          "relevance_hint": 0.19,
+          "snippet": "None",
+          "source": "reddit",
+          "source_quality": 0.6,
+          "title": "Trucker Path is most certainly an app.",
+          "url": "https://www.reddit.com/r/Truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app/",
+          "why_relevant": "Reddit global search"
+        }
+      ],
+      "source_quality": 0.6,
+      "sources": [
+        "reddit"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Trucker Path is most certainly an app.",
+      "url": "https://www.reddit.com/r/Truckers/comments/1xj2sfx/trucker_path_is_most_certainly_an_app/"
+    }
+  ],
+  "topic": "truckers \"is there an app that\" paid",
+  "warnings": [
+    "Evidence is thin for this topic.",
+    "Top evidence is highly concentrated in one source."
+  ]
+}
